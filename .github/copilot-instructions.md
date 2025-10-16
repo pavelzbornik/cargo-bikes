@@ -28,9 +28,10 @@ This repository is a public Obsidian vault for structured knowledge about cargo 
   - `prettier`: enforces consistent formatting.
 - The configuration is in `.pre-commit-config.yaml` (repo root).
 - To set up locally:
-  1. Install pre-commit (`pip install pre-commit`).
-  2. Install Node.js (required for markdownlint and prettier): [https://nodejs.org/](https://nodejs.org/)
-  3. Run `pre-commit install` in the repo root.
+  1. Activate the Python venv created and maintained by uv.
+  2. Sync Python dependencies using uv: `uv sync`.
+  3. Install Node.js (required for markdownlint and prettier): [nodejs.org](https://nodejs.org/)
+  4. Run `pre-commit install` in the repo root. Alternatively, run `uv pre-commit install` to ensure the venv is activated.
 - Hooks run automatically on `git commit`. To check all files manually: `pre-commit run --all-files`
 
 ### Manual Validation

@@ -1,17 +1,21 @@
 ---
 title: "Le Cargo"
 type: bike
-tags: [bike, long-tail, gaya, electric]
+tags: [bike, longtail, cargo, electric, gaya, french]
 date: 2025-10-16
 brand: "GAYA"
 model: "Le Cargo"
 url: "https://gaya.bike/velo-cargo/original-cargo"
 image: "https://gaya.bike/_next/image?url=%2Fimg%2Flogo.png&w=828&q=75"
+price: "2800€"
+motor: "Rear-hub 250W, 48V"
+battery: "LG 450Wh (standard) / 600Wh (plus)"
+range: "70-100km"
 ---
 
 ## Overview
 
-Le Cargo is GAYA's accessible long-tail e-bike, designed for carrying multiple passengers and cargo while maintaining excellent maneuverability. Combining comfort, safety, and practicality, it offers a versatile platform for urban families and multi-passenger transport at the entry level.
+Gaya Cargo (marketed as "Le Cargo") represents emerging French brand innovation positioning longtails as accessible urban transport with smart connectivity features. Co-founded by Amélie Guicheney, the brand challenges male-dominated cycling industry with distinct urban design philosophy. The 195 cm length with 20"/20" wheel configuration optimizes urban maneuvering. GPS connectivity and smart features differentiate from traditional cargo bikes, appealing to tech-savvy urban families seeking accessible cargo transport at entry-level pricing.
 
 ## Technical Specifications
 
@@ -24,25 +28,27 @@ Le Cargo is GAYA's accessible long-tail e-bike, designed for carrying multiple p
 | **Frame Size**               | Unique (47)                                 |
 | **Rider Height**             | 1.60m - 1.95m                               |
 | **Bike Dimensions (L×W×H)**  | 195cm × 70cm × 120cm                        |
-| **Motor**                    | Rear wheel, 250W, 48V                       |
+| **Wheel Size**               | 20" front and rear                          |
+| **Motor**                    | Rear-hub direct drive, 250W, 48V            |
 | **Max Torque**               | 50Nm                                        |
-| **Battery**                  | 450Wh LG (Standard) / 600Wh (Optional Plus) |
+| **Battery**                  | LG 450Wh (Standard) / 600Wh (Optional Plus) |
 | **Range**                    | Up to 70km (Standard) / 100km (Plus)        |
 | **Charge Time (Standard)**   | 5h (2A charger) / 2.5h (4A optional)        |
-| **Assistance Levels**        | 3 (Off, Eco, Tour, Sport)                   |
+| **Assistance Levels**        | 3 (Off, Eco, Tour, Sport) + pedal starter   |
 | **Max Speed**                | 25 km/h (EU regulation)                     |
-| **Passengers**               | 1, 2, or 3                                  |
-| **Load Capacity**            | 160 kg total                                |
-| **Rear Rack Capacity**       | Up to 75 kg                                 |
+| **Passengers**               | 1, 2, or 3 (with proper seating)            |
+| **Load Capacity**            | 160 kg total / 75 kg rear rack              |
+| **Assembly**                 | France (emerging brand)                     |
 
-## E-bike Features
+## E-Bike Features
 
 - **Display**: Color TFT screen showing battery level, range, speed, consumption, distance
-- **Pedal Sensor**: Cadence sensor for responsive assistance
-- **Assist Modes**: 3 levels (Off, Eco, Tour, Sport) plus pedal starter and boost throttle
-- **Security**: GPS anti-theft tracking via app with geofencing, surveillance mode, 105dB alarm
-- **App Integration**: GAYA mobile app for tracking and remote security management
-- **Battery Handle**: Ergonomic carrying handle on removable battery
+- **Pedal Sensor**: Cadence sensor for responsive assistance (rear-hub motor)
+- **Assist Modes**: 3 levels (Off, Eco, Tour, Sport) plus pedal starter and boost throttle option
+- **Security**: GPS anti-theft tracking via mobile app with geofencing, surveillance mode, 105dB alarm
+- **App Integration**: GAYA mobile app for real-time tracking and remote security management
+- **Battery Handle**: Ergonomic carrying handle on removable battery for indoor charging
+- **Connectivity**: Smart connected platform with location tracking and theft prevention
 
 ## Suspension & Handling
 
@@ -61,11 +67,13 @@ Le Cargo is GAYA's accessible long-tail e-bike, designed for carrying multiple p
 
 ## Cargo Capacity & Use Cases
 
-- **Ideal For**: Family transport with 2-3 passengers, multi-passenger urban journeys
-- **Extended Cargo Platform**: Secure rear deck for children and cargo
-- **Passenger Mounting**: Supports child seats and passenger positioning
-- **Load Distribution**: 160 kg total capacity suitable for family configurations
-- **Accessories**: Compatible with GAYA cargo accessories and child seating systems
+- **Max Load**: 160 kg total capacity
+- **Rear Rack**: 75 kg capacity
+- **Ideal For**: Family transport with 1-3 passengers, multi-passenger urban journeys
+- **Extended Cargo Platform**: Secure rear deck for children and light cargo
+- **Passenger Mounting**: Supports dedicated child seats and adult passenger positioning
+- **Load Distribution**: Balanced between dual-child seating and light cargo options
+- **Compatible Accessories**: GAYA cargo accessories and standard child seating systems
 
 ## Colors
 
@@ -78,16 +86,27 @@ Le Cargo is GAYA's accessible long-tail e-bike, designed for carrying multiple p
 - **Width**: 70cm
 - **Height**: 120cm
 
-## User Reviews Highlights
+## Real-World Performance
 
-- Excellent value for multi-passenger cargo e-bike
-- Responsive customer support
-- Capable handling despite length
-- Security features (GPS, app control) appreciated
-- Good build quality at accessible price point
-- Comfortable for extended family rides
+### Advantages
+
+- Excellent value proposition for multi-passenger cargo capability (2,700-2,800€)
+- Compact (195 cm) with 20" wheels optimal for urban maneuvering
+- GPS connectivity and anti-theft features differentiate from competitors
+- Responsive customer support noted by users
 - Reliable hydraulic braking system
-- Noted as compact enough for city navigation despite length
+- Good build quality for entry-level pricing
+- Comfortable for extended family rides
+- Rear-hub motor simplicity and reliability
+
+### Considerations
+
+- Rear-hub motor lacks torque-sensor sophistication of pedal-mounted alternatives
+- Range claims (70-100 km) require optimal conditions
+- Limited accessory ecosystem at launch
+- New brand with uncertain long-term support and parts availability
+- Capacity (160 kg) lower than premium alternatives
+- GPS reliance requires stable connectivity for full feature set
 
 ## Battery & Charging
 
@@ -142,8 +161,20 @@ Le Cargo is GAYA's accessible long-tail e-bike, designed for carrying multiple p
 | **Chargers**                            |       |                            |
 | Chargeur standard 2 pins                | €50   | Standard charger           |
 
+## Comparison with Alternatives
+
+In the 2,700€ price range:
+
+- **Decathlon Elops R500** (2,999€): Similar price, rear-hub motor, all accessories included
+- **Jean Fourche II** (2,690€): Cheaper, lighter, pedal-motor with torque sensor
+- **Brumaire Nebula** (2,890€): Similar price, Bafang motor, 24" wheels
+- **Rad Power Radwagon 4** (2,299€): Cheaper, established American brand
+
+Gaya unique positioning: GPS connectivity, smart features, emerging French brand, app-based security.
+
 ## References
 
 - [Official Product Page](https://gaya.bike/velo-cargo/original-cargo)
 - [Specification Sheet (PDF)](<https://gaya.bike/api/medias/api/files/file/Fiche%20technique%20-%20V1.4%20(cargo).pdf>)
-- [GAYA Customer Reviews](https://gaya.bike/velo-cargo/original-cargo)
+- [Roulez Jeunesse 2024 Longtail Comparison](https://blog.roulezjeunesse.com/comparatif-2023-des-meilleurs-velos-longtails-electriques/)
+- [GAYA Official](https://gaya.bike/)

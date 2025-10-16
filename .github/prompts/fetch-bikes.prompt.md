@@ -9,6 +9,9 @@ description: "Fetch bikes from a website and create/update Obsidian vault notes"
 
 Fetch all e-bikes and their relative accessories from a provided website and create or update Obsidian notes in the cargo-bikes vault following the bike template format.
 
+! IMPORTANT: Do not stop untill all bikes are fetched and documented.
+! IMPORTANT: When updating existing notes, preserve any user-added content.
+
 ## Process
 
 ### 1. Fetch All Bikes
