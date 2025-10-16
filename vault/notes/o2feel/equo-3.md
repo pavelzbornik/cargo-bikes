@@ -150,19 +150,6 @@ The O2Feel Equo 3 is the entry-level model of the Equo longtail series, position
 - Lights integrated (AXA front/rear)
 - MIK HD system enables various cargo configurations
 
-## Comparison with Alternatives
-
-In the 3,700€ price range:
-
-- **Decathlon Elops R500** (2,999€): Cheaper, rear-hub motor, more included accessories
-- **Brumaire Nebula** (2,890€): Budget alternative, Bafang motor
-- **Jean Fourche II** (2,690€): Cheaper, lighter, pedal-motor with torque sensor
-- **Yuba Spicy Curry** (4,999€): Premium alternative with Bosch Cargo Line
-- **O2Feel Equo 4.2** (€4,199): Better drivetrain and brakes, same motor
-- **O2Feel Equo 7** (€4,799): Belt drive, Bluetooth display, premium specification
-
-O2Feel unique value: Shimano motor, in-house battery warranty, modular accessories, Made in France, range of price tiers.
-
 ## Photos / Media
 
 - [Official gallery](https://www.o2feel.com/en/product/equo-3/)
