@@ -1,7 +1,7 @@
 ---
 title: "Benno Boost E EVO4 500Wh"
 type: bike
-tags: [bike, longtail, benno-bikes]
+tags: [bike, longtail, benno]
 date: 2025-10-16
 brand: "Benno Bikes"
 model: "Boost E EVO4"

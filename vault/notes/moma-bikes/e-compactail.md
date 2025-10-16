@@ -1,7 +1,7 @@
 ---
 title: "Moma E-COMPACTAIL"
 type: bike
-tags: [bike, cargo-bike, long-tail, moma]
+tags: [bike, cargo-bike, long-tail, moma-bikes]
 date: 2025-10-16
 brand: "Moma Bikes"
 model: "E-COMPACTAIL"
@@ -70,7 +70,6 @@ The Moma E-COMPACTAIL is an urban-focused long-tail cargo bike perfect for city 
 - Hydraulic brakes offer smooth, progressive stopping power
 - Aluminum suspension fork reduces vibration on urban surfaces
 - Ergonomic grips and comfortable, quick-release adjustable saddle
-- Aluminum handlebar, stem, and seat post provide comfort and durability
 
 ## Cargo Capacity & Use Cases
 
@@ -105,17 +104,12 @@ The Moma E-COMPACTAIL is an urban-focused long-tail cargo bike perfect for city 
 
 ## Accessories & Pricing
 
-| Accessory                       | Price                  | Notes                         | Link         |
-| ------------------------------- | ---------------------- | ----------------------------- | ------------ |
-| Bobike One Maxi EB-D Child Seat | €75.99 (from €100.00)  | For rear cargo rack           | momabikes.eu |
-| Bobike One Junior Child Seat    | €67.99 (from €80.00)   | Alternative child seat option | momabikes.eu |
-| Longtail Cushion                | €24.99 (from €35.00)   | For older children or cargo   | momabikes.eu |
-| 48V Lithium Battery             | €399.99 (from €700.00) | Spare/replacement battery     | momabikes.eu |
-
-## Photos & Media
-
-- Official product images available on Moma Bikes website
-- YouTube unboxing video: [COMPACTAIL - Unboxing (EN)](https://www.youtube.com/watch?v=z4XvQKGHecg)
+| Accessory                       | Price                  | Notes                         |
+| ------------------------------- | ---------------------- | ----------------------------- |
+| Bobike One Maxi EB-D Child Seat | €75.99 (from €100.00)  | For rear cargo rack           |
+| Bobike One Junior Child Seat    | €67.99 (from €80.00)   | Alternative child seat option |
+| Longtail Cushion                | €24.99 (from €35.00)   | For older children or cargo   |
+| 48V Lithium Battery             | €399.99 (from €700.00) | Spare/replacement battery     |
 
 ## References
 

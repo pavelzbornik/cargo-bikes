@@ -21,18 +21,19 @@ Brumaire Cycles represents emerging French electric mobility innovation (2020 or
 
 ### Dimensions & Weight
 
-- **Length:** 214 cm
-- **Weight:** 38 kg
-- **Capacity:** 180 kg maximum
+- **Length:** 240 cm (2.40 m)
+- **Weight:** 43 kg
+- **Capacity:** 180 kg maximum (supports 2 children or adult)
 - **Wheel Size:** 24" front and rear (balanced compromise between agility and stability)
 - **Assembly:** Asia-sourced components, design French
 
 ### Motor & Battery
 
-- **Motor:** Bafang mid-drive (80 Nm torque, pedal-mounted)
+- **Motor:** Bafang mid-drive (250W, torque assistance)
 - **Battery:** Samsung 450 Wh (external frame mount)
 - **Range:** Up to 80 km autonomy
-- **Assist System:** Standard power levels
+- **Assist System:** 5 power levels
+- **Charging Time:** 6 hours for full charge
 
 ### Mechanical Components
 
@@ -117,6 +118,7 @@ Nebula unique strengths: Aesthetic design, color variety, 24" wheel configuratio
 
 ## References
 
+- [Velos-Cargo Longtail Guide Review](https://velos-cargo.com/velos-cargo/velos-cargo-longtail/) (Rating: 4.3/5)
 - [Roulez Jeunesse 2024 Longtail Comparison](https://blog.roulezjeunesse.com/comparatif-2023-des-meilleurs-velos-longtails-electriques/)
 - [Brumaire Cycles Official](https://www.brumairecycles.com/)
 - [Roulez Jeunesse Service Partnership](https://shop.roulezjeunesse.com/)
