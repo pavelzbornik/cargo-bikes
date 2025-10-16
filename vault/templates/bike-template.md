@@ -3,8 +3,8 @@ title: "{{title}}"
 type: bike
 brand: "{{brand}}"
 model: "{{model}}"
-tags: [{{tags}}]
-date: {{date}}
+tags: [{ { tags } }]
+date: { { date } }
 ---
 
 ## {{title}}

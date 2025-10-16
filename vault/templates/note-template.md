@@ -1,8 +1,8 @@
 ---
 title: "{{title}}"
 type: note
-tags: [{{tags}}]
-date: {{date}}
+tags: [{ { tags } }]
+date: { { date } }
 ---
 
 ## {{title}}

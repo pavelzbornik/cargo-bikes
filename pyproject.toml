@@ -1,0 +1,8 @@
+[project]
+name = "cargo-bikes-docs"
+version = "0.1.0"
+description = "Obsidian vault for cargo bikes documentation. No Python code. Only for pre-commit and tooling compatibility."
+authors = ["pavelzbornik <your-email@example.com>"]
+dependencies = [
+    "pre-commit-uv>=4.2.0",
+]
