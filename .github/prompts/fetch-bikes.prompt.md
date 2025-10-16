@@ -63,7 +63,7 @@ Using the bike template (`vault/templates/bike-template.md`), populate:
 - **Technical Specifications**: Price, weight, motor, battery, brakes, drivetrain, tires, load capacity, etc.
 - **E-bike Features**: Assist levels, display, charging time, security, weather resistance, connectivity
 - **Real-world Performance**: Range, hills, noise, comfort, handling
-- **Cost**: Breakdown of bike cost with necessary accessories for typical use (e.g., carrying 2 kids)
+- **Cost**: Breakdown of bike cost with necessary accessories for typical use (e.g., carrying 2 kids) like monkeybars, 2x child seats etc
 - **User Reviews & Experiences**: Pros, cons, user quotes (optional if not available)
 - **Cargo Capacity & Use Cases**: Load capacity, configurations
 - **Maintenance**: Battery care, service intervals
