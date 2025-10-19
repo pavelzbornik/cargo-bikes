@@ -1,0 +1,47 @@
+site_name: Cargo Bikes Vault
+site_description: A comprehensive knowledge base for cargo bikes, with focus on long-tail cargo bikes
+site_url: https://pavelzbornik.github.io/cargo-bikes/
+repo_url: https://github.com/pavelzbornik/cargo-bikes
+edit_uri: edit/main/vault/notes/
+
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+  palette:
+    - scheme: light
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    - scheme: dark
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.tooltips
+
+plugins:
+  - search
+
+markdown_extensions:
+  - meta
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
+  - md_in_html
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/pavelzbornik/cargo-bikes
+
+docs_dir: vault/notes
+site_dir: site
