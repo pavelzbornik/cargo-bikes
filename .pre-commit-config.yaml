@@ -1,4 +1,17 @@
 repos:
+  # Python linting and code quality
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.14.1
+    hooks:
+      - id: ruff
+        name: ruff-check
+        args: [--fix]
+        types: [python]
+      - id: ruff-format
+        name: ruff-format
+        types: [python]
+
+  # Markdown linting and formatting
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.45.0
     hooks:
@@ -10,6 +23,7 @@ repos:
         files: \.(md|markdown)$
         pass_filenames: true
         additional_dependencies: []
+
   - repo: https://github.com/pre-commit/mirrors-prettier
     rev: v4.0.0-alpha.8
     hooks:
@@ -19,3 +33,15 @@ repos:
         language: node
         types: [markdown]
         files: \.(md|markdown)$
+
+  # Local hook: Generate bike table on markdown changes
+  - repo: local
+    hooks:
+      - id: generate-bike-table
+        name: Generate Bike Table
+        entry: python scripts/generate_bike_table.py
+        language: python
+        files: ^vault/notes/.*\.md$
+        stages: [pre-commit]
+        pass_filenames: false
+        additional_dependencies: [pyyaml]

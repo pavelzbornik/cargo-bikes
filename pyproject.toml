@@ -1,8 +1,52 @@
 [project]
 name = "cargo-bikes-docs"
 version = "0.1.0"
-description = "Obsidian vault for cargo bikes documentation. No Python code. Only for pre-commit and tooling compatibility."
+description = "Obsidian vault for cargo bikes documentation with Python utilities for content generation and validation."
 authors = ["pavelzbornik <your-email@example.com>"]
+requires-python = ">=3.10"
 dependencies = [
+    "pyyaml>=6.0",
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "ruff>=0.1.0",
     "pre-commit-uv>=4.2.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "--strict-markers --tb=short -v"
+markers = [
+    "unit: Unit tests",
+    "integration: Integration tests",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+exclude = [
+    ".git",
+    ".venv",
+    "node_modules",
+    "vault",
+    ".obsidian",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "RUF"]
+ignore = ["E501"]
+
+[tool.coverage.run]
+source = ["scripts"]
+omit = ["*/tests/*"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
 ]
