@@ -92,8 +92,13 @@ def format_table_cell(value: str, max_width: int = 50) -> str:
     return value
 
 
-def generate_bike_table(bikes: list[dict]) -> str:
-    """Generate Markdown table from bikes list."""
+def generate_bike_table(bikes: list[dict], use_relative_links: bool = False) -> str:
+    """Generate Markdown table from bikes list.
+
+    Args:
+        bikes: List of bike dictionaries
+        use_relative_links: If True, use relative links
+    """
     if not bikes:
         return "No bikes found.\n"
     lines = []
@@ -106,7 +111,12 @@ def generate_bike_table(bikes: list[dict]) -> str:
             image_col = f"![img]({bike['image']})"
         else:
             image_col = "--"
-        bike_link = f"[{bike['title']}]({bike['file_path']})"
+        # Use relative path for index.md, full path for README.md
+        if use_relative_links:
+            file_path = str(bike["file_path"]).replace("vault/notes/", "")
+        else:
+            file_path = bike["file_path"]
+        bike_link = f"[{bike['title']}]({file_path})"
         brand = format_table_cell(bike["brand"], 20)
         price = format_table_cell(bike["price"], 15)
         motor = format_table_cell(bike["motor"], 20)
@@ -119,11 +129,22 @@ def generate_bike_table(bikes: list[dict]) -> str:
     return "\n".join(lines) + "\n"
 
 
-def update_file_with_table(file_path: Path, table_content: str) -> None:
-    """Update a file with the bike table between markers."""
+def update_file_with_table(
+    file_path: Path, table_content: str, use_relative_links: bool = False
+) -> None:
+    """Update a file with the bike table between markers.
+
+    Args:
+        file_path: Path to the file to update
+        table_content: Generated table content
+        use_relative_links: If True, adjust paths for relative links
+    """
     if not file_path.exists():
         print(f"Error: {file_path} not found")
         return
+    # Adjust paths if needed for relative links
+    if use_relative_links:
+        table_content = table_content.replace("vault/notes/", "")
     file_content = file_path.read_text(encoding="utf-8")
     start_marker = "<!-- BIKES_TABLE_START -->"
     end_marker = "<!-- BIKES_TABLE_END -->"
@@ -157,7 +178,11 @@ def main() -> None:
     print(f"\n{'-' * 70}")
     print("Updating files with bike table...\n")
     update_file_with_table(Path("README.md"), table_content)
-    update_file_with_table(Path("vault/notes/index.md"), table_content)
+    update_file_with_table(
+        Path("vault/notes/index.md"),
+        table_content,
+        use_relative_links=True,
+    )
     print(f"{'-' * 70}")
     print("[OK] Done!")
 
