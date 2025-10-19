@@ -119,24 +119,23 @@ def generate_bike_table(bikes: list[dict]) -> str:
     return "\n".join(lines) + "\n"
 
 
-def update_readme(table_content: str) -> None:
-    """Update README.md with the bike table."""
-    readme_path = Path("README.md")
-    if not readme_path.exists():
-        print(f"Error: {readme_path} not found")
+def update_file_with_table(file_path: Path, table_content: str) -> None:
+    """Update a file with the bike table between markers."""
+    if not file_path.exists():
+        print(f"Error: {file_path} not found")
         return
-    readme_content = readme_path.read_text(encoding="utf-8")
+    file_content = file_path.read_text(encoding="utf-8")
     start_marker = "<!-- BIKES_TABLE_START -->"
     end_marker = "<!-- BIKES_TABLE_END -->"
-    if start_marker in readme_content and end_marker in readme_content:
+    if start_marker in file_content and end_marker in file_content:
         pattern = re.escape(start_marker) + r".*?" + re.escape(end_marker)
         new_section = f"{start_marker}\n\n{table_content}\n{end_marker}"
-        updated_content = re.sub(pattern, new_section, readme_content, flags=re.DOTALL)
+        updated_content = re.sub(pattern, new_section, file_content, flags=re.DOTALL)
     else:
         new_section = f"\n{start_marker}\n\n{table_content}\n{end_marker}\n"
-        updated_content = readme_content + new_section
-    readme_path.write_text(updated_content, encoding="utf-8")
-    print(f"\n[OK] Updated {readme_path}")
+        updated_content = file_content + new_section
+    file_path.write_text(updated_content, encoding="utf-8")
+    print(f"[OK] Updated {file_path}")
 
 
 def main() -> None:
@@ -156,7 +155,9 @@ def main() -> None:
     if len(table_content) > 800:
         print("...\n")
     print(f"\n{'-' * 70}")
-    update_readme(table_content)
+    print("Updating files with bike table...\n")
+    update_file_with_table(Path("README.md"), table_content)
+    update_file_with_table(Path("vault/notes/index.md"), table_content)
     print(f"{'-' * 70}")
     print("[OK] Done!")
 
