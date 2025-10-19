@@ -6,7 +6,7 @@ date: 2025-10-16
 brand: "Gaya"
 model: "L'Original Le Court"
 url: "https://gaya.bike/velo-cargo/original-le-court"
-image: "https://gaya.bike/images/original-le-court.jpg"
+image: "https://gaya.bike/api/medias/api/images/file/GAYA_COURT_BLEU%20NUIT%20(1)%201%20(3)%20(1)-1000x663.webp"
 price: "€2,300"
 motor: "250W"
 battery: "460Wh"

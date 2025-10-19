@@ -2,9 +2,7 @@
 
 from __future__ import annotations
 
-import json
-from pathlib import Path
-from unittest.mock import MagicMock, patch
+from unittest.mock import patch
 
 import pytest
 
@@ -59,28 +57,30 @@ class TestExtractFrontmatter:
     def test_extract_valid_frontmatter(self):
         """Test extracting valid YAML frontmatter."""
         content = "---\ntitle: Test\ntype: bike\n---\nBody content"
-        frontmatter, body = extract_frontmatter(content)
+        frontmatter, body, original_yaml = extract_frontmatter(content)
         assert frontmatter == {"title": "Test", "type": "bike"}
         assert body == "Body content"
+        assert original_yaml is not None
 
     def test_extract_frontmatter_with_multiline_body(self):
         """Test extracting frontmatter with multiline body."""
         content = "---\ntitle: Test\n---\nLine 1\nLine 2"
-        frontmatter, body = extract_frontmatter(content)
+        frontmatter, body, _original_yaml = extract_frontmatter(content)
         assert frontmatter == {"title": "Test"}
         assert body == "Line 1\nLine 2"
 
     def test_extract_no_frontmatter(self):
         """Test content without frontmatter."""
         content = "No frontmatter here"
-        frontmatter, body = extract_frontmatter(content)
+        frontmatter, body, original_yaml = extract_frontmatter(content)
         assert frontmatter is None
         assert body == "No frontmatter here"
+        assert original_yaml is None
 
     def test_extract_invalid_yaml(self):
         """Test invalid YAML frontmatter."""
         content = "---\ninvalid: [yaml:\n---\nBody"
-        frontmatter, body = extract_frontmatter(content)
+        frontmatter, body, _original_yaml = extract_frontmatter(content)
         assert frontmatter is None
         assert body == content
 
@@ -114,30 +114,26 @@ class TestValidateAndCleanURLs:
 
     @patch.object(URLValidator, "check_url_reachable")
     def test_remove_invalid_url_field(self, mock_check):
-        """Test removing invalid URL field."""
+        """Test setting invalid URL field to empty string."""
         mock_check.return_value = False
         frontmatter = {
             "title": "Test",
             "url": "https://invalid.example.com",
         }
-        cleaned, removed = validate_and_clean_urls(
-            frontmatter, self.validator
-        )
-        assert "url" not in cleaned
+        cleaned, removed = validate_and_clean_urls(frontmatter, self.validator)
+        assert cleaned["url"] == ""
         assert removed == ["https://invalid.example.com"]
 
     @patch.object(URLValidator, "check_url_reachable")
     def test_remove_invalid_image_field(self, mock_check):
-        """Test removing invalid image field."""
+        """Test setting invalid image field to empty string."""
         mock_check.return_value = False
         frontmatter = {
             "title": "Test",
             "image": "https://invalid-image.example.com/pic.jpg",
         }
-        cleaned, removed = validate_and_clean_urls(
-            frontmatter, self.validator
-        )
-        assert "image" not in cleaned
+        cleaned, removed = validate_and_clean_urls(frontmatter, self.validator)
+        assert cleaned["image"] == ""
         assert removed == ["https://invalid-image.example.com/pic.jpg"]
 
     @patch.object(URLValidator, "check_url_reachable")
@@ -149,27 +145,23 @@ class TestValidateAndCleanURLs:
             "url": "https://valid.example.com",
             "image": "https://valid-image.example.com/pic.jpg",
         }
-        cleaned, removed = validate_and_clean_urls(
-            frontmatter, self.validator
-        )
+        cleaned, removed = validate_and_clean_urls(frontmatter, self.validator)
         assert "url" in cleaned
         assert "image" in cleaned
         assert removed == []
 
     @patch.object(URLValidator, "check_url_reachable")
     def test_remove_multiple_invalid_urls(self, mock_check):
-        """Test removing multiple invalid URLs."""
+        """Test setting multiple invalid URLs to empty strings."""
         mock_check.return_value = False
         frontmatter = {
             "title": "Test",
             "url": "https://invalid1.example.com",
             "image": "https://invalid2.example.com/pic.jpg",
         }
-        cleaned, removed = validate_and_clean_urls(
-            frontmatter, self.validator
-        )
-        assert "url" not in cleaned
-        assert "image" not in cleaned
+        cleaned, removed = validate_and_clean_urls(frontmatter, self.validator)
+        assert cleaned["url"] == ""
+        assert cleaned["image"] == ""
         assert len(removed) == 2
 
 
@@ -190,9 +182,7 @@ class TestCreateChangelogEntry:
 
     def test_create_changelog_entry_valid_urls(self):
         """Test creating changelog entry with valid URLs."""
-        entry = create_changelog_entry(
-            "test/file.md", [], "OK_VALID_URLS"
-        )
+        entry = create_changelog_entry("test/file.md", [], "OK_VALID_URLS")
         assert entry["file"] == "test/file.md"
         assert entry["status"] == "OK_VALID_URLS"
         assert entry["removed_urls"] == []
@@ -205,10 +195,10 @@ class TestIntegration:
     def test_roundtrip_frontmatter(self):
         """Test extracting and reconstructing frontmatter."""
         original = "---\ntitle: Test Bike\ntype: bike\ntags: [bike]\n---\nBody"
-        frontmatter, body = extract_frontmatter(original)
-        reconstructed = reconstruct_frontmatter(frontmatter, body)
+        frontmatter, body, original_yaml = extract_frontmatter(original)
+        reconstructed = reconstruct_frontmatter(frontmatter, body, original_yaml)
 
         # Extract again to verify round-trip
-        frontmatter2, body2 = extract_frontmatter(reconstructed)
+        frontmatter2, body2, _ = extract_frontmatter(reconstructed)
         assert frontmatter2 == frontmatter
         assert body2 == body

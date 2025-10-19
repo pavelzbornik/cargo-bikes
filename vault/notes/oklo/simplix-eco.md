@@ -5,7 +5,7 @@ tags: [bike, cargo, mini, electric, oklo]
 date: 2025-10-16
 brand: "OKLÖ"
 model: "Simplix Éco"
-url: "https://www.decathlon.fr/"
+url: "https://www.oklo.bike/produit/mini-velo-cargo-simplix/"
 image: ""
 price: "€1,990"
 motor: "250W"

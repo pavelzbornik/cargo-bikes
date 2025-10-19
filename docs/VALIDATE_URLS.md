@@ -40,6 +40,7 @@ python scripts/validate_urls.py --dry-run
 ```
 
 In dry-run mode:
+
 - Files are not modified
 - Changelog is not saved
 - Changes are only displayed in console output
@@ -53,6 +54,7 @@ python scripts/validate_urls.py --skip-check
 ```
 
 Useful for:
+
 - Quick validation of URL format only
 - Testing without network access
 - Avoiding timeouts or external dependencies
@@ -69,7 +71,7 @@ python scripts/validate_urls.py --dry-run --skip-check
 
 The script prints real-time progress for each file:
 
-```
+```text
 [1/118] [OK] benno/boost-10d-evo-5.md: All URLs valid
 [2/118] [REMOVED] douze-cycles/lt1.md: Removed 2 URL(s)
     - https://invalid-url.example.com/bike1
@@ -81,12 +83,12 @@ The script prints real-time progress for each file:
 
 Status codes:
 
-| Code       | Meaning                                   |
-| ---------- | ----------------------------------------- |
-| `[OK]`     | File processed successfully               |
-| `[REMOVED]` | Invalid URLs were found and removed       |
-| `[SKIP]`   | File skipped (no frontmatter, etc.)       |
-| `[ERR]`    | Error processing file                     |
+| Code        | Meaning                             |
+| ----------- | ----------------------------------- |
+| `[OK]`      | File processed successfully         |
+| `[REMOVED]` | Invalid URLs were found and removed |
+| `[SKIP]`    | File skipped (no frontmatter, etc.) |
+| `[ERR]`     | Error processing file               |
 
 ### Changelog File
 
@@ -120,7 +122,7 @@ Creates `VALIDATE_URLS_CHANGELOG.json` with details:
 
 After validation completes, displays:
 
-```
+```text
 ======================================================================
 SUMMARY
 ======================================================================
@@ -143,6 +145,7 @@ Total URLs removed: 12
 ### Structural Validation
 
 URLs are first checked for correct structure:
+
 - Must have a scheme (`http://` or `https://`)
 - Must have a netloc (domain name)
 
@@ -171,7 +174,7 @@ Failed requests are retried up to 2 times (configurable):
 
 Requests include a User-Agent to avoid being blocked by strict servers:
 
-```
+```text
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 ```
 

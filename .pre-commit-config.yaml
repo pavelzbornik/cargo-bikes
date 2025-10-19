@@ -34,14 +34,3 @@ repos:
         types: [markdown]
         files: \.(md|markdown)$
 
-  # Local hook: Generate bike table on markdown changes
-  - repo: local
-    hooks:
-      - id: generate-bike-table
-        name: Generate Bike Table
-        entry: python scripts/generate_bike_table.py
-        language: python
-        files: ^vault/notes/.*\.md$
-        stages: [pre-commit]
-        pass_filenames: false
-        additional_dependencies: [pyyaml]

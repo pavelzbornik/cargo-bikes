@@ -5,8 +5,8 @@ tags: [bike, longtail, electric, moustache, french]
 date: 2025-10-16
 brand: "Moustache"
 model: "Lundi 20.3"
-url: "https://www.moustachebikes.com/"
-image: ""
+url: "https://moustachebikes.com/fr/velos-electriques/lundi-20-cargo/lundi-20-cargo-3/"
+image: "https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJwYXRoIjoibW91c3RhY2hlLWJpa2VzXC9maWxlXC9Tc1haUERHTm1vQXBKSm1BUkdMeC5qcGcifQ:moustache-bikes:RhNjVvQjm4JezvflsUP0VjpkeoLCvN3AZZGVHHdv2vs?width=1500"
 price: "4499€"
 motor: "85Nm Bosch Cargo Line"
 battery: "500Wh"

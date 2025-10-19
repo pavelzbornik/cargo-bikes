@@ -6,7 +6,7 @@ date: 2025-10-16
 brand: "Bike43"
 model: "Short"
 url: "https://bike43.com/short-cargo-family-bike/"
-image: "https://bike43.com/app/themes/cherrypulp/public/images/hero-short-main.jpg"
+image: "https://bike43.com/app/uploads/2025/07/Video-SuperPower-Pivotable-Bench-Kit-1024x830.jpg"
 price: "4990€"
 motor: "600W"
 battery: "540Wh"

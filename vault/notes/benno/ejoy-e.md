@@ -5,8 +5,8 @@ tags: [bike, longtail, cargo, electric, benno]
 date: 2025-10-16
 brand: "Benno Bikes"
 model: "eJoy E"
-url: "https://www.bennoelectricbike.com/"
-image: ""
+url: "https://bennobikes.com/e-bikes/ejoy/"
+image: "https://bennobikes.com/wp-content/uploads/benno_ejoy_2020_with-sketch_overlay_people_sl1.jpg"
 price: "€1,799"
 motor: "400W"
 battery: "400Wh"

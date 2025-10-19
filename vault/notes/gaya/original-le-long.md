@@ -6,7 +6,7 @@ date: 2025-10-16
 brand: "Gaya"
 model: "L'Original Le Long"
 url: "https://gaya.bike/velo-cargo/original-le-long"
-image: "https://gaya.bike/images/original-le-long.jpg"
+image: "https://gaya.bike/api/medias/api/images/file/GAYA_LONG_MOKA%20Cropped-1000x594.webp"
 price: "€2,800"
 motor: "250W"
 battery: "460Wh"

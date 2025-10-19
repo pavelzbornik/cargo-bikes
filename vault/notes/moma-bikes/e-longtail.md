@@ -6,7 +6,7 @@ date: 2025-10-16
 brand: "Moma Bikes"
 model: "E-LONGTAIL"
 url: "https://momabikes.eu/products/electric-bike-ebike-longtail"
-image: "https://momabikes.eu/cdn/shop/files/e-longtail-frontal-1_c3eb2a4b-1c76-4db4-8af0-e3fb7d86acdb.jpg?v=1713874512"
+image: "https://cdn.shopify.com/s/files/1/0290/9382/2538/files/1View.jpg?width=800&crop=center"
 price: "€2,299.99 (sale, regular €4,000.00)"
 motor: "250W"
 battery: "624Wh"

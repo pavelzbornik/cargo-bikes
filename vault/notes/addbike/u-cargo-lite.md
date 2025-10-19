@@ -5,8 +5,8 @@ tags: [bike, cargo, family, electric, addbike]
 date: 2025-10-16
 brand: "ADDBIKE"
 model: "U-Cargo Lite"
-url: "https://www.decathlon.fr/"
-image: ""
+url: "https://add-bike.com/en/compact-cargo-bike-u-cargo-lite/"
+image: "https://add-bike.com/wp-content/uploads/2021/09/U-Cargo-Lite-Blanc_Vue-de-profil-2.jpg"
 price: "€2,990"
 motor: ""
 battery: ""

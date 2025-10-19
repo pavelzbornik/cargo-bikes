@@ -6,7 +6,7 @@ date: 2025-10-16
 brand: "Gaya"
 model: "L'Incroyable Le Court"
 url: "https://gaya.bike/velo-cargo/incroyable-le-court"
-image: "https://gaya.bike/images/incroyable-le-court.jpg"
+image: "https://gaya.bike/api/medias/api/images/file/Incroyable%20-%20Le%20Court%20-%20Ardoise%20-%20Color%20Swatcher%20Cropped-1000x663.webp"
 price: "€2,900"
 motor: "250W"
 battery: "460Wh"

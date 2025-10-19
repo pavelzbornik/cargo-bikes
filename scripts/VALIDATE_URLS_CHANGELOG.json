@@ -1,0 +1,748 @@
+{
+  "generated": "2025-10-19T22:51:32.842773",
+  "total_entries": 122,
+  "entries": [
+    {
+      "timestamp": "2025-10-19T22:50:34.930786",
+      "file": "addbike\\u-cargo-family.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:37.750316",
+      "file": "addbike\\u-cargo-lite.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:39.119560",
+      "file": "benno\\boost-10d-evo-5.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:40.417984",
+      "file": "benno\\boost-e-evo4.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:41.123558",
+      "file": "benno\\ejoy-e.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:41.247491",
+      "file": "bike43\\long.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:41.297881",
+      "file": "bike43\\mid.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:41.347773",
+      "file": "bike43\\short.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:42.299840",
+      "file": "brumaire\\longtail-nebula.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:42.628489",
+      "file": "brumaire\\nebula.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:42.917322",
+      "file": "btwin\\f900e.md",
+      "status": "URLS_REMOVED",
+      "removed_urls": [
+        "https://www.decathlon.fr/p/velo-cargo-electrique-biporteur-famille-f900e-taupe/_/R-p-329211"
+      ]
+    },
+    {
+      "timestamp": "2025-10-19T22:50:43.118780",
+      "file": "btwin\\r500e.md",
+      "status": "URLS_REMOVED",
+      "removed_urls": [
+        "https://www.decathlon.fr/p/velo-cargo-electrique-longtail-chargement-arriere-r500e-vert-clair/_/R-p-349924"
+      ]
+    },
+    {
+      "timestamp": "2025-10-19T22:50:44.045014",
+      "file": "cannondale\\cargowagen-neo-1.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:46.015510",
+      "file": "cannondale\\cargowagen-neo-2.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:46.372106",
+      "file": "conor\\e-cargo-berna.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:47.575958",
+      "file": "cube\\longtail-hybrid-1350.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:47.765727",
+      "file": "douze-cycles\\heta-2s-1x10.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:47.815012",
+      "file": "douze-cycles\\heta-2s-di2.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:47.864432",
+      "file": "douze-cycles\\heta-2s-enviolo.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:47.934791",
+      "file": "douze-cycles\\lt-m.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:50.555365",
+      "file": "douze-cycles\\lt1.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:50.608555",
+      "file": "douze-cycles\\lt2-b.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:50.668786",
+      "file": "douze-cycles\\lt2-s-1x10.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:50.716068",
+      "file": "douze-cycles\\lt2-s-nexus-5.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:50.764420",
+      "file": "douze-cycles\\v2-bafang-m500.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:50.817056",
+      "file": "douze-cycles\\v2-shimano-ep8-cargo.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:51.440955",
+      "file": "ello-mobilite\\le-400.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:51.687192",
+      "file": "ello-mobilite\\le-800.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:51.989250",
+      "file": "ello-mobilite\\primo-c.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:52.242430",
+      "file": "ello-mobilite\\primo-s.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:52.520559",
+      "file": "ello-mobilite\\tractor-c.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:52.776044",
+      "file": "ello-mobilite\\tractor-s.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:52.946434",
+      "file": "elwing\\ritmic-jumbo.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:53.306163",
+      "file": "engwe\\le20-cargo-compact.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:53.410648",
+      "file": "etni-cycles\\oleron.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:53.878357",
+      "file": "fiido\\t2.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:54.406640",
+      "file": "gaya\\incroyable-le-court.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:54.672907",
+      "file": "gaya\\incroyable-le-long.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:55.285680",
+      "file": "gaya\\le-cargo.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:55.411671",
+      "file": "gaya\\le-compact.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:55.582721",
+      "file": "gaya\\original-le-court.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:55.939979",
+      "file": "gaya\\original-le-long.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:56.907285",
+      "file": "gitane\\g-life-longtail-2.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:57.886052",
+      "file": "granville\\longtail-545wh.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:58.040143",
+      "file": "hippoko\\longtail.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:58.232134",
+      "file": "jean-fourche\\jean-ii.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:58.474420",
+      "file": "jobobike\\cargo-transer.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:50:58.475419",
+      "file": "kiffy\\capsule-mt.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:00.318198",
+      "file": "le-petit-porteur\\longtail-electric.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:01.243199",
+      "file": "le-petit-porteur\\og-electric.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:02.039230",
+      "file": "le-petit-porteur\\shorty-electric.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:02.235045",
+      "file": "leon-cycle\\ncm-cg7.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:02.948904",
+      "file": "moma-bikes\\e-compactail.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:03.277676",
+      "file": "moma-bikes\\e-longtail.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:03.828361",
+      "file": "momentum\\pakyak-e-plus.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:03.932727",
+      "file": "moustache\\lundi-20.md",
+      "status": "URLS_REMOVED",
+      "removed_urls": [
+        "https://moustachebikes.com/fr/velos-electriques/lundi-20-cargo/lundi-20-cargo-3/"
+      ]
+    },
+    {
+      "timestamp": "2025-10-19T22:51:04.404600",
+      "file": "nakamura\\crossover-longtail.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:06.179889",
+      "file": "neomouv\\opia-lt.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:08.149885",
+      "file": "o2feel\\buzz-7.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:09.632817",
+      "file": "o2feel\\buzz-8.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:11.491292",
+      "file": "o2feel\\equo-3.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:13.802211",
+      "file": "o2feel\\equo-4-2.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:15.853080",
+      "file": "o2feel\\equo-5-adventure.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:17.915142",
+      "file": "o2feel\\equo-7.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:19.560682",
+      "file": "o2feel\\equo-cargo-boost.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:19.694481",
+      "file": "oklo\\evo-cani-taxi.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:22.282982",
+      "file": "oklo\\evo-expe.md",
+      "status": "URLS_REMOVED",
+      "removed_urls": [
+        "https://www.oklo.bike/assets/uploads/"
+      ]
+    },
+    {
+      "timestamp": "2025-10-19T22:51:22.375219",
+      "file": "oklo\\evo-fantilo.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:24.842196",
+      "file": "oklo\\evo-velotaf.md",
+      "status": "URLS_REMOVED",
+      "removed_urls": [
+        "https://www.oklo.bike/assets/uploads/"
+      ]
+    },
+    {
+      "timestamp": "2025-10-19T22:51:24.916333",
+      "file": "oklo\\fantilo.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:24.951166",
+      "file": "oklo\\simplix-eco.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:24.952167",
+      "file": "oklo\\simplix-meca.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:25.011482",
+      "file": "oklo\\simplix.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:25.012483",
+      "file": "portofino\\cargo-pro.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:25.013482",
+      "file": "rad-power-bikes\\radwagon-4.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:25.367799",
+      "file": "revom\\multi-c2.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:25.573582",
+      "file": "revom\\multi.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:25.574327",
+      "file": "riese-muller\\multicharger-gt-family.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:25.575332",
+      "file": "rucanor\\cargo-28-pouces.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:25.577333",
+      "file": "sum\\alpa.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:25.690437",
+      "file": "tenways\\longtail-duo.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:25.794137",
+      "file": "tern\\gsd-p00.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:25.795627",
+      "file": "tern\\gsd-p10.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:25.818442",
+      "file": "tern\\gsd-r14.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:25.819571",
+      "file": "tern\\gsd-s10-lr.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:25.841608",
+      "file": "tern\\gsd-s10.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:26.323027",
+      "file": "tern\\orox.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:26.346180",
+      "file": "tern\\quick-haul-long-d9.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:26.766740",
+      "file": "trek\\fetch-plus-2.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:26.767533",
+      "file": "tucano\\family-cargo-tuc-tuc-xroad.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:27.179554",
+      "file": "unikride\\beach-cruiser-female.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:27.248095",
+      "file": "unikride\\beach-cruiser-male.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:27.327409",
+      "file": "unikride\\fat-fun-balance-bike.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:27.866866",
+      "file": "unikride\\fatstreet-classic-female.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:27.979314",
+      "file": "unikride\\fatstreet-classic-male.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:28.059274",
+      "file": "unikride\\fatstreet-firm-frame.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:28.171176",
+      "file": "unikride\\fatstreet-x-trail-sport.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:28.241746",
+      "file": "unikride\\fatstreet-x-trail.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:28.353206",
+      "file": "unikride\\fatstreet-xs-compact.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:28.435908",
+      "file": "unikride\\hossegor-bike.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:28.628181",
+      "file": "unikride\\longtail-cargo-bike.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:29.068498",
+      "file": "unikride\\retro-bobber.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:29.151830",
+      "file": "unikride\\vacay-beach-californian.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:29.610135",
+      "file": "urban-arrow\\breeze.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:30.110754",
+      "file": "velo-de-ville\\loady.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:30.585020",
+      "file": "velo-de-ville\\seb-990-pro.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:32.016015",
+      "file": "vg-bikes\\longtail-vg-life-672wh.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:32.287184",
+      "file": "voltaway\\panamax.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:32.288197",
+      "file": "voltaway\\passenger.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:32.288197",
+      "file": "yeep-me\\day-cargo-2.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:32.428171",
+      "file": "yuba\\boda-boda.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:32.460226",
+      "file": "yuba\\fastrack-v1.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:32.497519",
+      "file": "yuba\\fastrack.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:32.535079",
+      "file": "yuba\\kombi-e5.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:32.566920",
+      "file": "yuba\\kombi-e6.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:32.599240",
+      "file": "yuba\\kombi.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:32.634105",
+      "file": "yuba\\mini-boda-boda.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:32.672902",
+      "file": "yuba\\mundo-ep801.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:32.707759",
+      "file": "yuba\\mundo-lux.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:32.740302",
+      "file": "yuba\\spicy-curry-plus.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:32.806647",
+      "file": "yuba\\spicy-curry.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    },
+    {
+      "timestamp": "2025-10-19T22:51:32.841595",
+      "file": "yuba\\supercargo-cl.md",
+      "status": "OK_VALID_URLS",
+      "removed_urls": []
+    }
+  ]
+}

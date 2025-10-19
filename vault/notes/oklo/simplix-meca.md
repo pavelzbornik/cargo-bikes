@@ -5,7 +5,7 @@ tags: [bike, cargo, mini, oklo]
 date: 2025-10-16
 brand: "OKLÖ"
 model: "Simplix Méca"
-url: "https://www.decathlon.fr/"
+url: ""
 image: ""
 price: "€1,190"
 motor: ""

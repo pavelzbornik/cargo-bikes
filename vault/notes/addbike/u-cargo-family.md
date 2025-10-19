@@ -5,8 +5,8 @@ tags: [bike, cargo, family, electric, addbike]
 date: 2025-10-16
 brand: "ADDBIKE"
 model: "U-Cargo Family"
-url: "https://www.decathlon.fr/"
-image: ""
+url: "https://add-bike.com/en/u-cargo/"
+image: "https://add-bike.com/wp-content/uploads/2025/09/Velo-longtail-U-Cargo-Family-Blanc.webp"
 price: "€3,715"
 motor: ""
 battery: ""

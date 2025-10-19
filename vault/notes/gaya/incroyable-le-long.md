@@ -6,7 +6,7 @@ date: 2025-10-16
 brand: "Gaya"
 model: "L'Incroyable Le Long"
 url: "https://gaya.bike/velo-cargo/incroyable-le-long"
-image: "https://gaya.bike/images/incroyable-le-long.jpg"
+image: "https://gaya.bike/api/medias/api/images/file/L'Incroyable,%20Le%20Long%20-%20Amande%201080x720-1000x667.webp"
 price: "€3,400"
 motor: "250W"
 battery: "460Wh"

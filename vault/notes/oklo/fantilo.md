@@ -5,8 +5,8 @@ tags: [bike, cargo, family, longtail, electric, oklo]
 date: 2025-10-16
 brand: "OKLÖ"
 model: "Fantilo"
-url: "https://www.decathlon.fr/"
-image: ""
+url: "https://www.oklo.bike/produit/velo-cargo-evo-famille/"
+image: "https://www.oklo.bike/assets/uploads/2022/03/IMG_0820-EVO-Fantilo-longtail-elu-velo-cargo-de-l-annee-2024_1024x1204-600x600.jpg"
 price: "€5,855"
 motor: ""
 battery: ""

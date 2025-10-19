@@ -6,7 +6,7 @@ date: 2025-10-16
 brand: "Jobobike"
 model: "Cargo Transer"
 url: "https://www.mvebike.fr/jobobike-cargo-transer-xml-378_379_388-1099.html"
-image: "https://www.mvebike.fr/images/Image/Jobobike-Cargo-Transer.png"
+image: "https://www.mvebike.fr/images/imagecache/500x500/jpg/JOBOBike-Transer.jpg"
 price: "€2,099.00 (sale price, originally €2,499.00)"
 motor: "250W"
 battery: "45V 15Ah"

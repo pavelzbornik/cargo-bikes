@@ -19,6 +19,20 @@ if sys.stdout.encoding != "utf-8":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 
+class QuotedString(str):
+    """String that should be quoted in YAML output."""
+
+    pass
+
+
+def quoted_representer(dumper, data):
+    """Custom representer to quote strings."""
+    return dumper.represent_scalar("tag:yaml.org,2002:str", data, style='"')
+
+
+yaml.add_representer(QuotedString, quoted_representer)
+
+
 class URLValidator:
     """Validates and cleans URLs from frontmatter."""
 
@@ -35,8 +49,7 @@ class URLValidator:
         self.session.headers.update(
             {
                 "User-Agent": (
-                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                    "AppleWebKit/537.36"
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
                 )
             }
         )
@@ -82,58 +95,129 @@ class URLValidator:
         return False
 
 
-def extract_frontmatter(content: str) -> tuple[dict | None, str]:
+def extract_frontmatter(
+    content: str,
+) -> tuple[dict | None, str, str | None]:
     """Extract YAML frontmatter from Markdown file content.
 
     Args:
         content: File content.
 
     Returns:
-        Tuple of (frontmatter dict, remaining content).
+        Tuple of (frontmatter dict, remaining content, original yaml).
     """
     match = re.match(r"^---\s*\n(.*?)\n---\s*\n(.*)", content, re.DOTALL)
     if not match:
-        return None, content
+        return None, content, None
     yaml_content = match.group(1)
     body_content = match.group(2)
     try:
         frontmatter = yaml.safe_load(yaml_content)
-        return frontmatter, body_content
+        return frontmatter, body_content, yaml_content
     except yaml.YAMLError as e:
         print(f"  [WARN] YAML parse error: {e}")
-        return None, content
+        return None, content, None
 
 
-def reconstruct_frontmatter(frontmatter: dict, body: str) -> str:
+def reconstruct_frontmatter(
+    frontmatter: dict,
+    body: str,
+    original_yaml: str | None = None,
+) -> str:
     """Reconstruct Markdown file from frontmatter and body.
+
+    Preserves original YAML formatting where possible.
 
     Args:
         frontmatter: YAML frontmatter dict.
         body: File body content.
+        original_yaml: Original YAML to preserve formatting.
 
     Returns:
         Reconstructed file content.
     """
-    yaml_str = yaml.dump(
-        frontmatter,
-        default_flow_style=False,
-        sort_keys=False,
-        allow_unicode=True,
-    )
-    return f"---\n{yaml_str}---\n{body}"
+    if original_yaml is None:
+        yaml_str = yaml.dump(
+            frontmatter,
+            default_flow_style=False,
+            sort_keys=False,
+            allow_unicode=True,
+        )
+    else:
+        # Preserve original formatting
+        yaml_str = _update_yaml_preserve_format(original_yaml, frontmatter)
+
+    return f"---\n{yaml_str}\n---\n{body}"
+
+
+def _update_yaml_preserve_format(original_yaml: str, updated_data: dict) -> str:
+    """Update YAML while preserving original formatting style.
+
+    Args:
+        original_yaml: Original YAML string.
+        updated_data: Updated data dictionary.
+
+    Returns:
+        Updated YAML string with preserved formatting.
+    """
+    lines = original_yaml.split("\n")
+    result_lines = []
+
+    for line in lines:
+        if not line.strip() or ":" not in line:
+            result_lines.append(line)
+            continue
+
+        # Parse key
+        parts = line.split(":", 1)
+        if len(parts) != 2:
+            result_lines.append(line)
+            continue
+
+        key = parts[0].strip()
+        original_value_part = parts[1].strip()
+
+        if key not in updated_data:
+            result_lines.append(line)
+            continue
+
+        new_value = updated_data[key]
+
+        # Detect original quoting style
+        has_double_quotes = original_value_part.startswith(
+            '"'
+        ) and original_value_part.endswith('"')
+        has_single_quotes = original_value_part.startswith(
+            "'"
+        ) and original_value_part.endswith("'")
+
+        if has_double_quotes:
+            # Original had double quotes - preserve them
+            result_lines.append(f'{key}: "{new_value}"')
+        elif has_single_quotes:
+            # Original had single quotes - preserve them
+            result_lines.append(f"{key}: '{new_value}'")
+        elif original_value_part.startswith("["):
+            # Original had list format, don't modify
+            result_lines.append(line)
+        else:
+            # No quotes in original
+            result_lines.append(f"{key}: {new_value}")
+
+    return "\n".join(result_lines)
 
 
 def validate_and_clean_urls(
     frontmatter: dict, validator: URLValidator
 ) -> tuple[dict, list[str]]:
-    """Validate URLs in frontmatter and remove invalid ones.
+    """Validate URLs in frontmatter and set invalid ones to empty.
 
     Args:
         frontmatter: YAML frontmatter dict.
         validator: URLValidator instance.
 
     Returns:
-        Tuple of (cleaned frontmatter, list of removed URLs).
+        Tuple of (cleaned frontmatter, list of invalidated URLs).
     """
     removed_urls = []
     url_fields = ["url", "image"]
@@ -144,7 +228,7 @@ def validate_and_clean_urls(
             if url and isinstance(url, str):
                 if not validator.check_url_reachable(url):
                     removed_urls.append(url)
-                    del frontmatter[field]
+                    frontmatter[field] = ""
 
     return frontmatter, removed_urls
 
@@ -199,77 +283,59 @@ def validate_vault_urls(
         rel_path = md_file.relative_to("vault/notes")
         try:
             content = md_file.read_text(encoding="utf-8")
-            frontmatter, body = extract_frontmatter(content)
+            frontmatter, body, original_yaml = extract_frontmatter(content)
 
             if frontmatter is None:
                 status_msg = "[SKIP] No frontmatter"
                 print(f"[{idx}/{total_files}] {status_msg} {rel_path}")
                 changelog.append(
-                    create_changelog_entry(
-                        str(rel_path), [], "SKIPPED_NO_FM"
-                    )
+                    create_changelog_entry(str(rel_path), [], "SKIPPED_NO_FM")
                 )
                 continue
 
-            has_urls = any(
-                field in frontmatter for field in ["url", "image"]
-            )
+            has_urls = any(field in frontmatter for field in ["url", "image"])
             if not has_urls:
                 msg = f"[OK] {rel_path}: No URLs found"
                 print(f"[{idx}/{total_files}] {msg}")
                 changelog.append(
-                    create_changelog_entry(
-                        str(rel_path), [], "OK_NO_URLS"
-                    )
+                    create_changelog_entry(str(rel_path), [], "OK_NO_URLS")
                 )
                 continue
 
             if skip_check:
                 skip_msg = "Validation skipped (--skip-check)"
-                print(
-                    f"[{idx}/{total_files}] [SKIP] {rel_path}: "
-                    f"{skip_msg}"
-                )
+                print(f"[{idx}/{total_files}] [SKIP] {rel_path}: {skip_msg}")
                 changelog.append(
-                    create_changelog_entry(
-                        str(rel_path), [], "SKIPPED_CHECK"
-                    )
+                    create_changelog_entry(str(rel_path), [], "SKIPPED_CHECK")
                 )
                 continue
 
-            cleaned_frontmatter, removed_urls = (
-                validate_and_clean_urls(frontmatter, validator)
+            cleaned_frontmatter, removed_urls = validate_and_clean_urls(
+                frontmatter, validator
             )
 
             if removed_urls:
                 removed_count = len(removed_urls)
                 removed_msg = f"Removed {removed_count} URL(s)"
-                print(
-                    f"[{idx}/{total_files}] [REMOVED] {rel_path}: "
-                    f"{removed_msg}"
-                )
+                print(f"[{idx}/{total_files}] [REMOVED] {rel_path}: {removed_msg}")
                 for url in removed_urls:
                     print(f"    - {url}")
 
                 if not dry_run:
                     updated_content = reconstruct_frontmatter(
-                        cleaned_frontmatter, body
+                        cleaned_frontmatter, body, original_yaml
                     )
                     md_file.write_text(updated_content, encoding="utf-8")
                     print("    [SAVED]")
 
                 changelog.append(
-                    create_changelog_entry(
-                        str(rel_path), removed_urls, "URLS_REMOVED"
-                    )
+                    create_changelog_entry(str(rel_path), removed_urls, "URLS_REMOVED")
                 )
             else:
                 msg = f"[OK] {rel_path}: All URLs valid"
                 print(f"[{idx}/{total_files}] {msg}")
                 changelog.append(
-                    create_changelog_entry(
-                        str(rel_path), [], "OK_VALID_URLS"
-                    )
+                    create_changelog_entry(str(rel_path), [], "OK_VALID_URLS")
                 )
 
         except Exception as e:
@@ -277,9 +343,7 @@ def validate_vault_urls(
             msg = f"[ERR] {rel_path}: {err_type}: {e}"
             print(f"[{idx}/{total_files}] {msg}")
             changelog.append(
-                create_changelog_entry(
-                    str(rel_path), [], f"ERROR_{err_type}"
-                )
+                create_changelog_entry(str(rel_path), [], f"ERROR_{err_type}")
             )
 
     return changelog, total_files
@@ -292,7 +356,7 @@ def save_changelog(changelog: list[dict], dry_run: bool = False) -> None:
         changelog: List of changelog entries.
         dry_run: If True, do not save file.
     """
-    changelog_path = Path("VALIDATE_URLS_CHANGELOG.json")
+    changelog_path = Path("scripts/VALIDATE_URLS_CHANGELOG.json")
     changelog_content = {
         "generated": datetime.now().isoformat(),
         "total_entries": len(changelog),
@@ -312,9 +376,7 @@ def save_changelog(changelog: list[dict], dry_run: bool = False) -> None:
     print(f"\n[OK] Changelog saved to {changelog_path}")
 
 
-def print_summary(
-    changelog: list[dict], total_files: int, dry_run: bool
-) -> None:
+def print_summary(changelog: list[dict], total_files: int, dry_run: bool) -> None:
     """Print summary statistics.
 
     Args:

@@ -5,8 +5,8 @@ tags: [bike, longtail, cargo, electric, brumaire, french]
 date: 2025-10-16
 brand: "Brumaire"
 model: "Nebula"
-url: "https://www.brumairecycles.com/"
-image: ""
+url: "https://cycles.brumaire.co/pages/long-tail-bike"
+image: "https://cdn.shopify.com/s/files/1/0624/3788/4070/files/long-tail-bike-blue.png"
 price: "2890€"
 motor: "Bafang"
 battery: "Samsung 450Wh"

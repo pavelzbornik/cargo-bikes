@@ -6,7 +6,7 @@ date: 2025-10-16
 brand: "Bike43"
 model: "Long"
 url: "https://bike43.com/long-tail-cargo-family-bike/"
-image: "https://bike43.com/app/themes/cherrypulp/public/images/hero-long-main.jpg"
+image: "https://bike43.com/app/uploads/2022/09/bike10.jpg"
 price: "5490€"
 motor: "600W"
 battery: "630-800Wh"

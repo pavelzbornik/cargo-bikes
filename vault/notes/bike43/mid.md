@@ -6,7 +6,7 @@ date: 2025-10-16
 brand: "Bike43"
 model: "Mid"
 url: "https://bike43.com/mid-tail-cargo-family-bike/"
-image: "https://bike43.com/app/themes/cherrypulp/public/images/hero-mid-main.jpg"
+image: "https://bike43.com/app/uploads/2025/07/Video-SuperPower-Pivotable-Bench-Kit-1024x830.jpg"
 price: "5290€"
 motor: "600-700W"
 battery: "540-800Wh"

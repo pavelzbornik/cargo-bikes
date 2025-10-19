@@ -5,7 +5,7 @@ tags: [bike, longtail, cargo, electric, kiffy, french]
 date: 2025-10-16
 brand: "Kiffy"
 model: "Capsule MT"
-url: "https://www.kiffy.fr/"
+url: ""
 image: ""
 price: "5399€"
 motor: "Bosch Cargo Line"

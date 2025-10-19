@@ -6,7 +6,7 @@ date: 2025-10-16
 brand: "Moma Bikes"
 model: "E-COMPACTAIL"
 url: "https://momabikes.eu/products/electric-bike-ebike-longtail-1"
-image: "https://momabikes.eu/cdn/shop/files/e-compactail-frontal-1.jpg?v=1713874485"
+image: "https://cdn.shopify.com/s/files/1/0290/9382/2538/files/Compactail_00.jpg?width=800&crop=center"
 price: "€1,999.99 (sale, regular €4,000.00)"
 motor: "250W"
 battery: "720Wh"
