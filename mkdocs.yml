@@ -29,6 +29,7 @@ theme:
 
 plugins:
   - search
+  - obsidian-bridge
 
 markdown_extensions:
   - meta
@@ -37,6 +38,9 @@ markdown_extensions:
   - tables
   - attr_list
   - md_in_html
+  # Obsidian-like features provided by mkdocs-obsidian-bridge
+  - obsidian_media_mkdocs
+  - obsidian_callouts
 
 extra:
   social:

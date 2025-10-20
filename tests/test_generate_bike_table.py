@@ -246,7 +246,7 @@ class TestGenerateBikeTable:
         ]
         result = generate_bike_table(bikes, use_relative_links=True)
         # With relative links, path should be bikes/test/bike.md
-        assert "bikes/test/bike.md" in result
+        assert "test/bike.md" in result
         assert "vault/notes/bikes/" not in result
 
 

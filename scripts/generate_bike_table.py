@@ -113,7 +113,7 @@ def generate_bike_table(bikes: list[dict], use_relative_links: bool = False) -> 
             image_col = "--"
         # Use relative path for index.md, full path for README.md
         if use_relative_links:
-            file_path = str(bike["file_path"]).replace("vault/notes/bikes/", "bikes/")
+            file_path = str(bike["file_path"]).replace("vault/notes/bikes/", "")
         else:
             file_path = bike["file_path"]
         bike_link = f"[{bike['title']}]({file_path})"
@@ -143,9 +143,9 @@ def update_file_with_table(
         print(f"Error: {file_path} not found")
         return
     # Adjust paths if needed for relative links
-    # For index.md at vault/notes/, change "vault/notes/bikes/" to "bikes/"
+    # For index.md at vault/notes/, change "vault/notes/bikes/" to ""
     if use_relative_links:
-        table_content = table_content.replace("vault/notes/bikes/", "bikes/")
+        table_content = table_content.replace("vault/notes/bikes/", "")
     file_content = file_path.read_text(encoding="utf-8")
     start_marker = "<!-- BIKES_TABLE_START -->"
     end_marker = "<!-- BIKES_TABLE_END -->"
@@ -180,7 +180,7 @@ def main() -> None:
     print("Updating files with bike table...\n")
     update_file_with_table(Path("README.md"), table_content)
     update_file_with_table(
-        Path("vault/notes/index.md"),
+        Path("vault/notes/bikes/index.md"),
         table_content,
         use_relative_links=True,
     )
