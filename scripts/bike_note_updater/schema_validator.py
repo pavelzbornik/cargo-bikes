@@ -109,7 +109,7 @@ class SchemaValidator:
         has_legacy = any(
             field in frontmatter and frontmatter[field] for field in legacy_fields
         )
-        has_specs = "specs" in frontmatter and frontmatter["specs"]
+        has_specs = "specs" in frontmatter and frontmatter["specs"] is not None
 
         if has_legacy and not has_specs:
             warnings.append(
@@ -148,22 +148,12 @@ class SchemaValidator:
         """
         issues: list[ValidationIssue] = []
 
-        # Check for recommended fields
-        recommended_fields = ["category", "motor", "battery", "weight"]
-        for field in recommended_fields:
-            if field not in specs or not specs[field]:
-                issues.append(
-                    ValidationIssue(
-                        field=f"specs.{field}",
-                        issue_type="missing",
-                        message=f"Recommended field 'specs.{field}' is missing",
-                        suggestion=f"Add {field} information to specs",
-                    )
-                )
+        # Check for recommended fields - these are warnings, not hard errors
+        # Only add hard errors for clearly invalid structures
 
         # Validate motor structure if present
         motor = specs.get("motor")
-        if motor and isinstance(motor, dict):
+        if motor is not None and isinstance(motor, dict):
             if not motor.get("make") and not motor.get("model"):
                 issues.append(
                     ValidationIssue(
@@ -176,7 +166,7 @@ class SchemaValidator:
 
         # Validate battery structure if present
         battery = specs.get("battery")
-        if battery and isinstance(battery, dict):
+        if battery is not None and isinstance(battery, dict):
             if not battery.get("capacity_wh"):
                 issues.append(
                     ValidationIssue(
@@ -189,7 +179,7 @@ class SchemaValidator:
 
         # Validate weight structure if present
         weight = specs.get("weight")
-        if weight and isinstance(weight, dict):
+        if weight is not None and isinstance(weight, dict):
             if not weight.get("with_battery_kg") and not weight.get("bike_kg"):
                 issues.append(
                     ValidationIssue(

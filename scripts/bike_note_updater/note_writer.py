@@ -49,8 +49,14 @@ class NoteWriter:
 
         # Validate if requested
         should_validate = validate if validate is not None else self.validate
-        if should_validate and self.validator:
-            validation = self.validator.validate_frontmatter(frontmatter)
+        if should_validate:
+            # Create validator if we don't have one
+            if self.validator is None:
+                validator = SchemaValidator()
+            else:
+                validator = self.validator
+
+            validation = validator.validate_frontmatter(frontmatter)
             if not validation.is_valid:
                 errors.extend([issue.message for issue in validation.issues])
                 return WriteResult(
