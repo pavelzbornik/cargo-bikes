@@ -1,16 +1,28 @@
 ---
-title: "Tern Orox"
+title: Tern Orox
 type: bike
-brand: "Tern"
-model: "Orox"
-tags: [bike, long-tail, tern, adventure-cargo]
-date: 2025-10-16
-price: "6799€ (S12) / 9300€ (R14)"
-motor: "85W"
-battery: "800Wh"
-range: "70km"
-url: "https://www.transitionvelo.com/produit/tern-orox/"
-image: "https://www.transitionvelo.com/content/uploads/2025/09/Test-Tern-Orox-4-1024x576.jpg"
+brand: Tern
+model: Orox
+tags:
+  - bike
+  - long-tail
+  - tern
+  - adventure-cargo
+date: "2025-10-20"
+price: 6799€ (S12) / 9300€ (R14)
+motor: 85W
+battery: 800Wh
+range: 70km
+url: https://www.transitionvelo.com/produit/tern-orox/
+image: https://www.transitionvelo.com/content/uploads/2025/09/Test-Tern-Orox-4-1024x576.jpg
+resellers:
+  - name: Cyclable
+    url: https://www.cyclable.com/18541-velo-cargo-tout-terrain-tern-orox-s12.html
+    price: 6799
+    currency: EUR
+    region: EU
+    availability: in-stock
+    note: ""
 ---
 
 ## Tern Orox

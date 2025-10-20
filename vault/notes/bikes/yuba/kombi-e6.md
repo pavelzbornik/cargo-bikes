@@ -1,33 +1,47 @@
 ---
-title: "Kombi E6"
+title: Kombi E6
 type: bike
-brand: "Yuba"
-model: "Kombi E6"
-date: 2025-10-20
-tags: [bike, compact, yuba, shimano]
-url: "https://yubabikes.eu/product/kombi-e6/"
-image: "https://yubabikes.eu/wp-content/uploads/2024/12/Kombi-E6-Black-No-BG.png"
+brand: Yuba
+model: Kombi E6
+date: "2025-10-20"
+tags:
+  - bike
+  - compact
+  - yuba
+  - shimano
+url: https://yubabikes.eu/product/kombi-e6/
+image: https://yubabikes.eu/wp-content/uploads/2024/12/Kombi-E6-Black-No-BG.png
 specs:
-  category: "compact"
+  category: compact
   load_capacity:
     total_kg: 200
     passenger_count_excluding_rider: 1
   motor:
-    make: "Shimano"
-    model: "E6100"
-    type: "mid-drive"
+    make: Shimano
+    model: E6100
+    type: mid-drive
     power_w: 250
     torque_nm: 60
   battery:
     capacity_wh: 500
-    configuration: "single"
+    configuration: single
     removable: true
   range:
-    estimate_km: "60-100"
+    estimate_km: 60-100
   price:
     amount: 3349
-    currency: "EUR"
-  notes: "Premium compact electric cargo bike with Shimano E6100 motor (250W, 60Nm torque). Enhanced geometry and assist. Sourced from manufacturer specifications."
+    currency: EUR
+  notes:
+    Premium compact electric cargo bike with Shimano E6100 motor (250W, 60Nm
+    torque). Enhanced geometry and assist. Sourced from manufacturer specifications.
+resellers:
+  - name: Cyclable
+    url: https://www.cyclable.com/18285-velo-cargo-electrique-longtail-yuba-kombi-e6.html
+    price: 3349
+    currency: EUR
+    region: EU
+    availability: in-stock
+    note: ""
 ---
 
 ## Kombi E6

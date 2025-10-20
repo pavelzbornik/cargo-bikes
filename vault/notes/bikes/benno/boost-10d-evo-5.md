@@ -2,7 +2,7 @@
 title: "Benno Boost 10D EVO 5 500Wh"
 type: bike
 tags: [bike, longtail, benno]
-date: 2025-10-16
+date: 2025-10-20
 brand: "Benno Bikes"
 model: "Boost 10D EVO 5"
 url: "https://www.ovelo.fr/fr/velo-electrique-longtail/33072-boost-10d-evo-5-500wh.html"
@@ -11,6 +11,14 @@ price: "€3,206"
 motor: "250W"
 battery: "500Wh"
 range: "125km"
+resellers:
+  - name: "Decathlon France"
+    url: "https://www.decathlon.fr/p/velo-electrique-longtail-benno-boost-10d-evo-5-400wh-noir/_/R-p-366920"
+    price: 2399
+    currency: "EUR"
+    region: "EU"
+    availability: "in-stock"
+    note: "Available in multiple colors"
 ---
 
 ## Overview

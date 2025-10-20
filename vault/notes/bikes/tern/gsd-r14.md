@@ -1,16 +1,30 @@
 ---
-title: "Tern GSD R14"
+title: Tern GSD R14
 type: bike
-tags: [bike, cargo, compact, electric, tern, long-tail]
-date: 2025-10-16
-brand: "Tern"
-model: "GSD R14"
-url: "https://www.ternbicycles.com/en/bikes/473/gsd-r14"
-image: "https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_R14-gen3-iron_grey-profile-web.jpg.webp"
-price: "Contact dealer"
-motor: "85Nm Bosch Cargo Line"
-battery: "800Wh"
-range: "67-144km"
+tags:
+  - bike
+  - cargo
+  - compact
+  - electric
+  - tern
+  - long-tail
+date: "2025-10-20"
+brand: Tern
+model: GSD R14
+url: https://www.ternbicycles.com/en/bikes/473/gsd-r14
+image: https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_R14-gen3-iron_grey-profile-web.jpg.webp
+price: 10200
+motor: 85Nm Bosch Cargo Line
+battery: 800Wh
+range: 67-144km
+resellers:
+  - name: Cyclable
+    url: https://www.cyclable.com/18930-velo-cargo-electrique-tern-gsd-r14-2025.html
+    price: 10200
+    currency: EUR
+    region: EU
+    availability: in-stock
+    note: ""
 ---
 
 ## Overview

@@ -1,16 +1,37 @@
 ---
-title: "Tern GSD S10"
+title: Tern GSD S10
 type: bike
-tags: [bike, cargo, compact, electric, tern, long-tail]
-date: 2025-10-16
-brand: "Tern"
-model: "GSD S10"
-url: "https://www.ternbicycles.com/en/bikes/473/gsd-s10"
-image: "https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_S10-gen3-beetle-profile-web_0.jpg.webp"
-price: "Contact dealer"
-motor: "85Nm Bosch Cargo Line"
-battery: "545Wh"
-range: "45-196km"
+tags:
+  - bike
+  - cargo
+  - compact
+  - electric
+  - tern
+  - long-tail
+date: "2025-10-20"
+brand: Tern
+model: GSD S10
+url: https://www.ternbicycles.com/en/bikes/473/gsd-s10
+image: https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_S10-gen3-beetle-profile-web_0.jpg.webp
+price: 5999
+motor: 85Nm Bosch Cargo Line
+battery: 545Wh
+range: 45-196km
+resellers:
+  - name: Cyclable
+    url: https://www.cyclable.com/17540-velo-cargo-electrique-longtail-tern-gsd-lx.html
+    price: 5999
+    currency: EUR
+    region: EU
+    availability: in-stock
+    note: ""
+  - name: "Decathlon France"
+    url: "https://www.decathlon.fr/p/velo-cargo-electrique-longtail-tern-gsd-s10-noir/_/R-p-390844"
+    price: 4299
+    currency: "EUR"
+    region: "EU"
+    availability: "in-stock"
+    note: ""
 ---
 
 ## Overview

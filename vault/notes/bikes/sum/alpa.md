@@ -2,7 +2,7 @@
 title: "VÉLO CARGO LONG TILE ALPA"
 type: bike
 tags: [bike, cargo, longtail, electric, sum]
-date: 2025-10-16
+date: 2025-10-20
 brand: "SUM"
 model: "ALPA"
 url: "https://www.decathlon.fr/"
@@ -11,6 +11,14 @@ price: "€2,999"
 motor: ""
 battery: ""
 range: ""
+resellers:
+  - name: "Decathlon France"
+    url: "https://www.decathlon.fr/p/velo-cargo-electrique-longtail-sum-alpa-gris/_/R-p-338001"
+    price: 2999
+    currency: "EUR"
+    region: "EU"
+    availability: "in-stock"
+    note: ""
 ---
 
 ## Overview

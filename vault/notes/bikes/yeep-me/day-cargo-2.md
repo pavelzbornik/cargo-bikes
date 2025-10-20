@@ -2,7 +2,7 @@
 title: "Day Cargo 2"
 type: bike
 tags: [bike, longtail, cargo, electric, yeep-me]
-date: 2025-10-16
+date: 2025-10-20
 brand: "YEEP.ME"
 model: "Day Cargo 2"
 url: "https://www.decathlon.fr/"
@@ -11,6 +11,14 @@ price: "€2,290 - €2,790"
 motor: "250W"
 battery: "500Wh"
 range: "120-150km"
+resellers:
+  - name: "Decathlon France"
+    url: "https://www.decathlon.fr/p/velo-electrique-longtail-yeepme-day-cargo-2-500wh-noir/_/R-p-338046"
+    price: null
+    currency: "EUR"
+    region: "EU"
+    availability: "in-stock"
+    note: "Price not displayed on Decathlon listing; available in multiple variants (Day Cargo 2, Day Cargo 2 LR)"
 ---
 
 ## Overview

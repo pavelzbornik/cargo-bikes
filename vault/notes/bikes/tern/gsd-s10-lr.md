@@ -1,16 +1,29 @@
 ---
-title: "Tern GSD S10 LR"
+title: Tern GSD S10 LR
 type: bike
-tags: [bike, longtail, compact, electric, tern]
-date: 2025-10-16
-brand: "Tern"
-model: "GSD S10 LR"
-url: "https://www.ternbicycles.com/"
+tags:
+  - bike
+  - longtail
+  - compact
+  - electric
+  - tern
+date: "2025-10-20"
+brand: Tern
+model: GSD S10 LR
+url: https://www.ternbicycles.com/
 image: ""
-price: "5999€"
-motor: "85Nm Bosch Cargo Line"
-battery: "400Wh"
-range: "90km"
+price: 5999€
+motor: 85Nm Bosch Cargo Line
+battery: 400Wh
+range: 90km
+resellers:
+  - name: Cyclable
+    url: https://www.cyclable.com/16877-velo-cargo-electrique-tern-gsd-s10-lr.html
+    price: 5599
+    currency: EUR
+    region: EU
+    availability: in-stock
+    note: ""
 ---
 
 ## Overview

@@ -1,16 +1,28 @@
 ---
-title: "Cannondale Cargowagen Neo 2"
+title: Cannondale Cargowagen Neo 2
 type: bike
-brand: "Cannondale"
-model: "Cargowagen Neo 2"
-tags: [bike, e-cargo, long-tail, cannondale]
-date: 2025-10-16
-price: "€4,699"
-motor: "250W"
-battery: "545Wh"
-range: "N/A"
-url: "https://www.cannondale.com/fr-be/bikes/electric/e-cargo/cargowagen-neo/cargowagen-neo-2"
-image: "https://embed.widencdn.net/img/dorelrl/4tnqi8gv0k/100px@1x/C23_C67253U_Cargowagen_Neo_2_GRY_PD.jpg"
+brand: Cannondale
+model: Cargowagen Neo 2
+tags:
+  - bike
+  - e-cargo
+  - long-tail
+  - cannondale
+date: "2025-10-20"
+price: €4,699
+motor: 250W
+battery: 545Wh
+range: N/A
+url: https://www.cannondale.com/fr-be/bikes/electric/e-cargo/cargowagen-neo/cargowagen-neo-2
+image: https://embed.widencdn.net/img/dorelrl/4tnqi8gv0k/100px@1x/C23_C67253U_Cargowagen_Neo_2_GRY_PD.jpg
+resellers:
+  - name: Cyclable
+    url: https://www.cyclable.com/18955-velo-cargo-electrique-cannondale-cargowagen-neo-2.html
+    price: 4699
+    currency: EUR
+    region: EU
+    availability: in-stock
+    note: ""
 ---
 
 ## Cannondale Cargowagen Neo 2

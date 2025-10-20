@@ -2,7 +2,7 @@
 title: "Benno eJoy E"
 type: bike
 tags: [bike, longtail, cargo, electric, benno]
-date: 2025-10-16
+date: 2025-10-20
 brand: "Benno Bikes"
 model: "eJoy E"
 url: "https://bennobikes.com/e-bikes/ejoy/"
@@ -11,6 +11,14 @@ price: "€1,799"
 motor: "400W"
 battery: "400Wh"
 range: ""
+resellers:
+  - name: "Decathlon France"
+    url: "https://www.decathlon.fr/p/velo-electrique-longtail-benno-ejoy-e-400wh-noir/_/R-p-366913"
+    price: 1799
+    currency: "EUR"
+    region: "EU"
+    availability: "in-stock"
+    note: ""
 ---
 
 ## Overview

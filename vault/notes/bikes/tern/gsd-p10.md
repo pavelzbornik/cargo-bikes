@@ -1,16 +1,30 @@
 ---
-title: "Tern GSD P10"
+title: Tern GSD P10
 type: bike
-tags: [bike, cargo, compact, electric, tern, long-tail]
-date: 2025-10-16
-brand: "Tern"
-model: "GSD P10"
-url: "https://www.ternbicycles.com/en/bikes/473/gsd-p10"
-image: "https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_P10-gen3-satin-beige-profile-web.jpg.webp"
-price: "Contact dealer"
-motor: "85Nm Bosch Cargo Line"
-battery: "545Wh"
-range: "45-196km"
+tags:
+  - bike
+  - cargo
+  - compact
+  - electric
+  - tern
+  - long-tail
+date: "2025-10-20"
+brand: Tern
+model: GSD P10
+url: https://www.ternbicycles.com/en/bikes/473/gsd-p10
+image: https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_P10-gen3-satin-beige-profile-web.jpg.webp
+price: 5800
+motor: 85Nm Bosch Cargo Line
+battery: 545Wh
+range: 45-196km
+resellers:
+  - name: Cyclable
+    url: https://www.cyclable.com/18931-velo-cargo-electrique-tern-gsd-p10-2025.html
+    price: 5800
+    currency: EUR
+    region: EU
+    availability: in-stock
+    note: ""
 ---
 
 ## Overview

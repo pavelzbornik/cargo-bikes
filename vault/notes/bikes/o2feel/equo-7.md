@@ -1,16 +1,30 @@
 ---
-title: "O2Feel Equo 7"
+title: O2Feel Equo 7
 type: bike
-tags: [bike, longtail, cargo, e-bike, o2feel, top-cargo-bike]
-date: 2025-10-16
-brand: "O2Feel"
-model: "Equo 7"
-url: "https://www.o2feel.com/en/product/equo-7/"
-image: "https://www.o2feel.com/wp-content/uploads/2023/11/Equo-7-S2-1-Figaro-BP-1200x1200-1-800x800.jpg"
-price: "€4,799"
-motor: "Shimano STEPS EP6 Cargo"
-battery: "540Wh - 835Wh"
-range: "230km"
+tags:
+  - bike
+  - longtail
+  - cargo
+  - e-bike
+  - o2feel
+  - top-cargo-bike
+date: "2025-10-20"
+brand: O2Feel
+model: Equo 7
+url: https://www.o2feel.com/en/product/equo-7/
+image: https://www.o2feel.com/wp-content/uploads/2023/11/Equo-7-S2-1-Figaro-BP-1200x1200-1-800x800.jpg
+price: €4,799
+motor: Shimano STEPS EP6 Cargo
+battery: 540Wh - 835Wh
+range: 230km
+resellers:
+  - name: Cyclable
+    url: https://www.cyclable.com/18880-velo-cargo-electrique-o2feel-equo-7.html
+    price: 4599
+    currency: EUR
+    region: EU
+    availability: in-stock
+    note: ""
 ---
 
 ## Overview

@@ -1,16 +1,32 @@
 ---
-title: "Quick Haul Long D9"
+title: Quick Haul Long D9
 type: bike
-tags: [bike, cargo, tern, e-bike, electric, family, bosch, longtail]
-date: 2025-10-16
-brand: "Tern"
-model: "Quick Haul Long D9"
-url: "https://www.ternbicycles.com/en/bikes/471/quick-haul-long-d9"
-image: "https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2024-06/TN-photo-QuickHaulLong-D9-gen1-LR-profile-traffic_red-web.jpg.webp"
-price: "Contact dealer"
-motor: "Bosch Cargo Line 85 Nm"
-battery: "400 Wh"
-range: "42-85 km"
+tags:
+  - bike
+  - cargo
+  - tern
+  - e-bike
+  - electric
+  - family
+  - bosch
+  - longtail
+date: "2025-10-20"
+brand: Tern
+model: Quick Haul Long D9
+url: https://www.ternbicycles.com/en/bikes/471/quick-haul-long-d9
+image: https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2024-06/TN-photo-QuickHaulLong-D9-gen1-LR-profile-traffic_red-web.jpg.webp
+price: 3999
+motor: Bosch Cargo Line 85 Nm
+battery: 400 Wh
+range: 42-85 km
+resellers:
+  - name: Cyclable
+    url: https://www.cyclable.com/18602-velo-cargo-electrique-tern-quick-haul-long-d9.html
+    price: 3999
+    currency: EUR
+    region: EU
+    availability: in-stock
+    note: ""
 ---
 
 ## Overview

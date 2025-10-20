@@ -2,7 +2,7 @@
 title: "U-Cargo Family"
 type: bike
 tags: [bike, cargo, family, electric, addbike]
-date: 2025-10-16
+date: 2025-10-20
 brand: "ADDBIKE"
 model: "U-Cargo Family"
 url: "https://add-bike.com/en/u-cargo/"
@@ -11,6 +11,14 @@ price: "€3,715"
 motor: ""
 battery: ""
 range: ""
+resellers:
+  - name: "Decathlon France"
+    url: "https://www.decathlon.fr/p/velo-cargo-electrique-biporteur-addbike-u-cargo-family-blanc/_/R-p-377395"
+    price: 3715
+    currency: "EUR"
+    region: "EU"
+    availability: "in-stock"
+    note: "Available in multiple colors (white, green, blue, red)"
 ---
 
 ## Overview

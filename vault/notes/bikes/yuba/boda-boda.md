@@ -1,14 +1,18 @@
 ---
-title: "Boda Boda"
+title: Boda Boda
 type: bike
-brand: "Yuba"
-model: "Boda Boda"
-date: 2025-10-16
-tags: [bike, longtail, yuba, bosch]
-url: "https://yubabikes.eu/product/boda-boda/"
-image: "https://yubabikes.eu/wp-content/uploads/2024/10/Boda-Boda-No-BG.png"
+brand: Yuba
+model: Boda Boda
+date: "2025-10-20"
+tags:
+  - bike
+  - longtail
+  - yuba
+  - bosch
+url: https://yubabikes.eu/product/boda-boda/
+image: https://yubabikes.eu/wp-content/uploads/2024/10/Boda-Boda-No-BG.png
 specs:
-  category: "longtail"
+  category: longtail
   model_year: 2025
   weight:
     with_battery_kg: 34
@@ -16,38 +20,48 @@ specs:
     total_kg: 200
     passenger_count_excluding_rider: 2
   motor:
-    make: "Bosch"
-    model: "Cargo Line"
-    type: "mid-drive"
+    make: Bosch
+    model: Cargo Line
+    type: mid-drive
     power_w: 500
     torque_nm: 85
   battery:
     capacity_wh: 500
-    configuration: "single"
+    configuration: single
     removable: true
   drivetrain:
-    type: "chain"
+    type: chain
     speeds: 10
-    hub: "Shimano Cues"
+    hub: Shimano Cues
   brakes:
-    type: "hydraulic disc"
+    type: hydraulic disc
     front_rotor_mm: 180
     rear_rotor_mm: 180
-    pistons: "4-piston front, 2-piston rear"
+    pistons: 4-piston front, 2-piston rear
   wheels:
-    front_size_in: '26"'
-    rear_size_in: '26"'
-    tire: "Schwalbe Pick-Up 60mm"
+    front_size_in: 26"
+    rear_size_in: 26"
+    tire: Schwalbe Pick-Up 60mm
   suspension:
-    front: "SR Suntour Mobie 25 (80mm travel)"
-    rear: "none"
+    front: SR Suntour Mobie 25 (80mm travel)
+    rear: none
   range:
-    estimate_km: "45-55"
-    notes: "45km Turbo mode, 55km mixed efficiency modes"
+    estimate_km: 45-55
+    notes: 45km Turbo mode, 55km mixed efficiency modes
   price:
     amount: 4849
-    currency: "EUR"
-  notes: "Migrated from legacy format. 26-inch wheels unique for cargo longtails. Bosch Cargo Line with Stay Steady Technology frame."
+    currency: EUR
+  notes:
+    Migrated from legacy format. 26-inch wheels unique for cargo longtails. Bosch
+    Cargo Line with Stay Steady Technology frame.
+resellers:
+  - name: Cyclable
+    url: https://www.cyclable.com/18603-velo-cargo-electrique-yuba-boda-boda.html
+    price: 4849
+    currency: EUR
+    region: EU
+    availability: in-stock
+    note: ""
 ---
 
 ## Boda Boda

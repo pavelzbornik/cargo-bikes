@@ -1,16 +1,29 @@
 ---
-title: "O2Feel Equo 3"
+title: O2Feel Equo 3
 type: bike
-tags: [bike, longtail, cargo, e-bike, o2feel]
-date: 2025-10-16
-brand: "O2Feel"
-model: "Equo 3"
-url: "https://www.o2feel.com/en/product/equo-3/"
-image: "https://www.o2feel.com/wp-content/uploads/2021/06/Equo-3-1-BP-1200x1200-1-800x800.jpg"
-price: "€3,699"
-motor: "Shimano E6100 Cargo"
-battery: "432Wh - 720Wh"
-range: "230km"
+tags:
+  - bike
+  - longtail
+  - cargo
+  - e-bike
+  - o2feel
+date: "2025-10-20"
+brand: O2Feel
+model: Equo 3
+url: https://www.o2feel.com/en/product/equo-3/
+image: https://www.o2feel.com/wp-content/uploads/2021/06/Equo-3-1-BP-1200x1200-1-800x800.jpg
+price: €3,699
+motor: Shimano E6100 Cargo
+battery: 432Wh - 720Wh
+range: 230km
+resellers:
+  - name: Cyclable
+    url: https://www.cyclable.com/17290-velo-cargo-electrique-o2feel-equo-3.html
+    price: 3599
+    currency: EUR
+    region: EU
+    availability: in-stock
+    note: ""
 ---
 
 ## Overview

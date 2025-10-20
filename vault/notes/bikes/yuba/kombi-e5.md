@@ -1,33 +1,47 @@
 ---
-title: "Kombi E5"
+title: Kombi E5
 type: bike
-brand: "Yuba"
-model: "Kombi E5"
-date: 2025-10-20
-tags: [bike, compact, yuba, shimano]
-url: "https://yubabikes.eu/product/kombi-e5/"
-image: "https://yubabikes.eu/wp-content/uploads/2024/12/Kombi-E5-Orange-No-BG.png"
+brand: Yuba
+model: Kombi E5
+date: "2025-10-20"
+tags:
+  - bike
+  - compact
+  - yuba
+  - shimano
+url: https://yubabikes.eu/product/kombi-e5/
+image: https://yubabikes.eu/wp-content/uploads/2024/12/Kombi-E5-Orange-No-BG.png
 specs:
-  category: "compact"
+  category: compact
   load_capacity:
     total_kg: 200
     passenger_count_excluding_rider: 1
   motor:
-    make: "Shimano"
-    model: "E5000"
-    type: "mid-drive"
+    make: Shimano
+    model: E5000
+    type: mid-drive
     power_w: 250
     torque_nm: 40
   battery:
     capacity_wh: 500
-    configuration: "single"
+    configuration: single
     removable: true
   range:
-    estimate_km: "50-80"
+    estimate_km: 50-80
   price:
     amount: 2599
-    currency: "EUR"
-  notes: "Affordable compact electric cargo bike with Shimano E5000 motor (250W, 40Nm). Lightweight and smooth. Sourced from manufacturer specifications."
+    currency: EUR
+  notes:
+    Affordable compact electric cargo bike with Shimano E5000 motor (250W, 40Nm).
+    Lightweight and smooth. Sourced from manufacturer specifications.
+resellers:
+  - name: Cyclable
+    url: https://www.cyclable.com/18292-velo-cargo-electrique-longtail-yuba-kombi-e5.html
+    price: 2999
+    currency: EUR
+    region: EU
+    availability: in-stock
+    note: ""
 ---
 
 ## Kombi E5

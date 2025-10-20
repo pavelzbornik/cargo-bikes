@@ -1,16 +1,30 @@
 ---
-title: "O2Feel Equo 5 Adventure"
+title: O2Feel Equo 5 Adventure
 type: bike
-tags: [bike, longtail, adventure, e-bike, o2feel, all-terrain]
-date: 2025-10-16
-brand: "O2Feel"
-model: "Equo 5 Adventure"
-url: "https://www.o2feel.com/en/product/equo-5-adventure/"
-image: "https://www.o2feel.com/wp-content/uploads/2023/10/Equo-5-Adventure-S2-1-BP-1200x1200-1-800x800.jpg"
-price: "€4,399"
-motor: "Shimano STEPS EP6 Cargo"
-battery: "540Wh - 835Wh"
-range: "230km"
+tags:
+  - bike
+  - longtail
+  - adventure
+  - e-bike
+  - o2feel
+  - all-terrain
+date: "2025-10-20"
+brand: O2Feel
+model: Equo 5 Adventure
+url: https://www.o2feel.com/en/product/equo-5-adventure/
+image: https://www.o2feel.com/wp-content/uploads/2023/10/Equo-5-Adventure-S2-1-BP-1200x1200-1-800x800.jpg
+price: €4,399
+motor: Shimano STEPS EP6 Cargo
+battery: 540Wh - 835Wh
+range: 230km
+resellers:
+  - name: Cyclable
+    url: https://www.cyclable.com/18555-velo-cargo-2lectrique-o2feel-equo-5-adventure.html
+    price: 4999
+    currency: EUR
+    region: EU
+    availability: in-stock
+    note: ""
 ---
 
 ## Overview
