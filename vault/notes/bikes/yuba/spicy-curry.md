@@ -39,7 +39,7 @@ specs:
   wheels:
     front_size_in: 26"
     rear_size_in: 20"
-    tire: Schwalbe Pick Up 26x2.35
+    tire: Schwalbe Pick-Up
   suspension:
     front: none
     rear: none
@@ -52,6 +52,10 @@ specs:
   notes:
     Migrated from legacy format. Bosch Cargo Line system with Stay Steady Technology
     frame.
+  frame:
+    material: aluminum
+    dimensions:
+      length_cm: 210
 resellers:
   - name: Cyclable
     url: https://www.cyclable.com/18411-velo-cargo-longtail-yuba-spicy-curry-.html

@@ -2,7 +2,7 @@
 title: "Moustache Lundi 20"
 type: bike
 tags: [bike, longtail, electric, moustache, french]
-date: 2025-10-16
+date: 2025-10-20
 brand: "Moustache"
 model: "Lundi 20.3"
 url: "https://moustachebikes.com/fr/velos-electriques/lundi-20-cargo/lundi-20-cargo-3/"
@@ -11,6 +11,28 @@ price: "4499€"
 motor: "85Nm Bosch Cargo Line"
 battery: "500Wh"
 range: "100km"
+resellers:
+  - name: "Roulez Jeunesse"
+    url: "https://shop.roulezjeunesse.com/collections/pour-les-familles/products/moustache-lundi-20-cargo-1"
+    price: 3999
+    currency: "EUR"
+    region: "EU"
+    availability: "in-stock"
+    note: ""
+  - name: "Roulez Jeunesse"
+    url: "https://shop.roulezjeunesse.com/collections/pour-les-familles/products/moustache-lundi-20-cargo-3"
+    price: 4699
+    currency: "EUR"
+    region: "EU"
+    availability: "in-stock"
+    note: ""
+  - name: "Roulez Jeunesse"
+    url: "https://shop.roulezjeunesse.com/collections/pour-les-familles/products/moustache-lundi-20-cargo-5"
+    price: 5599
+    currency: "EUR"
+    region: "EU"
+    availability: "in-stock"
+    note: ""
 ---
 
 ## Overview

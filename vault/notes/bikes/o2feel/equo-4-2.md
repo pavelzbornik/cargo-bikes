@@ -1,16 +1,42 @@
 ---
-title: "O2Feel Equo 4.2"
+title: O2Feel Equo 4.2
 type: bike
-tags: [bike, longtail, cargo, e-bike, o2feel]
+tags:
+  - bike
+  - longtail
+  - cargo
+  - e-bike
+  - o2feel
 date: 2025-10-16
-brand: "O2Feel"
-model: "Equo 4.2"
-url: "https://www.o2feel.com/en/product/equo-4-2/"
-image: "https://www.o2feel.com/wp-content/uploads/2022/11/Equo-4.2-1-BP-1200x1200-1-800x800.jpg"
-price: "€4,199"
-motor: "Shimano STEPS EP801 Cargo"
-battery: "540Wh - 835Wh"
-range: "230km"
+brand: O2Feel
+model: Equo 4.2
+url: https://www.o2feel.com/en/product/equo-4-2/
+image: https://www.o2feel.com/wp-content/uploads/2022/11/Equo-4.2-1-BP-1200x1200-1-800x800.jpg
+price: €4,199
+motor: Shimano STEPS EP801 Cargo
+battery: 540Wh - 835Wh
+range: 230km
+specs:
+  frame:
+    material: aluminum
+    dimensions:
+      length_cm: 195
+  weight:
+    with_battery_kg: 30
+  load_capacity:
+    total_kg: 180
+    passenger_count_excluding_rider: 2
+  wheels:
+    front_size_in: 26"
+    rear_size_in: 20"
+    tire: Schwalbe Pick-Up Perf
+  brakes:
+    type: hydraulic disc
+  drivetrain:
+    type: chain
+  suspension:
+    front: none
+    rear: none
 ---
 
 ## Overview

@@ -1,24 +1,48 @@
 ---
-title: "Benno Boost 10D EVO 5 500Wh"
+title: Benno Boost 10D EVO 5 500Wh
 type: bike
-tags: [bike, longtail, benno]
+tags:
+  - bike
+  - longtail
+  - benno
 date: 2025-10-20
-brand: "Benno Bikes"
-model: "Boost 10D EVO 5"
-url: "https://www.ovelo.fr/fr/velo-electrique-longtail/33072-boost-10d-evo-5-500wh.html"
-image: "https://www.ovelo.fr/46051-thickbox_default/-boost-10d-evo-5-500wh.jpg"
-price: "€3,206"
-motor: "250W"
-battery: "500Wh"
-range: "125km"
+brand: Benno Bikes
+model: Boost 10D EVO 5
+url: https://www.ovelo.fr/fr/velo-electrique-longtail/33072-boost-10d-evo-5-500wh.html
+image: https://www.ovelo.fr/46051-thickbox_default/-boost-10d-evo-5-500wh.jpg
+price: €3,206
+motor: 250W
+battery: 500Wh
+range: 125km
 resellers:
-  - name: "Decathlon France"
-    url: "https://www.decathlon.fr/p/velo-electrique-longtail-benno-boost-10d-evo-5-400wh-noir/_/R-p-366920"
+  - name: Decathlon France
+    url: https://www.decathlon.fr/p/velo-electrique-longtail-benno-boost-10d-evo-5-400wh-noir/_/R-p-366920
     price: 2399
-    currency: "EUR"
-    region: "EU"
-    availability: "in-stock"
-    note: "Available in multiple colors"
+    currency: EUR
+    region: EU
+    availability: in-stock
+    note: Available in multiple colors
+specs:
+  frame:
+    material: aluminum
+    dimensions:
+      length_cm: 188
+  weight:
+    with_battery_kg: 26
+  load_capacity:
+    total_kg: 200
+    passenger_count_excluding_rider: 2
+  wheels:
+    front_size_in: 24"
+    rear_size_in: 24"
+    tire: Benno Dual Sport
+  brakes:
+    type: hydraulic disc
+  drivetrain:
+    type: chain
+  suspension:
+    front: none
+    rear: none
 ---
 
 ## Overview

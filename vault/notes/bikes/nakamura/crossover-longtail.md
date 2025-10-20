@@ -1,50 +1,60 @@
 ---
-title: "Nakamura Crossover Longtail"
+title: Nakamura Crossover Longtail
 type: bike
-brand: "Nakamura"
-model: "Crossover Longtail"
-tags: [bike, long-tail, electric, nakamura, cargo]
+brand: Nakamura
+model: Crossover Longtail
+tags:
+  - bike
+  - long-tail
+  - electric
+  - nakamura
+  - cargo
 date: 2025-10-16
-price: "€3000"
-motor: "100Nm"
-battery: "770Wh (520Wh + 250Wh)"
-range: "50km"
-url: "https://www.transitionvelo.com/produit/nakamura-cargo-longtail/"
-image: "https://www.transitionvelo.com/content/uploads/2024/02/Nakamura-Crossover-Longtail-entier-2-1024x576.jpg"
+price: €3000
+motor: 100Nm
+battery: 770Wh (520Wh + 250Wh)
+range: 50km
+url: https://www.transitionvelo.com/produit/nakamura-cargo-longtail/
+image: https://www.transitionvelo.com/content/uploads/2024/02/Nakamura-Crossover-Longtail-entier-2-1024x576.jpg
 specs:
-  category: "longtail"
+  category: longtail
   frame:
-    material: "aluminum"
-    size: "single"
+    material: aluminum
+    size: single
+    dimensions:
+      length_cm: 220
   weight:
     bike_kg: 44
-    with_battery_kg: 44
+    with_battery_kg: 44.3
   load_capacity:
     total_kg: 170
     rear_kg: 80
   motor:
-    make: "Naka E-Power Max (Ananda M100)"
-    type: "mid-drive"
+    make: Naka E-Power Max (Ananda M100)
+    type: mid-drive
     torque_nm: 100
   battery:
     capacity_wh: 770
-    configuration: "dual (520+250)"
+    configuration: dual (520+250)
     removable: true
   drivetrain:
-    type: "chain"
-    speeds: "9-speed"
+    type: chain
+    speeds: 9-speed
   brakes:
-    type: "hydraulic disc 4-piston"
+    type: hydraulic disc
     front_rotor_mm: 200
     rear_rotor_mm: 180
   wheels:
-    front_size_in: '27.5"'
-    rear_size_in: '24"'
-    tire: 'balloon tires 2.8"'
+    front_size_in: 27.5"
+    rear_size_in: 24"
+    tire: Schwalbe Super Moto-X
   suspension:
-    front: "120mm telescopic fork"
-    rear: "rigid"
-  features: ["direction-damper", "telescopic-seatpost", "dual-battery"]
+    front: none
+    rear: rigid
+  features:
+    - direction-damper
+    - telescopic-seatpost
+    - dual-battery
   security:
     gps: false
     app_lock: true
@@ -52,9 +62,9 @@ specs:
     estimate_km: 50
   price:
     amount: "3000"
-    currency: "EUR"
-  url: "https://www.transitionvelo.com/produit/nakamura-cargo-longtail/"
-  image: "https://www.transitionvelo.com/content/uploads/2024/02/Nakamura-Crossover-Longtail-entier-2-1024x576.jpg"
+    currency: EUR
+  url: https://www.transitionvelo.com/produit/nakamura-cargo-longtail/
+  image: https://www.transitionvelo.com/content/uploads/2024/02/Nakamura-Crossover-Longtail-entier-2-1024x576.jpg
 ---
 
 ## Nakamura Crossover Longtail

@@ -1,16 +1,40 @@
 ---
-title: "Cube Longtail Hybrid 1350"
+title: Cube Longtail Hybrid 1350
 type: bike
-tags: [bike, longtail, cube]
+tags:
+  - bike
+  - longtail
+  - cube
 date: 2025-10-16
-brand: "Cube"
-model: "Longtail Hybrid"
-url: "https://www.ovelo.fr/fr/velo-electrique-longtail/33836-longtail-hybrid-1350-4054571446589.html"
-image: "https://www.ovelo.fr/47057-thickbox_default/longtail-hybrid-1350.jpg"
-price: "€4,949.10"
-motor: "250W"
-battery: "1350Wh"
-range: "340km"
+brand: Cube
+model: Longtail Hybrid
+url: https://www.ovelo.fr/fr/velo-electrique-longtail/33836-longtail-hybrid-1350-4054571446589.html
+image: https://www.ovelo.fr/47057-thickbox_default/longtail-hybrid-1350.jpg
+price: €4,949.10
+motor: 250W
+battery: 1350Wh
+range: 340km
+specs:
+  frame:
+    material: aluminum
+    dimensions:
+      length_cm: 195
+  weight:
+    with_battery_kg: 39.4
+  load_capacity:
+    total_kg: 200
+    passenger_count_excluding_rider: 2
+  wheels:
+    front_size_in: 26"
+    rear_size_in: 26"
+    tire: Schwalbe Pick-Up Perf
+  brakes:
+    type: hydraulic disc
+  drivetrain:
+    type: belt
+  suspension:
+    front: "yes"
+    rear: none
 ---
 
 ## Overview

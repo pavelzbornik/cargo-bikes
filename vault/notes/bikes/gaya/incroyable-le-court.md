@@ -7,6 +7,14 @@ date: 2025-10-20
 tags: [bike, short-tail, gaya, premium]
 url: "https://gaya.bike/velo-cargo/incroyable-le-court"
 image: "https://gaya.bike/api/medias/api/images/file/Incroyable%20-%20Le%20Court%20-%20Ardoise%20-%20Color%20Swatcher%20Cropped-1000x663.webp"
+resellers:
+  - name: "Roulez Jeunesse"
+    url: "https://shop.roulezjeunesse.com/collections/pour-les-familles/products/gaya-lincroyable-le-court"
+    price: 3200
+    currency: "EUR"
+    region: "EU"
+    availability: "in-stock"
+    note: ""
 specs:
   category: "short-tail"
   frame:

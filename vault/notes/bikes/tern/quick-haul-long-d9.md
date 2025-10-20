@@ -27,6 +27,27 @@ resellers:
     region: EU
     availability: in-stock
     note: ""
+specs:
+  frame:
+    material: aluminum
+    dimensions:
+      length_cm: 186
+  weight:
+    with_battery_kg: 29
+  load_capacity:
+    total_kg: 190
+    passenger_count_excluding_rider: 2
+  wheels:
+    front_size_in: 20"
+    rear_size_in: 20"
+    tire: Schwalbe Pick Up
+  brakes:
+    type: hydraulic disc
+  drivetrain:
+    type: chain
+  suspension:
+    front: "yes"
+    rear: none
 ---
 
 ## Overview

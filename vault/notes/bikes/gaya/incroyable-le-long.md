@@ -7,6 +7,14 @@ date: 2025-10-20
 tags: [bike, long-tail, gaya, premium]
 url: "https://gaya.bike/velo-cargo/incroyable-le-long"
 image: "https://gaya.bike/api/medias/api/images/file/L'Incroyable,%20Le%20Long%20-%20Amande%201080x720-1000x667.webp"
+resellers:
+  - name: "Roulez Jeunesse"
+    url: "https://shop.roulezjeunesse.com/collections/pour-les-familles/products/gaya-lincroyable-le-long"
+    price: 3700
+    currency: "EUR"
+    region: "EU"
+    availability: "in-stock"
+    note: ""
 specs:
   category: "long-tail"
   frame:
