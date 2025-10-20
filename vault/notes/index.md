@@ -59,5 +59,5 @@ Please visit our [GitHub repository](https://github.com/pavelzbornik/cargo-bikes
 
 ---
 
-**Last updated:** October 2025  
+**Last updated:** October 2025
 **Repository:** [github.com/pavelzbornik/cargo-bikes](https://github.com/pavelzbornik/cargo-bikes)

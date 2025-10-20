@@ -1,6 +1,25 @@
 repos:
-  # Python linting and code quality
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0 # Use the latest tag from the repository
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-added-large-files
+      - id: detect-private-key
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.37.1
+    hooks:
+      - id: yamllint
+        args: ["-d {extends: relaxed, rules: {line-length: disable}}", "-s"]
+        files: \.(yaml|yml)$
+  - repo: https://github.com/google/yamlfmt
+    rev: v0.19.0
+    hooks:
+      - id: yamlfmt
   - repo: https://github.com/astral-sh/ruff-pre-commit
+    # Python linting and code quality
+
     rev: v0.14.1
     hooks:
       - id: ruff
@@ -10,9 +29,9 @@ repos:
       - id: ruff-format
         name: ruff-format
         types: [python]
-
-  # Markdown linting and formatting
   - repo: https://github.com/igorshubovych/markdownlint-cli
+    # Markdown linting and formatting
+
     rev: v0.45.0
     hooks:
       - id: markdownlint
@@ -23,7 +42,6 @@ repos:
         files: \.(md|markdown)$
         pass_filenames: true
         additional_dependencies: []
-
   - repo: https://github.com/pre-commit/mirrors-prettier
     rev: v4.0.0-alpha.8
     hooks:
@@ -33,4 +51,3 @@ repos:
         language: node
         types: [markdown]
         files: \.(md|markdown)$
-

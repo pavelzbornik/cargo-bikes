@@ -564,6 +564,6 @@ The Quick Haul Long platform includes **20+ official accessories**, offering mod
 
 ---
 
-**Documentation Date:** October 16, 2025  
-**Information Source:** Official Tern Bicycles product page, specification sheet  
+**Documentation Date:** October 16, 2025
+**Information Source:** Official Tern Bicycles product page, specification sheet
 **Last Updated:** 2025-10-16

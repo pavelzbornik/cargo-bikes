@@ -1,0 +1,10 @@
+root = true
+
+# Top-most EditorConfig file
+[*.{py,md,yml,yaml,json,js,ts,css,html,sh,txt}]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+
+[*.{png,jpg,jpeg,gif,ico,zip}]
+binary = true

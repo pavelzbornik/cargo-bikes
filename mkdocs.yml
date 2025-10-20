@@ -3,7 +3,6 @@ site_description: A comprehensive knowledge base for cargo bikes, with focus on 
 site_url: https://pavelzbornik.github.io/cargo-bikes/
 repo_url: https://github.com/pavelzbornik/cargo-bikes
 edit_uri: edit/main/vault/notes/
-
 theme:
   name: material
   logo: assets/logo.svg
@@ -26,11 +25,9 @@ theme:
     - search.highlight
     - content.action.edit
     - content.tooltips
-
 plugins:
   - search
   - obsidian-bridge
-
 markdown_extensions:
   - meta
   - toc:
@@ -39,13 +36,12 @@ markdown_extensions:
   - attr_list
   - md_in_html
   # Obsidian-like features provided by mkdocs-obsidian-bridge
+
   - obsidian_media_mkdocs
   - obsidian_callouts
-
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/pavelzbornik/cargo-bikes
-
 docs_dir: vault/notes
 site_dir: site
