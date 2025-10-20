@@ -9,7 +9,7 @@ from scripts.generate_bike_table import (
     extract_frontmatter,
     format_table_cell,
     generate_bike_table,
-    update_readme,
+    update_file_with_table,
     validate_bike_frontmatter,
 )
 
@@ -142,7 +142,7 @@ class TestGenerateBikeTable:
                 "battery": "500Wh",
                 "range": "100km",
                 "image": "",
-                "file_path": "vault/notes/test/test-bike.md",
+                "file_path": "vault/notes/bikes/test/test-bike.md",
             }
         ]
         result = generate_bike_table(bikes)
@@ -152,6 +152,8 @@ class TestGenerateBikeTable:
         assert "€1,000" in result
         assert "250W" in result
         assert "[Test Bike]" in result
+        # With use_relative_links=False, should have full path
+        assert "vault/notes/bikes/test/test-bike.md" in result
 
     def test_generate_sorting(self):
         """Test that bikes are sorted by brand then title."""
@@ -164,7 +166,7 @@ class TestGenerateBikeTable:
                 "battery": "",
                 "range": "",
                 "image": "",
-                "file_path": "vault/notes/zebra/bike.md",
+                "file_path": "vault/notes/bikes/zebra/bike.md",
             },
             {
                 "title": "Alpha Bike",
@@ -174,7 +176,7 @@ class TestGenerateBikeTable:
                 "battery": "",
                 "range": "",
                 "image": "",
-                "file_path": "vault/notes/alpha/bike.md",
+                "file_path": "vault/notes/bikes/alpha/bike.md",
             },
             {
                 "title": "Beta Bike",
@@ -184,7 +186,7 @@ class TestGenerateBikeTable:
                 "battery": "",
                 "range": "",
                 "image": "",
-                "file_path": "vault/notes/alpha/bike2.md",
+                "file_path": "vault/notes/bikes/alpha/bike2.md",
             },
         ]
         result = generate_bike_table(bikes)
@@ -205,7 +207,7 @@ class TestGenerateBikeTable:
                 "battery": "",
                 "range": "",
                 "image": "https://example.com/image.jpg",
-                "file_path": "vault/notes/test/bike.md",
+                "file_path": "vault/notes/bikes/test/bike.md",
             }
         ]
         result = generate_bike_table(bikes)
@@ -222,11 +224,30 @@ class TestGenerateBikeTable:
                 "battery": "",
                 "range": "",
                 "image": "",
-                "file_path": "vault/notes/test/bike.md",
+                "file_path": "vault/notes/bikes/test/bike.md",
             }
         ]
         result = generate_bike_table(bikes)
         assert "| -- |" in result
+
+    def test_generate_with_relative_links(self):
+        """Test table generation with relative links for index.md."""
+        bikes = [
+            {
+                "title": "Test Bike",
+                "brand": "Brand",
+                "price": "",
+                "motor": "",
+                "battery": "",
+                "range": "",
+                "image": "",
+                "file_path": "vault/notes/bikes/test/bike.md",
+            }
+        ]
+        result = generate_bike_table(bikes, use_relative_links=True)
+        # With relative links, path should be bikes/test/bike.md
+        assert "bikes/test/bike.md" in result
+        assert "vault/notes/bikes/" not in result
 
 
 class TestUpdateReadme:
@@ -244,9 +265,7 @@ Old content
 End"""
             )
 
-            with patch("scripts.generate_bike_table.Path") as mock_path:
-                mock_path.return_value = readme_path
-                update_readme("## New Table\nContent")
+            update_file_with_table(readme_path, "## New Table\nContent")
 
             content = readme_path.read_text()
             assert "Old content" not in content
@@ -259,9 +278,7 @@ End"""
             readme_path = Path(tmpdir) / "README.md"
             readme_path.write_text("# Test\nOriginal content")
 
-            with patch("scripts.generate_bike_table.Path") as mock_path:
-                mock_path.return_value = readme_path
-                update_readme("## New Table")
+            update_file_with_table(readme_path, "## New Table")
 
             content = readme_path.read_text()
             assert "Original content" in content
@@ -271,18 +288,17 @@ End"""
 
     def test_update_readme_file_not_found(self, capsys):
         """Test handling when README file doesn't exist."""
-        with patch("scripts.generate_bike_table.Path") as mock_path:
-            mock_path.return_value.exists.return_value = False
-            update_readme("Content")
-            captured = capsys.readouterr()
-            assert "Error" in captured.out
+        readme_path = Path("/nonexistent/README.md")
+        update_file_with_table(readme_path, "Content")
+        captured = capsys.readouterr()
+        assert "Error" in captured.out
 
 
 class TestCollectBikes:
     """Test bike collection from markdown files."""
 
     def test_collect_bikes_directory_not_found(self, capsys):
-        """Test handling when vault/notes directory doesn't exist."""
+        """Test handling when vault/notes/bikes directory doesn't exist."""
         with patch("scripts.generate_bike_table.Path") as mock_path:
             mock_path.return_value.exists.return_value = False
             result = collect_bikes()

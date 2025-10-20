@@ -11,7 +11,7 @@ This repository is a public Obsidian vault for structured knowledge about cargo 
 - **Frameworks/runtimes:** Python for automation scripts
 - **Repo size:** Small; documentation, templates, and Python utilities
 - **Main directories:**
-  - `vault/notes/` (main content; bike documentation organized by brand)
+  - `vault/notes/bikes/` (main content; bike documentation organized by brand)
   - `vault/templates/` (Markdown templates for new notes)
   - `scripts/` (Python utilities for table generation and validation)
   - `tests/` (pytest test suite for Python scripts)
@@ -35,7 +35,7 @@ This repository is a public Obsidian vault for structured knowledge about cargo 
 #### Bike Table Generator
 
 - **Script:** `scripts/generate_bike_table.py`
-- **Purpose:** Automatically generates a comprehensive bike table in `README.md` by scanning all `vault/notes/*/*.md` files for YAML frontmatter.
+- **Purpose:** Automatically generates a comprehensive bike table in `README.md` by scanning all `vault/notes/bikes/*/*.md` files for YAML frontmatter.
 - **Usage:** `python scripts/generate_bike_table.py`
 - **Details:** See `docs/GENERATE_BIKE_TABLE.md` for complete documentation.
 - **Key features:**
@@ -72,7 +72,7 @@ This repository is a public Obsidian vault for structured knowledge about cargo 
 ### Manual Validation
 
 - Ensure all new or modified Markdown files start with a valid YAML frontmatter block as described in `vault/README.md` and `CONTRIBUTING.md`.
-- For bike pages, required frontmatter keys: `title`, `type: bike`, `tags` (see templates).
+- For bike pages, place files in `vault/notes/bikes/brand/` and include required frontmatter keys: `title`, `type: bike`, `tags` (see templates).
 - Optional but recommended frontmatter keys: `brand`, `model`, `price`, `motor`, `battery`, `range`, `image`, `url`.
 - Use ISO dates (YYYY-MM-DD) for the `date` field.
 - Use lower-case, hyphenated tags.
@@ -92,7 +92,9 @@ This repository is a public Obsidian vault for structured knowledge about cargo 
   - `.pre-commit-config.yaml`: Pre-commit hooks configuration for linting and formatting.
 - **vault/**
   - `README.md`: Vault structure and frontmatter conventions.
-  - `notes/`: Individual notes for bikes organized by brand (subdirectories).
+  - `notes/`: Individual notes organized by type:
+    - `bikes/`: Bike documentation organized by brand (subdirectories).
+    - Other content folders (future): Components, accessories, guides, etc.
   - `templates/`: Contains `bike-template.md` and `note-template.md` for new entries.
     - `bike-template.md`: Template for bike pages with required frontmatter and section headings.
     - `note-template.md`: Template for general notes with required frontmatter.

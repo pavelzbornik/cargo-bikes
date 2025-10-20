@@ -5,7 +5,7 @@
 `scripts/generate_bike_table.py` is a Python utility that automatically generates
 a comprehensive bike table for the cargo-bikes vault by:
 
-1. **Reading YAML frontmatter** from all `.md` files in `vault/notes/`
+1. **Reading YAML frontmatter** from all `.md` files in `vault/notes/bikes/`
 2. **Validating frontmatter** against required fields
 3. **Generating a Markdown table** with bike specifications and images
 4. **Updating the README.md** with the table (or inserting it if it doesn't exist)
@@ -27,7 +27,7 @@ python scripts/generate_bike_table.py
 
 The script will:
 
-- Scan all subdirectories in `vault/notes/` for `*.md` files
+- Scan all subdirectories in `vault/notes/bikes/` for `*.md` files
 - Extract YAML frontmatter from each file
 - Validate required fields: `title`, `type`, `tags`
 - Filter only entries with `type: bike`
@@ -178,7 +178,7 @@ Empty or missing values display as `--`
 
 ### Add a new bike
 
-1. Create `vault/notes/brand/bike-name.md`
+1. Create `vault/notes/bikes/brand/bike-name.md`
 2. Add required frontmatter: `title`, `type: bike`, `tags`
 3. Add optional fields: `brand`, `price`, `motor`, `battery`, `range`, `image`
 4. Run: `python scripts/generate_bike_table.py`
@@ -208,7 +208,7 @@ The script is configured to run automatically on commit when `.md` files change:
       name: Generate Bike Table
       entry: python scripts/generate_bike_table.py
       language: python
-      files: ^vault/notes/.*\.md$
+      files: ^vault/notes/bikes/.*\.md$
       stages: [commit]
       additional_dependencies: ["pyyaml"]
 ```

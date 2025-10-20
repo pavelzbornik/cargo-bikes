@@ -13,6 +13,7 @@ PR checklist
 1. One logical change per PR (add/modify a single note or template).
 2. Include sources for factual claims where possible (links in a References section).
 3. Validate that markdown renders and frontmatter is present.
+4. For bike notes, ensure files are placed in `vault/notes/bikes/brand/` directory.
 
 Style
 

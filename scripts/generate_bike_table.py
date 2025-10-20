@@ -44,15 +44,15 @@ def validate_bike_frontmatter(frontmatter: dict) -> bool:
 
 
 def collect_bikes() -> list[dict]:
-    """Collect all bikes from vault/notes."""
+    """Collect all bikes from vault/notes/bikes."""
     bikes = []
-    vault_notes = Path("vault/notes")
+    vault_notes = Path("vault/notes/bikes")
     if not vault_notes.exists():
         print(f"Error: {vault_notes} not found")
         return bikes
     print(f"\nScanning {vault_notes}...\n")
     for md_file in sorted(vault_notes.glob("*/*.md")):
-        rel_path = md_file.relative_to("vault/notes")
+        rel_path = md_file.relative_to("vault/notes/bikes")
         brand_folder = md_file.parent.name
         try:
             content = md_file.read_text(encoding="utf-8")
@@ -72,7 +72,7 @@ def collect_bikes() -> list[dict]:
                 "range": frontmatter.get("range", ""),
                 "image": frontmatter.get("image", ""),
                 "url": frontmatter.get("url", ""),
-                "file_path": f"vault/notes/{rel_path}".replace("\\", "/"),
+                "file_path": f"vault/notes/bikes/{rel_path}".replace("\\", "/"),
                 "tags": frontmatter.get("tags", []),
             }
             bikes.append(bike)
@@ -113,7 +113,7 @@ def generate_bike_table(bikes: list[dict], use_relative_links: bool = False) -> 
             image_col = "--"
         # Use relative path for index.md, full path for README.md
         if use_relative_links:
-            file_path = str(bike["file_path"]).replace("vault/notes/", "")
+            file_path = str(bike["file_path"]).replace("vault/notes/bikes/", "bikes/")
         else:
             file_path = bike["file_path"]
         bike_link = f"[{bike['title']}]({file_path})"
@@ -143,8 +143,9 @@ def update_file_with_table(
         print(f"Error: {file_path} not found")
         return
     # Adjust paths if needed for relative links
+    # For index.md at vault/notes/, change "vault/notes/bikes/" to "bikes/"
     if use_relative_links:
-        table_content = table_content.replace("vault/notes/", "")
+        table_content = table_content.replace("vault/notes/bikes/", "bikes/")
     file_content = file_path.read_text(encoding="utf-8")
     start_marker = "<!-- BIKES_TABLE_START -->"
     end_marker = "<!-- BIKES_TABLE_END -->"
