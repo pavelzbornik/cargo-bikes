@@ -1,0 +1,20 @@
+# taskfiles/precommit.yaml
+version: "3"
+tasks:
+  install:
+    desc: Install pre-commit hooks
+    cmds:
+      - uv tool install pre-commit --with pre-commit-uv
+      - uv run pre-commit install
+  update:
+    desc: Update pre-commit hooks
+    cmds:
+      - uv run pre-commit autoupdate
+  run:
+    desc: Run pre-commit on all files
+    cmds:
+      - uv run pre-commit run --all-files || true
+  run:staged:
+    desc: Run pre-commit on staged files only
+    cmds:
+      - uv run pre-commit run || true

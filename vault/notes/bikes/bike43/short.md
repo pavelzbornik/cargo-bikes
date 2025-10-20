@@ -10,7 +10,23 @@ image: "https://bike43.com/app/uploads/2025/07/Video-SuperPower-Pivotable-Bench-
 price: "4990€"
 motor: "600W"
 battery: "540Wh"
-range: "30-60km"
+
+specs:
+  category: "shorttail"
+  motor:
+    make: "Bosch"
+    model: "Performance Line Gen5"
+    power_w: 600
+    type: "mid-drive"
+  battery:
+    capacity_wh: 540
+    configuration: "single"
+  range:
+    estimate_km: "30-60"
+  price:
+    amount: 4990
+    currency: "EUR"
+  notes: "Migrated from legacy frontmatter. Motor and battery inferred from body text (Bosch Performance Line Gen5 / Powertube 540Wh)."
 ---
 
 ## Overview

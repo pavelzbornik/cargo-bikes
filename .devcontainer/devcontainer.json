@@ -1,0 +1,77 @@
+{
+    "name": "Cargo Bikes Documentation DevContainer",
+    "image": "mcr.microsoft.com/devcontainers/python:3.13",
+    "features": {
+        "ghcr.io/jsburckhardt/devcontainer-features/uv:1": {},
+        "ghcr.io/devcontainers/features/node:1": { "version": "24" },
+        "ghcr.io/audacioustux/devcontainers/taskfile:1": {},
+        "ghcr.io/devcontainers/features/github-cli:1": {
+            "version": "latest"
+        }
+    },
+    "forwardPorts": [
+        8080
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "charliermarsh.ruff",
+                "github.vscode-github-actions",
+                "SanjulaGanepola.github-local-actions",
+                "bierner.markdown-mermaid",
+                "ms-toolsai.jupyter",
+                "taskfile.vscode-taskfile",
+                "streetsidesoftware.code-spell-checker",
+                "DavidAnson.vscode-markdownlint",
+                "esbenp.prettier-vscode"
+            ],
+            "settings": {
+                "editor.formatOnSave": true,
+                "files.trimTrailingWhitespace": true,
+                "files.insertFinalNewline": true,
+                "editor.codeActionsOnSave": {
+                    "source.fixAll": "always",
+                    "source.organizeImports": "always"
+                },
+                "python.analysis.typeCheckingMode": "basic",
+                "python.analysis.diagnosticMode": "workspace",
+                "extensions.autoUpdate": true,
+                "[python]": {
+                    "editor.defaultFormatter": "charliermarsh.ruff",
+                    "editor.formatOnSave": true
+                },
+                "[json]": {
+                    "editor.defaultFormatter": "vscode.json-language-features"
+                },
+                "[markdown]": {
+                    "editor.formatOnSave": false
+                },
+                "ruff.codeAction.disableRuleComment": {
+                    "enable": true
+                },
+                "ruff.codeAction.fixViolation": {
+                    "enable": true
+                },
+                "ruff.lint.enable": true,
+                "ruff.format.enable": true,
+                "python.linting.enabled": true
+            }
+        }
+    },
+    "postCreateCommand": "task setup-env",
+    "postAttachCommand": "task start-env",
+    "remoteUser": "vscode",
+    "remoteEnv": {
+        "PATH": "${containerEnv:PATH}:/home/vscode/.local/bin",
+        "UV_CACHE_DIR": "/workspaces/cargo-bikes/.uv_cache",
+        "UV_LINK_MODE": "copy",
+        "PRE_COMMIT_HOME": "/workspaces/cargo-bikes/.cache/pre-commit"
+    },
+    "mounts": [
+        "source=${env:USERPROFILE}\\.gitconfig,target=/home/vscode/.gitconfig,type=bind,consistency=cached",
+        "source=${localWorkspaceFolder}/.uv_cache,target=/workspaces/cargo-bikes/.uv_cache,type=bind,consistency=cached",
+        "source=${localWorkspaceFolder}/.cache/pre-commit,target=/workspaces/cargo-bikes/.cache/pre-commit,type=bind,consistency=cached"
+    ]
+}

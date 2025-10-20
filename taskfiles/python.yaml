@@ -1,0 +1,37 @@
+# taskfiles/python.yaml
+version: "3"
+tasks:
+  venv:create:
+    desc: Create Python virtual environment using uv if it doesn't exist or is broken
+    cmds:
+      - uv venv {{.PYTHON_VENV}} || uv venv {{.PYTHON_VENV}} --clear
+    status:
+      - test -d {{.PYTHON_VENV}}
+  venv:activate:
+    desc: Activate Python virtual environment
+    cmds:
+      - bash -c "source {{.PYTHON_VENV}}/bin/activate"
+  deps:install:
+    desc: Install Python dependencies
+    cmds:
+      - uv sync
+  test:
+    desc: Run Python tests with pytest
+    cmds:
+      - uv run pytest tests/
+  test:report:
+    desc: Run tests and generate pytest report
+    cmds:
+      - uv run pytest --junitxml=pytest-report.xml
+  test:coverage:
+    desc: Run tests with coverage report
+    cmds:
+      - uv run pytest --cov=scripts --cov-report=html tests/
+  lint:
+    desc: Lint Python files with ruff
+    cmds:
+      - uv run ruff check scripts/ tests/
+  format:
+    desc: Format Python files with ruff
+    cmds:
+      - uv run ruff format scripts/ tests/

@@ -7,10 +7,22 @@ brand: "Benno Bikes"
 model: "Boost E EVO4"
 url: "https://www.ovelo.fr/fr/velo-electrique-longtail/25680-boost-e-evo4-500wh.html"
 image: "https://www.ovelo.fr/46060-thickbox_default/boost-e-evo4-500wh.jpg"
-price: "€3,830"
-motor: "250W"
-battery: "500Wh"
-range: "125km"
+specs:
+  category: longtail
+  motor:
+    make: Bosch
+    model: "Performance CX Gen 4"
+    power_w: 250
+    type: rear-hub
+  battery:
+    capacity_wh: 500
+    configuration: single
+  range:
+    estimate_km: "125"
+  price:
+    amount: 3830
+    currency: EUR
+  notes: "Migrated from legacy top-level motor, battery, range and price fields; motor model annotated based on product description."
 ---
 
 ## Overview

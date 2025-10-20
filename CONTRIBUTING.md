@@ -2,6 +2,78 @@
 
 Thanks for wanting to contribute. Please follow these simple rules so the vault stays consistent and useful.
 
+## Development Environment Setup
+
+### Option 1: Using DevContainer (Recommended)
+
+If you're using **VS Code**, the easiest way to get started is with the DevContainer:
+
+1. Install [VS Code Remote - Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+2. Install [Docker Desktop](https://www.docker.com/products/docker-desktop)
+3. Open this repository in VS Code
+4. Click the green remote indicator in the bottom-left and select **"Reopen in Container"**
+5. VS Code will automatically set up the full development environment with Python 3.13, uv, pre-commit, Node.js, and Taskfile
+
+The DevContainer includes all tools pre-configured:
+
+- **Python 3.13** via uv for fast, reliable package management
+- **Pre-commit hooks** for linting and formatting
+- **Node.js 24** for markdown linting
+- **Taskfile** for task automation
+- **GitHub CLI** for repository operations
+- Recommended VS Code extensions for Python, Markdown, and GitHub workflows
+
+### Option 2: Local Setup
+
+If you prefer local development without Docker:
+
+1. **Install Python 3.10+** from [python.org](https://python.org)
+2. **Install uv** from [github.com/astral-sh/uv](https://github.com/astral-sh/uv)
+3. **Create and sync the virtual environment:**
+
+   ```powershell
+   # Windows PowerShell
+   uv sync
+   .venv\Scripts\Activate.ps1
+   ```
+
+   ```bash
+   # Linux/Mac
+   uv sync
+   source .venv/bin/activate
+   ```
+
+4. **Install Node.js** from [nodejs.org](https://nodejs.org/) (required for markdown linting)
+5. **Set up pre-commit hooks:**
+
+   ```bash
+   uv run pre-commit install
+   ```
+
+## Python Development Tasks
+
+Use **Taskfile** to automate common development tasks:
+
+```bash
+task python:deps:install    # Install Python dependencies
+task python:test            # Run pytest tests
+task python:test:coverage   # Run tests with coverage report
+task python:lint            # Lint Python files with ruff
+task python:format          # Format Python files with ruff
+task precommit:run          # Run all pre-commit hooks
+task precommit:run:staged   # Run pre-commit on staged files only
+```
+
+**Or run tasks directly:**
+
+```bash
+uv run pytest tests/                           # Run tests
+uv run pytest --cov=scripts tests/             # Run with coverage
+uv run ruff check scripts/ tests/               # Lint
+uv run ruff format scripts/ tests/              # Format
+uv run pre-commit run --all-files               # Run all pre-commit hooks
+```
+
 ## Frontmatter Rules
 
 Every note must start with a YAML frontmatter block. For bike pages, follow the **BIKE_SPECS_SCHEMA** (`docs/schema/BIKE_SPECS_SCHEMA.md`).

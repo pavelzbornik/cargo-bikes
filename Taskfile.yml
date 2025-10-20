@@ -1,0 +1,57 @@
+version: '3'
+includes:
+  python: ./taskfiles/python.yaml
+  precommit: ./taskfiles/precommit.yaml
+env:
+  PYTHON_VENV: .venv
+  FLASK_APP: app.py
+  FLASK_ENV: development
+  NGROK_DOMAIN: bass-sunny-firefly.ngrok-free.app
+tasks:
+  default:
+    desc: List all available tasks
+    cmds:
+      - task -l
+  ###############################
+  # Bash Completion for Taskfile #
+  ###############################
+  bash-completion:taskfile:
+    desc: Setup bash completion for Taskfile in ~/.bashrc
+    cmds:
+      - |
+        task --completion bash > ~/.task-completion.bash
+        grep -qxF 'source ~/.task-completion.bash' ~/.bashrc || echo 'source ~/.task-completion.bash' >> ~/.bashrc
+        # shellcheck source=/dev/null
+        source ~/.bashrc
+  #######################
+  # Main Workflows      #
+  #######################
+  setup-env:
+    desc: Setup the complete development environment
+    cmds:
+      - task: bash-completion:taskfile
+      - task: python:venv:create
+      - task: python:deps:install
+      - task: precommit:install
+      - task: precommit:update
+      - task: precommit:run
+        # - task: ngrok:configure
+        # - task: gemini-cli:install
+  start-env:
+    desc: Start the development environment (dependencies, services)
+    cmds:
+      - task: python:deps:install
+        # - task: ngrok:start
+        # To run the app as well, uncomment the line below
+        # - task: app:dev
+  dev:
+    desc: Setup and start the complete development environment
+    deps: [setup-env, start-env]
+    cmds:
+      - task: app:dev
+  gemini-cli:install:
+    desc: Install Google Gemini CLI globally via npm
+    cmds:
+      - |
+        echo "Installing Google Gemini CLI globally via npm..."
+        npm install -g @google/gemini-cli

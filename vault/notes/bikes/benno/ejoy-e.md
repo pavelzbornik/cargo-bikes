@@ -7,10 +7,19 @@ brand: "Benno Bikes"
 model: "eJoy E"
 url: "https://bennobikes.com/e-bikes/ejoy/"
 image: "https://bennobikes.com/wp-content/uploads/benno_ejoy_2020_with-sketch_overlay_people_sl1.jpg"
-price: "€1,799"
-motor: "400W"
-battery: "400Wh"
-range: ""
+specs:
+  category: longtail
+  motor:
+    make: Bosch
+    power_w: 400
+    type: rear-hub
+  battery:
+    capacity_wh: 400
+    configuration: single
+  price:
+    amount: 1799
+    currency: EUR
+  notes: "Migrated from legacy top-level motor, battery and price fields. Range empty in source; left unspecified."
 resellers:
   - name: "Decathlon France"
     url: "https://www.decathlon.fr/p/velo-electrique-longtail-benno-ejoy-e-400wh-noir/_/R-p-366913"
