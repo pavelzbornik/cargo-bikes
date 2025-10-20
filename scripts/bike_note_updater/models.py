@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 
 class FrameDimensions(BaseModel):
@@ -215,6 +215,14 @@ class BikeFrontmatter(BaseModel):
     motor: str | None = None
     battery: str | None = None
     range: str | None = None
+
+    @field_validator("date", mode="before")
+    @classmethod
+    def coerce_date_to_string(cls, v):
+        """Convert date objects to strings."""
+        if hasattr(v, "isoformat"):
+            return v.isoformat()
+        return str(v)
 
 
 class ValidationIssue(BaseModel):
