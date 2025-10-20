@@ -118,6 +118,44 @@ specs:
 ---
 ```
 
+## Fetching Missing Specs from URL
+
+**When to fetch:** If specs info is insufficient (missing motor, battery, range, or price details)
+
+**How to fetch:**
+
+1. Use the `url` field from the frontmatter to fetch manufacturer specs
+2. Extract relevant data:
+   - Search for motor info: "Bosch", "Shimano", "power", "wattage", "250W", "500W"
+   - Search for battery info: "Wh", "battery", "capacity", "removable"
+   - Search for range info: "range", "km", "mile", "distance", "autonomy"
+   - Search for price info: "€", "$", "£", "price", "cost"
+3. Parse extracted values using cheat sheet rules above
+4. Document the source in `specs.notes` (e.g., "Source: manufacturer website")
+5. Note in migration summary if URL fetch was required
+
+**Example - Data enrichment from URL:**
+
+```yaml
+# Original (insufficient):
+motor: "Bosch"
+battery: "not specified"
+price: "on request"
+url: "https://example-bike.com"
+
+# After URL fetch:
+specs:
+  motor:
+    make: "Bosch"
+    power_w: 250 # extracted from URL
+  battery:
+    capacity_wh: 500 # extracted from URL
+  price:
+    amount: 3499
+    currency: "EUR" # extracted from URL
+  notes: "Additional specs sourced from manufacturer website"
+```
+
 ## Common Issues & Solutions
 
 ### Issue: Motor field has multiple makes
@@ -191,11 +229,12 @@ Before saving migration:
 - [ ] Tags include: `bike`, category, brand (all lowercase/hyphenated)
 - [ ] Date is ISO format (YYYY-MM-DD)
 - [ ] Specs structure matches schema (only optional fields if data available)
-- [ ] Motor: `make` and `power_w` extracted correctly
-- [ ] Battery: `capacity_wh` extracted correctly
-- [ ] Range: `estimate_km` formatted correctly
-- [ ] Price: `amount` and `currency` separated correctly
+- [ ] Motor: `make` and `power_w` extracted correctly (from frontmatter or URL)
+- [ ] Battery: `capacity_wh` extracted correctly (from frontmatter or URL)
+- [ ] Range: `estimate_km` formatted correctly (from frontmatter or URL)
+- [ ] Price: `amount` and `currency` separated correctly (from frontmatter or URL)
 - [ ] No `null` values (omit optional fields instead)
+- [ ] URL fetch documented in `specs.notes` if data was sourced from manufacturer website
 
 ## After Migration
 
@@ -269,7 +308,7 @@ specs:
     currency: "EUR"
 ```
 
-### Complex (Missing Some Fields)
+### Complex (Missing Some Fields, URL Fetched)
 
 **Before:**
 
@@ -277,29 +316,38 @@ specs:
 title: "Cargo Bike X"
 type: bike
 brand: "Unknown"
+model: "CX Pro"
 motor: "Bafang"
-battery: "500Wh removable"
-tags: [bike]
+battery: "not specified"
+url: "https://cargobikex.com/cx-pro"
 image: "x.jpg"
 ```
 
-**After:**
+**After (specs enriched from URL):**
 
 ```yaml
 title: "Cargo Bike X"
 type: bike
 brand: "Unknown"
-model: ""
+model: "CX Pro"
 date: 2025-10-20
-tags: [bike, unknown]
+tags: [bike, longtail, unknown, bafang]
+url: "https://cargobikex.com/cx-pro"
 image: "x.jpg"
 specs:
+  category: "longtail"
   motor:
     make: "Bafang"
+    power_w: 750 # extracted from manufacturer site
   battery:
     capacity_wh: 500
     removable: true
-  notes: "Limited data available, migrated from legacy format"
+  range:
+    estimate_km: "80-120" # extracted from manufacturer site
+  price:
+    amount: 4999
+    currency: "EUR" # extracted from manufacturer site
+  notes: "Motor wattage and range sourced from manufacturer website"
 ```
 
 ### Partial (Only Some Data)

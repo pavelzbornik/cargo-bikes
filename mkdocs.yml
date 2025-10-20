@@ -43,7 +43,7 @@ plugins:
   - git-revision-date
   - git-authors
   - glightbox
-  - table-reader
+  # - table-reader
   - redirects
   - section-index
   - llmstxt:

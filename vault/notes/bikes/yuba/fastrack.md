@@ -3,13 +3,31 @@ title: "FastRack"
 type: bike
 brand: "Yuba"
 model: "FastRack"
-tags: [bike, compact, yuba]
-date: 2025-10-16
+date: 2025-10-20
+tags: [bike, compact, yuba, shimano]
 url: "https://yubabikes.eu/product/fastrack/"
-price: "€3,999.00"
-motor: "500W"
-battery: "500Wh"
-range: "60km"
+image: "https://yubabikes.eu/wp-content/uploads/2025/01/YUBA_Bikes_Fastrack_3_4Sideview_Espresso_Studio_WEB.jpg"
+specs:
+  category: "compact"
+  load_capacity:
+    total_kg: 200
+    passenger_count_excluding_rider: 1
+  motor:
+    make: "Shimano"
+    model: "E7000"
+    type: "mid-drive"
+    power_w: 500
+    torque_nm: 60
+  battery:
+    capacity_wh: 500
+    configuration: "single"
+    removable: true
+  range:
+    estimate_km: 60
+  price:
+    amount: 3999
+    currency: "EUR"
+  notes: "Compact electric cargo bike with Shimano E7000 motor (500W, 60Nm torque). Convertible rear rack system. Sourced from manufacturer specifications."
 ---
 
 ## FastRack

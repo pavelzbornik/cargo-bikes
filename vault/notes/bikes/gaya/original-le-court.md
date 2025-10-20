@@ -1,16 +1,63 @@
 ---
 title: "Gaya L'Original Le Court"
 type: bike
-tags: [bike, short-tail, gaya]
-date: 2025-10-16
 brand: "Gaya"
 model: "L'Original Le Court"
+date: 2025-10-20
+tags: [bike, short-tail, gaya]
 url: "https://gaya.bike/velo-cargo/original-le-court"
 image: "https://gaya.bike/api/medias/api/images/file/GAYA_COURT_BLEU%20NUIT%20(1)%201%20(3)%20(1)-1000x663.webp"
-price: "€2,300"
-motor: "250W"
-battery: "460Wh"
-range: "70km"
+specs:
+  category: "short-tail"
+  frame:
+    material: "aluminum"
+    size: "43"
+  weight:
+    with_battery_kg: 34.1
+    battery_kg: 3
+  load_capacity:
+    total_kg: 170
+    rear_kg: 80
+    passenger_count_excluding_rider: 1
+    passenger_config: "1 or 2 passengers"
+  motor:
+    make: "Gaya"
+    type: "rear-hub"
+    power_w: 250
+    torque_nm: 50
+  battery:
+    capacity_wh: 460
+    configuration: "single"
+    removable: true
+    charging_time_h: 5
+  drivetrain:
+    type: "chain"
+  brakes:
+    type: "mechanical disc"
+  wheels:
+    front_size_in: '27.5"'
+    rear_size_in: '27.5"'
+  suspension:
+    front: "hydraulic fork 70mm"
+    rear: "none"
+  lights:
+    front:
+      type: "LED 125 lm"
+      integrated: true
+    rear:
+      type: "LED brake light 4 lm"
+      integrated: true
+      brake_light: true
+  features: ["torque-sensor", "nfc-badge", "integrated-display", "gps-tracking"]
+  security:
+    gps: true
+    alarm_db: 105
+    frame_lock: true
+  range:
+    estimate_km: "70"
+  price:
+    amount: 2300
+    currency: "EUR"
 ---
 
 ## Overview

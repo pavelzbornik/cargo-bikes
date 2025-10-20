@@ -1,16 +1,65 @@
 ---
 title: "Gaya L'Incroyable Le Long"
 type: bike
-tags: [bike, long-tail, gaya, premium]
-date: 2025-10-16
 brand: "Gaya"
 model: "L'Incroyable Le Long"
+date: 2025-10-20
+tags: [bike, long-tail, gaya, premium]
 url: "https://gaya.bike/velo-cargo/incroyable-le-long"
 image: "https://gaya.bike/api/medias/api/images/file/L'Incroyable,%20Le%20Long%20-%20Amande%201080x720-1000x667.webp"
-price: "€3,400"
-motor: "250W"
-battery: "460Wh"
-range: "70km"
+specs:
+  category: "long-tail"
+  frame:
+    material: "aluminum"
+    size: "43"
+  weight:
+    bike_kg: 38
+    with_battery_kg: 40.8
+    battery_kg: 2.8
+  load_capacity:
+    total_kg: 170
+    rear_kg: 80
+    passenger_count_excluding_rider: 2
+    passenger_config: "2 children on rear"
+  motor:
+    make: "Gaya"
+    type: "rear-hub"
+    power_w: 250
+    torque_nm: 50
+  battery:
+    capacity_wh: 460
+    configuration: "single"
+    removable: true
+  drivetrain:
+    type: "chain"
+    speeds: 4
+  brakes:
+    type: "mechanical disc"
+  wheels:
+    front_size_in: '27.5"'
+    rear_size_in: '27.5"'
+  suspension:
+    front: "hydraulic fork 70mm"
+    rear: "aluminum swing arm 50mm"
+  lights:
+    front:
+      type: "LED 125 lm"
+      integrated: true
+    rear:
+      type: "LED brake light 4 lm"
+      integrated: true
+      brake_light: true
+  features: ["torque-sensor", "gps-tracking", "nfc-badge", "integrated-display"]
+  security:
+    gps: true
+    alarm_db: 105
+    app_lock: true
+    frame_lock: true
+  range:
+    estimate_km: "70"
+  price:
+    amount: 3400
+    currency: "EUR"
 ---
 
 ## Overview

@@ -33,6 +33,7 @@ Read the current YAML frontmatter and identify:
 - **Optional legacy fields**: Any others at top level
 - **Existing specs**: If `specs` object already exists, preserve and enhance it
 - **Content preservation**: All markdown content must remain unchanged
+- **Completeness assessment**: Which fields have sufficient data vs. which need URL enrichment
 
 ## 3. Extract and Parse Legacy Values
 
@@ -53,7 +54,11 @@ Parse `motor: "250W Bosch"` or `motor: "Shimano 500W"` into:
 - `"500W"` → `power_w: 500` (no make)
 - `"Bosch Performance Line CX"` → `make: "Bosch", model: "Performance Line CX"` (if model detectable)
 
-**If unparseable:** Keep entire value in `specs.motor.model` and note in migration summary.
+**If unparseable or insufficient:**
+
+- Keep entire value in `specs.motor.model`
+- Note field as incomplete in analysis
+- **Plan to fetch missing data from manufacturer URL** (see section below)
 
 ### Battery Field Parsing
 
@@ -69,7 +74,11 @@ Parse `battery: "500Wh"` or `battery: "500Wh dual"` into:
 - `"1000Wh (2x500)"` → `capacity_wh: 1000, configuration: "dual"`
 - `"500Wh removable"` → `capacity_wh: 500, removable: true`
 
-**If unparseable:** Keep entire value in string format and note in migration summary.
+**If unparseable or insufficient:**
+
+- Keep entire value in string format
+- Note field as incomplete in analysis
+- **Plan to fetch missing data from manufacturer URL** (see section below)
 
 ### Range Field Parsing
 
@@ -84,7 +93,11 @@ Parse `range: "100-120km"` or `range: "100km"` into:
 - `"120km"` → `estimate_km: 120`
 - `"up to 150km"` → `estimate_km: "150"` (approximate)
 
-**If unparseable:** Keep as-is and note in migration summary.
+**If unparseable or insufficient:**
+
+- Keep as-is
+- Note field as incomplete in analysis
+- **Plan to fetch missing data from manufacturer URL** (see section below)
 
 ### Price Field Parsing
 
@@ -100,7 +113,73 @@ Parse `price: "€3,999"` or `price: "from 4999"` into:
 - `"£2,999"` → `amount: 2999, currency: "GBP"`
 - `"from 4999"` → `amount: "from 4999"` (as string)
 
-**If unparseable:** Keep as-is and note in migration summary.
+**If unparseable or insufficient:**
+
+- Keep as-is
+- Note field as incomplete in analysis
+- **Plan to fetch missing data from manufacturer URL** (see section below)
+
+## 3a. Enrich Specs from Manufacturer URL (If Data Insufficient)
+
+**When to fetch:** If any critical specs are missing or unclear from legacy data:
+
+- Motor: Missing make or wattage
+- Battery: Missing capacity or unclear
+- Range: Not specified or unclear
+- Price: Listed as "on request" or "contact us"
+
+**How to fetch:**
+
+1. Access the `url` field from frontmatter (manufacturer's official website)
+2. Search the page for relevant specification keywords:
+   - **Motor:** "Bosch", "Shimano", "Bafang", "250W", "500W", "750W", "motor", "drive"
+   - **Battery:** "Wh", "kWh", "battery", "capacity", "removable", "integrated"
+   - **Range:** "range", "autonomy", "distance", "km", "miles", "endurance"
+   - **Price:** "€", "$", "£", "price", "cost", "starting at", "from"
+3. Extract the most specific/reliable values found
+4. Parse extracted data using the parsing rules above
+5. Document all sourced data in `specs.notes`: _"Additional specs sourced from [source]: motor wattage, range estimate, price"_
+6. Include in migration summary which fields were URL-enriched
+
+**Example - URL Enrichment Workflow:**
+
+```yaml
+# Original frontmatter (incomplete):
+title: "Example Cargo Bike"
+motor: "Bosch" # Incomplete (no wattage)
+battery: "not listed" # Missing
+range: "" # Empty
+price: "on request" # Unavailable
+url: "https://example-bikes.com/model-x"
+
+# After accessing URL and extracting specs:
+# Extracted from https://example-bikes.com/model-x:
+#   - "Bosch Performance Line 500W" → motor.make: Bosch, motor.power_w: 500
+#   - "48V 17.5Ah (840Wh)" → battery.capacity_wh: 840
+#   - "up to 120km in eco mode" → range.estimate_km: 120
+#   - "€4,999" → price.amount: 4999, price.currency: EUR
+
+# Migrated frontmatter with URL-enriched specs:
+specs:
+  motor:
+    make: "Bosch"
+    power_w: 500 # ← fetched from URL
+  battery:
+    capacity_wh: 840 # ← fetched from URL
+  range:
+    estimate_km: 120 # ← fetched from URL
+  price:
+    amount: 4999 # ← fetched from URL
+    currency: "EUR"
+  notes: "Motor wattage (500W), battery capacity (840Wh), and range (120km eco) sourced from manufacturer specifications page"
+```
+
+**Important:**
+
+- Only fetch from official manufacturer URLs (not reseller or review sites)
+- Prioritize official specs over unofficial claims
+- If URL is unreachable or specs are unclear, omit the field and note in migration summary
+- Always credit the source in `specs.notes`
 
 ## 4. Create New Frontmatter Structure
 
@@ -201,6 +280,8 @@ Before finalizing each migration:
 - **Tags normalized** — Lowercase, hyphenated, includes bike category and brand
 - **Date format** — ISO 8601 (YYYY-MM-DD)
 - **No data loss** — Unparseable data noted in migration summary
+- **URL enrichment documented** — If specs were sourced from URL, noted in `specs.notes`
+- **Source attribution** — All fetched data credited to manufacturer website in notes
 
 ## 8. Migration Summary
 
@@ -209,11 +290,12 @@ After processing each file or batch, provide:
 - **Status**: ✅ Migrated / ⚠️ Needs Review / ❌ Error
 - **File**: Path to updated note
 - **Extraction Results**:
-  - Motor: Extracted values or parse issues
-  - Battery: Extracted values or parse issues
-  - Range: Extracted values or parse issues
-  - Price: Extracted values or parse issues
-- **Notes**: Any ambiguities, missing data, or special handling
+  - Motor: Extracted values, parse issues, or "enriched from URL"
+  - Battery: Extracted values, parse issues, or "enriched from URL"
+  - Range: Extracted values, parse issues, or "enriched from URL"
+  - Price: Extracted values, parse issues, or "enriched from URL"
+- **URL Enrichment**: Which specs were fetched from manufacturer website (if any)
+- **Notes**: Any ambiguities, missing data, special handling, or URL issues
 - **Content**: Confirmed preserved / Changes made
 
 ## Example Migration
@@ -300,6 +382,64 @@ Extraction Results:
 - Battery: ✅ 500Wh parsed successfully
 - Range: ✅ 50-120km parsed successfully
 - Price: ✅ USD 5999 parsed successfully
+- URL Enrichment: None needed (all specs complete)
+
+All content preserved ✓
+```
+
+### Example with URL Enrichment
+
+**Before (Incomplete):**
+
+```yaml
+---
+title: "Urban Arrow Family"
+type: bike
+brand: "Urban Arrow"
+model: "Family"
+motor: "Bosch"
+battery: "not specified"
+range: ""
+price: "contact sales"
+url: "https://www.urbanarrrow.com/family"
+---
+```
+
+**After (Enriched from URL):**
+
+```yaml
+---
+title: "Urban Arrow Family"
+type: bike
+brand: "Urban Arrow"
+model: "Family"
+date: 2025-10-20
+tags: [bike, box, urban-arrow, bosch]
+url: "https://www.urbanarrrow.com/family"
+specs:
+  category: "box"
+  motor:
+    make: "Bosch"
+    power_w: 250 # sourced from manufacturer specs
+  battery:
+    capacity_wh: 500 # sourced from manufacturer specs
+  range:
+    estimate_km: "50-100" # sourced from manufacturer specs
+  notes: "Motor wattage, battery capacity, and range sourced from Urban Arrow specifications page"
+---
+```
+
+**Migration Summary:**
+
+```text
+✅ MIGRATED: vault/notes/bikes/urban-arrow/family.md
+
+Extraction Results:
+- Motor: ⚠️ Parsed "Bosch" as make, wattage missing (enriched from URL: 250W)
+- Battery: ❌ Not specified (enriched from URL: 500Wh)
+- Range: ❌ Empty (enriched from URL: 50-100km)
+- Price: ⚠️ "contact sales" kept as-is (no URL data found)
+- URL Enrichment: ✅ Fetched motor wattage, battery capacity, and range from https://www.urbanarrrow.com/family
 
 All content preserved ✓
 ```

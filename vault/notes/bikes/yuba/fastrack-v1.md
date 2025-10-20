@@ -3,13 +3,27 @@ title: "FastRack V1"
 type: bike
 brand: "Yuba"
 model: "FastRack V1"
-tags: [bike, compact, yuba]
 date: 2025-10-16
+tags: [bike, compact, yuba]
 url: "https://yubabikes.eu/product/fastrack-v1/"
-price: "€3,499.00"
-motor: "500W"
-battery: "500Wh"
-range: "60km"
+specs:
+  category: "compact"
+  load_capacity:
+    total_kg: 200
+    passenger_count_excluding_rider: 1
+  motor:
+    power_w: 500
+    type: "mid-drive"
+  battery:
+    capacity_wh: 500
+    configuration: "single"
+    removable: true
+  range:
+    estimate_km: 60
+  price:
+    amount: 3499
+    currency: "EUR"
+  notes: "Migrated from legacy format. Earlier version of FastRack compact electric cargo bike."
 ---
 
 ## FastRack V1

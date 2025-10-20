@@ -3,14 +3,49 @@ title: "Spicy Curry"
 type: bike
 brand: "Yuba"
 model: "Spicy Curry"
-tags: [bike, longtail, yuba]
 date: 2025-10-16
+tags: [bike, longtail, yuba, bosch]
 url: "https://yubabikes.eu/product/spicy-curry/"
 image: "https://yubabikes.eu/wp-content/uploads/2024/10/Spicy-Curry-True-Blue-No-BG.png"
-price: "€5,349.00"
-motor: "500W"
-battery: "500Wh"
-range: "60km"
+specs:
+  category: "longtail"
+  weight:
+    with_battery_kg: 32
+  load_capacity:
+    total_kg: 200
+    passenger_count_excluding_rider: 2
+  motor:
+    make: "Bosch"
+    model: "Cargo Line"
+    type: "mid-drive"
+    power_w: 500
+    torque_nm: 85
+  battery:
+    capacity_wh: 500
+    configuration: "single"
+    removable: true
+  drivetrain:
+    type: "chain"
+    speeds: 9
+    hub: "Microshift"
+  brakes:
+    type: "hydraulic disc"
+    front_rotor_mm: 180
+    rear_rotor_mm: 180
+  wheels:
+    front_size_in: '26"'
+    rear_size_in: '20"'
+    tire: "Schwalbe Pick Up 26x2.35"
+  suspension:
+    front: "none"
+    rear: "none"
+  range:
+    estimate_km: "50-120"
+    notes: "Depends on assist level and conditions"
+  price:
+    amount: 5349
+    currency: "EUR"
+  notes: "Migrated from legacy format. Bosch Cargo Line system with Stay Steady Technology frame."
 ---
 
 ## Spicy Curry

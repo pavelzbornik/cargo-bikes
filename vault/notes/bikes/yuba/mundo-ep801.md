@@ -3,13 +3,30 @@ title: "Mundo EP801"
 type: bike
 brand: "Yuba"
 model: "Mundo EP801"
-tags: [bike, longtail, yuba]
-date: 2025-10-16
+date: 2025-10-20
+tags: [bike, longtail, yuba, shimano]
 url: "https://yubabikes.eu/product/mundo-ep801/"
-price: "€3,849.00"
-motor: "500W"
-battery: "500Wh"
-range: "60km"
+image: "https://yubabikes.eu/wp-content/uploads/2024/10/Yuba_Bikes_Mundo_EP8_Sand_Closeup_Battery_Shimano_Logo_Deflopilator.jpg"
+specs:
+  category: "longtail"
+  load_capacity:
+    total_kg: 250
+    passenger_count_excluding_rider: "3-4"
+  motor:
+    make: "Shimano"
+    model: "EP801"
+    type: "mid-drive"
+    power_w: 500
+  battery:
+    capacity_wh: 500
+    configuration: "single"
+    removable: true
+  range:
+    estimate_km: "60-100"
+  price:
+    amount: 3849
+    currency: "EUR"
+  notes: "Electric longtail minivan with Shimano EP801 motor (500W). Carries up to 250kg (3-4 children or mixed cargo). Engineered for rigidity and heavy loads. Sourced from manufacturer specifications."
 ---
 
 ## Mundo EP801

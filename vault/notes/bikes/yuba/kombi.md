@@ -3,10 +3,19 @@ title: "Kombi"
 type: bike
 brand: "Yuba"
 model: "Kombi"
+date: 2025-10-20
 tags: [bike, compact, yuba]
-date: 2025-10-16
 url: "https://yubabikes.eu/product/kombi/"
-price: "€999.00"
+image: "https://yubabikes.eu/wp-content/uploads/2024/10/Kombi-No-BG.png"
+specs:
+  category: "compact"
+  load_capacity:
+    total_kg: 200
+    passenger_count_excluding_rider: 1
+  price:
+    amount: 999
+    currency: "EUR"
+  notes: "Non-electric pedal-powered compact cargo bike. Entry-level option for families on tight budgets. Sourced from manufacturer specifications."
 ---
 
 ## Kombi

@@ -3,10 +3,44 @@
         "tests"
     ],
     "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
-    ,"files.eol": "\n"
-    ,"editor.detectIndentation": false
-    ,"editor.insertSpaces": true
-    ,"editor.tabSize": 4
-    ,"editor.rulers": [80]
+    "python.testing.pytestEnabled": true,
+    "files.eol": "\n",
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.rulers": [80],
+
+    // Python: Ruff for linting and formatting
+    "python.languageServer": "Pylance",
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "ruff.lineLength": 88,
+    "ruff.lint.select": ["E", "F", "W", "I", "N", "UP", "RUF"],
+    "ruff.lint.ignore": ["E501"],
+
+    // Markdown: Prettier for formatting
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.codeActionsOnSave": {
+            "source.fixAll.markdownlint": "explicit"
+        }
+    },
+
+    // YAML: Prettier for formatting
+    "[yaml]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    // Trailing whitespace
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true
 }

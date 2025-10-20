@@ -1,16 +1,68 @@
 ---
 title: "Le Cargo"
 type: bike
-tags: [bike, longtail, cargo, electric, gaya, french]
-date: 2025-10-16
-brand: "GAYA"
+brand: "Gaya"
 model: "Le Cargo"
+date: 2025-10-20
+tags: [bike, longtail, gaya]
 url: "https://gaya.bike/velo-cargo/original-cargo"
 image: "https://gaya.bike/_next/image?url=%2Fimg%2Flogo.png&w=828&q=75"
-price: "2800€"
-motor: "Rear-hub 250W, 48V"
-battery: "LG 450Wh (standard) / 600Wh (plus)"
-range: "70-100km"
+specs:
+  category: "longtail"
+  frame:
+    material: "steel"
+    size: "47"
+  weight:
+    bike_kg: 28.5
+    with_battery_kg: 31
+    battery_kg: 2.5
+  load_capacity:
+    total_kg: 160
+    rear_kg: 75
+    passenger_count_excluding_rider: 2
+    passenger_config: "1-3 passengers with proper seating"
+  motor:
+    make: "Gaya"
+    type: "rear-hub"
+    power_w: 250
+    torque_nm: 50
+  battery:
+    capacity_wh: 450
+    configuration: "single"
+    removable: true
+    charging_time_h: 5
+  drivetrain:
+    type: "chain"
+    speeds: "3+"
+  brakes:
+    type: "hydraulic disc"
+  wheels:
+    front_size_in: '20"'
+    rear_size_in: '20"'
+  suspension:
+    front: "none"
+    rear: "none"
+  lights:
+    front:
+      type: "LED 125 lm"
+      integrated: true
+    rear:
+      type: "LED brake light 4 lm"
+      integrated: true
+      brake_light: true
+  features:
+    ["gps-tracking", "app-integration", "integrated-display", "cadence-sensor"]
+  security:
+    gps: true
+    alarm_db: 105
+    app_lock: true
+    frame_lock: true
+  range:
+    estimate_km: "70-100"
+    notes: "Standard battery 70km, Plus battery (600Wh) up to 100km"
+  price:
+    amount: 2800
+    currency: "EUR"
 ---
 
 ## Overview

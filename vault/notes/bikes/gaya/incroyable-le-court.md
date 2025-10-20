@@ -1,16 +1,12 @@
 ---
 title: "Gaya L'Incroyable Le Court"
 type: bike
-tags: [bike, short-tail, gaya, premium]
-date: 2025-10-16
 brand: "Gaya"
 model: "L'Incroyable Le Court"
+date: 2025-10-20
+tags: [bike, short-tail, gaya, premium]
 url: "https://gaya.bike/velo-cargo/incroyable-le-court"
 image: "https://gaya.bike/api/medias/api/images/file/Incroyable%20-%20Le%20Court%20-%20Ardoise%20-%20Color%20Swatcher%20Cropped-1000x663.webp"
-price: "€2,900"
-motor: "250W"
-battery: "460Wh"
-range: "70km"
 specs:
   category: "short-tail"
   frame:
@@ -27,6 +23,7 @@ specs:
     make: "Gaya"
     model: "rear wheel 250W"
     type: "rear-hub"
+    power_w: 250
     torque_nm: 50
   battery:
     capacity_wh: 460
@@ -50,13 +47,19 @@ specs:
     alarm_db: 105
     app_lock: true
     frame_lock: true
+  lights:
+    front:
+      type: "LED 125 lm"
+      integrated: true
+    rear:
+      type: "LED brake light 4 lm"
+      integrated: true
+      brake_light: true
   range:
     estimate_km: "70"
   price:
-    amount: "2900"
+    amount: 2900
     currency: "EUR"
-  url: "https://gaya.bike/velo-cargo/incroyable-le-court"
-  image: "https://gaya.bike/api/medias/api/images/file/Incroyable%20-%20Le%20Court%20-%20Ardoise%20-%20Color%20Swatcher%20Cropped-1000x663.webp"
 ---
 
 ## Overview

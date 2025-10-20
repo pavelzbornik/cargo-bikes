@@ -1,12 +1,64 @@
 ---
 title: "Le Compact"
 type: bike
-tags: [bike, compact, gaya, electric]
-date: 2025-10-16
-brand: "GAYA"
+brand: "Gaya"
 model: "Le Compact"
+date: 2025-10-20
+tags: [bike, compact, gaya]
 url: "https://gaya.bike/velo-cargo/original-compact"
 image: "https://gaya.bike/_next/image?url=%2Fimg%2Flogo.png&w=828&q=75"
+specs:
+  category: "compact"
+  frame:
+    material: "steel"
+    size: "47"
+  weight:
+    bike_kg: 23
+    with_battery_kg: 25.5
+    battery_kg: 2.5
+  load_capacity:
+    total_kg: 160
+    rear_kg: 75
+    passenger_count_excluding_rider: 1
+    passenger_config: "1 or 2 passengers"
+  motor:
+    make: "Gaya"
+    type: "rear-hub"
+    power_w: 250
+    torque_nm: 50
+  battery:
+    capacity_wh: 450
+    configuration: "single"
+    removable: true
+    charging_time_h: 5
+  drivetrain:
+    type: "chain"
+    speeds: "3+"
+  brakes:
+    type: "hydraulic disc"
+  suspension:
+    front: "none"
+    rear: "none"
+  lights:
+    front:
+      type: "LED 125 lm"
+      integrated: true
+    rear:
+      type: "LED brake light 4 lm"
+      integrated: true
+      brake_light: true
+  features:
+    ["gps-tracking", "app-integration", "integrated-display", "cadence-sensor"]
+  security:
+    gps: true
+    alarm_db: 105
+    app_lock: true
+    frame_lock: true
+  range:
+    estimate_km: "70"
+  price:
+    amount: 2300
+    currency: "EUR"
 ---
 
 ## Overview

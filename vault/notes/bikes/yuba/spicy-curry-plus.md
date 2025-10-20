@@ -3,13 +3,30 @@ title: "Spicy Curry+"
 type: bike
 brand: "Yuba"
 model: "Spicy Curry+"
-tags: [bike, longtail, yuba]
 date: 2025-10-16
+tags: [bike, longtail, yuba, bosch]
 url: "https://yubabikes.eu/product/spicy-curry-plus/"
-price: "€5,849.00"
-motor: "500W"
-battery: "500Wh"
-range: "60km"
+image: "https://yubabikes.eu/wp-content/uploads/2024/10/Spicy-Curry-True-Blue-No-BG.png"
+specs:
+  category: "longtail"
+  load_capacity:
+    total_kg: 200
+    passenger_count_excluding_rider: 2
+  motor:
+    make: "Bosch"
+    model: "Cargo Line"
+    type: "mid-drive"
+    power_w: 500
+  battery:
+    capacity_wh: 500
+    configuration: "single"
+    removable: true
+  range:
+    estimate_km: 60
+  price:
+    amount: 5849
+    currency: "EUR"
+  notes: "Migrated from legacy format. Premium longtail version with enhanced features and comfort upgrades."
 ---
 
 ## Spicy Curry+

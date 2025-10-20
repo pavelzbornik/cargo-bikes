@@ -3,10 +3,26 @@ title: "mini Boda Boda"
 type: bike
 brand: "Yuba"
 model: "mini Boda Boda"
-tags: [bike, compact, yuba]
-date: 2025-10-16
+date: 2025-10-20
+tags: [bike, compact, yuba, bosch]
 url: "https://yubabikes.eu/product/mini-boda-boda/"
-price: "€4,499.00"
+image: "https://yubabikes.eu/wp-content/uploads/2025/08/YUBA_MINI_BODA_BODA_JUILLET_25_ST_JORIOZ__HD-152-1-1.jpg"
+specs:
+  category: "compact"
+  load_capacity:
+    total_kg: 200
+    passenger_count_excluding_rider: 1
+  motor:
+    make: "Bosch"
+    type: "mid-drive"
+    power_w: 500
+  battery:
+    configuration: "integrated"
+    removable: false
+  price:
+    amount: 4499
+    currency: "EUR"
+  notes: "Ultra-compact electric cargo bike with Bosch motor and maximum capacity-to-compactness ratio. Short wheelbase, dynamic handling. Sourced from manufacturer specifications."
 ---
 
 ## mini Boda Boda
