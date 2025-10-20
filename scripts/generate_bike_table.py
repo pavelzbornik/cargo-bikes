@@ -29,7 +29,10 @@ def extract_frontmatter(content: str) -> dict | None:
 
 
 def validate_bike_frontmatter(frontmatter: dict) -> bool:
-    """Validate that frontmatter has required bike fields."""
+    """Validate that frontmatter has required bike fields.
+
+    Supports both legacy format (top-level fields) and new schema format (specs).
+    """
     required_fields = ["title", "type", "tags"]
     missing = [f for f in required_fields if f not in frontmatter]
     if missing:
@@ -43,8 +46,120 @@ def validate_bike_frontmatter(frontmatter: dict) -> bool:
     return True
 
 
+def extract_spec_value(specs: dict | None, keys: list[str], default: str = "") -> str:
+    """Extract a nested value from specs object with fallback to default.
+
+    Args:
+        specs: The specs dictionary (or None)
+        keys: List of keys to traverse (e.g., ["motor", "power_w"])
+        default: Default value if key path not found
+
+    Returns:
+        The value as a string, or default if not found
+    """
+    if not specs or not isinstance(specs, dict):
+        return default
+    value = specs
+    for key in keys:
+        if isinstance(value, dict):
+            value = value.get(key)
+        else:
+            return default
+    if value is None:
+        return default
+    # Format numeric values with appropriate units
+    if len(keys) >= 1 and keys[-1] == "power_w" and isinstance(value, (int, float)):
+        return f"{value}W"
+    if len(keys) >= 1 and keys[-1] == "capacity_wh" and isinstance(value, (int, float)):
+        return f"{value}Wh"
+    if len(keys) >= 1 and keys[-1] == "estimate_km" and isinstance(value, (int, float)):
+        return f"{value}km"
+    return str(value) if value else default
+
+
+def get_motor_display(frontmatter: dict) -> str:
+    """Extract motor information for display.
+
+    Supports both legacy 'motor' field and new 'specs.motor.power_w' structure.
+    """
+    # Try new schema first
+    specs = frontmatter.get("specs")
+    if specs and isinstance(specs, dict):
+        motor_spec = specs.get("motor", {})
+        if isinstance(motor_spec, dict):
+            power_w = motor_spec.get("power_w")
+            if power_w is not None:
+                make = motor_spec.get("make", "")
+                if make:
+                    return f"{make} {power_w}W"
+                return f"{power_w}W"
+    # Fall back to legacy format
+    legacy_motor = frontmatter.get("motor", "")
+    return str(legacy_motor) if legacy_motor else ""
+
+
+def get_battery_display(frontmatter: dict) -> str:
+    """Extract battery information for display.
+
+    Supports both legacy 'battery' field and new 'specs.battery.capacity_wh' structure.
+    """
+    # Try new schema first
+    specs = frontmatter.get("specs")
+    if specs and isinstance(specs, dict):
+        battery_spec = specs.get("battery", {})
+        if isinstance(battery_spec, dict):
+            capacity_wh = battery_spec.get("capacity_wh")
+            if capacity_wh is not None:
+                return f"{capacity_wh}Wh"
+    # Fall back to legacy format
+    legacy_battery = frontmatter.get("battery", "")
+    return str(legacy_battery) if legacy_battery else ""
+
+
+def get_range_display(frontmatter: dict) -> str:
+    """Extract range information for display.
+
+    Supports both legacy 'range' field and new 'specs.range.estimate_km' structure.
+    """
+    # Try new schema first
+    specs = frontmatter.get("specs")
+    if specs and isinstance(specs, dict):
+        range_spec = specs.get("range", {})
+        if isinstance(range_spec, dict):
+            estimate_km = range_spec.get("estimate_km")
+            if estimate_km is not None:
+                return f"{estimate_km}km"
+    # Fall back to legacy format
+    legacy_range = frontmatter.get("range", "")
+    return str(legacy_range) if legacy_range else ""
+
+
+def get_price_display(frontmatter: dict) -> str:
+    """Extract price information for display.
+
+    Supports both legacy 'price' field and new 'specs.price.amount' structure.
+    """
+    # Try new schema first
+    specs = frontmatter.get("specs")
+    if specs and isinstance(specs, dict):
+        price_spec = specs.get("price", {})
+        if isinstance(price_spec, dict):
+            amount = price_spec.get("amount")
+            currency = price_spec.get("currency", "")
+            if amount is not None:
+                if currency:
+                    return f"{currency} {amount}"
+                return str(amount)
+    # Fall back to legacy format
+    legacy_price = frontmatter.get("price", "")
+    return str(legacy_price) if legacy_price else ""
+
+
 def collect_bikes() -> list[dict]:
-    """Collect all bikes from vault/notes/bikes."""
+    """Collect all bikes from vault/notes/bikes.
+
+    Supports both legacy format and new BIKE_SPECS_SCHEMA format.
+    """
     bikes = []
     vault_notes = Path("vault/notes/bikes")
     if not vault_notes.exists():
@@ -62,21 +177,33 @@ def collect_bikes() -> list[dict]:
                 continue
             if not validate_bike_frontmatter(frontmatter):
                 continue
+            # Extract values with support for both legacy and new schema
+            title = frontmatter.get("title", "")
+            brand = frontmatter.get("brand", brand_folder)
+            model = frontmatter.get("model", "")
+            image = frontmatter.get("image", "")
+            url = frontmatter.get("url", "")
+            motor = get_motor_display(frontmatter)
+            battery = get_battery_display(frontmatter)
+            range_val = get_range_display(frontmatter)
+            price = get_price_display(frontmatter)
+            file_path_str = f"vault/notes/bikes/{rel_path}".replace("\\", "/")
             bike = {
-                "title": frontmatter.get("title", ""),
-                "brand": frontmatter.get("brand", brand_folder),
-                "model": frontmatter.get("model", ""),
-                "price": frontmatter.get("price", ""),
-                "motor": frontmatter.get("motor", ""),
-                "battery": frontmatter.get("battery", ""),
-                "range": frontmatter.get("range", ""),
-                "image": frontmatter.get("image", ""),
-                "url": frontmatter.get("url", ""),
-                "file_path": f"vault/notes/bikes/{rel_path}".replace("\\", "/"),
+                "title": title,
+                "brand": brand,
+                "model": model,
+                "price": price,
+                "motor": motor,
+                "battery": battery,
+                "range": range_val,
+                "image": image,
+                "url": url,
+                "file_path": file_path_str,
                 "tags": frontmatter.get("tags", []),
+                "frontmatter": frontmatter,  # Store full FM for reference
             }
             bikes.append(bike)
-            print(f"[OK] {rel_path}: {bike['title']}")
+            print(f"[OK] {rel_path}: {title}")
         except Exception as e:
             err_type = type(e).__name__
             print(f"[ERR] {rel_path}: {err_type}: {e}")

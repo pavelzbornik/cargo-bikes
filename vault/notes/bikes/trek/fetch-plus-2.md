@@ -11,6 +11,48 @@ price: "Premium range"
 motor: "Bosch Performance Line CX"
 battery: "500Wh"
 range: "up to 150km"
+specs:
+  category: "longtail"
+  frame:
+    material: "aluminum"
+    size: "standard"
+  weight:
+    bike_kg: null
+    with_battery_kg: null
+  load_capacity:
+    total_kg: 180
+  motor:
+    make: "Bosch"
+    model: "Performance Line CX"
+    type: "mid-drive"
+  battery:
+    capacity_wh: 500
+    configuration: "single"
+    removable: true
+  drivetrain:
+    type: "chain"
+    speeds: "10-speed"
+  brakes:
+    type: "hydraulic 4-piston disc"
+  wheels:
+    front_size_in: '20"'
+    rear_size_in: '20"'
+    tire: "Schwalbe Pick-Up"
+  suspension:
+    front: "rigid"
+    rear: "rigid"
+  features: ["bosch-cx", "integrated-lights", "phone-integration"]
+  security:
+    gps: false
+    app_lock: false
+  range:
+    estimate_km: "up to 150"
+    notes: "optimal/ideal conditions"
+  price:
+    amount: "Premium range"
+    currency: "EUR"
+  url: "https://www.trekbikes.com/"
+  image: ""
 ---
 
 ## Overview

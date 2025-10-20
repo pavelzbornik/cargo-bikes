@@ -2,22 +2,84 @@
 
 Thanks for wanting to contribute. Please follow these simple rules so the vault stays consistent and useful.
 
-Frontmatter rules
+## Frontmatter Rules
 
-- Every note should start with a YAML frontmatter block. Required keys for bike pages: `title`, `type: bike`, `tags`.
-- Use ISO dates (YYYY-MM-DD) for `date`.
-- Use lower-case hyphenated tags when possible (e.g. `long-tail`, `electric-assist`).
+Every note must start with a YAML frontmatter block. For bike pages, follow the **BIKE_SPECS_SCHEMA** (`docs/schema/BIKE_SPECS_SCHEMA.md`).
 
-PR checklist
+### Required Fields (All Bikes)
 
-1. One logical change per PR (add/modify a single note or template).
-2. Include sources for factual claims where possible (links in a References section).
-3. Validate that markdown renders and frontmatter is present.
-4. For bike notes, ensure files are placed in `vault/notes/bikes/brand/` directory.
+- `title` — Full, human-readable bike name
+- `type` — Must be `bike`
+- `tags` — List of lowercase, hyphenated tags (e.g., `[bike, longtail, electric, tern, bosch]`)
+- `date` — ISO format (YYYY-MM-DD)
+- `brand` — Manufacturer name
+- `model` — Model name
+- `url` — Official product page URL
+- `image` — Direct URL to product image
+- `specs` — Nested structure with technical specifications (see schema)
 
-Style
+### Recommended Fields
 
-- Use concise headings and short paragraphs.
-- Prefer lists for specs and steps.
+- `resellers` — Array of vendor listings with price, currency, region, availability
+- See `docs/schema/BIKE_SPECS_SCHEMA.md` for complete field definitions and examples
 
-If you're unsure, open an issue first to discuss.
+### Tag Format
+
+- Use **lowercase, hyphenated** tags: `long-tail`, `mid-drive`, `bosch-performance-line`, etc.
+- Always include: `bike`, and bike type (`longtail`, `box`, `trike`, etc.)
+- Always include: brand name in lowercase hyphenated format
+
+### Date Format
+
+- Use ISO 8601: `YYYY-MM-DD` (e.g., `2025-10-20`)
+
+## File Organization
+
+Bike notes go in: `vault/notes/bikes/brand-name/bike-model.md`
+
+Examples:
+
+- `vault/notes/bikes/tern/gsd-p10.md`
+- `vault/notes/bikes/cargo-bikes/longtail-lite.md`
+
+Use lowercase, hyphenated names for both brand and model folders.
+
+## PR Checklist
+
+1. **One logical change per PR** — Add or modify a single bike note or template, not multiple bikes.
+2. **Follow the template** — Use `vault/templates/bike-template.md` as your starting point.
+3. **Validate frontmatter** — Ensure YAML syntax is correct (no missing colons, brackets, quotes).
+4. **Schema compliance** — Check that your note matches `docs/schema/BIKE_SPECS_SCHEMA.md` structure.
+5. **Include sources** — Add links to official pages, reviews, or forums in the References section.
+6. **Test markdown rendering** — Verify the note renders correctly in Obsidian or Markdown viewer.
+7. **Update bike table** — After finalizing, run `python scripts/generate_bike_table.py` to update the main README.
+
+## Writing Style
+
+- Use **concise headings** and short paragraphs
+- Prefer **lists** over prose for specs and features
+- Use **tables** for accessory pricing and comparisons
+- Keep language neutral and factual
+- Provide context for specifications (e.g., "eco mode, no load" for range estimates)
+
+## Schema Reference
+
+For detailed field definitions, data types, and validation rules, see:
+**`docs/schema/BIKE_SPECS_SCHEMA.md`**
+
+Key concepts:
+
+- **`specs.category`** — Bike type: `longtail`, `box`, `trike`, etc.
+- **`specs.features`** — Short, hyphenated tags for searchability
+- **`specs.motor`** — Motor details (make, model, type, power, torque, throttle)
+- **`specs.battery`** — Battery specs (capacity, removable, charging time)
+- **`specs.load_capacity`** — Weight limits and passenger config
+- **`specs.range`** — Estimated range with context notes
+
+## If You're Unsure
+
+Open an issue first to discuss before starting work. Ask about:
+
+- Bike classification or category
+- Missing specification data
+- Sourcing or permission questions

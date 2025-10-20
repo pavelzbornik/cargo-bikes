@@ -56,6 +56,20 @@ This repository is a public Obsidian vault for structured knowledge about cargo 
   - Table generation logic
   - README.md update functionality
 
+### Bike Specifications Schema
+
+- **Location:** `docs/schema/BIKE_SPECS_SCHEMA.md`
+- **Purpose:** Defines the standardized YAML frontmatter structure for all bike notes to ensure consistent, machine-readable metadata.
+- **Applies to:** All bike notes in `vault/notes/bikes/`
+- **Key sections:**
+  - **Top-level fields:** `title`, `type`, `brand`, `model`, `tags`, `date`, `url`, `image`, `resellers`
+  - **`specs` object:** Nested structure containing technical details:
+    - Motor, battery, drivetrain, brakes, wheels, suspension, lights, security, features
+    - Load capacity, weight, dimensions, frame details, range estimates, pricing
+  - **Required vs optional:** See schema doc for full details
+- **Example:** See BIKE_SPECS_SCHEMA.md for a complete Trek Fetch+ 2 example
+- **When creating bike notes:** Always reference this schema for proper field structure and data types
+
 ### Markdown Linting and Formatting
 
 - All `*.md` files are automatically checked and formatted on commit using [pre-commit](https://pre-commit.com/) with these tools:
@@ -71,13 +85,20 @@ This repository is a public Obsidian vault for structured knowledge about cargo 
 
 ### Manual Validation
 
-- Ensure all new or modified Markdown files start with a valid YAML frontmatter block as described in `vault/README.md` and `CONTRIBUTING.md`.
-- For bike pages, place files in `vault/notes/bikes/brand/` and include required frontmatter keys: `title`, `type: bike`, `tags` (see templates).
-- Optional but recommended frontmatter keys: `brand`, `model`, `price`, `motor`, `battery`, `range`, `image`, `url`.
-- Use ISO dates (YYYY-MM-DD) for the `date` field.
-- Use lower-case, hyphenated tags.
-- Validate that Markdown renders and frontmatter is present.
-- One logical change per PR (add/modify a single note or template).
+- Ensure all new or modified Markdown files start with a valid YAML frontmatter block as described in `vault/README.md`, `CONTRIBUTING.md`, and the **BIKE_SPECS_SCHEMA** (`docs/schema/BIKE_SPECS_SCHEMA.md`).
+- For bike pages, place files in `vault/notes/bikes/brand-name/` (lowercase, hyphenated) and include all required frontmatter keys:
+  - **Top-level:** `title`, `type: bike`, `brand`, `model`, `date` (ISO: YYYY-MM-DD), `tags`, `url`, `image`
+  - **Nested structure:** `specs` object with technical details (see schema)
+  - **Recommended:** `resellers` array with pricing and availability
+- Use **lowercase, hyphenated** tags in the format: `[bike, bike-type, brand-name, motor-brand]`
+  - Examples: `[bike, longtail, trek, bosch]` or `[bike, box, cargo-bikes, shimano]`
+- **Tag requirements:**
+  - Always include: `bike`
+  - Always include: bike category/type (e.g., `longtail`, `box`, `trike`, `midtail`)
+  - Always include: brand name (lowercase, hyphenated)
+  - Optionally include: motor brand, drivetrain type, or other relevant features
+- Validate that Markdown renders and frontmatter YAML syntax is correct.
+- One logical change per PR (add/modify a single bike note or template).
 - Include sources for factual claims where possible (links in a References section).
 - Prefer concise headings, short paragraphs, and lists for specs/steps.
 - After adding or modifying bike notes, run `python scripts/generate_bike_table.py` to update the bike table in README.md.

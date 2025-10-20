@@ -11,6 +11,64 @@ price: "5290€"
 motor: "600-700W"
 battery: "540-800Wh"
 range: "40-80km"
+specs:
+  category: "mid-tail"
+  frame:
+    material: "chromoly steel"
+    size: "186 cm (overall length)"
+    dimensions:
+      length_cm: 186
+  weight:
+    bike_kg: null
+    with_battery_kg: null
+  load_capacity:
+    total_kg: 200
+    rear_kg: 85
+    front_kg: 20
+    passenger_count: 3
+  motor:
+    options:
+      - make: "Bosch"
+        model: "Performance Line Gen5"
+        power_w: "600W"
+      - make: "Bosch"
+        model: "Performance Line PX"
+        power_w: "700W"
+  battery:
+    capacity_wh: null
+    configuration: "single"
+    removable: true
+  drivetrain:
+    type: "chain"
+    speeds: "varies"
+  brakes:
+    type: "hydraulic disc"
+    front_rotor_mm: null
+    rear_rotor_mm: null
+  wheels:
+    front_size_in: '20"'
+    rear_size_in: '20"'
+    tire: "20x2.44 (CST Brooklyn Pro)"
+  suspension:
+    front: "SR Suntour SF22 Mobie 34 CGO 80mm"
+    rear: "rigid"
+  features:
+    [
+      "pivotable-bench-kit",
+      "footbox",
+      "bosch-compatibility",
+      "convertible-to-short",
+    ]
+  security:
+    gps: false
+    alarm_db: null
+    app_lock: false
+  range:
+    estimate_km: "40-80"
+  price:
+    amount: "5290€"
+  url: "https://bike43.com/mid-tail-cargo-family-bike/"
+  image: "https://bike43.com/app/uploads/2025/07/Video-SuperPower-Pivotable-Bench-Kit-1024x830.jpg"
 ---
 
 ## Overview

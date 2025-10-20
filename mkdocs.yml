@@ -5,17 +5,28 @@ repo_url: https://github.com/pavelzbornik/cargo-bikes
 edit_uri: edit/main/vault/notes/
 theme:
   name: material
-  logo: assets/logo.svg
-  favicon: assets/favicon.svg
+  icon:
+    logo: material/motorbike-electric
   palette:
-    - scheme: light
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/lightbulb-outline
-        name: Switch to dark mode
-    - scheme: dark
-      toggle:
-        icon: material/lightbulb
+        icon: material/brightness-auto
         name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      # Palette toggle for light mode
+
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      # Palette toggle for dark mode
+
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
   features:
     - navigation.instant
     - navigation.tracking
@@ -26,8 +37,23 @@ theme:
     - content.action.edit
     - content.tooltips
 plugins:
+  - tags
   - search
   - obsidian-bridge
+  - git-revision-date
+  - git-authors
+  - glightbox
+  - table-reader
+  - redirects
+  - section-index
+  - llmstxt:
+      markdown_description: |
+        A comprehensive knowledge base for cargo bikes, with focus on long-tail cargo bikes,
+        designs, specifications, maintenance tips, and community contributions.
+      sections:
+        Bike Models:
+          - bikes/index.md: Overview of all bike models
+          - bikes/*/*.md
 markdown_extensions:
   - meta
   - toc:

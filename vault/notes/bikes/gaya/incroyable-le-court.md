@@ -11,6 +11,52 @@ price: "€2,900"
 motor: "250W"
 battery: "460Wh"
 range: "70km"
+specs:
+  category: "short-tail"
+  frame:
+    material: "aluminum"
+    size: "43"
+  weight:
+    bike_kg: 34
+    with_battery_kg: 36.8
+    battery_kg: 2.8
+  load_capacity:
+    total_kg: 170
+    rear_kg: 80
+  motor:
+    make: "Gaya"
+    model: "rear wheel 250W"
+    type: "rear-hub"
+    torque_nm: 50
+  battery:
+    capacity_wh: 460
+    configuration: "single"
+    removable: true
+  drivetrain:
+    type: "chain"
+    speeds: "single/varies"
+  brakes:
+    type: "mechanical disc"
+  wheels:
+    front_size_in: '27.5"'
+    rear_size_in: '27.5"'
+    tire: "standard (43 frame fit)"
+  suspension:
+    front: "hydraulic fork 70mm"
+    rear: "aluminum swing arm 50mm"
+  features: ["torque-sensor", "gps-tracking", "nfc-badge", "integrated-display"]
+  security:
+    gps: true
+    alarm_db: 105
+    app_lock: true
+    frame_lock: true
+  range:
+    estimate_km: "70"
+  price:
+    amount: "2900"
+    currency: "EUR"
+  url: "https://gaya.bike/velo-cargo/incroyable-le-court"
+  image: "https://gaya.bike/api/medias/api/images/file/Incroyable%20-%20Le%20Court%20-%20Ardoise%20-%20Color%20Swatcher%20Cropped-1000x663.webp"
 ---
 
 ## Overview
