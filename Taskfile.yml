@@ -1,7 +1,8 @@
-version: '3'
+version: "3"
 includes:
   python: ./taskfiles/python.yaml
   precommit: ./taskfiles/precommit.yaml
+  mkdocs: ./taskfiles/mkdocs.yaml
 env:
   PYTHON_VENV: .venv
   FLASK_APP: app.py

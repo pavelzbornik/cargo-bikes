@@ -1,0 +1,27 @@
+# taskfiles/mkdocs.yaml
+version: "3"
+tasks:
+  serve:
+    desc: Start MkDocs development server
+    cmds:
+      - .venv/bin/mkdocs serve
+  build:
+    desc: Build MkDocs static site
+    cmds:
+      - .venv/bin/mkdocs build
+  build:clean:
+    desc: Clean and rebuild MkDocs site
+    cmds:
+      - .venv/bin/mkdocs build --clean
+  new:page:
+    desc: Create a new documentation page (usage - task mkdocs:new:page -- path/to/page)
+    cmds:
+      - echo "Note - Create new pages manually or use templates in vault/templates/"
+  validate:
+    desc: Validate MkDocs configuration
+    cmds:
+      - .venv/bin/mkdocs get-deps
+  gh-deploy:
+    desc: Deploy documentation to GitHub Pages
+    cmds:
+      - .venv/bin/mkdocs gh-deploy

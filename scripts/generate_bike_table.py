@@ -219,17 +219,114 @@ def format_table_cell(value: str, max_width: int = 50) -> str:
     return value
 
 
-def generate_bike_table(bikes: list[dict], use_relative_links: bool = False) -> str:
-    """Generate Markdown table from bikes list.
+def extract_price_amount(price_str: str) -> float | None:
+    """Extract numeric price amount from price string.
+
+    For price ranges, uses the first (lower) price.
+    Handles both European (3.000,00) and US (3,000.00) formats.
+
+    Args:
+        price_str: Price string like "€ 2500" or "USD 3200" or "2500-3000"
+
+    Returns:
+        Numeric price as float, or None if not extractable
+    """
+    if not price_str or price_str == "--":
+        return None
+    # Extract numbers and separators from the string
+    import re
+
+    # Find all full numbers including thousands and decimal separators
+    # Matches: 1234, 1,234, 1.234, 1,234.56, 1.234,56, etc.
+    matches = re.findall(r"\d+(?:[.,]\d+)*", price_str)
+    if matches:
+        try:
+            first_num_str = matches[0]
+            # Determine the number format by analyzing separators
+            if "," in first_num_str and "." in first_num_str:
+                # Both separators present
+                comma_pos = first_num_str.rindex(",")
+                dot_pos = first_num_str.rindex(".")
+                if comma_pos > dot_pos:
+                    # Comma is last (1.234,56 - European format)
+                    first_num_str = first_num_str.replace(".", "").replace(",", ".")
+                else:
+                    # Dot is last (1,234.56 - US format)
+                    first_num_str = first_num_str.replace(",", "")
+            elif "," in first_num_str:
+                # Only comma
+                parts = first_num_str.split(",")
+                if len(parts[-1]) == 2:
+                    # Likely decimal (3,99)
+                    first_num_str = first_num_str.replace(",", ".")
+                else:
+                    # Likely thousands (3,715 or 1,000,000)
+                    first_num_str = first_num_str.replace(",", "")
+            elif "." in first_num_str:
+                # Only dot
+                parts = first_num_str.split(".")
+                if len(parts[-1]) == 2:
+                    # Likely decimal (3.99)
+                    pass
+                else:
+                    # Likely thousands (3.715 or 1.000.000)
+                    first_num_str = first_num_str.replace(".", "")
+            return float(first_num_str)
+        except (ValueError, IndexError):
+            return None
+    return None
+
+
+def categorize_bikes_by_price(bikes: list[dict]) -> dict[str, list[dict]]:
+    """Categorize bikes into price ranges.
+
+    Price ranges:
+    - "Under 3000": < 3000
+    - "3000-4000": 3000 to < 4000
+    - "4000+": >= 4000
 
     Args:
         bikes: List of bike dictionaries
+
+    Returns:
+        Dictionary with price range keys and bike lists as values
+    """
+    categories = {
+        "Under 3000": [],
+        "3000-4000": [],
+        "4000+": [],
+        "No Price": [],
+    }
+    for bike in bikes:
+        price_amount = extract_price_amount(bike["price"])
+        if price_amount is None:
+            categories["No Price"].append(bike)
+        elif price_amount < 3000:
+            categories["Under 3000"].append(bike)
+        elif price_amount < 4000:
+            categories["3000-4000"].append(bike)
+        else:
+            categories["4000+"].append(bike)
+    return categories
+
+
+def generate_bike_table_for_category(
+    bikes: list[dict], category_name: str, use_relative_links: bool = False
+) -> str:
+    """Generate Markdown table for a single price category.
+
+    Args:
+        bikes: List of bike dictionaries for this category
+        category_name: Name of the price category
         use_relative_links: If True, use relative links
+
+    Returns:
+        Markdown table string
     """
     if not bikes:
-        return "No bikes found.\n"
+        return ""
     lines = []
-    lines.append("## Bike Models\n")
+    lines.append(f"### {category_name}\n")
     lines.append("| Image | Bike | Brand | Price | Motor | Battery | Range |")
     lines.append("|-------|------|-------|-------|-------|---------|-------|")
     sorted_bikes = sorted(bikes, key=lambda b: (b["brand"].lower(), b["title"].lower()))
@@ -254,6 +351,28 @@ def generate_bike_table(bikes: list[dict], use_relative_links: bool = False) -> 
             f"{motor} | {battery} | {range_val} |"
         )
     return "\n".join(lines) + "\n"
+
+
+def generate_bike_table(bikes: list[dict], use_relative_links: bool = False) -> str:
+    """Generate Markdown tables from bikes list, split by price range.
+
+    Args:
+        bikes: List of bike dictionaries
+        use_relative_links: If True, use relative links
+    """
+    if not bikes:
+        return "No bikes found.\n"
+    lines = []
+    lines.append("## Bike Models by Price Range\n")
+    categorized = categorize_bikes_by_price(bikes)
+    # Generate tables in order, skipping empty categories
+    for category in ["Under 3000", "3000-4000", "4000+", "No Price"]:
+        if categorized[category]:
+            table = generate_bike_table_for_category(
+                categorized[category], category, use_relative_links
+            )
+            lines.append(table)
+    return "\n".join(lines)
 
 
 def update_file_with_table(
