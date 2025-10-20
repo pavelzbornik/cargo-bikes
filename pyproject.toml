@@ -2,7 +2,7 @@
 name = "cargo-bikes-docs"
 version = "0.1.0"
 description = "Obsidian vault for cargo bikes documentation with Python utilities for content generation and validation."
-authors = ["pavelzbornik <your-email@example.com>"]
+authors = [{name = "pavelzbornik"}]
 requires-python = ">=3.10"
 dependencies = [
     "pyyaml>=6.0",
