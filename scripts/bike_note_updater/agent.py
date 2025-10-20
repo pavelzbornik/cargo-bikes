@@ -16,7 +16,6 @@ from .models import UpdateResult
 from .note_merger import NoteMerger
 from .note_writer import NoteWriter
 from .schema_validator import SchemaValidator
-from .utils import get_today_iso
 
 logger = logging.getLogger("bike_note_updater")
 
@@ -113,8 +112,8 @@ class BikeNoteUpdater:
                     new_data = await self.fetcher.fetch_from_url(url)
                     logger.info(f"Successfully fetched data from {url}")
                 except Exception as e:
-                    errors.append(f"Failed to fetch from URL: {str(e)}")
-                    logger.error(f"Fetch failed for {url}: {str(e)}")
+                    errors.append(f"Failed to fetch from URL: {e!s}")
+                    logger.error(f"Fetch failed for {url}: {e!s}")
 
         # If we got new data, merge it
         if new_data:

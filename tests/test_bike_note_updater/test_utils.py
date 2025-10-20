@@ -3,8 +3,6 @@
 import tempfile
 from pathlib import Path
 
-import pytest
-
 from scripts.bike_note_updater.utils import (
     calculate_percentage_change,
     extract_brand_from_path,
@@ -110,7 +108,7 @@ title: "Test
 invalid: yaml: structure
 ---
 Body"""
-        frontmatter, body = parse_frontmatter(content)
+        frontmatter, _body = parse_frontmatter(content)
         assert frontmatter is None
 
 

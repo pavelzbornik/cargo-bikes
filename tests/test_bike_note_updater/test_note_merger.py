@@ -1,6 +1,5 @@
 """Tests for note merging logic."""
 
-import pytest
 
 from scripts.bike_note_updater.note_merger import NoteMerger
 
@@ -258,7 +257,7 @@ class TestMergeNestedSpec:
             "torque_nm": 85,
         }
 
-        merged, conflicts = self.merger._merge_nested_spec("motor", old_dict, new_dict)
+        merged, _conflicts = self.merger._merge_nested_spec("motor", old_dict, new_dict)
         assert merged["torque_nm"] == 85
         assert merged["make"] == "Bosch"
 
@@ -273,7 +272,7 @@ class TestMergeNestedSpec:
             "removable": True,
         }
 
-        merged, conflicts = self.merger._merge_nested_spec(
+        merged, _conflicts = self.merger._merge_nested_spec(
             "battery", old_dict, new_dict
         )
         assert merged["capacity_wh"] == 625
@@ -293,6 +292,6 @@ class TestMergeNestedSpec:
             }
         }
 
-        merged, conflicts = self.merger._merge_nested_spec("frame", old_dict, new_dict)
+        merged, _conflicts = self.merger._merge_nested_spec("frame", old_dict, new_dict)
         assert merged["dimensions"]["length_cm"] == 200
         assert merged["dimensions"]["width_cm"] == 80

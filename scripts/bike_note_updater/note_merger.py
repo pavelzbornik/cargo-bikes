@@ -68,21 +68,21 @@ class NoteMerger:
                 changes_made["resellers"] = "updated"
 
         # Update image if present
-        if "image" in new_data and new_data["image"]:
+        if new_data.get("image"):
             old_image = existing_frontmatter.get("image")
             if new_data["image"] != old_image:
                 merged["image"] = new_data["image"]
                 changes_made["image"] = f"{old_image} -> {new_data['image']}"
 
         # Update URL if present
-        if "url" in new_data and new_data["url"]:
+        if new_data.get("url"):
             old_url = existing_frontmatter.get("url")
             if new_data["url"] != old_url:
                 merged["url"] = new_data["url"]
                 changes_made["url"] = f"{old_url} -> {new_data['url']}"
 
         # Update title if present and significantly different
-        if "title" in new_data and new_data["title"]:
+        if new_data.get("title"):
             old_title = existing_frontmatter.get("title")
             if new_data["title"] != old_title:
                 # Flag as conflict if titles are significantly different

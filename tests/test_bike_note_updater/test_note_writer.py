@@ -3,8 +3,6 @@
 import tempfile
 from pathlib import Path
 
-import pytest
-
 from scripts.bike_note_updater.note_writer import NoteWriter
 
 

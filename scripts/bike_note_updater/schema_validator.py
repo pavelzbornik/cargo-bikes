@@ -129,7 +129,7 @@ class SchemaValidator:
                 ValidationIssue(
                     field="frontmatter",
                     issue_type="invalid_type",
-                    message=f"Pydantic validation failed: {str(e)}",
+                    message=f"Pydantic validation failed: {e!s}",
                     suggestion="Check field types and structure",
                 )
             )

@@ -1,8 +1,6 @@
 """Tests for schema validation."""
 
-import pytest
 
-from scripts.bike_note_updater.models import ValidationIssue
 from scripts.bike_note_updater.schema_validator import SchemaValidator
 
 

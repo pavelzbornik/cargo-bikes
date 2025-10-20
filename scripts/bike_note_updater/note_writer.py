@@ -71,7 +71,7 @@ class NoteWriter:
         try:
             yaml_str = self.format_frontmatter(frontmatter)
         except Exception as e:
-            errors.append(f"Failed to format frontmatter: {str(e)}")
+            errors.append(f"Failed to format frontmatter: {e!s}")
             return WriteResult(
                 success=False,
                 path=str(file_path),
@@ -87,7 +87,7 @@ class NoteWriter:
             file_path.parent.mkdir(parents=True, exist_ok=True)
             file_path.write_text(content, encoding="utf-8")
         except Exception as e:
-            errors.append(f"Failed to write file: {str(e)}")
+            errors.append(f"Failed to write file: {e!s}")
             return WriteResult(
                 success=False,
                 path=str(file_path),
