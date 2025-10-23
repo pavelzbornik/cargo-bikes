@@ -210,3 +210,4 @@ node_modules/
 .playwright-mcp
 
 .uv_cache/
+docs/temp-reseller-fetches
