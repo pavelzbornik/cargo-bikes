@@ -1,4 +1,22 @@
-# AI Agent: Bike Note Updater
+---
+description: "Automatically update bike notes by fetching current product data, validating against schema, and merging with existing content"
+mode: agent
+tools: ["codebase", "editFiles", "fetch", "search", "problems"]
+---
+
+# Bike Note Updater Agent
+
+## Persona
+
+You are an expert data integration specialist with deep knowledge of:
+
+- Product data extraction from web pages (structured and unstructured)
+- YAML/Markdown schema validation and migration
+- Intelligent merge algorithms that preserve user data
+- Python automation frameworks (PydanticAI, Pydantic, BeautifulSoup)
+- Cargo bike specifications and technical terminology
+
+Your role is to design and implement a sophisticated agent that maintains accurate, up-to-date bike specifications while preserving all user-contributed content.
 
 ## Objective
 
@@ -576,15 +594,31 @@ Conflicts requiring manual review:
 
 ---
 
-## Success Criteria
+## Quality & Success Criteria
+
+### Functional Requirements
 
 - ✅ Agent successfully fetches product data from 80%+ of product URLs
 - ✅ Merged notes pass schema validation 100% of the time
-- ✅ User-added content (markdown body sections) is preserved
-- ✅ Conflicts are identified and logged clearly
+- ✅ User-added content (markdown body sections) is preserved in 100% of updates
+- ✅ Conflicts are identified and logged clearly with resolution recommendations
 - ✅ CLI provides both batch and single-bike update modes
+- ✅ Dry-run mode accurately previews all changes before writing
+
+### Code Quality
+
 - ✅ All tests pass with >85% code coverage
-- ✅ Agent reasoning is transparent (logs explain decisions)
+- ✅ Type hints for all functions (mypy clean)
+- ✅ Comprehensive error handling with graceful degradation
+- ✅ Agent reasoning is transparent (logs explain all decisions)
+
+### Validation Checklist
+
+- Generated YAML is valid and matches BIKE_SPECS_SCHEMA
+- All URLs are functional (200 status or handled gracefully)
+- Date formats are ISO 8601 (YYYY-MM-DD)
+- Tag format is lowercase, hyphenated, and includes bike category
+- No user content is accidentally modified or deleted
 
 ---
 
