@@ -14,13 +14,13 @@ repos:
         args: ["-d {extends: relaxed, rules: {line-length: disable}}", "-s"]
         files: \.(yaml|yml)$
   - repo: https://github.com/google/yamlfmt
-    rev: v0.19.0
+    rev: v0.20.0
     hooks:
       - id: yamlfmt
   - repo: https://github.com/astral-sh/ruff-pre-commit
     # Python linting and code quality
 
-    rev: v0.14.1
+    rev: v0.14.2
     hooks:
       - id: ruff
         name: ruff-check

@@ -21,6 +21,7 @@ dependencies = [
     "mkdocs-redirects>=1.1",
     "mkdocs-section-index>=0.3",
     "mkdocs-llmstxt>=0.4",
+    "duckduckgo-mcp-server==0.1.1",
 ]
 
 [tool.pytest.ini_options]

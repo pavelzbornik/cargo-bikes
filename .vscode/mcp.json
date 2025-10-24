@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "duckduckgo": {
+      "command": "uvx",
+      "args": ["duckduckgo-mcp-server==0.1.1"]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    }
+  }
+}

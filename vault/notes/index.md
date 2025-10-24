@@ -48,13 +48,13 @@ Please visit our [GitHub repository](https://github.com/pavelzbornik/cargo-bikes
 
 ## Guides
 
-- [[guides/cargo-bike-terminology|Cargo Bike Terminology]]
-- [[guides/e-bike-motors-explained|E-Bike Motors Explained]]
+- [Cargo Bike Terminology](guides/cargo-bike-terminology.md)
+- [E-Bike Motors Explained](guides/e-bike-motors-explained.md)
 
 ## Component Manufacturers
 
-- [[components/manufacturers/bafang|Bafang]]
-- [[components/manufacturers/bosch|Bosch]]
-- [[components/manufacturers/shimano|Shimano]]
+- [Bafang](components/manufacturers/bafang.md)
+- [Bosch](components/manufacturers/bosch.md)
+- [Shimano](components/manufacturers/shimano.md)
 
 ---

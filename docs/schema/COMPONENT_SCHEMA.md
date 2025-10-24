@@ -9,12 +9,12 @@ This document defines the recommended frontmatter for **component notes** (e.g.,
 title: string # (Required) The full, official name of the component.
 type: string # (Required) The type of note, should be 'component'.
 component_type: string # (Required) The category of component, e.g., "motor", "battery", "brake", "drivetrain", "light".
-manufacturer: string # The name of the manufacturer, ideally as an [[Obsidian Link]].
+manufacturer: string # The name of the manufacturer, e.g., "Bosch eBike Systems".
 model_name: string # The specific model name or number, e.g., "Performance Line CX".
 release_year: number # The model year the component was released.
 url: string # The official product page URL for the component.
 tags: list[string] # Relevant tags for the component, e.g., [component, motor, mid-drive].
-specs: # A mapping of technical data relevant to this component type.
+specs:# A mapping of technical data relevant to this component type.
   # Fields here should mirror the structure from the main Bike Schema.
   # See notes below for examples.
 ---
@@ -35,7 +35,7 @@ specs: # A mapping of technical data relevant to this component type.
 title: "Bosch Performance Line CX"
 type: component
 component_type: "motor"
-manufacturer: "[[Bosch eBike Systems]]"
+manufacturer: "Bosch eBike Systems"
 model_name: "Performance Line CX (Smart System)"
 release_year: 2022
 url: "https://www.bosch-ebike.com/us/products/performance-line-cx"
@@ -49,9 +49,9 @@ specs:
 
 # Bosch Performance Line CX
 
-This is the flagship motor from [[Bosch eBike Systems]], designed for eMTB and high-performance cargo bike applications.
+This is the flagship motor from [Bosch eBike Systems](../../components/manufacturers/bosch.md), designed for eMTB and high-performance cargo bike applications.
 
 ## Bikes using this motor
-- [[Trek Fetch+ 2]]
-- [[Riese & Müller Load 75]]
+- [Trek Fetch+ 2](../../bikes/trek/fetch-2.md)
+- [Riese & Müller Load 75](../../bikes/riese-muller/load-75.md)
 ```

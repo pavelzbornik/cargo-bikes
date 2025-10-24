@@ -2,11 +2,11 @@
 
 ## Repository Summary
 
-This repository is a public Obsidian vault for structured knowledge about cargo bikes, with a focus on long-tail cargo bikes. It is intended as a Markdown-based knowledge base for models, design notes, specifications, maintenance tips, and community contributions. The repo includes Python utilities for generating and validating bike documentation.
+This repository is a public Markdown vault for structured knowledge about cargo bikes, with a focus on long-tail cargo bikes. It is intended as a Markdown-based knowledge base for models, design notes, specifications, maintenance tips, and community contributions. The repo includes Python utilities for generating and validating bike documentation.
 
 ## High-Level Information
 
-- **Project type:** Markdown documentation vault (Obsidian-compatible) with Python utilities
+- **Project type:** Markdown documentation vault with Python utilities
 - **Languages:** Markdown (with YAML frontmatter), Python 3.10+
 - **Frameworks/runtimes:** Python for automation scripts
 - **Repo size:** Small; documentation, templates, and Python utilities
