@@ -3,7 +3,7 @@ title: "BTWIN"
 type: "brand-index"
 brand: "BTWIN"
 tags: [brand, index, btwin]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "BTWIN is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,8 +19,8 @@ BTWIN is a cargo bike manufacturer dedicated to providing practical cargo bike s
 
 ## Models in Vault
 
-- **[[BTWIN F900E]]**
-- **[[BTWIN Elops R500E]]**
+- [BTWIN F900E](f900e.md)
+- [BTWIN Elops R500E](r500e.md)
 
 _Note: This vault currently documents 2 BTWIN model(s). The brand may offer additional models not yet documented._
 

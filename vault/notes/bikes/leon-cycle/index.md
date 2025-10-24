@@ -3,7 +3,7 @@ title: "Leon Cycle"
 type: "brand-index"
 brand: "Leon Cycle"
 tags: [brand, index, leon-cycle]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Leon Cycle is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ Leon Cycle is a cargo bike manufacturer dedicated to providing practical cargo b
 
 ## Models in Vault
 
-- **[[NCM CG7]]**
+- [NCM CG7](ncm-cg7.md)
 
 _Note: This vault currently documents 1 Leon Cycle model(s). The brand may offer additional models not yet documented._
 

@@ -3,7 +3,7 @@ title: "Fiido"
 type: "brand-index"
 brand: "Fiido"
 tags: [brand, index, fiido]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Fiido is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ Fiido is a cargo bike manufacturer dedicated to providing practical cargo bike s
 
 ## Models in Vault
 
-- **[[Fiido T2]]**
+- [Fiido T2](t2.md)
 
 _Note: This vault currently documents 1 Fiido model(s). The brand may offer additional models not yet documented._
 

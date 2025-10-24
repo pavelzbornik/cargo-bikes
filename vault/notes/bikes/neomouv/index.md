@@ -3,7 +3,7 @@ title: "Neomouv"
 type: "brand-index"
 brand: "Neomouv"
 tags: [brand, index, neomouv]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Neomouv is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ Neomouv is a cargo bike manufacturer dedicated to providing practical cargo bike
 
 ## Models in Vault
 
-- **[[OPIA LT Bleu Métal]]**
+- [OPIA LT Bleu Métal](opia-lt.md)
 
 _Note: This vault currently documents 1 Neomouv model(s). The brand may offer additional models not yet documented._
 

@@ -3,7 +3,7 @@ title: "Ello Mobilité"
 type: "brand-index"
 brand: "Ello Mobilité"
 tags: [brand, index, ello-mobilite]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Ello Mobilité is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,12 +19,12 @@ Ello Mobilité is a cargo bike manufacturer dedicated to providing practical car
 
 ## Models in Vault
 
-- **[[Ello Mobilité Le 400]]**
-- **[[Ello Mobilité Le 800]]**
-- **[[Ello Mobilité Primo C]]**
-- **[[Ello Mobilité Primo S]]**
-- **[[Ello Mobilité Tractor C]]**
-- **[[Ello Mobilité Tractor S]]**
+- [Ello Mobilité Le 400](le-400.md)
+- [Ello Mobilité Le 800](le-800.md)
+- [Ello Mobilité Primo C](primo-c.md)
+- [Ello Mobilité Primo S](primo-s.md)
+- [Ello Mobilité Tractor C](tractor-c.md)
+- [Ello Mobilité Tractor S](tractor-s.md)
 
 _Note: This vault currently documents 6 Ello Mobilité model(s). The brand may offer additional models not yet documented._
 

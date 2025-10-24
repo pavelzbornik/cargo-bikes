@@ -3,7 +3,7 @@ title: "TENWAYS"
 type: "brand-index"
 brand: "TENWAYS"
 tags: [brand, index, tenways]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "TENWAYS is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ TENWAYS is a cargo bike manufacturer dedicated to providing practical cargo bike
 
 ## Models in Vault
 
-- **[[TENWAYS Longtail Duo]]**
+- [TENWAYS Longtail Duo](longtail-duo.md)
 
 _Note: This vault currently documents 1 TENWAYS model(s). The brand may offer additional models not yet documented._
 

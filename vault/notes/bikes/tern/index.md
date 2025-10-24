@@ -3,7 +3,7 @@ title: "Tern"
 type: "brand-index"
 brand: "Tern"
 tags: [brand, index, tern]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Tern is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,13 +19,13 @@ Tern is a cargo bike manufacturer dedicated to providing practical cargo bike so
 
 ## Models in Vault
 
-- **[[Tern GSD P00]]**
-- **[[Tern GSD P10]]**
-- **[[Tern GSD R14]]**
-- **[[Tern GSD S10 LR]]**
-- **[[Tern GSD S10]]**
-- **[[Tern Orox]]**
-- **[[Quick Haul Long D9]]**
+- [Tern GSD P00](gsd-p00.md)
+- [Tern GSD P10](gsd-p10.md)
+- [Tern GSD R14](gsd-r14.md)
+- [Tern GSD S10 LR](gsd-s10-lr.md)
+- [Tern GSD S10](gsd-s10.md)
+- [Tern Orox](orox.md)
+- [Quick Haul Long D9](quick-haul-long-d9.md)
 
 _Note: This vault currently documents 7 Tern model(s). The brand may offer additional models not yet documented._
 

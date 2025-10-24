@@ -3,7 +3,7 @@ title: "SUM"
 type: "brand-index"
 brand: "SUM"
 tags: [brand, index, sum]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "SUM is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ SUM is a cargo bike manufacturer dedicated to providing practical cargo bike sol
 
 ## Models in Vault
 
-- **[[VÉLO CARGO LONG TILE ALPA]]**
+- [VÉLO CARGO LONG TILE ALPA](alpa.md)
 
 _Note: This vault currently documents 1 SUM model(s). The brand may offer additional models not yet documented._
 

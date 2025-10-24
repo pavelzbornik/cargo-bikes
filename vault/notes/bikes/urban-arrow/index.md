@@ -3,7 +3,7 @@ title: "Urban Arrow"
 type: "brand-index"
 brand: "Urban Arrow"
 tags: [brand, index, urban-arrow]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Urban Arrow is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ Urban Arrow is a cargo bike manufacturer dedicated to providing practical cargo 
 
 ## Models in Vault
 
-- **[[Urban Arrow Breeze]]**
+- [Urban Arrow Breeze](breeze.md)
 
 _Note: This vault currently documents 1 Urban Arrow model(s). The brand may offer additional models not yet documented._
 

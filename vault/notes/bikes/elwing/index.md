@@ -3,7 +3,7 @@ title: "Elwing"
 type: "brand-index"
 brand: "Elwing"
 tags: [brand, index, elwing]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Elwing is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ Elwing is a cargo bike manufacturer dedicated to providing practical cargo bike 
 
 ## Models in Vault
 
-- **[[Elwing Ritmic Jumbo]]**
+- [Elwing Ritmic Jumbo](ritmic-jumbo.md)
 
 _Note: This vault currently documents 1 Elwing model(s). The brand may offer additional models not yet documented._
 

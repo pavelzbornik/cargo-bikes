@@ -3,7 +3,7 @@ title: "Revom"
 type: "brand-index"
 brand: "Revom"
 tags: [brand, index, revom]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Revom is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,8 +19,8 @@ Revom is a cargo bike manufacturer dedicated to providing practical cargo bike s
 
 ## Models in Vault
 
-- **[[Revom Multi C2]]**
-- **[[Revom Multi]]**
+- [Revom Multi C2](multi-c2.md)
+- [Revom Multi](multi.md)
 
 _Note: This vault currently documents 2 Revom model(s). The brand may offer additional models not yet documented._
 

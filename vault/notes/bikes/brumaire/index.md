@@ -3,7 +3,7 @@ title: "BRUMAIRE"
 type: "brand-index"
 brand: "BRUMAIRE"
 tags: [brand, index, brumaire]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "BRUMAIRE is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,8 +19,8 @@ BRUMAIRE is a cargo bike manufacturer dedicated to providing practical cargo bik
 
 ## Models in Vault
 
-- **[[Longtail Nebula]]**
-- **[[Brumaire Nebula]]**
+- [Longtail Nebula](longtail-nebula.md)
+- [Brumaire Nebula](nebula.md)
 
 _Note: This vault currently documents 2 BRUMAIRE model(s). The brand may offer additional models not yet documented._
 

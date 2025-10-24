@@ -3,7 +3,7 @@ title: "Moustache"
 type: "brand-index"
 brand: "Moustache"
 tags: [brand, index, moustache]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Moustache is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ Moustache is a cargo bike manufacturer dedicated to providing practical cargo bi
 
 ## Models in Vault
 
-- **[[Moustache Lundi 20]]**
+- [Moustache Lundi 20](lundi-20.md)
 
 _Note: This vault currently documents 1 Moustache model(s). The brand may offer additional models not yet documented._
 

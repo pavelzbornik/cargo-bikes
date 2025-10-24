@@ -3,7 +3,7 @@ title: "Jean Fourche"
 type: "brand-index"
 brand: "Jean Fourche"
 tags: [brand, index, jean-fourche]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Jean Fourche is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,8 +19,8 @@ Jean Fourche is a cargo bike manufacturer dedicated to providing practical cargo
 
 ## Models in Vault
 
-- **[[Jean Fourche II]]**
-- **[[Jean Fourche II]]**
+- [Jean Fourche II](jean-ii-electric.md)
+- [Jean Fourche II](jean-ii.md)
 
 _Note: This vault currently documents 2 Jean Fourche model(s). The brand may offer additional models not yet documented._
 

@@ -3,7 +3,7 @@ title: "Riese & Müller"
 type: "brand-index"
 brand: "Riese & Müller"
 tags: [brand, index, riese-muller]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Riese & Müller is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,8 +19,8 @@ Riese & Müller is a cargo bike manufacturer dedicated to providing practical ca
 
 ## Models in Vault
 
-- **[[Riese & Müller Multicharger GT Family]]**
-- **[[Riese & Müller Multitinker Touring]]**
+- [Riese & Müller Multicharger GT Family](multicharger-gt-family.md)
+- [Riese & Müller Multitinker Touring](multitinker-touring.md)
 
 _Note: This vault currently documents 2 Riese & Müller model(s). The brand may offer additional models not yet documented._
 

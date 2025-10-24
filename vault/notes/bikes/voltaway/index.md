@@ -3,7 +3,7 @@ title: "Voltaway"
 type: "brand-index"
 brand: "Voltaway"
 tags: [brand, index, voltaway]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Voltaway is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,8 +19,8 @@ Voltaway is a cargo bike manufacturer dedicated to providing practical cargo bik
 
 ## Models in Vault
 
-- **[[Voltaway Panamax]]**
-- **[[Passenger Vélo Electrique Fat Bike]]**
+- [Voltaway Panamax](panamax.md)
+- [Passenger Vélo Electrique Fat Bike](passenger.md)
 
 _Note: This vault currently documents 2 Voltaway model(s). The brand may offer additional models not yet documented._
 

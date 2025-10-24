@@ -3,7 +3,7 @@ title: "Momentum"
 type: "brand-index"
 brand: "Momentum"
 tags: [brand, index, momentum]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Momentum is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ Momentum is a cargo bike manufacturer dedicated to providing practical cargo bik
 
 ## Models in Vault
 
-- **[[Momentum PakYak E+]]**
+- [Momentum PakYak E+](pakyak-e-plus.md)
 
 _Note: This vault currently documents 1 Momentum model(s). The brand may offer additional models not yet documented._
 

@@ -3,7 +3,7 @@ title: "Granville"
 type: "brand-index"
 brand: "Granville"
 tags: [brand, index, granville]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Granville is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ Granville is a cargo bike manufacturer dedicated to providing practical cargo bi
 
 ## Models in Vault
 
-- **[[Granville Longtail 545Wh]]**
+- [Granville Longtail 545Wh](longtail-545wh.md)
 
 _Note: This vault currently documents 1 Granville model(s). The brand may offer additional models not yet documented._
 

@@ -3,7 +3,7 @@ title: "Jobobike"
 type: "brand-index"
 brand: "Jobobike"
 tags: [brand, index, jobobike]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Jobobike is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ Jobobike is a cargo bike manufacturer dedicated to providing practical cargo bik
 
 ## Models in Vault
 
-- **[[Jobobike Cargo Transer]]**
+- [Jobobike Cargo Transer](cargo-transer.md)
 
 _Note: This vault currently documents 1 Jobobike model(s). The brand may offer additional models not yet documented._
 

@@ -3,7 +3,7 @@ title: "YEEP.ME"
 type: "brand-index"
 brand: "YEEP.ME"
 tags: [brand, index, yeep-me]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "YEEP.ME is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ YEEP.ME is a cargo bike manufacturer dedicated to providing practical cargo bike
 
 ## Models in Vault
 
-- **[[Day Cargo 2]]**
+- [Day Cargo 2](day-cargo-2.md)
 
 _Note: This vault currently documents 1 YEEP.ME model(s). The brand may offer additional models not yet documented._
 

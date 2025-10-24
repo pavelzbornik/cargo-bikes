@@ -3,7 +3,7 @@ title: "Cannondale"
 type: "brand-index"
 brand: "Cannondale"
 tags: [brand, index, cannondale]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Cannondale is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,8 +19,8 @@ Cannondale is a cargo bike manufacturer dedicated to providing practical cargo b
 
 ## Models in Vault
 
-- **[[Cannondale Cargowagen Neo 1]]**
-- **[[Cannondale Cargowagen Neo 2]]**
+- [Cannondale Cargowagen Neo 1](cargowagen-neo-1.md)
+- [Cannondale Cargowagen Neo 2](cargowagen-neo-2.md)
 
 _Note: This vault currently documents 2 Cannondale model(s). The brand may offer additional models not yet documented._
 

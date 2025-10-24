@@ -3,7 +3,7 @@ title: "Specialized"
 type: "brand-index"
 brand: "Specialized"
 tags: [brand, index, specialized]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Specialized is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ Specialized is a cargo bike manufacturer dedicated to providing practical cargo 
 
 ## Models in Vault
 
-- **[[Specialized Turbo Porto]]**
+- [Specialized Turbo Porto](turbo-porto.md)
 
 _Note: This vault currently documents 1 Specialized model(s). The brand may offer additional models not yet documented._
 

@@ -43,6 +43,7 @@ def collect_bikes_by_brand() -> dict[str, list[dict]]:
                     bikes_by_brand[brand_dir.name].append(
                         {
                             "title": frontmatter.get("title", ""),
+                            "filename": bike_file.stem,
                             "brand": frontmatter.get(
                                 "brand", brand_dir.name.replace("-", " ").title()
                             ),
@@ -66,7 +67,12 @@ def generate_brand_index(brand_key: str, bikes: list[dict]) -> str:
         return ""
 
     brand_name = bikes[0]["brand"]
-    models_list = "\n".join([f"- **[[{bike['title']}]]**" for bike in bikes])
+
+    # Create proper markdown links with real filenames
+    def bike_link(bike):
+        return f"- [{bike['title']}]({bike['filename']}.md)"
+
+    models_list = "\n".join([bike_link(bike) for bike in bikes])
 
     content = f'''---
 title: "{brand_name}"

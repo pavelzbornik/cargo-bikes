@@ -3,7 +3,7 @@ title: "Gaya"
 type: "brand-index"
 brand: "Gaya"
 tags: [brand, index, gaya]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Gaya is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,12 +19,12 @@ Gaya is a cargo bike manufacturer dedicated to providing practical cargo bike so
 
 ## Models in Vault
 
-- **[[Gaya L'Incroyable Le Court]]**
-- **[[Gaya L'Incroyable Le Long]]**
-- **[[Le Cargo]]**
-- **[[Le Compact]]**
-- **[[Gaya L'Original Le Court]]**
-- **[[Gaya L'Original Le Long]]**
+- [Gaya L'Incroyable Le Court](incroyable-le-court.md)
+- [Gaya L'Incroyable Le Long](incroyable-le-long.md)
+- [Le Cargo](le-cargo.md)
+- [Le Compact](le-compact.md)
+- [Gaya L'Original Le Court](original-le-court.md)
+- [Gaya L'Original Le Long](original-le-long.md)
 
 _Note: This vault currently documents 6 Gaya model(s). The brand may offer additional models not yet documented._
 

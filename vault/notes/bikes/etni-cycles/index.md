@@ -3,7 +3,7 @@ title: "Etni Cycles"
 type: "brand-index"
 brand: "Etni Cycles"
 tags: [brand, index, etni-cycles]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Etni Cycles is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ Etni Cycles is a cargo bike manufacturer dedicated to providing practical cargo 
 
 ## Models in Vault
 
-- **[[Etni Cycles Oléron]]**
+- [Etni Cycles Oléron](oleron.md)
 
 _Note: This vault currently documents 1 Etni Cycles model(s). The brand may offer additional models not yet documented._
 

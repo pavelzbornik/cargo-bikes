@@ -3,7 +3,7 @@ title: "Yuba"
 type: "brand-index"
 brand: "Yuba"
 tags: [brand, index, yuba]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Yuba is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,18 +19,18 @@ Yuba is a cargo bike manufacturer dedicated to providing practical cargo bike so
 
 ## Models in Vault
 
-- **[[Boda Boda]]**
-- **[[FastRack V1]]**
-- **[[FastRack]]**
-- **[[Kombi E5]]**
-- **[[Kombi E6]]**
-- **[[Kombi]]**
-- **[[mini Boda Boda]]**
-- **[[Mundo EP801]]**
-- **[[Mundo Lux]]**
-- **[[Spicy Curry+]]**
-- **[[Spicy Curry]]**
-- **[[Supercargo CL]]**
+- [Boda Boda](boda-boda.md)
+- [FastRack V1](fastrack-v1.md)
+- [FastRack](fastrack.md)
+- [Kombi E5](kombi-e5.md)
+- [Kombi E6](kombi-e6.md)
+- [Kombi](kombi.md)
+- [mini Boda Boda](mini-boda-boda.md)
+- [Mundo EP801](mundo-ep801.md)
+- [Mundo Lux](mundo-lux.md)
+- [Spicy Curry+](spicy-curry-plus.md)
+- [Spicy Curry](spicy-curry.md)
+- [Supercargo CL](supercargo-cl.md)
 
 _Note: This vault currently documents 12 Yuba model(s). The brand may offer additional models not yet documented._
 

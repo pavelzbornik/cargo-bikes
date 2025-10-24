@@ -3,7 +3,7 @@ title: "RUCANOR"
 type: "brand-index"
 brand: "RUCANOR"
 tags: [brand, index, rucanor]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "RUCANOR is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ RUCANOR is a cargo bike manufacturer dedicated to providing practical cargo bike
 
 ## Models in Vault
 
-- **[[Cargo 28 Pouces]]**
+- [Cargo 28 Pouces](cargo-28-pouces.md)
 
 _Note: This vault currently documents 1 RUCANOR model(s). The brand may offer additional models not yet documented._
 

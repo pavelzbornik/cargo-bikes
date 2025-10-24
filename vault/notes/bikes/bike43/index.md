@@ -3,7 +3,7 @@ title: "Bike43"
 type: "brand-index"
 brand: "Bike43"
 tags: [brand, index, bike43]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Bike43 is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,9 +19,9 @@ Bike43 is a cargo bike manufacturer dedicated to providing practical cargo bike 
 
 ## Models in Vault
 
-- **[[Bike43 Long]]**
-- **[[Bike43 Mid]]**
-- **[[Bike43 Short]]**
+- [Bike43 Long](long.md)
+- [Bike43 Mid](mid.md)
+- [Bike43 Short](short.md)
 
 _Note: This vault currently documents 3 Bike43 model(s). The brand may offer additional models not yet documented._
 

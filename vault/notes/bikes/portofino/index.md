@@ -3,7 +3,7 @@ title: "Portofino"
 type: "brand-index"
 brand: "Portofino"
 tags: [brand, index, portofino]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Portofino is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ Portofino is a cargo bike manufacturer dedicated to providing practical cargo bi
 
 ## Models in Vault
 
-- **[[Portofino CargoPro]]**
+- [Portofino CargoPro](cargo-pro.md)
 
 _Note: This vault currently documents 1 Portofino model(s). The brand may offer additional models not yet documented._
 

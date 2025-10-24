@@ -3,7 +3,7 @@ title: "ADDBIKE"
 type: "brand-index"
 brand: "ADDBIKE"
 tags: [brand, index, addbike]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "ADDBIKE is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,8 +19,8 @@ ADDBIKE is a cargo bike manufacturer dedicated to providing practical cargo bike
 
 ## Models in Vault
 
-- **[[U-Cargo Family]]**
-- **[[U-Cargo Lite]]**
+- [U-Cargo Family](u-cargo-family.md)
+- [U-Cargo Lite](u-cargo-lite.md)
 
 _Note: This vault currently documents 2 ADDBIKE model(s). The brand may offer additional models not yet documented._
 

@@ -3,7 +3,7 @@ title: "Benno Bikes"
 type: "brand-index"
 brand: "Benno Bikes"
 tags: [brand, index, benno]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Benno Bikes is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,9 +19,9 @@ Benno Bikes is a cargo bike manufacturer dedicated to providing practical cargo 
 
 ## Models in Vault
 
-- **[[Benno Boost 10D EVO 5 500Wh]]**
-- **[[Benno Boost E EVO4 500Wh]]**
-- **[[Benno eJoy E]]**
+- [Benno Boost 10D EVO 5 500Wh](boost-10d-evo-5.md)
+- [Benno Boost E EVO4 500Wh](boost-e-evo4.md)
+- [Benno eJoy E](ejoy-e.md)
 
 _Note: This vault currently documents 3 Benno Bikes model(s). The brand may offer additional models not yet documented._
 

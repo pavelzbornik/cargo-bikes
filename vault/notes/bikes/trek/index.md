@@ -3,7 +3,7 @@ title: "Trek"
 type: "brand-index"
 brand: "Trek"
 tags: [brand, index, trek]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Trek is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ Trek is a cargo bike manufacturer dedicated to providing practical cargo bike so
 
 ## Models in Vault
 
-- **[[Trek Fetch+ 2]]**
+- [Trek Fetch+ 2](fetch-plus-2.md)
 
 _Note: This vault currently documents 1 Trek model(s). The brand may offer additional models not yet documented._
 

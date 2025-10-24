@@ -3,7 +3,7 @@ title: "Conor"
 type: "brand-index"
 brand: "Conor"
 tags: [brand, index, conor]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Conor is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ Conor is a cargo bike manufacturer dedicated to providing practical cargo bike s
 
 ## Models in Vault
 
-- **[[Conor E-Cargo Berna]]**
+- [Conor E-Cargo Berna](e-cargo-berna.md)
 
 _Note: This vault currently documents 1 Conor model(s). The brand may offer additional models not yet documented._
 

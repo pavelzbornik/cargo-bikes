@@ -3,7 +3,7 @@ title: "Nakamura"
 type: "brand-index"
 brand: "Nakamura"
 tags: [brand, index, nakamura]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Nakamura is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ Nakamura is a cargo bike manufacturer dedicated to providing practical cargo bik
 
 ## Models in Vault
 
-- **[[Nakamura Crossover Longtail]]**
+- [Nakamura Crossover Longtail](crossover-longtail.md)
 
 _Note: This vault currently documents 1 Nakamura model(s). The brand may offer additional models not yet documented._
 

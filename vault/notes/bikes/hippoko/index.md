@@ -3,7 +3,7 @@ title: "Hippoko"
 type: "brand-index"
 brand: "Hippoko"
 tags: [brand, index, hippoko]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Hippoko is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ Hippoko is a cargo bike manufacturer dedicated to providing practical cargo bike
 
 ## Models in Vault
 
-- **[[Hippoko Longtail]]**
+- [Hippoko Longtail](longtail.md)
 
 _Note: This vault currently documents 1 Hippoko model(s). The brand may offer additional models not yet documented._
 

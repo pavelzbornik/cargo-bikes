@@ -3,7 +3,7 @@ title: "Gitane"
 type: "brand-index"
 brand: "Gitane"
 tags: [brand, index, gitane]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "Gitane is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ Gitane is a cargo bike manufacturer dedicated to providing practical cargo bike 
 
 ## Models in Vault
 
-- **[[Gitane G-Life Longtail]]**
+- [Gitane G-Life Longtail](g-life-longtail-2.md)
 
 _Note: This vault currently documents 1 Gitane model(s). The brand may offer additional models not yet documented._
 

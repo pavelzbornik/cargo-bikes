@@ -3,7 +3,7 @@ title: "VG Bikes"
 type: "brand-index"
 brand: "VG Bikes"
 tags: [brand, index, vg-bikes]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "VG Bikes is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ VG Bikes is a cargo bike manufacturer dedicated to providing practical cargo bik
 
 ## Models in Vault
 
-- **[[Longtail VG Life 672Wh]]**
+- [Longtail VG Life 672Wh](longtail-vg-life-672wh.md)
 
 _Note: This vault currently documents 1 VG Bikes model(s). The brand may offer additional models not yet documented._
 

@@ -3,7 +3,7 @@ title: "ENGWE"
 type: "brand-index"
 brand: "ENGWE"
 tags: [brand, index, engwe]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "ENGWE is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ ENGWE is a cargo bike manufacturer dedicated to providing practical cargo bike s
 
 ## Models in Vault
 
-- **[[ENGWE LE20 Cargo]]**
+- [ENGWE LE20 Cargo](le20-cargo-compact.md)
 
 _Note: This vault currently documents 1 ENGWE model(s). The brand may offer additional models not yet documented._
 

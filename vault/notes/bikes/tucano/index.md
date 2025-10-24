@@ -3,7 +3,7 @@ title: "TUCANO"
 type: "brand-index"
 brand: "TUCANO"
 tags: [brand, index, tucano]
-date: 2025-10-23
+date: 2025-10-24
 url: ""
 image: ""
 summary: "TUCANO is a cargo bike manufacturer offering diverse models for families and professionals."
@@ -19,7 +19,7 @@ TUCANO is a cargo bike manufacturer dedicated to providing practical cargo bike 
 
 ## Models in Vault
 
-- **[[Family Cargo Tuc Tuc XRoad 500W]]**
+- [Family Cargo Tuc Tuc XRoad 500W](family-cargo-tuc-tuc-xroad.md)
 
 _Note: This vault currently documents 1 TUCANO model(s). The brand may offer additional models not yet documented._
 
