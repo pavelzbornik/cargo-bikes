@@ -2,7 +2,7 @@
 name = "cargo-bikes-docs"
 version = "0.1.0"
 description = "Obsidian vault for cargo bikes documentation with Python utilities for content generation and validation."
-authors = ["pavelzbornik <your-email@example.com>"]
+authors = [{name = "pavelzbornik"}]
 requires-python = ">=3.10"
 dependencies = [
     "pyyaml>=6.0",
@@ -21,6 +21,13 @@ dependencies = [
     "mkdocs-redirects>=1.1",
     "mkdocs-section-index>=0.3",
     "mkdocs-llmstxt>=0.4",
+    "pydantic>=2.0",
+    "pydantic-ai>=0.0.14",
+    "httpx>=0.27.0",
+    "beautifulsoup4>=4.12.0",
+    "typer>=0.12.0",
+    "python-dateutil>=2.8.0",
+    "lxml>=5.0.0",
 ]
 
 [tool.pytest.ini_options]
