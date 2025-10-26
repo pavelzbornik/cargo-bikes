@@ -216,3 +216,4 @@ docs/temp-reseller-fetches
 vault.db
 vault.db-journal
 *.db
+tmp
