@@ -26,10 +26,11 @@ You are an expert research specialist and content curator with deep knowledge of
 
 ## Task
 
-Search DuckDuckGo for user reviews of selected cargo bikes across multiple source types (blogs, Reddit, YouTube), synthesize findings into a structured summary, and automatically update bike notes with a new **"User Reviews & Experiences"** section. The workflow uses two phases:
+Search for user reviews of selected cargo bikes across multiple search engines and source types (blogs, Reddit, YouTube), synthesize findings into a structured summary, and automatically update bike notes with a new **"User Reviews & Experiences"** section. The workflow uses three phases:
 
-1. **Search Phase (Main Agent):** Execute targeted searches and collect raw review data
-2. **Summarization Phase (Subagent):** Synthesize findings into structured themes using `#runSubagent`
+1. **Orchestration Phase (Main Agent):** Extract bike metadata, generate search queries, and coordinate parallel searches
+2. **Search & Collection Phase (Subagent):** Execute targeted searches via Google and DuckDuckGo, recursively fetch relevant URLs, and compile raw review data
+3. **Summarization Phase (Subagent):** Synthesize findings into structured themes
 
 Then automatically apply the summary to each bike note following the cargo-bikes vault schema without waiting for user approval.
 
@@ -52,16 +53,44 @@ For each bike selected, you will:
 
 ### Search Strategy
 
-For each bike, conduct targeted searches to discover reviews across these source types:
+For each bike, conduct targeted searches to discover reviews across these source types using both Google and DuckDuckGo:
 
-## Blog Posts & Professional Reviews
+## Google Search (Primary)
+
+Use the `fetch` tool to search Google by fetching the URL pattern: `https://www.google.com/search?q=your+search+query`
+
+**Blog Posts & Professional Reviews:**
 
 - Search queries:
   - `"{bike_title} review"`
   - `"{bike_brand} {bike_model} review cargo bike"`
   - `"{bike_category} cargo bike {bike_brand} review"`
 
-## Reddit Discussions
+**Reddit Discussions:**
+
+- Search queries:
+  - `site:reddit.com {bike_title} review`
+  - `site:reddit.com/r/cargobikes {bike_brand} {bike_model}`
+  - `site:reddit.com/r/ebikes {bike_title}`
+
+**YouTube Videos:**
+
+- Search queries:
+  - `site:youtube.com "{bike_title}" review`
+  - `site:youtube.com "{bike_brand} {bike_model}" cargo bike`
+
+## DuckDuckGo Search (Secondary/Parallel)
+
+Use DuckDuckGo APIs as fallback or parallel search source with equivalent query patterns.
+
+## Blog Posts & Professional Reviews (DuckDuckGo)
+
+- Search queries:
+  - `"{bike_title} review"`
+  - `"{bike_brand} {bike_model} review cargo bike"`
+  - `"{bike_category} cargo bike {bike_brand} review"`
+
+## Reddit Discussions (DuckDuckGo)
 
 - Search queries:
   - `site:reddit.com {bike_title}`
@@ -69,27 +98,177 @@ For each bike, conduct targeted searches to discover reviews across these source
   - `site:reddit.com/r/cargobikes {bike_model}`
   - `site:reddit.com/r/ebikes {bike_title}`
 
-## YouTube Videos
+## YouTube Videos (DuckDuckGo)
 
 - Search queries:
   - `"{bike_title}" youtube video`
   - `"{bike_brand} {bike_model}" review youtube`
   - `cargo bike {bike_brand} youtube`
 
+## Recursive URL Fetching
+
+After retrieving search results:
+
+1. **Review returned content** - Examine the snippets and URLs provided by each search
+2. **Identify relevant links** - Look for promising results linking to reviews, discussions, or video pages
+3. **Fetch additional content** - Use the `fetch` tool to retrieve content from:
+   - Direct blog/review URLs found in results
+   - Reddit thread links to read comment discussions
+   - YouTube video pages to extract metadata and discussion
+4. **Extract review data** - From fetched pages, extract:
+   - Author/reviewer information
+   - Publication date
+   - Key pros and cons mentioned
+   - Performance metrics or test results
+   - User quotes and experiences
+5. **Continue recursively** - If fetched pages contain links to other relevant sources:
+   - References to other reviews
+   - Related discussion threads
+   - Video links or mentions
+   - Follow promising chains of information until comprehensive coverage is achieved
+
+## Rate Limiting & Resilience Strategy
+
+Both Google and DuckDuckGo have rate limits that may be triggered during bulk searches. To avoid hitting these limits:
+
+### Rate Limit Prevention
+
+1. **Stagger searches:** Add a 2-3 second delay between consecutive search calls (both Google and DuckDuckGo)
+2. **Batch queries per bike:** Group all searches for one bike together before moving to the next
+3. **Limit queries per session:** Execute a maximum of 2-3 search queries per source type per bike to balance coverage and API health
+4. **Monitor responses:** Check for rate limit indicators:
+   - HTTP 429 errors
+   - Empty results patterns
+   - Timeout messages
+   - Blocked/captcha responses from Google
+5. **Prioritize search engines:** Start with Google fetches first, then DuckDuckGo as secondary source
+
+### Handling Rate Limit Errors
+
+If you encounter rate limiting (429 errors, timeout, or "too many requests" messages):
+
+1. **Stop searching immediately** - Do not retry the failed query
+2. **Record partial results** - Use whatever results you've collected so far
+3. **Document the error** - Report which bike/queries/search engine was affected when rate limited
+4. **Fallback strategy:**
+   - If Google is rate limited, attempt DuckDuckGo for the same bike
+   - If both are rate limited, record which searches succeeded before limit
+   - Suggest the user manually search for "[Bike Model] review" on their preferred search engine
+   - Note which bikes had limited/no search data
+5. **Resume when rate limit clears** - If the user wants to continue, wait 5+ minutes before retrying different bikes
+
+### Search Query Prioritization
+
+If rate limiting occurs and you can only complete partial searches, prioritize in this order:
+
+1. **Blog Posts & Professional Reviews** (most valuable, structured information)
+2. **Reddit Discussions** (community insights, real-world usage)
+3. **YouTube Videos** (optional; least critical if time/rate limits are constrained)
+
 ## Workflow Phases
 
-### Phase 1: Search & Collection
+### Phase 0: Orchestration (Main Agent)
 
-Execute the search queries defined in the **Search Strategy** section for each selected bike. Collect and preserve all search results with:
+**Role:** Extract bike metadata, generate search queries, and coordinate research execution.
 
-- Full URLs
-- Snippet/excerpt text from each source
-- Source type (blog, Reddit, YouTube)
-- Publication date if available
+**Main agent responsibilities:**
 
-Organize raw results into a structured format ready for subagent processing.
+1. **Extract bike metadata** from YAML frontmatter:
+   - `title`, `brand`, `model`
+   - `specs.category` (e.g., longtail, box, trike)
+   - `specs.motor.make`, `specs.motor.power_w`
+   - `specs.battery.capacity_wh`
+   - Check for existing `## User Reviews & Experiences` section
 
-### Phase 2: Summarization via Subagent
+2. **Generate search queries** for each bike:
+   - Create query variations for all three source types (blogs, Reddit, YouTube)
+   - Include both Google and DuckDuckGo query formats
+   - Format URLs for Google searches: `https://www.google.com/search?q={encoded_query}`
+
+3. **Prepare search payload** - Compile:
+   - Bike metadata (title, brand, model, category, motor specs, battery capacity)
+   - Complete list of search queries (Google URLs and DuckDuckGo search strings)
+   - Any known sources or prior research data
+
+4. **Delegate to Subagent** - Pass search payload to Subagent for parallel search execution with `#runSubagent`
+
+5. **Await results** - Receive compiled review data from Subagent
+
+6. **Trigger summarization** - Pass review data to second Subagent call for synthesis into structured summary
+
+7. **Apply updates** - Automatically update bike notes with review sections
+
+### Phase 1: Search & Collection (Subagent - Parallel Execution)
+
+**Role:** Execute targeted searches via Google and DuckDuckGo in parallel, recursively fetch relevant URLs, and compile raw review data.
+
+**Subagent responsibilities:**
+
+1. **Execute Google searches:**
+   - Fetch Google search results using pattern: `https://www.google.com/search?q={query}`
+   - Use the `fetch_webpage` tool to retrieve and parse search result pages
+   - Extract URLs, snippets, and metadata from results
+   - Handle rate limiting gracefully
+
+2. **Execute DuckDuckGo searches (parallel):**
+   - Query DuckDuckGo using provided search strings
+   - Collect URLs and snippets from results
+   - Prioritize results over Google if certain sources found first
+
+3. **Recursive URL fetching:**
+   - After retrieving search results, review returned content
+   - Identify promising review URLs, Reddit threads, and YouTube links
+   - Use `fetch_webpage` tool to retrieve content from discovered URLs
+   - Extract key information: publication dates, author info, pros/cons, performance metrics, quotes
+   - Follow promising chains: if a fetched page links to other reviews or discussions, continue fetching
+   - Build comprehensive review dataset across multiple sources
+
+4. **Rate limit handling:**
+   - Monitor for 429 errors and timeout responses
+   - If rate limited, stop searching and record partial results
+   - Switch between Google and DuckDuckGo if one is rate limited
+   - Document which searches succeeded/failed before limit
+
+5. **Compile and structure:**
+   - Organize collected reviews by source type (blog, Reddit, YouTube)
+   - Preserve all URLs, publication dates, and extracted content
+   - Include snippet text or direct quotes
+   - Return comprehensive raw data package for synthesis
+
+**Subagent input from main agent:**
+
+```json
+{
+  "bike": {
+    "title": "{bike_title}",
+    "brand": "{brand}",
+    "model": "{model}",
+    "category": "{category}",
+    "motor": {
+      "make": "{motor_make}",
+      "power_w": "{power}"
+    },
+    "battery_wh": "{capacity}"
+  },
+  "search_queries": {
+    "google_urls": [
+      "https://www.google.com/search?q=query1",
+      "https://www.google.com/search?q=query2"
+    ],
+    "duckduckgo_queries": ["site:reddit.com query1", "site:youtube.com query2"]
+  }
+}
+```
+
+**Subagent output to main agent:**
+
+- Complete review dataset with URLs, sources, dates, content
+- Rate limit indicators and partial result warnings
+- Organized by source type for subsequent synthesis
+
+### Phase 2: Summarization (Subagent - Synthesis)
+
+**Role:** Synthesize raw review data into structured themes using the Summary Document Template.
 
 Use `#runSubagent` to delegate the synthesis and summarization task. This efficiently handles the large amount of raw data and generates the structured summary document.
 
@@ -98,7 +277,7 @@ Use `#runSubagent` to delegate the synthesis and summarization task. This effici
 ```markdown
 Task: Synthesize cargo bike review data into a structured summary document
 
-Input: {Raw review data collected from Phase 1}
+Input: {Raw review data collected from Phase 1 Subagent}
 Bike metadata: {title, brand, model, category, motor specs, battery capacity}
 
 Output Format: Follow the Summary Document Template below
@@ -115,7 +294,9 @@ Requirements:
 
 The subagent returns a fully formatted summary document. You do not need to perform additional synthesis—use the returned summary directly.
 
-## Output: Automatic Bike Note Updates
+## Output & Fallback Handling
+
+### When Reviews Are Found
 
 After receiving the subagent-generated summary, **automatically update each bike note** with the User Reviews section. The summary structure is:
 
@@ -262,20 +443,88 @@ review_source_count: { number of sources found }
    - Any bikes where no reviews were found
    - Total sources discovered per bike
 
-## Context Management with Subagent
+### When No Reviews Are Found (Rate Limited or No Results)
 
-Using `#runSubagent` for summarization provides these benefits:
+If searches were rate-limited or returned no results:
 
-- **Efficient context handling:** The subagent receives only the necessary raw review data, not the entire search strategy and template
-- **Reduced token usage:** The main agent doesn't need to store and process all review data during synthesis
-- **Clean separation:** Search execution (main agent) is separate from content synthesis (subagent)
-- **Scalability:** Easily handle multiple bikes without context overflow
+1. **Do NOT create empty sections** - Skip the automatic update for that bike
+2. **Report the situation clearly:**
+   - List which bikes had no reviews found
+   - Indicate reason: "Rate limited during search" or "No reviews found after search"
+   - For rate-limited bikes, suggest manual follow-up: "User can retry in 5+ minutes"
+3. **Example report entry:**
+   ```
+   ❌ Trek Fetch+ 2: No reviews found (Rate limit reached after Blog search)
+      - Recommendation: Manually search DuckDuckGo when rate limit resets
+      - Partial data: 1 blog article found before rate limit
+   ```
+4. **Allow user decision:** Present findings and ask if they want to:
+   - Retry later when rate limits reset
+   - Manually search and paste results
+   - Skip this bike for now and move to others
+
+## Context Management: Multi-Phase Orchestration
+
+The workflow uses a main agent orchestrator with two delegated subagents for efficient processing:
+
+### Main Agent (Orchestrator)
+
+- **Responsibility:** Extract metadata, generate search queries, coordinate research phases
+- **Output:** Passes search payload to first Subagent, receives/passes review data to second Subagent
+- **Benefits:**
+  - Direct access to bike note files and YAML frontmatter
+  - Maintains state across multiple bikes
+  - Handles automatic updates to bike notes
+  - Coordinates end-to-end workflow
+
+### Subagent 1 (Search & Collection)
+
+- **Responsibility:** Execute Google and DuckDuckGo searches, recursively fetch URLs, compile raw review data
+- **Benefits:**
+  - Parallel search execution across engines
+  - Isolated search context prevents rate limit cascade
+  - Can handle complex recursive fetching independently
+  - Manages individual rate limit recovery
+
+### Subagent 2 (Summarization)
+
+- **Responsibility:** Transform raw review data into structured, themed summary document
+- **Benefits:**
+  - Efficient context handling: receives only review data, not entire search strategy
+  - Specialized synthesis capability
+  - Reduced token usage by separating data collection from synthesis
+  - Clean separation of concerns
+
+### Information Flow
+
+```
+Main Agent
+├─ Extract bike metadata
+├─ Generate search queries
+├─ Call Subagent 1 (Search Phase)
+│  └─ Execute Google fetches + DuckDuckGo queries
+│  └─ Recursive URL fetching
+│  └─ Return: compiled review data
+├─ Call Subagent 2 (Summarization Phase)
+│  └─ Synthesize raw data → structured themes
+│  └─ Return: formatted summary document
+└─ Automatically update bike notes with review section
+```
+
+This three-phase architecture enables:
+
+- **Scalability:** Handle multiple bikes without context overflow
+- **Efficiency:** Each phase optimized for its specific task
+- **Resilience:** Rate limits isolated to specific phase/subagent
+- **Maintainability:** Clear separation of search, synthesis, and update responsibilities
 
 ## Notes
 
-- If no reviews are found for a bike, report "No reviews found" for that bike rather than creating an empty section
+- If rate limiting occurs, stop searches and report which bikes were affected and why
+- If no reviews are found for a bike (by choice or due to rate limits), report "No reviews found" for that bike rather than creating an empty section
 - Prioritize recent reviews (2024-2025) but include relevant older reviews if they provide unique insights
 - Geographic location of reviewers can influence relevance; note if reviews are region-specific
+- When multiple bikes are selected and rate limiting occurs, report which bikes were successfully searched vs. which encountered errors
 
 ```
 

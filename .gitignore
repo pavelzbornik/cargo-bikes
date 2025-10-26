@@ -211,3 +211,8 @@ node_modules/
 
 .uv_cache/
 docs/temp-reseller-fetches
+
+# Database files
+vault.db
+vault.db-journal
+*.db

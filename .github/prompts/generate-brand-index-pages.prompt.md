@@ -1,7 +1,27 @@
 ---
 mode: agent
 description: "Create or update an index page for a cargo bike brand or component manufacturer. Fetch comprehensive information directly from official websites, product documentation, and professional reviews. Focus on primary sources to ensure accuracy. Respects MANUFACTURER_SCHEMA.md and brand-template.md conventions."
-tools: ["codebase", "editFiles", "search", "duckduckgo/*"]
+tools:
+  [
+    "runCommands",
+    "runTasks",
+    "edit",
+    "runNotebooks",
+    "search",
+    "new",
+    "duckduckgo/*",
+    "extensions",
+    "todos",
+    "runTests",
+    "runSubagent",
+    "usages",
+    "vscodeAPI",
+    "problems",
+    "changes",
+    "testFailure",
+    "fetch",
+    "githubRepo",
+  ]
 ---
 
 # Update Brand/Manufacturer Index Page from Official Sources

@@ -1,7 +1,27 @@
 ---
 mode: agent
 description: "Fetch bikes from websites using DuckDuckGo search and web content parsing, then create/update Obsidian vault notes following BIKE_SPECS_SCHEMA"
-tools: ["edit", "search", "duckduckgo/*", "fetch"]
+tools:
+  [
+    "runCommands",
+    "runTasks",
+    "edit",
+    "runNotebooks",
+    "search",
+    "new",
+    "duckduckgo/*",
+    "extensions",
+    "todos",
+    "runTests",
+    "runSubagent",
+    "usages",
+    "vscodeAPI",
+    "problems",
+    "changes",
+    "testFailure",
+    "fetch",
+    "githubRepo",
+  ]
 ---
 
 # Fetch & Document E-Bikes
