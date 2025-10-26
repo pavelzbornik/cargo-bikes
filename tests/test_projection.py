@@ -711,7 +711,7 @@ Content
 """
         )
 
-        success, message = project_bike_to_file(sample_bike, temp_vault, dry_run=False)
+        success, _message = project_bike_to_file(sample_bike, temp_vault, dry_run=False)
         assert success
 
         updated_content = bike_file.read_text()
@@ -756,7 +756,7 @@ After
 """
         )
 
-        success, message = project_bike_to_file(sample_bike, temp_vault, dry_run=False)
+        success, _message = project_bike_to_file(sample_bike, temp_vault, dry_run=False)
         assert success
 
         updated_content = bike_file.read_text()
@@ -790,7 +790,7 @@ Original content
 """
         bike_file.write_text(original_content)
 
-        success, message = project_bike_to_file(sample_bike, temp_vault, dry_run=True)
+        success, _ = project_bike_to_file(sample_bike, temp_vault, dry_run=True)
         assert success
 
         # File should be unchanged

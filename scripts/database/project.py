@@ -27,8 +27,7 @@ from sqlalchemy.orm import Session
 # Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
-from scripts.database.schema import Base, Bike, Reseller
-
+from scripts.database.schema import Bike
 
 # Marker constants for the specs table block
 SPECS_TABLE_START_MARKER = "<!-- BIKE_SPECS_TABLE_START -->"
