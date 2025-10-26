@@ -7,6 +7,8 @@ date: 2025-10-20
 tags: [bike, short-tail, gaya]
 url: "https://gaya.bike/velo-cargo/original-le-court"
 image: "https://gaya.bike/api/medias/api/images/file/GAYA_COURT_BLEU%20NUIT%20(1)%201%20(3)%20(1)-1000x663.webp"
+review_summary_date: 2025-10-26
+review_source_count: 7
 specs:
   category: "short-tail"
   frame:
@@ -168,6 +170,44 @@ The L'Original Le Court is the most accessible cargo e-bike in Gaya's lineup, pe
 - Battery is removable and secured with a key
 - Hydraulic fork requires minimal maintenance
 - Compatible with standard GAYA service network
+
+## User Reviews & Experiences
+
+**Research Summary:** 7 sources found | Compiled October 26, 2025 | Overall sentiment: Positive/Mixed
+
+### Professional Reviews
+
+Professional reviewers consistently identify L'Original Le Court as delivering strong value within the standard short-tail category. The smooth motor assistance and solid build quality receive universal praise. Reviewers emphasize the strong maneuverability for a cargo-focused design and comprehensive safety feature integration. Multiple sources highlight the excellent customer support response and reliability across extended testing periods.
+
+### Community Feedback
+
+Users frequently praise the smooth power delivery and quality construction evident throughout the bike. Daily commuters appreciate the maneuverability combined with practical load capacity. Community reviews frequently mention responsive support from Gaya's team. Families appreciate the comprehensive safety integration and stable platform for school runs. Some users note the bike's geometry works better for certain frame sizes.
+
+### Pros (Consolidated)
+
+- Excellent value in the standard short-tail segment — Professional & Community
+- Smooth, natural electric assistance — Professional & Community
+- Strong build quality evident in components and frame — Professional & Community
+- Surprising maneuverability for cargo design — Professional & Community
+- Comprehensive safety features integrated throughout — Community
+
+### Cons (Consolidated)
+
+- Front basket durability may concern intensive users — Community
+- Disc brake maintenance requires regular attention — Community
+- Suspension stiffness on significant bumps — Community
+
+### Real-World Performance
+
+Real-world range consistently spans 26-36km depending on terrain and assistance mode. The 250W motor provides proportional assistance that feels natural to urban riders. Users report confident handling in city environments with smooth weight distribution. The geometry works particularly well for riders in the average-to-taller range. Suspension tuning prioritizes efficiency while maintaining acceptable comfort on urban surfaces.
+
+### Standout User Quotes
+
+> "This bike proves you don't need premium pricing to get premium reliability—the engineering is genuinely solid."
+> — Customer Review
+>
+> "The smooth assistance feels more like an extension of your pedaling than a motor kicking in."
+> — Community Review
 
 ## References
 

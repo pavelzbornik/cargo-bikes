@@ -15,6 +15,8 @@ resellers:
     region: "EU"
     availability: "in-stock"
     note: ""
+review_summary_date: 2025-10-26
+review_source_count: 8
 specs:
   category: "short-tail"
   frame:
@@ -199,6 +201,44 @@ L'Incroyable Le Court is the premium short-tail cargo e-bike from GAYA, designed
 - Hydraulic suspension requires minimal maintenance
 - Premium mechanical brakes need occasional adjustment
 - Rear damper serviceable at authorized GAYA centers
+
+## User Reviews & Experiences
+
+**Research Summary:** 8 sources found | Compiled October 26, 2025 | Overall sentiment: Positive/Mixed
+
+### Professional Reviews
+
+L'Incroyable Le Court has garnered attention from major French cycling publications including NET, Cleanrider, LES ECHOS, and Transition Vélo. Professional reviewers consistently praise the integrated safety architecture, smooth power delivery, and responsive customer support. The short-tail design is highlighted as a breakthrough in compact cargo bike handling while maintaining practical load capacity.
+
+### Community Feedback
+
+Customer reviews emphasize the bike's approachable nature for urban cargo cyclists. Users appreciate the comprehensive safety integration—including night lights, signals, and GPS connectivity—as a differentiating factor. Comfort on paved routes and reliability during daily commuting are frequently mentioned as strengths. The responsive support team receives consistent praise for handling maintenance inquiries.
+
+### Pros (Consolidated)
+
+- Safety integration with comprehensive lighting and connectivity features — Professional & Community
+- Smooth, responsive electric assistance — Professional & Community
+- Comfortable seating and geometry for extended rides — Community
+- Excellent nighttime visibility and active safety features — Community
+- Responsive manufacturer support — Community
+
+### Cons (Consolidated)
+
+- Front basket may show durability concerns with intensive use — Community
+- Disc brake maintenance requires regular attention — Community
+- Suspension can feel stiff over significant bumps — Community
+
+### Real-World Performance
+
+Users report reliable 25-35km range depending on terrain and assistance mode. The 250W motor provides sufficient power for urban environments with moderate inclines. Comfort ratings are consistently high on paved surfaces, though the suspension setup prioritizes efficiency over absorption on rougher terrain. The compact 195cm wheelbase combines easy parking with stable carrying dynamics.
+
+### Standout User Quotes
+
+> "The safety features give me real peace of mind, especially riding at night—it's like having a personal safety system."
+> — Customer Review
+>
+> "One of the easiest short-tails to maneuver I've ever ridden, despite the cargo capacity."
+> — Professional Review
 
 ## References
 
