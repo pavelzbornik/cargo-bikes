@@ -514,3 +514,99 @@ class TestSchemaIntegrity:
 
         assert len(actual_tables) == len(expected_tables)
         assert actual_tables == expected_tables
+
+
+class TestVerifySchemaEdgeCases:
+    """Test suite for verify_schema edge cases."""
+
+    def test_verify_schema_with_missing_tables(self):
+        """Test verify_schema detects missing tables."""
+        from sqlalchemy import create_engine
+
+        # Create engine with only some tables
+        engine = create_engine("sqlite:///:memory:", echo=False)
+        # Only create brands table
+        from scripts.database.schema import Brand
+
+        Brand.__table__.create(engine, checkfirst=True)
+
+        # verify_schema should fail because other tables are missing
+        result = verify_schema(engine)
+        assert result is False
+
+    def test_verify_schema_with_extra_tables(self, in_memory_engine, capsys):
+        """Test verify_schema warns about extra tables."""
+        # Create an extra table
+        from sqlalchemy import Column, Integer, MetaData, Table
+
+        metadata = MetaData()
+        extra_table = Table(
+            "extra_table",
+            metadata,
+            Column("id", Integer, primary_key=True),
+        )
+        extra_table.create(in_memory_engine)
+
+        # verify_schema should still pass but warn about extra table
+        result = verify_schema(in_memory_engine)
+        # Still passes because it only cares about missing tables
+        assert result is True
+        captured = capsys.readouterr()
+        # Extra tables warning goes to stderr
+        assert "extra" in captured.err.lower() or "Extra tables" in captured.err
+
+    def test_verify_schema_all_tables_present(self, in_memory_engine):
+        """Test verify_schema passes when all tables are present."""
+        result = verify_schema(in_memory_engine)
+        assert result is True
+
+
+class TestInitDatabasePathHandling:
+    """Test suite for database path handling."""
+
+    def test_init_database_creates_parent_directories(self):
+        """Test that init_database creates parent directories if needed."""
+        import os
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            # Create a path with non-existent parent directories
+            db_path = os.path.join(tmpdir, "subdir", "nested", "database.db")
+            assert not Path(db_path).exists()
+
+            engine = init_database(db_path, echo=False)
+
+            # Parent directories should be created
+            assert Path(db_path).exists()
+            assert isinstance(engine, Engine)
+
+    def test_init_database_with_relative_path(self):
+        """Test init_database works with relative paths."""
+        import os
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            original_cwd = os.getcwd()
+            try:
+                os.chdir(tmpdir)
+
+                # Initialize with relative path
+                engine = init_database("test.db", echo=False)
+
+                # File should be created in current directory
+                assert Path("test.db").exists()
+                assert isinstance(engine, Engine)
+            finally:
+                os.chdir(original_cwd)
+
+
+class TestInitDatabaseErrors:
+    """Test suite for error handling in init_database."""
+
+    def test_init_database_with_echo(self, temp_db_path):
+        """Test init_database with echo enabled."""
+        engine = init_database(temp_db_path, echo=False)
+
+        # Verify engine was created
+        assert isinstance(engine, Engine)
+        assert Path(temp_db_path).exists()

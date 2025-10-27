@@ -40,6 +40,9 @@ The Tern Orox is a premium electric cargo longtail designed for adventure and ev
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €6,799 (S12) / €9,300 (R14)
 - **Weight:** 37.7 kg (empty)
 - **Frame:** Aluminum, reinforced for 210 kg total capacity

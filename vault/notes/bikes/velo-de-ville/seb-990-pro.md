@@ -23,6 +23,9 @@ The Velo de Ville SEB 990 Pro is a unique German electric cargo bike that functi
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €3,949 (base, Active Line) / €4,050+ (recommended minimum with Performance Line) / €5,700+ (fully equipped as tested)
 - **Weight:** 35.92 kg (complete test build with Cargo Kit)
 - **Frame:** Aluminum, reinforced for passenger kit; available in closed, semi-open, or open configurations

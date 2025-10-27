@@ -23,6 +23,9 @@ The Momentum PakYak E+ is the first electric cargo longtail from Momentum, Giant
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €4,700 (base price without accessories)
 - **Weight:** ~33 kg (estimated frame + components)
 - **Frame:** Aluminum, robust construction; single size (1.60–1.90 m riders)

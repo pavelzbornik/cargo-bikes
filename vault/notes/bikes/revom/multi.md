@@ -19,6 +19,9 @@ The Revom Multi is a modular electric cargo bike designed for urban transportati
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 | Specification     | Details                                         |
 | ----------------- | ----------------------------------------------- |
 | **Motor**         | BAFANG 250W, 55 Nm torque                       |

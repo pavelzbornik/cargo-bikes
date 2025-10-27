@@ -21,6 +21,9 @@ The OKLÖ ÉVO Vélotaf is the urban commuter's dream—a nimble, agile cargo e-
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Core Dimensions
 
 - **Compact Footprint:** ~182cm long, 66cm wide, 115cm high

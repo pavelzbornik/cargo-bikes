@@ -21,6 +21,9 @@ The OKLÖ ÉVO Fantilo is a premium electric family cargo bike **elected Cargo B
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Geometry
 
 - **Compact Version:**

@@ -47,6 +47,9 @@ The FastRack V1 is compact, cargo, and electric. This refined version of the Fas
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €3,499.00
 - **Bike type:** Compact electric cargo bike
 - **Motor:** 500W

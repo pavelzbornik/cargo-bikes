@@ -23,6 +23,9 @@ The Fatstreet X Trail Sport is the premium variant with enhanced features for de
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €3,099-€3,299
 - **Motor:** Bafang 500W, 80Nm torque
 - **Battery:** 48V 20Ah - 960Wh

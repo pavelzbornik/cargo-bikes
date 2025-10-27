@@ -23,6 +23,9 @@ The Fatstreet Limited is UNIKRIDE's compact, value-oriented two-seater electric 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €1,999 (entry price)
 - **Motor:** 250W or 500W options available
 - **Battery:** 48V 20Ah - 960Wh

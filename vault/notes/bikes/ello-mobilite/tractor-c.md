@@ -20,6 +20,9 @@ The Tractor C combines the compactness of a classic bike with the carrying capac
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Frame:** Aluminum, manufactured in France
 - **Front cargo fork:** Accepts up to 35 kg
 - **Rear platform:** Accepts up to 80 kg additional load

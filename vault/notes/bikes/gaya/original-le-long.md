@@ -68,6 +68,9 @@ L'Original Le Long is GAYA's long-tail cargo e-bike, redesigned for the urban fa
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 | Specification               | Details                                          |
 | --------------------------- | ------------------------------------------------ |
 | **Price**                   | €2,800 TTC                                       |

@@ -61,6 +61,9 @@ The Trek Fetch+ 2 is a premium American longtail electric cargo bike designed fo
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Frame Material:** Aluminum (robust cargo geometry)

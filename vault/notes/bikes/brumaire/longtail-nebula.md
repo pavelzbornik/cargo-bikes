@@ -27,6 +27,9 @@ The BRUMAIRE Nebula is a French-made electric longtail cargo bike designed for c
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Design
 
 - **Type:** Electric longtail family bike

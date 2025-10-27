@@ -69,6 +69,9 @@ Le Compact is GAYA's most accessible cargo e-bike, designed for urban commuting 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 | Specification                | Details                                     |
 | ---------------------------- | ------------------------------------------- |
 | **Price**                    | €2,300 TTC                                  |

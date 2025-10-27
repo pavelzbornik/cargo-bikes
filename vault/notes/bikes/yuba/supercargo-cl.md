@@ -34,6 +34,9 @@ The Supercargo CL is Yuba's Californian-style electric frontloader. It delivers 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €4,849.00
 - **Bike type:** Frontloader electric cargo bike
 - **Motor:** 500W

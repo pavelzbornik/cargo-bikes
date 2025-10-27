@@ -73,6 +73,9 @@ Gaya Cargo (marketed as "Le Cargo") represents emerging French brand innovation 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 | Specification                | Details                                     |
 | ---------------------------- | ------------------------------------------- |
 | **Price**                    | €2,800 TTC                                  |

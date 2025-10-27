@@ -107,6 +107,9 @@ The Jean Fourche II is revolutionary in its compactness—at just 175 cm (plus 1
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Frame:** Aluminum (Portuguese manufacture, Bordeaux assembly)
 - **Length:** 175 cm (185 cm with safety bar)
 - **Weight:** 27 kg (with battery)

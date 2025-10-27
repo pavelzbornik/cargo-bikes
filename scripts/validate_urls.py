@@ -8,6 +8,7 @@ import re
 import sys
 from datetime import datetime
 from pathlib import Path
+from typing import Any
 from urllib.parse import urlparse
 
 import requests
@@ -25,7 +26,7 @@ class QuotedString(str):
     pass
 
 
-def quoted_representer(dumper, data):
+def quoted_representer(dumper: Any, data: Any) -> Any:
     """Custom representer to quote strings."""
     return dumper.represent_scalar("tag:yaml.org,2002:str", data, style='"')
 
@@ -97,7 +98,7 @@ class URLValidator:
 
 def extract_frontmatter(
     content: str,
-) -> tuple[dict | None, str, str | None]:
+) -> tuple[dict[str, object] | None, str, str | None]:
     """Extract YAML frontmatter from Markdown file content.
 
     Args:
@@ -112,15 +113,16 @@ def extract_frontmatter(
     yaml_content = match.group(1)
     body_content = match.group(2)
     try:
-        frontmatter = yaml.safe_load(yaml_content)
-        return frontmatter, body_content, yaml_content
+        frontmatter_data = yaml.safe_load(yaml_content)
+        fm = frontmatter_data if isinstance(frontmatter_data, dict) else {}
+        return fm, body_content, yaml_content
     except yaml.YAMLError as e:
         print(f"  [WARN] YAML parse error: {e}")
         return None, content, None
 
 
 def reconstruct_frontmatter(
-    frontmatter: dict,
+    frontmatter: dict[str, object],
     body: str,
     original_yaml: str | None = None,
 ) -> str:
@@ -150,7 +152,9 @@ def reconstruct_frontmatter(
     return f"---\n{yaml_str}\n---\n{body}"
 
 
-def _update_yaml_preserve_format(original_yaml: str, updated_data: dict) -> str:
+def _update_yaml_preserve_format(
+    original_yaml: str, updated_data: dict[str, object]
+) -> str:
     """Update YAML while preserving original formatting style.
 
     Args:
@@ -208,8 +212,8 @@ def _update_yaml_preserve_format(original_yaml: str, updated_data: dict) -> str:
 
 
 def validate_and_clean_urls(
-    frontmatter: dict, validator: URLValidator
-) -> tuple[dict, list[str]]:
+    frontmatter: dict[str, object], validator: URLValidator
+) -> tuple[dict[str, object], list[str]]:
     """Validate URLs in frontmatter and set invalid ones to empty.
 
     Args:
@@ -235,7 +239,7 @@ def validate_and_clean_urls(
 
 def create_changelog_entry(
     file_path: str, removed_urls: list[str], status: str
-) -> dict:
+) -> dict[str, object]:
     """Create a changelog entry for a validated file.
 
     Args:
@@ -256,7 +260,7 @@ def create_changelog_entry(
 
 def validate_vault_urls(
     dry_run: bool = False, skip_check: bool = False
-) -> tuple[list[dict], int]:
+) -> tuple[list[dict[str, object]], int]:
     """Validate all URLs in vault/notes.
 
     Args:
@@ -267,7 +271,7 @@ def validate_vault_urls(
         Tuple of (changelog entries, total files processed).
     """
     validator = URLValidator()
-    changelog = []
+    changelog: list[dict[str, object]] = []
     vault_notes = Path("vault/notes")
 
     if not vault_notes.exists():
@@ -349,7 +353,7 @@ def validate_vault_urls(
     return changelog, total_files
 
 
-def save_changelog(changelog: list[dict], dry_run: bool = False) -> None:
+def save_changelog(changelog: list[dict[str, object]], dry_run: bool = False) -> None:
     """Save changelog to file.
 
     Args:
@@ -357,7 +361,7 @@ def save_changelog(changelog: list[dict], dry_run: bool = False) -> None:
         dry_run: If True, do not save file.
     """
     changelog_path = Path("scripts/VALIDATE_URLS_CHANGELOG.json")
-    changelog_content = {
+    changelog_content: dict[str, object] = {
         "generated": datetime.now().isoformat(),
         "total_entries": len(changelog),
         "entries": changelog,
@@ -376,7 +380,9 @@ def save_changelog(changelog: list[dict], dry_run: bool = False) -> None:
     print(f"\n[OK] Changelog saved to {changelog_path}")
 
 
-def print_summary(changelog: list[dict], total_files: int, dry_run: bool) -> None:
+def print_summary(
+    changelog: list[dict[str, object]], total_files: int, dry_run: bool
+) -> None:
     """Print summary statistics.
 
     Args:
@@ -390,16 +396,21 @@ def print_summary(changelog: list[dict], total_files: int, dry_run: bool) -> Non
     print(f"Total files processed: {total_files}")
     print(f"Total entries in changelog: {len(changelog)}")
 
-    status_counts = {}
+    status_counts: dict[str, int] = {}
     for entry in changelog:
         status = entry["status"]
-        status_counts[status] = status_counts.get(status, 0) + 1
+        if isinstance(status, str):
+            status_counts[status] = status_counts.get(status, 0) + 1
 
     print("\nStatus breakdown:")
     for status, count in sorted(status_counts.items()):
         print(f"  {status}: {count}")
 
-    urls_removed = sum(len(entry["removed_urls"]) for entry in changelog)
+    urls_removed = sum(
+        len(val) if isinstance(val, (list, tuple)) else 0
+        for entry in changelog
+        for val in [entry.get("removed_urls")]
+    )
     print(f"\nTotal URLs removed: {urls_removed}")
 
     if dry_run:

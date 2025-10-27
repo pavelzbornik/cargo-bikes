@@ -14,7 +14,9 @@ from typing import Optional
 
 from sqlalchemy import (
     Boolean,
+    Connection,
     Date,
+    Engine,
     Float,
     ForeignKey,
     Integer,
@@ -166,6 +168,9 @@ class Bike(Base):
     tags: Mapped[str | None] = mapped_column(Text)  # Comma-separated
     url: Mapped[str | None] = mapped_column(String(500))
     image: Mapped[str | None] = mapped_column(String(500))
+    file_path: Mapped[str | None] = mapped_column(
+        String(500)
+    )  # Relative path to markdown file (e.g., vault/notes/bikes/brand/model.md)
 
     # Specs: Basic Classification
     category: Mapped[str | None] = mapped_column(
@@ -369,7 +374,7 @@ class Component(Base):
 # ==============================================================================
 
 
-def create_tables(engine):
+def create_tables(engine: Engine | Connection) -> None:
     """
     Create all tables in the database.
 
@@ -379,7 +384,7 @@ def create_tables(engine):
     Base.metadata.create_all(engine)
 
 
-def drop_tables(engine):
+def drop_tables(engine: Engine | Connection) -> None:
     """
     Drop all tables from the database.
 
@@ -389,7 +394,7 @@ def drop_tables(engine):
     Base.metadata.drop_all(engine)
 
 
-def get_table_names():
+def get_table_names() -> list[str]:
     """
     Get a list of all table names defined in the schema.
 

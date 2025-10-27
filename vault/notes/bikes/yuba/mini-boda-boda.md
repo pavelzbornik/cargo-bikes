@@ -35,6 +35,9 @@ A compact, agile urban cargo bike designed for maximum maneuverability in crowde
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €4,499.00
 - **Bike type:** Compact electric cargo bike
 

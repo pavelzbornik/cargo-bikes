@@ -106,6 +106,9 @@ The Multitinker Touring is the dérailleur version of Riese & Müller's compact 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Frame material:** Aluminum

@@ -101,6 +101,9 @@ The Xtracycle eSwoop is a family-focused electric longtail cargo bike designed t
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Frame material:** 4130 Chromoly steel

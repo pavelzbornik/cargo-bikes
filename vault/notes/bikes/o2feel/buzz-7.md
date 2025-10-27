@@ -31,6 +31,9 @@ The O2Feel Buzz 7 is a compact, modular electric cargo bike designed for urban s
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Load capacity:** 180 kg

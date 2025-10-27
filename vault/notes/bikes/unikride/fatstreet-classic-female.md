@@ -23,6 +23,9 @@ The Fatstreet Classic is the ultimate two-seater cargo electric bike, designed f
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €2,399 (250W) - €2,599 (500W)
 - **Motor:** Bafang 250W or 500W, 80Nm torque
 - **Battery:** 48V 20Ah - 960Wh, integrated

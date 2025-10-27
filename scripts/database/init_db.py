@@ -103,7 +103,7 @@ def verify_schema(engine: Engine) -> bool:
     return True
 
 
-def main():
+def main() -> int:
     """Command-line interface for database initialization."""
     parser = argparse.ArgumentParser(
         description="Initialize the cargo-bikes vault database",

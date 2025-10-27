@@ -41,6 +41,9 @@ The Moustache Lundi 20 represents excellent French engineering in the longtail s
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Length:** 200 cm

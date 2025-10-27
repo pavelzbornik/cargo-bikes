@@ -96,6 +96,9 @@ The Cube Longtail Hybrid Comfort 800 is a versatile cargo bike designed to answe
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Frame & Build
 
 - **Frame Material:** Aluminum Superlite with Comfort Ride Geometry

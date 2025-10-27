@@ -27,6 +27,9 @@ The SUM ALPA is an electric longtail cargo bike offering practical family transp
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Design
 
 - **Type:** Electric longtail

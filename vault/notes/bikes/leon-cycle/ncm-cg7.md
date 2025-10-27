@@ -23,6 +23,9 @@ The NCM CG7 is a compact cargo e-bike designed with a 20-inch wheel size and alu
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €2,699.00
 - **Weight:** 33.0 kg (with battery), 28.2 kg (without battery)
 - **Frame size:** Aluminum 6061, 20" x 380mm

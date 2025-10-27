@@ -25,7 +25,8 @@
                 "taskfile.vscode-taskfile",
                 "streetsidesoftware.code-spell-checker",
                 "DavidAnson.vscode-markdownlint",
-                "esbenp.prettier-vscode"
+                "esbenp.prettier-vscode",
+                "alexcvzz.vscode-sqlite"
             ],
             "settings": {
                 "editor.formatOnSave": true,

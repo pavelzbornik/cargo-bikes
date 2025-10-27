@@ -25,6 +25,9 @@ The Mundo Lux is the pioneer of longtails for your everyday life and memorable a
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €1,849.00
 - **Bike type:** Longtail cargo bike (non-electric)
 - **Load capacity:** 200+ kg

@@ -19,6 +19,9 @@ The OKLÖ Fantilo is a premium family electric longtail cargo bike designed for 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Design
 
 - **Type:** Electric longtail family bike

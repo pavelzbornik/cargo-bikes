@@ -19,6 +19,9 @@ The TUCANO Family Cargo Tuc Tuc XRoad is a family-focused cargo bike with powerf
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Motor & Battery
 
 - **Motor:** 500W electric motor

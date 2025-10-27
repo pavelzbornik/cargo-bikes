@@ -23,6 +23,9 @@ The Granville Longtail is an ideal cargo bike designed to transport equipment an
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €5,399.00
 - **Frame:** Longtail 24" front/20" rear (KL20-121FD-420) Putty ABC with motor cover
 - **Fork:** Rigid front fork 24" KNK 15-100 TA (KL24-01FD)

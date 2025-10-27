@@ -29,6 +29,17 @@ repos:
       - id: ruff-format
         name: ruff-format
         types: [python]
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    # Python static type checker
+
+    rev: v1.14.1
+    hooks:
+      - id: mypy
+        name: mypy
+        additional_dependencies: [types-PyYAML, types-requests, sqlalchemy]
+        types: [python]
+        args: [--strict]
+        files: ^scripts/
   - repo: https://github.com/igorshubovych/markdownlint-cli
     # Markdown linting and formatting
 

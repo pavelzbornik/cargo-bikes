@@ -21,6 +21,9 @@ The Kiffy Capsule MT represented French artisanal manufacturing at scale, with 8
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Length:** 195 cm

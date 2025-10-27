@@ -19,6 +19,9 @@ Etni Cycles (Etienne + Nicolas) represents a 2020 mission-driven approach to car
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Length:** 204 cm

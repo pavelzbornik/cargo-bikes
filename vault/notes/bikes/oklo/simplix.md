@@ -21,6 +21,9 @@ The OKLÖ Simplix is an ultra-compact, lightweight mini cargo bike designed for 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Geometry
 
 - **Overall Length:** 1,660 mm

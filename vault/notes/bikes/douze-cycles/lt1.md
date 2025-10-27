@@ -19,6 +19,9 @@ The Douze Cycles LT1 is a premium French longtail electric cargo bike positioned
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Frame Material:** Robust longtail geometry optimized for cargo

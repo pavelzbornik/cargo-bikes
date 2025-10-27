@@ -23,6 +23,9 @@ UNIKRIDE's Longtail electric cargo bike is a versatile, robust model perfect for
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €2,200
 - **Motor:** 500W Bafang motor
 - **Battery:** 48V 20Ah - 960Wh integrated battery

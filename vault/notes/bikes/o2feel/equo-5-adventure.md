@@ -33,6 +33,9 @@ The O2Feel Equo 5 Adventure represents a unique hybrid positioning between tradi
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Max load:** 180 kg

@@ -245,6 +245,30 @@ def get_or_create_brand(session: Session, brand_name: str) -> Brand | None:
     return brand
 
 
+def get_relative_file_path(file_path: Path) -> str:
+    """
+    Get file path relative to workspace root with fallback handling.
+
+    Args:
+        file_path: Path to the file
+
+    Returns:
+        Path string relative to cwd, or absolute path if relative path fails
+    """
+    try:
+        # Try to get path relative to current working directory
+        return str(file_path.relative_to(Path.cwd()))
+    except ValueError:
+        pass
+
+    try:
+        # If that fails, resolve both paths and try again
+        return str(file_path.resolve().relative_to(Path.cwd().resolve()))
+    except ValueError:
+        # Fall back to absolute path
+        return str(file_path.resolve())
+
+
 def upsert_bike(
     session: Session, frontmatter: dict[str, Any], file_path: Path
 ) -> Bike | None:
@@ -284,6 +308,9 @@ def upsert_bike(
     bike.tags = parse_tags(frontmatter.get("tags"))
     bike.url = frontmatter.get("url")
     bike.image = frontmatter.get("image")
+
+    # Store file path relative to workspace root
+    bike.file_path = get_relative_file_path(file_path)
 
     # Get or create brand relationship
     if brand_name:
@@ -508,10 +535,16 @@ def hydrate_from_vault(session: Session, vault_path: Path) -> dict[str, int]:
 
         try:
             if note_type in ["brand", "manufacturer"]:
-                # Track if brand existed before
+                # Track if brand existed with substantive data before
                 title = frontmatter.get("title")
                 stmt = select(Brand).where(Brand.title == title)
-                existed = session.execute(stmt).scalar_one_or_none() is not None
+                existing_brand = session.execute(stmt).scalar_one_or_none()
+
+                # A brand is considered "existed" if it had a URL or summary
+                # (indicating it came from an explicit brand file, not a placeholder)
+                existed = existing_brand is not None and (
+                    existing_brand.url is not None or existing_brand.summary is not None
+                )
 
                 brand = upsert_brand(session, frontmatter, md_file)
                 if brand:
@@ -524,10 +557,10 @@ def hydrate_from_vault(session: Session, vault_path: Path) -> dict[str, int]:
                 # Track if bike existed before
                 title = frontmatter.get("title")
                 brand_name = frontmatter.get("brand")
-                stmt = select(Bike).where(
+                bike_stmt = select(Bike).where(
                     Bike.title == title, Bike.brand_name == brand_name
                 )
-                existed = session.execute(stmt).scalar_one_or_none() is not None
+                existed = session.execute(bike_stmt).scalar_one_or_none() is not None
 
                 bike = upsert_bike(session, frontmatter, md_file)
                 if bike:
@@ -547,7 +580,7 @@ def hydrate_from_vault(session: Session, vault_path: Path) -> dict[str, int]:
     return stats
 
 
-def main():
+def main() -> int:
     """Command-line interface for the hydration script."""
     parser = argparse.ArgumentParser(
         description="Hydrate the cargo-bikes database from Markdown files",

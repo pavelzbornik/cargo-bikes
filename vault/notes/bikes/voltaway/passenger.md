@@ -19,6 +19,9 @@ The VOLTAWAY Passenger is an electric fat bike designed for passenger and cargo 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Design
 
 - **Type:** Electric fat bike

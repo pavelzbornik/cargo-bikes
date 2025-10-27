@@ -23,6 +23,9 @@ The Velo de Ville Loady is a compact electric cargo longtail from the German man
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €4,399 (base) / €5,700+ (fully configured as tested)
 - **Weight:** 38 kg (complete test build with Cargo Kit Pro)
 - **Frame:** Aluminum, reinforced for cargo load; low-step frame for easy mounting

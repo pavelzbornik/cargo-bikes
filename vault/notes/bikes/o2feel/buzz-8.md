@@ -31,6 +31,9 @@ The O2Feel Buzz 8 is the premium belt-drive version of the compact cargo Buzz pl
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Load capacity:** 180 kg

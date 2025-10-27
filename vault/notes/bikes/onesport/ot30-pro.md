@@ -93,6 +93,9 @@ The OneSport OT30 Pro is the premium version of the OT30 three-wheel electric tr
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Motor & Drive System
 
 - **Motor**: Bafang 48V 500W

@@ -108,6 +108,9 @@ The Turbo Porto is a statement of intent from Specialized: a premium longtail th
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Frame material:** Aluminum

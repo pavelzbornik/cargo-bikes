@@ -52,6 +52,9 @@ The Kombi E5 is the compact urban cargo bike perfect for city living. It provide
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €2,599.00
 - **Bike type:** Compact electric cargo bike
 - **Motor:** 500W

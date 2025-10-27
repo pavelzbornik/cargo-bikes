@@ -19,6 +19,9 @@ The Voltaway Panamax is an elegant French-designed longtail cargo bike that comb
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 | Specification            | Details                                              |
 | ------------------------ | ---------------------------------------------------- |
 | **Motor**                | Bafang 250W with 80 Nm torque                        |

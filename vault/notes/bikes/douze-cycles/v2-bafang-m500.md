@@ -23,6 +23,9 @@ The V2 Bafang M500 is a front-cargo (biporteur) electric bike featuring a powerf
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €4,950 TTC
 - **Motor:** Bafang M500 – 250W nominal, 95 Nm max torque
 - **Battery:** DLG Li-ion 672 Wh, removable, 5-LED charge indicator

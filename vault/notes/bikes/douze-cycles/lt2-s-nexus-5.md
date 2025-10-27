@@ -23,6 +23,9 @@ The LT2 S Nexus 5 is a premium electric longtail cargo bike featuring a Shimano 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €4,690 TTC
 - **Motor:** Shimano EP8 Cargo – 250W, mid-drive
 - **Battery:** Shimano 504 Wh Li-ion, removable

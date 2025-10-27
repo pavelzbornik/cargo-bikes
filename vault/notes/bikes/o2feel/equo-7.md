@@ -33,6 +33,9 @@ The O2Feel Equo 7 is the premium longtail in the Equo lineup at €4,799. Voted 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Max load:** 180 kg

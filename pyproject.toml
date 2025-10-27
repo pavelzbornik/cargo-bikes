@@ -23,6 +23,10 @@ dependencies = [
     "mkdocs-section-index>=0.3",
     "mkdocs-llmstxt>=0.4",
     "duckduckgo-mcp-server==0.1.1",
+    "mypy>=1.14.0",
+    "types-PyYAML>=6.0.0",
+    "types-requests>=2.31.0",
+    "sqlalchemy[mypy]>=2.0.0",
 ]
 
 [tool.pytest.ini_options]
@@ -63,3 +67,16 @@ exclude_lines = [
     "raise NotImplementedError",
     "if __name__ == .__main__.:",
 ]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+exclude = [".venv", "node_modules", "vault", ".obsidian", "tests"]

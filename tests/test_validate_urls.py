@@ -202,3 +202,94 @@ class TestIntegration:
         frontmatter2, body2, _ = extract_frontmatter(reconstructed)
         assert frontmatter2 == frontmatter
         assert body2 == body
+
+
+class TestURLValidatorCheckReachable:
+    """Tests for URLValidator.check_url_reachable method."""
+
+    @patch("requests.Session.head")
+    def test_check_url_reachable_success(self, mock_head):
+        """Test checking reachable URL."""
+        mock_response = mock_head.return_value
+        mock_response.status_code = 200
+
+        validator = URLValidator()
+        result = validator.check_url_reachable("https://example.com")
+        assert result is True
+
+    @patch("requests.Session.head")
+    def test_check_url_reachable_redirect(self, mock_head):
+        """Test checking URL with redirect."""
+        mock_response = mock_head.return_value
+        mock_response.status_code = 301
+
+        validator = URLValidator()
+        result = validator.check_url_reachable("https://example.com")
+        assert result is True
+
+    @patch("requests.Session.head")
+    def test_check_url_reachable_not_found(self, mock_head):
+        """Test checking URL that returns 404."""
+        mock_response = mock_head.return_value
+        mock_response.status_code = 404
+
+        validator = URLValidator()
+        result = validator.check_url_reachable("https://example.com")
+        assert result is False
+
+    @patch("requests.Session.head")
+    def test_check_url_reachable_server_error(self, mock_head):
+        """Test checking URL that returns 500."""
+        mock_response = mock_head.return_value
+        mock_response.status_code = 500
+
+        validator = URLValidator()
+        result = validator.check_url_reachable("https://example.com")
+        assert result is False
+
+    @patch("requests.Session.head")
+    def test_check_url_reachable_connection_error(self, mock_head):
+        """Test handling connection errors."""
+        import requests
+
+        mock_head.side_effect = requests.exceptions.ConnectionError("Connection failed")
+
+        validator = URLValidator()
+        result = validator.check_url_reachable("https://example.com")
+        assert result is False
+
+    def test_check_url_reachable_invalid_url(self):
+        """Test checking invalid URL."""
+        validator = URLValidator()
+        result = validator.check_url_reachable("not-a-url")
+        assert result is False
+
+    @patch("requests.Session.head")
+    def test_check_url_reachable_timeout_with_retry(self, mock_head):
+        """Test handling timeout with retry logic."""
+        import requests
+
+        mock_head.side_effect = [
+            requests.exceptions.Timeout(),
+            requests.exceptions.Timeout(),
+        ]
+
+        validator = URLValidator(max_retries=2)
+        result = validator.check_url_reachable("https://example.com")
+        assert result is False
+        assert mock_head.call_count == 2
+
+    @patch("requests.Session.head")
+    def test_check_url_reachable_timeout_then_success(self, mock_head):
+        """Test handling timeout that succeeds on retry."""
+        import requests
+
+        mock_response = mock_response = type("Response", (), {"status_code": 200})()
+        mock_head.side_effect = [
+            requests.exceptions.Timeout(),
+            mock_response,
+        ]
+
+        validator = URLValidator(max_retries=2)
+        result = validator.check_url_reachable("https://example.com")
+        assert result is True

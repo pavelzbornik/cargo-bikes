@@ -26,6 +26,9 @@ The Kombi is the best value for experiencing the cargo bike lifestyle. This non-
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €999.00
 - **Bike type:** Compact cargo bike (non-electric)
 - **Load capacity:** 200 kg

@@ -102,6 +102,9 @@ The Aventon Abound LR is a powerful cargo e-bike designed for serious hauling an
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Frame & Geometry
 
 - **Frame material:** Aluminum (gravity cast)

@@ -23,6 +23,9 @@ The Retro Bobber is UNIKRIDE's distinctive vintage-styled electric fat bike feat
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €2,999-€3,599
 - **Motor:** Bafang 500W, 80Nm torque
 - **Battery:** 48V 20Ah - 960Wh

@@ -37,6 +37,9 @@ The Mundo EP801 is your electric cargo bike minivan, ready for any adventure. Th
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €3,849.00
 - **Bike type:** Electric longtail cargo bike
 - **Motor:** 500W

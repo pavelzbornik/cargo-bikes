@@ -23,6 +23,9 @@ The TENWAYS Longtail Duo is a premium family-oriented e-bike designed specifical
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €3,499
 - **Weight:** 32 kg (net, excluding accessories), 41 kg (full weight with accessories)
 - **Frame:** 6061 Aluminium (One Size)

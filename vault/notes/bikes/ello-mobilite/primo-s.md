@@ -21,6 +21,9 @@ The Primo S is the ultimate comfort version of our compact cargo bike. Thanks to
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Frame:** Aluminum, designed and manufactured in France
 - **Front suspension:** Suspended fork for comfort and stability
 - **Front cargo capability:** Accepts cargo (specific capacity not detailed)

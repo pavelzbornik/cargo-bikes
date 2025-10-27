@@ -77,6 +77,9 @@ The Bike43 Mid is the versatile centerpiece of the Bike43 family lineup, designe
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Capacity
 
 - **Length:** 186 cm (15 cm longer than Short)

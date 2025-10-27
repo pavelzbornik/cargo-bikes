@@ -21,6 +21,9 @@ The Primo C is the bike that simplifies everyday life. Compact and user-friendly
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Frame:** Aluminum, manufactured in France
 - **Front cargo fork:** Accepts up to 35 kg
 - **Rear platform:** Accepts up to 80 kg (can accommodate child seat or passenger)

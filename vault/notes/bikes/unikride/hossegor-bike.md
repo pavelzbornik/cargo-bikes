@@ -23,6 +23,9 @@ The Hossegor Bike Open Frame is UNIKRIDE's beach-inspired electric bike featurin
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €2,499
 - **Motor:** Bafang 250W
 - **Battery:** 48V 20Ah - 960Wh

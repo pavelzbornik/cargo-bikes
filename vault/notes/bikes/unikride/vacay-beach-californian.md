@@ -23,6 +23,9 @@ The Vacay Beach Californian is a stylish, relaxed electric beach cruiser perfect
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €1,799 (Sale: regularly €2,499, 29% discount)
 - **Motor:** Bafang 250W
 - **Battery:** 48V 20Ah - 960Wh

@@ -94,6 +94,9 @@ The Benno Boost 10D EVO 5 is a German-engineered electric longtail cargo bike de
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 | Specification         | Details                                        |
 | --------------------- | ---------------------------------------------- |
 | **Price**             | €3,206 (discounted from MSRP)                  |

@@ -78,6 +78,9 @@ L'Incroyable Le Long is GAYA's premium long-tail cargo e-bike, offering the ulti
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 | Specification                | Details                                          |
 | ---------------------------- | ------------------------------------------------ |
 | **Price**                    | €3,400 TTC                                       |

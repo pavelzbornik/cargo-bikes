@@ -23,6 +23,9 @@ The V2 Shimano EP8 Cargo is a premium front-cargo (biporteur) electric bike powe
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €5,250 TTC
 - **Motor:** Shimano EP8 Cargo – 250W nominal, 85 Nm max torque
 - **Battery:** Shimano Li-ion 504 Wh, removable, 5-LED charge indicator

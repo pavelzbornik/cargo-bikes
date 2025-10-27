@@ -23,6 +23,9 @@ The OG Electric is the most compact and versatile cargo bike in the Le Petit Por
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €2,490.00
 - **Weight:** From 25 kg
 - **Frame:** Steel CrMo 4130

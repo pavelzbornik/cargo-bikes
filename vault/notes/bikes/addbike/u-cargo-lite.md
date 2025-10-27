@@ -27,6 +27,9 @@ The ADDBIKE U-Cargo Lite is a lightweight version of the U-Cargo Family, designe
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Design
 
 - **Type:** Biporteur (front cargo)

@@ -26,6 +26,9 @@ The Bike43 Long is the flagship model, designed for large families with up to 4 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Capacity
 
 - **Length:** 200 cm (iconic model, only 10 cm longer than regular bike)

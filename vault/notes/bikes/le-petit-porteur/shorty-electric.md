@@ -23,6 +23,9 @@ The Shorty Electric is the most compact cargo bike in the Le Petit Porteur range
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €2,075.00
 - **Weight:** From 25 kg
 - **Frame:** Steel CrMo 4130

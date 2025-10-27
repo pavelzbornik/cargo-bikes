@@ -19,6 +19,9 @@ The Revom Multi C2 is an advanced modular cargo bike featuring dual battery tech
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 | Specification            | Details                                                    |
 | ------------------------ | ---------------------------------------------------------- |
 | **Motor**                | Motinova 100 Nm mid-drive                                  |

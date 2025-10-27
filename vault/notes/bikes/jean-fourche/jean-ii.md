@@ -21,6 +21,9 @@ Jean Fourche II represents compact French manufacturing excellence at accessible
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Length:** 175 cm (most compact option - technically midtail)

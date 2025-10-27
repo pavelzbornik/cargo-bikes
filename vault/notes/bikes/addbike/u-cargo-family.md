@@ -27,6 +27,9 @@ The ADDBIKE U-Cargo Family is a premium front-loading family cargo bike designed
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Design
 
 - **Type:** Biporteur (front cargo)

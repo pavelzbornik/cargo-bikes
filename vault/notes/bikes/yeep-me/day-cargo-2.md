@@ -27,6 +27,9 @@ The YEEP.ME Day Cargo 2 is an electric longtail cargo bike featuring Bosch motor
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Motor & Battery
 
 - **Motor:** 75Nm torque system
