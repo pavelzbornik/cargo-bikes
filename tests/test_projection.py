@@ -493,23 +493,25 @@ Content
 """
         )
 
-        # Create bike record
+        # Create bike record with file_path set
         bike = Bike(title="Test Bike", type="bike", brand_name="TestBrand")
+        bike.file_path = str(bike_file)
         db_session.add(bike)
         db_session.commit()
 
         # Find file
-        found = find_bike_file(bike, temp_vault)
+        found = find_bike_file(bike)
         assert found is not None
         assert found == bike_file
 
     def test_find_bike_file_not_found(self, temp_vault, db_session):
         """Test when bike file is not found."""
         bike = Bike(title="Nonexistent Bike", type="bike", brand_name="TestBrand")
+        bike.file_path = None  # No file path set
         db_session.add(bike)
         db_session.commit()
 
-        found = find_bike_file(bike, temp_vault)
+        found = find_bike_file(bike)
         assert found is None
 
     def test_find_bike_file_skips_index(self, temp_vault, db_session):
@@ -538,10 +540,11 @@ type: bike
         )
 
         bike = Bike(title="Test Bike", type="bike", brand_name="TestBrand")
+        bike.file_path = str(bike_file)
         db_session.add(bike)
         db_session.commit()
 
-        found = find_bike_file(bike, temp_vault)
+        found = find_bike_file(bike)
         assert found == bike_file
 
 
@@ -632,8 +635,9 @@ A fantastic bike overall!
 """
         bike_file.write_text(original_content)
 
-        # Project the bike
-        success, message = project_bike_to_file(sample_bike, temp_vault, dry_run=False)
+        # Set bike file path and project the bike
+        sample_bike.file_path = str(bike_file)
+        success, message = project_bike_to_file(sample_bike, dry_run=False)
         assert success, f"Projection failed: {message}"
 
         # Read the updated file
@@ -714,7 +718,8 @@ Content
 """
         )
 
-        success, _message = project_bike_to_file(sample_bike, temp_vault, dry_run=False)
+        sample_bike.file_path = str(bike_file)
+        success, _message = project_bike_to_file(sample_bike, dry_run=False)
         assert success
 
         updated_content = bike_file.read_text()
@@ -761,7 +766,8 @@ After
 """
         )
 
-        success, _message = project_bike_to_file(sample_bike, temp_vault, dry_run=False)
+        sample_bike.file_path = str(bike_file)
+        success, _message = project_bike_to_file(sample_bike, dry_run=False)
         assert success
 
         updated_content = bike_file.read_text()
@@ -795,7 +801,8 @@ Original content
 """
         bike_file.write_text(original_content)
 
-        success, _ = project_bike_to_file(sample_bike, temp_vault, dry_run=True)
+        sample_bike.file_path = str(bike_file)
+        success, _ = project_bike_to_file(sample_bike, dry_run=True)
         assert success
 
         # File should be unchanged
@@ -804,7 +811,8 @@ Original content
 
     def test_project_bike_file_not_found(self, temp_vault, db_session, sample_bike):
         """Test handling when bike file is not found."""
-        success, message = project_bike_to_file(sample_bike, temp_vault, dry_run=False)
+        sample_bike.file_path = None
+        success, message = project_bike_to_file(sample_bike, dry_run=False)
         assert not success
         assert "Could not find file" in message
 
@@ -849,7 +857,8 @@ assert True
 """
         )
 
-        success, _ = project_bike_to_file(sample_bike, temp_vault, dry_run=False)
+        sample_bike.file_path = str(bike_file)
+        success, _ = project_bike_to_file(sample_bike, dry_run=False)
         assert success
 
         updated_content = bike_file.read_text()
@@ -889,7 +898,8 @@ type: bike
 """
         )
 
-        success, _ = project_bike_to_file(sample_bike, temp_vault, dry_run=False)
+        sample_bike.file_path = str(bike_file)
+        success, _ = project_bike_to_file(sample_bike, dry_run=False)
         assert success
 
         updated_content = bike_file.read_text()
@@ -932,7 +942,8 @@ type: bike
 """
         )
 
-        success, _ = project_bike_to_file(sample_bike, temp_vault, dry_run=False)
+        sample_bike.file_path = str(bike_file)
+        success, _ = project_bike_to_file(sample_bike, dry_run=False)
         assert success
 
         updated_content = bike_file.read_text()
