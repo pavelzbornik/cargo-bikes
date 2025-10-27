@@ -520,10 +520,16 @@ def hydrate_from_vault(session: Session, vault_path: Path) -> dict[str, int]:
 
         try:
             if note_type in ["brand", "manufacturer"]:
-                # Track if brand existed before
+                # Track if brand existed with substantive data before
                 title = frontmatter.get("title")
                 stmt = select(Brand).where(Brand.title == title)
-                existed = session.execute(stmt).scalar_one_or_none() is not None
+                existing_brand = session.execute(stmt).scalar_one_or_none()
+
+                # A brand is considered "existed" if it had a URL or summary
+                # (indicating it came from an explicit brand file, not a placeholder)
+                existed = existing_brand is not None and (
+                    existing_brand.url is not None or existing_brand.summary is not None
+                )
 
                 brand = upsert_brand(session, frontmatter, md_file)
                 if brand:
