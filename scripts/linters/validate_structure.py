@@ -23,15 +23,15 @@ import yaml
 class ValidationError:
     """Represents a validation error for a specific file."""
 
-    def __init__(self, file_path: Path, error_message: str):
+    def __init__(self, file_path: Path, error_message: str) -> None:
         self.file_path = file_path
         self.error_message = error_message
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f"{self.file_path}: {self.error_message}"
 
 
-def extract_frontmatter(content: str) -> tuple[dict | None, str]:
+def extract_frontmatter(content: str) -> tuple[dict[str, object] | None, str | None]:
     """
     Extract YAML frontmatter from markdown content.
 
@@ -68,7 +68,7 @@ def extract_frontmatter(content: str) -> tuple[dict | None, str]:
         return None, f"Invalid YAML syntax: {e}"
 
 
-def validate_bike_note(content: str, frontmatter: dict) -> str | None:
+def validate_bike_note(content: str, frontmatter: dict[str, object]) -> str | None:
     """
     Validate that a bike note contains the required BIKE_SPECS_TABLE_START marker.
 
@@ -109,6 +109,8 @@ def validate_file(file_path: Path) -> ValidationError | None:
     frontmatter, error = extract_frontmatter(content)
     if error:
         return ValidationError(file_path, error)
+    if frontmatter is None:
+        return ValidationError(file_path, "Failed to parse frontmatter")
 
     # Validate bike-specific requirements
     bike_error = validate_bike_note(content, frontmatter)
@@ -141,7 +143,7 @@ def validate_vault(vault_path: Path) -> list[ValidationError]:
     return errors
 
 
-def main():
+def main() -> int:
     """Command-line interface for the linter."""
     parser = argparse.ArgumentParser(
         description="Validate Markdown structure in cargo-bikes vault",

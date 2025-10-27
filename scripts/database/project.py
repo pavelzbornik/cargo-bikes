@@ -451,7 +451,7 @@ def generate_frontmatter(bike: Bike) -> str:
         allow_unicode=True,
         sort_keys=False,
     )
-    return yaml_str.rstrip()
+    return yaml_str.rstrip() + "\n"
 
 
 def generate_specs_table(bike: Bike) -> str:
@@ -627,7 +627,7 @@ def project_bike_to_file(bike: Bike, dry_run: bool = False) -> tuple[bool, str]:
     return True, f"Updated: {file_path}"
 
 
-def main():
+def main() -> int:
     """Command-line interface for the projection script."""
     parser = argparse.ArgumentParser(
         description="Project bike data from database to Markdown files",
@@ -690,10 +690,11 @@ def main():
             # Query bikes
             if args.bike_id:
                 stmt = select(Bike).where(Bike.id == args.bike_id)
-                bikes = [session.execute(stmt).scalar_one_or_none()]
-                if not bikes[0]:
+                bike_or_none = session.execute(stmt).scalar_one_or_none()
+                if not bike_or_none:
                     print(f"✗ Bike with ID {args.bike_id} not found", file=sys.stderr)
                     return 1
+                bikes: list[Bike] = [bike_or_none]
             else:
                 stmt = select(Bike).order_by(Bike.brand_name, Bike.title)
                 bikes = list(session.execute(stmt).scalars().all())

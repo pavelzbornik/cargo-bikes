@@ -18,6 +18,11 @@ import argparse
 import sys
 from pathlib import Path
 
+# Marker constants
+BIKE_SPECS_TABLE_START_MARKER = "<!-- BIKE_SPECS_TABLE_START -->"
+BIKE_SPECS_TABLE_END_MARKER = "<!-- BIKE_SPECS_TABLE_END -->"
+TECH_SPECS_SECTION_HEADER = "## Technical Specifications"
+
 
 def find_frontmatter_end(content: str) -> int:
     """
@@ -54,8 +59,8 @@ def has_markers(content: str) -> bool:
         True if both markers are present
     """
     return (
-        "<!-- BIKE_SPECS_TABLE_START -->" in content
-        and "<!-- BIKE_SPECS_TABLE_END -->" in content
+        BIKE_SPECS_TABLE_START_MARKER in content
+        and BIKE_SPECS_TABLE_END_MARKER in content
     )
 
 
@@ -80,25 +85,25 @@ def add_markers(content: str) -> str:
 
     # Check if "## Technical Specifications" section already exists
     after_frontmatter = content[fm_end:]
-    if "## Technical Specifications" in after_frontmatter:
+    if TECH_SPECS_SECTION_HEADER in after_frontmatter:
         # Find the position of the first "## Technical Specifications"
-        tech_specs_pos = after_frontmatter.find("## Technical Specifications")
+        tech_specs_pos = after_frontmatter.find(TECH_SPECS_SECTION_HEADER)
         # Find the end of that line
         line_end = after_frontmatter.find("\n", tech_specs_pos) + 1
 
         # Insert markers right after the section header
         insert_pos = fm_end + line_end
         marker_block = (
-            "\n<!-- BIKE_SPECS_TABLE_START -->\n<!-- BIKE_SPECS_TABLE_END -->\n"
+            f"\n{BIKE_SPECS_TABLE_START_MARKER}\n{BIKE_SPECS_TABLE_END_MARKER}\n"
         )
         return content[:insert_pos] + marker_block + content[insert_pos:]
     else:
         # Create new section after frontmatter
-        marker_block = "\n## Technical Specifications\n\n<!-- BIKE_SPECS_TABLE_START -->\n<!-- BIKE_SPECS_TABLE_END -->\n"
+        marker_block = f"\n{TECH_SPECS_SECTION_HEADER}\n\n{BIKE_SPECS_TABLE_START_MARKER}\n{BIKE_SPECS_TABLE_END_MARKER}\n"
         return content[:fm_end] + marker_block + content[fm_end:]
 
 
-def process_bike_files(vault_path: Path, dry_run: bool = False) -> dict:
+def process_bike_files(vault_path: Path, dry_run: bool = False) -> dict[str, int]:
     """
     Process all bike markdown files.
 
@@ -109,7 +114,7 @@ def process_bike_files(vault_path: Path, dry_run: bool = False) -> dict:
     Returns:
         Dictionary with processing statistics
     """
-    stats = {
+    stats: dict[str, int] = {
         "total_files": 0,
         "files_with_markers": 0,
         "files_processed": 0,
@@ -156,7 +161,7 @@ def process_bike_files(vault_path: Path, dry_run: bool = False) -> dict:
     return stats
 
 
-def main():
+def main() -> int:
     """Command-line interface."""
     parser = argparse.ArgumentParser(
         description="Add bike specs table markers to markdown files",

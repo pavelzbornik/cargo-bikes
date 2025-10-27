@@ -15,20 +15,21 @@ if sys.stdout.encoding != "utf-8":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 
-def extract_frontmatter(content: str) -> dict | None:
+def extract_frontmatter(content: str) -> dict[str, object] | None:
     """Extract YAML frontmatter from Markdown file content."""
     match = re.match(r"^---\s*\n(.*?)\n---\s*\n", content, re.DOTALL)
     if not match:
         return None
     yaml_content = match.group(1)
     try:
-        return yaml.safe_load(yaml_content)
+        fm_data = yaml.safe_load(yaml_content)
+        return fm_data if isinstance(fm_data, dict) else None
     except yaml.YAMLError as e:
         print(f"  [WARN] YAML parse error: {e}")
         return None
 
 
-def validate_bike_frontmatter(frontmatter: dict) -> bool:
+def validate_bike_frontmatter(frontmatter: dict[str, object]) -> bool:
     """Validate that frontmatter has required bike fields.
 
     Supports both legacy format (top-level fields) and new schema format (specs).
@@ -46,7 +47,9 @@ def validate_bike_frontmatter(frontmatter: dict) -> bool:
     return True
 
 
-def extract_spec_value(specs: dict | None, keys: list[str], default: str = "") -> str:
+def extract_spec_value(
+    specs: dict[str, object] | None, keys: list[str], default: str = ""
+) -> str:
     """Extract a nested value from specs object with fallback to default.
 
     Args:
@@ -59,7 +62,7 @@ def extract_spec_value(specs: dict | None, keys: list[str], default: str = "") -
     """
     if not specs or not isinstance(specs, dict):
         return default
-    value = specs
+    value: object = specs
     for key in keys:
         if isinstance(value, dict):
             value = value.get(key)
@@ -77,7 +80,7 @@ def extract_spec_value(specs: dict | None, keys: list[str], default: str = "") -
     return str(value) if value else default
 
 
-def get_motor_display(frontmatter: dict) -> str:
+def get_motor_display(frontmatter: dict[str, object]) -> str:
     """Extract motor information for display.
 
     Supports both legacy 'motor' field and new 'specs.motor.power_w' structure.
@@ -98,7 +101,7 @@ def get_motor_display(frontmatter: dict) -> str:
     return str(legacy_motor) if legacy_motor else ""
 
 
-def get_battery_display(frontmatter: dict) -> str:
+def get_battery_display(frontmatter: dict[str, object]) -> str:
     """Extract battery information for display.
 
     Supports both legacy 'battery' field and new 'specs.battery.capacity_wh' structure.
@@ -116,7 +119,7 @@ def get_battery_display(frontmatter: dict) -> str:
     return str(legacy_battery) if legacy_battery else ""
 
 
-def get_range_display(frontmatter: dict) -> str:
+def get_range_display(frontmatter: dict[str, object]) -> str:
     """Extract range information for display.
 
     Supports both legacy 'range' field and new 'specs.range.estimate_km' structure.
@@ -134,7 +137,7 @@ def get_range_display(frontmatter: dict) -> str:
     return str(legacy_range) if legacy_range else ""
 
 
-def get_price_display(frontmatter: dict) -> str:
+def get_price_display(frontmatter: dict[str, object]) -> str:
     """Extract price information for display.
 
     Supports both legacy 'price' field and new 'specs.price.amount' structure.
@@ -155,12 +158,12 @@ def get_price_display(frontmatter: dict) -> str:
     return str(legacy_price) if legacy_price else ""
 
 
-def collect_bikes() -> list[dict]:
+def collect_bikes() -> list[dict[str, object]]:
     """Collect all bikes from vault/notes/bikes.
 
     Supports both legacy format and new BIKE_SPECS_SCHEMA format.
     """
-    bikes = []
+    bikes: list[dict[str, object]] = []
     vault_notes = Path("vault/notes/bikes")
     if not vault_notes.exists():
         print(f"Error: {vault_notes} not found")
@@ -277,7 +280,9 @@ def extract_price_amount(price_str: str) -> float | None:
     return None
 
 
-def categorize_bikes_by_price(bikes: list[dict]) -> dict[str, list[dict]]:
+def categorize_bikes_by_price(
+    bikes: list[dict[str, object]],
+) -> dict[str, list[dict[str, object]]]:
     """Categorize bikes into price ranges.
 
     Price ranges:
@@ -291,14 +296,16 @@ def categorize_bikes_by_price(bikes: list[dict]) -> dict[str, list[dict]]:
     Returns:
         Dictionary with price range keys and bike lists as values
     """
-    categories = {
+    categories: dict[str, list[dict[str, object]]] = {
         "Under 3000": [],
         "3000-4000": [],
         "4000+": [],
         "No Price": [],
     }
     for bike in bikes:
-        price_amount = extract_price_amount(bike["price"])
+        bike_price = bike.get("price")
+        price_str = str(bike_price) if bike_price else ""
+        price_amount = extract_price_amount(price_str)
         if price_amount is None:
             categories["No Price"].append(bike)
         elif price_amount < 3000:
@@ -311,7 +318,7 @@ def categorize_bikes_by_price(bikes: list[dict]) -> dict[str, list[dict]]:
 
 
 def generate_bike_table_for_category(
-    bikes: list[dict], category_name: str, use_relative_links: bool = False
+    bikes: list[dict[str, object]], category_name: str, use_relative_links: bool = False
 ) -> str:
     """Generate Markdown table for a single price category.
 
@@ -329,23 +336,38 @@ def generate_bike_table_for_category(
     lines.append(f"### {category_name}\n")
     lines.append("| Image | Bike | Brand | Price | Motor | Battery | Range |")
     lines.append("|-------|------|-------|-------|-------|---------|-------|")
-    sorted_bikes = sorted(bikes, key=lambda b: (b["brand"].lower(), b["title"].lower()))
+    sorted_bikes = sorted(
+        bikes,
+        key=lambda b: (
+            str(b.get("brand", "")).lower(),
+            str(b.get("title", "")).lower(),
+        ),
+    )
     for bike in sorted_bikes:
-        if bike["image"]:
+        bike_price = bike.get("price")
+        bike_price_str = str(bike_price) if bike_price else ""
+        if bike.get("image"):
             image_col = f"![img]({bike['image']})"
         else:
             image_col = "--"
         # Use relative path for index.md, full path for README.md
         if use_relative_links:
-            file_path = str(bike["file_path"]).replace("vault/notes/bikes/", "")
+            file_path_obj = bike.get("file_path", "")
+            file_path = str(file_path_obj).replace("vault/notes/bikes/", "")
         else:
-            file_path = bike["file_path"]
-        bike_link = f"[{bike['title']}]({file_path})"
-        brand = format_table_cell(bike["brand"], 20)
-        price = format_table_cell(bike["price"], 15)
-        motor = format_table_cell(bike["motor"], 20)
-        battery = format_table_cell(bike["battery"], 15)
-        range_val = format_table_cell(bike["range"], 15)
+            file_path_obj = bike.get("file_path", "")
+            file_path = str(file_path_obj)
+        title_obj = bike.get("title", "")
+        bike_link = f"[{title_obj}]({file_path})"
+        brand_obj = bike.get("brand", "")
+        brand = format_table_cell(str(brand_obj), 20)
+        price = format_table_cell(bike_price_str, 15)
+        motor_obj = bike.get("motor", "")
+        motor = format_table_cell(str(motor_obj), 20)
+        battery_obj = bike.get("battery", "")
+        battery = format_table_cell(str(battery_obj), 15)
+        range_obj = bike.get("range", "")
+        range_val = format_table_cell(str(range_obj), 15)
         lines.append(
             f"| {image_col} | {bike_link} | {brand} | {price} | "
             f"{motor} | {battery} | {range_val} |"
@@ -353,7 +375,9 @@ def generate_bike_table_for_category(
     return "\n".join(lines) + "\n"
 
 
-def generate_bike_table(bikes: list[dict], use_relative_links: bool = False) -> str:
+def generate_bike_table(
+    bikes: list[dict[str, object]], use_relative_links: bool = False
+) -> str:
     """Generate Markdown tables from bikes list, split by price range.
 
     Args:
