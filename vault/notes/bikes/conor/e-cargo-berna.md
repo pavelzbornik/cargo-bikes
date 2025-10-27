@@ -19,6 +19,9 @@ The Conor E-Cargo Berna is a powerful cargo bike designed for urban transport, p
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 | Specification     | Details                                               |
 | ----------------- | ----------------------------------------------------- |
 | **Motor**         | Vinka 250W mid-drive                                  |

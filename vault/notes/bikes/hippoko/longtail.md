@@ -19,6 +19,9 @@ The Hippoko Longtail is an electric cargo bike designed for urban family transpo
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 | Specification          | Details                                                       |
 | ---------------------- | ------------------------------------------------------------- |
 | **Brand**              | Hippoko                                                       |

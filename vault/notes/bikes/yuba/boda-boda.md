@@ -74,6 +74,9 @@ The Yuba Boda Boda is a unique electric cargo longtail from French-pioneer Yuba 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €4,849 (base price after 2025 reduction) / €5,250+ (with accessories); Edition Active €4,949; Edition Famille €4,999
 - **Weight:** 32 kg (frame only); ~34 kg fully equipped
 - **Frame:** Aluminum, robust construction; single size fitting 1.55-1.95 m riders

@@ -21,6 +21,9 @@ The OKLÖ ÉVO Cani-taxi is a specialized electric cargo bike designed specifica
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Key Dimensions
 
 - **Compact Version:** 182cm L × 66cm W × 115cm H

@@ -77,6 +77,9 @@ The Nakamura Crossover Longtail is a versatile electric cargo longtail designed 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €3000
 - **Weight:** 44-45 kg (with battery)
 - **Frame size:** Single size (160-190 cm rider height range)

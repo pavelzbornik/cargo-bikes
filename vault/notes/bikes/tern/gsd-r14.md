@@ -33,6 +33,9 @@ The Tern GSD R14 is the top-tier model in the new Generation 3 GSD family, desig
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Length:** 185 cm (73 inches) - compact for a family cargo bike

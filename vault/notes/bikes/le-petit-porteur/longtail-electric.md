@@ -25,6 +25,9 @@ Le Petit Porteur Longtail combines French manufacturing heritage (originally cou
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Length:** 176 cm base (185 cm with monkey bars installed)

@@ -23,6 +23,9 @@ The Moma E-LONGTAIL is a true long-tail cargo bike engineered for urban families
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €2,299.99 (sale from €4,000.00)
 - **Frame:** Aluminum (lightweight and durable)
 - **Motor:** Brushless 250W rear hub, 70Nm torque

@@ -19,6 +19,9 @@ The OKLÖ Simplix Éco is an electric mini cargo bike offering entry-level elect
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Motor & Battery
 
 - **Motor:** 250W electric motor

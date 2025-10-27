@@ -23,6 +23,9 @@ The LT M is the mechanical, non-electric version of the Douze LT longtail cargo 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €1,890 TTC
 - **Motor:** None (mechanical)
 - **Transmission:** Dérailleur 1×10 vitesses – plateau 42 dents – cassette 11-42 dents

@@ -70,6 +70,9 @@ The L'Original Le Court is the most accessible cargo e-bike in Gaya's lineup, pe
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 | Specification               | Details                                          |
 | --------------------------- | ------------------------------------------------ |
 | **Price**                   | €2,300 TTC                                       |

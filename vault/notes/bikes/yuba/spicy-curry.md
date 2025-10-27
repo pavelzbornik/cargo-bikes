@@ -74,6 +74,9 @@ The Spicy Curry is Yuba's flagship longtail cargo bike, designed to carry what m
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €5,349.00
 - **Weight:** 32 kg
 - **Frame:** Aluminium Frame with easy Step-Over

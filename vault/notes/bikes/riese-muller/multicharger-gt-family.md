@@ -19,6 +19,9 @@ The Riese & Müller Multicharger GT Family represents German premium engineering
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Length:** 197 cm

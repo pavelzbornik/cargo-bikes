@@ -19,6 +19,9 @@ The VG Life Longtail is a French-made electric longtail designed for urban and s
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 | Specification         | Details                             |
 | --------------------- | ----------------------------------- |
 | **Price**             | €3,018                              |

@@ -43,6 +43,9 @@ The Cube Longtail Hybrid 1350 is a premium German-engineered electric longtail c
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 | Specification         | Details                                                      |
 | --------------------- | ------------------------------------------------------------ |
 | **Price**             | €4,949.10 (€5,499 MSRP, -10% discount)                       |

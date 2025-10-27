@@ -166,6 +166,9 @@ class Bike(Base):
     tags: Mapped[str | None] = mapped_column(Text)  # Comma-separated
     url: Mapped[str | None] = mapped_column(String(500))
     image: Mapped[str | None] = mapped_column(String(500))
+    file_path: Mapped[str | None] = mapped_column(
+        String(500)
+    )  # Relative path to markdown file (e.g., vault/notes/bikes/brand/model.md)
 
     # Specs: Basic Classification
     category: Mapped[str | None] = mapped_column(

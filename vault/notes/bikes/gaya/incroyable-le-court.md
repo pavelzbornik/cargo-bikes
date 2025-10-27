@@ -78,6 +78,9 @@ L'Incroyable Le Court is the premium short-tail cargo e-bike from GAYA, designed
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 | Specification                | Details                                          |
 | ---------------------------- | ------------------------------------------------ |
 | **Price**                    | €2,900 TTC                                       |

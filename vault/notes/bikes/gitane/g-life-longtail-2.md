@@ -19,6 +19,9 @@ The Gitane G-Life Longtail is a premium French-manufactured electric longtail ca
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 | Specification         | Details                                                  |
 | --------------------- | -------------------------------------------------------- |
 | **Price**             | €4,199                                                   |

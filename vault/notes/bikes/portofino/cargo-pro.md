@@ -19,6 +19,9 @@ The **Portofino CargoPro** is an Italian-designed and assembled long-tail electr
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 | Specification          | Details                                   |
 | ---------------------- | ----------------------------------------- |
 | **Motor**              | Bafang central motor (250W, 85 Nm torque) |

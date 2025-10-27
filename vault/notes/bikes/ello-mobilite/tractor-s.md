@@ -20,6 +20,9 @@ The Tractor S preserves classic bike dimensions while offering robust cargo capa
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Frame:** Aluminum, manufactured in France
 - **Front suspension:** Suspended fork for comfort and stability
 - **Rear platform:** Accepts up to 80 kg of cargo

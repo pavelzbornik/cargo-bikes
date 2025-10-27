@@ -23,6 +23,9 @@ The Urban Arrow Breeze is the company's first electric longtail cargo bike, repr
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €5500 (base price with 400 Wh battery)
 - **Weight:** 34 kg (with 400 Wh battery)
 - **Frame size:** Single size, open step-through design for easy mounting

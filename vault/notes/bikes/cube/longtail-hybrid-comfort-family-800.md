@@ -99,6 +99,9 @@ The Cube Longtail Hybrid Comfort Family 800 is a premium family cargo bike that 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Frame & Build
 
 - **Frame Material:** Aluminum Superlite with Comfort Ride Geometry

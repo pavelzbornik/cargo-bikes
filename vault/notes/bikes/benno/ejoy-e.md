@@ -85,6 +85,9 @@ The BENNO eJoy E is an affordable electric longtail from BENNO, featuring Bosch 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 | Specification         | Details                                 |
 | --------------------- | --------------------------------------- |
 | **Price**             | €1,799 (entry-level option)             |

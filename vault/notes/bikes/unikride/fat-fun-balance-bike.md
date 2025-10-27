@@ -23,6 +23,9 @@ The Fat Fun is an electric balance bike (draisienne) designed for children aged 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €1,199
 - **Age range:** 6 years and up
 - **Type:** Electric balance bike

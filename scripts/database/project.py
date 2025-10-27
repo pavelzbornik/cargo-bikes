@@ -34,45 +34,22 @@ SPECS_TABLE_START_MARKER = "<!-- BIKE_SPECS_TABLE_START -->"
 SPECS_TABLE_END_MARKER = "<!-- BIKE_SPECS_TABLE_END -->"
 
 
-def find_bike_file(bike: Bike, vault_path: Path) -> Path | None:
+def find_bike_file(bike: Bike) -> Path | None:
     """
-    Find the markdown file for a bike record.
+    Get the markdown file path for a bike record.
 
     Args:
         bike: Bike database record
-        vault_path: Path to vault/notes directory
 
     Returns:
         Path to the bike's markdown file, or None if not found
     """
-    if not bike.brand_name:
+    if not bike.file_path:
         return None
 
-    # Convert brand name to lowercase hyphenated format
-    brand_dir = bike.brand_name.lower().replace(" ", "-")
-    bikes_dir = vault_path / "bikes" / brand_dir
-
-    if not bikes_dir.exists():
-        return None
-
-    # Search for markdown files in the brand directory
-    for md_file in bikes_dir.glob("*.md"):
-        # Skip index files
-        if md_file.stem == "index":
-            continue
-
-        # Read and check if title matches
-        try:
-            content = md_file.read_text(encoding="utf-8")
-            if content.startswith("---"):
-                lines = content.split("\n")
-                end_idx = lines[1:].index("---") + 1
-                frontmatter_text = "\n".join(lines[1:end_idx])
-                frontmatter = yaml.safe_load(frontmatter_text)
-                if frontmatter and frontmatter.get("title") == bike.title:
-                    return md_file
-        except (ValueError, yaml.YAMLError):
-            continue
+    file_path = Path(bike.file_path)
+    if file_path.exists():
+        return file_path
 
     return None
 
@@ -138,6 +115,8 @@ def generate_frontmatter(bike: Bike) -> str:
     """
     Generate YAML frontmatter string from a bike database record.
 
+    Ensures output is compatible with pre-commit hooks (prettier, markdownlint).
+
     Args:
         bike: Bike database record
 
@@ -149,13 +128,15 @@ def generate_frontmatter(bike: Bike) -> str:
         "type": "bike",
     }
 
-    # Add optional top-level fields
+    # Add optional top-level fields in order
     if bike.brand_name:
         data["brand"] = bike.brand_name
     if bike.model:
         data["model"] = bike.model
     if bike.tags:
-        data["tags"] = bike.tags.split(",")
+        # Parse tags and ensure they're a list
+        tag_list = [t.strip() for t in bike.tags.split(",")]
+        data["tags"] = tag_list
     if bike.url:
         data["url"] = bike.url
     if bike.image:
@@ -463,8 +444,13 @@ def generate_frontmatter(bike: Bike) -> str:
     if specs:
         data["specs"] = specs
 
-    # Generate YAML string
-    yaml_str = yaml.dump(data, default_flow_style=False, allow_unicode=True, sort_keys=False)
+    # Generate YAML string with proper formatting for pre-commit hooks
+    yaml_str = yaml.dump(
+        data,
+        default_flow_style=False,
+        allow_unicode=True,
+        sort_keys=False,
+    )
     return yaml_str.rstrip()
 
 
@@ -507,9 +493,7 @@ def generate_specs_table(bike: Bike) -> str:
     if bike.weight_with_battery_kg:
         rows.append(f"| **Weight (with battery)** | {bike.weight_with_battery_kg}kg |")
     if bike.load_capacity_total_kg:
-        rows.append(
-            f"| **Total Load Capacity** | {bike.load_capacity_total_kg}kg |"
-        )
+        rows.append(f"| **Total Load Capacity** | {bike.load_capacity_total_kg}kg |")
 
     # Drivetrain
     if bike.drivetrain_type:
@@ -555,6 +539,8 @@ def reconstruct_markdown_file(
     """
     Reconstruct a markdown file with updated frontmatter and specs table.
 
+    Ensures proper spacing and formatting for pre-commit hooks.
+
     Args:
         parts: Dictionary with original file parts
         new_frontmatter: New YAML frontmatter string
@@ -573,42 +559,42 @@ def reconstruct_markdown_file(
 
     # Add content before table
     if parts["before_table"]:
-        sections.append(parts["before_table"])
-        if not parts["before_table"].endswith("\n"):
+        before_content = parts["before_table"].rstrip()
+        if before_content:
+            sections.append(before_content)
             sections.append("")
 
     # Add specs table with markers
     sections.append(SPECS_TABLE_START_MARKER)
     if new_table:
-        sections.append("")
         sections.append(new_table)
-        sections.append("")
     sections.append(SPECS_TABLE_END_MARKER)
 
     # Add content after table
     if parts["after_table"]:
-        sections.append("")
-        sections.append(parts["after_table"])
+        after_content = parts["after_table"].lstrip()
+        if after_content:
+            sections.append("")
+            sections.append(after_content)
 
-    return "\n".join(sections)
+    content = "\n".join(sections)
+    # Ensure file ends with single newline
+    return content.rstrip() + "\n"
 
 
-def project_bike_to_file(
-    bike: Bike, vault_path: Path, dry_run: bool = False
-) -> tuple[bool, str]:
+def project_bike_to_file(bike: Bike, dry_run: bool = False) -> tuple[bool, str]:
     """
     Project a bike record to its markdown file.
 
     Args:
         bike: Bike database record
-        vault_path: Path to vault/notes directory
         dry_run: If True, don't write changes
 
     Returns:
         Tuple of (success, message)
     """
     # Find the file
-    file_path = find_bike_file(bike, vault_path)
+    file_path = find_bike_file(bike)
     if not file_path:
         return False, f"Could not find file for bike: {bike.title}"
 
@@ -638,7 +624,7 @@ def project_bike_to_file(
         except Exception as e:
             return False, f"Failed to write file {file_path}: {e}"
 
-    return True, f"Updated: {file_path.relative_to(vault_path.parent.parent)}"
+    return True, f"Updated: {file_path}"
 
 
 def main():
@@ -723,7 +709,7 @@ def main():
             fail_count = 0
 
             for bike in bikes:
-                success, message = project_bike_to_file(bike, vault_path, args.dry_run)
+                success, message = project_bike_to_file(bike, args.dry_run)
                 if success:
                     print(f"✓ {message}")
                     success_count += 1

@@ -23,6 +23,9 @@ The Hêta 2S Di2 is Douze's premium biporteur featuring electronic Shimano Di2 1
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €6,190 TTC
 - **Motor:** Shimano EP6 Cargo – 250W nominal, tuned for cargo scenarios
 - **Battery:** Shimano Li-ion 630 Wh, removable, 5-LED charge indicator (larger than 1×10 variant)

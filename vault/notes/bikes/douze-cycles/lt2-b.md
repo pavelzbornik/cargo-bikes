@@ -23,6 +23,9 @@ The LT2 B is an electric longtail cargo bike powered by a Bafang M500 motor and 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €3,890 TTC
 - **Motor:** Bafang M500 – 250W, mid-drive
 - **Battery:** DLG 672 Wh Li-ion, removable

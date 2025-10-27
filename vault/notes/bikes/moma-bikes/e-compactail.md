@@ -25,6 +25,9 @@ The Moma E-COMPACTAIL is an urban-focused long-tail cargo bike perfect for city 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €1,999.99 (sale from €4,000.00)
 - **Frame:** Aluminum (lightweight and durable)
 - **Motor:** Brushless 250W rear hub, 70Nm torque

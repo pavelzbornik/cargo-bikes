@@ -35,6 +35,9 @@ The Bike43 Short is a compact family cargo bike designed for families with 1-2 c
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Capacity
 
 - **Length:** 173 cm

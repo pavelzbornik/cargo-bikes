@@ -19,6 +19,9 @@ The Jobobike Cargo Transer is a short longtail cargo bike measuring 185 cm that 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 | Specification            | Details                                                     |
 | ------------------------ | ----------------------------------------------------------- |
 | **Motor**                | MAX 250W mid-drive with 65 Nm torque                        |

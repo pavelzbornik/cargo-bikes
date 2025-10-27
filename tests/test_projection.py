@@ -652,14 +652,15 @@ A fantastic bike overall!
         assert "- Custom feature 2" in updated_content
         assert "- Custom feature 3" in updated_content
         assert "The bike has been tested extensively:" in updated_content
-        assert "```python\ndef test_bike():\n    assert bike.speed > 25\n```" in updated_content
+        assert (
+            "```python\ndef test_bike():\n    assert bike.speed > 25\n```"
+            in updated_content
+        )
 
         # After table
         assert "## Detailed Review" in updated_content
         assert "### Performance" in updated_content
-        assert (
-            "The performance was excellent in various conditions." in updated_content
-        )
+        assert "The performance was excellent in various conditions." in updated_content
         assert "1. Urban riding: 5/5" in updated_content
         assert "2. Hill climbing: 4/5" in updated_content
         assert "3. Long distance: 5/5" in updated_content
@@ -688,7 +689,9 @@ A fantastic bike overall!
         assert "| **Category** | longtail |" in updated_content
         assert "| **Motor** | Bosch Performance CX |" in updated_content
 
-    def test_project_bike_updates_frontmatter(self, temp_vault, db_session, sample_bike):
+    def test_project_bike_updates_frontmatter(
+        self, temp_vault, db_session, sample_bike
+    ):
         """Test that frontmatter is completely replaced."""
         brand_dir = temp_vault / "bikes" / "testbrand"
         brand_dir.mkdir(parents=True)
@@ -730,7 +733,9 @@ Content
         assert data["specs"]["category"] == "longtail"
         assert data["specs"]["motor"]["make"] == "Bosch"
 
-    def test_project_bike_updates_specs_table(self, temp_vault, db_session, sample_bike):
+    def test_project_bike_updates_specs_table(
+        self, temp_vault, db_session, sample_bike
+    ):
         """Test that specs table is replaced."""
         brand_dir = temp_vault / "bikes" / "testbrand"
         brand_dir.mkdir(parents=True)
@@ -894,7 +899,9 @@ type: bike
         assert "1. First" in updated_content
         assert "   1. Sub first" in updated_content
 
-    def test_tables_outside_markers_preserved(self, temp_vault, db_session, sample_bike):
+    def test_tables_outside_markers_preserved(
+        self, temp_vault, db_session, sample_bike
+    ):
         """Test that markdown tables outside markers are preserved."""
         brand_dir = temp_vault / "bikes" / "testbrand"
         brand_dir.mkdir(parents=True)

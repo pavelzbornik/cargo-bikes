@@ -19,6 +19,9 @@ The ENGWE LE20 Cargo is a compact urban and family-oriented electric cargo bike 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 | Specification     | Details                                                |
 | ----------------- | ------------------------------------------------------ |
 | **Price**         | €1,549 (€1,399 with promo code)                        |

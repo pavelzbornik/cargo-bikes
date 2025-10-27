@@ -23,6 +23,9 @@ The OPIA LT is a family-oriented long-tail electric cargo bike designed to provi
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €3,499.00 (plus €15 eco-participation)
 - **Weight:** 38.0 kg (with battery)
 - **Frame size:** 40 cm (Aluminum 6061 T6), also available in L size (1m75-1m95 height range)

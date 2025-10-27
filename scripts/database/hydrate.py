@@ -285,6 +285,18 @@ def upsert_bike(
     bike.url = frontmatter.get("url")
     bike.image = frontmatter.get("image")
 
+    # Store file path relative to workspace root
+    try:
+        # Try to get path relative to current working directory
+        bike.file_path = str(file_path.relative_to(Path.cwd()))
+    except ValueError:
+        # If that fails, resolve both paths and try again
+        try:
+            bike.file_path = str(file_path.resolve().relative_to(Path.cwd().resolve()))
+        except ValueError:
+            # Fall back to absolute path
+            bike.file_path = str(file_path.resolve())
+
     # Get or create brand relationship
     if brand_name:
         brand = get_or_create_brand(session, brand_name)

@@ -107,6 +107,9 @@ The Oklö EVO Longtail distinguishes itself through innovation: the Fantilo fron
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Frame:** Steel Chromoly (made in Europe, assembled in France)
 - **Length:** 210 cm
 - **Weight:** 33 kg (with battery)

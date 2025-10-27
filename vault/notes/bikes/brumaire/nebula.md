@@ -19,6 +19,9 @@ Brumaire Cycles represents emerging French electric mobility innovation (2020 or
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Length:** 240 cm (2.40 m)

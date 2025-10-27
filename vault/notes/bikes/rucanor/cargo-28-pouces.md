@@ -19,6 +19,9 @@ The RUCANOR Cargo 28 Pouces is an electric cargo transporteur with 28-inch wheel
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions
 
 - **Wheel Size:** 28 inches

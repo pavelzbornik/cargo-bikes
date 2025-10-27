@@ -62,6 +62,9 @@ The Spicy Curry+ is an enhanced version of the Spicy Curry longtail, offering pr
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €5,849.00
 - **Bike type:** Electric longtail cargo bike
 - **Motor:** Bosch Cargo Line, 500W

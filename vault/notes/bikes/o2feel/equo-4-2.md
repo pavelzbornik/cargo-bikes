@@ -45,6 +45,9 @@ The O2Feel Equo 4.2 represents the mid-tier longtail offering at €4,199, posit
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Max load:** 180 kg

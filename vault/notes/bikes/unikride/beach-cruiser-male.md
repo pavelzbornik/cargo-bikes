@@ -23,6 +23,9 @@ The Beach Cruiser Closed Frame is UNIKRIDE's male-oriented version of their styl
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €2,699-€2,999
 - **Motor:** Bafang 250W
 - **Battery:** 48V 20Ah - 960Wh

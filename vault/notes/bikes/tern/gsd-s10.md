@@ -40,6 +40,9 @@ The Tern GSD S10 is a high-tier model in the Generation 3 GSD family, offering a
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Length:** 185 cm (73 inches) - compact for a family cargo bike

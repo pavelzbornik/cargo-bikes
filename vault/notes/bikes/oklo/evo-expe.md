@@ -21,6 +21,9 @@ The OKLÖ ÉVO Expé is the adventure-focused variant of the ÉVO platform. With
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Core Dimensions
 
 - **Overall Size:** ~210cm long (longtail focused design)

@@ -23,6 +23,9 @@ The Ritmic Jumbo is a compact long-tail cargo e-bike designed for urban families
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €3,099 (standard battery); €3,299 (extended range battery)
 - **Type:** Long-tail cargo e-bike
 - **Max Speed:** 25 km/h (EU standard)

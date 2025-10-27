@@ -19,6 +19,9 @@ The O2Feel Equo 3 is the entry-level model of the Equo longtail series, position
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Max load:** 180 kg

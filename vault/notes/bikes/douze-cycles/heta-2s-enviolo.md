@@ -23,6 +23,9 @@ The Hêta 2S Enviolo is a premium biporteur featuring Enviolo Heavy Duty automat
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €6,340 TTC
 - **Motor:** Shimano EP8 Cargo – 250W nominal, 85 Nm max torque
 - **Battery:** Shimano Li-ion 504 Wh, removable, 5-LED charge indicator

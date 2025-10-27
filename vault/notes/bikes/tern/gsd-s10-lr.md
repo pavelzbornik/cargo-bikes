@@ -32,6 +32,9 @@ The Tern GSD is a premium, compact electric longtail designed for families seeki
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Length:** 180 cm (among most compact longtails)

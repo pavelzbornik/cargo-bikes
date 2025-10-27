@@ -91,6 +91,9 @@ The Benno Boost E EVO4 is an electric longtail from German manufacturer Benno Bi
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 | Specification         | Details                                       |
 | --------------------- | --------------------------------------------- |
 | **Price**             | €3,830 (discounted from MSRP)                 |

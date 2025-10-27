@@ -50,6 +50,9 @@ The FastRack combines smooth handling and compact design to create the perfect c
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €3,999.00
 - **Bike type:** Compact electric cargo bike
 - **Motor:** Shimano E7000, 500W

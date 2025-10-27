@@ -23,6 +23,9 @@ The Fatstreet X Trail Open Frame variant offers powerful 500W motorization with 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €2,899-€3,099
 - **Motor:** Bafang 500W, 80Nm torque
 - **Battery:** 48V 20Ah - 960Wh

@@ -52,6 +52,9 @@ The Kombi E6 is everyone's favorite compact cargo bike. This enhanced electric v
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €3,349.00
 - **Bike type:** Compact electric cargo bike
 - **Motor:** 500W electric

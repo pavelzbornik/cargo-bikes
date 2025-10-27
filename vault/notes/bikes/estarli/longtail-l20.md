@@ -101,6 +101,9 @@ Co-founder Alex Francis positioned it as "more affordable than many market-leadi
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Frame & Geometry
 
 - **Material:** High-strength 6061 aluminum

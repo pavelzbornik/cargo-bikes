@@ -21,6 +21,9 @@ The Rad Power Radwagon 4 is an American electric longtail cargo bike designed fo
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Weight
 
 - **Length:** 200 cm

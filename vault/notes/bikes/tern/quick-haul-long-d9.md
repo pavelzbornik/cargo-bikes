@@ -65,6 +65,9 @@ The D9 represents the entry-level configuration of the Quick Haul Long platform,
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Dimensions & Frame
 
 | Specification        | Value                                                 |

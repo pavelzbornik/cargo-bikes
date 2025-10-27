@@ -56,6 +56,9 @@ The Cannondale Cargowagen Neo 1 is a premium compact e-cargo bike designed for u
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €5,499
 - **Motor:** Bosch Cargo Line, 250W, max assist 25 km/h
 - **Battery:** Bosch PowerPack, 725 Wh, removable/integrated, dual battery ready

@@ -23,6 +23,9 @@ The Fatstreet XS is a compact version of UNIKRIDE's popular two-seater cargo bik
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 - **Price:** €1,999-€2,199
 - **Motor:** 250W or 500W options
 - **Battery:** 48V 20Ah - 960Wh

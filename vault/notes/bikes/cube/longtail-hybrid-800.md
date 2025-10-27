@@ -103,6 +103,9 @@ The Cube Longtail Hybrid 800 is a practical, comfortable cargo bike designed to 
 
 ## Technical Specifications
 
+<!-- BIKE_SPECS_TABLE_START -->
+<!-- BIKE_SPECS_TABLE_END -->
+
 ### Frame & Build
 
 - **Frame Material:** Aluminum Superlite with Comfort Ride Geometry
