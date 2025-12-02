@@ -1,19 +1,18 @@
 ---
-mode: agent
+agent: "brand-index-page-generator"
 description: "Create or update an index page for a cargo bike brand or component manufacturer. Fetch comprehensive information directly from official websites, product documentation, and professional reviews. Focus on primary sources to ensure accuracy. Respects MANUFACTURER_SCHEMA.md and brand-template.md conventions."
 tools:
   [
-    "runCommands",
-    "runTasks",
+    "vscode",
+    "execute",
+    "read",
+    "agent",
     "edit",
     "runNotebooks",
     "search",
     "new",
-    "duckduckgo/*",
-    "extensions",
-    "todos",
-    "runTests",
-    "runSubagent",
+    "brave-search-mcp-server/*",
+    "todo",
     "usages",
     "vscodeAPI",
     "problems",
@@ -81,7 +80,7 @@ By:
 ### Your Workflow (5 Phases)
 
 1. **Locate & Initialize**: Map user input to the correct folder in `vault/notes/bikes/` (for brands) or `vault/notes/components/manufacturers/` (for manufacturers)
-2. **Web Research**: Use DuckDuckGo to search for and gather official company information, product details, and market positioning
+2. **Web Research**: Use Brave Search to search for and gather official company information, product details, and market positioning
 3. **Vault Integration**: Scan existing files to link products/models and aggregate specs
 4. **Type Determination**: Classify as `type: "brand"` or `type: "manufacturer"` based on research
 5. **Content Creation**: Write or update index.md with primary-source information following brand-template.md and MANUFACTURER_SCHEMA.md
@@ -444,7 +443,7 @@ Example:
 
 #### Step 2a: Locate & Verify Official Website
 
-1. **DuckDuckGo searches**:
+1. **Brave Search searches**:
    - Search: `"<company-name> official website"`
    - Search: `"<exact-official-name>" site:com` (or appropriate TLD)
    - Identify primary official domain
@@ -455,7 +454,7 @@ Example:
    - Verify social media links match
    - Check for official spelling/naming
 
-#### Step 2b: Research Company Information via DuckDuckGo
+#### Step 2b: Research Company Information via Brave Search
 
 **Search for and gather information from official pages:**
 
@@ -492,7 +491,7 @@ Example:
    - Research market expansion and product launches
    - Look for partnerships and collaborations
 
-**DuckDuckGo search strategy:**
+**Brave Search search strategy:**
 
 ```bash
 Search queries by information type:
@@ -522,7 +521,7 @@ Search queries by information type:
 - Technical specifications and performance data
 - Case studies and customer applications
 
-**DuckDuckGo search queries:**
+**Brave Search search queries:**
 
 - `"<brand> review" cargo bike`
 - `"<brand> customer reviews"`
@@ -784,7 +783,7 @@ _Based on official brand documentation and independent reviews_
 
 #### Step 2a: Locate Official Website
 
-1. **DuckDuckGo search** (verification phase):
+1. **Brave Search search** (verification phase):
    - Search: `"<brand-name> cargo bikes official website"`
    - Search: `"<official-brand-name> bikes site:com"` (or appropriate TLD)
    - Identify the primary official domain (e.g., `www.bennobikes.com`, `www.urbanarrow.com`)
@@ -795,7 +794,7 @@ _Based on official brand documentation and independent reviews_
    - Note any regional variants (e.g., `.de`, `.nl`, `.uk`, `.com`)
    - Prioritize English version if available
 
-#### Step 2b (Practical): Research Brand Information via DuckDuckGo
+#### Step 2b (Practical): Research Brand Information via Brave Search
 
 **Search for company information across key areas:**
 
@@ -833,7 +832,7 @@ _Based on official brand documentation and independent reviews_
    - Locate delivery and ordering information
    - Discover warranty and service policies
 
-**DuckDuckGo search examples:**
+**Brave Search search examples:**
 
 ```bash
 "Benno Bikes" "about" OR "company"
@@ -991,9 +990,9 @@ The result is a brand index page that:
 4. **Enables navigation** between related brands and models
 5. **Serves as a reference hub** for each manufacturer
 
-## Tool Usage: DuckDuckGo for Brand Research
+## Tool Usage: Brave Search for Brand Research
 
-### When to use DuckDuckGo
+### When to use Brave Search
 
 - Finding official brand website from company name or folder name
 - Verifying official brand spelling and domain
@@ -1020,7 +1019,7 @@ The result is a brand index page that:
 | Discover regional sites   | `"<brand> EU" OR "<brand> USA" OR "<brand> North America"`   |
 | Find partnerships         | `"<brand> partners with" OR "<manufacturer> uses"`           |
 
-### DuckDuckGo Research Workflow
+### Brave Search Research Workflow
 
 ```text
 1. Search: "<brand-name> official website"

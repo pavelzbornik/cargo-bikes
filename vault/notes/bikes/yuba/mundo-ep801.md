@@ -27,6 +27,8 @@ specs:
     amount: 3849
     currency: "EUR"
   notes: "Electric longtail minivan with Shimano EP801 motor (500W). Carries up to 250kg (3-4 children or mixed cargo). Engineered for rigidity and heavy loads. Sourced from manufacturer specifications."
+review_summary_date: 2025-10-27
+review_source_count: 4
 ---
 
 ## Mundo EP801
@@ -80,7 +82,45 @@ The Mundo EP801 is your electric cargo bike minivan, ready for any adventure. Th
 | Eco Baguette     | €99   | Bike bag - Eco-friendly                | [Shop](https://yubabikes.eu/product/eco-baguette/)     |
 | Pop Shelter      | €399  | Weather protection                     | [Shop](https://yubabikes.eu/product/pop-shelter/)      |
 
+## User Reviews & Experiences
+
+### Pros
+
+- **Electric "minivan" capacity** — 250 kg total capacity; can handle 3-4 children or substantial mixed cargo loads (Manufacturer specs, Reddit)
+- **Powerful Shimano EP801 motor** — 500W mid-drive with 85 Nm torque; strong performance for heavy loads and hills (eBikes International)
+- **Impressive range** — 504 Wh battery delivers 60-100 km range depending on assist level and load (Manufacturer specs)
+- **Excellent value for electric longtail** — €3,849 base price competitive for electric longtail with premium motor (Price comparison)
+- **Proven Mundo platform** — Builds on years of Mundo design evolution; benefits from established accessory ecosystem (Reddit, reviews)
+- **Strong assistance for urban family use** — Shimano EP8 system delivers smooth, powerful assist ideal for cargo duty (eBikes International)
+
+### Cons
+
+- **Limited specific reviews** — As newer model (2024+), fewer long-term reviews available compared to Spicy Curry or Mundo Lux
+- **Shimano motor vs Bosch** — Some users prefer Bosch Cargo Line ecosystem; Shimano EP801 less established in cargo bike market (Reddit discussions)
+- **Accessories sold separately** — Like all Yuba bikes, essential family accessories (seats, boards) add significant cost to base price
+- **Long wheelbase** — Full longtail dimensions make storage challenging; requires more space than compact alternatives
+
+### Performance Consensus
+
+- **Range:** 60-100 km depending on assist level and terrain; adequate for daily urban family use
+- **Cargo Capacity:** Successfully handles 3+ children or equivalent cargo weight; 250 kg total capacity among highest in longtail category
+- **Motor Response:** Shimano EP801 delivers strong, smooth power; 85 Nm torque well-suited for heavy loads
+- **Durability:** Shimano EP8 system proven reliable; long-term data still developing for EP801 variant
+
+### User Experiences
+
+> "Yuba describes the Mundo EP8 as a two-wheeled SUV, and it will make a fine addition to your bucket list, as mobility trends around the world continue to evolve, and e-cargo bikes take centre stage as a green transportation solution." — eBikes International test report
+> "The Mundo or Boda Boda seem to fix these issues as they are clearly longer, with slightly lower center of gravity, but I have concerns that the battery on the Yubas aren't as good as the Bosch motor on the Boost (is this true?)" — Reddit r/CargoBike user comparing motor systems
+
+### Curation Notes
+
+- **Source reliability:** Limited to manufacturer specifications and one professional test report (eBikes International); Reddit discussions reference general Mundo platform
+- **Recency:** Very recent model (2024-2025); long-term data not yet available
+- **Motor considerations:** Shimano EP801 is newer system; less established track record than Bosch Cargo Line in cargo bike applications
+- **Information gaps:** No comprehensive long-term reviews available yet; limited user experiences shared online; performance in various weather conditions not well documented
+
 ## References
 
 - [Official Yuba Mundo EP801 page](https://yubabikes.eu/product/mundo-ep801/)
 - [All Yuba Add-Ons](https://yubabikes.eu/shop/add-ons/)
+- [eBikes International - Yuba Mundo EP8 Test Report](https://ebikes-international.com/test-report-yuba-mundo-ep8-ecargo-bike-measures-up-for-shopping-kids-even-commuting/)

@@ -1,19 +1,18 @@
 ---
 mode: agent
-description: "Fetch bikes from websites using DuckDuckGo search and web content parsing, then create/update Obsidian vault notes following BIKE_SPECS_SCHEMA"
+description: "Fetch bikes from websites using Brave search and web content parsing, then create/update Obsidian vault notes following BIKE_SPECS_SCHEMA"
 tools:
   [
-    "runCommands",
-    "runTasks",
+    "vscode",
+    "execute",
+    "read",
+    "agent",
     "edit",
     "runNotebooks",
     "search",
     "new",
-    "duckduckgo/*",
-    "extensions",
-    "todos",
-    "runTests",
-    "runSubagent",
+    "brave-search-mcp-server/*",
+    "todo",
     "usages",
     "vscodeAPI",
     "problems",
@@ -58,11 +57,11 @@ Fetch all e-bikes and their relative accessories from a provided website and cre
 
 ## Process
 
-### 0. Search & Discovery (Using DuckDuckGo)
+### 0. Search & Discovery (Using Brave Search)
 
 When given a brand name or bike type without a specific URL:
 
-1. **Use DuckDuckGo search** to find the brand's official website or product pages
+1. **Use Brave Search** to find the brand's official website or product pages
    - Search queries: `"<brand-name> cargo bike"`, `"<brand-name> e-bike official site"`, `"<brand-name> shop"`
    - Identify the official product listing page or catalog
    - Note: Filter results to find the most relevant, official source
@@ -76,11 +75,11 @@ When given a brand name or bike type without a specific URL:
    - Record the search terms used
    - Note the final URL used for data extraction
 
-### 1. Fetch All Bikes (Using DuckDuckGo & Web Parsing)
+### 1. Fetch All Bikes (Using Brave Search & Web Parsing)
 
-**Using DuckDuckGo search and content fetching:**
+**Using Brave Search search and content fetching:**
 
-- **Search for the brand's catalog URL** using DuckDuckGo:
+- **Search for the brand's catalog URL** using Brave Search:
   - Search queries: `"<brand-name> cargo bike catalog"`, `"<brand-name> e-bike shop all models"`, `"<brand-name> bikes official products"`
   - Identify the primary product listing page or catalog URL
   - Use the top search result or official domain URL
@@ -114,7 +113,7 @@ When given a brand name or bike type without a specific URL:
 
 ```text
 Workflow:
-1. Use DuckDuckGo to find brand's main catalog/shop URL
+1. Use Brave Search to find brand's main catalog/shop URL
 2. Fetch the HTML from that URL
 3. Parse and extract bike links and data from HTML
 4. For each pagination link found, fetch and extract bikes
@@ -361,7 +360,7 @@ Before finalizing each note:
 
 **Problem:** Bike data is not visible in fetched HTML content
 
-- **Solution 1:** The website may use JavaScript-heavy rendering that doesn't output to HTML. Try searching DuckDuckGo for the brand's official PDF catalog or specifications document.
+- **Solution 1:** The website may use JavaScript-heavy rendering that doesn't output to HTML. Try searching Brave Search for the brand's official PDF catalog or specifications document.
 - **Solution 2:** Try different product listing URLs - look for alternative catalog pages (e.g., `/shop`, `/products`, `/catalog`, `/bikes`)
 - **Solution 3:** Search for the brand on reseller sites (Trek store, Decathlon, etc.) which may have better-structured HTML listings
 
@@ -393,7 +392,7 @@ Before finalizing each note:
 
 ### Search Not Finding Results
 
-**Problem:** DuckDuckGo search returns no relevant results for brand
+**Problem:** Brave Search search returns no relevant results for brand
 
 - **Solution 1:** Try different search terms - use brand name + "bikes", "cargo bike", "e-bike"
 - **Solution 2:** If brand is not English, try searching in original language or transliterate
@@ -443,9 +442,9 @@ vault/notes/gaya/
 
 ## Tool Usage Guide
 
-### DuckDuckGo (Web Search)
+### Brave Search (Web Search)
 
-**When to use DuckDuckGo:**
+**When to use Brave Search:**
 
 - Finding a brand's official website when only brand name is provided
 - Searching for specific bike models or product pages
@@ -484,7 +483,7 @@ vault/notes/gaya/
 ```text
 1. User provides: "Find all bikes from Gaya"
    ↓
-2. DuckDuckGo search: "Gaya cargo bike official website"
+2. Brave Search search: "Gaya cargo bike official website"
    ↓
 3. Extract URL from results: "https://gaya-bikes.com/shop"
    ↓
@@ -509,7 +508,7 @@ vault/notes/gaya/
 - One note per bike model
 - Preserve the vault's clean, organized structure
 - Follow CONTRIBUTING.md and vault/README.md conventions
-- **Always use DuckDuckGo for URL discovery** - when URLs aren't provided or need to be researched
+- **Always use Brave Search for URL discovery** - when URLs aren't provided or need to be researched
 - **Use HTML parsing for data extraction** - fetch page content and parse structured HTML elements
 - **Combine tools efficiently** - search once to find URL, then fetch and parse for all data extraction from that URL
 - **For JavaScript-heavy sites** - if content doesn't appear in fetched HTML, search for alternative sources (PDFs, resellers, cached versions)

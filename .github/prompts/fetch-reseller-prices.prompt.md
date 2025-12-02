@@ -1,7 +1,7 @@
 ---
 mode: agent
-description: "Fetch bike pricing and availability from reseller websites using DuckDuckGo and web parsing, then update bike notes"
-tools: ["fetch", "editFiles", "codebase", "search", "duckduckgo/*"]
+description: "Fetch bike pricing and availability from reseller websites using Brave Search and web parsing, then update bike notes"
+tools: ["edit/editFiles", "search", "brave-search-mcp-server/*", "fetch"]
 ---
 
 # Fetch & Update Reseller Pricing Information
@@ -38,11 +38,11 @@ Fetch bike pricing, availability, and reseller information from specified resell
 
 ## Process
 
-### Phase 0: Search & Discovery (Using DuckDuckGo)
+### Phase 0: Search & Discovery (Using Brave Search)
 
 When given a reseller name without a specific URL:
 
-1. **Use DuckDuckGo search** to find the reseller's official website or bike listings
+1. **Use Brave Search search** to find the reseller's official website or bike listings
    - Search queries: `"<reseller-name> official website"`, `"<reseller-name> bike shop"`, `"<reseller-name> cargo bikes"`
    - Identify the bike product catalog or listing page
    - Note: Filter results to find the correct reseller domain

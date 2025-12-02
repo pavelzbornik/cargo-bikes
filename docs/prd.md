@@ -251,7 +251,7 @@ This enhancement addresses these challenges by introducing a robust architectura
 
 **Acceptance Criteria:**
 
-1. The agent can perform a web search (using DuckDuckGo tools) to find a reseller's bike catalog if only a name is provided.
+1. The agent can perform a web search (using Brave Search MCP tools) to find a reseller's bike catalog if only a name is provided.
 2. The agent can fetch the HTML content from the catalog pages, correctly handling pagination to retrieve all bike listings.
 3. The agent parses the HTML to extract key information for each bike: brand, model, price, currency, availability, and product URL.
 4. The extracted raw data for a given reseller is saved as a Markdown table in a temporary audit file (e.g., `docs/temp-reseller-fetches/[RESELLER_NAME]-[DATE].md`), as specified in the original prompt.

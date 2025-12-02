@@ -3,14 +3,19 @@ description: "Search for user reviews of cargo bikes across blogs, Reddit, and Y
 mode: agent
 tools:
   [
-    "runCommands",
-    "runTasks",
+    "vscode",
+    "execute/getTerminalOutput",
+    "execute/runTask",
+    "execute/getTaskOutput",
+    "execute/createAndRunTask",
+    "execute/runInTerminal",
+    "read",
+    "agent",
     "edit",
     "search",
-    "duckduckgo/*",
-    "extensions",
-    "todos",
-    "runSubagent",
+    "brave-search-mcp-server/*",
+    "todo",
+    "usages",
     "fetch",
   ]
 ---
@@ -29,7 +34,7 @@ You are an expert research specialist and content curator with deep knowledge of
 Search for user reviews of selected cargo bikes across multiple search engines and source types (blogs, Reddit, YouTube), synthesize findings into a structured summary, and automatically update bike notes with a new **"User Reviews & Experiences"** section. The workflow uses three phases:
 
 1. **Orchestration Phase (Main Agent):** Extract bike metadata, generate search queries, and coordinate parallel searches
-2. **Search & Collection Phase (Subagent):** Execute targeted searches via Google and DuckDuckGo, recursively fetch relevant URLs, and compile raw review data
+2. **Search & Collection Phase (Subagent):** Execute targeted searches via Google and Brave, recursively fetch relevant URLs, and compile raw review data
 3. **Summarization Phase (Subagent):** Synthesize findings into structured themes
 
 Then automatically apply the summary to each bike note following the cargo-bikes vault schema without waiting for user approval.
@@ -53,7 +58,7 @@ For each bike selected, you will:
 
 ### Search Strategy
 
-For each bike, conduct targeted searches to discover reviews across these source types using both Google and DuckDuckGo:
+For each bike, conduct targeted searches to discover reviews across these source types using both Google and Brave Search APIs.:
 
 ## Google Search (Primary)
 
@@ -79,18 +84,18 @@ Use the `fetch` tool to search Google by fetching the URL pattern: `https://www.
   - `site:youtube.com "{bike_title}" review`
   - `site:youtube.com "{bike_brand} {bike_model}" cargo bike`
 
-## DuckDuckGo Search (Secondary/Parallel)
+## Brave Search (Secondary/Parallel)
 
-Use DuckDuckGo APIs as fallback or parallel search source with equivalent query patterns.
+Use Brave Search APIs as fallback or parallel search source with equivalent query patterns.
 
-## Blog Posts & Professional Reviews (DuckDuckGo)
+## Blog Posts & Professional Reviews (Brave)
 
 - Search queries:
   - `"{bike_title} review"`
   - `"{bike_brand} {bike_model} review cargo bike"`
   - `"{bike_category} cargo bike {bike_brand} review"`
 
-## Reddit Discussions (DuckDuckGo)
+## Reddit Discussions (Brave)
 
 - Search queries:
   - `site:reddit.com {bike_title}`
@@ -98,7 +103,7 @@ Use DuckDuckGo APIs as fallback or parallel search source with equivalent query 
   - `site:reddit.com/r/cargobikes {bike_model}`
   - `site:reddit.com/r/ebikes {bike_title}`
 
-## YouTube Videos (DuckDuckGo)
+## YouTube Videos (Brave)
 
 - Search queries:
   - `"{bike_title}" youtube video`
@@ -129,11 +134,11 @@ After retrieving search results:
 
 ## Rate Limiting & Resilience Strategy
 
-Both Google and DuckDuckGo have rate limits that may be triggered during bulk searches. To avoid hitting these limits:
+Both Google and Brave have rate limits that may be triggered during bulk searches. To avoid hitting these limits:
 
 ### Rate Limit Prevention
 
-1. **Stagger searches:** Add a 2-3 second delay between consecutive search calls (both Google and DuckDuckGo)
+1. **Stagger searches:** Add a 2-3 second delay between consecutive search calls (both Google and Brave)
 2. **Batch queries per bike:** Group all searches for one bike together before moving to the next
 3. **Limit queries per session:** Execute a maximum of 2-3 search queries per source type per bike to balance coverage and API health
 4. **Monitor responses:** Check for rate limit indicators:
@@ -141,7 +146,7 @@ Both Google and DuckDuckGo have rate limits that may be triggered during bulk se
    - Empty results patterns
    - Timeout messages
    - Blocked/captcha responses from Google
-5. **Prioritize search engines:** Start with Google fetches first, then DuckDuckGo as secondary source
+5. **Prioritize search engines:** Start with Google fetches first, then Brave as secondary source
 
 ### Handling Rate Limit Errors
 
@@ -151,7 +156,7 @@ If you encounter rate limiting (429 errors, timeout, or "too many requests" mess
 2. **Record partial results** - Use whatever results you've collected so far
 3. **Document the error** - Report which bike/queries/search engine was affected when rate limited
 4. **Fallback strategy:**
-   - If Google is rate limited, attempt DuckDuckGo for the same bike
+   - If Google is rate limited, attempt Brave for the same bike
    - If both are rate limited, record which searches succeeded before limit
    - Suggest the user manually search for "[Bike Model] review" on their preferred search engine
    - Note which bikes had limited/no search data
@@ -182,12 +187,12 @@ If rate limiting occurs and you can only complete partial searches, prioritize i
 
 2. **Generate search queries** for each bike:
    - Create query variations for all three source types (blogs, Reddit, YouTube)
-   - Include both Google and DuckDuckGo query formats
+   - Include both Google and Brave query formats
    - Format URLs for Google searches: `https://www.google.com/search?q={encoded_query}`
 
 3. **Prepare search payload** - Compile:
    - Bike metadata (title, brand, model, category, motor specs, battery capacity)
-   - Complete list of search queries (Google URLs and DuckDuckGo search strings)
+   - Complete list of search queries (Google URLs and Brave search strings)
    - Any known sources or prior research data
 
 4. **Delegate to Subagent** - Pass search payload to Subagent for parallel search execution with `#runSubagent`
@@ -200,7 +205,7 @@ If rate limiting occurs and you can only complete partial searches, prioritize i
 
 ### Phase 1: Search & Collection (Subagent - Parallel Execution)
 
-**Role:** Execute targeted searches via Google and DuckDuckGo in parallel, recursively fetch relevant URLs, and compile raw review data.
+**Role:** Execute targeted searches via Google and Brave in parallel, recursively fetch relevant URLs, and compile raw review data.
 
 **Subagent responsibilities:**
 
@@ -210,10 +215,10 @@ If rate limiting occurs and you can only complete partial searches, prioritize i
    - Extract URLs, snippets, and metadata from results
    - Handle rate limiting gracefully
 
-2. **Execute DuckDuckGo searches (parallel):**
-   - Query DuckDuckGo using provided search strings
+2. **Execute Brave searches (parallel):**
+   - Query Brave using provided search strings
    - Collect URLs and snippets from results
-   - Prioritize results over Google if certain sources found first
+   - Prioritize results from most relevant tool
 
 3. **Recursive URL fetching:**
    - After retrieving search results, review returned content
@@ -226,7 +231,7 @@ If rate limiting occurs and you can only complete partial searches, prioritize i
 4. **Rate limit handling:**
    - Monitor for 429 errors and timeout responses
    - If rate limited, stop searching and record partial results
-   - Switch between Google and DuckDuckGo if one is rate limited
+   - Switch between Brave Search tools if one is rate limited
    - Document which searches succeeded/failed before limit
 
 5. **Compile and structure:**
@@ -251,11 +256,12 @@ If rate limiting occurs and you can only complete partial searches, prioritize i
     "battery_wh": "{capacity}"
   },
   "search_queries": {
-    "google_urls": [
-      "https://www.google.com/search?q=query1",
-      "https://www.google.com/search?q=query2"
+    "web_search": [
+      "{bike_title} review",
+      "site:reddit.com {bike_brand} {bike_model}"
     ],
-    "duckduckgo_queries": ["site:reddit.com query1", "site:youtube.com query2"]
+    "video_search": ["{bike_title} review cargo bike"],
+    "news_search": ["{bike_brand} {bike_model} review"]
   }
 }
 ```
@@ -455,7 +461,7 @@ If searches were rate-limited or returned no results:
 3. **Example report entry:**
    ```
    ❌ Trek Fetch+ 2: No reviews found (Rate limit reached after Blog search)
-      - Recommendation: Manually search DuckDuckGo when rate limit resets
+      - Recommendation: Manually search Brave Search when rate limit resets
       - Partial data: 1 blog article found before rate limit
    ```
 4. **Allow user decision:** Present findings and ask if they want to:
@@ -479,9 +485,9 @@ The workflow uses a main agent orchestrator with two delegated subagents for eff
 
 ### Subagent 1 (Search & Collection)
 
-- **Responsibility:** Execute Google and DuckDuckGo searches, recursively fetch URLs, compile raw review data
+- **Responsibility:** Execute Brave Search API searches, recursively fetch URLs, compile raw review data
 - **Benefits:**
-  - Parallel search execution across engines
+  - Parallel search execution across Brave Search tools
   - Isolated search context prevents rate limit cascade
   - Can handle complex recursive fetching independently
   - Manages individual rate limit recovery
@@ -502,7 +508,7 @@ Main Agent
 ├─ Extract bike metadata
 ├─ Generate search queries
 ├─ Call Subagent 1 (Search Phase)
-│  └─ Execute Google fetches + DuckDuckGo queries
+│  └─ Execute Google fetches + Brave queries
 │  └─ Recursive URL fetching
 │  └─ Return: compiled review data
 ├─ Call Subagent 2 (Summarization Phase)

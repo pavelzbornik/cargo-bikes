@@ -22,7 +22,6 @@ dependencies = [
     "mkdocs-redirects>=1.1",
     "mkdocs-section-index>=0.3",
     "mkdocs-llmstxt>=0.4",
-    "duckduckgo-mcp-server==0.1.1",
     "mypy>=1.14.0",
     "types-PyYAML>=6.0.0",
     "types-requests>=2.31.0",

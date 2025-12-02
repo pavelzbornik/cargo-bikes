@@ -47,7 +47,9 @@ repos:
     hooks:
       - id: markdownlint
         name: markdownlint
-        entry: markdownlint --config .markdownlint.json
+        # Enable auto-fix for rules that the CLI can fix.
+        # Note: this depends on the installed markdownlint CLI supporting `--fix`.
+        entry: markdownlint --config .markdownlint.json --fix
         language: node
         types: [markdown]
         files: \.(md|markdown)$
