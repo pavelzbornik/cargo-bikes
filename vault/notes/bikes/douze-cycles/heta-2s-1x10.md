@@ -1,16 +1,26 @@
 ---
-title: "Douze Hêta 2S 1×10"
-type: bike
-tags: [bike, front-cargo, biporteur, electric, douze-cycles]
 date: 2025-10-16
-brand: "Douze Cycles"
-model: "Hêta 2S 1×10"
-url: "https://www.douze-cycles.com/velos-cargos/heta"
-image: "https://vitrine.douze-cycles.com/wp-content/uploads/2023/05/design-innovation-award.png"
-price: "€5,990"
-motor: "250W"
-battery: "504Wh"
-range: "Variable depending on terrain"
+price: €5,990
+motor: 250W
+battery: 504Wh
+range: Variable depending on terrain
+title: Douze Hêta 2S 1×10
+type: bike
+brand: Douze Cycles
+model: Hêta 2S 1×10
+tags:
+- bike
+- front-cargo
+- biporteur
+- electric
+- douze-cycles
+url: https://www.douze-cycles.com/velos-cargos/heta
+image: https://vitrine.douze-cycles.com/wp-content/uploads/2023/05/design-innovation-award.png
+motor_power_w: 250
+battery_capacity_wh: 504
+price_amount: '5990'
+price_currency: EUR
+
 ---
 
 ## Douze Hêta 2S 1×10
@@ -24,6 +34,11 @@ The Hêta 2S 1×10 is a revolutionary biporteur (front-cargo) electric bike feat
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Power** | 250W |
+| **Battery Capacity** | 504Wh |
+| **Price** | 5990 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €5,990 TTC

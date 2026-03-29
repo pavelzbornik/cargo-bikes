@@ -1,65 +1,57 @@
 ---
-title: "Gaya L'Original Le Long"
-type: bike
-brand: "Gaya"
-model: "L'Original Le Long"
 date: 2025-10-20
-tags: [bike, long-tail, gaya]
-url: "https://gaya.bike/velo-cargo/original-le-long"
-image: "https://gaya.bike/api/medias/api/images/file/GAYA_LONG_MOKA%20Cropped-1000x594.webp"
 review_summary_date: 2025-10-26
 review_source_count: 7
-specs:
-  category: "long-tail"
-  frame:
-    material: "aluminum"
-    size: "43"
-  weight:
-    with_battery_kg: 36
-    battery_kg: 3
-  load_capacity:
-    total_kg: 170
-    rear_kg: 80
-    passenger_count_excluding_rider: 2
-    passenger_config: "1, 2, or 3 passengers"
-  motor:
-    make: "Gaya"
-    type: "rear-hub"
-    power_w: 250
-    torque_nm: 50
-  battery:
-    capacity_wh: 460
-    configuration: "single"
-    removable: true
-    charging_time_h: 5
-  drivetrain:
-    type: "chain"
-  brakes:
-    type: "mechanical disc"
-  wheels:
-    front_size_in: '27.5"'
-    rear_size_in: '27.5"'
-  suspension:
-    front: "hydraulic fork 70mm"
-    rear: "none"
-  lights:
-    front:
-      type: "LED 125 lm"
-      integrated: true
-    rear:
-      type: "LED brake light 4 lm"
-      integrated: true
-      brake_light: true
-  features: ["torque-sensor", "nfc-badge", "integrated-display", "gps-tracking"]
-  security:
-    gps: true
-    alarm_db: 105
-    frame_lock: true
-  range:
-    estimate_km: "70"
-  price:
-    amount: 2800
-    currency: "EUR"
+title: Gaya L'Original Le Long
+type: bike
+brand: Gaya
+model: L'Original Le Long
+tags:
+- bike
+- long-tail
+- gaya
+url: https://gaya.bike/velo-cargo/original-le-long
+image: https://gaya.bike/api/medias/api/images/file/GAYA_LONG_MOKA%20Cropped-1000x594.webp
+category: long-tail
+frame_material: aluminum
+frame_size: '43'
+weight_with_battery_kg: 36.0
+weight_battery_kg: 3.0
+load_capacity_total_kg: 170.0
+load_capacity_rear_kg: 80.0
+load_capacity_passenger_count: 2
+load_capacity_passenger_config: 1, 2, or 3 passengers
+motor_make: Gaya
+motor_type: rear-hub
+motor_power_w: 250
+motor_torque_nm: 50
+battery_capacity_wh: 460
+battery_configuration: single
+battery_removable: true
+battery_charging_time_h: '5'
+drivetrain_type: chain
+brakes_type: mechanical disc
+wheels_front_size_in: 27.5"
+wheels_rear_size_in: 27.5"
+suspension_front: hydraulic fork 70mm
+suspension_rear: none
+lights_front_type: LED 125 lm
+lights_front_integrated: true
+lights_rear_type: LED brake light 4 lm
+lights_rear_integrated: true
+lights_rear_brake_light: true
+features:
+- torque-sensor
+- nfc-badge
+- integrated-display
+- gps-tracking
+security_gps: true
+security_alarm_db: 105
+security_frame_lock: true
+range_estimate_km: '70'
+price_amount: '2800'
+price_currency: EUR
+
 ---
 
 ## Overview
@@ -69,6 +61,20 @@ L'Original Le Long is GAYA's long-tail cargo e-bike, redesigned for the urban fa
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Category** | long-tail |
+| **Motor** | Gaya |
+| **Motor Power** | 250W |
+| **Motor Torque** | 50Nm |
+| **Battery Capacity** | 460Wh |
+| **Range** | 70 km |
+| **Weight (with battery)** | 36.0kg |
+| **Total Load Capacity** | 170.0kg |
+| **Drivetrain** | chain |
+| **Brakes** | mechanical disc |
+| **Wheel Size** | 27.5" |
+| **Price** | 2800 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification               | Details                                          |

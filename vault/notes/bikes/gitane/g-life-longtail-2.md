@@ -1,16 +1,25 @@
 ---
-title: "Gitane G-Life Longtail"
-type: bike
-tags: [bike, longtail, gitane]
 date: 2025-10-19
-brand: "Gitane"
-model: "G-Life Longtail"
-url: "https://www.cyclesgitane.fr/velos/glife-longtail"
-image: "https://www.cyclesgitane.fr/images/asset/YmlrZXMveXNnNTk1LXZlcnRvbGl2ZS0xNzQ3MTY5MTc4LndlYnA/ysg595-vertolive-1747169178.webp?p=xs"
-price: "€4,199"
-motor: "85Nm"
-battery: "504Wh"
-range: "100km"
+price: €4,199
+motor: 85Nm
+battery: 504Wh
+range: 100km
+title: Gitane G-Life Longtail
+type: bike
+brand: Gitane
+model: G-Life Longtail
+tags:
+- bike
+- longtail
+- gitane
+url: https://www.cyclesgitane.fr/velos/glife-longtail
+image: https://www.cyclesgitane.fr/images/asset/YmlrZXMveXNnNTk1LXZlcnRvbGl2ZS0xNzQ3MTY5MTc4LndlYnA/ysg595-vertolive-1747169178.webp?p=xs
+motor_torque_nm: 85
+battery_capacity_wh: 504
+range_estimate_km: '100'
+price_amount: '4199'
+price_currency: EUR
+
 ---
 
 ## Overview
@@ -20,6 +29,12 @@ The Gitane G-Life Longtail is a premium French-manufactured electric longtail ca
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Torque** | 85Nm |
+| **Battery Capacity** | 504Wh |
+| **Range** | 100 km |
+| **Price** | 4199 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification         | Details                                                  |

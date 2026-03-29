@@ -1,13 +1,20 @@
 ---
-title: "Ello Mobilité Tractor S"
-type: bike
-brand: "Ello Mobilité"
-model: "Tractor S"
-tags: [bike, cargo-bike, compact-cargo, ello-mobilite]
 date: 2025-10-19
-url: "https://ello-mobilite.com/nos-realisations/"
-image: "https://ello-mobilite.com/wp-content/uploads/2025/09/Tractor-4-scaled.jpg"
-motor: "Valéo W"
+motor: Valéo W
+title: Ello Mobilité Tractor S
+type: bike
+brand: Ello Mobilité
+model: Tractor S
+tags:
+- bike
+- cargo-bike
+- compact-cargo
+- ello-mobilite
+url: https://ello-mobilite.com/nos-realisations/
+image: https://ello-mobilite.com/wp-content/uploads/2025/09/Tractor-4-scaled.jpg
+motor_make: Valéo
+motor_model: W
+
 ---
 
 ## Ello Mobilité Tractor S
@@ -21,6 +28,9 @@ The Tractor S preserves classic bike dimensions while offering robust cargo capa
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor** | Valéo W |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Frame:** Aluminum, manufactured in France

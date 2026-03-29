@@ -1,16 +1,21 @@
 ---
-title: "Simplix Méca"
-type: bike
-tags: [bike, cargo, mini, oklo]
 date: 2025-10-16
-brand: "OKLÖ"
-model: "Simplix Méca"
-url: ""
-image: ""
-price: "€1,190"
-motor: ""
-battery: ""
-range: ""
+price: €1,190
+motor: ''
+battery: ''
+range: ''
+title: Simplix Méca
+type: bike
+brand: OKLÖ
+model: Simplix Méca
+tags:
+- bike
+- cargo
+- mini
+- oklo
+price_amount: '1190'
+price_currency: EUR
+
 ---
 
 ## Overview
@@ -20,6 +25,9 @@ The OKLÖ Simplix Méca is an affordable mini cargo bike designed for compact ur
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Price** | 1190 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Design

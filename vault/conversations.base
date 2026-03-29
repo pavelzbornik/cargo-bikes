@@ -1,0 +1,28 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - type == "reference"
+    order:
+      - file.name
+      - title
+      - domain
+      - author
+      - created
+      - status
+    fields:
+      - title
+      - domain
+      - author
+      - created
+      - status
+  - type: cards
+    name: Cards
+    filters:
+      and:
+        - type == "reference"
+    fields:
+      - title
+      - domain
+      - created

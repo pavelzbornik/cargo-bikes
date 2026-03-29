@@ -1,29 +1,35 @@
 ---
-title: Tern GSD S10 LR
-type: bike
-tags:
-  - bike
-  - longtail
-  - compact
-  - electric
-  - tern
-date: "2025-10-20"
-brand: Tern
-model: GSD S10 LR
-url: https://www.ternbicycles.com/
-image: ""
+date: '2025-10-20'
 price: 5999€
 motor: 85Nm Bosch Cargo Line
 battery: 400Wh
 range: 90km
+title: Tern GSD S10 LR
+type: bike
+brand: Tern
+model: GSD S10 LR
+tags:
+- bike
+- longtail
+- compact
+- electric
+- tern
+url: https://www.ternbicycles.com/
 resellers:
-  - name: Cyclable
-    url: https://www.cyclable.com/16877-velo-cargo-electrique-tern-gsd-s10-lr.html
-    price: 5599
-    currency: EUR
-    region: EU
-    availability: in-stock
-    note: ""
+- name: Cyclable
+  url: https://www.cyclable.com/16877-velo-cargo-electrique-tern-gsd-s10-lr.html
+  price: '5599'
+  currency: EUR
+  region: EU
+  availability: in-stock
+motor_make: Bosch
+motor_model: Cargo Line
+motor_torque_nm: 85
+battery_capacity_wh: 400
+range_estimate_km: '90'
+price_amount: '5999'
+price_currency: EUR
+
 ---
 
 ## Overview
@@ -33,6 +39,13 @@ The Tern GSD is a premium, compact electric longtail designed for families seeki
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor** | Bosch Cargo Line |
+| **Motor Torque** | 85Nm |
+| **Battery Capacity** | 400Wh |
+| **Range** | 90 km |
+| **Price** | 5999 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

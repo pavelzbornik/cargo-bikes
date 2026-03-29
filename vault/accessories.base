@@ -1,0 +1,38 @@
+filters:
+  and:
+    - 'type == "accessory"'
+views:
+  - type: table
+    name: "All Accessories"
+    order:
+      - title
+      - category
+      - manufacturer
+      - price_amount
+  - type: table
+    name: "Child Seats"
+    filters:
+      and:
+        - 'category == "child-seats"'
+    order:
+      - title
+      - manufacturer
+      - price_amount
+  - type: table
+    name: "Weather Protection"
+    filters:
+      and:
+        - 'category == "weather-protection"'
+    order:
+      - title
+      - manufacturer
+      - price_amount
+  - type: table
+    name: "Racks & Panniers"
+    filters:
+      and:
+        - 'category == "racks" || category == "panniers"'
+    order:
+      - title
+      - manufacturer
+      - price_amount

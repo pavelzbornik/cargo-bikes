@@ -1,16 +1,25 @@
 ---
-title: "Douze LT2 B"
-type: bike
-tags: [bike, longtail, electric, douze-cycles]
 date: 2025-10-16
-brand: "Douze Cycles"
-model: "LT2 B"
-url: "https://www.douze-cycles.com/velos-cargos/lt"
-image: "https://vitrine.douze-cycles.com/wp-content/uploads/2023/05/charge.svg"
-price: "€3,890"
-motor: "250W"
-battery: "672Wh"
-range: "Variable depending on terrain"
+price: €3,890
+motor: 250W
+battery: 672Wh
+range: Variable depending on terrain
+title: Douze LT2 B
+type: bike
+brand: Douze Cycles
+model: LT2 B
+tags:
+- bike
+- longtail
+- electric
+- douze-cycles
+url: https://www.douze-cycles.com/velos-cargos/lt
+image: https://vitrine.douze-cycles.com/wp-content/uploads/2023/05/charge.svg
+motor_power_w: 250
+battery_capacity_wh: 672
+price_amount: '3890'
+price_currency: EUR
+
 ---
 
 ## Douze LT2 B
@@ -24,6 +33,11 @@ The LT2 B is an electric longtail cargo bike powered by a Bafang M500 motor and 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Power** | 250W |
+| **Battery Capacity** | 672Wh |
+| **Price** | 3890 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €3,890 TTC

@@ -1,63 +1,69 @@
 ---
-title: "Bike43"
-type: "brand"
-brand: "Bike43"
-tags:
-  [brand, index, bike43, belgian, longtail, electric, modular, family-focused]
+brand: Bike43
 date: 2025-10-24
-url: "https://bike43.com"
-logo: "https://bike43.com/app/uploads/2022/09/logo.svg"
-summary: "Belgian cargo bike manufacturer specializing in modular longtail electric bikes designed for families with adaptable frame lengths and innovative components like the patented Footbox safety system."
-
+title: Bike43
+type: brand
+url: https://bike43.com
+logo: https://bike43.com/app/uploads/2022/09/logo.svg
+summary: Belgian cargo bike manufacturer specializing in modular longtail electric
+  bikes designed for families with adaptable frame lengths and innovative components
+  like the patented Footbox safety system.
+tags:
+- brand
+- index
+- bike43
+- belgian
+- longtail
+- electric
+- modular
+- family-focused
 founded_year: 2012
-country: "Belgium"
-headquarters:
-  city: "Brussels (Uccle)"
-  country: "Belgium"
-  address: "Brussels, Belgium"
-
-categories: ["longtail", "mid-tail", "short-tail"]
-market_segments: ["urban-families", "commuters", "multi-child-households"]
-regions: ["EU"]
-price_tier: "premium"
-
-product_types: ["bikes"]
+country: Belgium
+headquarters_city: Brussels (Uccle)
+headquarters_country: Belgium
+headquarters_address: Brussels, Belgium
+categories:
+- longtail
+- mid-tail
+- short-tail
+market_segments:
+- urban-families
+- commuters
+- multi-child-households
+regions:
+- EU
+price_tier: premium
+product_types:
+- bikes
 model_count: 3
-primary_motors: ["Bosch", "Shimano"]
-parent_company: null
-
-manufacturing:
-  locations: ["Belgium"]
-  approach: "in-house"
-  assembly_location: "Brussels, Belgium"
-  ethical_standards: "Employment and reintegration opportunities for individuals with disabilities through adapted workplace partnership since 2016"
-
-distribution_model: "both"
-regions_active: ["EU"]
+primary_motors:
+- Bosch
+- Shimano
+manufacturing_locations:
+- Belgium
+manufacturing_approach: in-house
+assembly_location: Brussels, Belgium
+ethical_standards: Employment and reintegration opportunities for individuals with
+  disabilities through adapted workplace partnership since 2016
+distribution_model: both
+regions_active:
+- EU
 direct_sales: true
 dealership_network: true
-
-impact:
-  bikes_sold_approx: null
-  km_driven_approx: 20000000
-  co2_avoided_kg_approx: 2150000
-  families_served: null
-
+impact_km_driven_approx: 20000000
+impact_co2_avoided_kg_approx: 2150000
+value_sustainability: true
+value_local_manufacturing: true
+value_community_focus: true
+value_safety_emphasis: true
+value_tech_integration: true
 accessibility:
-  - "modular-adaptable-frame-lengths"
-  - "convertible-models"
-  - "patented-footbox-safety"
-  - "low-maintenance-quality"
-  - "family-focused"
-
-values:
-  sustainability: true
-  local_manufacturing: true
-  community_focus: true
-  safety_emphasis: true
-  tech_integration: true
+- modular-adaptable-frame-lengths
+- convertible-models
+- patented-footbox-safety
+- low-maintenance-quality
+- family-focused
 ---
-
 ## Overview
 
 Bike43 is a Belgian cargo bike manufacturer headquartered in Brussels, founded in 2012 by Etienne Richelle, a mechanical engineer. The company emerged from a personal mission to create a family cargo bike suitable for urban transport, drawing inspiration from Richelle's engineering expertise and real-world family cycling experience.

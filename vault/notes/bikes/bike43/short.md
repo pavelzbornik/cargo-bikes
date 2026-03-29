@@ -1,32 +1,33 @@
 ---
-title: "Bike43 Short"
-type: bike
-tags: [bike, short-tail, cargo, electric, bike43]
 date: 2025-10-16
-brand: "Bike43"
-model: "Short"
-url: "https://bike43.com/short-cargo-family-bike/"
-image: "https://bike43.com/app/uploads/2025/07/Video-SuperPower-Pivotable-Bench-Kit-1024x830.jpg"
-price: "4990€"
-motor: "600W"
-battery: "540Wh"
+price: 4990€
+motor: 600W
+battery: 540Wh
+title: Bike43 Short
+type: bike
+brand: Bike43
+model: Short
+tags:
+- bike
+- short-tail
+- cargo
+- electric
+- bike43
+url: https://bike43.com/short-cargo-family-bike/
+image: https://bike43.com/app/uploads/2025/07/Video-SuperPower-Pivotable-Bench-Kit-1024x830.jpg
+category: shorttail
+motor_make: Bosch
+motor_model: Performance Line Gen5
+motor_type: mid-drive
+motor_power_w: 600
+battery_capacity_wh: 540
+battery_configuration: single
+range_estimate_km: 30-60
+price_amount: '4990'
+price_currency: EUR
+specs_notes: Migrated from legacy frontmatter. Motor and battery inferred from body
+  text (Bosch Performance Line Gen5 / Powertube 540Wh).
 
-specs:
-  category: "shorttail"
-  motor:
-    make: "Bosch"
-    model: "Performance Line Gen5"
-    power_w: 600
-    type: "mid-drive"
-  battery:
-    capacity_wh: 540
-    configuration: "single"
-  range:
-    estimate_km: "30-60"
-  price:
-    amount: 4990
-    currency: "EUR"
-  notes: "Migrated from legacy frontmatter. Motor and battery inferred from body text (Bosch Performance Line Gen5 / Powertube 540Wh)."
 ---
 
 ## Overview
@@ -36,6 +37,14 @@ The Bike43 Short is a compact family cargo bike designed for families with 1-2 c
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Category** | shorttail |
+| **Motor** | Bosch Performance Line Gen5 |
+| **Motor Power** | 600W |
+| **Battery Capacity** | 540Wh |
+| **Range** | 30-60 km |
+| **Price** | 4990 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Capacity

@@ -1,24 +1,32 @@
 ---
-title: "U-Cargo Family"
-type: bike
-tags: [bike, cargo, family, electric, addbike]
 date: 2025-10-20
-brand: "ADDBIKE"
-model: "U-Cargo Family"
-url: "https://add-bike.com/en/u-cargo/"
-image: "https://add-bike.com/wp-content/uploads/2025/09/Velo-longtail-U-Cargo-Family-Blanc.webp"
-price: "€3,715"
-motor: ""
-battery: ""
-range: ""
+price: €3,715
+motor: ''
+battery: ''
+range: ''
+title: U-Cargo Family
+type: bike
+brand: ADDBIKE
+model: U-Cargo Family
+tags:
+- bike
+- cargo
+- family
+- electric
+- addbike
+url: https://add-bike.com/en/u-cargo/
+image: https://add-bike.com/wp-content/uploads/2025/09/Velo-longtail-U-Cargo-Family-Blanc.webp
 resellers:
-  - name: "Decathlon France"
-    url: "https://www.decathlon.fr/p/velo-cargo-electrique-biporteur-addbike-u-cargo-family-blanc/_/R-p-377395"
-    price: 3715
-    currency: "EUR"
-    region: "EU"
-    availability: "in-stock"
-    note: "Available in multiple colors (white, green, blue, red)"
+- name: Decathlon France
+  url: https://www.decathlon.fr/p/velo-cargo-electrique-biporteur-addbike-u-cargo-family-blanc/_/R-p-377395
+  price: '3715'
+  currency: EUR
+  region: EU
+  availability: in-stock
+  note: Available in multiple colors (white, green, blue, red)
+price_amount: '3715'
+price_currency: EUR
+
 ---
 
 ## Overview
@@ -28,6 +36,9 @@ The ADDBIKE U-Cargo Family is a premium front-loading family cargo bike designed
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Price** | 3715 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Design

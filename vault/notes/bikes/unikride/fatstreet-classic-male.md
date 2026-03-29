@@ -1,16 +1,26 @@
 ---
-title: "Fat Street Classic - Two-seater cargo bike (Male)"
-type: bike
-brand: "UNIKRIDE"
-model: "Fatstreet Classic"
-tags: [bike, cargo-bike, two-seater, unikride]
 date: 2025-10-16
-price: "€2,399-€2,599"
-motor: "250W or 500W"
-battery: "960Wh"
-range: "120km"
-url: "https://unikride.com/en/products/fatstreet-homme"
-image: "https://unikride.com/cdn/shop/files/Velo_cargo_biplace_Paris.jpg"
+price: €2,399-€2,599
+motor: 250W or 500W
+battery: 960Wh
+range: 120km
+title: Fat Street Classic - Two-seater cargo bike (Male)
+type: bike
+brand: UNIKRIDE
+model: Fatstreet Classic
+tags:
+- bike
+- cargo-bike
+- two-seater
+- unikride
+url: https://unikride.com/en/products/fatstreet-homme
+image: https://unikride.com/cdn/shop/files/Velo_cargo_biplace_Paris.jpg
+motor_power_w: 250
+battery_capacity_wh: 960
+range_estimate_km: '120'
+price_amount: '2399'
+price_currency: EUR
+
 ---
 
 ## Fat Street Classic - Two-seater Cargo Bike (Male)
@@ -24,6 +34,12 @@ The Fatstreet Classic male version features the same excellent two-seater design
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Power** | 250W |
+| **Battery Capacity** | 960Wh |
+| **Range** | 120 km |
+| **Price** | 2399 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €2,399 (250W) - €2,599 (500W)

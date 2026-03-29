@@ -1,34 +1,35 @@
 ---
-title: "Mundo EP801"
-type: bike
-brand: "Yuba"
-model: "Mundo EP801"
 date: 2025-10-20
-tags: [bike, longtail, yuba, shimano]
-url: "https://yubabikes.eu/product/mundo-ep801/"
-image: "https://yubabikes.eu/wp-content/uploads/2024/10/Yuba_Bikes_Mundo_EP8_Sand_Closeup_Battery_Shimano_Logo_Deflopilator.jpg"
-specs:
-  category: "longtail"
-  load_capacity:
-    total_kg: 250
-    passenger_count_excluding_rider: "3-4"
-  motor:
-    make: "Shimano"
-    model: "EP801"
-    type: "mid-drive"
-    power_w: 500
-  battery:
-    capacity_wh: 500
-    configuration: "single"
-    removable: true
-  range:
-    estimate_km: "60-100"
-  price:
-    amount: 3849
-    currency: "EUR"
-  notes: "Electric longtail minivan with Shimano EP801 motor (500W). Carries up to 250kg (3-4 children or mixed cargo). Engineered for rigidity and heavy loads. Sourced from manufacturer specifications."
 review_summary_date: 2025-10-27
 review_source_count: 4
+title: Mundo EP801
+type: bike
+brand: Yuba
+model: Mundo EP801
+tags:
+- bike
+- longtail
+- yuba
+- shimano
+url: https://yubabikes.eu/product/mundo-ep801/
+image: https://yubabikes.eu/wp-content/uploads/2024/10/Yuba_Bikes_Mundo_EP8_Sand_Closeup_Battery_Shimano_Logo_Deflopilator.jpg
+category: longtail
+load_capacity_total_kg: 250.0
+load_capacity_passenger_count: 3-4
+motor_make: Shimano
+motor_model: EP801
+motor_type: mid-drive
+motor_power_w: 500
+battery_capacity_wh: 500
+battery_configuration: single
+battery_removable: true
+range_estimate_km: 60-100
+price_amount: '3849'
+price_currency: EUR
+specs_notes: Electric longtail minivan with Shimano EP801 motor (500W). Carries up
+  to 250kg (3-4 children or mixed cargo). Engineered for rigidity and heavy loads.
+  Sourced from manufacturer specifications.
+
 ---
 
 ## Mundo EP801
@@ -40,6 +41,15 @@ The Mundo EP801 is your electric cargo bike minivan, ready for any adventure. Th
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Category** | longtail |
+| **Motor** | Shimano EP801 |
+| **Motor Power** | 500W |
+| **Battery Capacity** | 500Wh |
+| **Range** | 60-100 km |
+| **Total Load Capacity** | 250.0kg |
+| **Price** | 3849 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €3,849.00

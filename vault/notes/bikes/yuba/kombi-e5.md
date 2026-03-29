@@ -1,49 +1,42 @@
 ---
+date: '2025-10-20'
+review_summary_date: '2025-10-30'
+review_source_count: 2
 title: Kombi E5
 type: bike
 brand: Yuba
 model: Kombi E5
-date: "2025-10-20"
 tags:
-  - bike
-  - compact
-  - yuba
-  - shimano
+- bike
+- compact
+- yuba
+- shimano
 url: https://yubabikes.eu/product/kombi-e5/
 image: https://yubabikes.eu/wp-content/uploads/2024/12/Kombi-E5-Orange-No-BG.png
-specs:
-  category: compact
-  load_capacity:
-    total_kg: 200
-    passenger_count_excluding_rider: 1
-  motor:
-    make: Shimano
-    model: E5000
-    type: mid-drive
-    power_w: 250
-    torque_nm: 40
-  battery:
-    capacity_wh: 500
-    configuration: single
-    removable: true
-  range:
-    estimate_km: 50-80
-  price:
-    amount: 2599
-    currency: EUR
-  notes:
-    Affordable compact electric cargo bike with Shimano E5000 motor (250W, 40Nm).
-    Lightweight and smooth. Sourced from manufacturer specifications.
 resellers:
-  - name: Cyclable
-    url: https://www.cyclable.com/18292-velo-cargo-electrique-longtail-yuba-kombi-e5.html
-    price: 2999
-    currency: EUR
-    region: EU
-    availability: in-stock
-    note: ""
-review_summary_date: "2025-10-30"
-review_source_count: 2
+- name: Cyclable
+  url: https://www.cyclable.com/18292-velo-cargo-electrique-longtail-yuba-kombi-e5.html
+  price: '2999'
+  currency: EUR
+  region: EU
+  availability: in-stock
+category: compact
+load_capacity_total_kg: 200.0
+load_capacity_passenger_count: 1
+motor_make: Shimano
+motor_model: E5000
+motor_type: mid-drive
+motor_power_w: 250
+motor_torque_nm: 40
+battery_capacity_wh: 500
+battery_configuration: single
+battery_removable: true
+range_estimate_km: 50-80
+price_amount: '2599'
+price_currency: EUR
+specs_notes: Affordable compact electric cargo bike with Shimano E5000 motor (250W,
+  40Nm). Lightweight and smooth. Sourced from manufacturer specifications.
+
 ---
 
 ## Kombi E5
@@ -55,6 +48,16 @@ The Kombi E5 is the compact urban cargo bike perfect for city living. It provide
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Category** | compact |
+| **Motor** | Shimano E5000 |
+| **Motor Power** | 250W |
+| **Motor Torque** | 40Nm |
+| **Battery Capacity** | 500Wh |
+| **Range** | 50-80 km |
+| **Total Load Capacity** | 200.0kg |
+| **Price** | 2599 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €2,599.00

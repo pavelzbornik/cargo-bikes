@@ -1,70 +1,55 @@
 ---
-title: Nakamura Crossover Longtail
-type: bike
-brand: Nakamura
-model: Crossover Longtail
-tags:
-  - bike
-  - long-tail
-  - electric
-  - nakamura
-  - cargo
 date: 2025-10-16
 price: €3000
 motor: 100Nm
 battery: 770Wh (520Wh + 250Wh)
 range: 50km
+title: Nakamura Crossover Longtail
+type: bike
+brand: Nakamura
+model: Crossover Longtail
+tags:
+- bike
+- long-tail
+- electric
+- nakamura
+- cargo
 url: https://www.transitionvelo.com/produit/nakamura-cargo-longtail/
 image: https://www.transitionvelo.com/content/uploads/2024/02/Nakamura-Crossover-Longtail-entier-2-1024x576.jpg
-specs:
-  category: longtail
-  frame:
-    material: aluminum
-    size: single
-    dimensions:
-      length_cm: 220
-  weight:
-    bike_kg: 44
-    with_battery_kg: 44.3
-  load_capacity:
-    total_kg: 170
-    rear_kg: 80
-  motor:
-    make: Naka E-Power Max (Ananda M100)
-    type: mid-drive
-    torque_nm: 100
-  battery:
-    capacity_wh: 770
-    configuration: dual (520+250)
-    removable: true
-  drivetrain:
-    type: chain
-    speeds: 9-speed
-  brakes:
-    type: hydraulic disc
-    front_rotor_mm: 200
-    rear_rotor_mm: 180
-  wheels:
-    front_size_in: 27.5"
-    rear_size_in: 24"
-    tire: Schwalbe Super Moto-X
-  suspension:
-    front: none
-    rear: rigid
-  features:
-    - direction-damper
-    - telescopic-seatpost
-    - dual-battery
-  security:
-    gps: false
-    app_lock: true
-  range:
-    estimate_km: 50
-  price:
-    amount: "3000"
-    currency: EUR
-  url: https://www.transitionvelo.com/produit/nakamura-cargo-longtail/
-  image: https://www.transitionvelo.com/content/uploads/2024/02/Nakamura-Crossover-Longtail-entier-2-1024x576.jpg
+category: longtail
+frame_material: aluminum
+frame_size: single
+frame_length_cm: 220.0
+weight_bike_kg: 44.0
+weight_with_battery_kg: 44.3
+load_capacity_total_kg: 170.0
+load_capacity_rear_kg: 80.0
+motor_make: Naka E-Power Max (Ananda M100)
+motor_type: mid-drive
+motor_torque_nm: 100
+battery_capacity_wh: 770
+battery_configuration: dual (520+250)
+battery_removable: true
+drivetrain_type: chain
+drivetrain_speeds: 9-speed
+brakes_type: hydraulic disc
+brakes_front_rotor_mm: 200
+brakes_rear_rotor_mm: 180
+wheels_front_size_in: 27.5"
+wheels_rear_size_in: 24"
+wheels_tire: Schwalbe Super Moto-X
+suspension_front: none
+suspension_rear: rigid
+features:
+- direction-damper
+- telescopic-seatpost
+- dual-battery
+security_gps: false
+security_app_lock: true
+range_estimate_km: '50'
+price_amount: '3000'
+price_currency: EUR
+
 ---
 
 ## Nakamura Crossover Longtail
@@ -78,6 +63,19 @@ The Nakamura Crossover Longtail is a versatile electric cargo longtail designed 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Category** | longtail |
+| **Motor** | Naka E-Power Max (Ananda M100) |
+| **Motor Torque** | 100Nm |
+| **Battery Capacity** | 770Wh |
+| **Range** | 50 km |
+| **Weight (with battery)** | 44.3kg |
+| **Total Load Capacity** | 170.0kg |
+| **Drivetrain** | chain |
+| **Brakes** | hydraulic disc |
+| **Wheel Size** | Front: 27.5", Rear: 24" |
+| **Price** | 3000 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €3000

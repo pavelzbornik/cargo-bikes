@@ -1,23 +1,24 @@
 ---
-title: "Bike43 Long"
-type: bike
-tags: [bike, longtail, cargo, electric, bike43]
 date: 2025-10-16
-brand: "Bike43"
-model: "Long"
-url: "https://bike43.com/long-tail-cargo-family-bike/"
-image: "https://bike43.com/app/uploads/2022/09/bike10.jpg"
-specs:
-  category: "longtail"
-  motor:
-    power_w: 600
-  battery:
-    capacity_wh: "630-800"
-  range:
-    estimate_km: "40-100"
-  price:
-    amount: 5490
-    currency: "EUR"
+title: Bike43 Long
+type: bike
+brand: Bike43
+model: Long
+tags:
+- bike
+- longtail
+- cargo
+- electric
+- bike43
+url: https://bike43.com/long-tail-cargo-family-bike/
+image: https://bike43.com/app/uploads/2022/09/bike10.jpg
+category: longtail
+motor_power_w: 600
+battery_capacity_wh: 630
+range_estimate_km: 40-100
+price_amount: '5490'
+price_currency: EUR
+
 ---
 
 ## Overview
@@ -27,6 +28,13 @@ The Bike43 Long is the flagship model, designed for large families with up to 4 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Category** | longtail |
+| **Motor Power** | 600W |
+| **Battery Capacity** | 630Wh |
+| **Range** | 40-100 km |
+| **Price** | 5490 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Capacity

@@ -1,16 +1,25 @@
 ---
-title: "Hippoko Longtail"
-type: bike
-tags: [bike, long-tail, cargo-bike, hippoko]
 date: 2025-10-16
-brand: "Hippoko"
-model: "Longtail Électrique"
-url: "https://www.hippoko.com/"
-image: "https://static.wixstatic.com/media/6c069a_92d43caf96194584abdad3d7e250873a~mv2.png/v1/fill/w_87,h_87,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/modularite.png"
-price: "€2,399"
-motor: "250W"
-battery: "960Wh"
-range: "TBD"
+price: €2,399
+motor: 250W
+battery: 960Wh
+range: TBD
+title: Hippoko Longtail
+type: bike
+brand: Hippoko
+model: Longtail Électrique
+tags:
+- bike
+- long-tail
+- cargo-bike
+- hippoko
+url: https://www.hippoko.com/
+image: https://static.wixstatic.com/media/6c069a_92d43caf96194584abdad3d7e250873a~mv2.png/v1/fill/w_87,h_87,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/modularite.png
+motor_power_w: 250
+battery_capacity_wh: 960
+price_amount: '2399'
+price_currency: EUR
+
 ---
 
 ## Overview
@@ -20,6 +29,11 @@ The Hippoko Longtail is an electric cargo bike designed for urban family transpo
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Power** | 250W |
+| **Battery Capacity** | 960Wh |
+| **Price** | 2399 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification          | Details                                                       |

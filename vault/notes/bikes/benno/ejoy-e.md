@@ -1,82 +1,71 @@
 ---
-title: "Benno eJoy E"
-type: bike
-tags: [bike, longtail, benno, bosch]
 date: 2025-10-24
-brand: "Benno Bikes"
-model: "eJoy E"
-url: "https://bennobikes.com/e-bikes/ejoy/"
-image: "https://bennobikes.com/wp-content/uploads/benno_ejoy_2020_with-sketch_overlay_people_sl1.jpg"
+title: Benno eJoy E
+type: bike
+brand: Benno Bikes
+model: eJoy E
+tags:
+- bike
+- longtail
+- benno
+- bosch
+url: https://bennobikes.com/e-bikes/ejoy/
+image: https://bennobikes.com/wp-content/uploads/benno_ejoy_2020_with-sketch_overlay_people_sl1.jpg
 resellers:
-  - name: "Decathlon France"
-    url: "https://www.decathlon.fr/p/velo-electrique-longtail-benno-ejoy-e-400wh-noir/_/R-p-366913"
-    price: 1799
-    currency: "EUR"
-    region: "EU"
-    availability: "in-stock"
-    note: "Entry-level option"
-specs:
-  category: longtail
-  model_year: 2024
-  frame:
-    material: aluminum
-    size: one size
-  weight:
-    with_battery_kg: 24
-    bike_kg: null
-  load_capacity:
-    total_kg: 150
-    rear_kg: null
-    passenger_count_excluding_rider: 1
-    passenger_config: "1 child on rear rack"
-  motor:
-    make: Bosch
-    model: Active Plus
-    type: mid-drive
-    power_w: 250
-    torque_nm: 50
-    boost_throttle: true
-  battery:
-    capacity_wh: 400
-    configuration: single
-    removable: true
-    charging_time_h: 3
-  drivetrain:
-    type: chain
-    speeds: 8
-    hub: null
-  brakes:
-    type: mechanical disc
-    front_rotor_mm: null
-    rear_rotor_mm: null
-  wheels:
-    front_size_in: '20"'
-    rear_size_in: '20"'
-    tire: Kenda Kontact 20x2.0"
-  suspension:
-    front: none
-    rear: none
-  lights:
-    front:
-      type: Basic LED
-      integrated: false
-      powered_by: main battery
-    rear:
-      type: Basic LED
-      integrated: false
-      powered_by: main battery
-  features: [bosch-active-plus, entry-level, walk-assist, integrated-battery]
-  security:
-    gps: false
-    frame_lock: true
-    app_lock: false
-  range:
-    estimate_km: 40-90
-    notes: "Single 400Wh battery; urban and light cargo use"
-  price:
-    amount: 1799
-    currency: EUR
-  notes: "Entry-level electric longtail with Bosch Active Plus motor. Designed for urban families and light cargo transport. More affordable than Boost series but with lower power (50Nm torque)."
+- name: Decathlon France
+  url: https://www.decathlon.fr/p/velo-electrique-longtail-benno-ejoy-e-400wh-noir/_/R-p-366913
+  price: '1799'
+  currency: EUR
+  region: EU
+  availability: in-stock
+  note: Entry-level option
+category: longtail
+model_year: 2024
+frame_material: aluminum
+frame_size: one size
+weight_with_battery_kg: 24.0
+load_capacity_total_kg: 150.0
+load_capacity_passenger_count: 1
+load_capacity_passenger_config: 1 child on rear rack
+motor_make: Bosch
+motor_model: Active Plus
+motor_type: mid-drive
+motor_power_w: 250
+motor_torque_nm: 50
+motor_boost_throttle: true
+battery_capacity_wh: 400
+battery_configuration: single
+battery_removable: true
+battery_charging_time_h: '3'
+drivetrain_type: chain
+drivetrain_speeds: '8'
+brakes_type: mechanical disc
+wheels_front_size_in: 20"
+wheels_rear_size_in: 20"
+wheels_tire: Kenda Kontact 20x2.0"
+suspension_front: none
+suspension_rear: none
+lights_front_type: Basic LED
+lights_front_integrated: false
+lights_front_powered_by: main battery
+lights_rear_type: Basic LED
+lights_rear_integrated: false
+features:
+- bosch-active-plus
+- entry-level
+- walk-assist
+- integrated-battery
+security_gps: false
+security_app_lock: false
+security_frame_lock: true
+range_estimate_km: 40-90
+range_notes: Single 400Wh battery; urban and light cargo use
+price_amount: '1799'
+price_currency: EUR
+specs_notes: Entry-level electric longtail with Bosch Active Plus motor. Designed
+  for urban families and light cargo transport. More affordable than Boost series
+  but with lower power (50Nm torque).
+
 ---
 
 ## Overview
@@ -86,6 +75,21 @@ The BENNO eJoy E is an affordable electric longtail from BENNO, featuring Bosch 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Category** | longtail |
+| **Model Year** | 2024 |
+| **Motor** | Bosch Active Plus |
+| **Motor Power** | 250W |
+| **Motor Torque** | 50Nm |
+| **Battery Capacity** | 400Wh |
+| **Range** | 40-90 km |
+| **Weight (with battery)** | 24.0kg |
+| **Total Load Capacity** | 150.0kg |
+| **Drivetrain** | chain |
+| **Brakes** | mechanical disc |
+| **Wheel Size** | 20" |
+| **Price** | 1799 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification         | Details                                 |

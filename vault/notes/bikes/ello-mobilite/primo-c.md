@@ -1,14 +1,22 @@
 ---
-title: "Ello Mobilité Primo C"
-type: bike
-brand: "Ello Mobilité"
-model: "Primo C"
-tags: [bike, cargo-bike, compact-cargo, family-bike, ello-mobilite]
 date: 2025-10-19
-url: "https://ello-mobilite.com/nos-realisations/"
-image: "https://ello-mobilite.com/wp-content/uploads/2025/09/Version-Famille.webp"
-motor: "Bosch Performance Line W"
-battery: "Not specified Wh"
+motor: Bosch Performance Line W
+battery: Not specified Wh
+title: Ello Mobilité Primo C
+type: bike
+brand: Ello Mobilité
+model: Primo C
+tags:
+- bike
+- cargo-bike
+- compact-cargo
+- family-bike
+- ello-mobilite
+url: https://ello-mobilite.com/nos-realisations/
+image: https://ello-mobilite.com/wp-content/uploads/2025/09/Version-Famille.webp
+motor_make: Bosch
+motor_model: Performance Line W
+
 ---
 
 ## Ello Mobilité Primo C
@@ -22,6 +30,9 @@ The Primo C is the bike that simplifies everyday life. Compact and user-friendly
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor** | Bosch Performance Line W |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Frame:** Aluminum, manufactured in France

@@ -1,16 +1,25 @@
 ---
-title: "Revom Multi C2"
-type: bike
-tags: [bike, cargo, modular, revom]
 date: 2025-10-16
-brand: "Revom"
-model: "Multi C2"
-url: "https://www.mvebike.fr/revom-multi-c2-xml-378_379_388-1227.html"
-image: "https://www.mvebike.fr/images/Image/REVOM-Multi-C2.png"
-price: "€2,999.00"
-motor: "100Nm"
-battery: "48V 15Ah dual battery"
-range: "100-110km"
+price: €2,999.00
+motor: 100Nm
+battery: 48V 15Ah dual battery
+range: 100-110km
+title: Revom Multi C2
+type: bike
+brand: Revom
+model: Multi C2
+tags:
+- bike
+- cargo
+- modular
+- revom
+url: https://www.mvebike.fr/revom-multi-c2-xml-378_379_388-1227.html
+image: https://www.mvebike.fr/images/Image/REVOM-Multi-C2.png
+motor_torque_nm: 100
+range_estimate_km: 100-110
+price_amount: '2999'
+price_currency: EUR
+
 ---
 
 ## Overview
@@ -20,6 +29,11 @@ The Revom Multi C2 is an advanced modular cargo bike featuring dual battery tech
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Torque** | 100Nm |
+| **Range** | 100-110 km |
+| **Price** | 2999 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification            | Details                                                    |

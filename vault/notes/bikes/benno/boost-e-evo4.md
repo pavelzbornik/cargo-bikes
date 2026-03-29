@@ -1,88 +1,72 @@
 ---
-title: "Benno Boost E EVO4 500Wh"
-type: bike
-tags: [bike, longtail, benno, bosch]
 date: 2025-10-24
-brand: "Benno Bikes"
-model: "Boost E EVO4"
-url: "https://bennobikes.com/ebikes/boost/boost-e/"
-image: "https://www.ovelo.fr/46060-thickbox_default/boost-e-evo4-500wh.jpg"
+title: Benno Boost E EVO4 500Wh
+type: bike
+brand: Benno Bikes
+model: Boost E EVO4
+tags:
+- bike
+- longtail
+- benno
+- bosch
+url: https://bennobikes.com/ebikes/boost/boost-e/
+image: https://www.ovelo.fr/46060-thickbox_default/boost-e-evo4-500wh.jpg
 resellers:
-  - name: Ovelo France
-    url: "https://www.ovelo.fr/fr/velo-electrique-longtail/25680-boost-e-evo4-500wh.html"
-    price: 3830
-    currency: EUR
-    region: EU
-    availability: in-stock
-specs:
-  category: longtail
-  model_year: 2024
-  frame:
-    material: aluminum
-    size: one size
-  weight:
-    with_battery_kg: 27
-    bike_kg: null
-  load_capacity:
-    total_kg: 200
-    rear_kg: null
-    passenger_count_excluding_rider: 2
-    passenger_config: "2 children on rear rack"
-  motor:
-    make: Bosch
-    model: "Performance CX Gen 4"
-    type: mid-drive
-    power_w: 250
-    torque_nm: 85
-    boost_throttle: true
-  battery:
-    capacity_wh: 500
-    configuration: single
-    removable: true
-    charging_time_h: 4
-  drivetrain:
-    type: chain
-    speeds: 10
-    hub: null
-  brakes:
-    type: hydraulic disc
-    front_rotor_mm: null
-    rear_rotor_mm: null
-  wheels:
-    front_size_in: '27.5"'
-    rear_size_in: '27.5"'
-    tire: Schwalbe Super Moto X 2.4"
-  suspension:
-    front: none
-    rear: none
-  lights:
-    front:
-      type: Supernova Mini 2 LED
-      integrated: true
-      powered_by: main battery
-    rear:
-      type: Supernova E3 LED
-      integrated: true
-      brake_light: true
-  features:
-    [
-      bosch-smart-system,
-      modular-cargo,
-      walk-assist,
-      integrated-lights,
-      enhanced-emtb-mode,
-    ]
-  security:
-    gps: false
-    frame_lock: true
-    app_lock: false
-  range:
-    estimate_km: 50-130
-    notes: "Single 500Wh battery; varies by assist level, load, and terrain"
-  price:
-    amount: 3830
-    currency: EUR
-  notes: "Performance CX Gen 4 with 85Nm torque (upgraded from Gen 3). Enhanced eMTB mode for off-road capability. Also available with 400Wh battery and dual battery configurations."
+- name: Ovelo France
+  url: https://www.ovelo.fr/fr/velo-electrique-longtail/25680-boost-e-evo4-500wh.html
+  price: '3830'
+  currency: EUR
+  region: EU
+  availability: in-stock
+category: longtail
+model_year: 2024
+frame_material: aluminum
+frame_size: one size
+weight_with_battery_kg: 27.0
+load_capacity_total_kg: 200.0
+load_capacity_passenger_count: 2
+load_capacity_passenger_config: 2 children on rear rack
+motor_make: Bosch
+motor_model: Performance CX Gen 4
+motor_type: mid-drive
+motor_power_w: 250
+motor_torque_nm: 85
+motor_boost_throttle: true
+battery_capacity_wh: 500
+battery_configuration: single
+battery_removable: true
+battery_charging_time_h: '4'
+drivetrain_type: chain
+drivetrain_speeds: '10'
+brakes_type: hydraulic disc
+wheels_front_size_in: 27.5"
+wheels_rear_size_in: 27.5"
+wheels_tire: Schwalbe Super Moto X 2.4"
+suspension_front: none
+suspension_rear: none
+lights_front_type: Supernova Mini 2 LED
+lights_front_integrated: true
+lights_front_powered_by: main battery
+lights_rear_type: Supernova E3 LED
+lights_rear_integrated: true
+lights_rear_brake_light: true
+features:
+- bosch-smart-system
+- modular-cargo
+- walk-assist
+- integrated-lights
+- enhanced-emtb-mode
+security_gps: false
+security_app_lock: false
+security_frame_lock: true
+range_estimate_km: 50-130
+range_notes: Single 500Wh battery; varies by assist level, load, and terrain
+price_amount: '3830'
+price_currency: EUR
+specs_notes: Performance CX Gen 4 with 85Nm torque (upgraded from Gen 3). Enhanced
+  eMTB mode for off-road capability. Also available with 400Wh battery and dual battery
+  configurations.
+
 ---
 
 ## Overview
@@ -92,6 +76,21 @@ The Benno Boost E EVO4 is an electric longtail from German manufacturer Benno Bi
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Category** | longtail |
+| **Model Year** | 2024 |
+| **Motor** | Bosch Performance CX Gen 4 |
+| **Motor Power** | 250W |
+| **Motor Torque** | 85Nm |
+| **Battery Capacity** | 500Wh |
+| **Range** | 50-130 km |
+| **Weight (with battery)** | 27.0kg |
+| **Total Load Capacity** | 200.0kg |
+| **Drivetrain** | chain |
+| **Brakes** | hydraulic disc |
+| **Wheel Size** | 27.5" |
+| **Price** | 3830 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification         | Details                                       |

@@ -1,16 +1,24 @@
 ---
-title: "Family Cargo Tuc Tuc XRoad 500W"
-type: bike
-tags: [bike, cargo, family, electric, tucano]
 date: 2025-10-16
-brand: "TUCANO"
-model: "Family Cargo Tuc Tuc XRoad"
-url: "https://www.decathlon.fr/"
-image: ""
-price: "€2,390"
-motor: "500W"
-battery: ""
-range: ""
+price: €2,390
+motor: 500W
+battery: ''
+range: ''
+title: Family Cargo Tuc Tuc XRoad 500W
+type: bike
+brand: TUCANO
+model: Family Cargo Tuc Tuc XRoad
+tags:
+- bike
+- cargo
+- family
+- electric
+- tucano
+url: https://www.decathlon.fr/
+motor_power_w: 500
+price_amount: '2390'
+price_currency: EUR
+
 ---
 
 ## Overview
@@ -20,6 +28,10 @@ The TUCANO Family Cargo Tuc Tuc XRoad is a family-focused cargo bike with powerf
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Power** | 500W |
+| **Price** | 2390 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Motor & Battery

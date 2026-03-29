@@ -1,18 +1,19 @@
 ---
-title: "Yuba"
-type: "brand-index"
-brand: "Yuba"
-tags: [brand, index, yuba]
+brand: Yuba
 date: 2025-10-24
-url: ""
-image: ""
-summary: "Yuba is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+image: ''
+category: longtail
+title: Yuba
+type: brand
+summary: Yuba is a cargo bike manufacturer offering diverse models for families and
+  professionals.
+tags:
+- brand
+- index
+- yuba
+regions:
+- EU
 ---
-
 ## Overview
 
 Yuba is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

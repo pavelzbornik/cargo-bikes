@@ -6,13 +6,13 @@ from unittest.mock import patch
 
 import pytest
 
-from scripts.validate_urls import (
+from cargo_bikes.validate.urls import (
     URLValidator,
     create_changelog_entry,
-    extract_frontmatter,
     reconstruct_frontmatter,
     validate_and_clean_urls,
 )
+from cargo_bikes.vault.frontmatter import extract_frontmatter_and_body as extract_frontmatter
 
 
 class TestURLValidator:

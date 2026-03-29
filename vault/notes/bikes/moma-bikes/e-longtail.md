@@ -1,16 +1,26 @@
 ---
-title: "Moma E-LONGTAIL"
-type: bike
-tags: [bike, cargo-bike, long-tail, moma-bikes]
 date: 2025-10-16
-brand: "Moma Bikes"
-model: "E-LONGTAIL"
-url: "https://momabikes.eu/products/electric-bike-ebike-longtail"
-image: "https://cdn.shopify.com/s/files/1/0290/9382/2538/files/1View.jpg?width=800&crop=center"
-price: "€2,299.99 (sale, regular €4,000.00)"
-motor: "250W"
-battery: "624Wh"
-range: "90km"
+price: €2,299.99 (sale, regular €4,000.00)
+motor: 250W
+battery: 624Wh
+range: 90km
+title: Moma E-LONGTAIL
+type: bike
+brand: Moma Bikes
+model: E-LONGTAIL
+tags:
+- bike
+- cargo-bike
+- long-tail
+- moma-bikes
+url: https://momabikes.eu/products/electric-bike-ebike-longtail
+image: https://cdn.shopify.com/s/files/1/0290/9382/2538/files/1View.jpg?width=800&crop=center
+motor_power_w: 250
+battery_capacity_wh: 624
+range_estimate_km: '90'
+price_amount: '2299'
+price_currency: EUR
+
 ---
 
 ## Moma E-LONGTAIL
@@ -24,6 +34,12 @@ The Moma E-LONGTAIL is a true long-tail cargo bike engineered for urban families
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Power** | 250W |
+| **Battery Capacity** | 624Wh |
+| **Range** | 90 km |
+| **Price** | 2299 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €2,299.99 (sale from €4,000.00)

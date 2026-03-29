@@ -1,0 +1,24 @@
+filters:
+  or:
+    - type == "brand"
+    - type == "brand-index"
+views:
+  - type: table
+    name: All Brands
+    order:
+      - title
+      - country
+      - headquarters_city
+      - model_count
+      - price_tier
+      - categories
+      - regions
+  - type: cards
+    name: Brand Cards
+    order:
+      - title
+      - logo
+      - summary
+      - categories
+      - price_tier
+      - country

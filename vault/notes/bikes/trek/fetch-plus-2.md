@@ -1,58 +1,49 @@
 ---
-title: "Trek Fetch+ 2"
-type: bike
-tags: [bike, longtail, electric, trek, bosch]
 date: 2025-10-16
-brand: "Trek"
-model: "Fetch+ 2"
-url: "https://www.trekbikes.com/"
-image: ""
-price: "Premium range"
-motor: "Bosch Performance Line CX"
-battery: "500Wh"
-range: "up to 150km"
-specs:
-  category: "longtail"
-  frame:
-    material: "aluminum"
-    size: "standard"
-  weight:
-    bike_kg: null
-    with_battery_kg: null
-  load_capacity:
-    total_kg: 180
-  motor:
-    make: "Bosch"
-    model: "Performance Line CX"
-    type: "mid-drive"
-  battery:
-    capacity_wh: 500
-    configuration: "single"
-    removable: true
-  drivetrain:
-    type: "chain"
-    speeds: "10-speed"
-  brakes:
-    type: "hydraulic 4-piston disc"
-  wheels:
-    front_size_in: '20"'
-    rear_size_in: '20"'
-    tire: "Schwalbe Pick-Up"
-  suspension:
-    front: "rigid"
-    rear: "rigid"
-  features: ["bosch-cx", "integrated-lights", "phone-integration"]
-  security:
-    gps: false
-    app_lock: false
-  range:
-    estimate_km: "up to 150"
-    notes: "optimal/ideal conditions"
-  price:
-    amount: "Premium range"
-    currency: "EUR"
-  url: "https://www.trekbikes.com/"
-  image: ""
+price: Premium range
+motor: Bosch Performance Line CX
+battery: 500Wh
+range: up to 150km
+title: Trek Fetch+ 2
+type: bike
+brand: Trek
+model: Fetch+ 2
+tags:
+- bike
+- longtail
+- electric
+- trek
+- bosch
+url: https://www.trekbikes.com/
+category: longtail
+frame_material: aluminum
+frame_size: standard
+load_capacity_total_kg: 180.0
+motor_make: Bosch
+motor_model: Performance Line CX
+motor_type: mid-drive
+battery_capacity_wh: 500
+battery_configuration: single
+battery_removable: true
+drivetrain_type: chain
+drivetrain_speeds: 10-speed
+brakes_type: hydraulic 4-piston disc
+wheels_front_size_in: 20"
+wheels_rear_size_in: 20"
+wheels_tire: Schwalbe Pick-Up
+suspension_front: rigid
+suspension_rear: rigid
+features:
+- bosch-cx
+- integrated-lights
+- phone-integration
+security_gps: false
+security_app_lock: false
+range_estimate_km: up to 150
+range_notes: optimal/ideal conditions
+price_amount: Premium range
+price_currency: EUR
+
 ---
 
 ## Overview
@@ -62,6 +53,17 @@ The Trek Fetch+ 2 is a premium American longtail electric cargo bike designed fo
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Category** | longtail |
+| **Motor** | Bosch Performance Line CX |
+| **Battery Capacity** | 500Wh |
+| **Range** | up to 150 km |
+| **Total Load Capacity** | 180.0kg |
+| **Drivetrain** | chain |
+| **Brakes** | hydraulic 4-piston disc |
+| **Wheel Size** | 20" |
+| **Price** | Premium range EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

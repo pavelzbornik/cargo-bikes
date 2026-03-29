@@ -37,6 +37,17 @@ theme:
     - content.action.edit
     - content.tooltips
 plugins:
+  - i18n:
+      docs_structure: suffix
+      reconfigure_material: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: fr
+          name: Français
+          build: true
   - tags
   - search
   - obsidian-bridge
@@ -66,6 +77,13 @@ markdown_extensions:
   - obsidian_media_mkdocs
   - obsidian_callouts
 extra:
+  alternate:
+    - name: English
+      link: /cargo-bikes/
+      lang: en
+    - name: Français
+      link: /cargo-bikes/fr/
+      lang: fr
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/pavelzbornik/cargo-bikes

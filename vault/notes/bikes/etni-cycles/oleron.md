@@ -1,16 +1,28 @@
 ---
-title: "Etni Cycles Oléron"
-type: bike
-tags: [bike, longtail, cargo, electric, etni-cycles, french]
 date: 2025-10-16
-brand: "Etni Cycles"
-model: "Oléron"
-url: "https://www.etnicycles.com/"
-image: ""
-price: "5600€"
-motor: "Shimano EP8 or Bosch Cargo Line"
-battery: "504Wh"
-range: "100-120km"
+price: 5600€
+motor: Shimano EP8 or Bosch Cargo Line
+battery: 504Wh
+range: 100-120km
+title: Etni Cycles Oléron
+type: bike
+brand: Etni Cycles
+model: Oléron
+tags:
+- bike
+- longtail
+- cargo
+- electric
+- etni-cycles
+- french
+url: https://www.etnicycles.com/
+motor_make: Bosch
+motor_model: Cargo Line
+battery_capacity_wh: 504
+range_estimate_km: 100-120
+price_amount: '5600'
+price_currency: EUR
+
 ---
 
 ## Overview
@@ -20,6 +32,12 @@ Etni Cycles (Etienne + Nicolas) represents a 2020 mission-driven approach to car
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor** | Bosch Cargo Line |
+| **Battery Capacity** | 504Wh |
+| **Range** | 100-120 km |
+| **Price** | 5600 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

@@ -1,17 +1,11 @@
 """Tests for generate_brand_indexes script."""
 
-import sys
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-# Add parent directory to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent))
-
-from scripts.generate_brand_indexes import (
-    collect_bikes_by_brand,
-    extract_frontmatter,
-    generate_brand_index,
-)
+from cargo_bikes.generate.brand_indexes import generate_brand_index
+from cargo_bikes.vault.frontmatter import extract_frontmatter
+from cargo_bikes.vault.scanner import collect_bikes_by_brand
 
 
 class TestExtractFrontmatter:

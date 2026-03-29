@@ -5,7 +5,6 @@ Tests verify that the hydration script correctly populates the database
 from Markdown files and maintains idempotency.
 """
 
-import sys
 from datetime import date
 from pathlib import Path
 from tempfile import TemporaryDirectory
@@ -14,11 +13,7 @@ import pytest
 from sqlalchemy import create_engine, select
 from sqlalchemy.orm import Session
 
-# Add parent directory to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent))
-
-from scripts.database.hydrate import (
-    extract_frontmatter,
+from cargo_bikes.db.hydrate import (
     get_or_create_brand,
     hydrate_from_vault,
     parse_date,
@@ -26,7 +21,8 @@ from scripts.database.hydrate import (
     upsert_bike,
     upsert_brand,
 )
-from scripts.database.schema import Base, Bike, Brand
+from cargo_bikes.db.schema import Base, Bike, Brand
+from cargo_bikes.vault.frontmatter import extract_frontmatter_from_file as extract_frontmatter
 
 
 @pytest.fixture

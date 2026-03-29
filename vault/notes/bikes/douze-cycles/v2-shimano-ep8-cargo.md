@@ -1,16 +1,26 @@
 ---
-title: "Douze V2 Shimano EP8 Cargo"
-type: bike
-tags: [bike, front-cargo, cargo-box, electric, douze-cycles]
 date: 2025-10-16
-brand: "Douze Cycles"
-model: "V2 Shimano EP8 Cargo"
-url: "https://www.douze-cycles.com/velos-cargos/v2"
-image: "https://vitrine.douze-cycles.com/wp-content/uploads/2023/04/couple.svg"
-price: "€5,250"
-motor: "250W"
-battery: "504Wh"
-range: "Variable depending on terrain"
+price: €5,250
+motor: 250W
+battery: 504Wh
+range: Variable depending on terrain
+title: Douze V2 Shimano EP8 Cargo
+type: bike
+brand: Douze Cycles
+model: V2 Shimano EP8 Cargo
+tags:
+- bike
+- front-cargo
+- cargo-box
+- electric
+- douze-cycles
+url: https://www.douze-cycles.com/velos-cargos/v2
+image: https://vitrine.douze-cycles.com/wp-content/uploads/2023/04/couple.svg
+motor_power_w: 250
+battery_capacity_wh: 504
+price_amount: '5250'
+price_currency: EUR
+
 ---
 
 ## Douze V2 Shimano EP8 Cargo
@@ -24,6 +34,11 @@ The V2 Shimano EP8 Cargo is a premium front-cargo (biporteur) electric bike powe
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Power** | 250W |
+| **Battery Capacity** | 504Wh |
+| **Price** | 5250 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €5,250 TTC

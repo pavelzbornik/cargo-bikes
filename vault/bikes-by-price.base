@@ -1,0 +1,41 @@
+filters:
+  and:
+    - type == "bike"
+views:
+  - type: table
+    name: Under 3,000 EUR
+    filters:
+      and:
+        - price_amount < 3000
+    order:
+      - title
+      - brand
+      - price_amount
+      - motor_make
+      - battery_capacity_wh
+      - range_estimate_km
+  - type: table
+    name: 3,000-4,000 EUR
+    filters:
+      and:
+        - price_amount >= 3000
+        - price_amount < 4000
+    order:
+      - title
+      - brand
+      - price_amount
+      - motor_make
+      - battery_capacity_wh
+      - range_estimate_km
+  - type: table
+    name: 4,000+ EUR
+    filters:
+      and:
+        - price_amount >= 4000
+    order:
+      - title
+      - brand
+      - price_amount
+      - motor_make
+      - battery_capacity_wh
+      - range_estimate_km

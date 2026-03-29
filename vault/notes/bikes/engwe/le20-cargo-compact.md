@@ -1,16 +1,26 @@
 ---
-title: "ENGWE LE20 Cargo"
-type: bike
-tags: [bike, compact-cargo, urban-cargo, engwe]
 date: 2025-10-16
-brand: "ENGWE"
-model: "LE20 Cargo"
-url: "https://www.journaldugeek.com/test/test-engwe-le20-cargo-entre-velo-electrique-urbain-et-familial/"
-image: "https://www.journaldugeek.com/app/uploads/2025/04/l2017-960x640.jpg"
-price: "€1,549 (€1,399 with ENGWEV150OFF code)"
-motor: "250W"
-battery: "2x 924Wh (48V 19.2Ah each, total 1,848Wh when dual)"
-range: "200-250km (real-world urban mixed), up to 350km (eco mode theoretical)"
+price: €1,549 (€1,399 with ENGWEV150OFF code)
+motor: 250W
+battery: 2x 924Wh (48V 19.2Ah each, total 1,848Wh when dual)
+range: 200-250km (real-world urban mixed), up to 350km (eco mode theoretical)
+title: ENGWE LE20 Cargo
+type: bike
+brand: ENGWE
+model: LE20 Cargo
+tags:
+- bike
+- compact-cargo
+- urban-cargo
+- engwe
+url: https://www.journaldugeek.com/test/test-engwe-le20-cargo-entre-velo-electrique-urbain-et-familial/
+image: https://www.journaldugeek.com/app/uploads/2025/04/l2017-960x640.jpg
+motor_power_w: 250
+battery_capacity_wh: 924
+range_estimate_km: 200-250
+price_amount: '1549'
+price_currency: EUR
+
 ---
 
 ## Overview
@@ -20,6 +30,12 @@ The ENGWE LE20 Cargo is a compact urban and family-oriented electric cargo bike 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Power** | 250W |
+| **Battery Capacity** | 924Wh |
+| **Range** | 200-250 km |
+| **Price** | 1549 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification     | Details                                                |

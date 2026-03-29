@@ -1,100 +1,84 @@
 ---
-title: "Cube Longtail Hybrid 800"
-type: bike
-brand: "Cube"
-model: "Longtail Hybrid 800"
-tags: [bike, longtail, cube, bosch]
 date: 2025-10-26
-url: "https://www.cube.eu/de-en/cube-longtail-hybrid-800-royalgreen-n-black/122200"
-image: "https://www.cube.eu/media/image/20/70/49/122200_MY25_Longtail_Hybrid_800_royalgreenanblack_prod_1.jpg"
+title: Cube Longtail Hybrid 800
+type: bike
+brand: Cube
+model: Longtail Hybrid 800
+tags:
+- bike
+- longtail
+- cube
+- bosch
+url: https://www.cube.eu/de-en/cube-longtail-hybrid-800-royalgreen-n-black/122200
+image: https://www.cube.eu/media/image/20/70/49/122200_MY25_Longtail_Hybrid_800_royalgreenanblack_prod_1.jpg
 resellers:
-  - name: "Cube Official Store (EUR)"
-    url: "https://www.cube.eu/de-en/cube-longtail-hybrid-800-royalgreen-n-black/122200"
-    price: 3799
-    currency: "EUR"
-    region: "Europe"
-    availability: "in-stock"
-    note: ""
-  - name: "Cube Official Store (GBP)"
-    url: "https://www.cube.eu/uk-en/cube-longtail-hybrid-800-royalgreen-n-black/122200"
-    price: 4499
-    currency: "GBP"
-    region: "United Kingdom"
-    availability: "in-stock"
-    note: ""
-specs:
-  category: "longtail"
-  model_year: 2025
-  frame:
-    material: "aluminum"
-    size: "one size"
-  weight:
-    with_battery_kg: 34.1
-    bike_kg: null
-  load_capacity:
-    total_kg: 200
-    rear_kg: 60
-    passenger_count_excluding_rider: 0
-    passenger_config: "Cargo carrier only - child seat available as optional accessory"
-  motor:
-    make: "Bosch"
-    model: "Cargo Line"
-    type: "mid-drive"
-    power_w: 250
-    torque_nm: 85
-    boost_throttle: false
-  battery:
-    capacity_wh: 800
-    configuration: "single"
-    removable: true
-    charging_time_h: null
-  drivetrain:
-    type: "chain"
-    speeds: "11"
-    hub: null
-  brakes:
-    type: "Magura Gustav PRO hydraulic disc"
-    front_rotor_mm: 203
-    rear_rotor_mm: 203
-  wheels:
-    front_size_in: '26"'
-    rear_size_in: '26"'
-    tire: "Schwalbe Pick-Up Performance Super Defense 65-559"
-  suspension:
-    front: "none"
-    rear: "elastomer suspended rear carrier"
-  lights:
-    front:
-      type: "ACID Front Light PRO-E 150"
-      integrated: true
-      powered_by: "main battery"
-    rear:
-      type: "Herrmans H-Trace"
-      integrated: true
-      brake_light: false
-  features:
-    [
-      lockable-downtube-storage,
-      telescopic-seatpost,
-      adjustable-stem,
-      kickstand,
-      mudguards,
-      bell,
-      front-carrier-ready,
-      smart-system,
-      kiox-500-display,
-    ]
-  security:
-    gps: false
-    frame_lock: false
-    app_lock: false
-  range:
-    estimate_km: null
-    notes: "Bosch smart system with 800Wh battery provides extended range for cargo transport"
-  price:
-    amount: 3799
-    currency: "EUR"
-  notes: 'Standard version with Shimano Cues 11-speed derailleur. No child seat included - optimized for cargo transport. One Size Concept fits riders 1.60m-1.90m (5''2"-6''2"). HIC front carrier compatible.'
+- name: Cube Official Store (EUR)
+  url: https://www.cube.eu/de-en/cube-longtail-hybrid-800-royalgreen-n-black/122200
+  price: '3799'
+  currency: EUR
+  region: Europe
+  availability: in-stock
+- name: Cube Official Store (GBP)
+  url: https://www.cube.eu/uk-en/cube-longtail-hybrid-800-royalgreen-n-black/122200
+  price: '4499'
+  currency: GBP
+  region: United Kingdom
+  availability: in-stock
+category: longtail
+model_year: 2025
+frame_material: aluminum
+frame_size: one size
+weight_with_battery_kg: 34.1
+load_capacity_total_kg: 200.0
+load_capacity_rear_kg: 60.0
+load_capacity_passenger_config: Cargo carrier only - child seat available as optional
+  accessory
+motor_make: Bosch
+motor_model: Cargo Line
+motor_type: mid-drive
+motor_power_w: 250
+motor_torque_nm: 85
+motor_boost_throttle: false
+battery_capacity_wh: 800
+battery_configuration: single
+battery_removable: true
+drivetrain_type: chain
+drivetrain_speeds: '11'
+brakes_type: Magura Gustav PRO hydraulic disc
+brakes_front_rotor_mm: 203
+brakes_rear_rotor_mm: 203
+wheels_front_size_in: 26"
+wheels_rear_size_in: 26"
+wheels_tire: Schwalbe Pick-Up Performance Super Defense 65-559
+suspension_front: none
+suspension_rear: elastomer suspended rear carrier
+lights_front_type: ACID Front Light PRO-E 150
+lights_front_integrated: true
+lights_front_powered_by: main battery
+lights_rear_type: Herrmans H-Trace
+lights_rear_integrated: true
+lights_rear_brake_light: false
+features:
+- lockable-downtube-storage
+- telescopic-seatpost
+- adjustable-stem
+- kickstand
+- mudguards
+- bell
+- front-carrier-ready
+- smart-system
+- kiox-500-display
+security_gps: false
+security_app_lock: false
+security_frame_lock: false
+range_notes: Bosch smart system with 800Wh battery provides extended range for cargo
+  transport
+price_amount: '3799'
+price_currency: EUR
+specs_notes: Standard version with Shimano Cues 11-speed derailleur. No child seat
+  included - optimized for cargo transport. One Size Concept fits riders 1.60m-1.90m
+  (5'2"-6'2"). HIC front carrier compatible.
+
 ---
 
 ## Overview
@@ -104,6 +88,20 @@ The Cube Longtail Hybrid 800 is a practical, comfortable cargo bike designed to 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Category** | longtail |
+| **Model Year** | 2025 |
+| **Motor** | Bosch Cargo Line |
+| **Motor Power** | 250W |
+| **Motor Torque** | 85Nm |
+| **Battery Capacity** | 800Wh |
+| **Weight (with battery)** | 34.1kg |
+| **Total Load Capacity** | 200.0kg |
+| **Drivetrain** | chain |
+| **Brakes** | Magura Gustav PRO hydraulic disc |
+| **Wheel Size** | 26" |
+| **Price** | 3799 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Frame & Build

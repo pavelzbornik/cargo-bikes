@@ -1,18 +1,28 @@
 ---
-title: "Moma E-COMPACTAIL"
-type: bike
-tags: [bike, cargo-bike, long-tail, moma-bikes]
 date: 2025-10-16
-brand: "Moma Bikes"
-model: "E-COMPACTAIL"
-url: "https://momabikes.eu/products/electric-bike-ebike-longtail-1"
-image: "https://cdn.shopify.com/s/files/1/0290/9382/2538/files/Compactail_00.jpg?width=800&crop=center"
-price: "€1,999.99 (sale, regular €4,000.00)"
-motor: "250W"
-battery: "720Wh"
-range: "100km"
-review_summary_date: "2025-10-26"
+price: €1,999.99 (sale, regular €4,000.00)
+motor: 250W
+battery: 720Wh
+range: 100km
+review_summary_date: '2025-10-26'
 review_source_count: 4
+title: Moma E-COMPACTAIL
+type: bike
+brand: Moma Bikes
+model: E-COMPACTAIL
+tags:
+- bike
+- cargo-bike
+- long-tail
+- moma-bikes
+url: https://momabikes.eu/products/electric-bike-ebike-longtail-1
+image: https://cdn.shopify.com/s/files/1/0290/9382/2538/files/Compactail_00.jpg?width=800&crop=center
+motor_power_w: 250
+battery_capacity_wh: 720
+range_estimate_km: '100'
+price_amount: '1999'
+price_currency: EUR
+
 ---
 
 ## Moma E-COMPACTAIL
@@ -26,6 +36,12 @@ The Moma E-COMPACTAIL is an urban-focused long-tail cargo bike perfect for city 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Power** | 250W |
+| **Battery Capacity** | 720Wh |
+| **Range** | 100 km |
+| **Price** | 1999 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €1,999.99 (sale from €4,000.00)

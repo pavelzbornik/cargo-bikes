@@ -1,18 +1,19 @@
 ---
-title: "SUM"
-type: "brand-index"
-brand: "SUM"
-tags: [brand, index, sum]
+brand: SUM
 date: 2025-10-24
-url: ""
-image: ""
-summary: "SUM is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+image: ''
+category: longtail
+title: SUM
+type: brand
+summary: SUM is a cargo bike manufacturer offering diverse models for families and
+  professionals.
+tags:
+- brand
+- index
+- sum
+regions:
+- EU
 ---
-
 ## Overview
 
 SUM is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

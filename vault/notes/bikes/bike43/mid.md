@@ -1,74 +1,50 @@
 ---
-title: "Bike43 Mid"
-type: bike
-tags: [bike, mid-tail, cargo, electric, bike43]
 date: 2025-10-16
-brand: "Bike43"
-model: "Mid"
-url: "https://bike43.com/mid-tail-cargo-family-bike/"
-image: "https://bike43.com/app/uploads/2025/07/Video-SuperPower-Pivotable-Bench-Kit-1024x830.jpg"
-price: "5290€"
-motor: "600-700W"
-battery: "540-800Wh"
-range: "40-80km"
-specs:
-  category: "mid-tail"
-  frame:
-    material: "chromoly steel"
-    size: "186 cm (overall length)"
-    dimensions:
-      length_cm: 186
-  weight:
-    bike_kg: null
-    with_battery_kg: null
-  load_capacity:
-    total_kg: 200
-    rear_kg: 85
-    front_kg: 20
-    passenger_count: 3
-  motor:
-    options:
-      - make: "Bosch"
-        model: "Performance Line Gen5"
-        power_w: "600W"
-      - make: "Bosch"
-        model: "Performance Line PX"
-        power_w: "700W"
-  battery:
-    capacity_wh: null
-    configuration: "single"
-    removable: true
-  drivetrain:
-    type: "chain"
-    speeds: "varies"
-  brakes:
-    type: "hydraulic disc"
-    front_rotor_mm: null
-    rear_rotor_mm: null
-  wheels:
-    front_size_in: '20"'
-    rear_size_in: '20"'
-    tire: "20x2.44 (CST Brooklyn Pro)"
-  suspension:
-    front: "SR Suntour SF22 Mobie 34 CGO 80mm"
-    rear: "rigid"
-  features:
-    [
-      "pivotable-bench-kit",
-      "footbox",
-      "bosch-compatibility",
-      "convertible-to-short",
-    ]
-  security:
-    gps: false
-    alarm_db: null
-    app_lock: false
-  range:
-    estimate_km: "40-80"
-  price:
-    amount: "5290€"
-  url: "https://bike43.com/mid-tail-cargo-family-bike/"
-  image: "https://bike43.com/app/uploads/2025/07/Video-SuperPower-Pivotable-Bench-Kit-1024x830.jpg"
+price: 5290€
+motor: 600-700W
+battery: 540-800Wh
+range: 40-80km
+title: Bike43 Mid
+type: bike
+brand: Bike43
+model: Mid
+tags:
+- bike
+- mid-tail
+- cargo
+- electric
+- bike43
+url: https://bike43.com/mid-tail-cargo-family-bike/
+image: https://bike43.com/app/uploads/2025/07/Video-SuperPower-Pivotable-Bench-Kit-1024x830.jpg
+category: mid-tail
+frame_material: chromoly steel
+frame_size: 186 cm (overall length)
+frame_length_cm: 186.0
+load_capacity_total_kg: 200.0
+load_capacity_rear_kg: 85.0
+load_capacity_front_kg: 20.0
+motor_power_w: 700
+battery_capacity_wh: 800
+battery_configuration: single
+battery_removable: true
+drivetrain_type: chain
+drivetrain_speeds: varies
+brakes_type: hydraulic disc
+wheels_front_size_in: 20"
+wheels_rear_size_in: 20"
+wheels_tire: 20x2.44 (CST Brooklyn Pro)
+suspension_front: SR Suntour SF22 Mobie 34 CGO 80mm
+suspension_rear: rigid
+features:
+- pivotable-bench-kit
+- footbox
+- bosch-compatibility
+- convertible-to-short
+security_gps: false
+security_app_lock: false
+range_estimate_km: 40-80
+price_amount: 5290€
+
 ---
 
 ## Overview
@@ -78,6 +54,16 @@ The Bike43 Mid is the versatile centerpiece of the Bike43 family lineup, designe
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Category** | mid-tail |
+| **Motor Power** | 700W |
+| **Battery Capacity** | 800Wh |
+| **Range** | 40-80 km |
+| **Total Load Capacity** | 200.0kg |
+| **Drivetrain** | chain |
+| **Brakes** | hydraulic disc |
+| **Wheel Size** | 20" |
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Capacity

@@ -1,13 +1,20 @@
 ---
-title: "Ello Mobilité Tractor C"
-type: bike
-brand: "Ello Mobilité"
-model: "Tractor C"
-tags: [bike, cargo-bike, compact-cargo, ello-mobilite]
 date: 2025-10-19
-url: "https://ello-mobilite.com/nos-realisations/"
-image: "https://ello-mobilite.com/wp-content/uploads/2025/09/IMG_9319-scaled.jpg"
-motor: "Valéo W"
+motor: Valéo W
+title: Ello Mobilité Tractor C
+type: bike
+brand: Ello Mobilité
+model: Tractor C
+tags:
+- bike
+- cargo-bike
+- compact-cargo
+- ello-mobilite
+url: https://ello-mobilite.com/nos-realisations/
+image: https://ello-mobilite.com/wp-content/uploads/2025/09/IMG_9319-scaled.jpg
+motor_make: Valéo
+motor_model: W
+
 ---
 
 ## Ello Mobilité Tractor C
@@ -21,6 +28,9 @@ The Tractor C combines the compactness of a classic bike with the carrying capac
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor** | Valéo W |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Frame:** Aluminum, manufactured in France

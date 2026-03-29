@@ -1,18 +1,19 @@
 ---
-title: "Velo de Ville"
-type: "brand-index"
-brand: "Velo de Ville"
-tags: [brand, index, velo-de-ville]
+brand: Velo de Ville
 date: 2025-10-24
-url: ""
-image: ""
-summary: "Velo de Ville is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+image: ''
+category: longtail
+title: Velo de Ville
+type: brand
+summary: Velo de Ville is a cargo bike manufacturer offering diverse models for families
+  and professionals.
+tags:
+- brand
+- index
+- velo-de-ville
+regions:
+- EU
 ---
-
 ## Overview
 
 Velo de Ville is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

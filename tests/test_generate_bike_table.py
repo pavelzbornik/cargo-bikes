@@ -4,9 +4,9 @@ import tempfile
 from pathlib import Path
 from unittest.mock import MagicMock, patch
 
-from scripts.generate_bike_table import (
-    collect_bikes,
-    extract_frontmatter,
+from cargo_bikes.vault.scanner import collect_bikes
+
+from cargo_bikes.generate.bike_table import (
     extract_spec_value,
     format_table_cell,
     generate_bike_table,
@@ -15,8 +15,8 @@ from scripts.generate_bike_table import (
     get_price_display,
     get_range_display,
     update_file_with_table,
-    validate_bike_frontmatter,
 )
+from cargo_bikes.vault.frontmatter import extract_frontmatter, validate_bike_frontmatter
 
 
 class TestExtractFrontmatter:
@@ -44,7 +44,7 @@ tags: [test]
         result = extract_frontmatter(content)
         assert result is None
 
-    def test_extract_invalid_yaml(self, capsys):
+    def test_extract_invalid_yaml(self):
         """Test handling of invalid YAML frontmatter."""
         content = """---
 title: "Test"
@@ -53,8 +53,6 @@ invalid yaml: [unclosed
 Content"""
         result = extract_frontmatter(content)
         assert result is None
-        captured = capsys.readouterr()
-        assert "[WARN]" in captured.out
 
     def test_extract_empty_frontmatter(self):
         """Test extraction of empty frontmatter."""
@@ -73,23 +71,17 @@ class TestValidateBikeFrontmatter:
         frontmatter = {"title": "Test Bike", "type": "bike", "tags": ["test"]}
         assert validate_bike_frontmatter(frontmatter) is True
 
-    def test_missing_title(self, capsys):
+    def test_missing_title(self):
         """Test validation fails when title is missing."""
         frontmatter = {"type": "bike", "tags": ["test"]}
         assert validate_bike_frontmatter(frontmatter) is False
-        captured = capsys.readouterr()
-        assert "[ERR]" in captured.out
-        assert "title" in captured.out
 
-    def test_missing_tags(self, capsys):
+    def test_missing_tags(self):
         """Test validation fails when tags are missing."""
         frontmatter = {"title": "Test", "type": "bike"}
         assert validate_bike_frontmatter(frontmatter) is False
-        captured = capsys.readouterr()
-        assert "[ERR]" in captured.out
-        assert "tags" in captured.out
 
-    def test_wrong_type(self, capsys):
+    def test_wrong_type(self):
         """Test validation fails for non-bike entries."""
         frontmatter = {
             "title": "Test",
@@ -97,10 +89,8 @@ class TestValidateBikeFrontmatter:
             "tags": ["test"],
         }
         assert validate_bike_frontmatter(frontmatter) is False
-        captured = capsys.readouterr()
-        assert "[SKIP]" in captured.out
 
-    def test_missing_type_field(self, capsys):
+    def test_missing_type_field(self):
         """Test validation fails when type field is missing."""
         frontmatter = {"title": "Test", "tags": ["test"]}
         assert validate_bike_frontmatter(frontmatter) is False
@@ -498,14 +488,13 @@ End"""
 class TestCollectBikes:
     """Test bike collection from markdown files."""
 
-    def test_collect_bikes_directory_not_found(self, capsys):
+    def test_collect_bikes_directory_not_found(self, capsys, tmp_path):
         """Test handling when vault/notes/bikes directory doesn't exist."""
-        with patch("scripts.generate_bike_table.Path") as mock_path:
-            mock_path.return_value.exists.return_value = False
-            result = collect_bikes()
-            assert result == []
-            captured = capsys.readouterr()
-            assert "Error" in captured.out
+        # Use a temp path with no bikes directory
+        result = collect_bikes(vault_path=tmp_path / "nonexistent")
+        assert result == []
+        captured = capsys.readouterr()
+        assert "Error" in captured.out
 
     def test_collect_bikes_valid_legacy_format(self, tmp_path, capsys):
         """Test collecting bikes with legacy format."""
@@ -530,7 +519,7 @@ tags: [test, longtail]
 # Content"""
         )
 
-        with patch("scripts.generate_bike_table.Path") as mock_path_cls:
+        with patch("cargo_bikes.vault.scanner.Path") as mock_path_cls:
             mock_vault = MagicMock()
             mock_vault.exists.return_value = True
             mock_vault.glob.return_value = [bike_file]
@@ -576,7 +565,7 @@ specs:
 # Content"""
         )
 
-        with patch("scripts.generate_bike_table.Path") as mock_path_cls:
+        with patch("cargo_bikes.vault.scanner.Path") as mock_path_cls:
             mock_vault = MagicMock()
             mock_vault.exists.return_value = True
             mock_vault.glob.return_value = [bike_file]

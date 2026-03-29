@@ -1,96 +1,71 @@
 ---
-title: "E-Mog E-City+"
-type: bike
-brand: "E-Mog"
-model: "E-City+"
-tags: [bike, longtail, e-mog, bafang]
 date: 2025-12-02
-url: "https://www.emog-bikes.com/produit/velo-cargo-electrique-e-city-2/"
-image: "https://i0.wp.com/www.emog-bikes.com/wp-content/uploads/2024/02/velo-cargo-suspension-e-city.jpg?fit=1124%2C1124&ssl=1"
+title: E-Mog E-City+
+type: bike
+brand: E-Mog
+model: E-City+
+tags:
+- bike
+- longtail
+- e-mog
+- bafang
+url: https://www.emog-bikes.com/produit/velo-cargo-electrique-e-city-2/
+image: https://i0.wp.com/www.emog-bikes.com/wp-content/uploads/2024/02/velo-cargo-suspension-e-city.jpg?fit=1124%2C1124&ssl=1
 resellers:
-  - name: "E-Mog Bikes Official"
-    url: "https://www.emog-bikes.com/produit/velo-cargo-electrique-e-city-2/"
-    price: 2249
-    currency: "EUR"
-    region: "EU (France)"
-    availability: "in-stock"
-    note: "Free delivery in mainland France. Clearance pricing on current generation (new models arriving summer 2026)"
-specs:
-  category: "longtail"
-  model_year: null
-  frame:
-    material: "steel"
-    size: "one size"
-    dimensions:
-      length_cm: 200
-      width_cm: null
-      height_cm: null
-  weight:
-    bike_kg: null
-    with_battery_kg: null
-  load_capacity:
-    total_kg: 170
-    rear_kg: null
-    front_kg: null
-    passenger_count_excluding_rider: 2
-    passenger_config: "2 children on rear rack, 1 adult passenger"
-  motor:
-    make: "Bafang"
-    model: null
-    type: "mid-drive"
-    power_w: 250
-    torque_nm: 80
-    boost_throttle: true
-  battery:
-    capacity_wh: 840
-    configuration: "single"
-    removable: true
-    charging_time_h: null
-  drivetrain:
-    type: "chain"
-    speeds: null
-    hub: null
-  brakes:
-    type: "hydraulic disc"
-    front_rotor_mm: null
-    rear_rotor_mm: null
-  wheels:
-    front_size_in: '20"'
-    rear_size_in: '20"'
-    tire: null
-  suspension:
-    front: "front fork with suspension"
-    rear: "none"
-  lights:
-    front:
-      type: "LED"
-      integrated: true
-      powered_by: "main battery"
-    rear:
-      type: "LED brake light"
-      integrated: true
-      brake_light: true
-  features:
-    [
-      "front-suspension-fork",
-      "low-center-gravity",
-      "compact-design",
-      "walk-assist",
-      "waterproof-cabling",
-      "integrated-kickstand",
-      "three-passenger-capable",
-    ]
-  security:
-    gps: false
-    frame_lock: true
-    app_lock: false
-  range:
-    estimate_km: 100
-    notes: "Up to 100+ km depending on usage and assist level"
-  price:
-    amount: 2249
-    currency: "EUR"
-  notes: "Upgraded version of E-City with front suspension fork for enhanced comfort. European assembly. Sub-2m wheelbase. Bicycode marking included. Lightweight front suspension absorbs vibrations and improves handling."
+- name: E-Mog Bikes Official
+  url: https://www.emog-bikes.com/produit/velo-cargo-electrique-e-city-2/
+  price: '2249'
+  currency: EUR
+  region: EU (France)
+  availability: in-stock
+  note: Free delivery in mainland France. Clearance pricing on current generation
+    (new models arriving summer 2026)
+category: longtail
+frame_material: steel
+frame_size: one size
+frame_length_cm: 200.0
+load_capacity_total_kg: 170.0
+load_capacity_passenger_count: 2
+load_capacity_passenger_config: 2 children on rear rack, 1 adult passenger
+motor_make: Bafang
+motor_type: mid-drive
+motor_power_w: 250
+motor_torque_nm: 80
+motor_boost_throttle: true
+battery_capacity_wh: 840
+battery_configuration: single
+battery_removable: true
+drivetrain_type: chain
+brakes_type: hydraulic disc
+wheels_front_size_in: 20"
+wheels_rear_size_in: 20"
+suspension_front: front fork with suspension
+suspension_rear: none
+lights_front_type: LED
+lights_front_integrated: true
+lights_front_powered_by: main battery
+lights_rear_type: LED brake light
+lights_rear_integrated: true
+lights_rear_brake_light: true
+features:
+- front-suspension-fork
+- low-center-gravity
+- compact-design
+- walk-assist
+- waterproof-cabling
+- integrated-kickstand
+- three-passenger-capable
+security_gps: false
+security_app_lock: false
+security_frame_lock: true
+range_estimate_km: '100'
+range_notes: Up to 100+ km depending on usage and assist level
+price_amount: '2249'
+price_currency: EUR
+specs_notes: Upgraded version of E-City with front suspension fork for enhanced comfort.
+  European assembly. Sub-2m wheelbase. Bicycode marking included. Lightweight front
+  suspension absorbs vibrations and improves handling.
+
 ---
 
 ## E-Mog E-City+
@@ -291,3 +266,19 @@ All other specifications (motor, battery, brakes, cargo capacity) remain identic
 ## Notes
 
 The E-Mog E-City+ represents a refined balance between compact urban maneuverability and practical family cargo transport. The addition of front suspension fork over the standard E-City addresses a key comfort consideration, making it ideal for riders who value ride quality alongside cargo capacity. The 170 kg load capacity and flexible passenger configurations (2 children OR 1 adult + cargo) make it adaptable to varying family needs. Current clearance pricing reflects the model refresh cycle, with new designs arriving in summer 2026. European assembly and parts availability ensure long-term serviceability and repairs in the EU market.
+
+<!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Category** | longtail |
+| **Motor** | Bafang |
+| **Motor Power** | 250W |
+| **Motor Torque** | 80Nm |
+| **Battery Capacity** | 840Wh |
+| **Range** | 100 km |
+| **Total Load Capacity** | 170.0kg |
+| **Drivetrain** | chain |
+| **Brakes** | hydraulic disc |
+| **Wheel Size** | 20" |
+| **Price** | 2249 EUR |
+<!-- BIKE_SPECS_TABLE_END -->

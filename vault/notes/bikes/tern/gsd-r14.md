@@ -1,30 +1,36 @@
 ---
-title: Tern GSD R14
-type: bike
-tags:
-  - bike
-  - cargo
-  - compact
-  - electric
-  - tern
-  - long-tail
-date: "2025-10-20"
-brand: Tern
-model: GSD R14
-url: https://www.ternbicycles.com/en/bikes/473/gsd-r14
-image: https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_R14-gen3-iron_grey-profile-web.jpg.webp
+date: '2025-10-20'
 price: 10200
 motor: 85Nm Bosch Cargo Line
 battery: 800Wh
 range: 67-144km
+title: Tern GSD R14
+type: bike
+brand: Tern
+model: GSD R14
+tags:
+- bike
+- cargo
+- compact
+- electric
+- tern
+- long-tail
+url: https://www.ternbicycles.com/en/bikes/473/gsd-r14
+image: https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_R14-gen3-iron_grey-profile-web.jpg.webp
 resellers:
-  - name: Cyclable
-    url: https://www.cyclable.com/18930-velo-cargo-electrique-tern-gsd-r14-2025.html
-    price: 10200
-    currency: EUR
-    region: EU
-    availability: in-stock
-    note: ""
+- name: Cyclable
+  url: https://www.cyclable.com/18930-velo-cargo-electrique-tern-gsd-r14-2025.html
+  price: '10200'
+  currency: EUR
+  region: EU
+  availability: in-stock
+motor_make: Bosch
+motor_model: Cargo Line
+motor_torque_nm: 85
+battery_capacity_wh: 800
+range_estimate_km: 67-144
+price_amount: '10200'
+
 ---
 
 ## Overview
@@ -34,6 +40,12 @@ The Tern GSD R14 is the top-tier model in the new Generation 3 GSD family, desig
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor** | Bosch Cargo Line |
+| **Motor Torque** | 85Nm |
+| **Battery Capacity** | 800Wh |
+| **Range** | 67-144 km |
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

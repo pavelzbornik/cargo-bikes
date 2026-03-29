@@ -1,16 +1,24 @@
 ---
-title: "Fat Fun electric balance bike"
-type: bike
-brand: "UNIKRIDE"
-model: "Fat Fun"
-tags: [bike, balance-bike, children, electric, unikride]
 date: 2025-10-16
-price: "€1,199"
-motor: "Electric motor"
-battery: "Included"
-range: "Child-appropriate"
-url: "https://unikride.com/en/products/draisienne-electrique-enfant-fat-fun"
-image: "https://unikride.com/cdn/shop/files/draisienne_electrique_enfant_6ans.jpg"
+price: €1,199
+motor: Electric motor
+battery: Included
+range: Child-appropriate
+title: Fat Fun electric balance bike
+type: bike
+brand: UNIKRIDE
+model: Fat Fun
+tags:
+- bike
+- balance-bike
+- children
+- electric
+- unikride
+url: https://unikride.com/en/products/draisienne-electrique-enfant-fat-fun
+image: https://unikride.com/cdn/shop/files/draisienne_electrique_enfant_6ans.jpg
+price_amount: '1199'
+price_currency: EUR
+
 ---
 
 ## Fat Fun Electric Balance Bike
@@ -24,6 +32,9 @@ The Fat Fun is an electric balance bike (draisienne) designed for children aged 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Price** | 1199 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €1,199

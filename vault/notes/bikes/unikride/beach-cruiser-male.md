@@ -1,16 +1,26 @@
 ---
-title: "BEACH CRUISER CLOSED FRAME"
-type: bike
-brand: "UNIKRIDE"
-model: "Beach Cruiser"
-tags: [bike, beach-cruiser, electric, unikride]
 date: 2025-10-16
-price: "€2,699-€2,999"
-motor: "250W"
-battery: "960Wh"
-range: "120km"
-url: "https://unikride.com/en/products/beach-cruiser-homme"
-image: "https://unikride.com/cdn/shop/files/Beach_cruiser_homme_noir_mat.jpg"
+price: €2,699-€2,999
+motor: 250W
+battery: 960Wh
+range: 120km
+title: BEACH CRUISER CLOSED FRAME
+type: bike
+brand: UNIKRIDE
+model: Beach Cruiser
+tags:
+- bike
+- beach-cruiser
+- electric
+- unikride
+url: https://unikride.com/en/products/beach-cruiser-homme
+image: https://unikride.com/cdn/shop/files/Beach_cruiser_homme_noir_mat.jpg
+motor_power_w: 250
+battery_capacity_wh: 960
+range_estimate_km: '120'
+price_amount: '2699'
+price_currency: EUR
+
 ---
 
 ## BEACH CRUISER CLOSED FRAME - Male
@@ -24,6 +34,12 @@ The Beach Cruiser Closed Frame is UNIKRIDE's male-oriented version of their styl
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Power** | 250W |
+| **Battery Capacity** | 960Wh |
+| **Range** | 120 km |
+| **Price** | 2699 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €2,699-€2,999

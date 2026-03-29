@@ -1,49 +1,44 @@
 ---
+date: '2025-10-20'
+price: €4,699
+motor: 250W
+battery: 545Wh
+range: N/A
 title: Cannondale Cargowagen Neo 2
 type: bike
 brand: Cannondale
 model: Cargowagen Neo 2
 tags:
-  - bike
-  - e-cargo
-  - long-tail
-  - cannondale
-date: "2025-10-20"
-price: €4,699
-motor: 250W
-battery: 545Wh
-range: N/A
+- bike
+- e-cargo
+- long-tail
+- cannondale
 url: https://www.cannondale.com/fr-be/bikes/electric/e-cargo/cargowagen-neo/cargowagen-neo-2
 image: https://embed.widencdn.net/img/dorelrl/4tnqi8gv0k/100px@1x/C23_C67253U_Cargowagen_Neo_2_GRY_PD.jpg
 resellers:
-  - name: Cyclable
-    url: https://www.cyclable.com/18955-velo-cargo-electrique-cannondale-cargowagen-neo-2.html
-    price: 4699
-    currency: EUR
-    region: EU
-    availability: in-stock
-    note: ""
-specs:
-  frame:
-    material: aluminum
-    dimensions:
-      length_cm: 185
-  weight:
-    with_battery_kg: 39
-  load_capacity:
-    total_kg: 200
-    passenger_count_excluding_rider: 2
-  wheels:
-    front_size_in: 20"
-    rear_size_in: 20"
-    tire: Schwalbe Pick-Up
-  brakes:
-    type: hydraulic disc
-  drivetrain:
-    type: chain
-  suspension:
-    front: "yes"
-    rear: none
+- name: Cyclable
+  url: https://www.cyclable.com/18955-velo-cargo-electrique-cannondale-cargowagen-neo-2.html
+  price: '4699'
+  currency: EUR
+  region: EU
+  availability: in-stock
+frame_material: aluminum
+frame_length_cm: 185.0
+weight_with_battery_kg: 39.0
+load_capacity_total_kg: 200.0
+load_capacity_passenger_count: 2
+motor_power_w: 250
+battery_capacity_wh: 545
+drivetrain_type: chain
+brakes_type: hydraulic disc
+wheels_front_size_in: 20"
+wheels_rear_size_in: 20"
+wheels_tire: Schwalbe Pick-Up
+suspension_front: 'yes'
+suspension_rear: none
+price_amount: '4699'
+price_currency: EUR
+
 ---
 
 ## Cannondale Cargowagen Neo 2
@@ -57,6 +52,16 @@ The Cannondale Cargowagen Neo 2 is an accessible compact e-cargo bike designed f
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Power** | 250W |
+| **Battery Capacity** | 545Wh |
+| **Weight (with battery)** | 39.0kg |
+| **Total Load Capacity** | 200.0kg |
+| **Drivetrain** | chain |
+| **Brakes** | hydraulic disc |
+| **Wheel Size** | 20" |
+| **Price** | 4699 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €4,699

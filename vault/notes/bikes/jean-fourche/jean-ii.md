@@ -1,16 +1,41 @@
 ---
-title: "Jean Fourche II"
-type: bike
-tags: [bike, longtail, midtail, cargo, electric, jean-fourche, french]
 date: 2025-10-16
-brand: "Jean Fourche"
-model: "II"
-url: "https://www.jeanfourche.com/"
-image: ""
-price: "2690€"
-motor: "Virvolt 250W"
-battery: "Panasonic 518Wh"
-range: "70km"
+price: 2690€
+motor: Virvolt 250W
+battery: Panasonic 518Wh
+range: 70km
+title: Jean Fourche II
+type: bike
+brand: Jean Fourche
+model: II
+tags:
+- bike
+- longtail
+- midtail
+- cargo
+- electric
+- jean-fourche
+- french
+url: https://www.jeanfourche.com/
+resellers:
+- name: Jean Fourche Official
+  url: https://www.jeanfourche.com/
+  price: '2690'
+  currency: EUR
+  region: EU
+  availability: in-stock
+- name: Shop Roulez Jeunesse
+  url: https://shop.roulezjeunesse.com/products/jean-fourche-jean-ii-electrique
+  price: '2690'
+  currency: EUR
+  region: EU
+  availability: in-stock
+motor_power_w: 250
+battery_capacity_wh: 518
+range_estimate_km: '70'
+price_amount: '2690'
+price_currency: EUR
+
 ---
 
 ## Overview
@@ -22,6 +47,12 @@ Jean Fourche II represents compact French manufacturing excellence at accessible
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Power** | 250W |
+| **Battery Capacity** | 518Wh |
+| **Range** | 70 km |
+| **Price** | 2690 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

@@ -1,18 +1,19 @@
 ---
-title: "Conor"
-type: "brand-index"
-brand: "Conor"
-tags: [brand, index, conor]
+brand: Conor
 date: 2025-10-24
-url: ""
-image: ""
-summary: "Conor is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+image: ''
+category: longtail
+title: Conor
+type: brand
+summary: Conor is a cargo bike manufacturer offering diverse models for families and
+  professionals.
+tags:
+- brand
+- index
+- conor
+regions:
+- EU
 ---
-
 ## Overview
 
 Conor is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

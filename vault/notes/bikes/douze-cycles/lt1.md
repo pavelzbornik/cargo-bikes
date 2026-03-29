@@ -1,16 +1,25 @@
 ---
-title: "Douze Cycles LT1"
-type: bike
-tags: [bike, longtail, electric, douze-cycles, french]
 date: 2025-10-16
-brand: "Douze Cycles"
-model: "LT1"
-url: "https://www.douze-cycles.com/"
-image: ""
-price: "3589.99€"
-motor: "Electric motor"
-battery: "500Wh"
-range: "100km+"
+price: 3589.99€
+motor: Electric motor
+battery: 500Wh
+range: 100km+
+title: Douze Cycles LT1
+type: bike
+brand: Douze Cycles
+model: LT1
+tags:
+- bike
+- longtail
+- electric
+- douze-cycles
+- french
+url: https://www.douze-cycles.com/
+battery_capacity_wh: 500
+range_estimate_km: '100'
+price_amount: '3589'
+price_currency: EUR
+
 ---
 
 ## Overview
@@ -20,6 +29,11 @@ The Douze Cycles LT1 is a premium French longtail electric cargo bike positioned
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Battery Capacity** | 500Wh |
+| **Range** | 100 km |
+| **Price** | 3589 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

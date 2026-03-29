@@ -1,18 +1,27 @@
 # taskfiles/mkdocs.yaml
 version: "3"
 tasks:
+  prebuild:
+    desc: Generate content before MkDocs build
+    cmds:
+      - uv run cargo-bikes generate bike-table
+      - uv run cargo-bikes generate bases
+      - uv run cargo-bikes db hydrate --skip-linter
+      - uv run cargo-bikes db project
   serve:
     desc: Start MkDocs development server
     cmds:
-      - .venv/bin/mkdocs serve
+      - uv run mkdocs serve
   build:
     desc: Build MkDocs static site
+    deps: [prebuild]
     cmds:
-      - .venv/bin/mkdocs build
+      - uv run mkdocs build
   build:clean:
     desc: Clean and rebuild MkDocs site
+    deps: [prebuild]
     cmds:
-      - .venv/bin/mkdocs build --clean
+      - uv run mkdocs build --clean
   new:page:
     desc: Create a new documentation page (usage - task mkdocs:new:page -- path/to/page)
     cmds:

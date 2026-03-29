@@ -1,16 +1,27 @@
 ---
-title: "HOSSEGOR BIKE OPEN FRAME"
-type: bike
-brand: "UNIKRIDE"
-model: "Hossegor Bike"
-tags: [bike, beach-bike, open-frame, electric, unikride]
 date: 2025-10-16
-price: "€2,499"
-motor: "250W"
-battery: "960Wh"
-range: "120km"
-url: "https://unikride.com/en/products/hossegor-bike-cadre-ouvert"
-image: "https://unikride.com/cdn/shop/files/HOSSEGOR_BIKE_OPEN_FRAME.jpg"
+price: €2,499
+motor: 250W
+battery: 960Wh
+range: 120km
+title: HOSSEGOR BIKE OPEN FRAME
+type: bike
+brand: UNIKRIDE
+model: Hossegor Bike
+tags:
+- bike
+- beach-bike
+- open-frame
+- electric
+- unikride
+url: https://unikride.com/en/products/hossegor-bike-cadre-ouvert
+image: https://unikride.com/cdn/shop/files/HOSSEGOR_BIKE_OPEN_FRAME.jpg
+motor_power_w: 250
+battery_capacity_wh: 960
+range_estimate_km: '120'
+price_amount: '2499'
+price_currency: EUR
+
 ---
 
 ## HOSSEGOR BIKE OPEN FRAME
@@ -24,6 +35,12 @@ The Hossegor Bike Open Frame is UNIKRIDE's beach-inspired electric bike featurin
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Power** | 250W |
+| **Battery Capacity** | 960Wh |
+| **Range** | 120 km |
+| **Price** | 2499 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €2,499

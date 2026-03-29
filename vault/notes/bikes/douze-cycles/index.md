@@ -1,18 +1,19 @@
 ---
-title: "Douze Cycles"
-type: "brand-index"
-brand: "Douze Cycles"
-tags: [brand, index, douze-cycles]
+brand: Douze Cycles
 date: 2025-10-24
-url: ""
-image: ""
-summary: "Douze Cycles is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+image: ''
+category: longtail
+title: Douze Cycles
+type: brand
+summary: Douze Cycles is a cargo bike manufacturer offering diverse models for families
+  and professionals.
+tags:
+- brand
+- index
+- douze-cycles
+regions:
+- EU
 ---
-
 ## Overview
 
 Douze Cycles is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

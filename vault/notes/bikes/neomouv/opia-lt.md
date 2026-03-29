@@ -1,16 +1,25 @@
 ---
-title: "OPIA LT Bleu Métal"
-type: bike
-brand: "Neomouv"
-model: "OPIA LT"
-tags: [bike, long-tail, neomouv]
 date: 2025-10-16
-price: "€3,499.00"
-motor: "250W"
-battery: "999Wh"
-range: "50-100km"
-url: "https://www.neomouv.com/produit/nos-velos/urbain/opia-lt/opia-lt-xrp5948-xpr13769.html"
-image: "https://www.neomouv.com/PartageWeb/Produits/12915_0--pi-hi1500-li1500-pnvver-D67C2F9FAE12605B7B2B0DD9ECBBD260.jpg"
+price: €3,499.00
+motor: 250W
+battery: 999Wh
+range: 50-100km
+title: OPIA LT Bleu Métal
+type: bike
+brand: Neomouv
+model: OPIA LT
+tags:
+- bike
+- long-tail
+- neomouv
+url: https://www.neomouv.com/produit/nos-velos/urbain/opia-lt/opia-lt-xrp5948-xpr13769.html
+image: https://www.neomouv.com/PartageWeb/Produits/12915_0--pi-hi1500-li1500-pnvver-D67C2F9FAE12605B7B2B0DD9ECBBD260.jpg
+motor_power_w: 250
+battery_capacity_wh: 999
+range_estimate_km: 50-100
+price_amount: '3499'
+price_currency: EUR
+
 ---
 
 ## OPIA LT Bleu Métal
@@ -24,6 +33,12 @@ The OPIA LT is a family-oriented long-tail electric cargo bike designed to provi
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Power** | 250W |
+| **Battery Capacity** | 999Wh |
+| **Range** | 50-100 km |
+| **Price** | 3499 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €3,499.00 (plus €15 eco-participation)

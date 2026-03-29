@@ -1,99 +1,82 @@
 ---
-title: "Riese & Müller Multitinker Touring"
-type: bike
-brand: "Riese & Müller"
-model: "Multitinker Touring"
-tags: [bike, longtail, riese-muller, bosch, electric]
 date: 2025-10-20
-url: "https://www.riesemüller.com/"
-image: "https://www.riesemüller.com/"
+title: Riese & Müller Multitinker Touring
+type: bike
+brand: Riese & Müller
+model: Multitinker Touring
+tags:
+- bike
+- longtail
+- riese-muller
+- bosch
+- electric
+url: https://www.riesemüller.com/
+image: https://www.riesemüller.com/
 resellers:
-  - name: "Riese & Müller Official"
-    url: "https://www.riesemüller.com/"
-    price: 5749
-    currency: "EUR"
-    region: "EU"
-    availability: "in-stock"
-  - name: "Shop Roulez Jeunesse"
-    url: "https://shop.roulezjeunesse.com/products/riese-muller-multitinker-touring-1"
-    price: 5749
-    currency: "EUR"
-    region: "EU"
-    availability: "in-stock"
-specs:
-  category: "longtail"
-  model_year: 2025
-  frame:
-    material: "aluminum"
-    size: "one size"
-    dimensions:
-      length_cm: 188.7
-      width_cm: 65
-      height_cm: 95
-  weight:
-    bike_kg: null
-    with_battery_kg: 35
-  load_capacity:
-    total_kg: 200
-    rear_kg: 80
-    front_kg: null
-    passenger_count_excluding_rider: 2
-    passenger_config: "2 children on rear"
-  motor:
-    make: "Bosch"
-    model: "Performance Line CX"
-    type: "mid-drive"
-    power_w: 250
-    torque_nm: 85
-    boost_throttle: false
-  battery:
-    capacity_wh: 625
-    configuration: "single"
-    removable: true
-    charging_time_h: null
-  drivetrain:
-    type: "chain"
-    speeds: 10
-    hub: "Shimano Deore"
-  brakes:
-    type: "hydraulic disc"
-    front_rotor_mm: null
-    rear_rotor_mm: null
-    pistons: "MT4/MT5"
-  wheels:
-    front_size_in: '20"'
-    rear_size_in: '20"'
-    tire: "Schwalbe Super Moto X"
-  suspension:
-    front: "Suntour Mobie 34 80mm"
-    rear: "none"
-  lights:
-    front:
-      type: "Supernova premium LED"
-      integrated: true
-      powered_by: "main battery"
-    rear:
-      type: "Supernova rear light"
-      integrated: true
-      brake_light: true
-  features:
-    [
-      "bosch-performance-line-cx",
-      "german-engineering",
-      "compact-longtail",
-      "mik-hd-compatible",
-    ]
-  security:
-    gps: false
-    frame_lock: false
-    app_lock: false
-  range:
-    estimate_km: "50-120"
-    notes: "625 Wh battery, eco to turbo modes"
-  price:
-    amount: 5749
-    currency: "EUR"
-  notes: "Premium German engineering. Available in three variants: Touring (dérailleur), Silent (belt), and Vario (Enviolo)."
+- name: Riese & Müller Official
+  url: https://www.riesemüller.com/
+  price: '5749'
+  currency: EUR
+  region: EU
+  availability: in-stock
+- name: Shop Roulez Jeunesse
+  url: https://shop.roulezjeunesse.com/products/riese-muller-multitinker-touring-1
+  price: '5749'
+  currency: EUR
+  region: EU
+  availability: in-stock
+category: longtail
+model_year: 2025
+frame_material: aluminum
+frame_size: one size
+frame_length_cm: 188.7
+frame_width_cm: 65.0
+frame_height_cm: 95.0
+weight_with_battery_kg: 35.0
+load_capacity_total_kg: 200.0
+load_capacity_rear_kg: 80.0
+load_capacity_passenger_count: 2
+load_capacity_passenger_config: 2 children on rear
+motor_make: Bosch
+motor_model: Performance Line CX
+motor_type: mid-drive
+motor_power_w: 250
+motor_torque_nm: 85
+motor_boost_throttle: false
+battery_capacity_wh: 625
+battery_configuration: single
+battery_removable: true
+drivetrain_type: chain
+drivetrain_speeds: '10'
+drivetrain_hub: Shimano Deore
+brakes_type: hydraulic disc
+brakes_pistons: MT4/MT5
+wheels_front_size_in: 20"
+wheels_rear_size_in: 20"
+wheels_tire: Schwalbe Super Moto X
+suspension_front: Suntour Mobie 34 80mm
+suspension_rear: none
+lights_front_type: Supernova premium LED
+lights_front_integrated: true
+lights_front_powered_by: main battery
+lights_rear_type: Supernova rear light
+lights_rear_integrated: true
+lights_rear_brake_light: true
+features:
+- bosch-performance-line-cx
+- german-engineering
+- compact-longtail
+- mik-hd-compatible
+security_gps: false
+security_app_lock: false
+security_frame_lock: false
+range_estimate_km: 50-120
+range_notes: 625 Wh battery, eco to turbo modes
+price_amount: '5749'
+price_currency: EUR
+specs_notes: 'Premium German engineering. Available in three variants: Touring (dérailleur),
+  Silent (belt), and Vario (Enviolo).'
+
 ---
 
 ## Riese & Müller Multitinker Touring
@@ -107,6 +90,21 @@ The Multitinker Touring is the dérailleur version of Riese & Müller's compact 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Category** | longtail |
+| **Model Year** | 2025 |
+| **Motor** | Bosch Performance Line CX |
+| **Motor Power** | 250W |
+| **Motor Torque** | 85Nm |
+| **Battery Capacity** | 625Wh |
+| **Range** | 50-120 km |
+| **Weight (with battery)** | 35.0kg |
+| **Total Load Capacity** | 200.0kg |
+| **Drivetrain** | chain |
+| **Brakes** | hydraulic disc |
+| **Wheel Size** | 20" |
+| **Price** | 5749 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

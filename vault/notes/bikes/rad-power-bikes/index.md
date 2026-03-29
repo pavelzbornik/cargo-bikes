@@ -1,18 +1,19 @@
 ---
-title: "Rad Power Bikes"
-type: "brand-index"
-brand: "Rad Power Bikes"
-tags: [brand, index, rad-power-bikes]
+brand: Rad Power Bikes
 date: 2025-10-24
-url: ""
-image: ""
-summary: "Rad Power Bikes is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+image: ''
+category: longtail
+title: Rad Power Bikes
+type: brand
+summary: Rad Power Bikes is a cargo bike manufacturer offering diverse models for
+  families and professionals.
+tags:
+- brand
+- index
+- rad-power-bikes
+regions:
+- EU
 ---
-
 ## Overview
 
 Rad Power Bikes is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

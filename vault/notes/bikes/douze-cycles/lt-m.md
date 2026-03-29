@@ -1,16 +1,22 @@
 ---
-title: "Douze LT M"
-type: bike
-tags: [bike, longtail, douze-cycles]
 date: 2025-10-16
-brand: "Douze Cycles"
-model: "LT M"
-url: "https://www.douze-cycles.com/velos-cargos/lt"
-image: "https://vitrine.douze-cycles.com/wp-content/uploads/2023/05/charge.svg"
-price: "€1,890"
-motor: "none"
-battery: "none"
-range: "N/A"
+price: €1,890
+motor: none
+battery: none
+range: N/A
+title: Douze LT M
+type: bike
+brand: Douze Cycles
+model: LT M
+tags:
+- bike
+- longtail
+- douze-cycles
+url: https://www.douze-cycles.com/velos-cargos/lt
+image: https://vitrine.douze-cycles.com/wp-content/uploads/2023/05/charge.svg
+price_amount: '1890'
+price_currency: EUR
+
 ---
 
 ## Douze LT M
@@ -24,6 +30,9 @@ The LT M is the mechanical, non-electric version of the Douze LT longtail cargo 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Price** | 1890 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €1,890 TTC

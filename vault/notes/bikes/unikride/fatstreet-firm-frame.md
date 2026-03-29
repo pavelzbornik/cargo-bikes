@@ -1,16 +1,27 @@
 ---
-title: "FATSTREET FIRM FRAME"
-type: bike
-brand: "UNIKRIDE"
-model: "Fatstreet Limited"
-tags: [bike, cargo-bike, two-seater, compact, unikride]
 date: 2025-10-16
-price: "€1,999"
-motor: "250W or 500W"
-battery: "960Wh"
-range: "120km"
-url: "https://unikride.com/en/products/fatstreet-limited"
-image: "https://unikride.com/cdn/shop/files/FATSTREET_FIRM_FRAME.jpg"
+price: €1,999
+motor: 250W or 500W
+battery: 960Wh
+range: 120km
+title: FATSTREET FIRM FRAME
+type: bike
+brand: UNIKRIDE
+model: Fatstreet Limited
+tags:
+- bike
+- cargo-bike
+- two-seater
+- compact
+- unikride
+url: https://unikride.com/en/products/fatstreet-limited
+image: https://unikride.com/cdn/shop/files/FATSTREET_FIRM_FRAME.jpg
+motor_power_w: 250
+battery_capacity_wh: 960
+range_estimate_km: '120'
+price_amount: '1999'
+price_currency: EUR
+
 ---
 
 ## FATSTREET FIRM FRAME - Limited Edition
@@ -24,6 +35,12 @@ The Fatstreet Limited is UNIKRIDE's compact, value-oriented two-seater electric 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Power** | 250W |
+| **Battery Capacity** | 960Wh |
+| **Range** | 120 km |
+| **Price** | 1999 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €1,999 (entry price)

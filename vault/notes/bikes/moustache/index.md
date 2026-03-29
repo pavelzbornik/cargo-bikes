@@ -1,18 +1,19 @@
 ---
-title: "Moustache"
-type: "brand-index"
-brand: "Moustache"
-tags: [brand, index, moustache]
+brand: Moustache
 date: 2025-10-24
-url: ""
-image: ""
-summary: "Moustache is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+image: ''
+category: longtail
+title: Moustache
+type: brand
+summary: Moustache is a cargo bike manufacturer offering diverse models for families
+  and professionals.
+tags:
+- brand
+- index
+- moustache
+regions:
+- EU
 ---
-
 ## Overview
 
 Moustache is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

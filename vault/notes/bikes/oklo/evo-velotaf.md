@@ -1,16 +1,28 @@
 ---
-title: "ÉVO Vélotaf"
-type: bike
-tags: [bike, cargo, oklo, electric, urban]
 date: 2025-10-19
-brand: "OKLÖ"
-model: "ÉVO Vélotaf"
-url: "https://www.oklo.bike/produit/velo-cargo-evo-velotaf/"
-image: ""
-price: "€3,970+"
-motor: "250W Bafang M410"
-battery: "600Wh"
-range: "50-100km"
+price: €3,970+
+motor: 250W Bafang M410
+battery: 600Wh
+range: 50-100km
+title: ÉVO Vélotaf
+type: bike
+brand: OKLÖ
+model: ÉVO Vélotaf
+tags:
+- bike
+- cargo
+- oklo
+- electric
+- urban
+url: https://www.oklo.bike/produit/velo-cargo-evo-velotaf/
+motor_make: Bafang
+motor_model: M410
+motor_power_w: 250
+battery_capacity_wh: 600
+range_estimate_km: 50-100
+price_amount: '3970'
+price_currency: EUR
+
 ---
 
 ## Overview
@@ -22,6 +34,13 @@ The OKLÖ ÉVO Vélotaf is the urban commuter's dream—a nimble, agile cargo e-
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor** | Bafang M410 |
+| **Motor Power** | 250W |
+| **Battery Capacity** | 600Wh |
+| **Range** | 50-100 km |
+| **Price** | 3970 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Core Dimensions

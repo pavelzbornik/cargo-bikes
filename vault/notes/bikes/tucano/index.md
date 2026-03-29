@@ -1,56 +1,49 @@
 ---
-title: "TUCANO"
-type: "brand"
-date: "2025-10-24"
-url: "https://www.decathlon.fr/"
-logo: null
-summary: "TUCANO is a Decathlon private label cargo bike brand offering practical family-focused electric longtail bikes with integrated cargo solutions."
-
-founded_year: null
-country: "France"
-headquarters:
-  city: null
-  country: "France"
-
-categories: ["longtail"]
-market_segments: ["urban-families", "cargo-transport"]
-regions: ["EU"]
-price_tier: "accessible"
-
-product_types: ["bikes"]
+date: '2025-10-24'
+title: TUCANO
+type: brand
+url: https://www.decathlon.fr/
+summary: TUCANO is a Decathlon private label cargo bike brand offering practical family-focused
+  electric longtail bikes with integrated cargo solutions.
+tags:
+- brand
+- french
+- longtail
+- electric
+- family
+- cargo
+- decathlon
+- tucano
+country: France
+headquarters_country: France
+categories:
+- longtail
+market_segments:
+- urban-families
+- cargo-transport
+regions:
+- EU
+price_tier: accessible
+product_types:
+- bikes
 model_count: 1
-primary_motors: null
-parent_company: "Decathlon"
-
-manufacturing:
-  locations: null
-  approach: null
-  assembly_location: null
-  ethical_standards: null
-
-distribution_model: "retail"
-regions_active: ["EU"]
+parent_company: Decathlon
+distribution_model: retail
+regions_active:
+- EU
 direct_sales: false
 dealership_network: true
-
-impact: null
-
+value_sustainability: true
+value_local_manufacturing: false
+value_community_focus: false
+value_safety_emphasis: true
+value_tech_integration: false
 accessibility:
-  - "family-focused"
-  - "accessible-pricing"
-  - "integrated-cargo-solutions"
-  - "powerful-motor"
-
-values:
-  sustainability: true
-  local_manufacturing: false
-  community_focus: false
-  safety_emphasis: true
-  tech_integration: false
-
-tags: [brand, french, longtail, electric, family, cargo, decathlon, tucano]
+- family-focused
+- accessible-pricing
+- integrated-cargo-solutions
+- powerful-motor
 ---
-
 ## Overview
 
 TUCANO is a private label cargo bike brand distributed exclusively through Decathlon stores across Europe. The brand focuses on practical, family-oriented electric longtail cargo bikes designed for urban commuting and cargo transport. TUCANO bikes are engineered to provide accessible alternatives to premium cargo bike brands, emphasizing functional design and reliable performance at competitive price points.

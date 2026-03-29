@@ -1,70 +1,61 @@
 ---
-title: "Le Cargo"
-type: bike
-brand: "Gaya"
-model: "Le Cargo"
 date: 2025-10-20
-tags: [bike, longtail, gaya]
-url: "https://gaya.bike/velo-cargo/original-cargo"
-image: "https://gaya.bike/_next/image?url=%2Fimg%2Flogo.png&w=828&q=75"
 review_summary_date: 2025-10-26
 review_source_count: 6
-specs:
-  category: "longtail"
-  frame:
-    material: "steel"
-    size: "47"
-  weight:
-    bike_kg: 28.5
-    with_battery_kg: 31
-    battery_kg: 2.5
-  load_capacity:
-    total_kg: 160
-    rear_kg: 75
-    passenger_count_excluding_rider: 2
-    passenger_config: "1-3 passengers with proper seating"
-  motor:
-    make: "Gaya"
-    type: "rear-hub"
-    power_w: 250
-    torque_nm: 50
-  battery:
-    capacity_wh: 450
-    configuration: "single"
-    removable: true
-    charging_time_h: 5
-  drivetrain:
-    type: "chain"
-    speeds: "3+"
-  brakes:
-    type: "hydraulic disc"
-  wheels:
-    front_size_in: '20"'
-    rear_size_in: '20"'
-  suspension:
-    front: "none"
-    rear: "none"
-  lights:
-    front:
-      type: "LED 125 lm"
-      integrated: true
-    rear:
-      type: "LED brake light 4 lm"
-      integrated: true
-      brake_light: true
-  features:
-    ["gps-tracking", "app-integration", "integrated-display", "cadence-sensor"]
-  security:
-    gps: true
-    alarm_db: 105
-    app_lock: true
-    frame_lock: true
-  range:
-    estimate_km: "70-100"
-    notes: "Standard battery 70km, Plus battery (600Wh) up to 100km"
-  price:
-    amount: 2800
-    currency: "EUR"
+title: Le Cargo
+type: bike
+brand: Gaya
+model: Le Cargo
+tags:
+- bike
+- longtail
+- gaya
+url: https://gaya.bike/velo-cargo/original-cargo
+image: https://gaya.bike/_next/image?url=%2Fimg%2Flogo.png&w=828&q=75
+category: longtail
+frame_material: steel
+frame_size: '47'
+weight_bike_kg: 28.5
+weight_with_battery_kg: 31.0
+weight_battery_kg: 2.5
+load_capacity_total_kg: 160.0
+load_capacity_rear_kg: 75.0
+load_capacity_passenger_count: 2
+load_capacity_passenger_config: 1-3 passengers with proper seating
+motor_make: Gaya
+motor_type: rear-hub
+motor_power_w: 250
+motor_torque_nm: 50
+battery_capacity_wh: 450
+battery_configuration: single
+battery_removable: true
+battery_charging_time_h: '5'
+drivetrain_type: chain
+drivetrain_speeds: 3+
+brakes_type: hydraulic disc
+wheels_front_size_in: 20"
+wheels_rear_size_in: 20"
+suspension_front: none
+suspension_rear: none
+lights_front_type: LED 125 lm
+lights_front_integrated: true
+lights_rear_type: LED brake light 4 lm
+lights_rear_integrated: true
+lights_rear_brake_light: true
+features:
+- gps-tracking
+- app-integration
+- integrated-display
+- cadence-sensor
+security_gps: true
+security_alarm_db: 105
+security_app_lock: true
+security_frame_lock: true
+range_estimate_km: 70-100
+range_notes: Standard battery 70km, Plus battery (600Wh) up to 100km
+price_amount: '2800'
+price_currency: EUR
+
 ---
 
 ## Overview
@@ -74,6 +65,20 @@ Gaya Cargo (marketed as "Le Cargo") represents emerging French brand innovation 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Category** | longtail |
+| **Motor** | Gaya |
+| **Motor Power** | 250W |
+| **Motor Torque** | 50Nm |
+| **Battery Capacity** | 450Wh |
+| **Range** | 70-100 km |
+| **Weight (with battery)** | 31.0kg |
+| **Total Load Capacity** | 160.0kg |
+| **Drivetrain** | chain |
+| **Brakes** | hydraulic disc |
+| **Wheel Size** | 20" |
+| **Price** | 2800 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification                | Details                                     |

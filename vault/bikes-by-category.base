@@ -1,0 +1,112 @@
+filters:
+  and:
+    - type == "bike"
+views:
+  - type: table
+    name: Compact
+    filters:
+      and:
+        - category == "compact"
+    order:
+      - title
+      - brand
+      - price_amount
+      - motor_torque_nm
+      - load_capacity_total_kg
+      - weight_bike_kg
+  - type: table
+    name: Fat Bike
+    filters:
+      and:
+        - category == "fat-bike"
+    order:
+      - title
+      - brand
+      - price_amount
+      - motor_torque_nm
+      - load_capacity_total_kg
+      - weight_bike_kg
+  - type: table
+    name: Frontloader
+    filters:
+      and:
+        - category == "frontloader"
+    order:
+      - title
+      - brand
+      - price_amount
+      - motor_torque_nm
+      - load_capacity_total_kg
+      - weight_bike_kg
+  - type: table
+    name: Long Tail
+    filters:
+      and:
+        - category == "long-tail"
+    order:
+      - title
+      - brand
+      - price_amount
+      - motor_torque_nm
+      - load_capacity_total_kg
+      - weight_bike_kg
+  - type: table
+    name: Longtail
+    filters:
+      and:
+        - category == "longtail"
+    order:
+      - title
+      - brand
+      - price_amount
+      - motor_torque_nm
+      - load_capacity_total_kg
+      - weight_bike_kg
+  - type: table
+    name: Mid Tail
+    filters:
+      and:
+        - category == "mid-tail"
+    order:
+      - title
+      - brand
+      - price_amount
+      - motor_torque_nm
+      - load_capacity_total_kg
+      - weight_bike_kg
+  - type: table
+    name: Short Tail
+    filters:
+      and:
+        - category == "short-tail"
+    order:
+      - title
+      - brand
+      - price_amount
+      - motor_torque_nm
+      - load_capacity_total_kg
+      - weight_bike_kg
+  - type: table
+    name: Shorttail
+    filters:
+      and:
+        - category == "shorttail"
+    order:
+      - title
+      - brand
+      - price_amount
+      - motor_torque_nm
+      - load_capacity_total_kg
+      - weight_bike_kg
+  - type: table
+    name: Trike
+    filters:
+      and:
+        - category == "trike"
+    order:
+      - title
+      - brand
+      - price_amount
+      - motor_torque_nm
+      - load_capacity_total_kg
+      - weight_bike_kg

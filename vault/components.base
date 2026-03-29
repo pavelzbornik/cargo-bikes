@@ -1,0 +1,23 @@
+filters:
+  or:
+    - 'type == "component"'
+    - 'type == "component-manufacturer"'
+views:
+  - type: table
+    name: "All Components"
+    order:
+      - title
+      - category
+      - parent
+      - type
+  - type: table
+    name: "Motors"
+    filters:
+      and:
+        - 'category == "motors"'
+    order:
+      - title
+      - parent
+      - torque_nm
+      - power_w
+      - motor_type

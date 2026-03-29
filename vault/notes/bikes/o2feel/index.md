@@ -1,18 +1,19 @@
 ---
-title: "O2Feel"
-type: "brand-index"
-brand: "O2Feel"
-tags: [brand, index, o2feel]
+brand: O2Feel
 date: 2025-10-24
-url: ""
-image: ""
-summary: "O2Feel is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+image: ''
+category: longtail
+title: O2Feel
+type: brand
+summary: O2Feel is a cargo bike manufacturer offering diverse models for families
+  and professionals.
+tags:
+- brand
+- index
+- o2feel
+regions:
+- EU
 ---
-
 ## Overview
 
 O2Feel is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

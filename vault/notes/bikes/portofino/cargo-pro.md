@@ -1,16 +1,24 @@
 ---
-title: "Portofino CargoPro"
-type: bike
-tags: [bike, long-tail, portofino, electric]
 date: 2025-10-16
-brand: "Portofino"
-model: "CargoPro"
-url: "https://www.feuvert.fr/velos-electriques/sans-marque-velo-longtail-electrique-portofino-cargopro-bleu/p614962.html"
-image: "//fvstorageprod.blob.core.windows.net/img/614962/sans1_nd.jpg"
-price: "Not specified"
-motor: "250W"
-battery: "468Wh"
-range: "60km"
+price: Not specified
+motor: 250W
+battery: 468Wh
+range: 60km
+title: Portofino CargoPro
+type: bike
+brand: Portofino
+model: CargoPro
+tags:
+- bike
+- long-tail
+- portofino
+- electric
+url: https://www.feuvert.fr/velos-electriques/sans-marque-velo-longtail-electrique-portofino-cargopro-bleu/p614962.html
+image: //fvstorageprod.blob.core.windows.net/img/614962/sans1_nd.jpg
+motor_power_w: 250
+battery_capacity_wh: 468
+range_estimate_km: '60'
+
 ---
 
 ## Overview
@@ -20,6 +28,11 @@ The **Portofino CargoPro** is an Italian-designed and assembled long-tail electr
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Power** | 250W |
+| **Battery Capacity** | 468Wh |
+| **Range** | 60 km |
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification          | Details                                   |

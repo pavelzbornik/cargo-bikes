@@ -1,55 +1,42 @@
 ---
+date: 2025-10-16
 title: Spicy Curry+
 type: bike
 brand: Yuba
 model: Spicy Curry+
-date: 2025-10-16
 tags:
-  - bike
-  - longtail
-  - yuba
-  - bosch
+- bike
+- longtail
+- yuba
+- bosch
 url: https://yubabikes.eu/product/spicy-curry-plus/
 image: https://yubabikes.eu/wp-content/uploads/2024/10/Spicy-Curry-True-Blue-No-BG.png
-specs:
-  category: longtail
-  load_capacity:
-    total_kg: 200
-    passenger_count_excluding_rider: 2
-  motor:
-    make: Bosch
-    model: Cargo Line
-    type: mid-drive
-    power_w: 500
-  battery:
-    capacity_wh: 500
-    configuration: single
-    removable: true
-  range:
-    estimate_km: 60
-  price:
-    amount: 5849
-    currency: EUR
-  notes:
-    Migrated from legacy format. Premium longtail version with enhanced features
-    and comfort upgrades.
-  frame:
-    material: aluminum
-    dimensions:
-      length_cm: 210
-  weight:
-    with_battery_kg: 32
-  wheels:
-    front_size_in: 26"
-    rear_size_in: 20"
-    tire: Schwalbe Smart Sam Plus
-  brakes:
-    type: hydraulic disc
-  drivetrain:
-    type: chain
-  suspension:
-    front: "yes"
-    rear: none
+category: longtail
+frame_material: aluminum
+frame_length_cm: 210.0
+weight_with_battery_kg: 32.0
+load_capacity_total_kg: 200.0
+load_capacity_passenger_count: 2
+motor_make: Bosch
+motor_model: Cargo Line
+motor_type: mid-drive
+motor_power_w: 500
+battery_capacity_wh: 500
+battery_configuration: single
+battery_removable: true
+drivetrain_type: chain
+brakes_type: hydraulic disc
+wheels_front_size_in: 26"
+wheels_rear_size_in: 20"
+wheels_tire: Schwalbe Smart Sam Plus
+suspension_front: 'yes'
+suspension_rear: none
+range_estimate_km: '60'
+price_amount: '5849'
+price_currency: EUR
+specs_notes: Migrated from legacy format. Premium longtail version with enhanced features
+  and comfort upgrades.
+
 ---
 
 ## Spicy Curry+
@@ -63,6 +50,19 @@ The Spicy Curry+ is an enhanced version of the Spicy Curry longtail, offering pr
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Category** | longtail |
+| **Motor** | Bosch Cargo Line |
+| **Motor Power** | 500W |
+| **Battery Capacity** | 500Wh |
+| **Range** | 60 km |
+| **Weight (with battery)** | 32.0kg |
+| **Total Load Capacity** | 200.0kg |
+| **Drivetrain** | chain |
+| **Brakes** | hydraulic disc |
+| **Wheel Size** | Front: 26", Rear: 20" |
+| **Price** | 5849 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €5,849.00

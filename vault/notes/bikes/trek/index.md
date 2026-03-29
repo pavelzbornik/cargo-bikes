@@ -1,18 +1,19 @@
 ---
-title: "Trek"
-type: "brand-index"
-brand: "Trek"
-tags: [brand, index, trek]
+brand: Trek
 date: 2025-10-24
-url: ""
-image: ""
-summary: "Trek is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+image: ''
+category: longtail
+title: Trek
+type: brand
+summary: Trek is a cargo bike manufacturer offering diverse models for families and
+  professionals.
+tags:
+- brand
+- index
+- trek
+regions:
+- EU
 ---
-
 ## Overview
 
 Trek is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

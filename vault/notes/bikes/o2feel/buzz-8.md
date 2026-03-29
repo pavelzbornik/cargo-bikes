@@ -1,28 +1,34 @@
 ---
-title: O2Feel Buzz 8
-type: bike
-tags:
-  - bike
-  - compact-cargo
-  - e-bike
-  - o2feel
-date: "2025-10-20"
-brand: O2Feel
-model: Buzz 8
-url: https://www.o2feel.com/en/product/buzz-8/
-image: https://www.o2feel.com/wp-content/uploads/2024/12/Buzz-8-S2-1-BP-1200x1200-1-800x800.jpg
+date: '2025-10-20'
 price: €4,299
 motor: Shimano STEPS EP6
 battery: 540Wh - 630Wh
 range: 140km
+title: O2Feel Buzz 8
+type: bike
+brand: O2Feel
+model: Buzz 8
+tags:
+- bike
+- compact-cargo
+- e-bike
+- o2feel
+url: https://www.o2feel.com/en/product/buzz-8/
+image: https://www.o2feel.com/wp-content/uploads/2024/12/Buzz-8-S2-1-BP-1200x1200-1-800x800.jpg
 resellers:
-  - name: Cyclable
-    url: https://www.cyclable.com/18882-velo-cargo-electrique-o2feel-buzz-8.html
-    price: 4299
-    currency: EUR
-    region: EU
-    availability: in-stock
-    note: ""
+- name: Cyclable
+  url: https://www.cyclable.com/18882-velo-cargo-electrique-o2feel-buzz-8.html
+  price: '4299'
+  currency: EUR
+  region: EU
+  availability: in-stock
+motor_make: Shimano
+motor_model: STEPS EP6
+battery_capacity_wh: 540
+range_estimate_km: '140'
+price_amount: '4299'
+price_currency: EUR
+
 ---
 
 ## Overview
@@ -32,6 +38,12 @@ The O2Feel Buzz 8 is the premium belt-drive version of the compact cargo Buzz pl
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor** | Shimano STEPS EP6 |
+| **Battery Capacity** | 540Wh |
+| **Range** | 140 km |
+| **Price** | 4299 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

@@ -1,16 +1,26 @@
 ---
-title: "Vacay Beach Californian"
-type: bike
-brand: "UNIKRIDE"
-model: "Vacay Beach"
-tags: [bike, beach-cruiser, electric, unikride]
 date: 2025-10-16
-price: "€1,799 (Sale: was €2,499)"
-motor: "250W"
-battery: "960Wh"
-range: "120km"
-url: "https://unikride.com/en/products/vacay-beach-califonien"
-image: "https://unikride.com/cdn/shop/files/vacay_beach_cruiser_electrique.jpg"
+price: '€1,799 (Sale: was €2,499)'
+motor: 250W
+battery: 960Wh
+range: 120km
+title: Vacay Beach Californian
+type: bike
+brand: UNIKRIDE
+model: Vacay Beach
+tags:
+- bike
+- beach-cruiser
+- electric
+- unikride
+url: https://unikride.com/en/products/vacay-beach-califonien
+image: https://unikride.com/cdn/shop/files/vacay_beach_cruiser_electrique.jpg
+motor_power_w: 250
+battery_capacity_wh: 960
+range_estimate_km: '120'
+price_amount: '1799'
+price_currency: EUR
+
 ---
 
 ## Vacay Beach Californian
@@ -24,6 +34,12 @@ The Vacay Beach Californian is a stylish, relaxed electric beach cruiser perfect
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Power** | 250W |
+| **Battery Capacity** | 960Wh |
+| **Range** | 120 km |
+| **Price** | 1799 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €1,799 (Sale: regularly €2,499, 29% discount)

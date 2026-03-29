@@ -1,16 +1,28 @@
 ---
-title: "Riese & Müller Multicharger GT Family"
-type: bike
-tags: [bike, longtail, cargo, electric, riese-muller, german]
 date: 2025-10-16
-brand: "Riese & Müller"
-model: "Multicharger GT Family"
-url: "https://www.riesemueller.com/"
-image: ""
-price: "5249€"
-motor: "Bosch Performance Line"
-battery: "625Wh"
-range: "120km"
+price: 5249€
+motor: Bosch Performance Line
+battery: 625Wh
+range: 120km
+title: Riese & Müller Multicharger GT Family
+type: bike
+brand: Riese & Müller
+model: Multicharger GT Family
+tags:
+- bike
+- longtail
+- cargo
+- electric
+- riese-muller
+- german
+url: https://www.riesemueller.com/
+motor_make: Bosch
+motor_model: Performance Line
+battery_capacity_wh: 625
+range_estimate_km: '120'
+price_amount: '5249'
+price_currency: EUR
+
 ---
 
 ## Overview
@@ -20,6 +32,12 @@ The Riese & Müller Multicharger GT Family represents German premium engineering
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor** | Bosch Performance Line |
+| **Battery Capacity** | 625Wh |
+| **Range** | 120 km |
+| **Price** | 5249 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

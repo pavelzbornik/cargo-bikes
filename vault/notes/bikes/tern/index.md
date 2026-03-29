@@ -1,18 +1,19 @@
 ---
-title: "Tern"
-type: "brand-index"
-brand: "Tern"
-tags: [brand, index, tern]
+brand: Tern
 date: 2025-10-24
-url: ""
-image: ""
-summary: "Tern is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+image: ''
+category: longtail
+title: Tern
+type: brand
+summary: Tern is a cargo bike manufacturer offering diverse models for families and
+  professionals.
+tags:
+- brand
+- index
+- tern
+regions:
+- EU
 ---
-
 ## Overview
 
 Tern is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

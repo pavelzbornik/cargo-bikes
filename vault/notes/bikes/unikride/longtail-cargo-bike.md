@@ -1,16 +1,27 @@
 ---
-title: "Longtail electric cargo bike"
-type: bike
-brand: "UNIKRIDE"
-model: "Longtail"
-tags: [bike, cargo-bike, longtail, electric, unikride]
 date: 2025-10-16
-price: "€2,200"
-motor: "500W"
-battery: "960Wh"
-range: "Up to 120km"
-url: "https://unikride.com/en/products/cargo-electrique-longtail"
-image: "https://unikride.com/cdn/shop/files/Velo_cargo_electrique_longtail.jpg"
+price: €2,200
+motor: 500W
+battery: 960Wh
+range: Up to 120km
+title: Longtail electric cargo bike
+type: bike
+brand: UNIKRIDE
+model: Longtail
+tags:
+- bike
+- cargo-bike
+- longtail
+- electric
+- unikride
+url: https://unikride.com/en/products/cargo-electrique-longtail
+image: https://unikride.com/cdn/shop/files/Velo_cargo_electrique_longtail.jpg
+motor_power_w: 500
+battery_capacity_wh: 960
+range_estimate_km: '120'
+price_amount: '2200'
+price_currency: EUR
+
 ---
 
 ## Longtail Electric Cargo Bike
@@ -24,6 +35,12 @@ UNIKRIDE's Longtail electric cargo bike is a versatile, robust model perfect for
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Power** | 500W |
+| **Battery Capacity** | 960Wh |
+| **Range** | 120 km |
+| **Price** | 2200 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €2,200

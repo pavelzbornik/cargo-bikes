@@ -1,16 +1,28 @@
 ---
-title: "Retro Bobber"
-type: bike
-brand: "UNIKRIDE"
-model: "Retro Bobber"
-tags: [bike, retro, bobber, electric, fatbike, unikride]
 date: 2025-10-16
-price: "€2,999-€3,599"
-motor: "500W"
-battery: "960Wh"
-range: "120km"
-url: "https://unikride.com/en/products/retro-bobber"
-image: "https://unikride.com/cdn/shop/files/fatbike_electrique_retro.jpg"
+price: €2,999-€3,599
+motor: 500W
+battery: 960Wh
+range: 120km
+title: Retro Bobber
+type: bike
+brand: UNIKRIDE
+model: Retro Bobber
+tags:
+- bike
+- retro
+- bobber
+- electric
+- fatbike
+- unikride
+url: https://unikride.com/en/products/retro-bobber
+image: https://unikride.com/cdn/shop/files/fatbike_electrique_retro.jpg
+motor_power_w: 500
+battery_capacity_wh: 960
+range_estimate_km: '120'
+price_amount: '2999'
+price_currency: EUR
+
 ---
 
 ## Retro Bobber
@@ -24,6 +36,12 @@ The Retro Bobber is UNIKRIDE's distinctive vintage-styled electric fat bike feat
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Power** | 500W |
+| **Battery Capacity** | 960Wh |
+| **Range** | 120 km |
+| **Price** | 2999 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €2,999-€3,599

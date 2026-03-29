@@ -1,40 +1,37 @@
 ---
-title: Cube Longtail Hybrid 1350
-type: bike
-tags:
-  - bike
-  - longtail
-  - cube
 date: 2025-10-16
-brand: Cube
-model: Longtail Hybrid
-url: https://www.ovelo.fr/fr/velo-electrique-longtail/33836-longtail-hybrid-1350-4054571446589.html
-image: https://www.ovelo.fr/47057-thickbox_default/longtail-hybrid-1350.jpg
 price: €4,949.10
 motor: 250W
 battery: 1350Wh
 range: 340km
-specs:
-  frame:
-    material: aluminum
-    dimensions:
-      length_cm: 195
-  weight:
-    with_battery_kg: 39.4
-  load_capacity:
-    total_kg: 200
-    passenger_count_excluding_rider: 2
-  wheels:
-    front_size_in: 26"
-    rear_size_in: 26"
-    tire: Schwalbe Pick-Up Perf
-  brakes:
-    type: hydraulic disc
-  drivetrain:
-    type: belt
-  suspension:
-    front: "yes"
-    rear: none
+title: Cube Longtail Hybrid 1350
+type: bike
+brand: Cube
+model: Longtail Hybrid
+tags:
+- bike
+- longtail
+- cube
+url: https://www.ovelo.fr/fr/velo-electrique-longtail/33836-longtail-hybrid-1350-4054571446589.html
+image: https://www.ovelo.fr/47057-thickbox_default/longtail-hybrid-1350.jpg
+frame_material: aluminum
+frame_length_cm: 195.0
+weight_with_battery_kg: 39.4
+load_capacity_total_kg: 200.0
+load_capacity_passenger_count: 2
+motor_power_w: 250
+battery_capacity_wh: 1350
+drivetrain_type: belt
+brakes_type: hydraulic disc
+wheels_front_size_in: 26"
+wheels_rear_size_in: 26"
+wheels_tire: Schwalbe Pick-Up Perf
+suspension_front: 'yes'
+suspension_rear: none
+range_estimate_km: '340'
+price_amount: '4949'
+price_currency: EUR
+
 ---
 
 ## Overview
@@ -44,6 +41,17 @@ The Cube Longtail Hybrid 1350 is a premium German-engineered electric longtail c
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor Power** | 250W |
+| **Battery Capacity** | 1350Wh |
+| **Range** | 340 km |
+| **Weight (with battery)** | 39.4kg |
+| **Total Load Capacity** | 200.0kg |
+| **Drivetrain** | belt |
+| **Brakes** | hydraulic disc |
+| **Wheel Size** | 26" |
+| **Price** | 4949 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification         | Details                                                      |

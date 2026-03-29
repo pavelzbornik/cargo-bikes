@@ -1,16 +1,28 @@
 ---
-title: "Brumaire Nebula"
-type: bike
-tags: [bike, longtail, cargo, electric, brumaire, french]
 date: 2025-10-16
-brand: "Brumaire"
-model: "Nebula"
-url: "https://cycles.brumaire.co/pages/long-tail-bike"
-image: "https://cdn.shopify.com/s/files/1/0624/3788/4070/files/long-tail-bike-blue.png"
-price: "2890€"
-motor: "Bafang"
-battery: "Samsung 450Wh"
-range: "80km"
+price: 2890€
+motor: Bafang
+battery: Samsung 450Wh
+range: 80km
+title: Brumaire Nebula
+type: bike
+brand: Brumaire
+model: Nebula
+tags:
+- bike
+- longtail
+- cargo
+- electric
+- brumaire
+- french
+url: https://cycles.brumaire.co/pages/long-tail-bike
+image: https://cdn.shopify.com/s/files/1/0624/3788/4070/files/long-tail-bike-blue.png
+motor_make: Bafang
+battery_capacity_wh: 450
+range_estimate_km: '80'
+price_amount: '2890'
+price_currency: EUR
+
 ---
 
 ## Overview
@@ -20,6 +32,12 @@ Brumaire Cycles represents emerging French electric mobility innovation (2020 or
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor** | Bafang |
+| **Battery Capacity** | 450Wh |
+| **Range** | 80 km |
+| **Price** | 2890 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

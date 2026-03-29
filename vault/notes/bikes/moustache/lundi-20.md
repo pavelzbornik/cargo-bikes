@@ -1,38 +1,48 @@
 ---
-title: "Moustache Lundi 20"
-type: bike
-tags: [bike, longtail, electric, moustache, french]
 date: 2025-10-20
-brand: "Moustache"
-model: "Lundi 20.3"
-url: "https://moustachebikes.com/fr/velos-electriques/lundi-20-cargo/lundi-20-cargo-3/"
-image: "https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJwYXRoIjoibW91c3RhY2hlLWJpa2VzXC9maWxlXC9Tc1haUERHTm1vQXBKSm1BUkdMeC5qcGcifQ:moustache-bikes:RhNjVvQjm4JezvflsUP0VjpkeoLCvN3AZZGVHHdv2vs?width=1500"
-price: "4499€"
-motor: "85Nm Bosch Cargo Line"
-battery: "500Wh"
-range: "100km"
+price: 4499€
+motor: 85Nm Bosch Cargo Line
+battery: 500Wh
+range: 100km
+title: Moustache Lundi 20
+type: bike
+brand: Moustache
+model: Lundi 20.3
+tags:
+- bike
+- longtail
+- electric
+- moustache
+- french
+url: https://moustachebikes.com/fr/velos-electriques/lundi-20-cargo/lundi-20-cargo-3/
+image: https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJwYXRoIjoibW91c3RhY2hlLWJpa2VzXC9maWxlXC9Tc1haUERHTm1vQXBKSm1BUkdMeC5qcGcifQ:moustache-bikes:RhNjVvQjm4JezvflsUP0VjpkeoLCvN3AZZGVHHdv2vs?width=1500
 resellers:
-  - name: "Roulez Jeunesse"
-    url: "https://shop.roulezjeunesse.com/collections/pour-les-familles/products/moustache-lundi-20-cargo-1"
-    price: 3999
-    currency: "EUR"
-    region: "EU"
-    availability: "in-stock"
-    note: ""
-  - name: "Roulez Jeunesse"
-    url: "https://shop.roulezjeunesse.com/collections/pour-les-familles/products/moustache-lundi-20-cargo-3"
-    price: 4699
-    currency: "EUR"
-    region: "EU"
-    availability: "in-stock"
-    note: ""
-  - name: "Roulez Jeunesse"
-    url: "https://shop.roulezjeunesse.com/collections/pour-les-familles/products/moustache-lundi-20-cargo-5"
-    price: 5599
-    currency: "EUR"
-    region: "EU"
-    availability: "in-stock"
-    note: ""
+- name: Roulez Jeunesse
+  url: https://shop.roulezjeunesse.com/collections/pour-les-familles/products/moustache-lundi-20-cargo-1
+  price: '3999'
+  currency: EUR
+  region: EU
+  availability: in-stock
+- name: Roulez Jeunesse
+  url: https://shop.roulezjeunesse.com/collections/pour-les-familles/products/moustache-lundi-20-cargo-3
+  price: '4699'
+  currency: EUR
+  region: EU
+  availability: in-stock
+- name: Roulez Jeunesse
+  url: https://shop.roulezjeunesse.com/collections/pour-les-familles/products/moustache-lundi-20-cargo-5
+  price: '5599'
+  currency: EUR
+  region: EU
+  availability: in-stock
+motor_make: Bosch
+motor_model: Cargo Line
+motor_torque_nm: 85
+battery_capacity_wh: 500
+range_estimate_km: '100'
+price_amount: '4499'
+price_currency: EUR
+
 ---
 
 ## Overview
@@ -42,6 +52,13 @@ The Moustache Lundi 20 represents excellent French engineering in the longtail s
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+| Specification | Value |
+|---------------|-------|
+| **Motor** | Bosch Cargo Line |
+| **Motor Torque** | 85Nm |
+| **Battery Capacity** | 500Wh |
+| **Range** | 100 km |
+| **Price** | 4499 EUR |
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight
