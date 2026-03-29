@@ -19,9 +19,18 @@ motor_torque_nm: 100
 range_estimate_km: 100-110
 price_amount: '2999'
 price_currency: EUR
-
+motor_type: mid-drive
+battery_capacity_wh: 720
+load_capacity_total_kg: 180.0
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_speeds: '7'
+drivetrain_hub: Shimano Nexus 7
+wheels_front_size_in: '24'
+wheels_rear_size_in: '24'
+wheels_tire: CST 24" x 3.0"
+suspension_front: hydraulic
 ---
-
 ## Overview
 
 The Revom Multi C2 is an advanced modular cargo bike featuring dual battery technology and premium components. Designed for demanding urban transport scenarios, it combines extended range, robust construction, and integrated smart features for professional and serious personal use.

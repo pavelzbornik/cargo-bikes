@@ -34,9 +34,11 @@ suspension_rear: none
 range_estimate_km: '230'
 price_amount: '4199'
 price_currency: EUR
-
+category: longtail
+motor_type: mid-drive
+motor_torque_nm: 85
+drivetrain_speeds: '10'
 ---
-
 ## Overview
 
 The O2Feel Equo 4.2 represents the mid-tier longtail offering at €4,199, positioned between the entry-level Equo 3 and premium Equo 7. With the powerful Shimano STEPS EP801 Cargo motor and 10-speed Shimano Deore transmission, the Equo 4.2 delivers enhanced performance and versatility. Emerald Green color, improved Schwalbe tires, and optional up to 835Wh battery capacity make this model ideal for families seeking better hill-climbing power and longer range.

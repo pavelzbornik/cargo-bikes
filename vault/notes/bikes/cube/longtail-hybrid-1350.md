@@ -31,9 +31,13 @@ suspension_rear: none
 range_estimate_km: '340'
 price_amount: '4949'
 price_currency: EUR
-
+category: longtail
+motor_make: Bosch
+motor_model: Cargo Line Gen 4
+motor_type: mid-drive
+motor_torque_nm: 85
+drivetrain_speeds: '1'
 ---
-
 ## Overview
 
 The Cube Longtail Hybrid 1350 is a premium German-engineered electric longtail cargo bike designed for maximum range and heavy-duty cargo work. Built by Cube, a leading German e-bike manufacturer known for quality and innovation, this model features the advanced Bosch Cargo Line Gen 4 motor and dual-battery system (1350Wh total) for exceptional 340km range. The 200kg payload capacity and modular design make it ideal for urban delivery services, families with multiple children, and demanding cargo scenarios.

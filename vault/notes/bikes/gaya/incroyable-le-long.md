@@ -61,9 +61,9 @@ security_frame_lock: true
 range_estimate_km: '70'
 price_amount: '3400'
 price_currency: EUR
-
+battery_charging_time_h: 2.5-5
+frame_length_cm: 199.0
 ---
-
 ## Overview
 
 L'Incroyable Le Long is GAYA's premium long-tail cargo e-bike, offering the ultimate in comfort and family functionality. With dual suspension, integrated GPS security, and adjustable controls, it's the most feature-rich model for transporting passengers and cargo. Perfect for families and those seeking maximum comfort on urban cargo journeys.

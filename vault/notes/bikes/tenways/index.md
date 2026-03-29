@@ -13,6 +13,9 @@ tags:
 - tenways
 regions:
 - EU
+categories:
+- longtail
+distribution_model: both
 ---
 ## Overview
 

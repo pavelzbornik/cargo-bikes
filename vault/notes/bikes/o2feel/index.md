@@ -13,6 +13,7 @@ tags:
 - o2feel
 regions:
 - EU
+distribution_model: both
 ---
 ## Overview
 

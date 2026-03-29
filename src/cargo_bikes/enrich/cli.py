@@ -13,9 +13,10 @@ def harmonize(
     brand: str | None = typer.Option(None, help="Only harmonize this brand"),
     dry_run: bool = typer.Option(False, help="Show changes without writing"),
     auto: bool = typer.Option(False, help="Skip interactive review"),
+    wikilinks: bool = typer.Option(False, help="Also convert markdown links to wikilinks"),
     model: str = typer.Option("claude-sonnet-4-6", help="Claude model to use"),
 ) -> None:
-    """Harmonize schema + convert to wikilinks."""
+    """Extract missing frontmatter fields from note body content."""
     from cargo_bikes.enrich.harmonize import harmonize_notes
 
     harmonize_notes(
@@ -23,6 +24,7 @@ def harmonize(
         brand=brand,
         dry_run=dry_run,
         auto=auto,
+        wikilinks=wikilinks,
         model=model,
     )
 

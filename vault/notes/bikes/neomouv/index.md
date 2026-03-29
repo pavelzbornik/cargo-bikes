@@ -13,6 +13,7 @@ tags:
 - neomouv
 regions:
 - EU
+distribution_model: both
 ---
 ## Overview
 

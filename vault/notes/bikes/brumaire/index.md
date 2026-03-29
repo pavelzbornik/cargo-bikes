@@ -2,6 +2,15 @@
 date: '2025-10-24'
 title: Brumaire
 type: brand
+country: France
+headquarters_city: Paris
+headquarters_country: France
+founded_year: 2020
+price_tier: accessible
+categories:
+- longtail
+- compact
+distribution_model: both
 ---
 ## Overview
 

@@ -51,9 +51,10 @@ price_amount: '4849'
 price_currency: EUR
 specs_notes: Migrated from legacy format. 26-inch wheels unique for cargo longtails.
   Bosch Cargo Line with Stay Steady Technology frame.
-
+battery_charging_time_h: '4'
+weight_bike_kg: 32.0
+frame_material: aluminum
 ---
-
 ## Boda Boda
 
 ![Boda Boda](https://yubabikes.eu/wp-content/uploads/2024/10/Boda-Boda-No-BG.png)

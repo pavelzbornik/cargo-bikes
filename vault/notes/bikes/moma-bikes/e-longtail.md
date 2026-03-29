@@ -20,9 +20,22 @@ battery_capacity_wh: 624
 range_estimate_km: '90'
 price_amount: '2299'
 price_currency: EUR
-
+category: longtail
+motor_type: hub
+motor_torque_nm: 70
+battery_removable: true
+weight_with_battery_kg: 28.0
+load_capacity_total_kg: 80.0
+load_capacity_passenger_count: 2
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: chain
+drivetrain_speeds: '8'
+wheels_front_size_in: '20'
+wheels_rear_size_in: '20'
+suspension_front: aluminum fork with front suspension
+suspension_rear: none
 ---
-
 ## Moma E-LONGTAIL
 
 Versatile urban cargo bike combining modern design with powerful electric assistance for transporting children, goods, and bulky items around the city.

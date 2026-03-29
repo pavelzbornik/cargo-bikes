@@ -18,9 +18,12 @@ image: https://elwing.co/cdn/shop/files/Ritmic_Jumbo_Gris_Pers_aa71d1b7-1102-409
 range_estimate_km: 120-160
 price_amount: '3099'
 price_currency: EUR
-
+category: longtail
+battery_removable: true
+load_capacity_total_kg: 180.0
+load_capacity_passenger_count: 2
+suspension_rear: 'yes'
 ---
-
 ## Elwing Ritmic Jumbo
 
 ![Elwing Ritmic Jumbo](https://elwing.co/cdn/shop/files/Ritmic_Jumbo_Gris_Pers_aa71d1b7-1102-409e-a706-d4c6f685957d_500x.png?v=1743692953)

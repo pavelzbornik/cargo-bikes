@@ -13,6 +13,7 @@ tags:
 - kiffy
 regions:
 - EU
+distribution_model: both
 ---
 ## Overview
 

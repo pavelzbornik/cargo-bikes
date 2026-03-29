@@ -22,9 +22,24 @@ motor_model: Cargo Line
 motor_torque_nm: 85
 battery_capacity_wh: 800
 range_estimate_km: 67-288
-
+category: compact
+motor_type: mid-drive
+battery_removable: true
+battery_charging_time_h: '4.5'
+weight_with_battery_kg: 37.0
+load_capacity_total_kg: 210.0
+load_capacity_passenger_count: 2
+frame_material: aluminum
+frame_length_cm: 185.0
+brakes_type: hydraulic disc
+drivetrain_type: belt
+drivetrain_hub: Enviolo CVT
+wheels_front_size_in: '20'
+wheels_rear_size_in: '20'
+wheels_tire: Schwalbe Pick-Up
+suspension_front: none
+suspension_rear: none
 ---
-
 ## Overview
 
 The Tern GSD P00 is a premium model in the Generation 3 GSD family, offering excellent value for families seeking a belt-drive cargo bike without smart connectivity. The P00 designation indicates its Enviolo continuously variable transmission paired with a Bosch standard display. This compact 185 cm electric cargo bike combines the GSD's impressive 210 kg maximum gross vehicle weight rating with the reliability and low-maintenance advantages of Gates belt drive, making it ideal for users who prioritize simplicity and durability over advanced smart features.

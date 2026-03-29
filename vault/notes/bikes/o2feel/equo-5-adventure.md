@@ -30,9 +30,21 @@ battery_capacity_wh: 540
 range_estimate_km: '230'
 price_amount: '4399'
 price_currency: EUR
-
+category: longtail
+motor_type: mid-drive
+motor_power_w: 50
+load_capacity_total_kg: 180.0
+load_capacity_passenger_count: 2
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: chain
+drivetrain_speeds: '9'
+wheels_front_size_in: '26'
+wheels_rear_size_in: '20'
+wheels_tire: eContact Plus
+suspension_front: Suntour SP17 NCX
+suspension_rear: Suntour SP17 suspended seatpost
 ---
-
 ## Overview
 
 The O2Feel Equo 5 Adventure represents a unique hybrid positioning between traditional longtail and all-terrain bike. Priced at €4,399 between the Equo 4.2 (€4,199) and Equo 7 (€4,799), the Adventure model features Shimano STEPS EP6 Cargo motor, 9-speed Shimano Cues drivetrain, suspension components, and eContact Plus tires. Jungle Green color and adventure-focused geometry make this model ideal for families seeking to venture beyond urban pavement into light trails and mixed terrain.

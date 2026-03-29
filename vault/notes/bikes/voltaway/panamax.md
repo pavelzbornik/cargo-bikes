@@ -19,9 +19,18 @@ motor_power_w: 250
 range_estimate_km: '90'
 price_amount: '2790'
 price_currency: EUR
-
+category: longtail
+motor_make: Bafang
+motor_torque_nm: 80
+battery_capacity_wh: 630
+load_capacity_total_kg: 200.0
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: chain
+drivetrain_speeds: '7'
+wheels_front_size_in: '24'
+wheels_rear_size_in: '20'
 ---
-
 ## Overview
 
 The Voltaway Panamax is an elegant French-designed longtail cargo bike that combines performance with modern aesthetics. Built for urban commuting and weekend explorations, it offers powerful assistance, comfortable riding, and impressive cargo capacity with a refined design.

@@ -22,9 +22,13 @@ battery_capacity_wh: 960
 range_estimate_km: '120'
 price_amount: '2999'
 price_currency: EUR
-
+motor_make: Bafang
+motor_torque_nm: 80
+frame_material: steel
+brakes_type: hydraulic disc
+drivetrain_type: chain
+drivetrain_speeds: '7'
 ---
-
 ## Retro Bobber
 
 ![Retro Bobber](https://unikride.com/cdn/shop/files/fatbike_electrique_retro.jpg)

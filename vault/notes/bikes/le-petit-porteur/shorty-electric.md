@@ -21,9 +21,19 @@ motor_power_w: 250
 battery_capacity_wh: 461
 price_amount: '2075'
 price_currency: EUR
-
+category: compact
+motor_type: mid-drive
+motor_torque_nm: 80
+battery_removable: true
+weight_with_battery_kg: 25.0
+load_capacity_passenger_count: 1
+frame_material: steel
+brakes_type: hydraulic disc
+drivetrain_type: chain
+wheels_front_size_in: '20'
+wheels_rear_size_in: '20'
+wheels_tire: Schwalbe Pick Up
 ---
-
 ## Le Petit Porteur Shorty Electric
 
 ![Le Petit Porteur Shorty Electric](https://shop.lepetitporteur.com/img/p/1/0/5/2/1052.jpg)

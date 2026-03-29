@@ -20,9 +20,23 @@ motor_torque_nm: 85
 battery_capacity_wh: 400
 price_amount: '5500'
 price_currency: EUR
-
+category: longtail
+motor_make: Bosch
+motor_model: Cargo Line
+motor_type: mid-drive
+weight_with_battery_kg: 34.0
+load_capacity_total_kg: 200.0
+load_capacity_passenger_count: 2
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: belt
+drivetrain_hub: Enviolo Heavy Duty
+wheels_front_size_in: '24'
+wheels_rear_size_in: '24'
+wheels_tire: Schwalbe Pick-Up
+suspension_front: SR Suntour Mobie 34
+suspension_rear: none
 ---
-
 ## Urban Arrow Breeze
 
 ![Urban Arrow Breeze](https://www.transitionvelo.com/content/uploads/2025/09/Urban-Arrow-Breeze-5-1024x576.jpg)

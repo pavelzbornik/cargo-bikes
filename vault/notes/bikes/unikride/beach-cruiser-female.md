@@ -20,9 +20,10 @@ battery_capacity_wh: 960
 range_estimate_km: '120'
 price_amount: '2699'
 price_currency: EUR
-
+motor_make: Bafang
+brakes_type: hydraulic disc
+drivetrain_type: chain
 ---
-
 ## BEACH CRUISER OPEN FRAME - Female
 
 ![Beach Cruiser Female](https://unikride.com/cdn/shop/files/velo_electrique_beach_cruiser_femme.jpg)

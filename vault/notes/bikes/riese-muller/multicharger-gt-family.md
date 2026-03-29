@@ -22,9 +22,20 @@ battery_capacity_wh: 625
 range_estimate_km: '120'
 price_amount: '5249'
 price_currency: EUR
-
+category: longtail
+motor_type: mid-drive
+motor_torque_nm: 75
+weight_with_battery_kg: 36.0
+load_capacity_total_kg: 175.0
+load_capacity_passenger_count: 2
+frame_length_cm: 197.0
+brakes_type: hydraulic disc
+drivetrain_type: chain
+drivetrain_speeds: '10'
+wheels_front_size_in: '26'
+wheels_rear_size_in: '26'
+suspension_front: none
 ---
-
 ## Overview
 
 The Riese & Müller Multicharger GT Family represents German premium engineering in the electric longtail segment. Distinguished by its larger 26" wheels (unique among standard longtails), it delivers a "classical bike with extended cargo platform" riding experience rather than a purpose-built longtail. German quality and comprehensive standard accessories set it apart in the high-end market segment.

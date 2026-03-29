@@ -13,6 +13,7 @@ tags:
 - jean-fourche
 regions:
 - EU
+distribution_model: both
 ---
 ## Overview
 

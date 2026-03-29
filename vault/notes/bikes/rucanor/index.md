@@ -13,6 +13,7 @@ tags:
 - rucanor
 regions:
 - EU
+distribution_model: both
 ---
 ## Overview
 

@@ -13,6 +13,7 @@ tags:
 - ello-mobilite
 regions:
 - EU
+distribution_model: both
 ---
 ## Overview
 

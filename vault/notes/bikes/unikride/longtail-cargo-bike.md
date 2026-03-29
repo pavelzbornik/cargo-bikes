@@ -21,9 +21,12 @@ battery_capacity_wh: 960
 range_estimate_km: '120'
 price_amount: '2200'
 price_currency: EUR
-
+category: longtail
+motor_make: Bafang
+load_capacity_passenger_count: 2
+frame_material: steel
+brakes_type: hydraulic disc
 ---
-
 ## Longtail Electric Cargo Bike
 
 ![Longtail Cargo Bike](https://unikride.com/cdn/shop/files/Velo_cargo_electrique_longtail.jpg)

@@ -26,9 +26,9 @@ resellers:
   note: Available in multiple color variants
 price_amount: '3386'
 price_currency: EUR
-
+category: longtail
+load_capacity_passenger_count: 3
 ---
-
 ## Overview
 
 The BRUMAIRE Nebula is a French-made electric longtail cargo bike designed for carrying up to 3 children, combining modern design with practical family transport capabilities.

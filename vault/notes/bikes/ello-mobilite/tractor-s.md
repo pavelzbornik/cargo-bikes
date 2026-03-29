@@ -14,9 +14,12 @@ url: https://ello-mobilite.com/nos-realisations/
 image: https://ello-mobilite.com/wp-content/uploads/2025/09/Tractor-4-scaled.jpg
 motor_make: Valéo
 motor_model: W
-
+category: compact
+load_capacity_total_kg: 80.0
+frame_material: aluminum
+suspension_front: suspended fork
+suspension_rear: none
 ---
-
 ## Ello Mobilité Tractor S
 
 ![Ello Mobilité Tractor S](https://ello-mobilite.com/wp-content/uploads/2025/09/Tractor-4-scaled.jpg)

@@ -20,9 +20,11 @@ battery_capacity_wh: 960
 range_estimate_km: '120'
 price_amount: '1999'
 price_currency: EUR
-
+category: compact
+brakes_type: hydraulic disc
+drivetrain_type: chain
+drivetrain_speeds: '7'
 ---
-
 ## FATSTREET FIRM FRAME - XS Compact
 
 ![Fatstreet XS](https://unikride.com/cdn/shop/files/Velo_cargo_biplace_electrique.jpg)

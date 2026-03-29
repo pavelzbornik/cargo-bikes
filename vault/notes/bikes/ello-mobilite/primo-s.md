@@ -16,9 +16,17 @@ url: https://ello-mobilite.com/nos-realisations/
 image: https://ello-mobilite.com/wp-content/uploads/2025/09/IMG_8805.webp
 motor_make: Bosch
 motor_model: Performance Line W
-
+category: compact
+motor_type: mid-drive
+load_capacity_total_kg: 80.0
+load_capacity_passenger_count: 1
+frame_material: aluminum
+drivetrain_type: belt
+drivetrain_speeds: '5'
+drivetrain_hub: Shimano Nexus 5
+suspension_front: suspended fork
+suspension_rear: none
 ---
-
 ## Ello Mobilité Primo S
 
 ![Ello Mobilité Primo S](https://ello-mobilite.com/wp-content/uploads/2025/09/IMG_8805.webp)

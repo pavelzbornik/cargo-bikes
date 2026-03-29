@@ -13,6 +13,7 @@ tags:
 - benno
 regions:
 - EU
+distribution_model: retail
 ---
 ## Overview
 

@@ -13,6 +13,7 @@ tags:
 - portofino
 regions:
 - EU
+distribution_model: both
 ---
 ## Overview
 

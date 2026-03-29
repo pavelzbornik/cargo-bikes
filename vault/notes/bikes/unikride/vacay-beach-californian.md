@@ -20,9 +20,10 @@ battery_capacity_wh: 960
 range_estimate_km: '120'
 price_amount: '1799'
 price_currency: EUR
-
+motor_make: Bafang
+brakes_type: hydraulic disc
+drivetrain_type: chain
 ---
-
 ## Vacay Beach Californian
 
 ![Vacay Beach Californian](https://unikride.com/cdn/shop/files/vacay_beach_cruiser_electrique.jpg)

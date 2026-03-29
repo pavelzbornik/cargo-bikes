@@ -19,9 +19,22 @@ battery_capacity_wh: 999
 range_estimate_km: 50-100
 price_amount: '3499'
 price_currency: EUR
-
+category: longtail
+motor_model: NEOASSIST 2
+motor_type: mid-drive
+motor_torque_nm: 80
+battery_removable: true
+battery_charging_time_h: 8-9
+weight_with_battery_kg: 38.0
+load_capacity_total_kg: 250.0
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: chain
+drivetrain_speeds: '7'
+wheels_front_size_in: '26'
+wheels_rear_size_in: '26'
+suspension_front: none
 ---
-
 ## OPIA LT Bleu Métal
 
 ![OPIA LT Bleu Métal](https://www.neomouv.com/PartageWeb/Produits/12915_0--pi-hi1500-li1500-pnvver-D67C2F9FAE12605B7B2B0DD9ECBBD260.jpg)

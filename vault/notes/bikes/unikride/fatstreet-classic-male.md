@@ -20,9 +20,20 @@ battery_capacity_wh: 960
 range_estimate_km: '120'
 price_amount: '2399'
 price_currency: EUR
-
+category: compact
+motor_make: Bafang
+motor_torque_nm: 80
+load_capacity_total_kg: 180.0
+load_capacity_passenger_count: 1
+frame_material: steel
+brakes_type: hydraulic disc
+drivetrain_type: chain
+drivetrain_speeds: '7'
+wheels_front_size_in: '20'
+wheels_rear_size_in: '20'
+suspension_front: hydraulic
+suspension_rear: none
 ---
-
 ## Fat Street Classic - Two-seater Cargo Bike (Male)
 
 ![Fat Street Classic Male](https://unikride.com/cdn/shop/files/Velo_cargo_biplace_Paris.jpg)

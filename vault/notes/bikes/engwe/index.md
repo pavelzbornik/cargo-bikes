@@ -13,6 +13,9 @@ tags:
 - engwe
 regions:
 - EU
+categories:
+- compact
+distribution_model: both
 ---
 ## Overview
 

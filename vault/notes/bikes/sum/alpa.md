@@ -24,9 +24,8 @@ resellers:
   availability: in-stock
 price_amount: '2999'
 price_currency: EUR
-
+category: longtail
 ---
-
 ## Overview
 
 The SUM ALPA is an electric longtail cargo bike offering practical family transport with modern design and solid build quality.

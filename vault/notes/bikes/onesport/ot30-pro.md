@@ -72,9 +72,9 @@ price_amount: '1929'
 price_currency: EUR
 specs_notes: 'Upgraded Pro version with 48V 18Ah battery; Rider height: 160-190 cm;
   Foldable design'
-
+motor_model: Bafang 48V 500W
+frame_length_cm: 191.0
 ---
-
 ## Overview
 
 The OneSport OT30 Pro is the premium version of the OT30 three-wheel electric trike, featuring an upgraded 48V 18Ah high-capacity battery (864Wh) that delivers significantly extended range. Powered by the same robust Bafang 48V 500W motor with 65Nm torque as the standard OT30, the Pro version is designed for riders who need extended range for long-distance rides and daily use. With 180kg load capacity, three-wheel stability, and a foldable design, the OT30 Pro combines premium range with practical versatility in beige or black color options.

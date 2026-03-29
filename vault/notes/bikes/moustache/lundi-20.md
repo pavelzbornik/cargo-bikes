@@ -42,9 +42,19 @@ battery_capacity_wh: 500
 range_estimate_km: '100'
 price_amount: '4499'
 price_currency: EUR
-
+category: longtail
+motor_type: mid-drive
+weight_with_battery_kg: 31.0
+load_capacity_total_kg: 200.0
+load_capacity_passenger_count: 2
+frame_length_cm: 200.0
+brakes_type: hydraulic disc
+drivetrain_type: chain
+drivetrain_speeds: '10'
+wheels_front_size_in: '20'
+wheels_rear_size_in: '20'
+suspension_front: none
 ---
-
 ## Overview
 
 The Moustache Lundi 20 represents excellent French engineering in the longtail segment. Assembled in the Vosges, it combines Bosch, Magura, and Shimano components at a significantly reduced price (recent drop from 5,699€ to 4,499€). The semi-open frame design and full-size 20" wheels create an elegant, highly maneuverable platform ideal for European urban environments.

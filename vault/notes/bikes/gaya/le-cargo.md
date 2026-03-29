@@ -55,9 +55,8 @@ range_estimate_km: 70-100
 range_notes: Standard battery 70km, Plus battery (600Wh) up to 100km
 price_amount: '2800'
 price_currency: EUR
-
+frame_length_cm: 195.0
 ---
-
 ## Overview
 
 Gaya Cargo (marketed as "Le Cargo") represents emerging French brand innovation positioning longtails as accessible urban transport with smart connectivity features. Co-founded by Amélie Guicheney, the brand challenges male-dominated cycling industry with distinct urban design philosophy. The 195 cm length with 20"/20" wheel configuration optimizes urban maneuvering. GPS connectivity and smart features differentiate from traditional cargo bikes, appealing to tech-savvy urban families seeking accessible cargo transport at entry-level pricing.

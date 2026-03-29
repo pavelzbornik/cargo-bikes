@@ -1,61 +1,154 @@
-"""Schema harmonization + wikilink conversion for vault notes."""
+"""Harmonize vault notes: extract missing frontmatter fields + convert wikilinks.
+
+Two-pass approach:
+1. Field extraction (Claude structured output) — fills missing frontmatter from body
+2. Wikilink conversion (deterministic regex) — converts [text](path.md) to [[title]]
+"""
 
 from __future__ import annotations
 
-import asyncio
+import re
 from pathlib import Path
 from typing import Any
 
-from cargo_bikes.enrich.agent import call_agent
-from cargo_bikes.enrich.prompts import HARMONIZE_SYSTEM
-from cargo_bikes.enrich.review import ReviewItem, run_review_session
+import yaml
+
+from cargo_bikes.enrich.agent import extract_structured
+from cargo_bikes.enrich.prompts import EXTRACT_SYSTEM
+from cargo_bikes.enrich.schemas import BikeExtraction, BrandExtraction
 from cargo_bikes.vault.frontmatter import extract_frontmatter
 
 
-async def _harmonize_one(
+def _strip_frontmatter(content: str) -> str:
+    """Return body content without YAML frontmatter."""
+    match = re.match(r"^---\s*\n.*?\n---\s*\n", content, re.DOTALL)
+    return content[match.end() :] if match else content
+
+
+def _extract_one(
     file_path: Path,
-    template_content: str,
     model: str,
 ) -> dict[str, Any] | None:
-    """Harmonize a single note using Claude.
+    """Extract missing fields from a single note using Claude structured output.
 
-    Returns dict with file_path, original, and harmonized content, or None if no changes.
+    Returns dict with file_path, extracted fields, and title, or None if nothing to extract.
     """
     content = file_path.read_text(encoding="utf-8")
     frontmatter = extract_frontmatter(content)
     if not frontmatter:
         return None
 
-    prompt = f"""Here is a cargo bike vault note to harmonize:
+    note_type = frontmatter.get("type", "")
+    if note_type == "bike":
+        schema = BikeExtraction
+    elif note_type in ("brand", "brand-index"):
+        schema = BrandExtraction
+    else:
+        return None
 
---- NOTE FILE: {file_path.name} ---
-{content}
---- END NOTE ---
+    # Find which fields are already filled
+    filled = {k for k, v in frontmatter.items() if v is not None and v != "" and v != []}
 
---- TEMPLATE SCHEMA ---
-{template_content}
---- END TEMPLATE ---
+    body = _strip_frontmatter(content)
+    if not body.strip():
+        return None
 
-Harmonize this note: fill missing frontmatter fields, convert internal markdown
-links to wikilinks, and add component wikilinks. Return the COMPLETE updated note.
+    # Truncate body to avoid Agent SDK issues with very long content
+    body_truncated = body[:6000] if len(body) > 6000 else body
+
+    prompt = f"""Extract data from this cargo bike note body.
+Only extract fields you find clear evidence for. Leave as null if not found.
+
+Fields already filled (skip these): {', '.join(sorted(filled))}
+
+Note body:
+{body_truncated}
 """
 
-    result = await call_agent(
-        prompt=prompt,
-        system=HARMONIZE_SYSTEM,
-        model=model,
-        max_turns=1,
-    )
+    try:
+        extracted = extract_structured(
+            prompt=prompt,
+            system=EXTRACT_SYSTEM,
+            output_schema=schema,
+            model=model,
+        )
+    except Exception as e:
+        print(f"  [WARN] Extraction failed for {file_path.name}: {e}")
+        return None
 
-    if not result or result.strip() == content.strip():
+    # Get only non-null fields that aren't already in frontmatter
+    raw = extracted.model_dump()
+    new_fields = {}
+    for k, v in raw.items():
+        if v is not None and k not in filled:
+            # Normalize: if schema expects list but got string, split on comma
+            if isinstance(v, str) and k in ("categories",):
+                v = [x.strip() for x in v.split(",")]
+            new_fields[k] = v
+
+    if not new_fields:
         return None
 
     return {
         "file_path": file_path,
-        "original": content,
-        "harmonized": result.strip(),
+        "extracted": new_fields,
         "title": frontmatter.get("title", file_path.stem),
     }
+
+
+def _apply_extracted_fields(file_path: Path, extracted: dict[str, Any]) -> None:
+    """Merge extracted fields into existing frontmatter without touching body."""
+    content = file_path.read_text(encoding="utf-8")
+
+    fm_match = re.match(r"^---\s*\n(.*?)\n---\s*\n", content, re.DOTALL)
+    if not fm_match:
+        return
+
+    fm = yaml.safe_load(fm_match.group(1))
+    if not isinstance(fm, dict):
+        return
+
+    body = content[fm_match.end() :]
+
+    # Merge: only add fields that don't already exist or are empty
+    for key, value in extracted.items():
+        if key not in fm or fm[key] is None or fm[key] == "":
+            fm[key] = value
+
+    new_fm = yaml.dump(
+        fm, default_flow_style=False, allow_unicode=True, sort_keys=False
+    )
+    file_path.write_text(f"---\n{new_fm}---\n{body}", encoding="utf-8")
+
+
+def _convert_wikilinks(file_path: Path) -> bool:
+    """Convert internal markdown links to wikilinks in body only.
+
+    Converts [text](relative/path.md) → [[text]]
+    Preserves external URLs (http/https).
+    Returns True if any changes were made.
+    """
+    content = file_path.read_text(encoding="utf-8")
+
+    fm_match = re.match(r"^---\s*\n(.*?)\n---\s*\n", content, re.DOTALL)
+    if not fm_match:
+        return False
+
+    header = content[: fm_match.end()]
+    body = content[fm_match.end() :]
+
+    # Convert [text](path.md) to [[text]] — only for relative .md links
+    new_body = re.sub(
+        r"\[([^\]]+)\]\((?!https?://|mailto:)([^)]+\.md)\)",
+        lambda m: f"[[{m.group(1)}]]",
+        body,
+    )
+
+    if new_body == body:
+        return False
+
+    file_path.write_text(header + new_body, encoding="utf-8")
+    return True
 
 
 def harmonize_notes(
@@ -63,29 +156,26 @@ def harmonize_notes(
     brand: str | None = None,
     dry_run: bool = False,
     auto: bool = False,
+    wikilinks: bool = False,
     model: str = "claude-sonnet-4-6",
 ) -> None:
-    """Harmonize vault notes: fill schema gaps and convert to wikilinks.
+    """Harmonize vault notes: extract missing fields + optionally convert wikilinks.
 
     Args:
-        vault_path: Path to vault root (e.g., Path("vault")).
-        brand: If set, only harmonize notes for this brand.
-        dry_run: If True, show changes without writing.
-        auto: If True, skip interactive review.
+        vault_path: Path to vault root.
+        brand: If set, only process this brand.
+        dry_run: Show what would change without writing.
+        auto: Skip interactive review.
+        wikilinks: Also convert markdown links to wikilinks in body.
         model: Claude model to use.
     """
     from rich.console import Console
 
+    from cargo_bikes.enrich.review import ReviewItem, run_review_session
+
     console = Console()
 
-    # Load templates
-    bike_template_path = vault_path / "templates" / "bike-template.md"
-    brand_template_path = vault_path / "templates" / "brand-template.md"
-
-    bike_template = bike_template_path.read_text(encoding="utf-8") if bike_template_path.exists() else ""
-    brand_template = brand_template_path.read_text(encoding="utf-8") if brand_template_path.exists() else ""
-
-    # Collect notes to process
+    # Collect notes
     bikes_dir = vault_path / "notes" / "bikes"
     notes: list[Path] = []
 
@@ -93,7 +183,6 @@ def harmonize_notes(
         brand_dir = bikes_dir / brand
         if brand_dir.exists():
             notes.extend(sorted(brand_dir.glob("*.md")))
-            # Also include brand-specific accessories
             acc_dir = brand_dir / "accessories"
             if acc_dir.exists():
                 notes.extend(sorted(acc_dir.glob("*.md")))
@@ -101,80 +190,70 @@ def harmonize_notes(
         for brand_dir in sorted(bikes_dir.iterdir()):
             if brand_dir.is_dir():
                 notes.extend(sorted(brand_dir.glob("*.md")))
-                # Also include brand-specific accessories
                 acc_dir = brand_dir / "accessories"
                 if acc_dir.exists():
                     notes.extend(sorted(acc_dir.glob("*.md")))
 
-        # Universal accessories
         acc_dir = vault_path / "notes" / "accessories"
         if acc_dir.exists():
             notes.extend(sorted(acc_dir.rglob("*.md")))
 
-    # Exclude .fr.md translations
+    # Exclude translations
     notes = [n for n in notes if not n.name.endswith(".fr.md")]
 
-    console.print(f"[bold]Harmonizing {len(notes)} notes...[/bold]")
+    console.print(f"[bold]Extracting missing fields from {len(notes)} notes...[/bold]")
 
-    # Process notes concurrently
-    async def _process_all() -> list[dict[str, Any]]:
-        from cargo_bikes.enrich.agent import run_concurrent
+    # Process notes sequentially (structured output is sync, not async)
+    changes: list[dict[str, Any]] = []
+    for i, note_path in enumerate(notes, 1):
+        if i % 20 == 0:
+            console.print(f"  Processing {i}/{len(notes)}...")
+        result = _extract_one(note_path, model)
+        if result:
+            changes.append(result)
 
-        async def process_note(note_path: Path) -> dict[str, Any] | None:
-            fm = extract_frontmatter(note_path.read_text(encoding="utf-8"))
-            if not fm:
-                return None
-            note_type = fm.get("type", "")
-            if note_type in ("brand", "brand-index"):
-                template = brand_template
-            elif note_type == "accessory":
-                template = "Accessory note. Ensure flat frontmatter: title, type, category, manufacturer, price_amount, price_currency, compatible_bikes, tags."
-            else:
-                template = bike_template
-            return await _harmonize_one(note_path, template, model)
-
-        results = await run_concurrent(
-            items=notes,
-            worker_fn=process_note,
-            concurrency=3,
-            on_progress=lambda: console.print(".", end=""),
-        )
-        return [r for r in results if r is not None]
-
-    changes = asyncio.run(_process_all())
-    console.print(f"\n[bold]{len(changes)} notes have changes.[/bold]")
+    console.print(f"[bold]{len(changes)} notes have extractable fields.[/bold]")
 
     if not changes:
+        console.print("[dim]Nothing to update.[/dim]")
         return
 
     if dry_run:
         for change in changes:
-            console.print(f"\n[bold]{change['title']}[/bold] ({change['file_path']})")
-            console.print("[dim]Changes would be applied (dry-run mode)[/dim]")
+            console.print(
+                f"\n[bold]{change['title']}[/bold] ({change['file_path'].name})"
+            )
+            for k, v in change["extracted"].items():
+                console.print(f"  [green]+{k}:[/green] {v}")
         return
 
     if auto:
-        accepted = [c for c in changes]
-        discarded: list[dict[str, Any]] = []
+        accepted = changes
     else:
         review_items = [
             ReviewItem(
                 data=change,
                 label=change["title"],
-                diff=change["harmonized"][:500] + "..." if len(change["harmonized"]) > 500 else change["harmonized"],
+                diff="\n".join(f"+{k}: {v}" for k, v in change["extracted"].items()),
             )
             for change in changes
         ]
-        accepted, discarded = run_review_session(
+        accepted, _ = run_review_session(
             review_items, console=console, entity_label="note"
         )
 
-    # Write accepted changes
+    # Apply changes
     for change in accepted:
-        file_path: Path = change["file_path"]
-        file_path.write_text(change["harmonized"] + "\n", encoding="utf-8")
-        console.print(f"[green]✓ Updated {file_path}[/green]")
+        _apply_extracted_fields(change["file_path"], change["extracted"])
+        console.print(f"[green]✓ {change['file_path'].name}[/green] +{len(change['extracted'])} fields")
 
-    console.print(
-        f"\n[bold]Done:[/bold] {len(accepted)} updated, {len(discarded)} discarded"
-    )
+    console.print(f"\n[bold]Updated {len(accepted)} notes[/bold]")
+
+    # Pass 2: wikilinks (if requested)
+    if wikilinks:
+        console.print("\n[bold]Converting wikilinks...[/bold]")
+        wl_count = 0
+        for note_path in notes:
+            if _convert_wikilinks(note_path):
+                wl_count += 1
+        console.print(f"[bold]Converted wikilinks in {wl_count} notes[/bold]")

@@ -19,9 +19,20 @@ motor_power_w: 500
 battery_capacity_wh: 545
 price_amount: '5399'
 price_currency: EUR
-
+category: longtail
+motor_make: Bosch
+motor_model: Cargo Line
+motor_type: mid-drive
+motor_torque_nm: 85
+battery_removable: true
+brakes_type: hydraulic disc
+drivetrain_type: belt
+drivetrain_hub: Enviolo Trekking
+wheels_front_size_in: '24'
+wheels_rear_size_in: '20'
+wheels_tire: Schwalbe Pick-up 65-406
+suspension_front: none
 ---
-
 ## Granville Longtail 545Wh
 
 ![Granville Longtail 545Wh](https://granville-urbanbikes.com/wp-content/uploads/2024/10/longtail.png)

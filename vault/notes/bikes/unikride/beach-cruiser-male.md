@@ -20,9 +20,10 @@ battery_capacity_wh: 960
 range_estimate_km: '120'
 price_amount: '2699'
 price_currency: EUR
-
+motor_make: Bafang
+brakes_type: hydraulic disc
+drivetrain_type: chain
 ---
-
 ## BEACH CRUISER CLOSED FRAME - Male
 
 ![Beach Cruiser Male](https://unikride.com/cdn/shop/files/Beach_cruiser_homme_noir_mat.jpg)

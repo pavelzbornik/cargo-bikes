@@ -21,9 +21,9 @@ battery_capacity_wh: 960
 range_estimate_km: '120'
 price_amount: '2499'
 price_currency: EUR
-
+motor_make: Bafang
+brakes_type: hydraulic disc
 ---
-
 ## HOSSEGOR BIKE OPEN FRAME
 
 ![Hossegor Bike Open Frame](https://unikride.com/cdn/shop/files/HOSSEGOR_BIKE_OPEN_FRAME.jpg)

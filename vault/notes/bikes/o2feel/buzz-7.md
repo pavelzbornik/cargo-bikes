@@ -28,9 +28,21 @@ battery_capacity_wh: 540
 range_estimate_km: '140'
 price_amount: '3999'
 price_currency: EUR
-
+category: compact
+motor_type: mid-drive
+motor_power_w: 50
+load_capacity_total_kg: 180.0
+load_capacity_passenger_count: 2
+frame_material: aluminum
+frame_length_cm: 175.0
+brakes_type: hydraulic disc
+drivetrain_type: chain
+drivetrain_speeds: '5'
+drivetrain_hub: Shimano Nexus 5E
+wheels_front_size_in: '20'
+wheels_rear_size_in: '20'
+wheels_tire: Mach1 Trucky 30
 ---
-
 ## Overview
 
 The O2Feel Buzz 7 is a compact, modular electric cargo bike designed for urban sharing and everyday use. With a 180 kg load capacity, 20" wheels for maneuverability, and a low-step frame for accessibility, the Buzz is positioned as the agile alternative to longer longtail designs. The Chain version offers excellent value at €3,999 with Shimano EP6 motor and Shimano MT200 brakes.

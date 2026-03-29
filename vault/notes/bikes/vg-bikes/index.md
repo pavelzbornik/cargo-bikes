@@ -13,6 +13,9 @@ tags:
 - vg-bikes
 regions:
 - EU
+categories:
+- longtail
+distribution_model: both
 ---
 ## Overview
 

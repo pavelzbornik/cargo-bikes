@@ -18,9 +18,21 @@ image: //fvstorageprod.blob.core.windows.net/img/614962/sans1_nd.jpg
 motor_power_w: 250
 battery_capacity_wh: 468
 range_estimate_km: '60'
-
+category: longtail
+motor_make: Bafang
+motor_type: mid-drive
+motor_torque_nm: 85
+battery_removable: true
+weight_with_battery_kg: 27.0
+load_capacity_total_kg: 180.0
+load_capacity_passenger_count: 2
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: chain
+drivetrain_speeds: '7'
+wheels_front_size_in: '24'
+wheels_rear_size_in: '24'
 ---
-
 ## Overview
 
 The **Portofino CargoPro** is an Italian-designed and assembled long-tail electric cargo bike that blends style, practicality, and performance. Featuring a distinctive light blue color with navy and white branding, this e-bike is purpose-built for transporting children and cargo with confidence and comfort. Its extended frame accommodates passengers or merchandise, making it ideal for daily urban commuting with family and shopping needs.

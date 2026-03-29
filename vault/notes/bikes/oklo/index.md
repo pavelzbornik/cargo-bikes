@@ -13,6 +13,7 @@ tags:
 - oklo
 regions:
 - EU
+distribution_model: both
 ---
 ## Overview
 

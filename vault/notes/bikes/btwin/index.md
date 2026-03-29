@@ -49,6 +49,8 @@ accessibility:
 - family-focused
 - practical-cargo-solutions
 - accessible-through-retail
+manufacturing_approach: contracted
+assembly_location: multiple regions
 ---
 ## Overview
 

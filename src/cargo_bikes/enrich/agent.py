@@ -58,8 +58,8 @@ def _clean_response(text: str) -> str:
         preamble = text[: fm_match.start()].strip()
         if preamble and not preamble.startswith("#"):
             text = text[fm_match.start() :]
-    elif not fm_match and not text.strip().startswith("#"):
-        # No frontmatter and no heading — likely just thinking text, discard
+    elif not fm_match and not text.strip().startswith(("#", "{", "[")):
+        # No frontmatter, no heading, no JSON — likely just thinking text, discard
         return ""
 
     return text.strip()
@@ -131,6 +131,59 @@ async def call_agent(
 
     final_text = result_text if result_text.strip() else "\n".join(accumulated_text)
     return _clean_response(final_text)
+
+
+def extract_structured(
+    prompt: str,
+    system: str,
+    output_schema: type,
+    model: str = "claude-sonnet-4-6",
+) -> Any:
+    """Extract structured data using Claude Agent SDK.
+
+    Sends the Pydantic schema as field descriptions in the prompt,
+    asks for JSON output, then validates with Pydantic.
+    """
+    import json
+
+    # Build field descriptions from schema
+    schema_json = output_schema.model_json_schema()
+    props = schema_json.get("properties", {})
+    field_desc = "\n".join(
+        f"  {name}: {info.get('description', info.get('type', 'any'))} (type: {info.get('type', 'string')})"
+        for name, info in props.items()
+    )
+
+    full_prompt = f"""{prompt}
+
+Return a JSON object with these fields (use null for fields not found):
+{field_desc}
+
+Respond with ONLY the JSON object. No markdown, no explanation, no code fences."""
+
+    result = asyncio.run(
+        call_agent(
+            prompt=full_prompt,
+            system=system,
+            model=model,
+            max_turns=6,
+        )
+    )
+
+    # Clean and parse
+    result = result.replace("\r\n", "\n").strip()
+    # Strip code fences if present
+    fence_match = re.search(r"```(?:json)?\s*\n(.*?)```", result, re.DOTALL)
+    if fence_match:
+        result = fence_match.group(1).strip()
+
+    # Find JSON object in response
+    json_match = re.search(r"\{.*\}", result, re.DOTALL)
+    if not json_match:
+        raise ValueError(f"No JSON found in response: {result[:100]}")
+
+    data = json.loads(json_match.group(0))
+    return output_schema(**data)
 
 
 def call_agent_sync(

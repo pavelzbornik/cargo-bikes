@@ -15,9 +15,8 @@ tags:
 - oklo
 price_amount: '1190'
 price_currency: EUR
-
+category: compact
 ---
-
 ## Overview
 
 The OKLÖ Simplix Méca is an affordable mini cargo bike designed for compact urban transport. A mechanical (non-electric) option for those seeking simplicity and low-cost cargo solutions.

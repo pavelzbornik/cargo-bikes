@@ -13,6 +13,7 @@ tags:
 - specialized
 regions:
 - EU
+distribution_model: retail
 ---
 ## Overview
 

@@ -19,9 +19,23 @@ battery_capacity_wh: 672
 range_estimate_km: '150'
 price_amount: '3018'
 price_currency: EUR
-
+category: longtail
+motor_make: Bafang
+motor_model: Bafang 48V 250W rear hub
+motor_type: hub
+motor_torque_nm: 80
+weight_with_battery_kg: 31.1
+load_capacity_total_kg: 130.0
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: chain
+drivetrain_speeds: '10'
+wheels_front_size_in: '20'
+wheels_rear_size_in: '20'
+wheels_tire: CST Big Boot
+suspension_front: RST Guide TNL 20 fork
+suspension_rear: none
 ---
-
 ## Overview
 
 The VG Life Longtail is a French-made electric longtail designed for urban and suburban cargo transport. Built by VOLTAGREEN (VG Bikes) since 2011, this model combines practical cargo capacity with a powerful rear-mounted motor for navigating hills and varied terrain while carrying substantial loads.

@@ -13,6 +13,7 @@ tags:
 - leon-cycle
 regions:
 - EU
+distribution_model: both
 ---
 ## Overview
 

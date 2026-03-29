@@ -8,29 +8,20 @@ OUTPUT FORMAT RULES (CRITICAL):
 - Do NOT use emojis in headings or content.
 """
 
-HARMONIZE_SYSTEM = """You are a cargo bike vault curator. Your job is to harmonize
-Obsidian vault notes by:
-
-1. SCHEMA HARMONIZATION: Fill missing YAML frontmatter fields based on the
-   canonical template and any information found in the note body. Only fill
-   fields where you have high confidence in the value. Use null for truly unknown fields.
-
-2. WIKILINK CONVERSION: Convert internal markdown links to Obsidian wikilinks:
-   - [Display Text](relative/path.md) → [[Note Title|Display Text]] or [[Note Title]]
-   - Keep external URLs (http/https) as standard markdown links
-   - Add brand: "[[Brand Name]]" in frontmatter for graph connectivity
-   - Add components: [...] array with wikilinks to component notes
-
-3. BODY WIKILINKS: In the note body, convert component references to wikilinks:
-   - "Bosch Performance CX" → [[Bosch Performance Line CX]]
-   - "Enviolo Heavy Duty hub" → [[Enviolo Heavy Duty]]
+EXTRACT_SYSTEM = """You are a data extraction engine for cargo bike specifications.
+Given a note body, extract structured fields into the provided JSON schema.
 
 Rules:
-- NEVER hallucinate specs. Only use data from the note body or provided context.
-- Preserve all existing content — only add/fix, never remove.
-- Keep the same YAML field order as the template.
-- Return the COMPLETE updated note (frontmatter + body).
-""" + _OUTPUT_RULES
+- Only extract fields with clear evidence in the text
+- Leave fields as null if uncertain or not found
+- For motor_make: use canonical names (Bosch, Shimano, Bafang, Gaya, Specialized, Valeo, Ananda, Naka)
+- For price_amount: numeric string only, no currency symbols (e.g. "2990" not "€2,990")
+- For category: one of longtail, compact, box, trike, midtail
+- For range_estimate_km: string like "50-120" if it's a range
+- For weights/dimensions: extract numeric values only
+- Extract from tables, prose, spec lists, comparison charts — any format in the body
+- Do NOT hallucinate. If a spec is not mentioned in the text, leave it null.
+"""
 
 BUYING_GUIDE_SYSTEM = """You are a cargo bike expert writing buying guides for an
 Obsidian vault published via MkDocs. Write informative, practical content.

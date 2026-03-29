@@ -27,9 +27,21 @@ price_amount: '4990'
 price_currency: EUR
 specs_notes: Migrated from legacy frontmatter. Motor and battery inferred from body
   text (Bosch Performance Line Gen5 / Powertube 540Wh).
-
+motor_torque_nm: 75
+load_capacity_total_kg: 170.0
+load_capacity_passenger_count: 2
+frame_material: chromoly steel
+frame_length_cm: 173.0
+brakes_type: hydraulic disc
+drivetrain_type: chain
+drivetrain_speeds: '5'
+drivetrain_hub: Shimano Nexus Inter-5E
+wheels_front_size_in: '20'
+wheels_rear_size_in: '20'
+wheels_tire: CST Brooklyn Pro
+suspension_front: SR Suntour SF22 Mobie 34 CGO 80mm
+suspension_rear: none
 ---
-
 ## Overview
 
 The Bike43 Short is a compact family cargo bike designed for families with 1-2 children. At 173 cm long, it represents the most accessible entry point to the Bike43 family ecosystem. The Short model can be converted to the Mid configuration, offering future flexibility as your family grows.

@@ -13,6 +13,7 @@ tags:
 - yeep-me
 regions:
 - EU
+distribution_model: both
 ---
 ## Overview
 

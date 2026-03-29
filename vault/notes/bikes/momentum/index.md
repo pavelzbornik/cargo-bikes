@@ -13,6 +13,7 @@ tags:
 - momentum
 regions:
 - EU
+distribution_model: retail
 ---
 ## Overview
 

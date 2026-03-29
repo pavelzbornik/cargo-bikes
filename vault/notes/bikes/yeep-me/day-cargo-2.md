@@ -28,9 +28,12 @@ battery_capacity_wh: 500
 range_estimate_km: 120-150
 price_amount: '2290'
 price_currency: EUR
-
+category: longtail
+motor_make: Bosch
+motor_torque_nm: 75
+brakes_type: disc
+drivetrain_type: chain
 ---
-
 ## Overview
 
 The YEEP.ME Day Cargo 2 is an electric longtail cargo bike featuring Bosch motor integration and modern design. Available in multiple color variants and configurations, it offers excellent range for daily commuting and family transport.

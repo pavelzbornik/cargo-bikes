@@ -13,6 +13,7 @@ tags:
 - unikride
 regions:
 - EU
+distribution_model: both
 ---
 ## Overview
 

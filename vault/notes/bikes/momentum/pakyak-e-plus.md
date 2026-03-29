@@ -21,9 +21,25 @@ battery_capacity_wh: 500
 range_estimate_km: 50-60
 price_amount: '4700'
 price_currency: EUR
-
+category: longtail
+model_year: 2023
+motor_model: Giant SyncDrive Pro
+motor_type: mid-drive
+battery_removable: true
+battery_charging_time_h: '3.5'
+weight_with_battery_kg: 33.0
+load_capacity_total_kg: 220.0
+load_capacity_passenger_count: 2
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: chain
+drivetrain_speeds: '9'
+wheels_front_size_in: '24'
+wheels_rear_size_in: '24'
+wheels_tire: Maxxis Hookworm (front) / Maxxis Rekon (rear)
+suspension_front: none
+suspension_rear: none
 ---
-
 ## Momentum PakYak E+
 
 ![Momentum PakYak E+](https://www.transitionvelo.com/content/uploads/2023/12/momentum-pakyak-26-1024x576.jpg)

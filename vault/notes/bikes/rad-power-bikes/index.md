@@ -13,6 +13,7 @@ tags:
 - rad-power-bikes
 regions:
 - EU
+distribution_model: both
 ---
 ## Overview
 

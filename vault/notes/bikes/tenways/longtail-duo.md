@@ -22,9 +22,24 @@ battery_capacity_wh: 720
 range_estimate_km: '100'
 price_amount: '3499'
 price_currency: EUR
-
+category: longtail
+motor_make: Bafang
+motor_model: M410
+motor_type: mid-drive
+motor_torque_nm: 80
+battery_removable: true
+weight_with_battery_kg: 32.0
+load_capacity_total_kg: 220.0
+load_capacity_passenger_count: 2
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: belt
+drivetrain_hub: Enviolo Heavy Duty
+wheels_front_size_in: '24'
+wheels_rear_size_in: '24'
+suspension_front: suspension fork
+suspension_rear: none
 ---
-
 ## TENWAYS Longtail Duo
 
 ![TENWAYS Longtail Duo](https://www.tenways.com/cdn/shop/files/2_f299da61-da31-4bf0-96b3-c3059.jpg)

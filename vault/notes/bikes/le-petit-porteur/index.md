@@ -13,6 +13,9 @@ tags:
 - le-petit-porteur
 regions:
 - EU
+categories:
+- longtail
+distribution_model: both
 ---
 ## Overview
 

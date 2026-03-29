@@ -17,9 +17,9 @@ tags:
 url: https://www.decathlon.fr/
 price_amount: '1470'
 price_currency: EUR
-
+wheels_front_size_in: '28'
+wheels_rear_size_in: '28'
 ---
-
 ## Overview
 
 The RUCANOR Cargo 28 Pouces is an electric cargo transporteur with 28-inch wheels, designed for utility transport and light delivery work.

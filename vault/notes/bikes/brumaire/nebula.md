@@ -22,9 +22,21 @@ battery_capacity_wh: 450
 range_estimate_km: '80'
 price_amount: '2890'
 price_currency: EUR
-
+category: longtail
+motor_type: mid-drive
+motor_power_w: 250
+battery_charging_time_h: '6'
+weight_with_battery_kg: 43.0
+load_capacity_total_kg: 180.0
+load_capacity_passenger_count: 2
+frame_length_cm: 240.0
+brakes_type: hydraulic disc
+drivetrain_type: chain
+drivetrain_speeds: '7'
+wheels_front_size_in: '24'
+wheels_rear_size_in: '24'
+suspension_front: none
 ---
-
 ## Overview
 
 Brumaire Cycles represents emerging French electric mobility innovation (2020 origins from scooter manufacturer). The Nebula delivers stylish longtail design with appealing color options and mid-tier specifications. Bafang motor choice differentiates from market-dominant Bosch positioning while maintaining reliability. Partnership with Roulez Jeunesse for French service support addresses online-only sales concerns.

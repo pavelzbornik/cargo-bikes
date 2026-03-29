@@ -13,6 +13,7 @@ tags:
 - velo-de-ville
 regions:
 - EU
+distribution_model: retail
 ---
 ## Overview
 

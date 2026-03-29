@@ -13,6 +13,7 @@ tags:
 - moustache
 regions:
 - EU
+distribution_model: both
 ---
 ## Overview
 

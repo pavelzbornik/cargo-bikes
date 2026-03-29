@@ -13,6 +13,7 @@ tags:
 - douze-cycles
 regions:
 - EU
+distribution_model: both
 ---
 ## Overview
 

@@ -13,6 +13,7 @@ tags:
 - etni-cycles
 regions:
 - EU
+distribution_model: both
 ---
 ## Overview
 
