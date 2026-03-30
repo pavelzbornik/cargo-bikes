@@ -26,9 +26,19 @@ resellers:
   note: Available in multiple colors (white, green, blue, red)
 price_amount: '3715'
 price_currency: EUR
-
+category: box
+motor_make: Bafang
+motor_power_w: 250
+motor_torque_nm: 80
+battery_capacity_wh: 630
+weight_with_battery_kg: 44.0
+load_capacity_total_kg: 180.0
+range_estimate_km: '90'
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: chain
+wheels_front_size_in: '20'
 ---
-
 ## Overview
 
 ![U-Cargo Family](https://add-bike.com/wp-content/uploads/2025/09/Velo-longtail-U-Cargo-Family-Blanc.webp)

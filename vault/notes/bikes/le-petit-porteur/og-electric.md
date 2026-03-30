@@ -32,6 +32,11 @@ drivetrain_type: chain
 wheels_front_size_in: '20'
 wheels_rear_size_in: '20'
 wheels_tire: Schwalbe Pick Up
+needs_research: true
+research_topics:
+- motor_make
+- load_capacity_total_kg
+- range_estimate_km
 ---
 ## Le Petit Porteur OG Electric
 

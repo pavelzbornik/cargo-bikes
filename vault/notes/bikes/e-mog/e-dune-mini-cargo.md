@@ -70,9 +70,10 @@ price_currency: EUR
 specs_notes: Versatile mini cargo fat bike optimized for sand, city, and forest use.
   Promotional pricing reflects clearance of current generation. Uses proven Bafang
   motor and Samsung batteries (per product documentation).
-
+needs_research: true
+research_topics:
+- weight_with_battery_kg
 ---
-
 ## E-Mog E-Dune Mini Cargo
 
 ![E-Mog E-Dune Mini Cargo](https://i0.wp.com/www.emog-bikes.com/wp-content/uploads/2024/05/cargo-mini-velo-bi-place-2.jpg?fit=950%2C950&ssl=1)

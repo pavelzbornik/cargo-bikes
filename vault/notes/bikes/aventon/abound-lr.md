@@ -52,9 +52,12 @@ price_currency: USD
 specs_notes: 440 lb (200 kg) payload capacity. IPX5 water-resistant rating. Includes
   adjustable quill stem, fenders, and rear rack. ACU technology enables GPS tracking,
   remote shutdown, geofencing, and motion alerts via Aventon app.
-
+motor_torque_nm: 80
+battery_capacity_wh: 708
+weight_with_battery_kg: 40.1
+price_amount: '1999'
+range_estimate_km: '97'
 ---
-
 ## Aventon Abound LR
 
 ![Aventon Abound LR](https://www.aventon.com/products/abound-lr-ebike)

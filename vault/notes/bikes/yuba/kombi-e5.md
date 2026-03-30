@@ -36,9 +36,14 @@ price_amount: '2599'
 price_currency: EUR
 specs_notes: Affordable compact electric cargo bike with Shimano E5000 motor (250W,
   40Nm). Lightweight and smooth. Sourced from manufacturer specifications.
-
+needs_research: true
+research_topics:
+- weight_with_battery_kg
+- brakes_type
+- drivetrain_type
+- frame_material
+- wheels_front_size_in
 ---
-
 ## Kombi E5
 
 ![Kombi E5](https://yubabikes.eu/wp-content/uploads/2024/12/Kombi-E5-Orange-No-BG.png)

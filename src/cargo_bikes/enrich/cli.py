@@ -110,6 +110,28 @@ def components(
     )
 
 
+@app.command("research")
+def research(
+    vault_path: Path = typer.Option(Path("vault"), help="Path to vault root"),
+    brand: str | None = typer.Option(None, help="Only research this brand"),
+    auto: bool = typer.Option(False, help="Skip interactive review"),
+    dry_run: bool = typer.Option(False, help="Show what would be researched"),
+    model: str = typer.Option("claude-sonnet-4-6", help="Claude model to use"),
+    concurrency: int = typer.Option(2, help="Max concurrent web searches"),
+) -> None:
+    """Research flagged notes (needs_research: true) using web search."""
+    from cargo_bikes.enrich.research import research_notes
+
+    research_notes(
+        vault_path=vault_path,
+        brand=brand,
+        auto=auto,
+        dry_run=dry_run,
+        model=model,
+        concurrency=concurrency,
+    )
+
+
 @app.command("accessories")
 def accessories(
     vault_path: Path = typer.Option(Path("vault"), help="Path to vault root"),

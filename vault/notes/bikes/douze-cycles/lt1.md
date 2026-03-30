@@ -19,9 +19,19 @@ battery_capacity_wh: 500
 range_estimate_km: '100'
 price_amount: '3589'
 price_currency: EUR
-
+needs_research: true
+research_topics:
+- category
+- motor_make
+- motor_power_w
+- motor_torque_nm
+- weight_with_battery_kg
+- load_capacity_total_kg
+- brakes_type
+- drivetrain_type
+- frame_material
+- wheels_front_size_in
 ---
-
 ## Overview
 
 The Douze Cycles LT1 is a premium French longtail electric cargo bike positioned between budget and ultra-premium segments. As a French specialist brand, Douze Cycles brings European engineering expertise to cargo bike design. The LT1 targets families seeking refined handling, quality components, and sophisticated design without mega-brand pricing. With approximately €3,590 positioning, it competes directly against the Brumaire Nebula and offers distinct design choices.

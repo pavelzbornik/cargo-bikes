@@ -16,9 +16,22 @@ url: https://ello-mobilite.com/nos-realisations/
 image: https://ello-mobilite.com/wp-content/uploads/2025/09/Version-Famille.webp
 motor_make: Bosch
 motor_model: Performance Line W
-
+needs_research: true
+research_topics:
+- category
+- motor_power_w
+- motor_torque_nm
+- battery_capacity_wh
+- price_amount
+- price_currency
+- weight_with_battery_kg
+- load_capacity_total_kg
+- brakes_type
+- drivetrain_type
+- frame_material
+- range_estimate_km
+- wheels_front_size_in
 ---
-
 ## Ello Mobilité Primo C
 
 ![Ello Mobilité Primo C](https://ello-mobilite.com/wp-content/uploads/2025/09/Version-Famille.webp)

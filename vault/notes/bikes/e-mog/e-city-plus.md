@@ -65,9 +65,8 @@ price_currency: EUR
 specs_notes: Upgraded version of E-City with front suspension fork for enhanced comfort.
   European assembly. Sub-2m wheelbase. Bicycode marking included. Lightweight front
   suspension absorbs vibrations and improves handling.
-
+weight_with_battery_kg: 33.0
 ---
-
 ## E-Mog E-City+
 
 ![E-Mog E-City+](https://i0.wp.com/www.emog-bikes.com/wp-content/uploads/2024/02/velo-cargo-suspension-e-city.jpg?fit=1124%2C1124&ssl=1)

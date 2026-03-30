@@ -30,6 +30,13 @@ wheels_front_size_in: '24'
 wheels_rear_size_in: '24'
 wheels_tire: CST 24" x 3.0"
 suspension_front: hydraulic
+needs_research: true
+research_topics:
+- category
+- motor_make
+- motor_power_w
+- weight_with_battery_kg
+- drivetrain_type
 ---
 ## Overview
 

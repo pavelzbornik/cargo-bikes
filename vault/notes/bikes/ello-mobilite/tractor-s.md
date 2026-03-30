@@ -19,6 +19,18 @@ load_capacity_total_kg: 80.0
 frame_material: aluminum
 suspension_front: suspended fork
 suspension_rear: none
+needs_research: true
+research_topics:
+- motor_power_w
+- motor_torque_nm
+- battery_capacity_wh
+- price_amount
+- price_currency
+- weight_with_battery_kg
+- brakes_type
+- drivetrain_type
+- range_estimate_km
+- wheels_front_size_in
 ---
 ## Ello Mobilité Tractor S
 

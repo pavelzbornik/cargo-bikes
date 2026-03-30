@@ -36,6 +36,10 @@ wheels_rear_size_in: '24'
 wheels_tire: Schwalbe Pick-Up
 suspension_front: SR Suntour Mobie 34
 suspension_rear: none
+needs_research: true
+research_topics:
+- motor_power_w
+- range_estimate_km
 ---
 ## Urban Arrow Breeze
 

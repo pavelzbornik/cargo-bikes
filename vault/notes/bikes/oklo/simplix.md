@@ -20,9 +20,18 @@ battery_capacity_wh: 250
 range_estimate_km: '30'
 price_amount: '1190'
 price_currency: EUR
-
+needs_research: true
+research_topics:
+- category
+- motor_make
+- motor_torque_nm
+- weight_with_battery_kg
+- load_capacity_total_kg
+- brakes_type
+- drivetrain_type
+- frame_material
+- wheels_front_size_in
 ---
-
 ## Overview
 
 ![Simplix](https://www.oklo.bike/assets/uploads/2025/09/Simplix-3D-profil-droit-sans-perspective-1024x1024-1.jpg)

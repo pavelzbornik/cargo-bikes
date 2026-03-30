@@ -20,9 +20,17 @@ battery_capacity_wh: 672
 range_estimate_km: '100'
 price_amount: '2299'
 price_currency: EUR
-
+category: longtail
+motor_make: Bafang
+motor_power_w: 750
+motor_torque_nm: 65
+weight_with_battery_kg: 34.79
+load_capacity_total_kg: 158.76
+frame_material: aluminum
+brakes_type: mechanical disc
+drivetrain_type: chain
+wheels_front_size_in: '22'
 ---
-
 ## Overview
 
 The Rad Power Radwagon 4 is an American electric longtail cargo bike designed for versatile transportation. It's positioned as an entry-level option in the premium longtail market, representing one of the most affordable electric longtail solutions available in Europe. The bike aims to democratize cargo bike ownership while maintaining functional design principles.

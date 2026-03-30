@@ -18,9 +18,20 @@ url: https://www.decathlon.fr/
 motor_power_w: 500
 price_amount: '2390'
 price_currency: EUR
-
+needs_research: true
+research_topics:
+- category
+- motor_make
+- motor_torque_nm
+- battery_capacity_wh
+- weight_with_battery_kg
+- load_capacity_total_kg
+- brakes_type
+- drivetrain_type
+- frame_material
+- range_estimate_km
+- wheels_front_size_in
 ---
-
 ## Overview
 
 The TUCANO Family Cargo Tuc Tuc XRoad is a family-focused cargo bike with powerful 500W electric motor, available in blue color.

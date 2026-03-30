@@ -22,9 +22,18 @@ battery_capacity_wh: 504
 range_estimate_km: 100-120
 price_amount: '5600'
 price_currency: EUR
-
+needs_research: true
+research_topics:
+- category
+- motor_power_w
+- motor_torque_nm
+- weight_with_battery_kg
+- load_capacity_total_kg
+- brakes_type
+- drivetrain_type
+- frame_material
+- wheels_front_size_in
 ---
-
 ## Overview
 
 Etni Cycles (Etienne + Nicolas) represents a 2020 mission-driven approach to cargo bikes, manufacturing in Nantes with ambitious sustainability goals. The Oléron challenges established premium manufacturers through artisanal production philosophy while offering competitive specifications. Belt drive + integrated gearing standard (not premium addon) demonstrates commitment to low-maintenance family transport.

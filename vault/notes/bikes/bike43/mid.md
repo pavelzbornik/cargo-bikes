@@ -44,9 +44,13 @@ security_gps: false
 security_app_lock: false
 range_estimate_km: 40-80
 price_amount: 5290€
-
+needs_research: true
+research_topics:
+- weight_with_battery_kg
+motor_make: Bosch
+motor_torque_nm: 75
+price_currency: EUR
 ---
-
 ## Overview
 
 ![Bike43 Mid](https://bike43.com/app/uploads/2025/07/Video-SuperPower-Pivotable-Bench-Kit-1024x830.jpg)

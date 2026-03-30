@@ -36,9 +36,12 @@ price_amount: '3999'
 price_currency: EUR
 specs_notes: Compact electric cargo bike with Shimano E7000 motor (500W, 60Nm torque).
   Convertible rear rack system. Sourced from manufacturer specifications.
-
+weight_with_battery_kg: 34.0
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: chain
+wheels_front_size_in: '20'
 ---
-
 ## Overview
 
 ![FastRack](https://yubabikes.eu/wp-content/uploads/2025/01/YUBA_Bikes_Fastrack_3_4Sideview_Espresso_Studio_WEB.jpg)

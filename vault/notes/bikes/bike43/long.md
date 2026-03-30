@@ -18,9 +18,15 @@ battery_capacity_wh: 630
 range_estimate_km: 40-100
 price_amount: '5490'
 price_currency: EUR
-
+motor_make: Bosch, Shimano
+motor_torque_nm: 85
+weight_with_battery_kg: 30.0
+load_capacity_total_kg: 200.0
+frame_material: chromoly steel
+brakes_type: hydraulic disc
+drivetrain_type: chain
+wheels_front_size_in: '24'
 ---
-
 ## Overview
 
 ![Bike43 Long](https://bike43.com/app/uploads/2022/09/bike10.jpg)

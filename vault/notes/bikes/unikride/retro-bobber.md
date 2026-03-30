@@ -28,6 +28,12 @@ frame_material: steel
 brakes_type: hydraulic disc
 drivetrain_type: chain
 drivetrain_speeds: '7'
+needs_research: true
+research_topics:
+- category
+- weight_with_battery_kg
+- load_capacity_total_kg
+- wheels_front_size_in
 ---
 ## Retro Bobber
 

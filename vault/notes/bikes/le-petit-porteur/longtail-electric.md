@@ -39,6 +39,7 @@ drivetrain_speeds: '9'
 wheels_front_size_in: '20'
 wheels_rear_size_in: '20'
 wheels_tire: Schwalbe Pick Up 2.35"
+motor_make: Tongsheng
 ---
 ## Le Petit Porteur Longtail Electric
 

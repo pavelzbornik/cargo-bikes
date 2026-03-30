@@ -41,6 +41,9 @@ wheels_rear_size_in: '20'
 wheels_tire: CST Brooklyn Pro
 suspension_front: SR Suntour SF22 Mobie 34 CGO 80mm
 suspension_rear: none
+needs_research: true
+research_topics:
+- weight_with_battery_kg
 ---
 ## Overview
 

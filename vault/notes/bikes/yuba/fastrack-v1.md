@@ -31,9 +31,14 @@ price_amount: '3499'
 price_currency: EUR
 specs_notes: Migrated from legacy format. Earlier version of FastRack compact electric
   cargo bike.
-
+motor_make: Shimano
+motor_torque_nm: 60
+weight_with_battery_kg: 34.0
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: chain
+wheels_front_size_in: '20'
 ---
-
 ## FastRack V1
 
 ## Overview

@@ -27,9 +27,18 @@ battery_capacity_wh: 800
 range_estimate_km: '70'
 price_amount: '6799'
 price_currency: EUR
-
+needs_research: true
+research_topics:
+- drivetrain_type
+category: longtail
+motor_make: Bosch
+motor_torque_nm: 85
+weight_with_battery_kg: 37.0
+load_capacity_total_kg: 210.0
+frame_material: aluminum
+brakes_type: hydraulic disc
+wheels_front_size_in: '27.5'
 ---
-
 ## Tern Orox
 
 ![Tern Orox](https://www.transitionvelo.com/content/uploads/2025/09/Test-Tern-Orox-4-1024x576.jpg)

@@ -49,9 +49,8 @@ security_app_lock: true
 range_estimate_km: '50'
 price_amount: '3000'
 price_currency: EUR
-
+motor_power_w: 300
 ---
-
 ## Nakamura Crossover Longtail
 
 ![Nakamura Crossover Longtail](https://www.transitionvelo.com/content/uploads/2024/02/Nakamura-Crossover-Longtail-entier-2-1024x576.jpg)

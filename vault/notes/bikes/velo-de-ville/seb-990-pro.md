@@ -21,9 +21,18 @@ battery_capacity_wh: 500
 range_estimate_km: '73'
 price_amount: '3949'
 price_currency: EUR
-
+needs_research: true
+research_topics:
+- category
+- motor_make
+- motor_torque_nm
+- weight_with_battery_kg
+- load_capacity_total_kg
+- brakes_type
+- drivetrain_type
+- frame_material
+- wheels_front_size_in
 ---
-
 ## Velo de Ville SEB 990 Pro
 
 ![Velo de Ville SEB 990 Pro](https://www.transitionvelo.com/content/uploads/2025/05/Velo-de-ville-SEB-990-Pro-8-1024x576.jpg)

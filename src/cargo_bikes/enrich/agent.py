@@ -31,9 +31,9 @@ def _clean_response(text: str) -> str:
     # Normalize line endings (Agent SDK may return \r\n)
     text = text.replace("\r\n", "\n").replace("\r", "\n")
 
-    # Strip markdown code fences wrapping the entire response
+    # Strip markdown code fences (anywhere in response, not just at end)
     fence_match = re.search(
-        r"```(?:markdown)?\s*\n(.*?)```\s*$", text, re.DOTALL
+        r"```(?:markdown|json)?\s*\n(.*?)```", text, re.DOTALL
     )
     if fence_match:
         text = fence_match.group(1)
@@ -59,8 +59,16 @@ def _clean_response(text: str) -> str:
         if preamble and not preamble.startswith("#"):
             text = text[fm_match.start() :]
     elif not fm_match and not text.strip().startswith(("#", "{", "[")):
-        # No frontmatter, no heading, no JSON — likely just thinking text, discard
-        return ""
+        # No frontmatter at start — check if there's JSON embedded in the text
+        json_in_text = re.search(r"\{[^}]+\}", text)
+        if json_in_text:
+            # Extract from the first { to the last }
+            first_brace = text.index("{")
+            last_brace = text.rindex("}")
+            text = text[first_brace : last_brace + 1]
+        else:
+            # No frontmatter, no heading, no JSON — likely just thinking text
+            return ""
 
     return text.strip()
 

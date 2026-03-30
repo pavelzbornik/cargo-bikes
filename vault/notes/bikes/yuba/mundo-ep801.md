@@ -29,9 +29,15 @@ price_currency: EUR
 specs_notes: Electric longtail minivan with Shimano EP801 motor (500W). Carries up
   to 250kg (3-4 children or mixed cargo). Engineered for rigidity and heavy loads.
   Sourced from manufacturer specifications.
-
+needs_research: true
+research_topics:
+- motor_torque_nm
+- weight_with_battery_kg
+- brakes_type
+- drivetrain_type
+- frame_material
+- wheels_front_size_in
 ---
-
 ## Mundo EP801
 
 ![Mundo EP801](https://yubabikes.eu/wp-content/uploads/2024/10/Yuba_Bikes_Mundo_EP8_Sand_Closeup_Battery_Shimano_Logo_Deflopilator.jpg)

@@ -38,9 +38,11 @@ suspension_front: 'yes'
 suspension_rear: none
 price_amount: '5499'
 price_currency: EUR
-
+category: compact
+motor_make: Bosch
+motor_torque_nm: 85
+range_estimate_km: 80-130
 ---
-
 ## Cannondale Cargowagen Neo 1
 
 ![Cannondale Cargowagen Neo 1](https://embed.widencdn.net/img/dorelrl/fdpbmtywj5/100px@1x/C23_C67103U_Cargowagen_Neo_1_MDN_PD.jpg)

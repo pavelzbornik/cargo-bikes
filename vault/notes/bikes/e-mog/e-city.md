@@ -61,9 +61,10 @@ price_amount: '2633'
 price_currency: EUR
 specs_notes: European assembly, Bicycode marking included. Sub-2m wheelbase for urban
   maneuverability despite robust cargo capacity.
-
+needs_research: true
+research_topics:
+- weight_with_battery_kg
 ---
-
 ## E-Mog E-City
 
 ![E-Mog E-City](https://i0.wp.com/www.emog-bikes.com/wp-content/uploads/2020/04/velo-cargo-electrique-ville-3.jpg?fit=1124%2C1124&ssl=1)

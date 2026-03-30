@@ -20,6 +20,19 @@ image: https://www.oklo.bike/assets/uploads/2022/03/IMG_0820-EVO-Fantilo-longtai
 price_amount: '5855'
 price_currency: EUR
 category: longtail
+needs_research: true
+research_topics:
+- motor_make
+- motor_power_w
+- motor_torque_nm
+- battery_capacity_wh
+- weight_with_battery_kg
+- load_capacity_total_kg
+- brakes_type
+- drivetrain_type
+- frame_material
+- range_estimate_km
+- wheels_front_size_in
 ---
 ## Overview
 

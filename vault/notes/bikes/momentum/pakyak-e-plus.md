@@ -39,6 +39,8 @@ wheels_rear_size_in: '24'
 wheels_tire: Maxxis Hookworm (front) / Maxxis Rekon (rear)
 suspension_front: none
 suspension_rear: none
+motor_make: Yamaha
+motor_power_w: 250
 ---
 ## Momentum PakYak E+
 

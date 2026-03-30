@@ -23,9 +23,17 @@ battery_capacity_wh: 600
 range_estimate_km: 50-100
 price_amount: '4300'
 price_currency: EUR
-
+needs_research: true
+research_topics:
+- category
+- weight_with_battery_kg
+motor_torque_nm: 80
+load_capacity_total_kg: 80.0
+frame_material: CroMo steel
+brakes_type: hydraulic disc
+drivetrain_type: chain
+wheels_front_size_in: '24'
 ---
-
 ## Overview
 
 ![ÉVO Cani-taxi](https://www.oklo.bike/assets/uploads/2024/06/IMG_1248-EVO-Cani-taxi-big-longtail-bleu-packshot_1024x1024.jpg)

@@ -20,9 +20,19 @@ motor_power_w: 250
 battery_capacity_wh: 504
 price_amount: '5250'
 price_currency: EUR
-
+needs_research: true
+research_topics:
+- category
+- motor_make
+- motor_torque_nm
+- weight_with_battery_kg
+- load_capacity_total_kg
+- brakes_type
+- drivetrain_type
+- frame_material
+- range_estimate_km
+- wheels_front_size_in
 ---
-
 ## Douze V2 Shimano EP8 Cargo
 
 ![Douze V2 Shimano EP8 Cargo](https://vitrine.douze-cycles.com/wp-content/uploads/2023/04/couple.svg)

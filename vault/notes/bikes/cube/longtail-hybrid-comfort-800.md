@@ -74,9 +74,10 @@ price_currency: GBP
 specs_notes: Comfort version with Enviolo stepless hub gear system. No child seat
   included - optimized for cargo transport. One Size Concept fits riders 1.60m-1.90m
   (5'2"-6'2"). HIC front carrier compatible.
-
+needs_research: true
+research_topics:
+- range_estimate_km
 ---
-
 ## Overview
 
 ![Cube Longtail Hybrid Comfort 800](https://www.cube.eu/media/image/9f/39/89/122100_MY25_Longtail_Hybrid_Comfort_800_hazeanreflex_prod_1.jpg)

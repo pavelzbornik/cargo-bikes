@@ -33,6 +33,10 @@ motor_make: Bosch
 motor_torque_nm: 75
 brakes_type: disc
 drivetrain_type: chain
+weight_with_battery_kg: 42.0
+load_capacity_total_kg: 180.0
+frame_material: aluminum
+wheels_front_size_in: '24'
 ---
 ## Overview
 

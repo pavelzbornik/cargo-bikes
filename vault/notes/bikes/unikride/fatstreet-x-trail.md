@@ -32,6 +32,11 @@ wheels_front_size_in: '20'
 wheels_rear_size_in: '20'
 suspension_front: none
 suspension_rear: rear suspension
+needs_research: true
+research_topics:
+- category
+- weight_with_battery_kg
+- frame_material
 ---
 ## FATSTREET OPEN FRAME - X Trail
 

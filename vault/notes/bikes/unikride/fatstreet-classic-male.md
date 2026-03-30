@@ -33,6 +33,9 @@ wheels_front_size_in: '20'
 wheels_rear_size_in: '20'
 suspension_front: hydraulic
 suspension_rear: none
+needs_research: true
+research_topics:
+- weight_with_battery_kg
 ---
 ## Fat Street Classic - Two-seater Cargo Bike (Male)
 

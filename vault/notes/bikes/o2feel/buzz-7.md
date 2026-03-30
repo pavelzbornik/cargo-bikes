@@ -42,6 +42,10 @@ drivetrain_hub: Shimano Nexus 5E
 wheels_front_size_in: '20'
 wheels_rear_size_in: '20'
 wheels_tire: Mach1 Trucky 30
+needs_research: true
+research_topics:
+- motor_torque_nm
+- weight_with_battery_kg
 ---
 ## Overview
 

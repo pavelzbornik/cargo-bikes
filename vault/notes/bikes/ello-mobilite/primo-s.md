@@ -26,6 +26,17 @@ drivetrain_speeds: '5'
 drivetrain_hub: Shimano Nexus 5
 suspension_front: suspended fork
 suspension_rear: none
+needs_research: true
+research_topics:
+- motor_power_w
+- motor_torque_nm
+- battery_capacity_wh
+- price_amount
+- price_currency
+- weight_with_battery_kg
+- brakes_type
+- range_estimate_km
+- wheels_front_size_in
 ---
 ## Ello Mobilité Primo S
 

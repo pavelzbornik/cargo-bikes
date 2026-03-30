@@ -23,9 +23,17 @@ price_amount: '4499'
 price_currency: EUR
 specs_notes: Ultra-compact electric cargo bike with Bosch motor and maximum capacity-to-compactness
   ratio. Short wheelbase, dynamic handling. Sourced from manufacturer specifications.
-
+needs_research: true
+research_topics:
+- motor_torque_nm
+- battery_capacity_wh
+- weight_with_battery_kg
+- brakes_type
+- drivetrain_type
+- frame_material
+- range_estimate_km
+- wheels_front_size_in
 ---
-
 ## mini Boda Boda
 
 ![mini Boda Boda](https://yubabikes.eu/wp-content/uploads/2025/08/YUBA_MINI_BODA_BODA_JUILLET_25_ST_JORIOZ__HD-152-1-1.jpg)

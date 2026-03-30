@@ -24,6 +24,14 @@ category: compact
 brakes_type: hydraulic disc
 drivetrain_type: chain
 drivetrain_speeds: '7'
+needs_research: true
+research_topics:
+- motor_make
+- motor_torque_nm
+- weight_with_battery_kg
+- load_capacity_total_kg
+- frame_material
+- wheels_front_size_in
 ---
 ## FATSTREET FIRM FRAME - XS Compact
 

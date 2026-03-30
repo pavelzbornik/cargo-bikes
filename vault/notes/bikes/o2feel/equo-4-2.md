@@ -38,6 +38,9 @@ category: longtail
 motor_type: mid-drive
 motor_torque_nm: 85
 drivetrain_speeds: '10'
+needs_research: true
+research_topics:
+- motor_power_w
 ---
 ## Overview
 

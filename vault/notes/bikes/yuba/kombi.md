@@ -17,9 +17,19 @@ price_amount: '999'
 price_currency: EUR
 specs_notes: Non-electric pedal-powered compact cargo bike. Entry-level option for
   families on tight budgets. Sourced from manufacturer specifications.
-
+needs_research: true
+research_topics:
+- motor_make
+- motor_power_w
+- motor_torque_nm
+- battery_capacity_wh
+- weight_with_battery_kg
+- range_estimate_km
+frame_material: steel
+brakes_type: mechanical disc
+drivetrain_type: chain
+wheels_front_size_in: '24'
 ---
-
 ## Kombi
 
 ![Kombi](https://yubabikes.eu/wp-content/uploads/2024/10/Kombi-No-BG.png)

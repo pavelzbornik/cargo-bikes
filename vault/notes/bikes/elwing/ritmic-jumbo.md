@@ -23,6 +23,17 @@ battery_removable: true
 load_capacity_total_kg: 180.0
 load_capacity_passenger_count: 2
 suspension_rear: 'yes'
+needs_research: true
+research_topics:
+- weight_with_battery_kg
+motor_make: Bafang
+motor_power_w: 250
+motor_torque_nm: 80
+battery_capacity_wh: 691
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: chain
+wheels_front_size_in: '20'
 ---
 ## Elwing Ritmic Jumbo
 

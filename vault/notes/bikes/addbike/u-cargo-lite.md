@@ -25,9 +25,19 @@ resellers:
   availability: in-stock
 price_amount: '2990'
 price_currency: EUR
-
+category: longtail
+motor_make: Bafang
+motor_power_w: 250
+motor_torque_nm: 80
+battery_capacity_wh: 522
+weight_with_battery_kg: 31.0
+load_capacity_total_kg: 180.0
+range_estimate_km: '90'
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: chain
+wheels_front_size_in: '20'
 ---
-
 ## Overview
 
 ![U-Cargo Lite](https://add-bike.com/wp-content/uploads/2021/09/U-Cargo-Lite-Blanc_Vue-de-profil-2.jpg)

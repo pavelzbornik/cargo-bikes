@@ -40,6 +40,7 @@ wheels_rear_size_in: '24'
 wheels_tire: Schwalbe Pickup
 suspension_front: RST 50mm travel fork
 suspension_rear: none
+load_capacity_total_kg: 80.0
 ---
 ## Overview
 

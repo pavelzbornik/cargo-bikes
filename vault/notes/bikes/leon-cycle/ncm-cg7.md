@@ -20,9 +20,18 @@ battery_capacity_wh: 912
 range_estimate_km: '50'
 price_amount: '2699'
 price_currency: EUR
-
+needs_research: true
+research_topics:
+- motor_torque_nm
+category: longtail
+motor_make: Das-Kit
+weight_with_battery_kg: 37.0
+load_capacity_total_kg: 180.0
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: chain
+wheels_front_size_in: '20'
 ---
-
 ## NCM CG7
 
 ![NCM CG7](https://leoncycle.fr/cdn/shop/files/BLEU.webp)

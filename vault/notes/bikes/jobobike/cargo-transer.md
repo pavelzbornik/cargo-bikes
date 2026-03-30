@@ -19,9 +19,17 @@ motor_power_w: 250
 range_estimate_km: '80'
 price_amount: '2099'
 price_currency: EUR
-
+category: longtail
+motor_make: Bafang
+motor_torque_nm: 65
+battery_capacity_wh: 720
+weight_with_battery_kg: 33.0
+load_capacity_total_kg: 200.0
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: chain
+wheels_front_size_in: '20'
 ---
-
 ## Overview
 
 ![Jobobike Cargo Transer](https://www.mvebike.fr/images/imagecache/500x500/jpg/JOBOBike-Transer.jpg)

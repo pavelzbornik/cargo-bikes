@@ -39,6 +39,11 @@ wheels_rear_size_in: '20'
 wheels_tire: Schwalbe Pick-Up
 suspension_front: none
 suspension_rear: none
+needs_research: true
+research_topics:
+- motor_power_w
+- price_amount
+- price_currency
 ---
 ## Overview
 

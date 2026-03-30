@@ -18,9 +18,19 @@ motor_power_w: 250
 range_estimate_km: '80'
 price_amount: '2699'
 price_currency: EUR
-
+needs_research: true
+research_topics:
+- category
+- motor_make
+- motor_torque_nm
+- battery_capacity_wh
+- weight_with_battery_kg
+- load_capacity_total_kg
+- brakes_type
+- drivetrain_type
+- frame_material
+- wheels_front_size_in
 ---
-
 ## Overview
 
 ![Conor E-Cargo Berna](https://www.mvebike.fr/images/Image/CONOR-E-CARGO-BERNA.png)

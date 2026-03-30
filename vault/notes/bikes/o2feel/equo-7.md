@@ -30,9 +30,18 @@ battery_capacity_wh: 540
 range_estimate_km: '230'
 price_amount: '4799'
 price_currency: EUR
-
+needs_research: true
+research_topics:
+- category
+- motor_power_w
+- motor_torque_nm
+- weight_with_battery_kg
+- load_capacity_total_kg
+- brakes_type
+- drivetrain_type
+- frame_material
+- wheels_front_size_in
 ---
-
 ## Overview
 
 ![O2Feel Equo 7](https://www.o2feel.com/wp-content/uploads/2023/11/Equo-7-S2-1-Figaro-BP-1200x1200-1-800x800.jpg)

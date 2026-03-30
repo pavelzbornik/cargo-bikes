@@ -43,9 +43,10 @@ range_estimate_km: up to 150
 range_notes: optimal/ideal conditions
 price_amount: Premium range
 price_currency: EUR
-
+motor_power_w: 250
+motor_torque_nm: 85
+weight_with_battery_kg: 31.0
 ---
-
 ## Overview
 
 The Trek Fetch+ 2 is a premium American longtail electric cargo bike designed for families seeking robust cargo carrying with excellent performance. Featuring the advanced Bosch Performance Line CX motor and 500Wh battery, this bike delivers impressive range (up to 150 km) and responsive assistance. The aluminum frame construction, 20-inch Schwalbe tires, and comprehensive component spec make it suitable for varied terrain and weather conditions. Designed for North American markets with extensive accessory ecosystem available.

@@ -22,9 +22,18 @@ battery_capacity_wh: 720
 range_estimate_km: '100'
 price_amount: '1999'
 price_currency: EUR
-
+needs_research: true
+research_topics:
+- category
+- motor_make
+- motor_torque_nm
+- weight_with_battery_kg
+- load_capacity_total_kg
+- brakes_type
+- drivetrain_type
+- frame_material
+- wheels_front_size_in
 ---
-
 ## Moma E-COMPACTAIL
 
 ![Moma E-COMPACTAIL](https://cdn.shopify.com/s/files/1/0290/9382/2538/files/Compactail_00.jpg?width=800&crop=center)

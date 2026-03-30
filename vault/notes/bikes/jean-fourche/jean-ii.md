@@ -35,9 +35,16 @@ battery_capacity_wh: 518
 range_estimate_km: '70'
 price_amount: '2690'
 price_currency: EUR
-
+category: compact
+motor_make: Virvolt
+motor_torque_nm: 80
+weight_with_battery_kg: 27.0
+load_capacity_total_kg: 70.0
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: chain
+wheels_front_size_in: '24'
 ---
-
 ## Overview
 
 Jean Fourche II represents compact French manufacturing excellence at accessible pricing. Technically a "midtail" rather than full longtail (175 cm), it optimizes for urban maneuvering and lightweight handling while maintaining reasonable cargo capacity. Virvolt motor (electrification specialist) + Panasonic battery deliver reliable performance. Assembly and painting in France demonstrates local manufacturing commitment despite component sourcing.

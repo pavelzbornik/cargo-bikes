@@ -44,9 +44,12 @@ suspension_front: 'yes'
 suspension_rear: none
 range_estimate_km: 42-85
 price_amount: '3999'
-
+needs_research: true
+research_topics:
+- category
+- motor_power_w
+- price_currency
 ---
-
 ## Overview
 
 ![Quick Haul Long D9](https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2024-06/TN-photo-QuickHaulLong-D9-gen1-LR-profile-traffic_red-web.jpg.webp)

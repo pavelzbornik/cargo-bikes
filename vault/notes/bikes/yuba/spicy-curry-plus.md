@@ -36,9 +36,10 @@ price_amount: '5849'
 price_currency: EUR
 specs_notes: Migrated from legacy format. Premium longtail version with enhanced features
   and comfort upgrades.
-
+needs_research: true
+research_topics:
+- motor_torque_nm
 ---
-
 ## Spicy Curry+
 
 ![Spicy Curry+](https://yubabikes.eu/wp-content/uploads/2024/10/Spicy-Curry-True-Blue-No-BG.png)

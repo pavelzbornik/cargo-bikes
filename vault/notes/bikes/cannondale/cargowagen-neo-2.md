@@ -44,6 +44,8 @@ motor_model: Cargo Line
 motor_type: mid-drive
 battery_removable: true
 drivetrain_speeds: '10'
+motor_torque_nm: 85
+range_estimate_km: 55-100
 ---
 ## Cannondale Cargowagen Neo 2
 

@@ -36,9 +36,14 @@ price_amount: '3349'
 price_currency: EUR
 specs_notes: Premium compact electric cargo bike with Shimano E6100 motor (250W, 60Nm
   torque). Enhanced geometry and assist. Sourced from manufacturer specifications.
-
+needs_research: true
+research_topics:
+- weight_with_battery_kg
+- brakes_type
+- drivetrain_type
+- frame_material
+- wheels_front_size_in
 ---
-
 ## Kombi E6
 
 ![Kombi E6](https://yubabikes.eu/wp-content/uploads/2024/12/Kombi-E6-Black-No-BG.png)

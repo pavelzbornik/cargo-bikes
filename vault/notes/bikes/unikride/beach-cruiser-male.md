@@ -23,6 +23,14 @@ price_currency: EUR
 motor_make: Bafang
 brakes_type: hydraulic disc
 drivetrain_type: chain
+needs_research: true
+research_topics:
+- category
+- motor_torque_nm
+- weight_with_battery_kg
+- load_capacity_total_kg
+- frame_material
+- wheels_front_size_in
 ---
 ## BEACH CRUISER CLOSED FRAME - Male
 

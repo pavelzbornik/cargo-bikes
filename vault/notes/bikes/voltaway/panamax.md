@@ -30,6 +30,9 @@ drivetrain_type: chain
 drivetrain_speeds: '7'
 wheels_front_size_in: '24'
 wheels_rear_size_in: '20'
+needs_research: true
+research_topics:
+- weight_with_battery_kg
 ---
 ## Overview
 

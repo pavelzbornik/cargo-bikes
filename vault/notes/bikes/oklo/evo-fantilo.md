@@ -23,9 +23,17 @@ battery_capacity_wh: 600
 range_estimate_km: 50-100
 price_amount: '3970'
 price_currency: EUR
-
+needs_research: true
+research_topics:
+- load_capacity_total_kg
+category: longtail
+motor_torque_nm: 80
+weight_with_battery_kg: 42.6
+frame_material: chromoly steel
+brakes_type: hydraulic disc
+drivetrain_type: chain
+wheels_front_size_in: '24'
 ---
-
 ## Overview
 
 ![ÉVO Fantilo](https://www.oklo.bike/assets/uploads/2022/03/IMG_0820-EVO-Fantilo-longtail-elu-velo-cargo-de-l-annee-2024_1024x1204.jpg)

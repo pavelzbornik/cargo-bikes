@@ -76,9 +76,10 @@ price_currency: EUR
 specs_notes: Standard version with Shimano Cues 11-speed derailleur. Includes bench
   seat with safety accessories for child transport. One Size Concept fits riders 1.60m-1.90m
   (5'2"-6'2"). HIC front carrier compatible.
-
+needs_research: true
+research_topics:
+- range_estimate_km
 ---
-
 ## Overview
 
 ![Cube Longtail Hybrid Family 800](https://www.cube.eu/media/image/fb/b3/20/122250_MY25_Longtail_Hybrid_Family_800_royalgreenanblack_prod_1.jpg)

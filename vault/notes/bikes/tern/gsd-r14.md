@@ -30,9 +30,18 @@ motor_torque_nm: 85
 battery_capacity_wh: 800
 range_estimate_km: 67-144
 price_amount: '10200'
-
+needs_research: true
+research_topics:
+- category
+- motor_power_w
+- price_currency
+- weight_with_battery_kg
+- load_capacity_total_kg
+- brakes_type
+- drivetrain_type
+- frame_material
+- wheels_front_size_in
 ---
-
 ## Overview
 
 ![Tern GSD R14](https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_R14-gen3-iron_grey-profile-web.jpg.webp)

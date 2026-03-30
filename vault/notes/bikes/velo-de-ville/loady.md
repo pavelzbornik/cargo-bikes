@@ -21,9 +21,18 @@ battery_capacity_wh: 400
 range_estimate_km: '46'
 price_amount: '4399'
 price_currency: EUR
-
+needs_research: true
+research_topics:
+- category
+- motor_make
+- motor_torque_nm
+- weight_with_battery_kg
+- load_capacity_total_kg
+- brakes_type
+- drivetrain_type
+- frame_material
+- wheels_front_size_in
 ---
-
 ## Velo de Ville Loady
 
 ![Velo de Ville Loady](https://www.transitionvelo.com/content/uploads/2025/07/Velo-De-Ville-Loady-4-1024x576.jpg)

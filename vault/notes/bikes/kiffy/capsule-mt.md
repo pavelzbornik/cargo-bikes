@@ -21,9 +21,18 @@ battery_capacity_wh: 545
 range_estimate_km: 100-120
 price_amount: '5399'
 price_currency: EUR
-
+needs_research: true
+research_topics:
+- category
+- motor_power_w
+- motor_torque_nm
+- weight_with_battery_kg
+- load_capacity_total_kg
+- brakes_type
+- drivetrain_type
+- frame_material
+- wheels_front_size_in
 ---
-
 ## Overview
 
 **Status:** Kiffy ceased operations. This company filed for bankruptcy and no longer manufactures bikes. Information retained for historical reference only.

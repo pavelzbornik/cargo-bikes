@@ -32,6 +32,12 @@ wheels_front_size_in: '24'
 wheels_rear_size_in: '20'
 wheels_tire: Schwalbe Pick-up 65-406
 suspension_front: none
+needs_research: true
+research_topics:
+- weight_with_battery_kg
+- load_capacity_total_kg
+- frame_material
+- range_estimate_km
 ---
 ## Granville Longtail 545Wh
 

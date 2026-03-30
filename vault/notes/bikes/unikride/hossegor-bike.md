@@ -23,6 +23,15 @@ price_amount: '2499'
 price_currency: EUR
 motor_make: Bafang
 brakes_type: hydraulic disc
+needs_research: true
+research_topics:
+- category
+- motor_torque_nm
+- weight_with_battery_kg
+- load_capacity_total_kg
+- drivetrain_type
+- frame_material
+- wheels_front_size_in
 ---
 ## HOSSEGOR BIKE OPEN FRAME
 

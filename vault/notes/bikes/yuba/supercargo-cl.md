@@ -22,9 +22,16 @@ price_amount: '4849'
 price_currency: EUR
 specs_notes: Migrated from legacy format. Californian-style electric frontloader with
   distinctive front-load design.
-
+needs_research: true
+research_topics:
+- motor_make
+- motor_torque_nm
+- weight_with_battery_kg
+- brakes_type
+- drivetrain_type
+- frame_material
+- wheels_front_size_in
 ---
-
 ## Supercargo CL
 
 ## Overview

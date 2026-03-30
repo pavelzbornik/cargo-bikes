@@ -77,9 +77,8 @@ price_currency: EUR
 specs_notes: Comfort version with Enviolo stepless hub gear system. Includes bench
   seat with safety accessories for child transport. One Size Concept fits riders 1.60m-1.90m
   (5'2"-6'2"). HIC front carrier compatible.
-
+range_estimate_km: 75-100
 ---
-
 ## Overview
 
 ![Cube Longtail Hybrid Comfort Family 800](https://www.cube.eu/media/image/f6/8e/a8/122150_MY25_Longtail_Hybrid_Comfort_Family_800_hazeanreflex_prod_1.jpg)

@@ -26,6 +26,13 @@ motor_make: Bafang
 load_capacity_passenger_count: 2
 frame_material: steel
 brakes_type: hydraulic disc
+needs_research: true
+research_topics:
+- motor_torque_nm
+- weight_with_battery_kg
+- load_capacity_total_kg
+- drivetrain_type
+- wheels_front_size_in
 ---
 ## Longtail Electric Cargo Bike
 

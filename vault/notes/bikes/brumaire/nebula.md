@@ -36,6 +36,8 @@ drivetrain_speeds: '7'
 wheels_front_size_in: '24'
 wheels_rear_size_in: '24'
 suspension_front: none
+motor_torque_nm: 80
+frame_material: aluminum
 ---
 ## Overview
 

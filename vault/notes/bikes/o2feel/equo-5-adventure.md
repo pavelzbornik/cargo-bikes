@@ -44,6 +44,10 @@ wheels_rear_size_in: '20'
 wheels_tire: eContact Plus
 suspension_front: Suntour SP17 NCX
 suspension_rear: Suntour SP17 suspended seatpost
+needs_research: true
+research_topics:
+- motor_torque_nm
+- weight_with_battery_kg
 ---
 ## Overview
 

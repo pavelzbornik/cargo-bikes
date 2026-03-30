@@ -41,9 +41,10 @@ suspension_rear: none
 range_estimate_km: '230'
 price_amount: '3699'
 price_currency: EUR
-
+category: longtail
+motor_power_w: 250
+motor_torque_nm: 60
 ---
-
 ## Overview
 
 ![O2Feel Equo 3](https://www.o2feel.com/wp-content/uploads/2021/06/Equo-3-1-BP-1200x1200-1-800x800.jpg)

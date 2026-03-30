@@ -32,6 +32,8 @@ drivetrain_type: chain
 drivetrain_speeds: '7'
 wheels_front_size_in: '24'
 wheels_rear_size_in: '24'
+price_amount: '1799'
+price_currency: EUR
 ---
 ## Overview
 

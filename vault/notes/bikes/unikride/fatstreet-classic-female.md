@@ -33,6 +33,7 @@ wheels_front_size_in: '20'
 wheels_rear_size_in: '20'
 suspension_front: hydraulic
 suspension_rear: none
+weight_with_battery_kg: 28.0
 ---
 ## Fatstreet Classic - Two-seater Electric Cargo Bike (Female)
 
