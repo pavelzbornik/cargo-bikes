@@ -23,7 +23,7 @@ compatibility: Shimano STEPS
 ---
 # Shimano E5000
 
-The Shimano STEPS DU-E5000 is an entry-to-mid-level mid-drive motor from [[Shimano]]'s STEPS e-bike ecosystem. It is positioned as a quieter, lightweight option suited to city, trekking, and light cargo use. It sits below the [[Shimano E6100]], [[Shimano E7000]], and [[Shimano EP8]] in the STEPS lineup.
+The Shimano STEPS DU-E5000 is an entry-to-mid-level mid-drive motor from [Shimano](/components/motors/shimano.md)'s STEPS e-bike ecosystem. It is positioned as a quieter, lightweight option suited to city, trekking, and light cargo use. It sits below the [Shimano E6100](/components/motors/shimano-e6100.md), [Shimano E7000](/components/motors/shimano-e7000.md), and [[Shimano EP8]] in the STEPS lineup.
 
 ## Specifications
 
@@ -53,24 +53,24 @@ It does **not** support Di2 electronic shifting integration, which differentiate
 
 ## Bikes Using This Motor
 
-- [[Kombi E5]]
+- [Kombi E5](/bikes/yuba/kombi-e5.md)
 
 ## Position in the Shimano STEPS Lineup
 
 | Motor | Max Torque | Target Use |
 |---|---|---|
 | [[Shimano EP8]] | 85 Nm | Cargo / MTB / Performance |
-| [[Shimano E7000]] | 60 Nm | Trekking / Light Cargo |
-| [[Shimano E6100]] | 60 Nm | City / Trekking |
+| [Shimano E7000](/components/motors/shimano-e7000.md) | 60 Nm | Trekking / Light Cargo |
+| [Shimano E6100](/components/motors/shimano-e6100.md) | 60 Nm | City / Trekking |
 | **Shimano E5000** | **50 Nm** | **City / Light Cargo** |
 
 The E5000 trades peak torque for reduced weight and quieter operation, making it well suited to flatter urban terrain and lighter cargo loads where a softer, natural ride feel is prioritised over hill-climbing performance.
 
 ## Comparisons to Alternatives
 
-- **vs. [[Bosch Active Line Plus]]:** Both are city/cargo-oriented 250 W mid-drives. The Bosch unit offers similar torque (~50 Nm) with a more established cargo ecosystem; the E5000 is generally lighter and quieter.
+- **vs. [Bosch Active Line Plus](/components/motors/bosch-active-plus.md):** Both are city/cargo-oriented 250 W mid-drives. The Bosch unit offers similar torque (~50 Nm) with a more established cargo ecosystem; the E5000 is generally lighter and quieter.
 - **vs. [[Shimano EP8]]:** The EP8 provides 35 Nm more torque and Di2 integration, making it the preferred choice for heavy cargo bikes; the E5000 is a more economical option for lighter loads.
-- **vs. [[Bafang M400]]:** The Bafang unit offers higher peak torque at a lower price point, but the E5000 benefits from tighter Shimano drivetrain integration and refined cadence sensing.
+- **vs. [Bafang M400](/components/motors/bafang-m400.md):** The Bafang unit offers higher peak torque at a lower price point, but the E5000 benefits from tighter Shimano drivetrain integration and refined cadence sensing.
 
 ## Notes
 

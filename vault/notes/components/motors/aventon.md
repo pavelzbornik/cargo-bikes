@@ -40,7 +40,7 @@ Aventon produces and specifies motors across two main drivetrain architectures �
 
 | Application | Nominal Power | Peak Power | Torque | Used On |
 |---|---|---|---|---|
-| Cargo / Utility | 750W | 1188W | 80 Nm | [[Aventon Abound LR]] |
+| Cargo / Utility | 750W | 1188W | 80 Nm | [Aventon Abound LR](/bikes/aventon/abound-lr.md) |
 | Commuter / Lightweight | 250W–500W | 500–750W | — | Soltera 3, Pace series |
 
 The Abound LR's rear hub motor is paired with a torque sensor (internal), giving it smoother, more predictive power delivery compared to cadence-sensor hub setups. The bike ships as Class 2 (throttle + PAS to 20 mph) with an in-app Class 3 unlock (PAS to 25 mph).
@@ -59,7 +59,7 @@ The Ultro X, introduced with the Current eMTB series in March 2026, is Aventon's
 
 ## Market Position
 
-Aventon targets the value-performance segment of the e-bike market — competing against brands like [[Rad Power Bikes]], [[Lectric]], and [[Trek]] at various price points. Their cargo offering (Abound, Abound LR) slots into the sub-$2,500 category for long-tail cargo bikes, making them accessible alternatives to European cargo brands.
+Aventon targets the value-performance segment of the e-bike market — competing against brands like [Rad Power Bikes](/bikes/rad-power-bikes/index.md), [[Lectric]], and [Trek](/bikes/trek/index.md) at various price points. Their cargo offering (Abound, Abound LR) slots into the sub-$2,500 category for long-tail cargo bikes, making them accessible alternatives to European cargo brands.
 
 Key differentiators include:
 - App connectivity (Aventon app for class switching, ride data, motor tuning)
@@ -69,7 +69,7 @@ Key differentiators include:
 
 ## Bikes Using Aventon Motors
 
-- [[Aventon Abound LR]] — 750W rear hub, 80 Nm, 708Wh, long-tail cargo
+- [Aventon Abound LR](/bikes/aventon/abound-lr.md) — 750W rear hub, 80 Nm, 708Wh, long-tail cargo
 
 ## Notes
 

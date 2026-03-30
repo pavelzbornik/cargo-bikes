@@ -23,6 +23,8 @@ dependencies = [
     "anthropic>=0.40.0",
     "claude-agent-sdk>=0.1.0",
     "mkdocs-static-i18n>=1.0.0",
+    "mkdocs-wikilinks-plugin>=0.1.2",
+    "mkdocs-ezlinks-plugin>=0.1.14",
 ]
 
 [project.optional-dependencies]

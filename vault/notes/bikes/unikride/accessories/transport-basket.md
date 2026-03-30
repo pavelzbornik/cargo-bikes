@@ -21,7 +21,7 @@ generated_by: cargo-bikes-cli
 
 # Transport Basket
 
-The Transport Basket is a brand-specific front basket designed and manufactured by [[Unikride]] for use with their own cargo bike lineup. It provides a convenient and accessible storage solution for small cargo items, ideal for everyday errands, grocery runs, or carrying personal belongings on the go.
+The Transport Basket is a brand-specific front basket designed and manufactured by [Unikride](/bikes/unikride/index.md) for use with their own cargo bike lineup. It provides a convenient and accessible storage solution for small cargo items, ideal for everyday errands, grocery runs, or carrying personal belongings on the go.
 
 ## Description
 
@@ -37,11 +37,11 @@ The Transport Basket mounts to the front of compatible Unikride bikes, offering 
 
 ## Compatibility
 
-This basket is a **brand-specific accessory** designed exclusively for [[Unikride]] bikes. It is not a universal product and is not intended for use with other cargo bike brands.
+This basket is a **brand-specific accessory** designed exclusively for [Unikride](/bikes/unikride/index.md) bikes. It is not a universal product and is not intended for use with other cargo bike brands.
 
 | Compatible Bike | Notes |
 |---|---|
-| [[Fatstreet Classic - Two-seater electric cargo bike (Female)]] | Official Unikride front basket |
+| [Fatstreet Classic - Two-seater electric cargo bike (Female)](/bikes/unikride/fatstreet-classic-female.md) | Official Unikride front basket |
 
 ## Pricing
 

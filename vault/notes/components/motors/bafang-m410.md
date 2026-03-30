@@ -26,7 +26,7 @@ gear_sensor_input: true
 
 ## Overview
 
-The Bafang M410 is a mid-drive crank motor from [[Bafang]]'s M-series lineup, positioned as an accessible, cargo-capable drive unit suitable for longtail and utility e-bikes. It sits below the flagship [[Bafang M620]] (Ultra) in Bafang's hierarchy, offering a lighter and more compact package while still delivering meaningful torque for loaded riding.
+The Bafang M410 is a mid-drive crank motor from [Bafang](/components/motors/bafang.md)'s M-series lineup, positioned as an accessible, cargo-capable drive unit suitable for longtail and utility e-bikes. It sits below the flagship [[Bafang M620]] (Ultra) in Bafang's hierarchy, offering a lighter and more compact package while still delivering meaningful torque for loaded riding.
 
 ## Specs
 
@@ -48,7 +48,7 @@ The Bafang M410 is a mid-drive crank motor from [[Bafang]]'s M-series lineup, po
 
 ## Bikes Using This Motor
 
-- [[Oklö EVO Longtail]]
+- [Oklö EVO Longtail](/bikes/oklo/evo-longtail.md)
 
 ## Market Position
 
@@ -58,7 +58,7 @@ The M410 occupies Bafang's mid-range cargo segment — more refined than entry-l
 
 | Motor | Torque | Weight | Tier |
 |---|---|---|---|
-| [[Bafang M410]] | 80 Nm | ~3.5 kg | Mid |
+| [Bafang M410](/components/motors/bafang-m410.md) | 80 Nm | ~3.5 kg | Mid |
 | [[Bafang M620]] | 160 Nm | ~4.0 kg | High |
 | [[Bosch Performance Line Cargo]] | 85 Nm | ~3.2 kg | Mid |
 | [[Shimano EP6]] | 85 Nm | ~2.9 kg | Mid |
@@ -71,7 +71,7 @@ The M410 occupies Bafang's mid-range cargo segment — more refined than entry-l
 
 ## Related
 
-- [[Bafang]]
+- [Bafang](/components/motors/bafang.md)
 - [[Bafang M620]]
-- [[Oklö EVO Longtail]]
+- [Oklö EVO Longtail](/bikes/oklo/evo-longtail.md)
 - [[Motors MOC]]

@@ -48,7 +48,7 @@ The Bobike One Junior is a **universal** accessory, compatible with any bike fit
 
 ### Compatible Bikes (Confirmed)
 
-- [[Moma E-COMPACTAIL]]
+- [Moma E-COMPACTAIL](/bikes/moma-bikes/e-compactail.md)
 
 ## Pricing
 

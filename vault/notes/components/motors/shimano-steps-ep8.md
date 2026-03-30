@@ -46,7 +46,7 @@ The EP8-C variant is specifically tuned for the demands of cargo cycling — mod
 
 ## Key Specifications
 
-> Specs sourced from Shimano product documentation (training data, 2020–2024). Verify current figures at [[Shimano]] or the official STEPS product page.
+> Specs sourced from Shimano product documentation (training data, 2020–2024). Verify current figures at [Shimano](/components/motors/shimano.md) or the official STEPS product page.
 
 - **Motor type:** Mid-drive (bottom-bracket-mounted)
 - **Nominal power:** 250 W (EU legal limit)
@@ -69,18 +69,18 @@ The EP8-C variant is specifically tuned for the demands of cargo cycling — mod
 
 ## Bikes Using This Component
 
-- [[Xtracycle eSwoop]]
+- [Xtracycle eSwoop](/bikes/xtracycle/eswoop.md)
 
 ## Comparisons to Alternatives
 
 | Motor | Max Torque | Weight | Notes |
 |---|---|---|---|
 | Shimano EP8 | 85 Nm | 2.6 kg | Strong Di2 integration; tunable |
-| [[Bosch Performance Line CX]] | 85 Nm | 2.9 kg | Dominant cargo motor; eMTB mode |
+| [Bosch Performance Line CX](/components/motors/bosch-performance-line-cx.md) | 85 Nm | 2.9 kg | Dominant cargo motor; eMTB mode |
 | [[Brose Drive S Mag]] | 90 Nm | 2.9 kg | Smooth, natural feel; quiet |
 | [[Fazua Ride 60]] | 60 Nm | 1.96 kg | Lighter but lower torque ceiling |
 
-The EP8 is competitive on torque with the Bosch CX but is notably lighter. Its tighter integration with Shimano gearing (Di2 auto-shift via E-TUBE) is a meaningful advantage on multi-speed cargo builds like the [[Xtracycle eSwoop]].
+The EP8 is competitive on torque with the Bosch CX but is notably lighter. Its tighter integration with Shimano gearing (Di2 auto-shift via E-TUBE) is a meaningful advantage on multi-speed cargo builds like the [Xtracycle eSwoop](/bikes/xtracycle/eswoop.md).
 
 ## Notes
 
@@ -91,7 +91,7 @@ The EP8 is competitive on torque with the Bosch CX but is notably lighter. Its t
 
 ## Related Notes
 
-- [[Shimano]]
+- [Shimano](/components/motors/shimano.md)
 - [[Motors MOC]]
-- [[Xtracycle eSwoop]]
-- [[Bosch Performance Line CX]]
+- [Xtracycle eSwoop](/bikes/xtracycle/eswoop.md)
+- [Bosch Performance Line CX](/components/motors/bosch-performance-line-cx.md)

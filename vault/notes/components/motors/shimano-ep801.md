@@ -31,7 +31,7 @@ di2_compatible: true
 
 ## Overview
 
-The Shimano EP801 is a mid-drive motor unit within the [[Shimano]] STEPS platform, purpose-built for cargo and load-carrying e-bikes. It succeeds and extends the EP8 lineage with reinforced torque output and improved thermal management to handle the sustained, heavy-load demands of cargo cycling. The unit integrates directly with Shimano's Di2 electronic drivetrain ecosystem and is controlled via the SC-EM800 or compatible cycle computers.
+The Shimano EP801 is a mid-drive motor unit within the [Shimano](/components/motors/shimano.md) STEPS platform, purpose-built for cargo and load-carrying e-bikes. It succeeds and extends the EP8 lineage with reinforced torque output and improved thermal management to handle the sustained, heavy-load demands of cargo cycling. The unit integrates directly with Shimano's Di2 electronic drivetrain ecosystem and is controlled via the SC-EM800 or compatible cycle computers.
 
 ## Key Specifications
 
@@ -69,7 +69,7 @@ The EP801 is compatible with the Shimano STEPS battery range, including:
 
 ## Bikes Using This Component
 
-- [[Mundo EP801]]
+- [Mundo EP801](/bikes/yuba/mundo-ep801.md)
 
 ## Comparison to Alternatives
 
@@ -88,6 +88,6 @@ The EP801 is compatible with the Shimano STEPS battery range, including:
 
 ## Related Notes
 
-- [[Shimano]]
+- [Shimano](/components/motors/shimano.md)
 - [[Motors MOC]]
-- [[Mundo EP801]]
+- [Mundo EP801](/bikes/yuba/mundo-ep801.md)

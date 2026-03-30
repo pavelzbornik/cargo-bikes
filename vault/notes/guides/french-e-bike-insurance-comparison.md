@@ -59,5 +59,5 @@ All insurers require at least one certified U-lock attached to a fixed point. So
 
 ## References
 
-- [[Electric Cargo Bike Insurance]]
+- [Electric Cargo Bike Insurance](/guides/electric-cargo-bike-insurance.md)
 - [[Renting vs Buying Decision Framework]]

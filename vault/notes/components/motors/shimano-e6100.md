@@ -27,7 +27,7 @@ connectivity: E-tube (wired Di2 compatible)
 
 ## Overview
 
-The Shimano E6100 is a mid-drive motor unit from the [[Shimano]] STEPS lineup, targeted at urban, trekking, and light-duty cargo e-bikes. It succeeds the E7000 series, offering a more compact and refined package while retaining the core STEPS ecosystem compatibility. It sits below the higher-torque EP8 (MTB) and the cargo-dedicated E5080 in the STEPS hierarchy.
+The Shimano E6100 is a mid-drive motor unit from the [Shimano](/components/motors/shimano.md) STEPS lineup, targeted at urban, trekking, and light-duty cargo e-bikes. It succeeds the E7000 series, offering a more compact and refined package while retaining the core STEPS ecosystem compatibility. It sits below the higher-torque EP8 (MTB) and the cargo-dedicated E5080 in the STEPS hierarchy.
 
 ## Specifications
 
@@ -54,7 +54,7 @@ The Shimano E6100 is a mid-drive motor unit from the [[Shimano]] STEPS lineup, t
 
 ## Bikes Using This Motor
 
-- [[Kombi E6]]
+- [Kombi E6](/bikes/yuba/kombi-e6.md)
 
 ## Market Position
 
@@ -84,7 +84,7 @@ Its 60 Nm output is adequate for lightly loaded cargo bikes on moderate terrain,
 
 ## Related
 
-- [[Shimano]]
+- [Shimano](/components/motors/shimano.md)
 - [[Motors MOC]]
-- [[Kombi E6]]
+- [Kombi E6](/bikes/yuba/kombi-e6.md)
 - [[Shimano E5080]]

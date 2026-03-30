@@ -21,7 +21,7 @@ compatibility: Bosch Active Line System (Legacy & Smart System variants)
 ---
 # Bosch Active Line Plus
 
-The Bosch Active Line Plus (often referred to commercially as the Active Plus) is an entry-level mid-drive motor from [[Bosch]]'s eBike Systems portfolio. It sits above the base Active Line in the lineup, adding a cadence sensor for a more natural pedalling feel, while remaining below the Performance Line and [[Bosch]] Cargo Line units in terms of torque output and intended load capacity. It is well suited to compact urban cargo bikes and lighter-duty cargo applications.
+The Bosch Active Line Plus (often referred to commercially as the Active Plus) is an entry-level mid-drive motor from [Bosch](/components/motors/bosch.md)'s eBike Systems portfolio. It sits above the base Active Line in the lineup, adding a cadence sensor for a more natural pedalling feel, while remaining below the Performance Line and [Bosch](/components/motors/bosch.md) Cargo Line units in terms of torque output and intended load capacity. It is well suited to compact urban cargo bikes and lighter-duty cargo applications.
 
 ## Specifications
 
@@ -52,7 +52,7 @@ It is compatible with Bosch's range of displays and control units (Purion, Intuv
 
 ## Bikes Using This Component
 
-- [[Benno eJoy E]]
+- [Benno eJoy E](/bikes/benno/ejoy-e.md)
 
 ## Position in the Bosch Motor Lineup
 
@@ -67,7 +67,7 @@ It is compatible with Bosch's range of displays and control units (Purion, Intuv
 ## Comparisons to Alternatives
 
 - **vs. Shimano STEPS E5000** — Both are entry-level cadence-based mid-drives at 250 W / 50 Nm; Shimano offers broader drivetrain integration, Bosch has a wider display ecosystem.
-- **vs. Bosch Performance Line CX ([[Bosch]])** — The CX delivers 85 Nm via torque sensing and suits heavy cargo bikes; the Active Line Plus trades power for lighter weight and lower cost.
+- **vs. Bosch Performance Line CX ([Bosch](/components/motors/bosch.md))** — The CX delivers 85 Nm via torque sensing and suits heavy cargo bikes; the Active Line Plus trades power for lighter weight and lower cost.
 - **vs. Fazua Ride 60** — Fazua targets minimal weight and removable systems; Active Line Plus prioritises reliability and ecosystem breadth.
 
 ## Notes

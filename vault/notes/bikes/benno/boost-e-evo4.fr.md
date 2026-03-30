@@ -2,7 +2,7 @@
 
 ## Vue d'ensemble
 
-Le Benno Boost E EVO4 est un longtail électrique du fabricant allemand [[Benno Bikes]], équipé du dernier moteur [[Bosch Performance Line CX|Bosch Performance CX Generation 4]] avec un couple augmenté de 85Nm. Ce modèle associe confort, praticité et maniabilité grâce à la plateforme de conception Etility®, permettant des configurations cargo modulaires et une capacité totale pouvant atteindre 200kg. Idéal pour les familles urbaines et les professionnels de la livraison.
+Le Benno Boost E EVO4 est un longtail électrique du fabricant allemand [Benno Bikes](/bikes/benno/index.md), équipé du dernier moteur [Bosch Performance CX Generation 4](/components/motors/bosch-performance-line-cx.md) avec un couple augmenté de 85Nm. Ce modèle associe confort, praticité et maniabilité grâce à la plateforme de conception Etility®, permettant des configurations cargo modulaires et une capacité totale pouvant atteindre 200kg. Idéal pour les familles urbaines et les professionnels de la livraison.
 
 ## Caractéristiques techniques
 
@@ -31,7 +31,7 @@ Le Benno Boost E EVO4 est un longtail électrique du fabricant allemand [[Benno 
 
 ## Caractéristiques du vélo électrique
 
-- **Moteur** : [[Bosch Performance Line CX|Bosch Performance CX Gen 4]] avec un couple de 85Nm amélioré (augmentation de 20% par rapport à la Gen 3)
+- **Moteur** : [Bosch Performance CX Gen 4](/components/motors/bosch-performance-line-cx.md) avec un couple de 85Nm amélioré (augmentation de 20% par rapport à la Gen 3)
 - **Niveaux d'assistance** : 5 modes via l'écran [[Bosch Purion]] (Eco, Tour, Sport, eMTB, Turbo)
 - **Niveau d'assistance maximal** : 340% (amélioré par rapport à la Gen 3)
 - **Mode eMTB amélioré** : Meilleur contrôle sur les terrains difficiles avec des démarrages en côte plus fluides
@@ -51,7 +51,7 @@ Le Benno Boost E EVO4 est un longtail électrique du fabricant allemand [[Benno 
 - **Accélération** : Démarrages dynamiques en pente, notamment en mode eMTB
 - **Confort** : La géométrie longtail offre une stabilité exceptionnelle avec des charges variées
 - **Maniabilité** : Réactivité aux changements de terrain tout en conservant une bonne prévisibilité
-- **Freinage** : Les composants [[Shimano]] offrent une puissance d'arrêt fiable
+- **Freinage** : Les composants [Shimano](/components/motors/shimano.md) offrent une puissance d'arrêt fiable
 - **Autonomie** : 125km par charge, variable selon le terrain, le niveau d'assistance et la charge
 
 ## Capacité cargo et cas d'utilisation
@@ -88,7 +88,7 @@ Le Benno Boost E EVO4 est un longtail électrique du fabricant allemand [[Benno 
   - Recharger tous les 3 à 6 mois en cas de stockage longue durée
   - Éviter les températures inférieures à 0°C et supérieures à 45°C
   - Résistante à l'eau ; éviter l'immersion et les jets haute pression directs
-- **Moteur** : Le [[Bosch Performance Line CX|Bosch Performance CX Gen 4]] scellé nécessite uniquement un entretien de routine :
+- **Moteur** : Le [Bosch Performance CX Gen 4](/components/motors/bosch-performance-line-cx.md) scellé nécessite uniquement un entretien de routine :
   - Aucun service interne requis dans des conditions normales
   - Révision annuelle recommandée dans les centres de service agréés
   - Système Gen 4 amélioré : surveiller les mises à jour du firmware
@@ -97,7 +97,7 @@ Le Benno Boost E EVO4 est un longtail électrique du fabricant allemand [[Benno 
   - [[Shimano Deore|Shimano chaîne 10 vitesses]] : nettoyer tous les 200-400km, lubrifier régulièrement
   - Réglage du dérailleur : service professionnel recommandé en cas de patinage
   - Durée de vie de la cassette : 5000-8000km avec un entretien régulier
-- **Freins** : Freins à disque hydrauliques [[Shimano]]
+- **Freins** : Freins à disque hydrauliques [Shimano](/components/motors/shimano.md)
   - Remplacement des plaquettes : généralement tous les 500-1000km
   - Purge du liquide : service professionnel tous les 2 ans
   - Inspecter régulièrement les rotors pour détecter l'usure

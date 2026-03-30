@@ -62,5 +62,5 @@ Ownership typically becomes cheaper after **3-4 years** of regular use, assuming
 
 ## References
 
-- [[Electric Cargo Bike Insurance]]
-- [[French E-Bike Insurance Comparison]]
+- [Electric Cargo Bike Insurance](/guides/electric-cargo-bike-insurance.md)
+- [French E-Bike Insurance Comparison](/guides/french-e-bike-insurance-comparison.md)

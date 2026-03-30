@@ -38,8 +38,8 @@ The Petits repose-pieds are brand-specific footrests made by Gaya for use with t
 
 These footrests are designed specifically for Gaya L'Incroyable cargo bikes and are not intended for use with other brands or models. They are available for:
 
-- [[Gaya L'Incroyable Le Court]]
-- [[Gaya L'Incroyable Le Long]]
+- [Gaya L'Incroyable Le Court](/bikes/gaya/incroyable-le-court.md)
+- [Gaya L'Incroyable Le Long](/bikes/gaya/incroyable-le-long.md)
 
 ## Pricing
 

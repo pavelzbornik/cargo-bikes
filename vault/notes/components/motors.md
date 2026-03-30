@@ -29,13 +29,13 @@ A mid-drive motor sits at the heart of the bike, right where you pedal (the "bot
 
 The vast majority of cargo bikes in this vault use mid-drive motors — and for good reason. They tend to handle heavy loads well, feel natural underfoot, and keep the bike's weight balanced.
 
-**Examples in this vault:** [[Benno Boost E EVO4 500Wh]], [[Cube Longtail Hybrid 800]], [[Specialized Turbo Porto]], [[Xtracycle eSwoop]], [[Riese & Müller Multitinker Touring]]
+**Examples in this vault:** [Benno Boost E EVO4 500Wh](/bikes/benno/boost-e-evo4.md), [Cube Longtail Hybrid 800](/bikes/cube/longtail-hybrid-800.md), [Specialized Turbo Porto](/bikes/specialized/turbo-porto.md), [Xtracycle eSwoop](/bikes/xtracycle/eswoop.md), [Riese & Müller Multitinker Touring](/bikes/riese-muller/multitinker-touring.md)
 
 ### Hub Motors
 
 A hub motor lives inside the wheel itself — usually the rear wheel. It pushes the bike forward directly, independently of the gears. Hub motors tend to be simpler and can be less expensive, but they may feel less natural on steep hills compared to a mid-drive.
 
-**Examples in this vault:** [[Aventon Abound LR]], [[Gaya L'Incroyable Le Court]], [[Gaya L'Incroyable Le Long]]
+**Examples in this vault:** [Aventon Abound LR](/bikes/aventon/abound-lr.md), [Gaya L'Incroyable Le Court](/bikes/gaya/incroyable-le-court.md), [Gaya L'Incroyable Le Long](/bikes/gaya/incroyable-le-long.md)
 
 ---
 
@@ -56,45 +56,45 @@ For family cargo bikes, **torque often matters more than watts**. A 250W motor w
 
 Bosch is the most represented brand in this vault, with several distinct motor lines ranging from their everyday Active Plus to the high-performance Cargo Line and CX models.
 
-- The **Active Plus** (50Nm) found on the [[Benno eJoy E]] is a lighter-duty option suited to flatter routes and lighter loads.
-- The **Performance Sport Gen 3** (65Nm) on the [[Benno Boost 10D EVO 5 500Wh]] steps things up for more varied terrain.
-- The **Performance CX Gen 4** (85Nm) and **Cargo Line** (85Nm), found on the [[Benno Boost E EVO4 500Wh]] and [[Cube Longtail Hybrid 800]], are heavy-duty options built for serious cargo use.
-- The **Performance Line CX** (85Nm) on the [[Riese & Müller Multitinker Touring]] sits in the same tier.
-- The **Performance Line Gen5** (600W) on the [[Bike43 Short]] is notably the most powerful Bosch in the vault.
-- An unnamed **500W Bosch** motor is found on the [[mini Boda Boda]].
+- The **Active Plus** (50Nm) found on the [Benno eJoy E](/bikes/benno/ejoy-e.md) is a lighter-duty option suited to flatter routes and lighter loads.
+- The **Performance Sport Gen 3** (65Nm) on the [Benno Boost 10D EVO 5 500Wh](/bikes/benno/boost-10d-evo-5.md) steps things up for more varied terrain.
+- The **Performance CX Gen 4** (85Nm) and **Cargo Line** (85Nm), found on the [Benno Boost E EVO4 500Wh](/bikes/benno/boost-e-evo4.md) and [Cube Longtail Hybrid 800](/bikes/cube/longtail-hybrid-800.md), are heavy-duty options built for serious cargo use.
+- The **Performance Line CX** (85Nm) on the [Riese & Müller Multitinker Touring](/bikes/riese-muller/multitinker-touring.md) sits in the same tier.
+- The **Performance Line Gen5** (600W) on the [Bike43 Short](/bikes/bike43/short.md) is notably the most powerful Bosch in the vault.
+- An unnamed **500W Bosch** motor is found on the [mini Boda Boda](/bikes/yuba/mini-boda-boda.md).
 
 ### Shimano
 
 Shimano's STEPS lineup covers a wide range — from their entry-level E5000 to the powerful EP8 and EP801.
 
-- The **E5000** (40Nm) on the [[Kombi E5]] is the most modest Shimano option — fine for lighter use but less suited to steep hills with cargo.
-- The **E6100** (60Nm) on the [[Kombi E6]] and **E7000** (500W, 60Nm) on the [[FastRack]] offer a step up.
-- The **STEPS EP8** (85Nm) on the [[Xtracycle eSwoop]] and **EP6 Cargo** (85Nm) on the [[Peugeot e-Longtail]] are strong performers for loaded riding.
-- The **EP801** (500W) on the [[Mundo EP801]] is Shimano's high-power option in the vault.
+- The **E5000** (40Nm) on the [Kombi E5](/bikes/yuba/kombi-e5.md) is the most modest Shimano option — fine for lighter use but less suited to steep hills with cargo.
+- The **E6100** (60Nm) on the [Kombi E6](/bikes/yuba/kombi-e6.md) and **E7000** (500W, 60Nm) on the [FastRack](/bikes/yuba/fastrack.md) offer a step up.
+- The **STEPS EP8** (85Nm) on the [Xtracycle eSwoop](/bikes/xtracycle/eswoop.md) and **EP6 Cargo** (85Nm) on the [Peugeot e-Longtail](/bikes/peugeot/e-longtail.md) are strong performers for loaded riding.
+- The **EP801** (500W) on the [Mundo EP801](/bikes/yuba/mundo-ep801.md) is Shimano's high-power option in the vault.
 
 ### Bafang
 
 Bafang makes affordable, capable motors that appear on a couple of bikes here.
 
-- The **m400** (110Nm) on the [[e-cargo Longtail L20]] delivers the highest torque of any motor in this vault — impressive for a budget-friendly brand.
-- The **M410** (80Nm) on the [[Oklö EVO Longtail]] is also a solid performer.
-- An unnamed **500W / 65Nm** Bafang powers the [[OneSport OT30 Pro]].
+- The **m400** (110Nm) on the [e-cargo Longtail L20](/bikes/estarli/longtail-l20.md) delivers the highest torque of any motor in this vault — impressive for a budget-friendly brand.
+- The **M410** (80Nm) on the [Oklö EVO Longtail](/bikes/oklo/evo-longtail.md) is also a solid performer.
+- An unnamed **500W / 65Nm** Bafang powers the [OneSport OT30 Pro](/bikes/onesport/ot30-pro.md).
 
 ### Specialized
 
-The **Specialized 2.2 Cargo** (90Nm) on the [[Specialized Turbo Porto]] is a proprietary motor developed in-house. It delivers strong torque and is deeply integrated with the bike's software and display system.
+The **Specialized 2.2 Cargo** (90Nm) on the [Specialized Turbo Porto](/bikes/specialized/turbo-porto.md) is a proprietary motor developed in-house. It delivers strong torque and is deeply integrated with the bike's software and display system.
 
 ### Naka / Ananda
 
-The **Naka E-Power Max (Ananda M100)** on the [[Nakamura Crossover Longtail]] delivers 100Nm of torque — one of the highest figures in this vault — though its wattage is not listed in the available specs.
+The **Naka E-Power Max (Ananda M100)** on the [Nakamura Crossover Longtail](/bikes/nakamura/crossover-longtail.md) delivers 100Nm of torque — one of the highest figures in this vault — though its wattage is not listed in the available specs.
 
 ### Gaya
 
-The **Gaya rear wheel 250W** motor (50Nm) appears on both the [[Gaya L'Incroyable Le Court]] and [[Gaya L'Incroyable Le Long]]. As a hub-drive system, it is simpler in design and well-suited to flatter urban riding.
+The **Gaya rear wheel 250W** motor (50Nm) appears on both the [Gaya L'Incroyable Le Court](/bikes/gaya/incroyable-le-court.md) and [Gaya L'Incroyable Le Long](/bikes/gaya/incroyable-le-long.md). As a hub-drive system, it is simpler in design and well-suited to flatter urban riding.
 
 ### Aventon
 
-The **Aventon Direct Drive Hub Motor** (750W) on the [[Aventon Abound LR]] is the most powerful hub motor in the vault and one of the highest wattage motors overall — reflecting Aventon's North American market positioning, where higher-powered motors are more common.
+The **Aventon Direct Drive Hub Motor** (750W) on the [Aventon Abound LR](/bikes/aventon/abound-lr.md) is the most powerful hub motor in the vault and one of the highest wattage motors overall — reflecting Aventon's North American market positioning, where higher-powered motors are more common.
 
 ---
 
@@ -102,27 +102,27 @@ The **Aventon Direct Drive Hub Motor** (750W) on the [[Aventon Abound LR]] is th
 
 | Motor | Type | Power (W) | Torque (Nm) | Used On |
 |---|---|---|---|---|
-| Aventon Direct Drive Hub Motor | Rear-hub | 750 | — | [[Aventon Abound LR]] |
-| Bosch Performance Line Gen5 | Mid-drive | 600 | — | [[Bike43 Short]] |
-| Bosch (unnamed) | Mid-drive | 500 | — | [[mini Boda Boda]] |
-| Shimano EP801 | Mid-drive | 500 | — | [[Mundo EP801]] |
-| Shimano E7000 | Mid-drive | 500 | 60 | [[FastRack]] |
-| Bafang (unnamed) | Mid-drive | 500 | 65 | [[OneSport OT30 Pro]] |
-| Bafang m400 | Mid-drive | 250 | 110 | [[e-cargo Longtail L20]] |
-| Naka E-Power Max (Ananda M100) | Mid-drive | — | 100 | [[Nakamura Crossover Longtail]] |
-| Specialized 2.2 Cargo | Mid-drive | 250 | 90 | [[Specialized Turbo Porto]] |
-| Bosch Performance CX Gen 4 | Mid-drive | 250 | 85 | [[Benno Boost E EVO4 500Wh]] |
-| Bosch Cargo Line | Mid-drive | 250 | 85 | [[Cube Longtail Hybrid 800]] |
-| Bosch Performance Line CX | Mid-drive | 250 | 85 | [[Riese & Müller Multitinker Touring]] |
-| Shimano STEPS EP8 | Mid-drive | 250 | 85 | [[Xtracycle eSwoop]] |
-| Shimano EP6 Cargo | Mid-drive | 250 | 85 | [[Peugeot e-Longtail]] |
-| Bafang M410 | Mid-drive | 250 | 80 | [[Oklö EVO Longtail]] |
-| Bosch Performance Sport Gen 3 | Mid-drive | 250 | 65 | [[Benno Boost 10D EVO 5 500Wh]] |
-| Shimano E6100 | Mid-drive | 250 | 60 | [[Kombi E6]] |
-| Gaya rear wheel 250W | Rear-hub | 250 | 50 | [[Gaya L'Incroyable Le Court]] |
-| Gaya (unnamed) | Rear-hub | 250 | 50 | [[Gaya L'Incroyable Le Long]] |
-| Bosch Active Plus | Mid-drive | 250 | 50 | [[Benno eJoy E]] |
-| Shimano E5000 | Mid-drive | 250 | 40 | [[Kombi E5]] |
+| Aventon Direct Drive Hub Motor | Rear-hub | 750 | — | [Aventon Abound LR](/bikes/aventon/abound-lr.md) |
+| Bosch Performance Line Gen5 | Mid-drive | 600 | — | [Bike43 Short](/bikes/bike43/short.md) |
+| Bosch (unnamed) | Mid-drive | 500 | — | [mini Boda Boda](/bikes/yuba/mini-boda-boda.md) |
+| Shimano EP801 | Mid-drive | 500 | — | [Mundo EP801](/bikes/yuba/mundo-ep801.md) |
+| Shimano E7000 | Mid-drive | 500 | 60 | [FastRack](/bikes/yuba/fastrack.md) |
+| Bafang (unnamed) | Mid-drive | 500 | 65 | [OneSport OT30 Pro](/bikes/onesport/ot30-pro.md) |
+| Bafang m400 | Mid-drive | 250 | 110 | [e-cargo Longtail L20](/bikes/estarli/longtail-l20.md) |
+| Naka E-Power Max (Ananda M100) | Mid-drive | — | 100 | [Nakamura Crossover Longtail](/bikes/nakamura/crossover-longtail.md) |
+| Specialized 2.2 Cargo | Mid-drive | 250 | 90 | [Specialized Turbo Porto](/bikes/specialized/turbo-porto.md) |
+| Bosch Performance CX Gen 4 | Mid-drive | 250 | 85 | [Benno Boost E EVO4 500Wh](/bikes/benno/boost-e-evo4.md) |
+| Bosch Cargo Line | Mid-drive | 250 | 85 | [Cube Longtail Hybrid 800](/bikes/cube/longtail-hybrid-800.md) |
+| Bosch Performance Line CX | Mid-drive | 250 | 85 | [Riese & Müller Multitinker Touring](/bikes/riese-muller/multitinker-touring.md) |
+| Shimano STEPS EP8 | Mid-drive | 250 | 85 | [Xtracycle eSwoop](/bikes/xtracycle/eswoop.md) |
+| Shimano EP6 Cargo | Mid-drive | 250 | 85 | [Peugeot e-Longtail](/bikes/peugeot/e-longtail.md) |
+| Bafang M410 | Mid-drive | 250 | 80 | [Oklö EVO Longtail](/bikes/oklo/evo-longtail.md) |
+| Bosch Performance Sport Gen 3 | Mid-drive | 250 | 65 | [Benno Boost 10D EVO 5 500Wh](/bikes/benno/boost-10d-evo-5.md) |
+| Shimano E6100 | Mid-drive | 250 | 60 | [Kombi E6](/bikes/yuba/kombi-e6.md) |
+| Gaya rear wheel 250W | Rear-hub | 250 | 50 | [Gaya L'Incroyable Le Court](/bikes/gaya/incroyable-le-court.md) |
+| Gaya (unnamed) | Rear-hub | 250 | 50 | [Gaya L'Incroyable Le Long](/bikes/gaya/incroyable-le-long.md) |
+| Bosch Active Plus | Mid-drive | 250 | 50 | [Benno eJoy E](/bikes/benno/ejoy-e.md) |
+| Shimano E5000 | Mid-drive | 250 | 40 | [Kombi E5](/bikes/yuba/kombi-e5.md) |
 
 *— indicates data not available in vault specs.*
 

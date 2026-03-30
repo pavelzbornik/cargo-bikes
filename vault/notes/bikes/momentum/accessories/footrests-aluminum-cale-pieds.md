@@ -19,7 +19,7 @@ generated_by: cargo-bikes-cli
 
 # Footrests (aluminum cale-pieds)
 
-Brand-specific aluminum footrests designed by [[Momentum]] exclusively for use with their cargo e-bike lineup, notably the [[Momentum PakYak E+]]. These footrests provide a secure, ergonomic foot placement for child passengers riding on the cargo platform or rear deck.
+Brand-specific aluminum footrests designed by [Momentum](/bikes/momentum/index.md) exclusively for use with their cargo e-bike lineup, notably the [Momentum PakYak E+](/bikes/momentum/pakyak-e-plus.md). These footrests provide a secure, ergonomic foot placement for child passengers riding on the cargo platform or rear deck.
 
 ## Description
 
@@ -35,9 +35,9 @@ The Momentum aluminum footrests (cale-pieds) are purpose-built to integrate with
 
 ## Compatibility
 
-These footrests are designed specifically for [[Momentum]] cargo bikes and are not intended as a universal accessory. They are confirmed compatible with:
+These footrests are designed specifically for [Momentum](/bikes/momentum/index.md) cargo bikes and are not intended as a universal accessory. They are confirmed compatible with:
 
-- [[Momentum PakYak E+]]
+- [Momentum PakYak E+](/bikes/momentum/pakyak-e-plus.md)
 
 Always verify compatibility with your specific frame version or model year before purchasing, as fitment may vary across production runs.
 

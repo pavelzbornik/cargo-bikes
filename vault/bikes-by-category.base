@@ -1,12 +1,12 @@
 filters:
   and:
-    - type == "bike"
+    - 'type == "bike"'
 views:
   - type: table
-    name: Compact
+    name: "Compact"
     filters:
       and:
-        - category == "compact"
+        - 'category == "compact"'
     order:
       - title
       - brand
@@ -15,10 +15,10 @@ views:
       - load_capacity_total_kg
       - weight_bike_kg
   - type: table
-    name: Fat Bike
+    name: "Fat Bike"
     filters:
       and:
-        - category == "fat-bike"
+        - 'category == "fat-bike"'
     order:
       - title
       - brand
@@ -27,10 +27,10 @@ views:
       - load_capacity_total_kg
       - weight_bike_kg
   - type: table
-    name: Frontloader
+    name: "Frontloader"
     filters:
       and:
-        - category == "frontloader"
+        - 'category == "frontloader"'
     order:
       - title
       - brand
@@ -39,10 +39,10 @@ views:
       - load_capacity_total_kg
       - weight_bike_kg
   - type: table
-    name: Long Tail
+    name: "Long Tail"
     filters:
       and:
-        - category == "long-tail"
+        - 'category == "long-tail"'
     order:
       - title
       - brand
@@ -51,10 +51,10 @@ views:
       - load_capacity_total_kg
       - weight_bike_kg
   - type: table
-    name: Longtail
+    name: "Longtail"
     filters:
       and:
-        - category == "longtail"
+        - 'category == "longtail"'
     order:
       - title
       - brand
@@ -63,10 +63,10 @@ views:
       - load_capacity_total_kg
       - weight_bike_kg
   - type: table
-    name: Mid Tail
+    name: "Mid Tail"
     filters:
       and:
-        - category == "mid-tail"
+        - 'category == "mid-tail"'
     order:
       - title
       - brand
@@ -75,10 +75,10 @@ views:
       - load_capacity_total_kg
       - weight_bike_kg
   - type: table
-    name: Short Tail
+    name: "Short Tail"
     filters:
       and:
-        - category == "short-tail"
+        - 'category == "short-tail"'
     order:
       - title
       - brand
@@ -87,10 +87,10 @@ views:
       - load_capacity_total_kg
       - weight_bike_kg
   - type: table
-    name: Shorttail
+    name: "Shorttail"
     filters:
       and:
-        - category == "shorttail"
+        - 'category == "shorttail"'
     order:
       - title
       - brand
@@ -99,10 +99,10 @@ views:
       - load_capacity_total_kg
       - weight_bike_kg
   - type: table
-    name: Trike
+    name: "Trike"
     filters:
       and:
-        - category == "trike"
+        - 'category == "trike"'
     order:
       - title
       - brand

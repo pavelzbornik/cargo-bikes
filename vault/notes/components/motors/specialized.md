@@ -60,7 +60,7 @@ Specialized's motor philosophy centres on natural ride feel, low weight, and tig
 - Voltage: 36 V brushless mid-drive with belt transmission
 - Development partner: [[Brose]]
 - Paired battery: 710 Wh U2 integrated battery
-- Used on: [[Specialized Turbo Porto]]
+- Used on: [Specialized Turbo Porto](/bikes/specialized/turbo-porto.md)
 - Notes: Specialized claims it is the most powerful motor in the long-tail cargo e-bike category; three assist modes (Eco, Sport, Turbo)
 
 ### 3.1 (Full-Power eMTB)
@@ -80,7 +80,7 @@ Specialized occupies a premium, vertically integrated position in the e-bike mot
 
 ## Bikes Using Specialized Motors
 
-- [[Specialized Turbo Porto]] — 2.2 Cargo motor
+- [Specialized Turbo Porto](/bikes/specialized/turbo-porto.md) — 2.2 Cargo motor
 
 ## Sources
 

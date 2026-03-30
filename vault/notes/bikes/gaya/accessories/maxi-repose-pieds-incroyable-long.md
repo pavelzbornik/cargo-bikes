@@ -19,22 +19,22 @@ generated_by: cargo-bikes-cli
 
 # Maxi repose-pieds - Incroyable - Long
 
-Large footrests designed specifically for the [[Gaya L'Incroyable Le Long]] cargo bike. These maxi-sized footrests provide a secure and comfortable resting position for child passengers during rides.
+Large footrests designed specifically for the [Gaya L'Incroyable Le Long](/bikes/gaya/incroyable-le-long.md) cargo bike. These maxi-sized footrests provide a secure and comfortable resting position for child passengers during rides.
 
 ## Features
 
 - Maxi sizing for improved comfort and support for child passengers
-- Designed specifically to fit the [[Gaya L'Incroyable Le Long]] frame and seating area
+- Designed specifically to fit the [Gaya L'Incroyable Le Long](/bikes/gaya/incroyable-le-long.md) frame and seating area
 - Provides a stable footrest surface to improve passenger safety and comfort
 - Direct compatibility with Gaya's Long-format cargo bike geometry
 
 ## Compatibility
 
-This accessory is **brand-specific** and has been developed by [[Gaya]] exclusively for use with their Long-format cargo bike:
+This accessory is **brand-specific** and has been developed by [Gaya](/components/motors/gaya.md) exclusively for use with their Long-format cargo bike:
 
 | Bike | Compatible |
 |------|------------|
-| [[Gaya L'Incroyable Le Long]] | Yes |
+| [Gaya L'Incroyable Le Long](/bikes/gaya/incroyable-le-long.md) | Yes |
 
 > Note: These footrests are not designed for use with other cargo bike brands or non-Long Gaya models. Verify compatibility with your specific bike configuration before purchasing.
 
@@ -46,4 +46,4 @@ This accessory is **brand-specific** and has been developed by [[Gaya]] exclusiv
 
 ## Notes
 
-As a brand-specific accessory, the Maxi repose-pieds is engineered to integrate seamlessly with the [[Gaya L'Incroyable Le Long]], ensuring a proper fit without modification. Consult your [[Gaya]] dealer for installation guidance.
+As a brand-specific accessory, the Maxi repose-pieds is engineered to integrate seamlessly with the [Gaya L'Incroyable Le Long](/bikes/gaya/incroyable-le-long.md), ensuring a proper fit without modification. Consult your [Gaya](/components/motors/gaya.md) dealer for installation guidance.

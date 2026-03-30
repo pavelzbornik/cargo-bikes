@@ -37,9 +37,9 @@ This child seat/platform fits the front area of compatible Douze Hêta 2S models
 
 This accessory is brand-specific and is compatible only with the following Douze Cycles models:
 
-- [[Douze Hêta 2S 1×10]]
-- [[Douze Hêta 2S Di2]]
-- [[Douze Hêta 2S Enviolo]]
+- [Douze Hêta 2S 1×10](/bikes/douze-cycles/heta-2s-1x10.md)
+- [Douze Hêta 2S Di2](/bikes/douze-cycles/heta-2s-di2.md)
+- [Douze Hêta 2S Enviolo](/bikes/douze-cycles/heta-2s-enviolo.md)
 
 It is not compatible with cargo bikes from other manufacturers. Always verify the specific mounting requirements with your Douze Cycles dealer before purchase.
 

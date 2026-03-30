@@ -25,7 +25,7 @@ release_year: 2020
 ---
 # Bosch Performance Line Gen5
 
-A fifth-generation mid-drive motor from [[Bosch]], part of the Smart System platform. Released in 2020, it delivers 85 Nm of torque and is engineered for cargo, urban, and trail e-bike applications requiring reliable, low-noise assist.
+A fifth-generation mid-drive motor from [Bosch](/components/motors/bosch.md), part of the Smart System platform. Released in 2020, it delivers 85 Nm of torque and is engineered for cargo, urban, and trail e-bike applications requiring reliable, low-noise assist.
 
 ## Specifications
 
@@ -56,7 +56,7 @@ The Gen5 motor is exclusive to the **Bosch Smart System** platform and is not ba
 
 ## Bikes Using This Component
 
-- [[Bike43 Short]]
+- [Bike43 Short](/bikes/bike43/short.md)
 
 ## Comparisons to Alternatives
 
@@ -73,5 +73,5 @@ The Gen5 motor is exclusive to the **Bosch Smart System** platform and is not ba
 
 ## References
 
-- [[Bosch]]
+- [Bosch](/components/motors/bosch.md)
 - [[Motors MOC]]

@@ -24,7 +24,7 @@ emtb_mode: true
 ---
 # Bosch Performance CX Gen 4
 
-The Bosch Performance CX Gen 4 (BDU374Y) is a high-torque mid-drive motor aimed at performance e-bikes, cargo bikes, and e-MTBs. It belongs to the older **Bosch Classic+** ecosystem (pre-Smart System), making it compatible with displays such as the Intuvia, Nyon, Kiox, and Purion. It was widely adopted from approximately 2019 through 2022 before [[Bosch]] introduced the Smart System platform with the Gen 5.
+The Bosch Performance CX Gen 4 (BDU374Y) is a high-torque mid-drive motor aimed at performance e-bikes, cargo bikes, and e-MTBs. It belongs to the older **Bosch Classic+** ecosystem (pre-Smart System), making it compatible with displays such as the Intuvia, Nyon, Kiox, and Purion. It was widely adopted from approximately 2019 through 2022 before [Bosch](/components/motors/bosch.md) introduced the Smart System platform with the Gen 5.
 
 ## Specifications
 
@@ -42,7 +42,7 @@ The Bosch Performance CX Gen 4 (BDU374Y) is a high-torque mid-drive motor aimed 
 | Ecosystem | Bosch Classic+ |
 | Compatible Displays | Intuvia, Nyon (1st gen), Kiox, Purion |
 
-> Note: Specifications sourced from training data. Verify against official [[Bosch]] documentation for production tolerances.
+> Note: Specifications sourced from training data. Verify against official [Bosch](/components/motors/bosch.md) documentation for production tolerances.
 
 ## Assistance Modes
 
@@ -54,7 +54,7 @@ The Bosch Performance CX Gen 4 (BDU374Y) is a high-torque mid-drive motor aimed 
 
 ## Bikes Using This Component
 
-- [[Benno Boost E EVO4 500Wh]]
+- [Benno Boost E EVO4 500Wh](/bikes/benno/boost-e-evo4.md)
 
 ## Ecosystem Notes
 
@@ -71,13 +71,13 @@ The Gen 4 is part of the **Bosch Classic+** platform, which is a separate ecosys
 
 ## Notes
 
-- The Gen 4 designation ("4th generation CX") reflects [[Bosch]]'s internal hardware revision numbering and is commonly used in the industry to distinguish it from the Smart System Gen 5.
+- The Gen 4 designation ("4th generation CX") reflects [Bosch](/components/motors/bosch.md)'s internal hardware revision numbering and is commonly used in the industry to distinguish it from the Smart System Gen 5.
 - The eMTB mode was a notable addition to the CX line, originally introduced as a firmware update before being standard on Gen 4 hardware.
 - Many cargo bike manufacturers adopted the Gen 4 for its proven reliability and strong dealer support network during the 2019–2022 model years.
 
 ## Related
 
-- [[Bosch]]
+- [Bosch](/components/motors/bosch.md)
 - [[Bosch Performance CX Gen 5]]
 - [[Bosch PowerTube 500Wh]]
 - [[Bosch Classic+ Ecosystem]]

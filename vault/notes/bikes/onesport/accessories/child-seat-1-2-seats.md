@@ -20,7 +20,7 @@ generated_by: cargo-bikes-cli
 
 # Child Seat (1-2 seats)
 
-The Onesport Child Seat is a brand-specific accessory designed exclusively for the [[Onesport]] [[OneSport OT01]] cargo bike. It enables the rear cargo platform to accommodate one or two child seats, transforming the bike into a capable family transportation solution for daily use.
+The Onesport Child Seat is a brand-specific accessory designed exclusively for the [Onesport](/bikes/onesport/index.md) [OneSport OT01](/bikes/onesport/ot01.md) cargo bike. It enables the rear cargo platform to accommodate one or two child seats, transforming the bike into a capable family transportation solution for daily use.
 
 ## Description
 
@@ -38,7 +38,7 @@ Purpose-built for family transportation, this child seat configuration allows pa
 
 This accessory is brand-specific and designed exclusively for use with Onesport bikes. It is compatible with the following model:
 
-- [[OneSport OT01]]
+- [OneSport OT01](/bikes/onesport/ot01.md)
 
 As a brand-specific product, it is not intended for use with bikes from other manufacturers. Always confirm compatibility with your specific OT01 variant and verify that the total payload remains within the bike's rated maximum load capacity when seating two children.
 
@@ -59,9 +59,9 @@ Pricing ranges from approximately €100 to €300 depending on configuration (s
 
 | Field | Value | Reason |
 |---|---|---|
-| `manufacturer` | `"[[Onesport]]"` | Brand-specific — made by the bike manufacturer |
+| `manufacturer` | `"[Onesport](/bikes/onesport/index.md)"` | Brand-specific — made by the bike manufacturer |
 | `accessory_type` | `brand-specific` | Exclusive to Onesport bikes |
 | `price_amount` | `"100-300"` | String to capture the full range |
 | `price_currency` | `EUR` | Prices provided in euros |
-| `compatible_bikes` | `["[[OneSport OT01]]"]` | Only the OT01 was specified |
+| `compatible_bikes` | `["[OneSport OT01](/bikes/onesport/ot01.md)"]` | Only the OT01 was specified |
 | Path | `bikes/onesport/accessories/child-seat.md` | Matches existing Onesport accessory folder structure |

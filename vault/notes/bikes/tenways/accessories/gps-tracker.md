@@ -24,7 +24,7 @@ A brand-specific GPS tracking solution designed exclusively for Tenways cargo bi
 
 ## Description
 
-The GPS Tracker is included as a built-in feature of the [[TENWAYS Longtail Duo]], paired with a 1-year Smart Connect service subscription. It enables real-time location tracking and remote monitoring of the bike via the Tenways companion app. This accessory is not sold separately as a standalone aftermarket product — it is a factory-integrated component specific to the Tenways ecosystem.
+The GPS Tracker is included as a built-in feature of the [TENWAYS Longtail Duo](/bikes/tenways/longtail-duo.md), paired with a 1-year Smart Connect service subscription. It enables real-time location tracking and remote monitoring of the bike via the Tenways companion app. This accessory is not sold separately as a standalone aftermarket product — it is a factory-integrated component specific to the Tenways ecosystem.
 
 ## Features
 
@@ -41,8 +41,8 @@ This GPS Tracker and its associated Smart Connect service are designed specifica
 | Field | Detail |
 |---|---|
 | Accessory Type | Brand-Specific |
-| Manufacturer | [[Tenways]] |
-| Included With | [[TENWAYS Longtail Duo]] |
+| Manufacturer | [Tenways](/bikes/tenways/index.md) |
+| Included With | [TENWAYS Longtail Duo](/bikes/tenways/longtail-duo.md) |
 | Service Period | 1 year (Smart Connect) |
 | Price | Included with bike |
 

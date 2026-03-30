@@ -20,7 +20,7 @@ generated_by: cargo-bikes-cli
 
 # Adult foot pegs
 
-Brand-specific foot pegs designed by [[Douze Cycles]] for use on their cargo bikes, allowing an additional adult passenger to ride comfortably and safely.
+Brand-specific foot pegs designed by [Douze Cycles](/bikes/douze-cycles/index.md) for use on their cargo bikes, allowing an additional adult passenger to ride comfortably and safely.
 
 ## Description
 
@@ -28,7 +28,7 @@ The Douze Cycles Adult foot pegs provide a dedicated footrest solution for addit
 
 ## Features
 
-- Designed specifically for [[Douze Cycles]] cargo bikes
+- Designed specifically for [Douze Cycles](/bikes/douze-cycles/index.md) cargo bikes
 - Sturdy footrest platform for additional passengers
 - Integrates with the Douze frame mounting points
 - Supports carrying an adult or larger child as a passenger
@@ -36,16 +36,16 @@ The Douze Cycles Adult foot pegs provide a dedicated footrest solution for addit
 
 ## Compatibility
 
-This accessory is **brand-specific** and designed exclusively for [[Douze Cycles]] cargo bikes. It is not a universal accessory and may not be compatible with other cargo bike brands.
+This accessory is **brand-specific** and designed exclusively for [Douze Cycles](/bikes/douze-cycles/index.md) cargo bikes. It is not a universal accessory and may not be compatible with other cargo bike brands.
 
 | Bike | Compatible |
 |------|-----------|
-| [[Douze V2 Bafang M500]] | Yes |
+| [Douze V2 Bafang M500](/bikes/douze-cycles/v2-bafang-m500.md) | Yes |
 
 ## Notes
 
 - Intended for use with additional passengers, not cargo
-- Check with [[Douze Cycles]] or an authorised dealer for fitment details and current pricing under their Passenger package
+- Check with [Douze Cycles](/bikes/douze-cycles/index.md) or an authorised dealer for fitment details and current pricing under their Passenger package
 - Always ensure passengers use appropriate safety measures when riding
 
 ## Sources

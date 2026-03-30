@@ -1,10 +1,10 @@
 filters:
   or:
-    - type == "brand"
-    - type == "brand-index"
+    - 'type == "brand"'
+    - 'type == "brand-index"'
 views:
   - type: table
-    name: All Brands
+    name: "All Brands"
     order:
       - title
       - country
@@ -14,7 +14,7 @@ views:
       - categories
       - regions
   - type: cards
-    name: Brand Cards
+    name: "Brand Cards"
     order:
       - title
       - logo

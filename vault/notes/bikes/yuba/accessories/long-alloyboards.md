@@ -19,7 +19,7 @@ generated_by: cargo-bikes-cli
 
 # Long Alloyboards
 
-The Yuba Long Alloyboards are brand-specific sideboards designed exclusively for the [[Spicy Curry+]] longtail cargo bike. They extend the usable cargo area of the rear deck, making it easier to secure and contain larger, bulkier loads during transport.
+The Yuba Long Alloyboards are brand-specific sideboards designed exclusively for the [Spicy Curry+](/bikes/yuba/spicy-curry-plus.md) longtail cargo bike. They extend the usable cargo area of the rear deck, making it easier to secure and contain larger, bulkier loads during transport.
 
 ## Description
 
@@ -29,14 +29,14 @@ The Long Alloyboards are aluminium sideboards that mount along the sides of the 
 
 - Extended side cargo containment for the rear deck
 - Aluminium alloy construction for durability and low weight
-- Designed to integrate seamlessly with the [[Spicy Curry+]] frame and deck
+- Designed to integrate seamlessly with the [Spicy Curry+](/bikes/yuba/spicy-curry-plus.md) frame and deck
 - Increases effective cargo volume without adding significant weight
 - Helps secure panniers, bags, crates, and loose items
 - Compatible with Yuba's broader accessory ecosystem on the Spicy Curry+
 
 ## Compatibility
 
-The Long Alloyboards are a **brand-specific accessory** manufactured by [[Yuba]] and designed specifically for the [[Spicy Curry+]] longtail cargo bike. They are not designed or guaranteed to fit other cargo bike brands or models.
+The Long Alloyboards are a **brand-specific accessory** manufactured by [Yuba](/bikes/yuba/index.md) and designed specifically for the [Spicy Curry+](/bikes/yuba/spicy-curry-plus.md) longtail cargo bike. They are not designed or guaranteed to fit other cargo bike brands or models.
 
 ## Pricing
 
@@ -46,4 +46,4 @@ The Long Alloyboards are a **brand-specific accessory** manufactured by [[Yuba]]
 
 ## Notes
 
-As a brand-specific accessory, the Long Alloyboards are best purchased directly through [[Yuba]] or an authorised Yuba dealer to ensure correct fitment and compatibility with the [[Spicy Curry+]].
+As a brand-specific accessory, the Long Alloyboards are best purchased directly through [Yuba](/bikes/yuba/index.md) or an authorised Yuba dealer to ensure correct fitment and compatibility with the [Spicy Curry+](/bikes/yuba/spicy-curry-plus.md).

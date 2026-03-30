@@ -1,7 +1,6 @@
 {
-  "useMarkdownLinks": false,
-  "newFileLocation": "folder",
-  "newFileFolderPath": "notes",
-  "attachmentFolderPath": "Attachments",
-  "showUnsupportedFiles": false
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newFileFolderPath": "/",
+  "attachmentFolderPath": "Attachments"
 }

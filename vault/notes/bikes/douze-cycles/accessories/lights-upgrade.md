@@ -19,7 +19,7 @@ generated_by: cargo-bikes-cli
 
 # Lights Upgrade
 
-A brand-specific lighting upgrade developed by [[Douze Cycles]] for their own cargo bike lineup. Designed to integrate cleanly with the frame geometry and electrical architecture of Douze Cycles models, this upgrade enhances rider visibility in low-light and adverse conditions.
+A brand-specific lighting upgrade developed by [Douze Cycles](/bikes/douze-cycles/index.md) for their own cargo bike lineup. Designed to integrate cleanly with the frame geometry and electrical architecture of Douze Cycles models, this upgrade enhances rider visibility in low-light and adverse conditions.
 
 ## Description
 
@@ -35,11 +35,11 @@ Enhanced visibility through improved front and/or rear lighting output. As a bra
 
 ## Compatibility
 
-This accessory is designed specifically for [[Douze Cycles]] bikes and is not guaranteed to fit third-party cargo bike frames.
+This accessory is designed specifically for [Douze Cycles](/bikes/douze-cycles/index.md) bikes and is not guaranteed to fit third-party cargo bike frames.
 
 | Bike | Compatible |
 |------|------------|
-| [[Douze Cycles LT1]] | Yes |
+| [Douze Cycles LT1](/bikes/douze-cycles/lt1.md) | Yes |
 
 ## Pricing
 
@@ -47,10 +47,10 @@ This accessory is designed specifically for [[Douze Cycles]] bikes and is not gu
 |----------|-------------|
 | EUR | €40 – €80 |
 
-Pricing may vary depending on the specific lighting variant (front only, rear only, or combined kit). Contact your [[Douze Cycles]] dealer for current availability and exact pricing.
+Pricing may vary depending on the specific lighting variant (front only, rear only, or combined kit). Contact your [Douze Cycles](/bikes/douze-cycles/index.md) dealer for current availability and exact pricing.
 
 ## Notes
 
 - Installation is recommended by a qualified bike mechanic to ensure correct wiring and mounting
 - Check local regulations for minimum lumen requirements for cargo bikes
-- Replacement bulbs or LED modules should be sourced from [[Douze Cycles]] authorised stockists to maintain compatibility
+- Replacement bulbs or LED modules should be sourced from [Douze Cycles](/bikes/douze-cycles/index.md) authorised stockists to maintain compatibility

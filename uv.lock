@@ -111,6 +111,7 @@ dependencies = [
     { name = "anthropic" },
     { name = "claude-agent-sdk" },
     { name = "mkdocs" },
+    { name = "mkdocs-ezlinks-plugin" },
     { name = "mkdocs-git-authors-plugin" },
     { name = "mkdocs-git-revision-date-plugin" },
     { name = "mkdocs-glightbox" },
@@ -121,6 +122,7 @@ dependencies = [
     { name = "mkdocs-section-index" },
     { name = "mkdocs-static-i18n" },
     { name = "mkdocs-table-reader-plugin" },
+    { name = "mkdocs-wikilinks-plugin" },
     { name = "pyyaml" },
     { name = "requests" },
     { name = "rich" },
@@ -145,6 +147,7 @@ requires-dist = [
     { name = "anthropic", specifier = ">=0.40.0" },
     { name = "claude-agent-sdk", specifier = ">=0.1.0" },
     { name = "mkdocs", specifier = ">=1.5.0" },
+    { name = "mkdocs-ezlinks-plugin", specifier = ">=0.1.14" },
     { name = "mkdocs-git-authors-plugin", specifier = ">=0.3" },
     { name = "mkdocs-git-revision-date-plugin", specifier = ">=0.3" },
     { name = "mkdocs-glightbox", specifier = ">=0.3" },
@@ -155,6 +158,7 @@ requires-dist = [
     { name = "mkdocs-section-index", specifier = ">=0.3" },
     { name = "mkdocs-static-i18n", specifier = ">=1.0.0" },
     { name = "mkdocs-table-reader-plugin", specifier = ">=2.0" },
+    { name = "mkdocs-wikilinks-plugin", specifier = ">=0.1.2" },
     { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.14.0" },
     { name = "pre-commit-uv", marker = "extra == 'dev'", specifier = ">=4.2.0" },
     { name = "pytest", marker = "extra == 'dev'", specifier = ">=7.0" },
@@ -1130,6 +1134,16 @@ wheels = [
 ]
 
 [[package]]
+name = "mkdocs-ezlinks-plugin"
+version = "0.1.14"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "mkdocs" },
+    { name = "pygtrie" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/9a/3b/490d1b51fba7da69394e5a17f2c081eb65a10fb73565dc6793d53e4e4206/mkdocs-ezlinks-plugin-0.1.14.tar.gz", hash = "sha256:3e2085c16a850e022393e80194c17612e7b55de87fb45b3ffb618b5dfdb10811", size = 13366 }
+
+[[package]]
 name = "mkdocs-get-deps"
 version = "0.2.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1290,6 +1304,19 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/a1/1b/ca35e4b51a1814924153f7c8afa5a9c2f961688a9c275fa9f4afe7f5083a/mkdocs_table_reader_plugin-3.1.0.tar.gz", hash = "sha256:eb15688ee8c0cd1a842f506f18973b87be22bd7baa5e2e551089de6b7f9ec25b", size = 12510 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b3/6f/dcc966874f74f8580b99d2ffecbdc85dfd00c4a5039fedbee4ddd7fc8c7f/mkdocs_table_reader_plugin-3.1.0-py3-none-any.whl", hash = "sha256:50a1302661c14d96b90ba0434ae96110441e0c653ce23559e3c6911fe79e7bd2", size = 10564 },
+]
+
+[[package]]
+name = "mkdocs-wikilinks-plugin"
+version = "0.1.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "mkdocs" },
+    { name = "pygtrie" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/17/1f/1229d42def623d1a2a03e233a06789a858aee94441428a7c18322154124e/mkdocs_wikilinks_plugin-0.1.2.tar.gz", hash = "sha256:4256b69ef586bec3166e70d16561c969571ab3f1580b823e89e1a85be3997503", size = 10391 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/3f/d8/d4f08af8762c41c2478e3303038f02b518d010d5c0975630e390a84fa58b/mkdocs_wikilinks_plugin-0.1.2-py3-none-any.whl", hash = "sha256:b562002d055e8d493eeb04ad26727190cb75b68f754e699b0fa5ab0d23884c5c", size = 11796 },
 ]
 
 [[package]]
@@ -1828,6 +1855,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/b0/77/a5b8c569bf593b0140bde72ea885a803b82086995367bf2037de0159d924/pygments-2.19.2.tar.gz", hash = "sha256:636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887", size = 4968631 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/c7/21/705964c7812476f378728bdf590ca4b771ec72385c533964653c68e86bdc/pygments-2.19.2-py3-none-any.whl", hash = "sha256:86540386c03d588bb81d44bc3928634ff26449851e99741617ecb9037ee5ec0b", size = 1225217 },
+]
+
+[[package]]
+name = "pygtrie"
+version = "2.5.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/b9/13/55deec25bf09383216fa7f1dfcdbfca40a04aa00b6d15a5cbf25af8fce5f/pygtrie-2.5.0.tar.gz", hash = "sha256:203514ad826eb403dab1d2e2ddd034e0d1534bbe4dbe0213bb0593f66beba4e2", size = 39266 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ec/cd/bd196b2cf014afb1009de8b0f05ecd54011d881944e62763f3c1b1e8ef37/pygtrie-2.5.0-py3-none-any.whl", hash = "sha256:8795cda8105493d5ae159a5bef313ff13156c5d4d72feddefacaad59f8c8ce16", size = 25099 },
 ]
 
 [[package]]

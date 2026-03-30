@@ -106,6 +106,17 @@ def bike_markers(
         print("\nDRY RUN: No changes were written.")
 
 
+@app.command("fix-links")
+def fix_links(
+    vault_path: Path = typer.Option(Path("vault"), help="Path to vault root"),
+    dry_run: bool = typer.Option(False, help="Show what would be changed"),
+) -> None:
+    """Convert [[wikilinks]] to markdown links for MkDocs compatibility."""
+    from cargo_bikes.generate.links import fix_all_links
+
+    fix_all_links(vault_path=vault_path, dry_run=dry_run)
+
+
 @app.command("bases")
 def bases(
     vault_path: Path = typer.Option(Path("vault"), help="Path to vault root"),

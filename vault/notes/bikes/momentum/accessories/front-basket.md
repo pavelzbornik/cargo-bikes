@@ -20,7 +20,7 @@ generated_by: cargo-bikes-cli
 
 # Front Basket
 
-A brand-specific front basket designed for the [[Momentum PakYak E+]] cargo bike. Manufactured by [[Momentum]] as part of its official accessory lineup, this basket is included with the bike and is engineered to integrate seamlessly with the front end of the PakYak platform.
+A brand-specific front basket designed for the [Momentum PakYak E+](/bikes/momentum/pakyak-e-plus.md) cargo bike. Manufactured by [Momentum](/bikes/momentum/index.md) as part of its official accessory lineup, this basket is included with the bike and is engineered to integrate seamlessly with the front end of the PakYak platform.
 
 ## Description
 
@@ -36,13 +36,13 @@ The Front Basket is a sturdy, removable cargo basket mounted at the front of the
 
 ## Compatibility
 
-This basket is designed specifically for the [[Momentum PakYak E+]] and is part of Momentum's official accessory ecosystem. It is not marketed as a universal or third-party accessory and may not be compatible with other cargo bike brands or models without modification.
+This basket is designed specifically for the [Momentum PakYak E+](/bikes/momentum/pakyak-e-plus.md) and is part of Momentum's official accessory ecosystem. It is not marketed as a universal or third-party accessory and may not be compatible with other cargo bike brands or models without modification.
 
 | Bike | Compatible |
 |------|------------|
-| [[Momentum PakYak E+]] | Yes |
+| [Momentum PakYak E+](/bikes/momentum/pakyak-e-plus.md) | Yes |
 ```
 
 ---
 
-The note uses `price_amount: 0` with a `price_note: Included with bike` field to clearly convey the "Included" pricing without leaving the numeric field blank. All frontmatter is flat (no nesting), manufacturer points to `[[Momentum]]` as the bike brand, and `accessory_type` is set to `brand-specific`. Let me know if you'd like any adjustments!
+The note uses `price_amount: 0` with a `price_note: Included with bike` field to clearly convey the "Included" pricing without leaving the numeric field blank. All frontmatter is flat (no nesting), manufacturer points to `[Momentum](/bikes/momentum/index.md)` as the bike brand, and `accessory_type` is set to `brand-specific`. Let me know if you'd like any adjustments!

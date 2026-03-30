@@ -25,7 +25,7 @@ variants:
 ---
 # Bosch Cargo Line
 
-The Bosch Cargo Line is a mid-drive motor purpose-built for cargo bikes and heavy-load e-bikes. Introduced at Eurobike 2021 and shipping on production bikes from the 2022 model year, it is the first dedicated cargo motor in [[Bosch]]'s lineup and runs exclusively on the Smart System (Gen 4) platform. It is designed for sustained torque delivery under heavy payloads, distinguishing it from the sport-focused Performance Line CX.
+The Bosch Cargo Line is a mid-drive motor purpose-built for cargo bikes and heavy-load e-bikes. Introduced at Eurobike 2021 and shipping on production bikes from the 2022 model year, it is the first dedicated cargo motor in [Bosch](/components/motors/bosch.md)'s lineup and runs exclusively on the Smart System (Gen 4) platform. It is designed for sustained torque delivery under heavy payloads, distinguishing it from the sport-focused Performance Line CX.
 
 ## Variants
 
@@ -87,13 +87,13 @@ Smart System components communicate over a proprietary CAN bus and are not backw
 
 ## Bikes Using This Component
 
-- [[Cube Longtail Hybrid 800]]
-- [[Cube Longtail Hybrid Comfort 800]]
-- [[Cube Longtail Hybrid Comfort Family 800]]
-- [[Cube Longtail Hybrid Family 800]]
-- [[Boda Boda]]
-- [[Spicy Curry+]]
-- [[Spicy Curry]]
+- [Cube Longtail Hybrid 800](/bikes/cube/longtail-hybrid-800.md)
+- [Cube Longtail Hybrid Comfort 800](/bikes/cube/longtail-hybrid-comfort-800.md)
+- [Cube Longtail Hybrid Comfort Family 800](/bikes/cube/longtail-hybrid-comfort-family-800.md)
+- [Cube Longtail Hybrid Family 800](/bikes/cube/longtail-hybrid-family-800.md)
+- [Boda Boda](/bikes/yuba/boda-boda.md)
+- [Spicy Curry+](/bikes/yuba/spicy-curry-plus.md)
+- [Spicy Curry](/bikes/yuba/spicy-curry.md)
 
 ## Comparison: Cargo Line vs. Performance Line CX
 
@@ -113,5 +113,5 @@ The Cargo Line prioritises continuous torque at low cadences for laden cargo bik
 
 ## See Also
 
-- [[Bosch]]
+- [Bosch](/components/motors/bosch.md)
 - [[Motors MOC]]

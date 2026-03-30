@@ -19,7 +19,7 @@ generated_by: cargo-bikes-cli
 
 # Urban Arrow Pet Carrier
 
-A brand-specific pet transport accessory designed by Urban Arrow for use with their longtail cargo bikes, including the [[Urban Arrow Breeze]]. Built to integrate directly with the Breeze's rear cargo platform, it provides a secure and ventilated space for transporting cats, small dogs, and other small animals.
+A brand-specific pet transport accessory designed by Urban Arrow for use with their longtail cargo bikes, including the [Urban Arrow Breeze](/bikes/urban-arrow/breeze.md). Built to integrate directly with the Breeze's rear cargo platform, it provides a secure and ventilated space for transporting cats, small dogs, and other small animals.
 
 ## Description
 
@@ -41,7 +41,7 @@ The Urban Arrow Pet Carrier is engineered specifically for Urban Arrow's longtai
 
 | Bike | Compatible |
 |------|-----------|
-| [[Urban Arrow Breeze]] | Yes |
+| [Urban Arrow Breeze](/bikes/urban-arrow/breeze.md) | Yes |
 
 This accessory is brand-specific and was developed by Urban Arrow exclusively for their own longtail models. It is **not** a universal carrier and will not fit other cargo bike platforms (e.g. Tern GSD, Yuba, Riese & Muller longtails) without modification.
 

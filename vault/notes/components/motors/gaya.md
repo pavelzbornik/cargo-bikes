@@ -31,9 +31,9 @@ Gaya uses proprietary **rear-wheel hub motors** rated at 250W, compliant with EU
 
 ## Models in Vault
 
-- [[Gaya L'Original Le Long]]
-- [[Le Cargo]]
-- [[Gaya L'Incroyable Le Long]]
+- [Gaya L'Original Le Long](/bikes/gaya/original-le-long.md)
+- [Le Cargo](/bikes/gaya/le-cargo.md)
+- [Gaya L'Incroyable Le Long](/bikes/gaya/incroyable-le-long.md)
 
 ## Market Position
 
