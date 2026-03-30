@@ -79,6 +79,8 @@ specs_notes: Performance Sport variant with 65Nm torque. Also available in Perfo
 
 ## Overview
 
+![Benno Boost 10D EVO 5 500Wh](https://www.ovelo.fr/46051-thickbox_default/-boost-10d-evo-5-500wh.jpg)
+
 The Benno Boost 10D EVO 5 is a German-engineered electric longtail cargo bike designed with practical utility in mind. Since 2015, Benno Bikes has focused on comfort, practicality, and maneuverability. The Boost platform uses their signature "Etility®" design, allowing the bike to serve multiple purposes through modular accessory compatibility. This model features Bosch Performance Line motor technology and can carry up to 200kg total.
 
 ## Technical Specifications

@@ -70,6 +70,8 @@ specs_notes: Entry-level electric longtail with Bosch Active Plus motor. Designe
 
 ## Overview
 
+![Benno eJoy E](https://bennobikes.com/wp-content/uploads/benno_ejoy_2020_with-sketch_overlay_people_sl1.jpg)
+
 The BENNO eJoy E is an affordable electric longtail from BENNO, featuring Bosch Active Plus motor technology at an entry-level price point. It's designed for urban families seeking reliable cargo transport without premium pricing. With a smaller 400Wh battery and lower torque (50Nm) compared to the Boost series, it prioritizes affordability and simplicity for city commuting and light cargo duties.
 
 ## Technical Specifications

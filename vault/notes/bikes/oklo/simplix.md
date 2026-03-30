@@ -25,6 +25,8 @@ price_currency: EUR
 
 ## Overview
 
+![Simplix](https://www.oklo.bike/assets/uploads/2025/09/Simplix-3D-profil-droit-sans-perspective-1024x1024-1.jpg)
+
 The OKLÖ Simplix is an ultra-compact, lightweight mini cargo bike designed for simplicity and practicality. It bridges the gap between a regular bike and a full-size cargo bike, offering modularity without complexity. Simplix comes in three versions: mechanical (no motor), Éco (250Wh battery), and Plus (380Wh battery). It's perfect for urban commuting, shopping, transporting children, pets, or any combination of these uses.
 
 **Key Philosophy:** Simple, robust, light, and durable. Refractory to unnecessary technology, but fully practical.

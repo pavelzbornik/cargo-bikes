@@ -27,6 +27,8 @@ price_currency: EUR
 
 ## Moma E-COMPACTAIL
 
+![Moma E-COMPACTAIL](https://cdn.shopify.com/s/files/1/0290/9382/2538/files/Compactail_00.jpg?width=800&crop=center)
+
 Compact yet versatile cargo bike designed for urban explorers seeking agility, stability, and the ability to transport children or cargo with ease.
 
 ## Overview

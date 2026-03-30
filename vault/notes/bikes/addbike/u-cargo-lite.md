@@ -30,6 +30,8 @@ price_currency: EUR
 
 ## Overview
 
+![U-Cargo Lite](https://add-bike.com/wp-content/uploads/2021/09/U-Cargo-Lite-Blanc_Vue-de-profil-2.jpg)
+
 The ADDBIKE U-Cargo Lite is a lightweight version of the U-Cargo Family, designed for those seeking a smaller, more maneuverable front-loading cargo bike for urban environments.
 
 ## Technical Specifications

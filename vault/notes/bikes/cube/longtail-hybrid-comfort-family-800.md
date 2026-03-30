@@ -82,6 +82,8 @@ specs_notes: Comfort version with Enviolo stepless hub gear system. Includes ben
 
 ## Overview
 
+![Cube Longtail Hybrid Comfort Family 800](https://www.cube.eu/media/image/f6/8e/a8/122150_MY25_Longtail_Hybrid_Comfort_Family_800_hazeanreflex_prod_1.jpg)
+
 The Cube Longtail Hybrid Comfort Family 800 is a premium family cargo bike that combines clever CUBE design with Bosch Cargo Line power. Built around a sturdy longtail frame with comfort-focused geometry, it comes ready-equipped with a bench seat, side protection, and stepboards for safe child transport. With a 200kg total load capacity and 800Wh battery, it's designed to replace the car for family trips, school runs, and daily adventures.
 
 ## Technical Specifications

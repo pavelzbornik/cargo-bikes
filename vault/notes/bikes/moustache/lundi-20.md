@@ -57,6 +57,8 @@ suspension_front: none
 ---
 ## Overview
 
+![Moustache Lundi 20](https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJwYXRoIjoibW91c3RhY2hlLWJpa2VzXC9maWxlXC9Tc1haUERHTm1vQXBKSm1BUkdMeC5qcGcifQ:moustache-bikes:RhNjVvQjm4JezvflsUP0VjpkeoLCvN3AZZGVHHdv2vs?width=1500)
+
 The Moustache Lundi 20 represents excellent French engineering in the longtail segment. Assembled in the Vosges, it combines Bosch, Magura, and Shimano components at a significantly reduced price (recent drop from 5,699€ to 4,499€). The semi-open frame design and full-size 20" wheels create an elegant, highly maneuverable platform ideal for European urban environments.
 
 ## Technical Specifications

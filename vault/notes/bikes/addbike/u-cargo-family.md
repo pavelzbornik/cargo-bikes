@@ -31,6 +31,8 @@ price_currency: EUR
 
 ## Overview
 
+![U-Cargo Family](https://add-bike.com/wp-content/uploads/2025/09/Velo-longtail-U-Cargo-Family-Blanc.webp)
+
 The ADDBIKE U-Cargo Family is a premium front-loading family cargo bike designed for carrying multiple children and cargo with stability and ease. Available in multiple color variants including white, green, blue, and red.
 
 ## Technical Specifications

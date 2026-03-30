@@ -49,6 +49,8 @@ price_amount: 5290€
 
 ## Overview
 
+![Bike43 Mid](https://bike43.com/app/uploads/2025/07/Video-SuperPower-Pivotable-Bench-Kit-1024x830.jpg)
+
 The Bike43 Mid is the versatile centerpiece of the Bike43 family lineup, designed for families with 2-3 children. At 186 cm, it offers significantly more rear cargo space than the Short while remaining maneuverable. The Mid can be converted to the Short model, making it highly adaptable as your family's needs change.
 
 ## Technical Specifications

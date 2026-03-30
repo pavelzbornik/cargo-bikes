@@ -49,6 +49,8 @@ price_amount: '3999'
 
 ## Overview
 
+![Quick Haul Long D9](https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2024-06/TN-photo-QuickHaulLong-D9-gen1-LR-profile-traffic_red-web.jpg.webp)
+
 The **Tern Quick Haul Long D9** is a compact, purpose-built cargo e-bike designed for families who need to safely carry two children or haul significant cargo without requiring a lengthy bike. Unlike traditional longtails that add 40+ cm to bike length, the Quick Haul Long maintains a compact profile comparable to a regular bicycle while offering exceptional cargo and passenger capacity of up to 190 kg (419 lb) maximum gross vehicle weight.
 
 The D9 represents the entry-level configuration of the Quick Haul Long platform, featuring Bosch's industry-leading Cargo Line motor system with a 400 Wh battery and intuitive Purion display. This model combines ease of use, proven reliability, and everyday practicality for families transitioning from car-based errands to active cargo bike transportation.

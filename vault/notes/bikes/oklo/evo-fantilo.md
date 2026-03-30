@@ -28,6 +28,8 @@ price_currency: EUR
 
 ## Overview
 
+![ÉVO Fantilo](https://www.oklo.bike/assets/uploads/2022/03/IMG_0820-EVO-Fantilo-longtail-elu-velo-cargo-de-l-annee-2024_1024x1204.jpg)
+
 The OKLÖ ÉVO Fantilo is a premium electric family cargo bike **elected Cargo Bike of the Year 2024** among 46 candidates from 33 different brands. Designed for versatile family transportation, it excels at carrying 1-3 passengers or combining child seats with front cargo. Available in compact (1 rear passenger) or longtail (2 rear passengers) versions. The Fantilo is the ultimate urban family workhorse, combining comfort, safety, robustness, and ease of use with an elegant, timeless design.
 
 **Key Philosophy:** "Simplify your daily family life." A truly polyvalent family vehicle that adapts to every family situation and stage.

@@ -35,6 +35,8 @@ price_amount: '5800'
 
 ## Overview
 
+![Tern GSD P10](https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_P10-gen3-satin-beige-profile-web.jpg.webp)
+
 The Tern GSD P10 is the entry-level model in the Generation 3 GSD family, offering excellent value for families seeking a reliable cargo bike without premium features or costs. The P10 designation indicates its Shimano 1×10 derailleur transmission paired with a basic (non-smart) Bosch display. This compact 185 cm electric cargo bike maintains the GSD's impressive 210 kg maximum gross vehicle weight rating while providing dependable performance for urban families on a budget, making it an ideal first-time cargo e-bike purchase.
 
 ## Technical Specifications

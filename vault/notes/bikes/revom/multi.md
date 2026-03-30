@@ -24,6 +24,8 @@ price_currency: EUR
 
 ## Overview
 
+![Revom Multi](https://www.mvebike.fr/images/Image/REVOM-MULTI.png)
+
 The Revom Multi is a modular electric cargo bike designed for urban transportation flexibility. Its innovative modular frame platform allows customization for different cargo configurations, making it ideal for users with varying transport needs.
 
 ## Technical Specifications

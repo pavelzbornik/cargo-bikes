@@ -81,6 +81,8 @@ specs_notes: 'Premium German engineering. Available in three variants: Touring (
 
 ## Riese & Müller Multitinker Touring
 
+![Riese & Müller Multitinker Touring](https://www.riesemüller.com/)
+
 Riese & Müller's Multitinker represents 30 years of German cargo bike expertise compressed into a compact, nimble longtail. The company's philosophy—quality and durability above all—is evident in every weld and component selection.
 
 ## Overview

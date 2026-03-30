@@ -86,6 +86,8 @@ specs_notes: French-made steel frame with innovative Fantilo front child seat. B
 
 ## Oklö EVO Longtail
 
+![Oklö EVO Longtail](https://www.oklobiking.com/)
+
 Oklö is the emerging French cargo bike brand (since 2018) challenging European makers from Annecy, Haute-Savoie. Their EVO Longtail brings innovative French design to the premium longtail segment with a revolutionary front child seating system.
 
 ## Overview

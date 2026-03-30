@@ -41,6 +41,8 @@ specs_notes: Compact electric cargo bike with Shimano E7000 motor (500W, 60Nm to
 
 ## Overview
 
+![FastRack](https://yubabikes.eu/wp-content/uploads/2025/01/YUBA_Bikes_Fastrack_3_4Sideview_Espresso_Studio_WEB.jpg)
+
 The FastRack combines smooth handling and compact design to create the perfect city cargo bike. With its powerful electric motor and versatile rack system, it's the ideal solution for urban professionals and families who need reliability and style.
 
 ## Technical Specifications

@@ -35,6 +35,8 @@ price_amount: '10200'
 
 ## Overview
 
+![Tern GSD R14](https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_R14-gen3-iron_grey-profile-web.jpg.webp)
+
 The Tern GSD R14 is the top-tier model in the new Generation 3 GSD family, designed as a premium electric cargo bike for families seeking maximum versatility and smart features. This compact yet spacious design maintains a manageable 185 cm length while delivering an impressive 210 kg maximum gross vehicle weight rating (MGVWR). The R14 designation indicates its Rohloff 14-speed electronic hub transmission, offering unparalleled range and reliability for urban and suburban family transport.
 
 ## Technical Specifications

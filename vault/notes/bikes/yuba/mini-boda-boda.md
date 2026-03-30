@@ -28,6 +28,8 @@ specs_notes: Ultra-compact electric cargo bike with Bosch motor and maximum capa
 
 ## mini Boda Boda
 
+![mini Boda Boda](https://yubabikes.eu/wp-content/uploads/2025/08/YUBA_MINI_BODA_BODA_JUILLET_25_ST_JORIOZ__HD-152-1-1.jpg)
+
 The mini Boda Boda is Yuba's ultra-compact cargo bike. It delivers the same DNA as its larger sibling with a more nimble, space-efficient design that makes it perfect for navigating tight urban environments while still offering impressive cargo capacity.
 
 ## Overview

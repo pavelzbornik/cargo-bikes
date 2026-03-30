@@ -66,6 +66,8 @@ frame_length_cm: 199.0
 ---
 ## Overview
 
+![Gaya L'Incroyable Le Long](https://gaya.bike/api/medias/api/images/file/L'Incroyable,%20Le%20Long%20-%20Amande%201080x720-1000x667.webp)
+
 L'Incroyable Le Long is GAYA's premium long-tail cargo e-bike, offering the ultimate in comfort and family functionality. With dual suspension, integrated GPS security, and adjustable controls, it's the most feature-rich model for transporting passengers and cargo. Perfect for families and those seeking maximum comfort on urban cargo journeys.
 
 ## Technical Specifications

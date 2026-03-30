@@ -81,6 +81,8 @@ specs_notes: Standard version with Shimano Cues 11-speed derailleur. Includes be
 
 ## Overview
 
+![Cube Longtail Hybrid Family 800](https://www.cube.eu/media/image/fb/b3/20/122250_MY25_Longtail_Hybrid_Family_800_royalgreenanblack_prod_1.jpg)
+
 The Cube Longtail Hybrid Family 800 is a versatile family cargo bike that makes transporting kids from A to B simpler and more fun. Equipped with a comfortable bench seat, side protection, and stepboards, it's ready for safe child transport right out of the box. Powered by Bosch's Cargo Line motor with an 800Wh battery and featuring Shimano Cues 11-speed gears, it combines clever CUBE design with practical functionality for modern, environmentally-friendly family mobility.
 
 ## Technical Specifications

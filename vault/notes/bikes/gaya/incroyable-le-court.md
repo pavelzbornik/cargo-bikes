@@ -66,6 +66,8 @@ price_currency: EUR
 
 ## Overview
 
+![Gaya L'Incroyable Le Court](https://gaya.bike/api/medias/api/images/file/Incroyable%20-%20Le%20Court%20-%20Ardoise%20-%20Color%20Swatcher%20Cropped-1000x663.webp)
+
 L'Incroyable Le Court is the premium short-tail cargo e-bike from GAYA, designed for maximum comfort and convenience. Featuring dual front and rear suspension, adjustable stem and seatpost, and integrated GPS security, it's GAYA's most comfortable model. Ideal for solo or duo commuting with a focus on ride quality and safety features.
 
 ## Technical Specifications

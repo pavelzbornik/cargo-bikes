@@ -42,6 +42,8 @@ suspension_rear: none
 ---
 ## Overview
 
+![Tern GSD P00](https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_P00-gen3-schoolbus-profile-web.jpg.webp)
+
 The Tern GSD P00 is a premium model in the Generation 3 GSD family, offering excellent value for families seeking a belt-drive cargo bike without smart connectivity. The P00 designation indicates its Enviolo continuously variable transmission paired with a Bosch standard display. This compact 185 cm electric cargo bike combines the GSD's impressive 210 kg maximum gross vehicle weight rating with the reliability and low-maintenance advantages of Gates belt drive, making it ideal for users who prioritize simplicity and durability over advanced smart features.
 
 ## Technical Specifications

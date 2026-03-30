@@ -37,6 +37,8 @@ wheels_tire: UrbanFat 20"x3.0"
 ---
 ## Overview
 
+![Gitane G-Life Longtail](https://www.cyclesgitane.fr/images/asset/YmlrZXMveXNnNTk1LXZlcnRvbGl2ZS0xNzQ3MTY5MTc4LndlYnA/ysg595-vertolive-1747169178.webp?p=xs)
+
 The Gitane G-Life Longtail is a premium French-manufactured electric longtail cargo bike, part of Gitane's contemporary G-Life collection. Built on Gitane's heritage of 250 passionate engineers and decades of cycling expertise, this model is specifically optimized for urban cargo transport and family use. It features Shimano's STEPS EP6 Cargo mid-drive motor system with 85Nm torque and an integrated 504Wh battery, designed to excel when transporting children, pets, and goods through city streets and challenging hills.
 
 ## Technical Specifications

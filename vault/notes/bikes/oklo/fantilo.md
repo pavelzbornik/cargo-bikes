@@ -23,6 +23,8 @@ category: longtail
 ---
 ## Overview
 
+![Fantilo Bleu](https://www.oklo.bike/assets/uploads/2022/03/IMG_0820-EVO-Fantilo-longtail-elu-velo-cargo-de-l-annee-2024_1024x1204-600x600.jpg)
+
 The OKLÖ Fantilo is a premium family electric longtail cargo bike designed for carrying multiple children and cargo in comfort. This is the highest-priced model in the OKLÖ range, offering superior build quality and features.
 
 ## Technical Specifications

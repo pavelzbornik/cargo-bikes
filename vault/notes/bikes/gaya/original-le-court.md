@@ -56,6 +56,8 @@ price_currency: EUR
 
 ## Overview
 
+![Gaya L'Original Le Court](https://gaya.bike/api/medias/api/images/file/GAYA_COURT_BLEU%20NUIT%20(1)%201%20(3)%20(1)-1000x663.webp)
+
 The L'Original Le Court is the most accessible cargo e-bike in Gaya's lineup, perfect for solo or duo rides. It represents the redesign of Gaya's iconic model, incorporating feedback from over 10,000 customers. The bike combines comfort, visibility, adaptability, and security for both solo riders and those carrying a passenger.
 
 **Positioning:** Entry-level cargo e-bike; perfect for urban commuting with one additional person or child.

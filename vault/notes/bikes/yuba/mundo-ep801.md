@@ -34,6 +34,8 @@ specs_notes: Electric longtail minivan with Shimano EP801 motor (500W). Carries 
 
 ## Mundo EP801
 
+![Mundo EP801](https://yubabikes.eu/wp-content/uploads/2024/10/Yuba_Bikes_Mundo_EP8_Sand_Closeup_Battery_Shimano_Logo_Deflopilator.jpg)
+
 ## Overview
 
 The Mundo EP801 is your electric cargo bike minivan, ready for any adventure. This longtail cargo bike offers generous capacity for families who want to transport multiple passengers and cargo on one bike.

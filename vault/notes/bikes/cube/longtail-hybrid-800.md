@@ -83,6 +83,8 @@ specs_notes: Standard version with Shimano Cues 11-speed derailleur. No child se
 
 ## Overview
 
+![Cube Longtail Hybrid 800](https://www.cube.eu/media/image/20/70/49/122200_MY25_Longtail_Hybrid_800_royalgreenanblack_prod_1.jpg)
+
 The Cube Longtail Hybrid 800 is a practical, comfortable cargo bike designed to make urban movement easier. Powered by Bosch Cargo Line motor with an 800Wh battery and featuring Shimano Cues 11-speed gears, it's built to handle a total load of up to 200kg. With its large, versatile, and extremely sturdy rear carrier featuring elastomer suspension, it's a fun alternative to using four wheels in the city - perfect for cargo transport, deliveries, or daily errands.
 
 ## Technical Specifications

@@ -71,6 +71,8 @@ specs_notes: Performance CX Gen 4 with 85Nm torque (upgraded from Gen 3). Enhanc
 
 ## Overview
 
+![Benno Boost E EVO4 500Wh](https://www.ovelo.fr/46060-thickbox_default/boost-e-evo4-500wh.jpg)
+
 The Benno Boost E EVO4 is an electric longtail from German manufacturer Benno Bikes, featuring the latest Bosch Performance CX Generation 4 motor with increased 85Nm torque. This model combines comfort, practicality, and maneuverability through the Etility® design platform, enabling modular cargo configurations and accommodating up to 200kg total capacity. Ideal for urban families and delivery professionals.
 
 ## Technical Specifications

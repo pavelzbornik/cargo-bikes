@@ -41,6 +41,8 @@ specs_notes: Affordable compact electric cargo bike with Shimano E5000 motor (25
 
 ## Kombi E5
 
+![Kombi E5](https://yubabikes.eu/wp-content/uploads/2024/12/Kombi-E5-Orange-No-BG.png)
+
 ## Overview
 
 The Kombi E5 is the compact urban cargo bike perfect for city living. It provides all the cargo capacity you need with an incredibly compact footprint, making it easy to park and navigate tight urban streets while remaining stable and fun to ride.

@@ -56,6 +56,8 @@ price_currency: EUR
 
 ## Overview
 
+![Gaya L'Original Le Long](https://gaya.bike/api/medias/api/images/file/GAYA_LONG_MOKA%20Cropped-1000x594.webp)
+
 L'Original Le Long is GAYA's long-tail cargo e-bike, redesigned for the urban family. Built to carry up to three passengers (rider + 2 children or passengers), it combines comfort and safety with accessibility. Part of the newly revamped Original lineup, it's ideal for family outings and multi-passenger trips.
 
 ## Technical Specifications

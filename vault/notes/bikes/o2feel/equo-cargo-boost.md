@@ -34,6 +34,8 @@ price_currency: EUR
 
 ## Overview
 
+![O2Feel Equo 3](https://www.o2feel.com/wp-content/uploads/2021/06/Equo-3-1-BP-1200x1200-1-800x800.jpg)
+
 The O2Feel Equo 3 is the entry-level model of the Equo longtail series, positioned at €3,699. With a robust 80 kg cargo capacity, 180 kg total load limit, and Shimano E6100 Cargo motor, the Equo 3 combines accessible pricing with solid specifications. This model represents excellent value for families seeking a practical longtail without premium component tiers. Boreal Blue color, Made in France assembly, and 4-year battery warranty highlight O2Feel's commitment to durability.
 
 ## Technical Specifications

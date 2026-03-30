@@ -24,6 +24,8 @@ price_currency: EUR
 
 ## Overview
 
+![Jobobike Cargo Transer](https://www.mvebike.fr/images/imagecache/500x500/jpg/JOBOBike-Transer.jpg)
+
 The Jobobike Cargo Transer is a short longtail cargo bike measuring 185 cm that redefines urban mobility. Designed for those needing powerful, practical, and ecological transport for children, merchandise, or deliveries, it combines robust construction with efficient performance.
 
 ## Technical Specifications

@@ -22,6 +22,8 @@ specs_notes: Non-electric pedal-powered compact cargo bike. Entry-level option f
 
 ## Kombi
 
+![Kombi](https://yubabikes.eu/wp-content/uploads/2024/10/Kombi-No-BG.png)
+
 ## Overview
 
 The Kombi is the best value for experiencing the cargo bike lifestyle. This non-electric compact cargo bike proves you don't need a motor to enjoy practical, sustainable urban transportation and family rides.

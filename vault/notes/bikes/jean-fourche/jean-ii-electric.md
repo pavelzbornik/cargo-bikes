@@ -86,6 +86,8 @@ specs_notes: Ultra-compact French-assembled longtail from Bordeaux. Innovative V
 
 ## Jean Fourche II
 
+![Jean Fourche II](https://www.jeanfourche.com/)
+
 Jean Fourche represents a radical rethinking of the longtail concept through a French lens. Founded in Bordeaux by three friends in a participatory workshop, the brand prioritizes social impact, environmental responsibility, and innovative design.
 
 ## Overview

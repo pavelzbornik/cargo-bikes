@@ -39,6 +39,8 @@ suspension_front: none
 ---
 ## Overview
 
+![Brumaire Nebula](https://cdn.shopify.com/s/files/1/0624/3788/4070/files/long-tail-bike-blue.png)
+
 Brumaire Cycles represents emerging French electric mobility innovation (2020 origins from scooter manufacturer). The Nebula delivers stylish longtail design with appealing color options and mid-tier specifications. Bafang motor choice differentiates from market-dominant Bosch positioning while maintaining reliability. Partnership with Roulez Jeunesse for French service support addresses online-only sales concerns.
 
 ## Technical Specifications

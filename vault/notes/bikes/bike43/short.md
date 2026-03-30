@@ -44,6 +44,8 @@ suspension_rear: none
 ---
 ## Overview
 
+![Bike43 Short](https://bike43.com/app/uploads/2025/07/Video-SuperPower-Pivotable-Bench-Kit-1024x830.jpg)
+
 The Bike43 Short is a compact family cargo bike designed for families with 1-2 children. At 173 cm long, it represents the most accessible entry point to the Bike43 family ecosystem. The Short model can be converted to the Mid configuration, offering future flexibility as your family grows.
 
 ## Technical Specifications

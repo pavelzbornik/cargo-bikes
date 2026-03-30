@@ -33,6 +33,8 @@ wheels_rear_size_in: '20'
 ---
 ## Overview
 
+![Voltaway Panamax](https://www.mvebike.fr/images/Image/VOLTAWAY-Panamax.webp)
+
 The Voltaway Panamax is an elegant French-designed longtail cargo bike that combines performance with modern aesthetics. Built for urban commuting and weekend explorations, it offers powerful assistance, comfortable riding, and impressive cargo capacity with a refined design.
 
 ## Technical Specifications

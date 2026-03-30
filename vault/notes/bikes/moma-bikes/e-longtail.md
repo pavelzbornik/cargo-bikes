@@ -38,6 +38,8 @@ suspension_rear: none
 ---
 ## Moma E-LONGTAIL
 
+![Moma E-LONGTAIL](https://cdn.shopify.com/s/files/1/0290/9382/2538/files/1View.jpg?width=800&crop=center)
+
 Versatile urban cargo bike combining modern design with powerful electric assistance for transporting children, goods, and bulky items around the city.
 
 ## Overview

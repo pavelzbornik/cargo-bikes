@@ -35,6 +35,8 @@ wheels_rear_size_in: '24'
 ---
 ## Overview
 
+![Portofino CargoPro](//fvstorageprod.blob.core.windows.net/img/614962/sans1_nd.jpg)
+
 The **Portofino CargoPro** is an Italian-designed and assembled long-tail electric cargo bike that blends style, practicality, and performance. Featuring a distinctive light blue color with navy and white branding, this e-bike is purpose-built for transporting children and cargo with confidence and comfort. Its extended frame accommodates passengers or merchandise, making it ideal for daily urban commuting with family and shopping needs.
 
 ## Technical Specifications

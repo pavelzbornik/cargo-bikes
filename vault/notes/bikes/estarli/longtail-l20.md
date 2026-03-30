@@ -83,6 +83,8 @@ specs_notes: Battery upgradeable to 700Wh; Designed and assembled in Berkhamsted
 
 ## Overview
 
+![e-cargo Longtail L20](https://www.estarli.co.uk/cdn/shop/files/e-cargo-Longtail-Standard-Yellow.jpg?v=1756198325)
+
 The estarli e-cargo Longtail L20 is a family-focused electric cargo longtail designed for affordable, practical everyday transport. Developed by UK-based estarli, it combines commuter-friendly dimensions with substantial cargo capacity, making it ideal for school runs, family outings, and mixed-load carrying.
 
 Co-founder Alex Francis positioned it as "more affordable than many market-leading e-cargo bikes" while maintaining the longtail geometry that "rides the most like normal bikes." The bike has gained recognition in the cycling industry, with testing at the 2023 e-Bike Summit in Oxford and coverage from Ebiketips and Cycling Industry News.

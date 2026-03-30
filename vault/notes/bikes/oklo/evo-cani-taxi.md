@@ -28,6 +28,8 @@ price_currency: EUR
 
 ## Overview
 
+![ÉVO Cani-taxi](https://www.oklo.bike/assets/uploads/2024/06/IMG_1248-EVO-Cani-taxi-big-longtail-bleu-packshot_1024x1024.jpg)
+
 The OKLÖ ÉVO Cani-taxi is a specialized electric cargo bike designed specifically for dog transport with the utmost comfort and safety. It combines the robustness of the ÉVO family with a purpose-built front basket system that doubles as a pet cabin. Available in compact and longtail versions with two basket sizes (Small for dogs up to 12kg, Medium for dogs up to 25kg). The Cani-taxi lets you safely transport your canine companion in style while keeping your hands free for riding.
 
 **Key Philosophy:** "The best four-wheeled friend transportation." Safe, comfortable, and practical for both you and your dog.

@@ -41,6 +41,8 @@ specs_notes: Premium compact electric cargo bike with Shimano E6100 motor (250W,
 
 ## Kombi E6
 
+![Kombi E6](https://yubabikes.eu/wp-content/uploads/2024/12/Kombi-E6-Black-No-BG.png)
+
 ## Overview
 
 The Kombi E6 is everyone's favorite compact cargo bike. This enhanced electric version combines the proven reliability of the Kombi with electric power, making it the perfect balance of value and performance for urban families.

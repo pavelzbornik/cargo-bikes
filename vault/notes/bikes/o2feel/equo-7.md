@@ -35,6 +35,8 @@ price_currency: EUR
 
 ## Overview
 
+![O2Feel Equo 7](https://www.o2feel.com/wp-content/uploads/2023/11/Equo-7-S2-1-Figaro-BP-1200x1200-1-800x800.jpg)
+
 The O2Feel Equo 7 is the premium longtail in the Equo lineup at €4,799. Voted "Top Cargo Bike 2025" by Le Figaro and 2023 Focus Magazine, the Equo 7 combines the proven Shimano STEPS EP6 Cargo motor with a sophisticated belt-drive system, 5-speed Shimano Nexus hub, and Schwalbe premium tires. The White Moon color finish, Bluetooth color display, and enhanced accessories make this model the definitive choice for families and professional operators seeking reliability without complexity.
 
 ## Technical Specifications

@@ -79,6 +79,8 @@ specs_notes: Comfort version with Enviolo stepless hub gear system. No child sea
 
 ## Overview
 
+![Cube Longtail Hybrid Comfort 800](https://www.cube.eu/media/image/9f/39/89/122100_MY25_Longtail_Hybrid_Comfort_800_hazeanreflex_prod_1.jpg)
+
 The Cube Longtail Hybrid Comfort 800 is a versatile cargo bike designed to answer the question of how to transport loads across town without a vehicle. Powered by Bosch's smooth and capable Cargo Line motor with an 800Wh battery, it's built for practicality and comfort. With a total load capacity of 200kg and an extended rear carrier featuring elastomer suspension, this endlessly adaptable bike makes urban cargo transport easier and greener.
 
 ## Technical Specifications

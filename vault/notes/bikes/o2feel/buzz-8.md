@@ -33,6 +33,8 @@ price_currency: EUR
 
 ## Overview
 
+![O2Feel Buzz 8](https://www.o2feel.com/wp-content/uploads/2024/12/Buzz-8-S2-1-BP-1200x1200-1-800x800.jpg)
+
 The O2Feel Buzz 8 is the premium belt-drive version of the compact cargo Buzz platform. With the same 180 kg load capacity and accessibility features as the Buzz 7, the Buzz 8 upgrades to a Gates carbon fiber belt drive and Shimano MT420 hydraulic brakes. At €4,299, it offers a quieter, lower-maintenance riding experience compared to the chain-driven Buzz 7.
 
 ## Technical Specifications

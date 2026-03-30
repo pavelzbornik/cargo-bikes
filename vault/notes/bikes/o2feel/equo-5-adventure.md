@@ -47,6 +47,8 @@ suspension_rear: Suntour SP17 suspended seatpost
 ---
 ## Overview
 
+![O2Feel Equo 5 Adventure](https://www.o2feel.com/wp-content/uploads/2023/10/Equo-5-Adventure-S2-1-BP-1200x1200-1-800x800.jpg)
+
 The O2Feel Equo 5 Adventure represents a unique hybrid positioning between traditional longtail and all-terrain bike. Priced at €4,399 between the Equo 4.2 (€4,199) and Equo 7 (€4,799), the Adventure model features Shimano STEPS EP6 Cargo motor, 9-speed Shimano Cues drivetrain, suspension components, and eContact Plus tires. Jungle Green color and adventure-focused geometry make this model ideal for families seeking to venture beyond urban pavement into light trails and mixed terrain.
 
 ## Technical Specifications

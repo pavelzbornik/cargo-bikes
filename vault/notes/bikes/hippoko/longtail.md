@@ -24,6 +24,8 @@ price_currency: EUR
 
 ## Overview
 
+![Hippoko Longtail](https://static.wixstatic.com/media/6c069a_92d43caf96194584abdad3d7e250873a~mv2.png/v1/fill/w_87,h_87,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/modularite.png)
+
 The Hippoko Longtail is an electric cargo bike designed for urban family transportation. As a long-tail cargo bike with a 160 kg load capacity (excluding bike weight), it can transport two children and one adult, or significant cargo. The Hippoko brand was founded with the mission to make electric cargo bikes financially accessible to more families, positioning quality and reliability as key differentiators from competitors.
 
 ## Technical Specifications

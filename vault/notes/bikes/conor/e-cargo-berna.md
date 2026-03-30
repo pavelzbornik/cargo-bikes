@@ -23,6 +23,8 @@ price_currency: EUR
 
 ## Overview
 
+![Conor E-Cargo Berna](https://www.mvebike.fr/images/Image/CONOR-E-CARGO-BERNA.png)
+
 The Conor E-Cargo Berna is a powerful cargo bike designed for urban transport, professional deliveries, and family use. It combines robust construction with comfortable ride quality, making it suitable for both personal and commercial applications.
 
 ## Technical Specifications

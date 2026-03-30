@@ -33,6 +33,8 @@ suspension_front: hydraulic
 ---
 ## Overview
 
+![Revom Multi C2](https://www.mvebike.fr/images/Image/REVOM-Multi-C2.png)
+
 The Revom Multi C2 is an advanced modular cargo bike featuring dual battery technology and premium components. Designed for demanding urban transport scenarios, it combines extended range, robust construction, and integrated smart features for professional and serious personal use.
 
 ## Technical Specifications

@@ -85,6 +85,8 @@ specs_notes: Specialized's first foray into the longtail market. Heavyweight cha
 
 ## Specialized Turbo Porto
 
+![Specialized Turbo Porto](https://www.specialized.com/us/en/turbo-porto/p/141906)
+
 The Specialized Turbo Porto represents the California-based brand's ambitious entry into the premium longtail market. As Specialized's first dedicated longtail e-cargo bike, it brings the brand's legendary engineering expertise and attention to detail to a market previously dominated by European specialists.
 
 ## Overview

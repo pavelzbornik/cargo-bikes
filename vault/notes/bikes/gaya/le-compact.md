@@ -56,6 +56,8 @@ frame_length_cm: 175.0
 ---
 ## Overview
 
+![Le Compact](https://gaya.bike/_next/image?url=%2Fimg%2Flogo.png&w=828&q=75)
+
 Le Compact is GAYA's most accessible cargo e-bike, designed for urban commuting and solo or duo transport. This compact longtail configuration offers excellent maneuverability for city riding while maintaining practical cargo capacity. An affordable entry point into GAYA's electric cargo bike family.
 
 ## Technical Specifications

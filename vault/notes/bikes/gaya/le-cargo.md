@@ -59,6 +59,8 @@ frame_length_cm: 195.0
 ---
 ## Overview
 
+![Le Cargo](https://gaya.bike/_next/image?url=%2Fimg%2Flogo.png&w=828&q=75)
+
 Gaya Cargo (marketed as "Le Cargo") represents emerging French brand innovation positioning longtails as accessible urban transport with smart connectivity features. Co-founded by Amélie Guicheney, the brand challenges male-dominated cycling industry with distinct urban design philosophy. The 195 cm length with 20"/20" wheel configuration optimizes urban maneuvering. GPS connectivity and smart features differentiate from traditional cargo bikes, appealing to tech-savvy urban families seeking accessible cargo transport at entry-level pricing.
 
 ## Technical Specifications

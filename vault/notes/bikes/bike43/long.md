@@ -23,6 +23,8 @@ price_currency: EUR
 
 ## Overview
 
+![Bike43 Long](https://bike43.com/app/uploads/2022/09/bike10.jpg)
+
 The Bike43 Long is the flagship model, designed for large families with up to 4 children. At 200 cm, it remains only 10 cm longer than a regular bike despite its spacious rear platform. The Long model features distinctive design with a 24" front wheel and 20" rear wheel configuration, offering excellent climbing ability and smooth rides over obstacles. This is Bike43's iconic model and most spacious option.
 
 ## Technical Specifications

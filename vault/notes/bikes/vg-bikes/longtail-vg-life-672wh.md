@@ -38,6 +38,8 @@ suspension_rear: none
 ---
 ## Overview
 
+![Longtail VG Life 672Wh](https://www.ovelo.fr/47038-thickbox_default/longtail-vg-life-672wh.jpg)
+
 The VG Life Longtail is a French-made electric longtail designed for urban and suburban cargo transport. Built by VOLTAGREEN (VG Bikes) since 2011, this model combines practical cargo capacity with a powerful rear-mounted motor for navigating hills and varied terrain while carrying substantial loads.
 
 ## Technical Specifications

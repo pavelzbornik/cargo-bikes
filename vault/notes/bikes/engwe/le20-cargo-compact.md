@@ -38,6 +38,8 @@ suspension_rear: none
 ---
 ## Overview
 
+![ENGWE LE20 Cargo](https://www.journaldugeek.com/app/uploads/2025/04/l2017-960x640.jpg)
+
 The ENGWE LE20 Cargo is a compact urban and family-oriented electric cargo bike that bridges the gap between traditional urban e-bikes and full-size cargo bikes. Designed as a "mini-cargo" or "compact cargo bike," it features a robust aluminum frame, dual battery capability (optional), and a strong rear cargo rack. With 20-inch fat tires and a low-frame design, it excels at urban maneuverability while maintaining excellent cargo capacity and comfort. The bike comes fully equipped out of the box with fenders, integrated lighting, suspension fork, and rear rack—no additional purchases necessary for immediate use. Its total carrying capacity reaches 200 kg (rider included), making it suitable for child passengers, shopping, or modest cargo loads.
 
 ## Technical Specifications

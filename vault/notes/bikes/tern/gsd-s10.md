@@ -41,6 +41,8 @@ price_amount: '5999'
 
 ## Overview
 
+![Tern GSD S10](https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_S10-gen3-beetle-profile-web_0.jpg.webp)
+
 The Tern GSD S10 is a high-tier model in the Generation 3 GSD family, offering an excellent balance of smart features, performance, and value. The S10 designation indicates its Shimano 1×10 derailleur transmission paired with the Bosch Smart System Kiox 300 display. This compact 185 cm electric cargo bike maintains the GSD's impressive 210 kg maximum gross vehicle weight rating while providing reliable performance for urban families seeking smart connectivity without the premium price of the R14.
 
 ## Technical Specifications
