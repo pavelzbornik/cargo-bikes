@@ -44,12 +44,10 @@ security_gps: false
 security_app_lock: false
 range_estimate_km: 40-80
 price_amount: 5290€
-needs_research: true
-research_topics:
-- weight_with_battery_kg
 motor_make: Bosch
 motor_torque_nm: 75
 price_currency: EUR
+weight_with_battery_kg: 30.0
 ---
 ## Overview
 
