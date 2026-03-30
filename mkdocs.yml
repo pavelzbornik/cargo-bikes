@@ -51,6 +51,7 @@ plugins:
   - tags
   - search
   - obsidian-bridge
+  - wikilinks-title
   - git-revision-date
   - git-authors
   - glightbox

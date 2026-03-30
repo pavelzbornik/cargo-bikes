@@ -39,6 +39,9 @@ dev = [
     "sqlalchemy[mypy]>=2.0.0",
 ]
 
+[project.entry-points."mkdocs.plugins"]
+wikilinks-title = "cargo_bikes.mkdocs_wikilinks:WikilinksPlugin"
+
 [project.scripts]
 cargo-bikes = "cargo_bikes.__main__:app"
 
