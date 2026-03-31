@@ -48,16 +48,18 @@ class WikilinksPlugin(BasePlugin):
                 continue
 
             title = fm.get("title", "")
+            # Use the URL path (without .html) for MkDocs navigation
+            url_path = file.url.rstrip("/") + "/" if file.url else ""
             src = file.src_path.replace("\\", "/")
 
             if title:
-                self.title_map[title] = src
+                self.title_map[title] = {"src": src, "url": url_path}
 
             # Also map by filename stem
             stem = Path(file.src_path).stem
             if stem and stem != "index":
                 if stem not in self.title_map:
-                    self.title_map[stem] = src
+                    self.title_map[stem] = {"src": src, "url": url_path}
 
         return files
 
@@ -68,10 +70,15 @@ class WikilinksPlugin(BasePlugin):
         # Calculate relative path from current page to target
         current_dir = str(Path(page.file.src_path).parent).replace("\\", "/")
 
-        def _relative_path(target_src: str) -> str:
-            """Calculate relative path from current page to target src_path."""
+        def _relative_url(target_url: str) -> str:
+            """Calculate relative URL from current page to target."""
             from posixpath import relpath
-            return relpath(target_src, current_dir)
+            # Both are URL paths like "bikes/benno/boost-10d-evo-5/"
+            current_url_dir = str(Path(page.file.dest_path).parent).replace("\\", "/")
+            target_clean = target_url.strip("/")
+            if not target_clean:
+                return target_url
+            return relpath(target_clean, current_url_dir) + "/"
 
         def replace_wikilink(m: re.Match) -> str:
             inner = m.group(1)
@@ -87,19 +94,19 @@ class WikilinksPlugin(BasePlugin):
             display = display.strip()
 
             # Look up by title (exact)
-            url = None
+            entry = None
             if target in self.title_map:
-                url = self.title_map[target]
+                entry = self.title_map[target]
             else:
                 # Case-insensitive fallback
                 target_lower = target.lower()
-                for title, u in self.title_map.items():
+                for title, e in self.title_map.items():
                     if title.lower() == target_lower:
-                        url = u
+                        entry = e
                         break
 
-            if url:
-                rel = _relative_path(url)
+            if entry:
+                rel = _relative_url(entry["url"])
                 return f"[{display}]({rel})"
 
             # Not found — render as plain text (no broken link)
