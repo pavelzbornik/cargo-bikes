@@ -11,7 +11,7 @@ tags:
 - compact
 - gaya
 url: https://gaya.bike/velo-cargo/original-compact
-image: https://gaya.bike/_next/image?url=%2Fimg%2Flogo.png&w=828&q=75
+image: https://gaya.bike/api/medias/api/images/file/og_court-4-600x534.webp
 category: compact
 frame_material: steel
 frame_size: '47'

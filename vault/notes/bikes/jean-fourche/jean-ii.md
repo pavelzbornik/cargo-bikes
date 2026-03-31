@@ -7,6 +7,7 @@ range: 70km
 title: Jean Fourche II
 type: bike
 brand: Jean Fourche
+image: https://jeanfourche.fr/cdn/shop/files/VAE-V2-JeanII-GRIS_Kit-2-enfants-_coussin_grande.png?v=1757323145
 model: II
 tags:
 - bike
@@ -46,6 +47,8 @@ drivetrain_type: chain
 wheels_front_size_in: '24'
 ---
 ## Overview
+
+![Jean Fourche II](https://jeanfourche.fr/cdn/shop/files/VAE-V2-JeanII-GRIS_Kit-2-enfants-_coussin_grande.png?v=1757323145)
 
 Jean Fourche II represents compact French manufacturing excellence at accessible pricing. Technically a "midtail" rather than full longtail (175 cm), it optimizes for urban maneuvering and lightweight handling while maintaining reasonable cargo capacity. Virvolt motor (electrification specialist) + Panasonic battery deliver reliable performance. Assembly and painting in France demonstrates local manufacturing commitment despite component sourcing.
 

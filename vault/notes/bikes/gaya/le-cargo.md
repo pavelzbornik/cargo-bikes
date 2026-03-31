@@ -11,7 +11,7 @@ tags:
 - longtail
 - gaya
 url: https://gaya.bike/velo-cargo/original-cargo
-image: https://gaya.bike/_next/image?url=%2Fimg%2Flogo.png&w=828&q=75
+image: https://gaya.bike/api/medias/api/images/file/Gaya_Cargo_amande-1-1000x623.webp
 category: longtail
 frame_material: steel
 frame_size: '47'

@@ -12,7 +12,7 @@ tags:
 - compact
 - virvolt
 url: https://www.jeanfourche.com/
-image: https://www.jeanfourche.com/
+image: https://jeanfourche.fr/cdn/shop/files/VAE-V2-JeanII-GRIS_Kit-2-enfants-_coussin_grande.png?v=1757323145
 resellers:
 - name: Jean Fourche Official
   url: https://www.jeanfourche.com/
