@@ -11,7 +11,7 @@ tags:
 - bosch
 - electric
 url: https://www.riesemüller.com/
-image: https://www.riesemüller.com/
+image: https://propelbikes.com/wp-content/uploads/2023/08/riese-muller-multicharger2-GT-family-utility-gray-curry-matte.jpg
 resellers:
 - name: Riese & Müller Official
   url: https://www.riesemüller.com/

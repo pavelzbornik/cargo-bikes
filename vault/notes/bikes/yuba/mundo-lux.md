@@ -5,6 +5,7 @@ review_source_count: 9
 title: Mundo Lux
 type: bike
 brand: Yuba
+image: https://yubabikes.com/wp-content/uploads/2024/10/Mundo-Olive-No-BG.png
 model: Mundo Lux
 tags:
 - bike

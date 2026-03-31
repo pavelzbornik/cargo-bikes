@@ -5,6 +5,7 @@ review_source_count: 2
 title: FastRack V1
 type: bike
 brand: Yuba
+image: https://yubabikes.com/wp-content/uploads/2025/01/5-1.png
 model: FastRack V1
 tags:
 - bike

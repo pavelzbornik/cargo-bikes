@@ -7,6 +7,7 @@ range: ~100km
 title: Rad Power Radwagon 4
 type: bike
 brand: Rad Power Bikes
+image: https://www.radpowerbikes.com/cdn/shop/products/WagonOrange_side1to1_1024x.png?v=1696952406
 model: Radwagon 4
 tags:
 - bike

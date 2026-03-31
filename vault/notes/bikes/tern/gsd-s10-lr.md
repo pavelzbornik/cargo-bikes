@@ -7,6 +7,7 @@ range: 90km
 title: Tern GSD S10 LR
 type: bike
 brand: Tern
+image: https://store.ternbicycles.com/cdn/shop/files/TN-photo-GSD_S10-gen3-beetle-profile-web_0_jpg.webp?v=1743019667
 model: GSD S10 LR
 tags:
 - bike

@@ -10,7 +10,7 @@ tags:
 - aventon
 - 750w
 url: https://www.aventon.com/products/abound-lr-ebike
-image: https://www.aventon.com/products/abound-lr-ebike
+image: https://www.aventon.com/cdn/shop/files/01_Abound-LR_Stealth_Side_1-bike.jpg?v=1737999400
 resellers:
 - name: Aventon Official
   url: https://www.aventon.com/products/abound-lr-ebike

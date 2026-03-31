@@ -3,6 +3,7 @@ date: 2025-10-16
 title: Supercargo CL
 type: bike
 brand: Yuba
+image: https://yubabikes.com/wp-content/uploads/2024/10/Supercargo-CL-Orange-No-BG-2.png
 model: Supercargo CL
 tags:
 - bike

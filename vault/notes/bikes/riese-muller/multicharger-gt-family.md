@@ -7,6 +7,7 @@ range: 120km
 title: Riese & Müller Multicharger GT Family
 type: bike
 brand: Riese & Müller
+image: https://propelbikes.com/wp-content/uploads/2023/08/riese-muller-multicharger2-GT-family-utility-gray-curry-matte.jpg
 model: Multicharger GT Family
 tags:
 - bike

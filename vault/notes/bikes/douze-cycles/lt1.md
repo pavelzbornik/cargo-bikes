@@ -7,6 +7,7 @@ range: 100km+
 title: Douze Cycles LT1
 type: bike
 brand: Douze Cycles
+image: https://boutique.douze-cycles.com/wp-content/uploads/2026/02/LT24_shimano-nexus-di2-lilas_longtail_velo-cargo-electrique_douze-cycles.png
 model: LT1
 tags:
 - bike

@@ -15,7 +15,7 @@ tags:
 - electric
 - douze-cycles
 url: https://www.douze-cycles.com/velos-cargos/v2
-image: https://vitrine.douze-cycles.com/wp-content/uploads/2023/04/couple.svg
+image: https://boutique.douze-cycles.com/wp-content/uploads/2026/02/LT24_shimano-nexus-di2-lilas_longtail_velo-cargo-electrique_douze-cycles.png
 motor_power_w: 250
 battery_capacity_wh: 672
 price_amount: '4950'
