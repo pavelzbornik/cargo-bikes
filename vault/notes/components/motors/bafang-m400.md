@@ -2,14 +2,14 @@
 title: Bafang M400
 type: component
 category: motors
-parent: '[[Bafang]]'
-domain: '[[Motors MOC]]'
+parent: "[[Bafang]]"
+domain: "[[Motors MOC]]"
 tags:
-- motor
-- mid-drive
-- bafang
-- 36v
-- 250w
+  - motor
+  - mid-drive
+  - bafang
+  - 36v
+  - 250w
 generated_by: cargo-bikes-cli
 motor_type: Mid-drive
 rated_power: 250W
@@ -23,6 +23,7 @@ sensor: Torque + cadence
 assist_levels: 5 (configurable via programming cable)
 waterproof_rating: IPX6
 ---
+
 # Bafang M400
 
 ## Overview
@@ -36,21 +37,21 @@ The M400 uses a combined torque and cadence sensor system, providing more natura
 
 ## Specifications
 
-| Parameter | Value |
-|---|---|
-| Motor type | Mid-drive |
-| Rated power | 250 W (EN 15194 compliant) |
-| Peak power | ~500 W |
-| Max torque | 80 Nm |
-| Voltage | 36 V |
-| Weight | ~3.3 kg |
-| Bottom bracket compatibility | 68 mm / 73 mm threaded |
-| Chainline | 52 mm |
-| Sensor system | Torque sensor + cadence sensor |
-| Assist levels | 5 (configurable) |
-| Interface | UART |
-| Waterproof rating | IPX6 |
-| Compatible displays | DPC-14, DPC-18, DP C07, SW102 |
+| Parameter                    | Value                          |
+| ---------------------------- | ------------------------------ |
+| Motor type                   | Mid-drive                      |
+| Rated power                  | 250 W (EN 15194 compliant)     |
+| Peak power                   | ~500 W                         |
+| Max torque                   | 80 Nm                          |
+| Voltage                      | 36 V                           |
+| Weight                       | ~3.3 kg                        |
+| Bottom bracket compatibility | 68 mm / 73 mm threaded         |
+| Chainline                    | 52 mm                          |
+| Sensor system                | Torque sensor + cadence sensor |
+| Assist levels                | 5 (configurable)               |
+| Interface                    | UART                           |
+| Waterproof rating            | IPX6                           |
+| Compatible displays          | DPC-14, DPC-18, DP C07, SW102  |
 
 ## Bikes Using This Motor
 
@@ -58,12 +59,12 @@ The M400 uses a combined torque and cadence sensor system, providing more natura
 
 ## Motor Position in Bafang M-Series
 
-| Model | Torque | Voltage | Notes |
-|---|---|---|---|
-| M200 | 45 Nm | 36 V | Entry-level, cadence only |
-| **M400** | **80 Nm** | **36 V** | **Mid-range, torque + cadence** |
-| M600 | 120 Nm | 36 V / 48 V | High-performance, cargo-focused |
-| M820 | 160 Nm | 48 V | Ultra-high-torque, heavy cargo |
+| Model    | Torque    | Voltage     | Notes                           |
+| -------- | --------- | ----------- | ------------------------------- |
+| M200     | 45 Nm     | 36 V        | Entry-level, cadence only       |
+| **M400** | **80 Nm** | **36 V**    | **Mid-range, torque + cadence** |
+| M600     | 120 Nm    | 36 V / 48 V | High-performance, cargo-focused |
+| M820     | 160 Nm    | 48 V        | Ultra-high-torque, heavy cargo  |
 
 ## Compatibility Notes
 

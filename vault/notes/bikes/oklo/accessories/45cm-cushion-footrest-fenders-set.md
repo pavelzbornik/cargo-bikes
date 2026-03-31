@@ -39,13 +39,13 @@ This set is purpose-built for the [[Simplix]] platform and includes a 45cm padde
 
 This accessory is **brand-specific** and has been designed exclusively for the [[Oklo]] [[Simplix]] cargo bike. It is not intended for use with other cargo bike brands or models, as mounting points and dimensions are tailored to the Simplix frame.
 
-| Detail | Info |
-|---|---|
-| Manufacturer | [[Oklo]] |
-| Compatible Bike | [[Simplix]] |
-| Cushion Width | 45cm |
-| Accessory Type | Brand-specific |
-| Price | Not available |
+| Detail          | Info           |
+| --------------- | -------------- |
+| Manufacturer    | [[Oklo]]       |
+| Compatible Bike | [[Simplix]]    |
+| Cushion Width   | 45cm           |
+| Accessory Type  | Brand-specific |
+| Price           | Not available  |
 
 ## Notes
 

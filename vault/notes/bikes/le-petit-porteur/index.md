@@ -1,22 +1,24 @@
 ---
 brand: Le Petit Porteur
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: Le Petit Porteur
 type: brand
-summary: Le Petit Porteur is a cargo bike manufacturer offering diverse models for
+summary:
+  Le Petit Porteur is a cargo bike manufacturer offering diverse models for
   families and professionals.
 tags:
-- brand
-- index
-- le-petit-porteur
+  - brand
+  - index
+  - le-petit-porteur
 regions:
-- EU
+  - EU
 categories:
-- longtail
+  - longtail
 distribution_model: both
 ---
+
 ## Overview
 
 Le Petit Porteur is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

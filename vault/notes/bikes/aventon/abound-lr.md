@@ -5,19 +5,19 @@ type: bike
 brand: Aventon
 model: Abound LR
 tags:
-- bike
-- longtail
-- aventon
-- 750w
+  - bike
+  - longtail
+  - aventon
+  - 750w
 url: https://www.aventon.com/products/abound-lr-ebike
 image: https://www.aventon.com/cdn/shop/files/01_Abound-LR_Stealth_Side_1-bike.jpg?v=1737999400
 resellers:
-- name: Aventon Official
-  url: https://www.aventon.com/products/abound-lr-ebike
-  currency: USD
-  region: North America
-  availability: in-stock
-  note: Check official website for current pricing
+  - name: Aventon Official
+    url: https://www.aventon.com/products/abound-lr-ebike
+    currency: USD
+    region: North America
+    availability: in-stock
+    note: Check official website for current pricing
 category: longtail
 model_year: 2025
 frame_material: aluminum
@@ -38,26 +38,28 @@ wheels_rear_size_in: 20"
 suspension_front: front suspension fork
 suspension_rear: suspension seatpost
 features:
-- acu-gps-4g
-- cruise-control
-- sensor-switch
-- integrated-kickstand-lock
-- torque-sensor
-- ipx5-water-resistant
+  - acu-gps-4g
+  - cruise-control
+  - sensor-switch
+  - integrated-kickstand-lock
+  - torque-sensor
+  - ipx5-water-resistant
 security_gps: true
 security_app_lock: true
 security_frame_lock: true
 range_notes: Depends on assist level, load, and conditions
 price_currency: USD
-specs_notes: 440 lb (200 kg) payload capacity. IPX5 water-resistant rating. Includes
+specs_notes:
+  440 lb (200 kg) payload capacity. IPX5 water-resistant rating. Includes
   adjustable quill stem, fenders, and rear rack. ACU technology enables GPS tracking,
   remote shutdown, geofencing, and motion alerts via Aventon app.
 motor_torque_nm: 80
 battery_capacity_wh: 708
 weight_with_battery_kg: 40.1
-price_amount: '1999'
-range_estimate_km: '97'
+price_amount: "1999"
+range_estimate_km: "97"
 ---
+
 ## Aventon Abound LR
 
 ![Aventon Abound LR](https://www.aventon.com/products/abound-lr-ebike)
@@ -69,16 +71,18 @@ The Aventon Abound LR is a powerful cargo e-bike designed for serious hauling an
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | longtail |
-| **Model Year** | 2025 |
-| **Motor** | Aventon Direct Drive Hub Motor |
-| **Motor Power** | 750W |
-| **Total Load Capacity** | 200.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | hydraulic disc |
-| **Wheel Size** | 20" |
+
+| Specification           | Value                          |
+| ----------------------- | ------------------------------ |
+| **Category**            | longtail                       |
+| **Model Year**          | 2025                           |
+| **Motor**               | Aventon Direct Drive Hub Motor |
+| **Motor Power**         | 750W                           |
+| **Total Load Capacity** | 200.0kg                        |
+| **Drivetrain**          | chain                          |
+| **Brakes**              | hydraulic disc                 |
+| **Wheel Size**          | 20"                            |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Frame & Geometry

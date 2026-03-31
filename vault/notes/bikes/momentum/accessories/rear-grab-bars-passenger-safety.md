@@ -46,7 +46,7 @@ It is not designed or tested for use with other brands or models. Always verify 
 ## Pricing
 
 | Region | Price |
-|--------|-------|
+| ------ | ----- |
 | Europe | €200  |
 
 ## Notes

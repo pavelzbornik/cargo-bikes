@@ -9,17 +9,17 @@ type: bike
 brand: UNIKRIDE
 model: Fatstreet X Trail
 tags:
-- bike
-- cargo-bike
-- two-seater
-- suspension
-- unikride
+  - bike
+  - cargo-bike
+  - two-seater
+  - suspension
+  - unikride
 url: https://unikride.com/en/products/fat-street-x-trail-copie
 image: https://unikride.com/cdn/shop/files/Velo_electrique_biplace_Bordeaux.jpg
 motor_power_w: 500
 battery_capacity_wh: 960
-range_estimate_km: '120'
-price_amount: '2899'
+range_estimate_km: "120"
+price_amount: "2899"
 price_currency: EUR
 motor_make: Bafang
 motor_torque_nm: 80
@@ -27,17 +27,18 @@ load_capacity_total_kg: 180.0
 load_capacity_passenger_count: 1
 brakes_type: hydraulic disc
 drivetrain_type: chain
-drivetrain_speeds: '7'
-wheels_front_size_in: '20'
-wheels_rear_size_in: '20'
+drivetrain_speeds: "7"
+wheels_front_size_in: "20"
+wheels_rear_size_in: "20"
 suspension_front: none
 suspension_rear: rear suspension
 needs_research: true
 research_topics:
-- category
-- weight_with_battery_kg
-- frame_material
+  - category
+  - weight_with_battery_kg
+  - frame_material
 ---
+
 ## FATSTREET OPEN FRAME - X Trail
 
 ![Fatstreet X Trail Open Frame](https://unikride.com/cdn/shop/files/Velo_electrique_biplace_Bordeaux.jpg)
@@ -49,12 +50,14 @@ The Fatstreet X Trail Open Frame variant offers powerful 500W motorization with 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor Power** | 500W |
-| **Battery Capacity** | 960Wh |
-| **Range** | 120 km |
-| **Price** | 2899 EUR |
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Power**      | 500W     |
+| **Battery Capacity** | 960Wh    |
+| **Range**            | 120 km   |
+| **Price**            | 2899 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €2,899-€3,099

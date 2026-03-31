@@ -52,7 +52,7 @@ If you own a different cargo bike brand, refer to universal child seat options s
 ## Pricing
 
 | Variant   | Price (approx.) |
-|-----------|-----------------|
+| --------- | --------------- |
 | Cargo     | €80–150         |
 | Passenger | €80–150         |
 

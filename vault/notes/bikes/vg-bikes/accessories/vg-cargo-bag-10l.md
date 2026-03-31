@@ -40,8 +40,8 @@ This bag is a brand-specific accessory made by Vg Bikes for use with their own r
 
 ## Pricing
 
-| Region | Price |
-|--------|-------|
+| Region | Price  |
+| ------ | ------ |
 | Europe | €36.75 |
 
 ## Notes

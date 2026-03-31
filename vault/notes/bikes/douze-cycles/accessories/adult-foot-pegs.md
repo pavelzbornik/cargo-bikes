@@ -38,9 +38,9 @@ The Douze Cycles Adult foot pegs provide a dedicated footrest solution for addit
 
 This accessory is **brand-specific** and designed exclusively for [[Douze Cycles]] cargo bikes. It is not a universal accessory and may not be compatible with other cargo bike brands.
 
-| Bike | Compatible |
-|------|-----------|
-| [[Douze V2 Bafang M500]] | Yes |
+| Bike                     | Compatible |
+| ------------------------ | ---------- |
+| [[Douze V2 Bafang M500]] | Yes        |
 
 ## Notes
 

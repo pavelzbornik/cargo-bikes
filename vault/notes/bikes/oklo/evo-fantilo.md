@@ -9,11 +9,11 @@ type: bike
 brand: OKLÖ
 model: ÉVO Fantilo
 tags:
-- bike
-- family
-- longtail
-- oklo
-- electric
+  - bike
+  - family
+  - longtail
+  - oklo
+  - electric
 url: https://www.oklo.bike/produit/velo-cargo-evo-famille/
 image: https://www.oklo.bike/assets/uploads/2022/03/IMG_0820-EVO-Fantilo-longtail-elu-velo-cargo-de-l-annee-2024_1024x1204.jpg
 motor_make: Bafang
@@ -21,19 +21,20 @@ motor_model: M410
 motor_power_w: 250
 battery_capacity_wh: 600
 range_estimate_km: 50-100
-price_amount: '3970'
+price_amount: "3970"
 price_currency: EUR
 needs_research: true
 research_topics:
-- load_capacity_total_kg
+  - load_capacity_total_kg
 category: longtail
 motor_torque_nm: 80
 weight_with_battery_kg: 42.6
 frame_material: chromoly steel
 brakes_type: hydraulic disc
 drivetrain_type: chain
-wheels_front_size_in: '24'
+wheels_front_size_in: "24"
 ---
+
 ## Overview
 
 ![ÉVO Fantilo](https://www.oklo.bike/assets/uploads/2022/03/IMG_0820-EVO-Fantilo-longtail-elu-velo-cargo-de-l-annee-2024_1024x1204.jpg)
@@ -45,13 +46,15 @@ The OKLÖ ÉVO Fantilo is a premium electric family cargo bike **elected Cargo B
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor** | Bafang M410 |
-| **Motor Power** | 250W |
-| **Battery Capacity** | 600Wh |
-| **Range** | 50-100 km |
-| **Price** | 3970 EUR |
+
+| Specification        | Value       |
+| -------------------- | ----------- |
+| **Motor**            | Bafang M410 |
+| **Motor Power**      | 250W        |
+| **Battery Capacity** | 600Wh       |
+| **Range**            | 50-100 km   |
+| **Price**            | 3970 EUR    |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Geometry

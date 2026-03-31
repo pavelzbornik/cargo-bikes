@@ -9,38 +9,39 @@ type: bike
 brand: O2Feel
 model: Equo 3
 tags:
-- bike
-- longtail
-- cargo
-- e-bike
-- o2feel
+  - bike
+  - longtail
+  - cargo
+  - e-bike
+  - o2feel
 url: https://www.o2feel.com/en/product/equo-3/
 image: https://www.o2feel.com/wp-content/uploads/2021/06/Equo-3-1-BP-1200x1200-1-800x800.jpg
 resellers:
-- name: Cyclable
-  url: https://www.cyclable.com/17290-velo-cargo-electrique-o2feel-equo-3.html
-  price: '3599'
-  currency: EUR
-  region: EU
-  availability: in-stock
+  - name: Cyclable
+    url: https://www.cyclable.com/17290-velo-cargo-electrique-o2feel-equo-3.html
+    price: "3599"
+    currency: EUR
+    region: EU
+    availability: in-stock
 motor_make: Shimano
 motor_model: E6100 Cargo
 battery_capacity_wh: 432
-range_estimate_km: '230'
-price_amount: '3699'
+range_estimate_km: "230"
+price_amount: "3699"
 price_currency: EUR
 needs_research: true
 research_topics:
-- category
-- motor_power_w
-- motor_torque_nm
-- weight_with_battery_kg
-- load_capacity_total_kg
-- brakes_type
-- drivetrain_type
-- frame_material
-- wheels_front_size_in
+  - category
+  - motor_power_w
+  - motor_torque_nm
+  - weight_with_battery_kg
+  - load_capacity_total_kg
+  - brakes_type
+  - drivetrain_type
+  - frame_material
+  - wheels_front_size_in
 ---
+
 ## Overview
 
 ![O2Feel Equo 3](https://www.o2feel.com/wp-content/uploads/2021/06/Equo-3-1-BP-1200x1200-1-800x800.jpg)
@@ -50,12 +51,14 @@ The O2Feel Equo 3 is the entry-level model of the Equo longtail series, position
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor** | Shimano E6100 Cargo |
-| **Battery Capacity** | 432Wh |
-| **Range** | 230 km |
-| **Price** | 3699 EUR |
+
+| Specification        | Value               |
+| -------------------- | ------------------- |
+| **Motor**            | Shimano E6100 Cargo |
+| **Battery Capacity** | 432Wh               |
+| **Range**            | 230 km              |
+| **Price**            | 3699 EUR            |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

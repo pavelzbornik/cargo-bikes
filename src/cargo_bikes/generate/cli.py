@@ -12,7 +12,10 @@ def bike_table(
     vault_path: Path = typer.Option(Path("vault"), help="Path to vault root"),
 ) -> None:
     """Generate bike comparison tables by price range."""
-    from cargo_bikes.generate.bike_table import generate_bike_table, update_file_with_table
+    from cargo_bikes.generate.bike_table import (
+        generate_bike_table,
+        update_file_with_table,
+    )
     from cargo_bikes.vault.scanner import collect_bikes
 
     print("=" * 70)

@@ -5,20 +5,20 @@ type: bike
 brand: Cube
 model: Longtail Hybrid Comfort 800
 tags:
-- bike
-- longtail
-- cube
-- bosch
+  - bike
+  - longtail
+  - cube
+  - bosch
 url: https://www.cube.eu/uk-en/cube-longtail-hybrid-comfort-800-haze-n-reflex/122100
 image: https://www.cube.eu/media/image/9f/39/89/122100_MY25_Longtail_Hybrid_Comfort_800_hazeanreflex_prod_1.jpg
 resellers:
-- name: Cube Official Store
-  url: https://www.cube.eu/uk-en/cube-longtail-hybrid-comfort-800-haze-n-reflex/122100
-  price: '4199'
-  currency: GBP
-  region: United Kingdom
-  availability: in-stock
-  note: Available in haze'n'reflex and mineralgrey'n'reflex colors
+  - name: Cube Official Store
+    url: https://www.cube.eu/uk-en/cube-longtail-hybrid-comfort-800-haze-n-reflex/122100
+    price: "4199"
+    currency: GBP
+    region: United Kingdom
+    availability: in-stock
+    note: Available in haze'n'reflex and mineralgrey'n'reflex colors
 category: longtail
 model_year: 2025
 frame_material: aluminum
@@ -26,7 +26,8 @@ frame_size: one size
 weight_with_battery_kg: 26.3
 load_capacity_total_kg: 200.0
 load_capacity_rear_kg: 60.0
-load_capacity_passenger_config: Cargo carrier only - child seat available as optional
+load_capacity_passenger_config:
+  Cargo carrier only - child seat available as optional
   accessory
 motor_make: Bosch
 motor_model: Cargo Line
@@ -55,29 +56,32 @@ lights_rear_type: Herrmans H-Trace
 lights_rear_integrated: true
 lights_rear_brake_light: false
 features:
-- lockable-downtube-storage
-- telescopic-seatpost
-- adjustable-stem
-- kickstand
-- mudguards
-- bell
-- front-carrier-ready
-- smart-system
-- kiox-500-display
+  - lockable-downtube-storage
+  - telescopic-seatpost
+  - adjustable-stem
+  - kickstand
+  - mudguards
+  - bell
+  - front-carrier-ready
+  - smart-system
+  - kiox-500-display
 security_gps: false
 security_app_lock: false
 security_frame_lock: false
-range_notes: Bosch smart system with 800Wh battery provides extended range for cargo
+range_notes:
+  Bosch smart system with 800Wh battery provides extended range for cargo
   transport
-price_amount: '4199'
+price_amount: "4199"
 price_currency: GBP
-specs_notes: Comfort version with Enviolo stepless hub gear system. No child seat
+specs_notes:
+  Comfort version with Enviolo stepless hub gear system. No child seat
   included - optimized for cargo transport. One Size Concept fits riders 1.60m-1.90m
   (5'2"-6'2"). HIC front carrier compatible.
 needs_research: true
 research_topics:
-- range_estimate_km
+  - range_estimate_km
 ---
+
 ## Overview
 
 ![Cube Longtail Hybrid Comfort 800](https://www.cube.eu/media/image/9f/39/89/122100_MY25_Longtail_Hybrid_Comfort_800_hazeanreflex_prod_1.jpg)
@@ -87,20 +91,22 @@ The Cube Longtail Hybrid Comfort 800 is a versatile cargo bike designed to answe
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | longtail |
-| **Model Year** | 2025 |
-| **Motor** | Bosch Cargo Line |
-| **Motor Power** | 250W |
-| **Motor Torque** | 85Nm |
-| **Battery Capacity** | 800Wh |
-| **Weight (with battery)** | 26.3kg |
-| **Total Load Capacity** | 200.0kg |
-| **Drivetrain** | belt |
-| **Brakes** | Magura Gustav PRO hydraulic disc |
-| **Wheel Size** | 26" |
-| **Price** | 4199 GBP |
+
+| Specification             | Value                            |
+| ------------------------- | -------------------------------- |
+| **Category**              | longtail                         |
+| **Model Year**            | 2025                             |
+| **Motor**                 | Bosch Cargo Line                 |
+| **Motor Power**           | 250W                             |
+| **Motor Torque**          | 85Nm                             |
+| **Battery Capacity**      | 800Wh                            |
+| **Weight (with battery)** | 26.3kg                           |
+| **Total Load Capacity**   | 200.0kg                          |
+| **Drivetrain**            | belt                             |
+| **Brakes**                | Magura Gustav PRO hydraulic disc |
+| **Wheel Size**            | 26"                              |
+| **Price**                 | 4199 GBP                         |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Frame & Build

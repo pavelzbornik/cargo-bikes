@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import asyncio
 import re
-from datetime import datetime
 from pathlib import Path
 
 from sqlalchemy import create_engine, select
@@ -133,11 +132,11 @@ def generate_brand_profile(
         brand_info = f"""
 Brand DB record:
 - Title: {brand.title}
-- URL: {brand.url or 'unknown'}
-- Country: {brand.country or 'unknown'}
-- Summary: {brand.summary or 'none'}
-- Categories: {brand.categories or 'unknown'}
-- Price tier: {brand.price_tier or 'unknown'}
+- URL: {brand.url or "unknown"}
+- Country: {brand.country or "unknown"}
+- Summary: {brand.summary or "none"}
+- Categories: {brand.categories or "unknown"}
+- Price tier: {brand.price_tier or "unknown"}
 """
 
     prompt = f"""Write a rich brand profile for: {brand_name}
@@ -247,7 +246,7 @@ def generate_component_guide(
     prompt = f"""Write a component guide about: {component_type}
 
 Component data from vault bikes:
-{chr(10).join(component_data) if component_data else 'No data available'}
+{chr(10).join(component_data) if component_data else "No data available"}
 
 Generate a complete Obsidian markdown note with proper frontmatter.
 """

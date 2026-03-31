@@ -1,22 +1,24 @@
 ---
 brand: ENGWE
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: ENGWE
 type: brand
-summary: ENGWE is a cargo bike manufacturer offering diverse models for families and
+summary:
+  ENGWE is a cargo bike manufacturer offering diverse models for families and
   professionals.
 tags:
-- brand
-- index
-- engwe
+  - brand
+  - index
+  - engwe
 regions:
-- EU
+  - EU
 categories:
-- compact
+  - compact
 distribution_model: both
 ---
+
 ## Overview
 
 ENGWE is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

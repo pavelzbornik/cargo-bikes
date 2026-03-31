@@ -1,6 +1,6 @@
 ---
-date: '2025-10-20'
-review_summary_date: '2025-10-30'
+date: "2025-10-20"
+review_summary_date: "2025-10-30"
 review_source_count: 2
 title: FastRack V1
 type: bike
@@ -8,17 +8,17 @@ brand: Yuba
 image: https://yubabikes.com/wp-content/uploads/2025/01/5-1.png
 model: FastRack V1
 tags:
-- bike
-- compact
-- yuba
+  - bike
+  - compact
+  - yuba
 url: https://yubabikes.eu/product/fastrack-v1/
 resellers:
-- name: Cyclable
-  url: https://www.cyclable.com/17680-velo-cargo-electrique-yuba-fastrack.html
-  price: '3499'
-  currency: EUR
-  region: EU
-  availability: in-stock
+  - name: Cyclable
+    url: https://www.cyclable.com/17680-velo-cargo-electrique-yuba-fastrack.html
+    price: "3499"
+    currency: EUR
+    region: EU
+    availability: in-stock
 category: compact
 load_capacity_total_kg: 200.0
 load_capacity_passenger_count: 1
@@ -27,10 +27,11 @@ motor_power_w: 500
 battery_capacity_wh: 500
 battery_configuration: single
 battery_removable: true
-range_estimate_km: '60'
-price_amount: '3499'
+range_estimate_km: "60"
+price_amount: "3499"
 price_currency: EUR
-specs_notes: Migrated from legacy format. Earlier version of FastRack compact electric
+specs_notes:
+  Migrated from legacy format. Earlier version of FastRack compact electric
   cargo bike.
 motor_make: Shimano
 motor_torque_nm: 60
@@ -38,8 +39,9 @@ weight_with_battery_kg: 34.0
 frame_material: aluminum
 brakes_type: hydraulic disc
 drivetrain_type: chain
-wheels_front_size_in: '20'
+wheels_front_size_in: "20"
 ---
+
 ## FastRack V1
 
 ## Overview
@@ -49,14 +51,16 @@ The FastRack V1 is compact, cargo, and electric. This refined version of the Fas
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | compact |
-| **Motor Power** | 500W |
-| **Battery Capacity** | 500Wh |
-| **Range** | 60 km |
-| **Total Load Capacity** | 200.0kg |
-| **Price** | 3499 EUR |
+
+| Specification           | Value    |
+| ----------------------- | -------- |
+| **Category**            | compact  |
+| **Motor Power**         | 500W     |
+| **Battery Capacity**    | 500Wh    |
+| **Range**               | 60 km    |
+| **Total Load Capacity** | 200.0kg  |
+| **Price**               | 3499 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €3,499.00

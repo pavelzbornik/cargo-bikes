@@ -45,7 +45,7 @@ As a manufacturer-designed accessory, it is not intended for use with bikes from
 ## Pricing
 
 | Region | Price |
-|--------|-------|
+| ------ | ----- |
 | Europe | €99   |
 
 ## Notes

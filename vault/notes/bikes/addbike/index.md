@@ -4,52 +4,54 @@ title: AddBike
 type: brand
 url: https://add-bike.com/en/
 logo: https://add-bike.com/wp-content/uploads/2025/09/ADDBIKE-LOGO.svg
-summary: French manufacturer of innovative electric cargo bikes and modular systems
+summary:
+  French manufacturer of innovative electric cargo bikes and modular systems
   designed for urban families and eco-conscious commuters, based in Lyon with a focus
   on adaptability and safety.
 tags:
-- brand
-- french
-- longtail
-- electric
-- family
-- accessible
-- modular
-- lyon
+  - brand
+  - french
+  - longtail
+  - electric
+  - family
+  - accessible
+  - modular
+  - lyon
 country: France
 headquarters_city: Lyon (Villeurbanne)
 headquarters_country: France
 headquarters_address: Grand Plateau, Villeurbanne, Auvergne-Rhône-Alpes Region
 categories:
-- longtail
-- compact
-- tricycle
-- midtail
-- adapted-bikes
+  - longtail
+  - compact
+  - tricycle
+  - midtail
+  - adapted-bikes
 market_segments:
-- urban-families
-- parents-with-children
-- accessibility-focused
-- commuters
+  - urban-families
+  - parents-with-children
+  - accessibility-focused
+  - commuters
 regions:
-- EU
+  - EU
 price_tier: accessible
 product_types:
-- bikes
-- cargo-systems
-- modules
+  - bikes
+  - cargo-systems
+  - modules
 model_count: 6
 primary_motors:
-- Bafang BBS01
+  - Bafang BBS01
 manufacturing_locations:
-- France
+  - France
 manufacturing_approach: in-house
 assembly_location: France
-ethical_standards: Assembled at Usine à Vélo (bicycle assembly cooperative) and Grand
+ethical_standards:
+  Assembled at Usine à Vélo (bicycle assembly cooperative) and Grand
   Plateau production site, supported by local regional authorities
 distribution_model: both
 regions_active:
-- EU
+  - EU
 direct_sales: true
 dealership_network: true
 value_sustainability: true
@@ -58,12 +60,13 @@ value_community_focus: true
 value_safety_emphasis: true
 value_tech_integration: true
 accessibility:
-- modular-system
-- adaptable-for-accessibility
-- quick-mode-switching
-- affordable-entry-to-cargo
-- comprehensive-safety-features
+  - modular-system
+  - adaptable-for-accessibility
+  - quick-mode-switching
+  - affordable-entry-to-cargo
+  - comprehensive-safety-features
 ---
+
 ## Overview
 
 AddBike is a French cargo bike manufacturer headquartered in Lyon, France, dedicated to democratizing cargo bikes for urban families. According to their official website, AddBike specializes in innovative electric cargo solutions designed through their own research unit in Villeurbanne, incorporating customer feedback to create bikes that adapt to diverse urban mobility needs.

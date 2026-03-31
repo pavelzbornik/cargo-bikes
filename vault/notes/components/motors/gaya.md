@@ -2,18 +2,19 @@
 title: Gaya
 type: component-manufacturer
 category: motors
-domain: '[[Motors MOC]]'
+domain: "[[Motors MOC]]"
 tags:
-- manufacturer
-- motor
-- hub-motor
-- french
-- affordable
+  - manufacturer
+  - motor
+  - hub-motor
+  - french
+  - affordable
 generated_by: cargo-bikes-cli
 motor_type: Rear-hub
 nominal_power: 250W
 headquarters: France
 ---
+
 # Gaya
 
 Gaya is a French electric cargo bike manufacturer specializing in affordable rear-hub motor cargo bikes designed for families and urban commuters. The brand focuses on making cargo cycling accessible with competitive pricing and practical designs.

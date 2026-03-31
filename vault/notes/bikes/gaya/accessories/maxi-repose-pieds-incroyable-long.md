@@ -32,17 +32,17 @@ Large footrests designed specifically for the [[Gaya L'Incroyable Le Long]] carg
 
 This accessory is **brand-specific** and has been developed by [[Gaya]] exclusively for use with their Long-format cargo bike:
 
-| Bike | Compatible |
-|------|------------|
-| [[Gaya L'Incroyable Le Long]] | Yes |
+| Bike                          | Compatible |
+| ----------------------------- | ---------- |
+| [[Gaya L'Incroyable Le Long]] | Yes        |
 
 > Note: These footrests are not designed for use with other cargo bike brands or non-Long Gaya models. Verify compatibility with your specific bike configuration before purchasing.
 
 ## Pricing
 
 | Region | Price |
-|--------|-------|
-| Europe | €120 |
+| ------ | ----- |
+| Europe | €120  |
 
 ## Notes
 

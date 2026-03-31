@@ -5,20 +5,20 @@ type: bike
 brand: Xtracycle
 model: eSwoop
 tags:
-- bike
-- longtail
-- xtracycle
-- shimano
+  - bike
+  - longtail
+  - xtracycle
+  - shimano
 url: https://xtracycle.com/products/eswoop
 image: https://xtracycle.com/cdn/shop/products/eswoop-hero.jpg
 resellers:
-- name: Xtracycle Official Store
-  url: https://xtracycle.com/products/eswoop
-  price: '4999'
-  currency: USD
-  region: North America
-  availability: in-stock
-  note: Free shipping and local assembly in contiguous USA
+  - name: Xtracycle Official Store
+    url: https://xtracycle.com/products/eswoop
+    price: "4999"
+    currency: USD
+    region: North America
+    availability: in-stock
+    note: Free shipping and local assembly in contiguous USA
 category: longtail
 model_year: 2025
 frame_material: 4130 Chromoly steel
@@ -39,13 +39,13 @@ motor_boost_throttle: false
 battery_capacity_wh: 630
 battery_configuration: single
 battery_removable: true
-battery_charging_time_h: '3.5'
+battery_charging_time_h: "3.5"
 drivetrain_type: chain
-drivetrain_speeds: '11'
+drivetrain_speeds: "11"
 brakes_type: hydraulic disc
 brakes_front_rotor_mm: 180
 brakes_rear_rotor_mm: 180
-brakes_pistons: '4'
+brakes_pistons: "4"
 wheels_front_size_in: 20"
 wheels_rear_size_in: 20"
 wheels_tire: Schwalbe Pick-Up
@@ -58,24 +58,25 @@ lights_rear_type: Herrmans H-TRACE E-Bike, 6-12V
 lights_rear_integrated: true
 lights_rear_brake_light: true
 features:
-- stable-kickstand
-- integrated-lights
-- adjustable-fit-5-3-to-6-1
-- two-kid-seat-compatible
-- low-step-through
+  - stable-kickstand
+  - integrated-lights
+  - adjustable-fit-5-3-to-6-1
+  - two-kid-seat-compatible
+  - low-step-through
 security_gps: false
 security_app_lock: false
 security_frame_lock: false
-range_estimate_km: '96'
-range_notes: Up to 60 miles on single charge; range varies by assist level, load,
+range_estimate_km: "96"
+range_notes:
+  Up to 60 miles on single charge; range varies by assist level, load,
   and conditions
-price_amount: '4999'
+price_amount: "4999"
 price_currency: USD
-specs_notes: 'The Swoop features Shimano STEPS EP8 mid-drive motor with 630Wh extended
+specs_notes:
+  'The Swoop features Shimano STEPS EP8 mid-drive motor with 630Wh extended
   range battery. Frame designed for ease of sharing between riders 5''3" to 6''1",
   with optional FitKit adjustments for shorter/taller riders. Max gross vehicle weight
   rating: 470 lbs.'
-
 ---
 
 ## Xtracycle eSwoop
@@ -89,21 +90,23 @@ The Xtracycle eSwoop is a family-focused electric longtail cargo bike designed t
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | longtail |
-| **Model Year** | 2025 |
-| **Motor** | Shimano STEPS EP8 |
-| **Motor Power** | 250W |
-| **Motor Torque** | 85Nm |
-| **Battery Capacity** | 630Wh |
-| **Range** | 96 km |
-| **Weight (with battery)** | 28.5kg |
-| **Total Load Capacity** | 213.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | hydraulic disc |
-| **Wheel Size** | 20" |
-| **Price** | 4999 USD |
+
+| Specification             | Value             |
+| ------------------------- | ----------------- |
+| **Category**              | longtail          |
+| **Model Year**            | 2025              |
+| **Motor**                 | Shimano STEPS EP8 |
+| **Motor Power**           | 250W              |
+| **Motor Torque**          | 85Nm              |
+| **Battery Capacity**      | 630Wh             |
+| **Range**                 | 96 km             |
+| **Weight (with battery)** | 28.5kg            |
+| **Total Load Capacity**   | 213.0kg           |
+| **Drivetrain**            | chain             |
+| **Brakes**                | hydraulic disc    |
+| **Wheel Size**            | 20"               |
+| **Price**                 | 4999 USD          |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

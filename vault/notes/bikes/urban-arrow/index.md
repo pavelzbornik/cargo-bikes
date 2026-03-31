@@ -1,19 +1,21 @@
 ---
 brand: Urban Arrow
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: Urban Arrow
 type: brand
-summary: Urban Arrow is a cargo bike manufacturer offering diverse models for families
+summary:
+  Urban Arrow is a cargo bike manufacturer offering diverse models for families
   and professionals.
 tags:
-- brand
-- index
-- urban-arrow
+  - brand
+  - index
+  - urban-arrow
 regions:
-- EU
+  - EU
 ---
+
 ## Overview
 
 Urban Arrow is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

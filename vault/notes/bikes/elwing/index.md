@@ -1,20 +1,22 @@
 ---
 brand: Elwing
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: Elwing
 type: brand
-summary: Elwing is a cargo bike manufacturer offering diverse models for families
+summary:
+  Elwing is a cargo bike manufacturer offering diverse models for families
   and professionals.
 tags:
-- brand
-- index
-- elwing
+  - brand
+  - index
+  - elwing
 regions:
-- EU
+  - EU
 distribution_model: both
 ---
+
 ## Overview
 
 Elwing is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

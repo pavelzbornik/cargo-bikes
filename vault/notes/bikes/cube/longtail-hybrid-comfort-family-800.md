@@ -5,19 +5,19 @@ type: bike
 brand: Cube
 model: Longtail Hybrid Comfort Family 800
 tags:
-- bike
-- longtail
-- cube
-- bosch
+  - bike
+  - longtail
+  - cube
+  - bosch
 url: https://www.cube.eu/de-en/cube-longtail-hybrid-comfort-family-800-haze-n-reflex/122150
 image: https://www.cube.eu/media/image/f6/8e/a8/122150_MY25_Longtail_Hybrid_Comfort_Family_800_hazeanreflex_prod_1.jpg
 resellers:
-- name: Cube Official Store
-  url: https://www.cube.eu/de-en/cube-longtail-hybrid-comfort-family-800-haze-n-reflex/122150
-  price: '4799'
-  currency: EUR
-  region: Europe
-  availability: in-stock
+  - name: Cube Official Store
+    url: https://www.cube.eu/de-en/cube-longtail-hybrid-comfort-family-800-haze-n-reflex/122150
+    price: "4799"
+    currency: EUR
+    region: Europe
+    availability: in-stock
 category: longtail
 model_year: 2025
 frame_material: aluminum
@@ -26,7 +26,8 @@ weight_with_battery_kg: 39.7
 load_capacity_total_kg: 200.0
 load_capacity_rear_kg: 60.0
 load_capacity_passenger_count: 2
-load_capacity_passenger_config: Two children on rear bench seat with side protection
+load_capacity_passenger_config:
+  Two children on rear bench seat with side protection
   and stepboards
 motor_make: Bosch
 motor_model: Cargo Line
@@ -55,30 +56,33 @@ lights_rear_type: Herrmans H-Trace
 lights_rear_integrated: true
 lights_rear_brake_light: false
 features:
-- lockable-downtube-storage
-- telescopic-seatpost
-- adjustable-stem
-- kickstand
-- mudguards
-- bell
-- bench-seat
-- side-protection
-- stepboards
-- front-carrier-ready
-- smart-system
-- kiox-500-display
+  - lockable-downtube-storage
+  - telescopic-seatpost
+  - adjustable-stem
+  - kickstand
+  - mudguards
+  - bell
+  - bench-seat
+  - side-protection
+  - stepboards
+  - front-carrier-ready
+  - smart-system
+  - kiox-500-display
 security_gps: false
 security_app_lock: false
 security_frame_lock: false
-range_notes: Bosch smart system with 800Wh battery provides extended range for family
+range_notes:
+  Bosch smart system with 800Wh battery provides extended range for family
   transport
-price_amount: '4799'
+price_amount: "4799"
 price_currency: EUR
-specs_notes: Comfort version with Enviolo stepless hub gear system. Includes bench
+specs_notes:
+  Comfort version with Enviolo stepless hub gear system. Includes bench
   seat with safety accessories for child transport. One Size Concept fits riders 1.60m-1.90m
   (5'2"-6'2"). HIC front carrier compatible.
 range_estimate_km: 75-100
 ---
+
 ## Overview
 
 ![Cube Longtail Hybrid Comfort Family 800](https://www.cube.eu/media/image/f6/8e/a8/122150_MY25_Longtail_Hybrid_Comfort_Family_800_hazeanreflex_prod_1.jpg)
@@ -88,20 +92,22 @@ The Cube Longtail Hybrid Comfort Family 800 is a premium family cargo bike that 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | longtail |
-| **Model Year** | 2025 |
-| **Motor** | Bosch Cargo Line |
-| **Motor Power** | 250W |
-| **Motor Torque** | 85Nm |
-| **Battery Capacity** | 800Wh |
-| **Weight (with battery)** | 39.7kg |
-| **Total Load Capacity** | 200.0kg |
-| **Drivetrain** | belt |
-| **Brakes** | Magura Gustav PRO hydraulic disc |
-| **Wheel Size** | 26" |
-| **Price** | 4799 EUR |
+
+| Specification             | Value                            |
+| ------------------------- | -------------------------------- |
+| **Category**              | longtail                         |
+| **Model Year**            | 2025                             |
+| **Motor**                 | Bosch Cargo Line                 |
+| **Motor Power**           | 250W                             |
+| **Motor Torque**          | 85Nm                             |
+| **Battery Capacity**      | 800Wh                            |
+| **Weight (with battery)** | 39.7kg                           |
+| **Total Load Capacity**   | 200.0kg                          |
+| **Drivetrain**            | belt                             |
+| **Brakes**                | Magura Gustav PRO hydraulic disc |
+| **Wheel Size**            | 26"                              |
+| **Price**                 | 4799 EUR                         |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Frame & Build

@@ -4,60 +4,62 @@ title: Fiido
 type: brand
 url: https://www.fiido.com
 logo: https://www.fiido.com/cdn/shop/files/Fiido-Logo_c2d1f688-d98f-4fbb-8f5b-7c4919a4e66d.svg
-summary: Hong Kong-based e-bike manufacturer founded in 2017, offering innovative
+summary:
+  Hong Kong-based e-bike manufacturer founded in 2017, offering innovative
   electric bikes and e-scooters with focus on design, technology, and user-centered
   community engagement. Known for patented technologies and high-quality cargo and
   urban e-bikes.
 tags:
-- brand
-- hong-kong
-- electric-bikes
-- cargo-bikes
-- innovation
-- affordable
-- community-focused
-- design-forward
+  - brand
+  - hong-kong
+  - electric-bikes
+  - cargo-bikes
+  - innovation
+  - affordable
+  - community-focused
+  - design-forward
 founded_year: 2017
 country: Hong Kong
 headquarters_city: Hong Kong
 headquarters_country: Hong Kong
 categories:
-- longtail
-- cargo
-- folding
-- urban
-- touring
-- carbon
+  - longtail
+  - cargo
+  - folding
+  - urban
+  - touring
+  - carbon
 market_segments:
-- urban-commuters
-- families
-- cargo-transport
-- enthusiasts
-- lifestyle-riders
+  - urban-commuters
+  - families
+  - cargo-transport
+  - enthusiasts
+  - lifestyle-riders
 regions:
-- EU
-- North America
-- Asia
+  - EU
+  - North America
+  - Asia
 price_tier: accessible
 product_types:
-- bikes
-- e-scooters
+  - bikes
+  - e-scooters
 model_count: 15
 primary_motors:
-- proprietary-hub-motors
-- mid-drive
+  - proprietary-hub-motors
+  - mid-drive
 manufacturing_locations:
-- China
+  - China
 manufacturing_approach: contracted
 assembly_location: China
-ethical_standards: Professional R&D team, exclusive technology patents, complete supply
+ethical_standards:
+  Professional R&D team, exclusive technology patents, complete supply
   chain, full-scale testing lab
 distribution_model: both
 regions_active:
-- EU
-- North America
-- Asia
-- Oceania
+  - EU
+  - North America
+  - Asia
+  - Oceania
 direct_sales: true
 dealership_network: true
 impact_bikes_sold_approx: 400000
@@ -67,12 +69,13 @@ value_community_focus: true
 value_safety_emphasis: true
 value_tech_integration: true
 accessibility:
-- innovative-design-technology
-- affordable-pricing
-- diverse-product-range
-- user-centric-community
-- patented-technologies
+  - innovative-design-technology
+  - affordable-pricing
+  - diverse-product-range
+  - user-centric-community
+  - patented-technologies
 ---
+
 ## Overview
 
 Fiido is a Hong Kong-based e-bike manufacturer founded in 2017, specializing in innovative electric bikes and e-scooters designed for urban riders, families, and cargo transport. According to their official website, Fiido was born from "the drive to create something different," with a mission to dare to "think what can't be thought, dare to do what can't be done."

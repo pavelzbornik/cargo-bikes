@@ -36,17 +36,9 @@ def extract_spec_value(
         return default
     if len(keys) >= 1 and keys[-1] == "power_w" and isinstance(value, (int, float)):
         return f"{value}W"
-    if (
-        len(keys) >= 1
-        and keys[-1] == "capacity_wh"
-        and isinstance(value, (int, float))
-    ):
+    if len(keys) >= 1 and keys[-1] == "capacity_wh" and isinstance(value, (int, float)):
         return f"{value}Wh"
-    if (
-        len(keys) >= 1
-        and keys[-1] == "estimate_km"
-        and isinstance(value, (int, float))
-    ):
+    if len(keys) >= 1 and keys[-1] == "estimate_km" and isinstance(value, (int, float)):
         return f"{value}km"
     return str(value) if value else default
 

@@ -40,13 +40,13 @@ This accessory is designed **specifically for Tern GSD long-tail cargo bikes**. 
 
 ## Specifications
 
-| Spec | Detail |
-|------|--------|
-| Manufacturer | [[Tern]] |
-| Price | €150 |
-| Accessory Type | Brand-specific |
-| Category | Towing |
-| Mounting | Tern GSD rear frame hitch points |
+| Spec           | Detail                           |
+| -------------- | -------------------------------- |
+| Manufacturer   | [[Tern]]                         |
+| Price          | €150                             |
+| Accessory Type | Brand-specific                   |
+| Category       | Towing                           |
+| Mounting       | Tern GSD rear frame hitch points |
 
 ## Notes
 

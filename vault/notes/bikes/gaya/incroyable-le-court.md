@@ -7,22 +7,22 @@ type: bike
 brand: Gaya
 model: L'Incroyable Le Court
 tags:
-- bike
-- short-tail
-- gaya
-- premium
+  - bike
+  - short-tail
+  - gaya
+  - premium
 url: https://gaya.bike/velo-cargo/incroyable-le-court
 image: https://gaya.bike/api/medias/api/images/file/Incroyable%20-%20Le%20Court%20-%20Ardoise%20-%20Color%20Swatcher%20Cropped-1000x663.webp
 resellers:
-- name: Roulez Jeunesse
-  url: https://shop.roulezjeunesse.com/collections/pour-les-familles/products/gaya-lincroyable-le-court
-  price: '3200'
-  currency: EUR
-  region: EU
-  availability: in-stock
+  - name: Roulez Jeunesse
+    url: https://shop.roulezjeunesse.com/collections/pour-les-familles/products/gaya-lincroyable-le-court
+    price: "3200"
+    currency: EUR
+    region: EU
+    availability: in-stock
 category: short-tail
 frame_material: aluminum
-frame_size: '43'
+frame_size: "43"
 weight_bike_kg: 34.0
 weight_with_battery_kg: 36.8
 weight_battery_kg: 2.8
@@ -50,18 +50,17 @@ lights_rear_type: LED brake light 4 lm
 lights_rear_integrated: true
 lights_rear_brake_light: true
 features:
-- torque-sensor
-- gps-tracking
-- nfc-badge
-- integrated-display
+  - torque-sensor
+  - gps-tracking
+  - nfc-badge
+  - integrated-display
 security_gps: true
 security_alarm_db: 105
 security_app_lock: true
 security_frame_lock: true
-range_estimate_km: '70'
-price_amount: '2900'
+range_estimate_km: "70"
+price_amount: "2900"
 price_currency: EUR
-
 ---
 
 ## Overview
@@ -73,20 +72,22 @@ L'Incroyable Le Court is the premium short-tail cargo e-bike from GAYA, designed
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | short-tail |
-| **Motor** | Gaya rear wheel 250W |
-| **Motor Power** | 250W |
-| **Motor Torque** | 50Nm |
-| **Battery Capacity** | 460Wh |
-| **Range** | 70 km |
-| **Weight (with battery)** | 36.8kg |
-| **Total Load Capacity** | 170.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | mechanical disc |
-| **Wheel Size** | 27.5" |
-| **Price** | 2900 EUR |
+
+| Specification             | Value                |
+| ------------------------- | -------------------- |
+| **Category**              | short-tail           |
+| **Motor**                 | Gaya rear wheel 250W |
+| **Motor Power**           | 250W                 |
+| **Motor Torque**          | 50Nm                 |
+| **Battery Capacity**      | 460Wh                |
+| **Range**                 | 70 km                |
+| **Weight (with battery)** | 36.8kg               |
+| **Total Load Capacity**   | 170.0kg              |
+| **Drivetrain**            | chain                |
+| **Brakes**                | mechanical disc      |
+| **Wheel Size**            | 27.5"                |
+| **Price**                 | 2900 EUR             |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification                | Details                                          |

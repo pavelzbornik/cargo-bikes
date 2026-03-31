@@ -7,14 +7,14 @@ type: bike
 brand: Gaya
 model: L'Original Le Long
 tags:
-- bike
-- long-tail
-- gaya
+  - bike
+  - long-tail
+  - gaya
 url: https://gaya.bike/velo-cargo/original-le-long
 image: https://gaya.bike/api/medias/api/images/file/GAYA_LONG_MOKA%20Cropped-1000x594.webp
 category: long-tail
 frame_material: aluminum
-frame_size: '43'
+frame_size: "43"
 weight_with_battery_kg: 36.0
 weight_battery_kg: 3.0
 load_capacity_total_kg: 170.0
@@ -28,7 +28,7 @@ motor_torque_nm: 50
 battery_capacity_wh: 460
 battery_configuration: single
 battery_removable: true
-battery_charging_time_h: '5'
+battery_charging_time_h: "5"
 drivetrain_type: chain
 brakes_type: mechanical disc
 wheels_front_size_in: 27.5"
@@ -41,17 +41,16 @@ lights_rear_type: LED brake light 4 lm
 lights_rear_integrated: true
 lights_rear_brake_light: true
 features:
-- torque-sensor
-- nfc-badge
-- integrated-display
-- gps-tracking
+  - torque-sensor
+  - nfc-badge
+  - integrated-display
+  - gps-tracking
 security_gps: true
 security_alarm_db: 105
 security_frame_lock: true
-range_estimate_km: '70'
-price_amount: '2800'
+range_estimate_km: "70"
+price_amount: "2800"
 price_currency: EUR
-
 ---
 
 ## Overview
@@ -63,20 +62,22 @@ L'Original Le Long is GAYA's long-tail cargo e-bike, redesigned for the urban fa
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | long-tail |
-| **Motor** | Gaya |
-| **Motor Power** | 250W |
-| **Motor Torque** | 50Nm |
-| **Battery Capacity** | 460Wh |
-| **Range** | 70 km |
-| **Weight (with battery)** | 36.0kg |
-| **Total Load Capacity** | 170.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | mechanical disc |
-| **Wheel Size** | 27.5" |
-| **Price** | 2800 EUR |
+
+| Specification             | Value           |
+| ------------------------- | --------------- |
+| **Category**              | long-tail       |
+| **Motor**                 | Gaya            |
+| **Motor Power**           | 250W            |
+| **Motor Torque**          | 50Nm            |
+| **Battery Capacity**      | 460Wh           |
+| **Range**                 | 70 km           |
+| **Weight (with battery)** | 36.0kg          |
+| **Total Load Capacity**   | 170.0kg         |
+| **Drivetrain**            | chain           |
+| **Brakes**                | mechanical disc |
+| **Wheel Size**            | 27.5"           |
+| **Price**                 | 2800 EUR        |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification               | Details                                          |

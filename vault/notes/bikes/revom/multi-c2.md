@@ -9,35 +9,36 @@ type: bike
 brand: Revom
 model: Multi C2
 tags:
-- bike
-- cargo
-- modular
-- revom
+  - bike
+  - cargo
+  - modular
+  - revom
 url: https://www.mvebike.fr/revom-multi-c2-xml-378_379_388-1227.html
 image: https://www.mvebike.fr/images/Image/REVOM-Multi-C2.png
 motor_torque_nm: 100
 range_estimate_km: 100-110
-price_amount: '2999'
+price_amount: "2999"
 price_currency: EUR
 motor_type: mid-drive
 battery_capacity_wh: 720
 load_capacity_total_kg: 180.0
 frame_material: aluminum
 brakes_type: hydraulic disc
-drivetrain_speeds: '7'
+drivetrain_speeds: "7"
 drivetrain_hub: Shimano Nexus 7
-wheels_front_size_in: '24'
-wheels_rear_size_in: '24'
+wheels_front_size_in: "24"
+wheels_rear_size_in: "24"
 wheels_tire: CST 24" x 3.0"
 suspension_front: hydraulic
 needs_research: true
 research_topics:
-- category
-- motor_make
-- motor_power_w
-- weight_with_battery_kg
-- drivetrain_type
+  - category
+  - motor_make
+  - motor_power_w
+  - weight_with_battery_kg
+  - drivetrain_type
 ---
+
 ## Overview
 
 ![Revom Multi C2](https://www.mvebike.fr/images/Image/REVOM-Multi-C2.png)
@@ -47,11 +48,13 @@ The Revom Multi C2 is an advanced modular cargo bike featuring dual battery tech
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor Torque** | 100Nm |
-| **Range** | 100-110 km |
-| **Price** | 2999 EUR |
+
+| Specification    | Value      |
+| ---------------- | ---------- |
+| **Motor Torque** | 100Nm      |
+| **Range**        | 100-110 km |
+| **Price**        | 2999 EUR   |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification            | Details                                                    |

@@ -38,11 +38,13 @@ The Front Basket is a sturdy, removable cargo basket mounted at the front of the
 
 This basket is designed specifically for the [[Momentum PakYak E+]] and is part of Momentum's official accessory ecosystem. It is not marketed as a universal or third-party accessory and may not be compatible with other cargo bike brands or models without modification.
 
-| Bike | Compatible |
-|------|------------|
-| [[Momentum PakYak E+]] | Yes |
+| Bike                   | Compatible |
+| ---------------------- | ---------- |
+| [[Momentum PakYak E+]] | Yes        |
+
 ```
 
 ---
 
 The note uses `price_amount: 0` with a `price_note: Included with bike` field to clearly convey the "Included" pricing without leaving the numeric field blank. All frontmatter is flat (no nesting), manufacturer points to `[[Momentum]]` as the bike brand, and `accessory_type` is set to `brand-specific`. Let me know if you'd like any adjustments!
+```

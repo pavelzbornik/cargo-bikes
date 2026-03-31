@@ -2,15 +2,15 @@
 title: Shimano E7000
 type: component
 category: motors
-parent: '[[Shimano]]'
-domain: '[[Motors MOC]]'
+parent: "[[Shimano]]"
+domain: "[[Motors MOC]]"
 generated_by: cargo-bikes-cli
 tags:
-- motor
-- shimano
-- steps
-- mid-drive
-- e-bike
+  - motor
+  - shimano
+  - steps
+  - mid-drive
+  - e-bike
 motor_type: Mid-drive
 torque_nm: 60
 power_w: 250
@@ -18,29 +18,30 @@ voltage_v: 36
 weight_kg: 3.3
 max_assist_speed_kmh: 25
 assist_modes:
-- Eco
-- Trail
-- Boost
+  - Eco
+  - Trail
+  - Boost
 chainline_mm: 50
 chain_speed: 10/11-speed
 ---
+
 # Shimano E7000
 
 Part of the [[Shimano]] STEPS mid-drive system family, the E7000 is a 250 W / 60 Nm motor targeting urban, trekking, and light cargo applications. It sits above the entry-level E5000 and below the higher-torque cargo-specific EP6/EP8 units.
 
 ## Specifications
 
-| Specification | Value |
-|---|---|
-| Motor Type | Mid-drive (bottom bracket) |
-| Nominal Power | 250 W |
-| Max Torque | 60 Nm |
-| System Voltage | 36 V |
-| Weight | ~3.3 kg |
-| Max Assist Speed | 25 km/h (EU) |
-| Cadence Range | Up to ~100 RPM |
-| Chainline | 50 mm |
-| Chain Compatibility | 10/11-speed |
+| Specification       | Value                      |
+| ------------------- | -------------------------- |
+| Motor Type          | Mid-drive (bottom bracket) |
+| Nominal Power       | 250 W                      |
+| Max Torque          | 60 Nm                      |
+| System Voltage      | 36 V                       |
+| Weight              | ~3.3 kg                    |
+| Max Assist Speed    | 25 km/h (EU)               |
+| Cadence Range       | Up to ~100 RPM             |
+| Chainline           | 50 mm                      |
+| Chain Compatibility | 10/11-speed                |
 
 ## Assist Modes
 
@@ -51,11 +52,11 @@ Part of the [[Shimano]] STEPS mid-drive system family, the E7000 is a 250 W / 60
 
 ## Battery Compatibility
 
-| Battery | Capacity |
-|---|---|
-| BT-E6010 | 418 Wh |
-| BT-E6020 | 504 Wh |
-| BT-E8035 | 630 Wh |
+| Battery  | Capacity |
+| -------- | -------- |
+| BT-E6010 | 418 Wh   |
+| BT-E6020 | 504 Wh   |
+| BT-E8035 | 630 Wh   |
 
 Range estimates vary from approximately 60–180 km depending on battery size, assist mode, load, and terrain.
 

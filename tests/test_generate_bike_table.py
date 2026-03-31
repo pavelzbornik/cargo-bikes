@@ -4,8 +4,6 @@ import tempfile
 from pathlib import Path
 from unittest.mock import MagicMock, patch
 
-from cargo_bikes.vault.scanner import collect_bikes
-
 from cargo_bikes.generate.bike_table import (
     extract_spec_value,
     format_table_cell,
@@ -17,6 +15,7 @@ from cargo_bikes.generate.bike_table import (
     update_file_with_table,
 )
 from cargo_bikes.vault.frontmatter import extract_frontmatter, validate_bike_frontmatter
+from cargo_bikes.vault.scanner import collect_bikes
 
 
 class TestExtractFrontmatter:

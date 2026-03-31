@@ -14,7 +14,7 @@ def _strip_frontmatter(content: str) -> str:
     """Remove YAML frontmatter from markdown content."""
     match = re.match(r"^---\s*\n.*?\n---\s*\n", content, re.DOTALL)
     if match:
-        return content[match.end():]
+        return content[match.end() :]
     return content
 
 
@@ -88,36 +88,37 @@ def translate_notes(
         brand_dir = vault_path / "notes" / "bikes" / brand
         if brand_dir.exists():
             notes.extend(
-                f for f in sorted(brand_dir.glob("*.md"))
+                f
+                for f in sorted(brand_dir.glob("*.md"))
                 if not f.stem.endswith(f".{lang}")
             )
     elif note_type == "guide":
         guides_dir = vault_path / "notes" / "guides"
         if guides_dir.exists():
             notes.extend(
-                f for f in sorted(guides_dir.glob("*.md"))
+                f
+                for f in sorted(guides_dir.glob("*.md"))
                 if not f.stem.endswith(f".{lang}")
             )
     elif note_type == "component":
         components_dir = vault_path / "notes" / "components"
         if components_dir.exists():
             notes.extend(
-                f for f in sorted(components_dir.rglob("*.md"))
+                f
+                for f in sorted(components_dir.rglob("*.md"))
                 if not f.stem.endswith(f".{lang}")
             )
     else:
         notes_dir = vault_path / "notes"
         if notes_dir.exists():
             notes.extend(
-                f for f in sorted(notes_dir.rglob("*.md"))
+                f
+                for f in sorted(notes_dir.rglob("*.md"))
                 if not f.stem.endswith(f".{lang}")
             )
 
     # Filter out notes that already have translations
-    to_translate = [
-        n for n in notes
-        if not n.with_suffix(f".{lang}.md").exists()
-    ]
+    to_translate = [n for n in notes if not n.with_suffix(f".{lang}.md").exists()]
 
     console.print(
         f"[bold]Found {len(to_translate)} notes to translate to {lang}[/bold] "

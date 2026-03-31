@@ -47,7 +47,9 @@ def _extract_one(
         return None
 
     # Find which fields are already filled
-    filled = {k for k, v in frontmatter.items() if v is not None and v != "" and v != []}
+    filled = {
+        k for k, v in frontmatter.items() if v is not None and v != "" and v != []
+    }
 
     body = _strip_frontmatter(content)
     if not body.strip():
@@ -59,7 +61,7 @@ def _extract_one(
     prompt = f"""Extract data from this cargo bike note body.
 Only extract fields you find clear evidence for. Leave as null if not found.
 
-Fields already filled (skip these): {', '.join(sorted(filled))}
+Fields already filled (skip these): {", ".join(sorted(filled))}
 
 Note body:
 {body_truncated}
@@ -245,7 +247,9 @@ def harmonize_notes(
     # Apply changes
     for change in accepted:
         _apply_extracted_fields(change["file_path"], change["extracted"])
-        console.print(f"[green]✓ {change['file_path'].name}[/green] +{len(change['extracted'])} fields")
+        console.print(
+            f"[green]✓ {change['file_path'].name}[/green] +{len(change['extracted'])} fields"
+        )
 
     console.print(f"\n[bold]Updated {len(accepted)} notes[/bold]")
 

@@ -13,7 +13,9 @@ def harmonize(
     brand: str | None = typer.Option(None, help="Only harmonize this brand"),
     dry_run: bool = typer.Option(False, help="Show changes without writing"),
     auto: bool = typer.Option(False, help="Skip interactive review"),
-    wikilinks: bool = typer.Option(False, help="Also convert markdown links to wikilinks"),
+    wikilinks: bool = typer.Option(
+        False, help="Also convert markdown links to wikilinks"
+    ),
     model: str = typer.Option("claude-sonnet-4-6", help="Claude model to use"),
 ) -> None:
     """Extract missing frontmatter fields from note body content."""
@@ -72,7 +74,9 @@ def brand_profile(
 
 @content_app.command("component-guide")
 def component_guide(
-    component_type: str = typer.Argument(..., help="Component type: motors, batteries, brakes"),
+    component_type: str = typer.Argument(
+        ..., help="Component type: motors, batteries, brakes"
+    ),
     vault_path: Path = typer.Option(Path("vault"), help="Path to vault root"),
     db_path: Path = typer.Option(Path("vault.db"), help="Path to database"),
     model: str = typer.Option("claude-sonnet-4-6", help="Claude model to use"),

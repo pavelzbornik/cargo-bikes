@@ -44,7 +44,7 @@ Always verify compatibility with your specific frame version or model year befor
 ## Pricing
 
 | Region | Price |
-|--------|-------|
+| ------ | ----- |
 | Europe | €139  |
 
 ## Notes

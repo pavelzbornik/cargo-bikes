@@ -9,11 +9,11 @@ type: bike
 brand: O2Feel
 model: Equo 4.2
 tags:
-- bike
-- longtail
-- cargo
-- e-bike
-- o2feel
+  - bike
+  - longtail
+  - cargo
+  - e-bike
+  - o2feel
 url: https://www.o2feel.com/en/product/equo-4-2/
 image: https://www.o2feel.com/wp-content/uploads/2022/11/Equo-4.2-1-BP-1200x1200-1-800x800.jpg
 frame_material: aluminum
@@ -31,17 +31,18 @@ wheels_rear_size_in: 20"
 wheels_tire: Schwalbe Pick-Up Perf
 suspension_front: none
 suspension_rear: none
-range_estimate_km: '230'
-price_amount: '4199'
+range_estimate_km: "230"
+price_amount: "4199"
 price_currency: EUR
 category: longtail
 motor_type: mid-drive
 motor_torque_nm: 85
-drivetrain_speeds: '10'
+drivetrain_speeds: "10"
 needs_research: true
 research_topics:
-- motor_power_w
+  - motor_power_w
 ---
+
 ## Overview
 
 ![O2Feel Equo 4.2](https://www.o2feel.com/wp-content/uploads/2022/11/Equo-4.2-1-BP-1200x1200-1-800x800.jpg)
@@ -51,17 +52,19 @@ The O2Feel Equo 4.2 represents the mid-tier longtail offering at €4,199, posit
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor** | Shimano STEPS EP801 Cargo |
-| **Battery Capacity** | 540Wh |
-| **Range** | 230 km |
-| **Weight (with battery)** | 30.0kg |
-| **Total Load Capacity** | 180.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | hydraulic disc |
-| **Wheel Size** | Front: 26", Rear: 20" |
-| **Price** | 4199 EUR |
+
+| Specification             | Value                     |
+| ------------------------- | ------------------------- |
+| **Motor**                 | Shimano STEPS EP801 Cargo |
+| **Battery Capacity**      | 540Wh                     |
+| **Range**                 | 230 km                    |
+| **Weight (with battery)** | 30.0kg                    |
+| **Total Load Capacity**   | 180.0kg                   |
+| **Drivetrain**            | chain                     |
+| **Brakes**                | hydraulic disc            |
+| **Wheel Size**            | Front: 26", Rear: 20"     |
+| **Price**                 | 4199 EUR                  |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

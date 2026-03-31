@@ -9,24 +9,25 @@ type: bike
 brand: YEEP.ME
 model: Day Cargo 2
 tags:
-- bike
-- longtail
-- cargo
-- electric
-- yeep-me
+  - bike
+  - longtail
+  - cargo
+  - electric
+  - yeep-me
 url: https://www.decathlon.fr/
 resellers:
-- name: Decathlon France
-  url: https://www.decathlon.fr/p/velo-electrique-longtail-yeepme-day-cargo-2-500wh-noir/_/R-p-338046
-  currency: EUR
-  region: EU
-  availability: in-stock
-  note: Price not displayed on Decathlon listing; available in multiple variants (Day
-    Cargo 2, Day Cargo 2 LR)
+  - name: Decathlon France
+    url: https://www.decathlon.fr/p/velo-electrique-longtail-yeepme-day-cargo-2-500wh-noir/_/R-p-338046
+    currency: EUR
+    region: EU
+    availability: in-stock
+    note:
+      Price not displayed on Decathlon listing; available in multiple variants (Day
+      Cargo 2, Day Cargo 2 LR)
 motor_power_w: 250
 battery_capacity_wh: 500
 range_estimate_km: 120-150
-price_amount: '2290'
+price_amount: "2290"
 price_currency: EUR
 category: longtail
 motor_make: Bosch
@@ -36,8 +37,9 @@ drivetrain_type: chain
 weight_with_battery_kg: 42.0
 load_capacity_total_kg: 180.0
 frame_material: aluminum
-wheels_front_size_in: '24'
+wheels_front_size_in: "24"
 ---
+
 ## Overview
 
 The YEEP.ME Day Cargo 2 is an electric longtail cargo bike featuring Bosch motor integration and modern design. Available in multiple color variants and configurations, it offers excellent range for daily commuting and family transport.
@@ -45,12 +47,14 @@ The YEEP.ME Day Cargo 2 is an electric longtail cargo bike featuring Bosch motor
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor Power** | 250W |
-| **Battery Capacity** | 500Wh |
-| **Range** | 120-150 km |
-| **Price** | 2290 EUR |
+
+| Specification        | Value      |
+| -------------------- | ---------- |
+| **Motor Power**      | 250W       |
+| **Battery Capacity** | 500Wh      |
+| **Range**            | 120-150 km |
+| **Price**            | 2290 EUR   |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Motor & Battery

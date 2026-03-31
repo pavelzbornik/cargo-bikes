@@ -10,18 +10,18 @@ brand: Riese & Müller
 image: https://propelbikes.com/wp-content/uploads/2023/08/riese-muller-multicharger2-GT-family-utility-gray-curry-matte.jpg
 model: Multicharger GT Family
 tags:
-- bike
-- longtail
-- cargo
-- electric
-- riese-muller
-- german
+  - bike
+  - longtail
+  - cargo
+  - electric
+  - riese-muller
+  - german
 url: https://www.riesemueller.com/
 motor_make: Bosch
 motor_model: Performance Line
 battery_capacity_wh: 625
-range_estimate_km: '120'
-price_amount: '5249'
+range_estimate_km: "120"
+price_amount: "5249"
 price_currency: EUR
 category: longtail
 motor_type: mid-drive
@@ -32,13 +32,14 @@ load_capacity_passenger_count: 2
 frame_length_cm: 197.0
 brakes_type: hydraulic disc
 drivetrain_type: chain
-drivetrain_speeds: '10'
-wheels_front_size_in: '26'
-wheels_rear_size_in: '26'
+drivetrain_speeds: "10"
+wheels_front_size_in: "26"
+wheels_rear_size_in: "26"
 suspension_front: none
 motor_power_w: 250
 frame_material: aluminum
 ---
+
 ## Overview
 
 The Riese & Müller Multicharger GT Family represents German premium engineering in the electric longtail segment. Distinguished by its larger 26" wheels (unique among standard longtails), it delivers a "classical bike with extended cargo platform" riding experience rather than a purpose-built longtail. German quality and comprehensive standard accessories set it apart in the high-end market segment.
@@ -46,12 +47,14 @@ The Riese & Müller Multicharger GT Family represents German premium engineering
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor** | Bosch Performance Line |
-| **Battery Capacity** | 625Wh |
-| **Range** | 120 km |
-| **Price** | 5249 EUR |
+
+| Specification        | Value                  |
+| -------------------- | ---------------------- |
+| **Motor**            | Bosch Performance Line |
+| **Battery Capacity** | 625Wh                  |
+| **Range**            | 120 km                 |
+| **Price**            | 5249 EUR               |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

@@ -1,20 +1,22 @@
 ---
 brand: Revom
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: Revom
 type: brand
-summary: Revom is a cargo bike manufacturer offering diverse models for families and
+summary:
+  Revom is a cargo bike manufacturer offering diverse models for families and
   professionals.
 tags:
-- brand
-- index
-- revom
+  - brand
+  - index
+  - revom
 regions:
-- EU
+  - EU
 distribution_model: both
 ---
+
 ## Overview
 
 Revom is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

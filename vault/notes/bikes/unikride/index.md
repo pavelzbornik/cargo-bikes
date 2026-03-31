@@ -1,20 +1,22 @@
 ---
 brand: UNIKRIDE
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: UNIKRIDE
 type: brand
-summary: UNIKRIDE is a cargo bike manufacturer offering diverse models for families
+summary:
+  UNIKRIDE is a cargo bike manufacturer offering diverse models for families
   and professionals.
 tags:
-- brand
-- index
-- unikride
+  - brand
+  - index
+  - unikride
 regions:
-- EU
+  - EU
 distribution_model: both
 ---
+
 ## Overview
 
 UNIKRIDE is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

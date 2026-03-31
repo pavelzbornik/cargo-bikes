@@ -52,14 +52,14 @@ Electric cargo bikes (250W, 25 km/h) are classified as regular bicycles in Franc
 
 ### Key Evaluation Criteria
 
-| Factor | What to Check |
-|--------|---------------|
-| **Deductible** | Zero vs. fixed vs. percentage of bike value |
-| **Depreciation** | Zero depreciation vs. 2-5% annual reduction |
-| **Battery** | Included or optional add-on? |
-| **Assistance** | Quality and response time of roadside help |
-| **Claims limit** | Annual cap (typically 6,000 EUR, 2 claims/year) |
-| **Lock requirements** | Number and type of locks required |
+| Factor                | What to Check                                   |
+| --------------------- | ----------------------------------------------- |
+| **Deductible**        | Zero vs. fixed vs. percentage of bike value     |
+| **Depreciation**      | Zero depreciation vs. 2-5% annual reduction     |
+| **Battery**           | Included or optional add-on?                    |
+| **Assistance**        | Quality and response time of roadside help      |
+| **Claims limit**      | Annual cap (typically 6,000 EUR, 2 claims/year) |
+| **Lock requirements** | Number and type of locks required               |
 
 ### Recommended Approach for Families
 

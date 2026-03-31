@@ -9,31 +9,32 @@ type: bike
 brand: Etni Cycles
 model: Oléron
 tags:
-- bike
-- longtail
-- cargo
-- electric
-- etni-cycles
-- french
+  - bike
+  - longtail
+  - cargo
+  - electric
+  - etni-cycles
+  - french
 url: https://www.etnicycles.com/
 motor_make: Bosch
 motor_model: Cargo Line
 battery_capacity_wh: 504
 range_estimate_km: 100-120
-price_amount: '5600'
+price_amount: "5600"
 price_currency: EUR
 needs_research: true
 research_topics:
-- category
-- motor_power_w
-- motor_torque_nm
-- weight_with_battery_kg
-- load_capacity_total_kg
-- brakes_type
-- drivetrain_type
-- frame_material
-- wheels_front_size_in
+  - category
+  - motor_power_w
+  - motor_torque_nm
+  - weight_with_battery_kg
+  - load_capacity_total_kg
+  - brakes_type
+  - drivetrain_type
+  - frame_material
+  - wheels_front_size_in
 ---
+
 ## Overview
 
 Etni Cycles (Etienne + Nicolas) represents a 2020 mission-driven approach to cargo bikes, manufacturing in Nantes with ambitious sustainability goals. The Oléron challenges established premium manufacturers through artisanal production philosophy while offering competitive specifications. Belt drive + integrated gearing standard (not premium addon) demonstrates commitment to low-maintenance family transport.
@@ -41,12 +42,14 @@ Etni Cycles (Etienne + Nicolas) represents a 2020 mission-driven approach to car
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor** | Bosch Cargo Line |
-| **Battery Capacity** | 504Wh |
-| **Range** | 100-120 km |
-| **Price** | 5600 EUR |
+
+| Specification        | Value            |
+| -------------------- | ---------------- |
+| **Motor**            | Bosch Cargo Line |
+| **Battery Capacity** | 504Wh            |
+| **Range**            | 100-120 km       |
+| **Price**            | 5600 EUR         |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

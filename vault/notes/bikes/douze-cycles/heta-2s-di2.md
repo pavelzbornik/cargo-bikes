@@ -9,30 +9,31 @@ type: bike
 brand: Douze Cycles
 model: Hêta 2S Di2
 tags:
-- bike
-- front-cargo
-- biporteur
-- electric
-- douze-cycles
+  - bike
+  - front-cargo
+  - biporteur
+  - electric
+  - douze-cycles
 url: https://www.douze-cycles.com/velos-cargos/heta
 image: https://vitrine.douze-cycles.com/wp-content/uploads/2023/05/design-innovation-award.png
 motor_power_w: 250
 battery_capacity_wh: 630
-price_amount: '6190'
+price_amount: "6190"
 price_currency: EUR
 needs_research: true
 research_topics:
-- category
-- motor_make
-- motor_torque_nm
-- weight_with_battery_kg
-- load_capacity_total_kg
-- brakes_type
-- drivetrain_type
-- frame_material
-- range_estimate_km
-- wheels_front_size_in
+  - category
+  - motor_make
+  - motor_torque_nm
+  - weight_with_battery_kg
+  - load_capacity_total_kg
+  - brakes_type
+  - drivetrain_type
+  - frame_material
+  - range_estimate_km
+  - wheels_front_size_in
 ---
+
 ## Douze Hêta 2S Di2
 
 ![Douze Hêta 2S Di2](https://vitrine.douze-cycles.com/wp-content/uploads/2023/05/design-innovation-award.png)
@@ -44,11 +45,13 @@ The Hêta 2S Di2 is Douze's premium biporteur featuring electronic Shimano Di2 1
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor Power** | 250W |
-| **Battery Capacity** | 630Wh |
-| **Price** | 6190 EUR |
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Power**      | 250W     |
+| **Battery Capacity** | 630Wh    |
+| **Price**            | 6190 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €6,190 TTC

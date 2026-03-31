@@ -9,15 +9,15 @@ type: bike
 brand: VG Bikes
 model: Longtail VG Life
 tags:
-- bike
-- longtail
-- vg-bikes
+  - bike
+  - longtail
+  - vg-bikes
 url: https://www.ovelo.fr/fr/velo-electrique-longtail/33463-longtail-vg-life-672wh-3667155037687.html
 image: https://www.ovelo.fr/47038-thickbox_default/longtail-vg-life-672wh.jpg
 motor_power_w: 250
 battery_capacity_wh: 672
-range_estimate_km: '150'
-price_amount: '3018'
+range_estimate_km: "150"
+price_amount: "3018"
 price_currency: EUR
 category: longtail
 motor_make: Bafang
@@ -29,13 +29,14 @@ load_capacity_total_kg: 130.0
 frame_material: aluminum
 brakes_type: hydraulic disc
 drivetrain_type: chain
-drivetrain_speeds: '10'
-wheels_front_size_in: '20'
-wheels_rear_size_in: '20'
+drivetrain_speeds: "10"
+wheels_front_size_in: "20"
+wheels_rear_size_in: "20"
 wheels_tire: CST Big Boot
 suspension_front: RST Guide TNL 20 fork
 suspension_rear: none
 ---
+
 ## Overview
 
 ![Longtail VG Life 672Wh](https://www.ovelo.fr/47038-thickbox_default/longtail-vg-life-672wh.jpg)
@@ -45,12 +46,14 @@ The VG Life Longtail is a French-made electric longtail designed for urban and s
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor Power** | 250W |
-| **Battery Capacity** | 672Wh |
-| **Range** | 150 km |
-| **Price** | 3018 EUR |
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Power**      | 250W     |
+| **Battery Capacity** | 672Wh    |
+| **Range**            | 150 km   |
+| **Price**            | 3018 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification         | Details                             |

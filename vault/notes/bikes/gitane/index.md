@@ -1,22 +1,24 @@
 ---
 brand: Gitane
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: Gitane
 type: brand
-summary: Gitane is a cargo bike manufacturer offering diverse models for families
+summary:
+  Gitane is a cargo bike manufacturer offering diverse models for families
   and professionals.
 tags:
-- brand
-- index
-- gitane
+  - brand
+  - index
+  - gitane
 regions:
-- EU
+  - EU
 categories:
-- longtail
+  - longtail
 distribution_model: both
 ---
+
 ## Overview
 
 Gitane is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

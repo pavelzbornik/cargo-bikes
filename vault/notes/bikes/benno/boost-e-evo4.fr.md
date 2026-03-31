@@ -9,25 +9,25 @@ Le Benno Boost E EVO4 est un longtail électrique du fabricant allemand [[Benno 
 <!-- BIKE_SPECS_TABLE_START -->
 <!-- BIKE_SPECS_TABLE_END -->
 
-| Caractéristique           | Détails                                                      |
-| ------------------------- | ------------------------------------------------------------ |
-| **Prix**                  | €3 830 (remisé par rapport au PDSF)                          |
-| **Moteur**                | [[Bosch Performance Line CX\|Bosch Performance CX Gen 4]], 85Nm, mid-drive |
-| **Batterie**              | [[Bosch PowerPack 500\|Bosch PowerPack 500Wh]], amovible, 2,6kg |
-| **Autonomie**             | 50-130km (selon l'assistance et la charge)                   |
-| **Poids**                 | 27 kg (avec batterie)                                        |
-| **Capacité de charge max**| 200kg total (cycliste + cargo + passagers)                   |
-| **Taille des roues**      | 27,5" ([[Schwalbe Super Moto X]] 2.4")                       |
-| **Matériau du cadre**     | Aluminium 6061                                               |
-| **Type de cadre**         | Droit/unisexe                                                |
-| **Freins**                | Freins à disque hydrauliques Shimano                         |
-| **Transmission**          | [[Shimano Deore]] chaîne 10 vitesses                         |
-| **Selle**                 | Benno Urban Sport avec poignée arrière                       |
-| **Écran**                 | [[Bosch Purion]] avec 5 modes de conduite                    |
-| **Éclairage**             | [[Supernova Mini 2]] (avant), [[Supernova E3]] (arrière)     |
-| **Vitesse d'assistance max** | 25 km/h (20 mph aux États-Unis)                           |
-| **Temps de charge**       | 4 heures (batterie 500Wh)                                    |
-| **Garantie**              | 5 ans cadre, 2 ans électrique                                |
+| Caractéristique              | Détails                                                                    |
+| ---------------------------- | -------------------------------------------------------------------------- |
+| **Prix**                     | €3 830 (remisé par rapport au PDSF)                                        |
+| **Moteur**                   | [[Bosch Performance Line CX\|Bosch Performance CX Gen 4]], 85Nm, mid-drive |
+| **Batterie**                 | [[Bosch PowerPack 500\|Bosch PowerPack 500Wh]], amovible, 2,6kg            |
+| **Autonomie**                | 50-130km (selon l'assistance et la charge)                                 |
+| **Poids**                    | 27 kg (avec batterie)                                                      |
+| **Capacité de charge max**   | 200kg total (cycliste + cargo + passagers)                                 |
+| **Taille des roues**         | 27,5" ([[Schwalbe Super Moto X]] 2.4")                                     |
+| **Matériau du cadre**        | Aluminium 6061                                                             |
+| **Type de cadre**            | Droit/unisexe                                                              |
+| **Freins**                   | Freins à disque hydrauliques Shimano                                       |
+| **Transmission**             | [[Shimano Deore]] chaîne 10 vitesses                                       |
+| **Selle**                    | Benno Urban Sport avec poignée arrière                                     |
+| **Écran**                    | [[Bosch Purion]] avec 5 modes de conduite                                  |
+| **Éclairage**                | [[Supernova Mini 2]] (avant), [[Supernova E3]] (arrière)                   |
+| **Vitesse d'assistance max** | 25 km/h (20 mph aux États-Unis)                                            |
+| **Temps de charge**          | 4 heures (batterie 500Wh)                                                  |
+| **Garantie**                 | 5 ans cadre, 2 ans électrique                                              |
 
 ## Caractéristiques du vélo électrique
 
@@ -74,12 +74,12 @@ Le Benno Boost E EVO4 est un longtail électrique du fabricant allemand [[Benno 
 
 ## Accessoires et options disponibles
 
-| Option                  | Prix  | Détails                                              |
-| ----------------------- | ----- | ---------------------------------------------------- |
-| Porte-bagages avant     | €240  | Capacité 20kg                                        |
-| Pack passager           | €500  | Garde-roue, extensions de rails, rails de sécurité  |
-| Béquille double         | €150  | Stationnement stable en charge                       |
-| Extension de garantie   | €99   | 1 an de couverture supplémentaire (3 ans au total)   |
+| Option                | Prix | Détails                                            |
+| --------------------- | ---- | -------------------------------------------------- |
+| Porte-bagages avant   | €240 | Capacité 20kg                                      |
+| Pack passager         | €500 | Garde-roue, extensions de rails, rails de sécurité |
+| Béquille double       | €150 | Stationnement stable en charge                     |
+| Extension de garantie | €99  | 1 an de couverture supplémentaire (3 ans au total) |
 
 ## Entretien
 

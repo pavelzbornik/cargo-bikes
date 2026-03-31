@@ -9,39 +9,40 @@ type: bike
 brand: Momentum
 model: PakYak E+
 tags:
-- bike
-- long-tail
-- momentum
-- family-cargo
-- powerful
+  - bike
+  - long-tail
+  - momentum
+  - family-cargo
+  - powerful
 url: https://www.transitionvelo.com/test/test-momentum-pakyak-e-un-velo-longtail-electrique-costaud-et-vif/
 image: https://www.transitionvelo.com/content/uploads/2023/12/momentum-pakyak-26-1024x576.jpg
 motor_torque_nm: 80
 battery_capacity_wh: 500
 range_estimate_km: 50-60
-price_amount: '4700'
+price_amount: "4700"
 price_currency: EUR
 category: longtail
 model_year: 2023
 motor_model: Giant SyncDrive Pro
 motor_type: mid-drive
 battery_removable: true
-battery_charging_time_h: '3.5'
+battery_charging_time_h: "3.5"
 weight_with_battery_kg: 33.0
 load_capacity_total_kg: 220.0
 load_capacity_passenger_count: 2
 frame_material: aluminum
 brakes_type: hydraulic disc
 drivetrain_type: chain
-drivetrain_speeds: '9'
-wheels_front_size_in: '24'
-wheels_rear_size_in: '24'
+drivetrain_speeds: "9"
+wheels_front_size_in: "24"
+wheels_rear_size_in: "24"
 wheels_tire: Maxxis Hookworm (front) / Maxxis Rekon (rear)
 suspension_front: none
 suspension_rear: none
 motor_make: Yamaha
 motor_power_w: 250
 ---
+
 ## Momentum PakYak E+
 
 ![Momentum PakYak E+](https://www.transitionvelo.com/content/uploads/2023/12/momentum-pakyak-26-1024x576.jpg)
@@ -53,12 +54,14 @@ The Momentum PakYak E+ is the first electric cargo longtail from Momentum, Giant
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor Torque** | 80Nm |
-| **Battery Capacity** | 500Wh |
-| **Range** | 50-60 km |
-| **Price** | 4700 EUR |
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Torque**     | 80Nm     |
+| **Battery Capacity** | 500Wh    |
+| **Range**            | 50-60 km |
+| **Price**            | 4700 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €4,700 (base price without accessories)

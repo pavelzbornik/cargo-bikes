@@ -1,22 +1,24 @@
 ---
 brand: TENWAYS
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: TENWAYS
 type: brand
-summary: TENWAYS is a cargo bike manufacturer offering diverse models for families
+summary:
+  TENWAYS is a cargo bike manufacturer offering diverse models for families
   and professionals.
 tags:
-- brand
-- index
-- tenways
+  - brand
+  - index
+  - tenways
 regions:
-- EU
+  - EU
 categories:
-- longtail
+  - longtail
 distribution_model: both
 ---
+
 ## Overview
 
 TENWAYS is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

@@ -1,5 +1,5 @@
 ---
-date: '2025-10-20'
+date: "2025-10-20"
 price: 5800
 motor: 85Nm Bosch Cargo Line
 battery: 545Wh
@@ -9,39 +9,40 @@ type: bike
 brand: Tern
 model: GSD P10
 tags:
-- bike
-- cargo
-- compact
-- electric
-- tern
-- long-tail
+  - bike
+  - cargo
+  - compact
+  - electric
+  - tern
+  - long-tail
 url: https://www.ternbicycles.com/en/bikes/473/gsd-p10
 image: https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_P10-gen3-satin-beige-profile-web.jpg.webp
 resellers:
-- name: Cyclable
-  url: https://www.cyclable.com/18931-velo-cargo-electrique-tern-gsd-p10-2025.html
-  price: '5800'
-  currency: EUR
-  region: EU
-  availability: in-stock
+  - name: Cyclable
+    url: https://www.cyclable.com/18931-velo-cargo-electrique-tern-gsd-p10-2025.html
+    price: "5800"
+    currency: EUR
+    region: EU
+    availability: in-stock
 motor_make: Bosch
 motor_model: Cargo Line
 motor_torque_nm: 85
 battery_capacity_wh: 545
 range_estimate_km: 45-196
-price_amount: '5800'
+price_amount: "5800"
 needs_research: true
 research_topics:
-- category
-- motor_power_w
-- price_currency
-- weight_with_battery_kg
-- load_capacity_total_kg
-- brakes_type
-- drivetrain_type
-- frame_material
-- wheels_front_size_in
+  - category
+  - motor_power_w
+  - price_currency
+  - weight_with_battery_kg
+  - load_capacity_total_kg
+  - brakes_type
+  - drivetrain_type
+  - frame_material
+  - wheels_front_size_in
 ---
+
 ## Overview
 
 ![Tern GSD P10](https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_P10-gen3-satin-beige-profile-web.jpg.webp)
@@ -51,12 +52,14 @@ The Tern GSD P10 is the entry-level model in the Generation 3 GSD family, offeri
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor** | Bosch Cargo Line |
-| **Motor Torque** | 85Nm |
-| **Battery Capacity** | 545Wh |
-| **Range** | 45-196 km |
+
+| Specification        | Value            |
+| -------------------- | ---------------- |
+| **Motor**            | Bosch Cargo Line |
+| **Motor Torque**     | 85Nm             |
+| **Battery Capacity** | 545Wh            |
+| **Range**            | 45-196 km        |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

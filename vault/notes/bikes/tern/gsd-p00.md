@@ -9,12 +9,12 @@ type: bike
 brand: Tern
 model: GSD P00
 tags:
-- bike
-- cargo
-- compact
-- electric
-- tern
-- long-tail
+  - bike
+  - cargo
+  - compact
+  - electric
+  - tern
+  - long-tail
 url: https://www.ternbicycles.com/en/bikes/473/gsd-p00
 image: https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_P00-gen3-schoolbus-profile-web.jpg.webp
 motor_make: Bosch
@@ -25,7 +25,7 @@ range_estimate_km: 67-288
 category: compact
 motor_type: mid-drive
 battery_removable: true
-battery_charging_time_h: '4.5'
+battery_charging_time_h: "4.5"
 weight_with_battery_kg: 37.0
 load_capacity_total_kg: 210.0
 load_capacity_passenger_count: 2
@@ -34,17 +34,18 @@ frame_length_cm: 185.0
 brakes_type: hydraulic disc
 drivetrain_type: belt
 drivetrain_hub: Enviolo CVT
-wheels_front_size_in: '20'
-wheels_rear_size_in: '20'
+wheels_front_size_in: "20"
+wheels_rear_size_in: "20"
 wheels_tire: Schwalbe Pick-Up
 suspension_front: none
 suspension_rear: none
 needs_research: true
 research_topics:
-- motor_power_w
-- price_amount
-- price_currency
+  - motor_power_w
+  - price_amount
+  - price_currency
 ---
+
 ## Overview
 
 ![Tern GSD P00](https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_P00-gen3-schoolbus-profile-web.jpg.webp)
@@ -54,12 +55,14 @@ The Tern GSD P00 is a premium model in the Generation 3 GSD family, offering exc
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor** | Bosch Cargo Line |
-| **Motor Torque** | 85Nm |
-| **Battery Capacity** | 800Wh |
-| **Range** | 67-288 km |
+
+| Specification        | Value            |
+| -------------------- | ---------------- |
+| **Motor**            | Bosch Cargo Line |
+| **Motor Torque**     | 85Nm             |
+| **Battery Capacity** | 800Wh            |
+| **Range**            | 67-288 km        |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

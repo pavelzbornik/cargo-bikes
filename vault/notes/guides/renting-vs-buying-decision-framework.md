@@ -35,14 +35,14 @@ Ownership typically becomes cheaper after **3-4 years** of regular use, assuming
 
 ## Non-Financial Factors
 
-| Factor | Renting | Buying |
-|--------|---------|--------|
-| **Upfront cost** | None | 2,000-6,000 EUR |
-| **Maintenance** | Included | Your responsibility |
-| **Flexibility** | Limited to contract term | Sell or upgrade anytime |
-| **Customization** | Limited | Full control |
-| **Risk** | Provider absorbs repair costs | You absorb unexpected costs |
-| **Commitment** | Low, easy to stop | Higher, capital locked up |
+| Factor            | Renting                       | Buying                      |
+| ----------------- | ----------------------------- | --------------------------- |
+| **Upfront cost**  | None                          | 2,000-6,000 EUR             |
+| **Maintenance**   | Included                      | Your responsibility         |
+| **Flexibility**   | Limited to contract term      | Sell or upgrade anytime     |
+| **Customization** | Limited                       | Full control                |
+| **Risk**          | Provider absorbs repair costs | You absorb unexpected costs |
+| **Commitment**    | Low, easy to stop             | Higher, capital locked up   |
 
 ## Decision Guide
 

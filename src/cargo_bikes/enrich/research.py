@@ -13,14 +13,13 @@ from pathlib import Path
 from typing import Any
 
 import yaml
-
-import anthropic
-
 from claude_agent_sdk import (
     AssistantMessage,
     ClaudeAgentOptions,
     ResultMessage,
     TextBlock,
+)
+from claude_agent_sdk import (
     query as sdk_query,
 )
 
@@ -33,7 +32,7 @@ from cargo_bikes.vault.frontmatter import extract_frontmatter
 def _strip_frontmatter(content: str) -> str:
     """Return body content without YAML frontmatter."""
     match = re.match(r"^---\s*\n.*?\n---\s*\n", content, re.DOTALL)
-    return content[match.end():] if match else content
+    return content[match.end() :] if match else content
 
 
 def _scan_flagged(vault_path: Path, brand: str | None = None) -> list[Path]:
@@ -105,7 +104,7 @@ URL: {url}
 Missing fields to find:
 {field_desc}
 
-Search the web for "{title}" specifications. Check the manufacturer website{f' at {url}' if url else ''} and review sites.
+Search the web for "{title}" specifications. Check the manufacturer website{f" at {url}" if url else ""} and review sites.
 Return ONLY a JSON object with the fields you found. Use null for fields not found.
 No markdown, no explanation, no code fences."""
 
@@ -158,9 +157,13 @@ No markdown, no explanation, no code fences."""
         # Coerce types: Claude sometimes returns int for string fields
         for k, v in list(data.items()):
             if isinstance(v, (int, float)) and k in (
-                "wheels_front_size_in", "wheels_rear_size_in",
-                "drivetrain_speeds", "price_amount", "range_estimate_km",
-                "battery_charging_time_h", "frame_size",
+                "wheels_front_size_in",
+                "wheels_rear_size_in",
+                "drivetrain_speeds",
+                "price_amount",
+                "range_estimate_km",
+                "battery_charging_time_h",
+                "frame_size",
             ):
                 data[k] = str(v)
         extracted = schema(**data)
@@ -172,7 +175,8 @@ No markdown, no explanation, no code fences."""
     filled = {k for k, v in fm.items() if v is not None and v != "" and v != []}
 
     new_fields = {
-        k: v for k, v in extracted.model_dump().items()
+        k: v
+        for k, v in extracted.model_dump().items()
         if v is not None and k not in filled
     }
 
@@ -199,7 +203,7 @@ def _apply_research(file_path: Path, extracted: dict[str, Any]) -> None:
     if not isinstance(fm, dict):
         return
 
-    body = content[fm_match.end():]
+    body = content[fm_match.end() :]
 
     # Merge new fields
     for key, value in extracted.items():
@@ -298,7 +302,9 @@ def research_notes(
                         review_items, console=console, entity_label="research result"
                     )
                     if accepted:
-                        _apply_research(accepted[0]["file_path"], accepted[0]["extracted"])
+                        _apply_research(
+                            accepted[0]["file_path"], accepted[0]["extracted"]
+                        )
                         updated += 1
             else:
                 console.print("[dim]no data[/dim]")

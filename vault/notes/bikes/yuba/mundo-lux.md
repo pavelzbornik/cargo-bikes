@@ -8,29 +8,30 @@ brand: Yuba
 image: https://yubabikes.com/wp-content/uploads/2024/10/Mundo-Olive-No-BG.png
 model: Mundo Lux
 tags:
-- bike
-- longtail
-- yuba
+  - bike
+  - longtail
+  - yuba
 url: https://yubabikes.eu/product/mundo-lux/
 category: longtail
 load_capacity_total_kg: 200.0
 load_capacity_passenger_count: 2
-price_amount: '1849'
+price_amount: "1849"
 price_currency: EUR
 specs_notes: Migrated from legacy format. Pedal-powered longtail cargo bike, non-electric.
 needs_research: true
 research_topics:
-- motor_make
-- motor_power_w
-- motor_torque_nm
-- battery_capacity_wh
-- weight_with_battery_kg
-- brakes_type
-- drivetrain_type
-- frame_material
-- range_estimate_km
-- wheels_front_size_in
+  - motor_make
+  - motor_power_w
+  - motor_torque_nm
+  - battery_capacity_wh
+  - weight_with_battery_kg
+  - brakes_type
+  - drivetrain_type
+  - frame_material
+  - range_estimate_km
+  - wheels_front_size_in
 ---
+
 ## Mundo Lux
 
 ## Overview
@@ -40,11 +41,13 @@ The Mundo Lux is the pioneer of longtails for your everyday life and memorable a
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | longtail |
-| **Total Load Capacity** | 200.0kg |
-| **Price** | 1849 EUR |
+
+| Specification           | Value    |
+| ----------------------- | -------- |
+| **Category**            | longtail |
+| **Total Load Capacity** | 200.0kg  |
+| **Price**               | 1849 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €1,849.00

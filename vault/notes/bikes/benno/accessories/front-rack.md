@@ -47,5 +47,5 @@ It is not designed for use on third-party or non-Benno frames. Always verify wit
 ## Pricing
 
 | Region | Price |
-|--------|-------|
+| ------ | ----- |
 | Europe | €240  |

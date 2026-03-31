@@ -1,7 +1,7 @@
 ---
 date: 2025-10-16
 price: 2299€
-motor: ''
+motor: ""
 battery: 672Wh
 range: ~100km
 title: Rad Power Radwagon 4
@@ -10,16 +10,16 @@ brand: Rad Power Bikes
 image: https://www.radpowerbikes.com/cdn/shop/products/WagonOrange_side1to1_1024x.png?v=1696952406
 model: Radwagon 4
 tags:
-- bike
-- longtail
-- cargo
-- electric
-- rad-power-bikes
-- american
-url: '[Rad Power Radwagon](https://www.radpowerbikes.com/products/radwagon)'
+  - bike
+  - longtail
+  - cargo
+  - electric
+  - rad-power-bikes
+  - american
+url: "[Rad Power Radwagon](https://www.radpowerbikes.com/products/radwagon)"
 battery_capacity_wh: 672
-range_estimate_km: '100'
-price_amount: '2299'
+range_estimate_km: "100"
+price_amount: "2299"
 price_currency: EUR
 category: longtail
 motor_make: Bafang
@@ -30,8 +30,9 @@ load_capacity_total_kg: 158.76
 frame_material: aluminum
 brakes_type: mechanical disc
 drivetrain_type: chain
-wheels_front_size_in: '22'
+wheels_front_size_in: "22"
 ---
+
 ## Overview
 
 The Rad Power Radwagon 4 is an American electric longtail cargo bike designed for versatile transportation. It's positioned as an entry-level option in the premium longtail market, representing one of the most affordable electric longtail solutions available in Europe. The bike aims to democratize cargo bike ownership while maintaining functional design principles.
@@ -41,11 +42,13 @@ The Rad Power Radwagon 4 is an American electric longtail cargo bike designed fo
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Battery Capacity** | 672Wh |
-| **Range** | 100 km |
-| **Price** | 2299 EUR |
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Battery Capacity** | 672Wh    |
+| **Range**            | 100 km   |
+| **Price**            | 2299 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

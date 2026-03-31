@@ -1,5 +1,5 @@
 ---
-date: '2025-10-20'
+date: "2025-10-20"
 review_summary_date: 2025-10-27
 review_source_count: 12
 title: Spicy Curry
@@ -7,19 +7,19 @@ type: bike
 brand: Yuba
 model: Spicy Curry
 tags:
-- bike
-- longtail
-- yuba
-- bosch
+  - bike
+  - longtail
+  - yuba
+  - bosch
 url: https://yubabikes.eu/product/spicy-curry/
 image: https://yubabikes.eu/wp-content/uploads/2024/10/Spicy-Curry-True-Blue-No-BG.png
 resellers:
-- name: Cyclable
-  url: https://www.cyclable.com/18411-velo-cargo-longtail-yuba-spicy-curry-.html
-  price: '5849'
-  currency: EUR
-  region: EU
-  availability: in-stock
+  - name: Cyclable
+    url: https://www.cyclable.com/18411-velo-cargo-longtail-yuba-spicy-curry-.html
+    price: "5849"
+    currency: EUR
+    region: EU
+    availability: in-stock
 category: longtail
 frame_material: aluminum
 frame_length_cm: 210.0
@@ -35,7 +35,7 @@ battery_capacity_wh: 500
 battery_configuration: single
 battery_removable: true
 drivetrain_type: chain
-drivetrain_speeds: '9'
+drivetrain_speeds: "9"
 drivetrain_hub: Microshift
 brakes_type: hydraulic disc
 brakes_front_rotor_mm: 180
@@ -47,11 +47,11 @@ suspension_front: none
 suspension_rear: none
 range_estimate_km: 50-120
 range_notes: Depends on assist level and conditions
-price_amount: '5349'
+price_amount: "5349"
 price_currency: EUR
-specs_notes: Migrated from legacy format. Bosch Cargo Line system with Stay Steady
+specs_notes:
+  Migrated from legacy format. Bosch Cargo Line system with Stay Steady
   Technology frame.
-
 ---
 
 ![Spicy Curry](https://yubabikes.eu/wp-content/uploads/2024/10/Spicy-Curry-True-Blue-No-BG.png)
@@ -63,20 +63,22 @@ The Spicy Curry is Yuba's flagship longtail cargo bike, designed to carry what m
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | longtail |
-| **Motor** | Bosch Cargo Line |
-| **Motor Power** | 500W |
-| **Motor Torque** | 85Nm |
-| **Battery Capacity** | 500Wh |
-| **Range** | 50-120 km |
-| **Weight (with battery)** | 32.0kg |
-| **Total Load Capacity** | 200.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | hydraulic disc |
-| **Wheel Size** | Front: 26", Rear: 20" |
-| **Price** | 5349 EUR |
+
+| Specification             | Value                 |
+| ------------------------- | --------------------- |
+| **Category**              | longtail              |
+| **Motor**                 | Bosch Cargo Line      |
+| **Motor Power**           | 500W                  |
+| **Motor Torque**          | 85Nm                  |
+| **Battery Capacity**      | 500Wh                 |
+| **Range**                 | 50-120 km             |
+| **Weight (with battery)** | 32.0kg                |
+| **Total Load Capacity**   | 200.0kg               |
+| **Drivetrain**            | chain                 |
+| **Brakes**                | hydraulic disc        |
+| **Wheel Size**            | Front: 26", Rear: 20" |
+| **Price**                 | 5349 EUR              |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €5,349.00

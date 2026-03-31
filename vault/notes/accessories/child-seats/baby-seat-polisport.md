@@ -37,11 +37,11 @@ Polisport is a Portuguese cycling accessories manufacturer with a well-establish
 
 ## Models in This Price Range
 
-| Model | Type | Price (approx.) |
-|---|---|---|
-| Bilby (rack-mount) | Rear, ISO rack | €89–€130 |
-| Bilby RS / Plus (frame-mount) | Rear, seatpost clamp | €100–€149 |
-| Koolah (premium rear) | Rear, ISO rack + CFS | €120–€149 |
+| Model                         | Type                 | Price (approx.) |
+| ----------------------------- | -------------------- | --------------- |
+| Bilby (rack-mount)            | Rear, ISO rack       | €89–€130        |
+| Bilby RS / Plus (frame-mount) | Rear, seatpost clamp | €100–€149       |
+| Koolah (premium rear)         | Rear, ISO rack + CFS | €120–€149       |
 
 The Koolah is Polisport's flagship rear seat, featuring a ventilated backrest, ergonomic harness system, and a Click & Fix System (CFS) for tool-free removal and reinstallation.
 

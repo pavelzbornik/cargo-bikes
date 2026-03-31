@@ -9,11 +9,11 @@ type: bike
 brand: Nakamura
 model: Crossover Longtail
 tags:
-- bike
-- long-tail
-- electric
-- nakamura
-- cargo
+  - bike
+  - long-tail
+  - electric
+  - nakamura
+  - cargo
 url: https://www.transitionvelo.com/produit/nakamura-cargo-longtail/
 image: https://www.transitionvelo.com/content/uploads/2024/02/Nakamura-Crossover-Longtail-entier-2-1024x576.jpg
 category: longtail
@@ -41,16 +41,17 @@ wheels_tire: Schwalbe Super Moto-X
 suspension_front: none
 suspension_rear: rigid
 features:
-- direction-damper
-- telescopic-seatpost
-- dual-battery
+  - direction-damper
+  - telescopic-seatpost
+  - dual-battery
 security_gps: false
 security_app_lock: true
-range_estimate_km: '50'
-price_amount: '3000'
+range_estimate_km: "50"
+price_amount: "3000"
 price_currency: EUR
 motor_power_w: 300
 ---
+
 ## Nakamura Crossover Longtail
 
 ![Nakamura Crossover Longtail](https://www.transitionvelo.com/content/uploads/2024/02/Nakamura-Crossover-Longtail-entier-2-1024x576.jpg)
@@ -62,19 +63,21 @@ The Nakamura Crossover Longtail is a versatile electric cargo longtail designed 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | longtail |
-| **Motor** | Naka E-Power Max (Ananda M100) |
-| **Motor Torque** | 100Nm |
-| **Battery Capacity** | 770Wh |
-| **Range** | 50 km |
-| **Weight (with battery)** | 44.3kg |
-| **Total Load Capacity** | 170.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | hydraulic disc |
-| **Wheel Size** | Front: 27.5", Rear: 24" |
-| **Price** | 3000 EUR |
+
+| Specification             | Value                          |
+| ------------------------- | ------------------------------ |
+| **Category**              | longtail                       |
+| **Motor**                 | Naka E-Power Max (Ananda M100) |
+| **Motor Torque**          | 100Nm                          |
+| **Battery Capacity**      | 770Wh                          |
+| **Range**                 | 50 km                          |
+| **Weight (with battery)** | 44.3kg                         |
+| **Total Load Capacity**   | 170.0kg                        |
+| **Drivetrain**            | chain                          |
+| **Brakes**                | hydraulic disc                 |
+| **Wheel Size**            | Front: 27.5", Rear: 24"        |
+| **Price**                 | 3000 EUR                       |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €3000

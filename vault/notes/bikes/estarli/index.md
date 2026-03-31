@@ -6,15 +6,17 @@ category: cargo
 title: estarli
 type: brand
 url: https://www.estarli.co.uk
-summary: estarli is a UK-based e-bike manufacturer designing and assembling award-winning
+summary:
+  estarli is a UK-based e-bike manufacturer designing and assembling award-winning
   cargo and folding e-bikes in Berkhamsted, Hertfordshire.
 tags:
-- brand
-- index
-- estarli
+  - brand
+  - index
+  - estarli
 regions:
-- UK
+  - UK
 ---
+
 ## Overview
 
 estarli is a UK-based e-bike manufacturer specializing in cargo bikes and compact folding e-bikes. The company was founded by co-founders Alex Francis and Oliver Francis, with a focus on creating practical, affordable electric bikes assembled in the UK.

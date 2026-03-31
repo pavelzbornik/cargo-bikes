@@ -9,20 +9,20 @@ type: bike
 brand: Leon Cycle
 model: NCM CG7
 tags:
-- bike
-- cargo-bike
-- compact
-- ncm
+  - bike
+  - cargo-bike
+  - compact
+  - ncm
 url: https://leoncycle.fr/en/products/ncm-cg7
 image: https://leoncycle.fr/cdn/shop/files/BLEU.webp
 motor_power_w: 250
 battery_capacity_wh: 912
-range_estimate_km: '50'
-price_amount: '2699'
+range_estimate_km: "50"
+price_amount: "2699"
 price_currency: EUR
 needs_research: true
 research_topics:
-- motor_torque_nm
+  - motor_torque_nm
 category: longtail
 motor_make: Das-Kit
 weight_with_battery_kg: 37.0
@@ -30,8 +30,9 @@ load_capacity_total_kg: 180.0
 frame_material: aluminum
 brakes_type: hydraulic disc
 drivetrain_type: chain
-wheels_front_size_in: '20'
+wheels_front_size_in: "20"
 ---
+
 ## NCM CG7
 
 ![NCM CG7](https://leoncycle.fr/cdn/shop/files/BLEU.webp)
@@ -43,12 +44,14 @@ The NCM CG7 is a compact cargo e-bike designed with a 20-inch wheel size and alu
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor Power** | 250W |
-| **Battery Capacity** | 912Wh |
-| **Range** | 50 km |
-| **Price** | 2699 EUR |
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Power**      | 250W     |
+| **Battery Capacity** | 912Wh    |
+| **Range**            | 50 km    |
+| **Price**            | 2699 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €2,699.00

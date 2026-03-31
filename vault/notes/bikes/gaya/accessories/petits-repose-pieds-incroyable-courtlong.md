@@ -43,7 +43,7 @@ These footrests are designed specifically for Gaya L'Incroyable cargo bikes and 
 
 ## Pricing
 
-| Variant | Price |
-|---|---|
-| Le Court | €30 |
-| Le Long | €30 |
+| Variant  | Price |
+| -------- | ----- |
+| Le Court | €30   |
+| Le Long  | €30   |

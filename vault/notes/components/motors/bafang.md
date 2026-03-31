@@ -2,28 +2,29 @@
 title: Bafang
 type: component-manufacturer
 category: motors
-parent: '[[Motors MOC]]'
-domain: '[[Motors MOC]]'
+parent: "[[Motors MOC]]"
+domain: "[[Motors MOC]]"
 tags:
-- manufacturer
-- motor
-- mid-drive
-- hub-motor
-- chinese-brand
-- cargo-bike
+  - manufacturer
+  - motor
+  - mid-drive
+  - hub-motor
+  - chinese-brand
+  - cargo-bike
 generated_by: cargo-bikes-cli
 founded: 2003
 headquarters: Suzhou, China (near Shanghai)
 employees: ~1,000 worldwide
 facilities:
-- Suzhou, China (HQ, R&D, manufacturing)
-- Poland (EU mid-motor production)
-- Netherlands, Germany, France, Italy, USA, Taiwan (sales & service)
+  - Suzhou, China (HQ, R&D, manufacturing)
+  - Poland (EU mid-motor production)
+  - Netherlands, Germany, France, Italy, USA, Taiwan (sales & service)
 key_motor_lines:
-- BBS series (bottom bracket mid-drives)
-- M-Series (integrated mid-drives)
-- Hub motor series (HF front, HR rear)
+  - BBS series (bottom bracket mid-drives)
+  - M-Series (integrated mid-drives)
+  - Hub motor series (HF front, HR rear)
 ---
+
 # Bafang
 
 Bafang (formally Suzhou Bafang Electric Science & Technology Co., Ltd.) is one of the world's largest manufacturers of e-bike drive systems and components, founded in 2003 and headquartered in Suzhou, China. The company supplies motors, batteries, displays, and sensors both as OEM components to bike brands and as aftermarket conversion kits. Bafang systems are widely used across cargo bikes, commuters, MTBs, and fat bikes at a range of price points.
@@ -40,33 +41,33 @@ Production for European markets is partly handled at a dedicated factory in Pola
 
 Designed primarily for aftermarket conversions and high-power applications. Fit standard 68–73 mm bottom bracket shells.
 
-| Model  | Rated Power | Peak Power | Torque  | Notes                              |
-|--------|-------------|------------|---------|-------------------------------------|
-| BBS01B | 250 W       | 500 W      | ~80 Nm  | Entry-level, city use               |
-| BBS02B | 750 W       | 1,000 W    | ~120 Nm | Popular DIY/conversion motor        |
+| Model  | Rated Power | Peak Power | Torque  | Notes                                                                  |
+| ------ | ----------- | ---------- | ------- | ---------------------------------------------------------------------- |
+| BBS01B | 250 W       | 500 W      | ~80 Nm  | Entry-level, city use                                                  |
+| BBS02B | 750 W       | 1,000 W    | ~120 Nm | Popular DIY/conversion motor                                           |
 | BBSHD  | 1,000 W     | 1,500 W+   | ~160 Nm | Heavy-duty; external cooling fins; large stator; suited to cargo loads |
 
 ### M-Series Integrated Mid-Drives (OEM)
 
 The M-Series is Bafang's integrated product line aimed at bike manufacturers. Motors feature internal cabling and cleaner aesthetics suited to production bikes.
 
-| Model    | Rated Power | Max Torque | Weight  | Notes                                        |
-|----------|-------------|------------|---------|-----------------------------------------------|
-| M400     | 250 W       | 80 Nm      | —       | Entry-level integrated mid-drive              |
-| M410     | 250 W       | 90 Nm      | ~3.5 kg | 18% lighter than M400; updated design         |
-| M500     | 250 W (EU)  | 95 Nm      | —       | Derived from M600; dual speed + torque sensor |
-| M510     | 250 W+      | 110 Nm     | —       | 20% more power, 18% lighter vs M500           |
-| M600     | 500 W       | 120 Nm     | 3.9 kg  | Bosch Performance Line competitor; strong climb torque |
-| M620 Ultra | 750–1,000 W | 160–170 Nm | —    | Bafang's flagship; suited to cargo, tandem, eMTB; highest torque in range |
-| M800     | 200 W       | 55 Nm      | 2.3 kg  | Ultralight; eRoad/eGravel focus; not cargo-oriented |
-| M820     | —           | —          | 2.3 kg  | Lightweight, good heat dissipation and corrosion resistance |
+| Model      | Rated Power | Max Torque | Weight  | Notes                                                                     |
+| ---------- | ----------- | ---------- | ------- | ------------------------------------------------------------------------- |
+| M400       | 250 W       | 80 Nm      | —       | Entry-level integrated mid-drive                                          |
+| M410       | 250 W       | 90 Nm      | ~3.5 kg | 18% lighter than M400; updated design                                     |
+| M500       | 250 W (EU)  | 95 Nm      | —       | Derived from M600; dual speed + torque sensor                             |
+| M510       | 250 W+      | 110 Nm     | —       | 20% more power, 18% lighter vs M500                                       |
+| M600       | 500 W       | 120 Nm     | 3.9 kg  | Bosch Performance Line competitor; strong climb torque                    |
+| M620 Ultra | 750–1,000 W | 160–170 Nm | —       | Bafang's flagship; suited to cargo, tandem, eMTB; highest torque in range |
+| M800       | 200 W       | 55 Nm      | 2.3 kg  | Ultralight; eRoad/eGravel focus; not cargo-oriented                       |
+| M820       | —           | —          | 2.3 kg  | Lightweight, good heat dissipation and corrosion resistance               |
 
 ### Hub Motor Series
 
-| Line | Type        | Notes                            |
-|------|-------------|----------------------------------|
-| HF   | Front hub   | City and touring bikes           |
-| HR   | Rear hub    | City and touring bikes           |
+| Line | Type      | Notes                  |
+| ---- | --------- | ---------------------- |
+| HF   | Front hub | City and touring bikes |
+| HR   | Rear hub  | City and touring bikes |
 
 Bafang also produces matching batteries, colour LCD displays (e.g. DP C240, C300, DPC18), and cadence/torque sensors to form complete drive systems.
 

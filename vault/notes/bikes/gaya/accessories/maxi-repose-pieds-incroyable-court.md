@@ -38,7 +38,7 @@ This accessory is designed specifically for the [[Gaya L'Incroyable Le Court]] a
 ## Pricing
 
 | Region | Price |
-|--------|-------|
+| ------ | ----- |
 | Europe | €100  |
 
 ## Notes

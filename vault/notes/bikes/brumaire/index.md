@@ -1,5 +1,5 @@
 ---
-date: '2025-10-24'
+date: "2025-10-24"
 title: Brumaire
 type: brand
 country: France
@@ -8,10 +8,11 @@ headquarters_country: France
 founded_year: 2020
 price_tier: accessible
 categories:
-- longtail
-- compact
+  - longtail
+  - compact
 distribution_model: both
 ---
+
 ## Overview
 
 Brumaire Cycles is a Paris-based French electric bike manufacturer founded in 2020, specializing in design-focused, affordable cargo bikes and city bikes for urban families. According to their official website, the company is **"determined to revolutionize soft mobility by making it accessible to all, without ever compromising on quality."**

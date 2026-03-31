@@ -4,45 +4,46 @@ title: Gaya
 type: brand
 url: https://gaya.bike
 logo: https://gaya.bike/api/medias/api/images/file/Gaya_Logo-1000x663.webp
-summary: French manufacturer of smart, accessible electric cargo bikes designed for
+summary:
+  French manufacturer of smart, accessible electric cargo bikes designed for
   urban families, featuring integrated GPS security, comprehensive safety features,
   and community-driven design. Bikes assembled in France since 2023.
 tags:
-- brand
-- french
-- longtail
-- electric
-- family
-- affordable
-- gps-security
-- accessible
+  - brand
+  - french
+  - longtail
+  - electric
+  - family
+  - affordable
+  - gps-security
+  - accessible
 country: France
 headquarters_city: Vendée
 headquarters_country: France
 categories:
-- longtail
-- short-tail
-- compact
+  - longtail
+  - short-tail
+  - compact
 market_segments:
-- urban-families
-- accessibility-focused
-- commuters
+  - urban-families
+  - accessibility-focused
+  - commuters
 regions:
-- EU
+  - EU
 price_tier: accessible
 product_types:
-- bikes
+  - bikes
 model_count: 6
 primary_motors:
-- proprietary-rear-hub
+  - proprietary-rear-hub
 manufacturing_locations:
-- France
+  - France
 manufacturing_approach: in-house
 assembly_location: France
 ethical_standards: Assembled in France since 2023; local employment commitment
 distribution_model: both
 regions_active:
-- EU
+  - EU
 direct_sales: true
 dealership_network: true
 impact_km_driven_approx: 5000000
@@ -54,12 +55,13 @@ value_community_focus: true
 value_safety_emphasis: true
 value_tech_integration: true
 accessibility:
-- affordable-entry-level
-- comprehensive-safety
-- integrated-gps-security
-- family-focused
-- community-co-designed
+  - affordable-entry-level
+  - comprehensive-safety
+  - integrated-gps-security
+  - family-focused
+  - community-co-designed
 ---
+
 ## Overview
 
 Gaya is a French electric cargo bike manufacturer focused on simplifying urban life for families and professionals. According to their official website, the company designs bikes "with urbain·e·s for their daily lives much-too-rock-&-roll." The brand emphasizes accessibility, safety, and community co-design in creating practical cargo solutions for urban transportation.

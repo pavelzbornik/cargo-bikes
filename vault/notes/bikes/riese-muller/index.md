@@ -1,19 +1,21 @@
 ---
 brand: Riese & Müller
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: Riese & Müller
 type: brand
-summary: Riese & Müller is a cargo bike manufacturer offering diverse models for families
+summary:
+  Riese & Müller is a cargo bike manufacturer offering diverse models for families
   and professionals.
 tags:
-- brand
-- index
-- riese-muller
+  - brand
+  - index
+  - riese-muller
 regions:
-- EU
+  - EU
 ---
+
 ## Overview
 
 Riese & Müller is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

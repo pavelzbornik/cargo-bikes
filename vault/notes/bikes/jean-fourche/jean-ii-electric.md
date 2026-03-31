@@ -5,27 +5,27 @@ type: bike
 brand: Jean Fourche
 model: II
 tags:
-- bike
-- longtail
-- jean-fourche
-- french
-- compact
-- virvolt
+  - bike
+  - longtail
+  - jean-fourche
+  - french
+  - compact
+  - virvolt
 url: https://www.jeanfourche.com/
 image: https://jeanfourche.fr/cdn/shop/files/VAE-V2-JeanII-GRIS_Kit-2-enfants-_coussin_grande.png?v=1757323145
 resellers:
-- name: Jean Fourche Official
-  url: https://www.jeanfourche.com/
-  price: '2690'
-  currency: EUR
-  region: EU
-  availability: in-stock
-- name: Shop Roulez Jeunesse
-  url: https://shop.roulezjeunesse.com/products/jean-fourche-jean-ii-electrique
-  price: '2690'
-  currency: EUR
-  region: EU
-  availability: in-stock
+  - name: Jean Fourche Official
+    url: https://www.jeanfourche.com/
+    price: "2690"
+    currency: EUR
+    region: EU
+    availability: in-stock
+  - name: Shop Roulez Jeunesse
+    url: https://shop.roulezjeunesse.com/products/jean-fourche-jean-ii-electrique
+    price: "2690"
+    currency: EUR
+    region: EU
+    availability: in-stock
 category: longtail
 model_year: 2025
 frame_material: aluminum
@@ -40,7 +40,7 @@ load_capacity_front_kg: 15.0
 load_capacity_passenger_count: 2
 load_capacity_passenger_config: 2 children or 1 adult + cargo
 motor_make: Virvolt
-motor_model: '900'
+motor_model: "900"
 motor_type: mid-drive
 motor_power_w: 250
 motor_torque_nm: 80
@@ -49,7 +49,7 @@ battery_capacity_wh: 540
 battery_configuration: single
 battery_removable: true
 drivetrain_type: chain
-drivetrain_speeds: '8'
+drivetrain_speeds: "8"
 drivetrain_hub: Shimano Altus
 brakes_type: hydraulic disc
 brakes_front_rotor_mm: 180
@@ -67,21 +67,21 @@ lights_rear_type: integrated LED
 lights_rear_integrated: true
 lights_rear_brake_light: true
 features:
-- french-made
-- compact-design
-- virvolt-french-motor
-- eco-conceived
-- local-assembly
+  - french-made
+  - compact-design
+  - virvolt-french-motor
+  - eco-conceived
+  - local-assembly
 security_gps: false
 security_app_lock: false
 security_frame_lock: false
 range_estimate_km: 40-60
 range_notes: 540 Wh battery; 720 Wh optional
-price_amount: '2690'
+price_amount: "2690"
 price_currency: EUR
-specs_notes: Ultra-compact French-assembled longtail from Bordeaux. Innovative Virvolt
+specs_notes:
+  Ultra-compact French-assembled longtail from Bordeaux. Innovative Virvolt
   French motor. Eco-designed with 80% EU/French sourcing.
-
 ---
 
 ## Jean Fourche II
@@ -97,21 +97,23 @@ The Jean Fourche II is revolutionary in its compactness—at just 175 cm (plus 1
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | longtail |
-| **Model Year** | 2025 |
-| **Motor** | Virvolt 900 |
-| **Motor Power** | 250W |
-| **Motor Torque** | 80Nm |
-| **Battery Capacity** | 540Wh |
-| **Range** | 40-60 km |
-| **Weight (with battery)** | 27.0kg |
-| **Total Load Capacity** | 85.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | hydraulic disc |
-| **Wheel Size** | 24" |
-| **Price** | 2690 EUR |
+
+| Specification             | Value          |
+| ------------------------- | -------------- |
+| **Category**              | longtail       |
+| **Model Year**            | 2025           |
+| **Motor**                 | Virvolt 900    |
+| **Motor Power**           | 250W           |
+| **Motor Torque**          | 80Nm           |
+| **Battery Capacity**      | 540Wh          |
+| **Range**                 | 40-60 km       |
+| **Weight (with battery)** | 27.0kg         |
+| **Total Load Capacity**   | 85.0kg         |
+| **Drivetrain**            | chain          |
+| **Brakes**                | hydraulic disc |
+| **Wheel Size**            | 24"            |
+| **Price**                 | 2690 EUR       |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Frame:** Aluminum (Portuguese manufacture, Bordeaux assembly)

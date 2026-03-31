@@ -2,35 +2,36 @@
 title: Bosch
 type: component-manufacturer
 category: motors
-parent: '[[Motors MOC]]'
-domain: '[[Motors MOC]]'
+parent: "[[Motors MOC]]"
+domain: "[[Motors MOC]]"
 tags:
-- motor-manufacturer
-- mid-drive
-- bosch
-- smart-system
-- cargo-line
-- ebike-systems
+  - motor-manufacturer
+  - mid-drive
+  - bosch
+  - smart-system
+  - cargo-line
+  - ebike-systems
 generated_by: cargo-bikes-cli
 headquarters: Reutlingen, Germany
 founded: 1886
 ebike_division: Bosch eBike Systems
 system_generations:
-- Smart System (current)
-- Legacy System (prior to ~2022)
+  - Smart System (current)
+  - Legacy System (prior to ~2022)
 motor_lineup:
-- Cargo Line
-- Cargo Line Speed
-- Performance Line CX Gen 5
-- Performance Line PX
-- Performance Line Speed
-- Performance Line SX
-- Performance Line
+  - Cargo Line
+  - Cargo Line Speed
+  - Performance Line CX Gen 5
+  - Performance Line PX
+  - Performance Line Speed
+  - Performance Line SX
+  - Performance Line
 max_torque_nm: 100
 max_assist_ratio_pct: 400
 max_battery_wh: 800
 dual_battery_max_wh: 1600
 ---
+
 # Bosch
 
 Bosch eBike Systems is a division of Robert Bosch GmbH and the dominant mid-drive motor supplier in the premium cargo and utility e-bike segment. Based in Reutlingen, Germany, Bosch has been producing e-bike drive systems since 2011. Their current platform — the **Smart System** — connects all drive components over a shared data bus, enabling OTA firmware updates, app-unlockable performance tiers, and deep integration with displays, ABS, and electronic shifting.
@@ -43,15 +44,16 @@ Bosch's cargo-relevant motors span two families: the purpose-built **Cargo Line*
 
 The primary motor for cargo bikes. Engineered for a permissible total system weight of up to **250 kg**, making it the standard choice for longtails, box bikes, and family cargo bikes.
 
-| Spec | Value (shipped) | After App Unlock (MY2026+) |
-|---|---|---|
-| Max torque | 85 Nm | 100 Nm |
-| Peak power | 600 W | 750 W |
-| Max assist ratio | 340% | 400% |
-| Assist cutoff | 25 km/h | 25 km/h |
-| Weight | ~2.8 kg | — |
+| Spec             | Value (shipped) | After App Unlock (MY2026+) |
+| ---------------- | --------------- | -------------------------- |
+| Max torque       | 85 Nm           | 100 Nm                     |
+| Peak power       | 600 W           | 750 W                      |
+| Max assist ratio | 340%            | 400%                       |
+| Assist cutoff    | 25 km/h         | 25 km/h                    |
+| Weight           | ~2.8 kg         | —                          |
 
 Key features:
+
 - Dedicated Cargo mode with smooth low-speed power delivery under heavy load
 - Motor and gearbox decouple above ~20 mph to reduce drag at speed
 - Hill Start Assist holds the bike stationary on inclines during start-up
@@ -67,15 +69,16 @@ S-Pedelec variant of the Cargo Line tuned for 45 km/h assist cutoff. Shares the 
 
 Bosch's flagship high-performance motor, widely specified on longtails and high-end cargo bikes alongside pure eMTB applications.
 
-| Spec | Value (shipped) | After App Unlock (from July 2025) |
-|---|---|---|
-| Max torque | 85 Nm | 100 Nm |
-| Peak power | 600 W | 750 W |
-| Max assist ratio | 340% | 400% |
-| Weight | 2.7 kg | — |
-| Casing | Magnesium | — |
+| Spec             | Value (shipped) | After App Unlock (from July 2025) |
+| ---------------- | --------------- | --------------------------------- |
+| Max torque       | 85 Nm           | 100 Nm                            |
+| Peak power       | 600 W           | 750 W                             |
+| Max assist ratio | 340%            | 400%                              |
+| Weight           | 2.7 kg          | —                                 |
+| Casing           | Magnesium       | —                                 |
 
 Gen 5 improvements over Gen 4:
+
 - 6-axis inertial sensor suite (gradient, inclination, vibration detection)
 - Significantly quieter operation — drivetrain decouples under zero load
 - Enhanced Extended Boost for steep short climbs
@@ -86,12 +89,12 @@ Gen 5 improvements over Gen 4:
 
 New touring-focused motor announced at Eurobike 2025. Slots between the standard Performance Line and CX Gen 5 in the lineup.
 
-| Spec | Value |
-|---|---|
-| Max torque | 90 Nm |
-| Peak power | 700 W |
-| Max assist ratio | 400% |
-| Weight | ~2.9 kg |
+| Spec             | Value   |
+| ---------------- | ------- |
+| Max torque       | 90 Nm   |
+| Peak power       | 700 W   |
+| Max assist ratio | 400%    |
+| Weight           | ~2.9 kg |
 
 Features a two-stage gearbox (vs CX's three-stage) optimized for quiet, smooth operation. Includes an Auto mode for automatic assistance selection. Compatible with Shimano, TRP, and Magura ABS brakes.
 
@@ -127,21 +130,21 @@ All Smart System batteries support DualBattery pairing (two batteries operated i
 
 ### PowerTube (frame-integrated)
 
-| Model | Capacity | Weight | Notes |
-|---|---|---|---|
-| PowerTube 540 | 540 Wh | 3.0 kg | New MY2026; same dimensions as 600 |
-| PowerTube 600 | 600 Wh | 3.0 kg | Current mid-range; interchangeable with 800 in compatible frames |
-| PowerTube 800 | 800 Wh | 3.9 kg | Current flagship; 400 g lighter than prior 750 Wh model |
-| PowerTube 500 | 500 Wh | — | Legacy; still present on in-stock/pre-owned bikes |
+| Model         | Capacity | Weight | Notes                                                            |
+| ------------- | -------- | ------ | ---------------------------------------------------------------- |
+| PowerTube 540 | 540 Wh   | 3.0 kg | New MY2026; same dimensions as 600                               |
+| PowerTube 600 | 600 Wh   | 3.0 kg | Current mid-range; interchangeable with 800 in compatible frames |
+| PowerTube 800 | 800 Wh   | 3.9 kg | Current flagship; 400 g lighter than prior 750 Wh model          |
+| PowerTube 500 | 500 Wh   | —      | Legacy; still present on in-stock/pre-owned bikes                |
 
 Two PowerTube 800s in DualBattery configuration deliver **1,600 Wh**.
 
 ### PowerPack (external/rack-mounted)
 
-| Model | Capacity | Notes |
-|---|---|---|
-| PowerPack 800 | 800 Wh | Largest PowerPack; external frame or rack mount |
-| PowerPack 300 Frame | ~300 Wh | Lightweight external mount option |
+| Model               | Capacity | Notes                                           |
+| ------------------- | -------- | ----------------------------------------------- |
+| PowerPack 800       | 800 Wh   | Largest PowerPack; external frame or rack mount |
+| PowerPack 300 Frame | ~300 Wh  | Lightweight external mount option               |
 
 Battery Lock (digital anti-theft immobilization) introduced MY2026.
 
@@ -149,15 +152,15 @@ Battery Lock (digital anti-theft immobilization) introduced MY2026.
 
 All Smart System units connect to the **eBike Flow** app (iOS/Android) for configuration, navigation, and OTA updates. Legacy system units use the older eBike Connect app.
 
-| Unit | Screen | Notes |
-|---|---|---|
-| LED Remote | None (LEDs only) | Minimal bar controller; pairs with smartphone via Flow app |
-| Purion 200 | Compact monochrome | Single-thumb handlebar control |
-| Purion 400 | 1.6" with speaker | Stem or bar mount (31.8 / 35 mm); requires remote pairing; retrofit available |
-| Kiox 300 | 2.0" color | Removable; eShift gear display; Flow app |
-| Kiox 500 | 2.8" color | Larger removable display; eShift support |
-| Nyon | Large color LCD + touch | Full navigation; multi-rider profiles; WiFi/BT OTA |
-| SmartphoneGrip | User's phone | Pairs with Kiox 300 as display; suited to relaxed riding positions |
+| Unit           | Screen                  | Notes                                                                         |
+| -------------- | ----------------------- | ----------------------------------------------------------------------------- |
+| LED Remote     | None (LEDs only)        | Minimal bar controller; pairs with smartphone via Flow app                    |
+| Purion 200     | Compact monochrome      | Single-thumb handlebar control                                                |
+| Purion 400     | 1.6" with speaker       | Stem or bar mount (31.8 / 35 mm); requires remote pairing; retrofit available |
+| Kiox 300       | 2.0" color              | Removable; eShift gear display; Flow app                                      |
+| Kiox 500       | 2.8" color              | Larger removable display; eShift support                                      |
+| Nyon           | Large color LCD + touch | Full navigation; multi-rider profiles; WiFi/BT OTA                            |
+| SmartphoneGrip | User's phone            | Pairs with Kiox 300 as display; suited to relaxed riding positions            |
 
 ## Key Technologies
 
@@ -215,26 +218,26 @@ Bosch is the reference-standard mid-drive motor in the premium European cargo bi
 
 ## Notable OEM Partners (Cargo Segment)
 
-| Brand | Models |
-|---|---|
-| [[Urban Arrow]] | Family, Shorty, Tender — all Cargo Line |
+| Brand              | Models                                           |
+| ------------------ | ------------------------------------------------ |
+| [[Urban Arrow]]    | Family, Shorty, Tender — all Cargo Line          |
 | [[Riese & Müller]] | Load, Carrie, Packster — Cargo Line, DualBattery |
-| [[Tern]] | GSD, HSD Gen 2, Orox — Smart System partnership |
-| [[Cube]] | Longtail Hybrid range — Cargo Line |
-| [[Yuba]] | Longtail range |
-| [[Gazelle]] | Utility and cargo range |
-| [[Babboe]] | Dutch box bikes with Bosch options |
-| [[Benno]] | Boost and Carry-E range |
+| [[Tern]]           | GSD, HSD Gen 2, Orox — Smart System partnership  |
+| [[Cube]]           | Longtail Hybrid range — Cargo Line               |
+| [[Yuba]]           | Longtail range                                   |
+| [[Gazelle]]        | Utility and cargo range                          |
+| [[Babboe]]         | Dutch box bikes with Bosch options               |
+| [[Benno]]          | Boost and Carry-E range                          |
 
 ## Update History (Selected)
 
-| Period | Update |
-|---|---|
-| MY2023 | Smart System broad rollout begins |
-| Sept 2024 | PowerTube 600 and PowerTube 800 announced |
-| Oct/Nov 2024 | Purion 400 retrofit availability |
-| Early 2025 | Performance Line CX Gen 5 announced |
-| Mid 2025 | Cargo Line MY2026 update: 100 Nm / 750 W unlockable |
-| July 2025 | CX Gen 5 app unlock goes live |
+| Period             | Update                                                                                   |
+| ------------------ | ---------------------------------------------------------------------------------------- |
+| MY2023             | Smart System broad rollout begins                                                        |
+| Sept 2024          | PowerTube 600 and PowerTube 800 announced                                                |
+| Oct/Nov 2024       | Purion 400 retrofit availability                                                         |
+| Early 2025         | Performance Line CX Gen 5 announced                                                      |
+| Mid 2025           | Cargo Line MY2026 update: 100 Nm / 750 W unlockable                                      |
+| July 2025          | CX Gen 5 app unlock goes live                                                            |
 | Eurobike June 2025 | CX-R, Performance Line PX, Kiox 400C, PowerTube 540, Shimano ABS, Battery Lock announced |
-| Fall 2025 | First CX-R bikes at dealers; SX OTA torque increase (55 Nm to 60 Nm) |
+| Fall 2025          | First CX-R bikes at dealers; SX OTA torque increase (55 Nm to 60 Nm)                     |

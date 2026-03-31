@@ -73,6 +73,7 @@ class WikilinksPlugin(BasePlugin):
         def _relative_url(target_url: str) -> str:
             """Calculate relative URL from current page to target."""
             from posixpath import relpath
+
             # Both are URL paths like "bikes/benno/boost-10d-evo-5/"
             current_url_dir = str(Path(page.file.dest_path).parent).replace("\\", "/")
             target_clean = target_url.strip("/")

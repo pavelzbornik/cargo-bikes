@@ -12,7 +12,9 @@ from cargo_bikes.validate.urls import (
     reconstruct_frontmatter,
     validate_and_clean_urls,
 )
-from cargo_bikes.vault.frontmatter import extract_frontmatter_and_body as extract_frontmatter
+from cargo_bikes.vault.frontmatter import (
+    extract_frontmatter_and_body as extract_frontmatter,
+)
 
 
 class TestURLValidator:

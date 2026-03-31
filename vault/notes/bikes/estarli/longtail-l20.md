@@ -5,27 +5,27 @@ type: bike
 brand: estarli
 model: e-cargo Longtail L20
 tags:
-- bike
-- longtail
-- estarli
-- bafang
+  - bike
+  - longtail
+  - estarli
+  - bafang
 url: https://www.estarli.co.uk/products/longtail-cargo
 image: https://www.estarli.co.uk/cdn/shop/files/e-cargo-Longtail-Standard-Yellow.jpg?v=1756198325
 resellers:
-- name: estarli Direct
-  url: https://www.estarli.co.uk/products/longtail-cargo
-  price: '2995'
-  currency: GBP
-  region: UK
-  availability: in-stock
-  note: Standard model base price
-- name: estarli Direct
-  url: https://www.estarli.co.uk/products/longtail-cargo
-  price: '3255'
-  currency: GBP
-  region: UK
-  availability: in-stock
-  note: Family Pack model with child seat bolt-on accessory
+  - name: estarli Direct
+    url: https://www.estarli.co.uk/products/longtail-cargo
+    price: "2995"
+    currency: GBP
+    region: UK
+    availability: in-stock
+    note: Standard model base price
+  - name: estarli Direct
+    url: https://www.estarli.co.uk/products/longtail-cargo
+    price: "3255"
+    currency: GBP
+    region: UK
+    availability: in-stock
+    note: Family Pack model with child seat bolt-on accessory
 category: longtail
 model_year: 2023
 frame_material: aluminum
@@ -35,7 +35,8 @@ weight_with_battery_kg: 28.0
 load_capacity_total_kg: 210.0
 load_capacity_rear_kg: 90.0
 load_capacity_passenger_count: 2
-load_capacity_passenger_config: Up to 2 children in Family Pack configuration with
+load_capacity_passenger_config:
+  Up to 2 children in Family Pack configuration with
   accessory child seat
 motor_make: Bafang
 motor_model: m400
@@ -46,7 +47,7 @@ motor_boost_throttle: false
 battery_capacity_wh: 630
 battery_configuration: single
 battery_removable: true
-battery_charging_time_h: '3'
+battery_charging_time_h: "3"
 drivetrain_type: belt
 drivetrain_speeds: continuous
 drivetrain_hub: Enviolo Heavy Duty CVT
@@ -63,22 +64,23 @@ lights_rear_type: Automatic rear light
 lights_rear_integrated: true
 lights_rear_brake_light: false
 features:
-- folding-stem
-- quick-release-wheels
-- park-stand
-- Gates-carbon-belt-drive
-- stepless-gears
+  - folding-stem
+  - quick-release-wheels
+  - park-stand
+  - Gates-carbon-belt-drive
+  - stepless-gears
 security_gps: false
 security_app_lock: false
 security_frame_lock: false
 range_estimate_km: 85-100
-range_notes: Range varies with assist level and load conditions; supports secondary
+range_notes:
+  Range varies with assist level and load conditions; supports secondary
   battery for extended range
-price_amount: '2995'
+price_amount: "2995"
 price_currency: GBP
-specs_notes: Battery upgradeable to 700Wh; Designed and assembled in Berkhamsted,
+specs_notes:
+  Battery upgradeable to 700Wh; Designed and assembled in Berkhamsted,
   UK; Secondary battery compatible for extended range
-
 ---
 
 ## Overview
@@ -92,21 +94,23 @@ Co-founder Alex Francis positioned it as "more affordable than many market-leadi
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | longtail |
-| **Model Year** | 2023 |
-| **Motor** | Bafang m400 |
-| **Motor Power** | 250W |
-| **Motor Torque** | 110Nm |
-| **Battery Capacity** | 630Wh |
-| **Range** | 85-100 km |
-| **Weight (with battery)** | 28.0kg |
-| **Total Load Capacity** | 210.0kg |
-| **Drivetrain** | belt |
-| **Brakes** | hydraulic disk |
-| **Wheel Size** | 20" |
-| **Price** | 2995 GBP |
+
+| Specification             | Value          |
+| ------------------------- | -------------- |
+| **Category**              | longtail       |
+| **Model Year**            | 2023           |
+| **Motor**                 | Bafang m400    |
+| **Motor Power**           | 250W           |
+| **Motor Torque**          | 110Nm          |
+| **Battery Capacity**      | 630Wh          |
+| **Range**                 | 85-100 km      |
+| **Weight (with battery)** | 28.0kg         |
+| **Total Load Capacity**   | 210.0kg        |
+| **Drivetrain**            | belt           |
+| **Brakes**                | hydraulic disk |
+| **Wheel Size**            | 20"            |
+| **Price**                 | 2995 GBP       |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Frame & Geometry

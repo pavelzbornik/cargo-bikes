@@ -1,39 +1,40 @@
 ---
 date: 2025-10-16
 price: €5,855
-motor: ''
-battery: ''
-range: ''
+motor: ""
+battery: ""
+range: ""
 title: Fantilo Bleu
 type: bike
 brand: OKLÖ
 model: Fantilo
 tags:
-- bike
-- cargo
-- family
-- longtail
-- electric
-- oklo
+  - bike
+  - cargo
+  - family
+  - longtail
+  - electric
+  - oklo
 url: https://www.oklo.bike/produit/velo-cargo-evo-famille/
 image: https://www.oklo.bike/assets/uploads/2022/03/IMG_0820-EVO-Fantilo-longtail-elu-velo-cargo-de-l-annee-2024_1024x1204-600x600.jpg
-price_amount: '5855'
+price_amount: "5855"
 price_currency: EUR
 category: longtail
 needs_research: true
 research_topics:
-- motor_make
-- motor_power_w
-- motor_torque_nm
-- battery_capacity_wh
-- weight_with_battery_kg
-- load_capacity_total_kg
-- brakes_type
-- drivetrain_type
-- frame_material
-- range_estimate_km
-- wheels_front_size_in
+  - motor_make
+  - motor_power_w
+  - motor_torque_nm
+  - battery_capacity_wh
+  - weight_with_battery_kg
+  - load_capacity_total_kg
+  - brakes_type
+  - drivetrain_type
+  - frame_material
+  - range_estimate_km
+  - wheels_front_size_in
 ---
+
 ## Overview
 
 ![Fantilo Bleu](https://www.oklo.bike/assets/uploads/2022/03/IMG_0820-EVO-Fantilo-longtail-elu-velo-cargo-de-l-annee-2024_1024x1204-600x600.jpg)
@@ -43,9 +44,11 @@ The OKLÖ Fantilo is a premium family electric longtail cargo bike designed for 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Price** | 5855 EUR |
+
+| Specification | Value    |
+| ------------- | -------- |
+| **Price**     | 5855 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Design

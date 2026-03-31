@@ -1,5 +1,5 @@
 ---
-date: '2025-10-20'
+date: "2025-10-20"
 price: €3,999
 motor: Shimano STEPS EP6
 battery: 540Wh - 630Wh
@@ -9,24 +9,24 @@ type: bike
 brand: O2Feel
 model: Buzz 7
 tags:
-- bike
-- compact-cargo
-- e-bike
-- o2feel
+  - bike
+  - compact-cargo
+  - e-bike
+  - o2feel
 url: https://www.o2feel.com/en/product/buzz-7/
 image: https://www.o2feel.com/wp-content/uploads/2024/12/Buzz-7-S2-1-BP-1200x1200-1-800x800.jpg
 resellers:
-- name: Cyclable
-  url: https://www.cyclable.com/18881-velo-cargo-electrique-o2feel-buzz-7.html
-  price: '3799'
-  currency: EUR
-  region: EU
-  availability: in-stock
+  - name: Cyclable
+    url: https://www.cyclable.com/18881-velo-cargo-electrique-o2feel-buzz-7.html
+    price: "3799"
+    currency: EUR
+    region: EU
+    availability: in-stock
 motor_make: Shimano
 motor_model: STEPS EP6
 battery_capacity_wh: 540
-range_estimate_km: '140'
-price_amount: '3999'
+range_estimate_km: "140"
+price_amount: "3999"
 price_currency: EUR
 category: compact
 motor_type: mid-drive
@@ -37,16 +37,17 @@ frame_material: aluminum
 frame_length_cm: 175.0
 brakes_type: hydraulic disc
 drivetrain_type: chain
-drivetrain_speeds: '5'
+drivetrain_speeds: "5"
 drivetrain_hub: Shimano Nexus 5E
-wheels_front_size_in: '20'
-wheels_rear_size_in: '20'
+wheels_front_size_in: "20"
+wheels_rear_size_in: "20"
 wheels_tire: Mach1 Trucky 30
 needs_research: true
 research_topics:
-- motor_torque_nm
-- weight_with_battery_kg
+  - motor_torque_nm
+  - weight_with_battery_kg
 ---
+
 ## Overview
 
 ![O2Feel Buzz 7](https://www.o2feel.com/wp-content/uploads/2024/12/Buzz-7-S2-1-BP-1200x1200-1-800x800.jpg)
@@ -56,12 +57,14 @@ The O2Feel Buzz 7 is a compact, modular electric cargo bike designed for urban s
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor** | Shimano STEPS EP6 |
-| **Battery Capacity** | 540Wh |
-| **Range** | 140 km |
-| **Price** | 3999 EUR |
+
+| Specification        | Value             |
+| -------------------- | ----------------- |
+| **Motor**            | Shimano STEPS EP6 |
+| **Battery Capacity** | 540Wh             |
+| **Range**            | 140 km            |
+| **Price**            | 3999 EUR          |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

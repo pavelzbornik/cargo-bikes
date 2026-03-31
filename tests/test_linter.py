@@ -11,7 +11,9 @@ from cargo_bikes.validate.structure import (
     validate_file,
     validate_vault,
 )
-from cargo_bikes.vault.frontmatter import extract_frontmatter_with_error as extract_frontmatter
+from cargo_bikes.vault.frontmatter import (
+    extract_frontmatter_with_error as extract_frontmatter,
+)
 
 
 class TestExtractFrontmatter:

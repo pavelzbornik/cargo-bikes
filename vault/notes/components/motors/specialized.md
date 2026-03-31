@@ -2,27 +2,28 @@
 title: Specialized
 type: component-manufacturer
 category: motors
-parent: '[[Motors MOC]]'
-domain: '[[Motors MOC]]'
+parent: "[[Motors MOC]]"
+domain: "[[Motors MOC]]"
 tags:
-- manufacturer
-- motors
-- mid-drive
-- specialized
-- cargo
+  - manufacturer
+  - motors
+  - mid-drive
+  - specialized
+  - cargo
 generated_by: cargo-bikes-cli
 motor_range:
-- SL 1.1
-- SL 1.2
-- 2.1 Custom RX
-- 2.2 Cargo
-- '3.1'
+  - SL 1.1
+  - SL 1.2
+  - 2.1 Custom RX
+  - 2.2 Cargo
+  - "3.1"
 development_partners:
-- MAHLE
-- Brose
+  - MAHLE
+  - Brose
 motor_types:
-- mid-drive
+  - mid-drive
 ---
+
 # Specialized
 
 ## Overview
@@ -34,6 +35,7 @@ Specialized's motor philosophy centres on natural ride feel, low weight, and tig
 ## Motor Product Range
 
 ### SL 1.1 (Previous Generation Lightweight)
+
 - Peak power: 240 W
 - Torque: 35 Nm
 - Introduced: 2020 (Turbo Levo SL Gen 1)
@@ -41,6 +43,7 @@ Specialized's motor philosophy centres on natural ride feel, low weight, and tig
 - Notes: pioneered the lightweight eMTB segment; known for natural pedal feel
 
 ### SL 1.2 (Current Generation Lightweight)
+
 - Peak power: 320 W
 - Torque: 50 Nm
 - Weight: 1.93 kg
@@ -51,10 +54,12 @@ Specialized's motor philosophy centres on natural ride feel, low weight, and tig
 - Used on: Turbo Levo SL Gen 2, Turbo Kenevo SL 2, Turbo Creo 2
 
 ### 2.1 Custom RX Trail Tuned
+
 - Category: full-power eMTB
 - Notes: trail-tuned variant of the full-power 2.x series; specific power figures vary by bike configuration
 
 ### 2.2 Cargo
+
 - Peak torque: 90 Nm
 - Nominal power: 250 W
 - Voltage: 36 V brushless mid-drive with belt transmission
@@ -64,6 +69,7 @@ Specialized's motor philosophy centres on natural ride feel, low weight, and tig
 - Notes: Specialized claims it is the most powerful motor in the long-tail cargo e-bike category; three assist modes (Eco, Sport, Turbo)
 
 ### 3.1 (Full-Power eMTB)
+
 - Peak power: 666 W
 - Torque: 101 Nm
 - Category: high-power enduro/trail eMTB

@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import json
-import re
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -247,9 +246,7 @@ def validate_vault_urls(
                     print("    [SAVED]")
 
                 changelog.append(
-                    create_changelog_entry(
-                        str(rel_path), removed_urls, "URLS_REMOVED"
-                    )
+                    create_changelog_entry(str(rel_path), removed_urls, "URLS_REMOVED")
                 )
             else:
                 print(f"[{idx}/{total_files}] [OK] {rel_path}: All URLs valid")
@@ -267,9 +264,7 @@ def validate_vault_urls(
     return changelog, total_files
 
 
-def save_changelog(
-    changelog: list[dict[str, Any]], dry_run: bool = False
-) -> None:
+def save_changelog(changelog: list[dict[str, Any]], dry_run: bool = False) -> None:
     """Save changelog to file."""
     changelog_path = Path("scripts/VALIDATE_URLS_CHANGELOG.json")
     changelog_content: dict[str, Any] = {

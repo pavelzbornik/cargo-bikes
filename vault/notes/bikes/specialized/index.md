@@ -1,20 +1,22 @@
 ---
 brand: Specialized
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: Specialized
 type: brand
-summary: Specialized is a cargo bike manufacturer offering diverse models for families
+summary:
+  Specialized is a cargo bike manufacturer offering diverse models for families
   and professionals.
 tags:
-- brand
-- index
-- specialized
+  - brand
+  - index
+  - specialized
 regions:
-- EU
+  - EU
 distribution_model: retail
 ---
+
 ## Overview
 
 Specialized is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

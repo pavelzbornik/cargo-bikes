@@ -1,22 +1,24 @@
 ---
 brand: Hippoko
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: Hippoko
 type: brand
-summary: Hippoko is a cargo bike manufacturer offering diverse models for families
+summary:
+  Hippoko is a cargo bike manufacturer offering diverse models for families
   and professionals.
 tags:
-- brand
-- index
-- hippoko
+  - brand
+  - index
+  - hippoko
 regions:
-- EU
+  - EU
 categories:
-- longtail
+  - longtail
 distribution_model: both
 ---
+
 ## Overview
 
 Hippoko is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

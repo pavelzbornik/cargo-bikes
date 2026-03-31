@@ -39,16 +39,16 @@ The Transport Basket mounts to the front of compatible Unikride bikes, offering 
 
 This basket is a **brand-specific accessory** designed exclusively for [[Unikride]] bikes. It is not a universal product and is not intended for use with other cargo bike brands.
 
-| Compatible Bike | Notes |
-|---|---|
+| Compatible Bike                                                 | Notes                          |
+| --------------------------------------------------------------- | ------------------------------ |
 | [[Fatstreet Classic - Two-seater electric cargo bike (Female)]] | Official Unikride front basket |
 
 ## Pricing
 
 | Configuration | Price |
-|---|---|
-| Entry | €79 |
-| Top | €119 |
+| ------------- | ----- |
+| Entry         | €79   |
+| Top           | €119  |
 
 > Prices may vary by retailer or region. Check with your local Unikride dealer for current availability and pricing.
 

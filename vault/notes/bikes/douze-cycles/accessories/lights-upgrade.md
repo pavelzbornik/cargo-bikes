@@ -37,15 +37,15 @@ Enhanced visibility through improved front and/or rear lighting output. As a bra
 
 This accessory is designed specifically for [[Douze Cycles]] bikes and is not guaranteed to fit third-party cargo bike frames.
 
-| Bike | Compatible |
-|------|------------|
-| [[Douze Cycles LT1]] | Yes |
+| Bike                 | Compatible |
+| -------------------- | ---------- |
+| [[Douze Cycles LT1]] | Yes        |
 
 ## Pricing
 
 | Currency | Price Range |
-|----------|-------------|
-| EUR | €40 – €80 |
+| -------- | ----------- |
+| EUR      | €40 – €80   |
 
 Pricing may vary depending on the specific lighting variant (front only, rear only, or combined kit). Contact your [[Douze Cycles]] dealer for current availability and exact pricing.
 

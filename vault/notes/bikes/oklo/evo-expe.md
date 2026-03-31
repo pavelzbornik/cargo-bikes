@@ -9,19 +9,19 @@ type: bike
 brand: OKLÖ
 model: ÉVO Expé
 tags:
-- bike
-- cargo
-- adventure
-- oklo
-- electric
-- touring
+  - bike
+  - cargo
+  - adventure
+  - oklo
+  - electric
+  - touring
 url: https://www.oklo.bike/produit/velo-cargo-evo-expe/
 motor_make: Bafang
 motor_model: M410
 motor_power_w: 250
 battery_capacity_wh: 600
 range_estimate_km: 50-100
-price_amount: '4330'
+price_amount: "4330"
 price_currency: EUR
 category: longtail
 motor_torque_nm: 80
@@ -30,8 +30,9 @@ load_capacity_total_kg: 110.0
 frame_material: steel
 brakes_type: hydraulic disc
 drivetrain_type: chain
-wheels_front_size_in: '24'
+wheels_front_size_in: "24"
 ---
+
 ## Overview
 
 The OKLÖ ÉVO Expé is the adventure-focused variant of the ÉVO platform. With enhanced cargo capacity and rugged design philosophy, the Expé is built for camping trips, multi-day touring, exploratory city rides, and carrying substantial gear. It retains the proven ÉVO reliability while optimizing for maximum carrying capacity and versatility. Perfect for travelers, photographers, and anyone who wants to explore beyond their immediate neighborhood while keeping their supplies within arm's reach.
@@ -41,13 +42,15 @@ The OKLÖ ÉVO Expé is the adventure-focused variant of the ÉVO platform. With
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor** | Bafang M410 |
-| **Motor Power** | 250W |
-| **Battery Capacity** | 600Wh |
-| **Range** | 50-100 km |
-| **Price** | 4330 EUR |
+
+| Specification        | Value       |
+| -------------------- | ----------- |
+| **Motor**            | Bafang M410 |
+| **Motor Power**      | 250W        |
+| **Battery Capacity** | 600Wh       |
+| **Range**            | 50-100 km   |
+| **Price**            | 4330 EUR    |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Core Dimensions

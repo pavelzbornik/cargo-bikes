@@ -5,20 +5,20 @@ type: bike
 brand: Benno Bikes
 model: eJoy E
 tags:
-- bike
-- longtail
-- benno
-- bosch
+  - bike
+  - longtail
+  - benno
+  - bosch
 url: https://bennobikes.com/e-bikes/ejoy/
 image: https://bennobikes.com/wp-content/uploads/benno_ejoy_2020_with-sketch_overlay_people_sl1.jpg
 resellers:
-- name: Decathlon France
-  url: https://www.decathlon.fr/p/velo-electrique-longtail-benno-ejoy-e-400wh-noir/_/R-p-366913
-  price: '1799'
-  currency: EUR
-  region: EU
-  availability: in-stock
-  note: Entry-level option
+  - name: Decathlon France
+    url: https://www.decathlon.fr/p/velo-electrique-longtail-benno-ejoy-e-400wh-noir/_/R-p-366913
+    price: "1799"
+    currency: EUR
+    region: EU
+    availability: in-stock
+    note: Entry-level option
 category: longtail
 model_year: 2024
 frame_material: aluminum
@@ -36,9 +36,9 @@ motor_boost_throttle: true
 battery_capacity_wh: 400
 battery_configuration: single
 battery_removable: true
-battery_charging_time_h: '3'
+battery_charging_time_h: "3"
 drivetrain_type: chain
-drivetrain_speeds: '8'
+drivetrain_speeds: "8"
 brakes_type: mechanical disc
 wheels_front_size_in: 20"
 wheels_rear_size_in: 20"
@@ -51,21 +51,21 @@ lights_front_powered_by: main battery
 lights_rear_type: Basic LED
 lights_rear_integrated: false
 features:
-- bosch-active-plus
-- entry-level
-- walk-assist
-- integrated-battery
+  - bosch-active-plus
+  - entry-level
+  - walk-assist
+  - integrated-battery
 security_gps: false
 security_app_lock: false
 security_frame_lock: true
 range_estimate_km: 40-90
 range_notes: Single 400Wh battery; urban and light cargo use
-price_amount: '1799'
+price_amount: "1799"
 price_currency: EUR
-specs_notes: Entry-level electric longtail with Bosch Active Plus motor. Designed
+specs_notes:
+  Entry-level electric longtail with Bosch Active Plus motor. Designed
   for urban families and light cargo transport. More affordable than Boost series
   but with lower power (50Nm torque).
-
 ---
 
 ## Overview
@@ -77,21 +77,23 @@ The BENNO eJoy E is an affordable electric longtail from BENNO, featuring Bosch 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | longtail |
-| **Model Year** | 2024 |
-| **Motor** | Bosch Active Plus |
-| **Motor Power** | 250W |
-| **Motor Torque** | 50Nm |
-| **Battery Capacity** | 400Wh |
-| **Range** | 40-90 km |
-| **Weight (with battery)** | 24.0kg |
-| **Total Load Capacity** | 150.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | mechanical disc |
-| **Wheel Size** | 20" |
-| **Price** | 1799 EUR |
+
+| Specification             | Value             |
+| ------------------------- | ----------------- |
+| **Category**              | longtail          |
+| **Model Year**            | 2024              |
+| **Motor**                 | Bosch Active Plus |
+| **Motor Power**           | 250W              |
+| **Motor Torque**          | 50Nm              |
+| **Battery Capacity**      | 400Wh             |
+| **Range**                 | 40-90 km          |
+| **Weight (with battery)** | 24.0kg            |
+| **Total Load Capacity**   | 150.0kg           |
+| **Drivetrain**            | chain             |
+| **Brakes**                | mechanical disc   |
+| **Wheel Size**            | 20"               |
+| **Price**                 | 1799 EUR          |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification         | Details                                 |

@@ -9,11 +9,11 @@ type: bike
 brand: OKLÖ
 model: ÉVO Cani-taxi
 tags:
-- bike
-- cargo
-- oklo
-- electric
-- dog
+  - bike
+  - cargo
+  - oklo
+  - electric
+  - dog
 url: https://www.oklo.bike/produit/velo-cargo-evo-cani-taxi/
 image: https://www.oklo.bike/assets/uploads/2024/06/IMG_1248-EVO-Cani-taxi-big-longtail-bleu-packshot_1024x1024.jpg
 motor_make: Bafang
@@ -21,19 +21,20 @@ motor_model: M410
 motor_power_w: 250
 battery_capacity_wh: 600
 range_estimate_km: 50-100
-price_amount: '4300'
+price_amount: "4300"
 price_currency: EUR
 needs_research: true
 research_topics:
-- category
-- weight_with_battery_kg
+  - category
+  - weight_with_battery_kg
 motor_torque_nm: 80
 load_capacity_total_kg: 80.0
 frame_material: CroMo steel
 brakes_type: hydraulic disc
 drivetrain_type: chain
-wheels_front_size_in: '24'
+wheels_front_size_in: "24"
 ---
+
 ## Overview
 
 ![ÉVO Cani-taxi](https://www.oklo.bike/assets/uploads/2024/06/IMG_1248-EVO-Cani-taxi-big-longtail-bleu-packshot_1024x1024.jpg)
@@ -45,13 +46,15 @@ The OKLÖ ÉVO Cani-taxi is a specialized electric cargo bike designed specifica
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor** | Bafang M410 |
-| **Motor Power** | 250W |
-| **Battery Capacity** | 600Wh |
-| **Range** | 50-100 km |
-| **Price** | 4300 EUR |
+
+| Specification        | Value       |
+| -------------------- | ----------- |
+| **Motor**            | Bafang M410 |
+| **Motor Power**      | 250W        |
+| **Battery Capacity** | 600Wh       |
+| **Range**            | 50-100 km   |
+| **Price**            | 4300 EUR    |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Key Dimensions

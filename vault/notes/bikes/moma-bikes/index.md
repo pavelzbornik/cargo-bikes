@@ -5,43 +5,44 @@ title: Moma Bikes
 type: brand
 url: https://momabikes.eu
 logo: https://momabikes.eu/cdn/shop/files/moma-bikes-logo.svg
-summary: European online bike shop and manufacturer offering diverse electric cargo
+summary:
+  European online bike shop and manufacturer offering diverse electric cargo
   bikes, mountain bikes, and city bikes Made in EU, with 18+ years of manufacturing
   and distribution experience.
 tags:
-- brand
-- european
-- longtail
-- electric
-- cargo
-- family
-- accessible
-- eu-made
+  - brand
+  - european
+  - longtail
+  - electric
+  - cargo
+  - family
+  - accessible
+  - eu-made
 country: Europe
 headquarters_country: EU
 categories:
-- longtail
-- compact-longtail
+  - longtail
+  - compact-longtail
 market_segments:
-- urban-families
-- commuters
-- cargo-enthusiasts
+  - urban-families
+  - commuters
+  - cargo-enthusiasts
 regions:
-- EU
+  - EU
 price_tier: accessible
 product_types:
-- bikes
+  - bikes
 model_count: 2
 primary_motors:
-- brushless-hub-motor
+  - brushless-hub-motor
 manufacturing_locations:
-- EU
+  - EU
 manufacturing_approach: hybrid
 assembly_location: EU
 ethical_standards: Made in Europe, direct factory supply
 distribution_model: direct
 regions_active:
-- EU
+  - EU
 direct_sales: true
 dealership_network: false
 value_sustainability: true
@@ -50,11 +51,12 @@ value_community_focus: false
 value_safety_emphasis: true
 value_tech_integration: true
 accessibility:
-- affordable-entry-pricing
-- direct-online-sales
-- european-manufacturing
-- family-cargo-focused
+  - affordable-entry-pricing
+  - direct-online-sales
+  - european-manufacturing
+  - family-cargo-focused
 ---
+
 ## Overview
 
 Moma Bikes is a European online bike shop and manufacturer specializing in a diverse range of bicycles including electric cargo bikes, mountain bikes, gravel bikes, and city bikes. According to their official website, Moma Bikes has been manufacturing and distributing bicycles for 18 years, positioning them as an established player in the European bike market with direct factory supply capabilities.

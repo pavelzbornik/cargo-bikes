@@ -75,25 +75,69 @@ def parse_markdown_file(file_path: Path) -> dict[str, str]:
 # Fields managed by the DB projection — these get overwritten from DB values.
 # Any frontmatter fields NOT in this set are preserved as-is.
 _MANAGED_FIELDS = {
-    "title", "type", "brand", "model", "tags", "url", "image", "resellers",
-    "category", "model_year",
-    "frame_material", "frame_size", "frame_length_cm", "frame_width_cm", "frame_height_cm",
-    "weight_bike_kg", "weight_with_battery_kg", "weight_battery_kg",
-    "load_capacity_total_kg", "load_capacity_rear_kg", "load_capacity_front_kg",
-    "load_capacity_passenger_count", "load_capacity_passenger_config",
-    "motor_make", "motor_model", "motor_type", "motor_power_w", "motor_torque_nm", "motor_boost_throttle",
-    "battery_capacity_wh", "battery_configuration", "battery_removable", "battery_charging_time_h",
-    "drivetrain_type", "drivetrain_speeds", "drivetrain_hub",
-    "brakes_type", "brakes_front_rotor_mm", "brakes_rear_rotor_mm", "brakes_pistons",
-    "wheels_front_size_in", "wheels_rear_size_in", "wheels_tire", "wheels_rims",
-    "suspension_front", "suspension_rear",
-    "lights_front_type", "lights_front_integrated", "lights_front_powered_by",
-    "lights_rear_type", "lights_rear_integrated", "lights_rear_brake_light",
-    "lights_turn_signals_integrated", "lights_turn_signals_type",
+    "title",
+    "type",
+    "brand",
+    "model",
+    "tags",
+    "url",
+    "image",
+    "resellers",
+    "category",
+    "model_year",
+    "frame_material",
+    "frame_size",
+    "frame_length_cm",
+    "frame_width_cm",
+    "frame_height_cm",
+    "weight_bike_kg",
+    "weight_with_battery_kg",
+    "weight_battery_kg",
+    "load_capacity_total_kg",
+    "load_capacity_rear_kg",
+    "load_capacity_front_kg",
+    "load_capacity_passenger_count",
+    "load_capacity_passenger_config",
+    "motor_make",
+    "motor_model",
+    "motor_type",
+    "motor_power_w",
+    "motor_torque_nm",
+    "motor_boost_throttle",
+    "battery_capacity_wh",
+    "battery_configuration",
+    "battery_removable",
+    "battery_charging_time_h",
+    "drivetrain_type",
+    "drivetrain_speeds",
+    "drivetrain_hub",
+    "brakes_type",
+    "brakes_front_rotor_mm",
+    "brakes_rear_rotor_mm",
+    "brakes_pistons",
+    "wheels_front_size_in",
+    "wheels_rear_size_in",
+    "wheels_tire",
+    "wheels_rims",
+    "suspension_front",
+    "suspension_rear",
+    "lights_front_type",
+    "lights_front_integrated",
+    "lights_front_powered_by",
+    "lights_rear_type",
+    "lights_rear_integrated",
+    "lights_rear_brake_light",
+    "lights_turn_signals_integrated",
+    "lights_turn_signals_type",
     "features",
-    "security_gps", "security_alarm_db", "security_app_lock", "security_frame_lock",
-    "range_estimate_km", "range_notes",
-    "price_amount", "price_currency",
+    "security_gps",
+    "security_alarm_db",
+    "security_app_lock",
+    "security_frame_lock",
+    "range_estimate_km",
+    "range_notes",
+    "price_amount",
+    "price_currency",
     "specs_notes",
     # Legacy nested keys to remove during migration
     "specs",
@@ -488,23 +532,53 @@ def project_all_bikes(
 
 # Fields managed by brand projection — nested keys get removed
 _BRAND_MANAGED_FIELDS = {
-    "title", "type", "url", "logo", "summary", "tags",
-    "founded_year", "country",
-    "headquarters", "headquarters_city", "headquarters_country", "headquarters_address",
-    "categories", "market_segments", "regions", "price_tier",
-    "product_types", "model_count", "primary_motors", "parent_company",
-    "manufacturing", "manufacturing_locations", "manufacturing_approach",
-    "assembly_location", "ethical_standards",
-    "distribution_model", "regions_active", "direct_sales", "dealership_network",
-    "impact", "impact_bikes_sold_approx", "impact_km_driven_approx",
-    "impact_co2_avoided_kg_approx", "impact_families_served",
-    "values", "value_sustainability", "value_local_manufacturing",
-    "value_community_focus", "value_safety_emphasis", "value_tech_integration",
+    "title",
+    "type",
+    "url",
+    "logo",
+    "summary",
+    "tags",
+    "founded_year",
+    "country",
+    "headquarters",
+    "headquarters_city",
+    "headquarters_country",
+    "headquarters_address",
+    "categories",
+    "market_segments",
+    "regions",
+    "price_tier",
+    "product_types",
+    "model_count",
+    "primary_motors",
+    "parent_company",
+    "manufacturing",
+    "manufacturing_locations",
+    "manufacturing_approach",
+    "assembly_location",
+    "ethical_standards",
+    "distribution_model",
+    "regions_active",
+    "direct_sales",
+    "dealership_network",
+    "impact",
+    "impact_bikes_sold_approx",
+    "impact_km_driven_approx",
+    "impact_co2_avoided_kg_approx",
+    "impact_families_served",
+    "values",
+    "value_sustainability",
+    "value_local_manufacturing",
+    "value_community_focus",
+    "value_safety_emphasis",
+    "value_tech_integration",
     "accessibility",
 }
 
 
-def generate_brand_frontmatter(brand: Brand, existing: dict[str, Any] | None = None) -> str:
+def generate_brand_frontmatter(
+    brand: Brand, existing: dict[str, Any] | None = None
+) -> str:
     """Generate flat YAML frontmatter from a Brand DB record."""
     if existing:
         data: dict[str, Any] = {}
@@ -559,7 +633,9 @@ def generate_brand_frontmatter(brand: Brand, existing: dict[str, Any] | None = N
 
     # Manufacturing — flat
     if brand.manufacturing_locations:
-        data["manufacturing_locations"] = [l.strip() for l in brand.manufacturing_locations.split(",")]
+        data["manufacturing_locations"] = [
+            l.strip() for l in brand.manufacturing_locations.split(",")
+        ]
     if brand.manufacturing_approach:
         data["manufacturing_approach"] = brand.manufacturing_approach
     if brand.assembly_location:
@@ -602,7 +678,10 @@ def generate_brand_frontmatter(brand: Brand, existing: dict[str, Any] | None = N
         data["accessibility"] = [a.strip() for a in brand.accessibility.split(",")]
 
     yaml_str = yaml.dump(
-        data, default_flow_style=False, allow_unicode=True, sort_keys=False,
+        data,
+        default_flow_style=False,
+        allow_unicode=True,
+        sort_keys=False,
     )
     return yaml_str.rstrip() + "\n"
 
@@ -628,7 +707,10 @@ def _find_brand_file(brand: Brand, vault_path: Path) -> Path | None:
             try:
                 content = index_file.read_text(encoding="utf-8")
                 import re as _re
-                title_match = _re.search(r'^title:\s*["\']?(.+?)["\']?\s*$', content, _re.MULTILINE)
+
+                title_match = _re.search(
+                    r'^title:\s*["\']?(.+?)["\']?\s*$', content, _re.MULTILINE
+                )
                 if title_match and title_match.group(1).strip() == brand.title:
                     return index_file
             except Exception:
@@ -652,6 +734,7 @@ def project_brand_to_file(
 
     # Parse existing frontmatter
     import re as _re
+
     fm_match = _re.match(r"^---\s*\n(.*?)\n---\s*\n", content, _re.DOTALL)
     existing_fm = None
     body = content
@@ -662,7 +745,7 @@ def project_brand_to_file(
                 existing_fm = None
         except yaml.YAMLError:
             existing_fm = None
-        body = content[fm_match.end():]
+        body = content[fm_match.end() :]
 
     new_frontmatter = generate_brand_frontmatter(brand, existing=existing_fm)
     new_content = f"---\n{new_frontmatter}---\n{body}"

@@ -38,7 +38,8 @@ Rules:
 - Do NOT hallucinate. If a spec is not mentioned in the text, leave it null.
 """
 
-BUYING_GUIDE_SYSTEM = """You are a cargo bike expert writing buying guides for an
+BUYING_GUIDE_SYSTEM = (
+    """You are a cargo bike expert writing buying guides for an
 Obsidian vault published via MkDocs. Write informative, practical content.
 
 Rules:
@@ -49,9 +50,12 @@ Rules:
 - Include a comparison table where relevant
 - Be factual — only use data provided, never hallucinate specs
 - Write in an accessible, helpful tone for families considering cargo bikes
-""" + _OUTPUT_RULES
+"""
+    + _OUTPUT_RULES
+)
 
-BRAND_PROFILE_SYSTEM = """You are writing a rich brand profile page for an Obsidian
+BRAND_PROFILE_SYSTEM = (
+    """You are writing a rich brand profile page for an Obsidian
 vault published via MkDocs. Create an engaging, informative brand overview.
 
 Rules:
@@ -62,9 +66,12 @@ Rules:
 - Reference specific models from the provided data
 - Use web search to find brand history, founding details, headquarters if needed
 - Be factual — clearly distinguish provided data from web-sourced info
-""" + _OUTPUT_RULES
+"""
+    + _OUTPUT_RULES
+)
 
-COMPONENT_GUIDE_SYSTEM = """You are writing a component guide for an Obsidian vault.
+COMPONENT_GUIDE_SYSTEM = (
+    """You are writing a component guide for an Obsidian vault.
 Create an educational explainer about a specific component category.
 
 Rules:
@@ -74,9 +81,12 @@ Rules:
 - Include a specs comparison table
 - Write for a general audience (families, not engineers)
 - Only use data from the provided bike specs — don't hallucinate
-""" + _OUTPUT_RULES
+"""
+    + _OUTPUT_RULES
+)
 
-TRANSLATE_SYSTEM = """You are translating cargo bike content from English to French.
+TRANSLATE_SYSTEM = (
+    """You are translating cargo bike content from English to French.
 
 Rules:
 - Translate prose, descriptions, and guide text to natural French
@@ -89,9 +99,12 @@ Rules:
   - HTML comments (<!-- markers -->)
 - Output ONLY the translated body content, no frontmatter
 - Maintain the same markdown structure (headings, lists, tables)
-""" + _OUTPUT_RULES
+"""
+    + _OUTPUT_RULES
+)
 
-COMPONENT_NOTE_SYSTEM = """You are creating component notes for an Obsidian vault
+COMPONENT_NOTE_SYSTEM = (
+    """You are creating component notes for an Obsidian vault
 about cargo bike components.
 
 Rules:
@@ -104,9 +117,12 @@ Rules:
 - For model notes: specs, which bikes use it, comparisons to alternatives
 - Use web search to find additional specs if needed
 - Be factual — distinguish provided data from web-sourced info
-""" + _OUTPUT_RULES
+"""
+    + _OUTPUT_RULES
+)
 
-ACCESSORY_NOTE_SYSTEM = """You are creating accessory notes for an Obsidian vault
+ACCESSORY_NOTE_SYSTEM = (
+    """You are creating accessory notes for an Obsidian vault
 about cargo bike accessories (child seats, panniers, racks, weather protection, etc.).
 
 There are TWO types of accessories:
@@ -129,4 +145,6 @@ Rules:
 - For universal: mention cross-brand compatibility
 - Be factual — only use data provided or web-verified
 - Add generated_by: cargo-bikes-cli in frontmatter
-""" + _OUTPUT_RULES
+"""
+    + _OUTPUT_RULES
+)

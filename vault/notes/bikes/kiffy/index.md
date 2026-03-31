@@ -1,20 +1,22 @@
 ---
 brand: Kiffy
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: Kiffy
 type: brand
-summary: Kiffy is a cargo bike manufacturer offering diverse models for families and
+summary:
+  Kiffy is a cargo bike manufacturer offering diverse models for families and
   professionals.
 tags:
-- brand
-- index
-- kiffy
+  - brand
+  - index
+  - kiffy
 regions:
-- EU
+  - EU
 distribution_model: both
 ---
+
 ## Overview
 
 Kiffy is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

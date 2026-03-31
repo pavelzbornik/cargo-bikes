@@ -11,7 +11,7 @@ from sqlalchemy import create_engine, select
 from sqlalchemy.orm import Session
 
 from cargo_bikes.db.schema import Bike
-from cargo_bikes.enrich.agent import call_agent, call_api, run_concurrent
+from cargo_bikes.enrich.agent import call_agent, run_concurrent
 from cargo_bikes.enrich.prompts import COMPONENT_NOTE_SYSTEM
 from cargo_bikes.enrich.review import ReviewItem, run_review_session
 
@@ -27,27 +27,52 @@ def _slugify(text: str) -> str:
 CATEGORY_EXTRACTORS = {
     "motors": lambda b: (b.motor_make, b.motor_model),
     "drivetrains": lambda b: (
-        b.drivetrain_hub.split()[0] if b.drivetrain_hub and " " in b.drivetrain_hub else b.drivetrain_hub,
+        b.drivetrain_hub.split()[0]
+        if b.drivetrain_hub and " " in b.drivetrain_hub
+        else b.drivetrain_hub,
         b.drivetrain_hub,
-    ) if b.drivetrain_hub else (None, None),
+    )
+    if b.drivetrain_hub
+    else (None, None),
     "brakes": lambda b: (
-        b.brakes_type.split()[0] if b.brakes_type and " " in b.brakes_type else b.brakes_type,
+        b.brakes_type.split()[0]
+        if b.brakes_type and " " in b.brakes_type
+        else b.brakes_type,
         b.brakes_type,
-    ) if b.brakes_type else (None, None),
+    )
+    if b.brakes_type
+    else (None, None),
     "tires": lambda b: (
-        b.wheels_tire.split()[0] if b.wheels_tire and " " in b.wheels_tire else b.wheels_tire,
+        b.wheels_tire.split()[0]
+        if b.wheels_tire and " " in b.wheels_tire
+        else b.wheels_tire,
         b.wheels_tire,
-    ) if b.wheels_tire else (None, None),
-    "batteries": lambda b: (b.motor_make, f"{b.battery_capacity_wh}Wh") if b.battery_capacity_wh else (None, None),
+    )
+    if b.wheels_tire
+    else (None, None),
+    "batteries": lambda b: (b.motor_make, f"{b.battery_capacity_wh}Wh")
+    if b.battery_capacity_wh
+    else (None, None),
     "suspension": lambda b: (
-        b.suspension_front.split()[0] if b.suspension_front and " " in b.suspension_front else b.suspension_front,
+        b.suspension_front.split()[0]
+        if b.suspension_front and " " in b.suspension_front
+        else b.suspension_front,
         b.suspension_front,
-    ) if b.suspension_front and b.suspension_front.lower() != "none" else (None, None),
+    )
+    if b.suspension_front and b.suspension_front.lower() != "none"
+    else (None, None),
     "lights": lambda b: (
-        b.lights_front_type.split()[0] if b.lights_front_type and " " in b.lights_front_type else b.lights_front_type,
+        b.lights_front_type.split()[0]
+        if b.lights_front_type and " " in b.lights_front_type
+        else b.lights_front_type,
         b.lights_front_type,
-    ) if b.lights_front_type else (None, None),
-    "security": lambda b: ("GPS" if b.security_gps else None, "GPS Tracking" if b.security_gps else None),
+    )
+    if b.lights_front_type
+    else (None, None),
+    "security": lambda b: (
+        "GPS" if b.security_gps else None,
+        "GPS Tracking" if b.security_gps else None,
+    ),
 }
 
 
@@ -87,17 +112,17 @@ async def _generate_component_note(
 
     bikes_list = "\n".join(f"- [[{b}]]" for b in bikes_using[:10])
 
-    prompt = f"""Create a {'manufacturer' if is_manufacturer else 'component model'} note:
+    prompt = f"""Create a {"manufacturer" if is_manufacturer else "component model"} note:
 
 Title: {title}
 Category: {category}
 Type: {note_type}
-{'Parent: [[' + manufacturer + ']]' if not is_manufacturer else ''}
+{"Parent: [[" + manufacturer + "]]" if not is_manufacturer else ""}
 Domain: [[{category.title()} MOC]]
 
-Bikes using this {'manufacturer' if is_manufacturer else 'component'}:
+Bikes using this {"manufacturer" if is_manufacturer else "component"}:
 {bikes_list}
-{'(and more...)' if len(bikes_using) > 10 else ''}
+{"(and more...)" if len(bikes_using) > 10 else ""}
 
 Generate a complete Obsidian markdown note.
 """
@@ -188,7 +213,9 @@ def generate_components(
                 # Manufacturer note
                 slug = _slugify(mfr)
                 if not _note_exists(slug):
-                    all_bikes = [b for model_bikes in models.values() for b in model_bikes]
+                    all_bikes = [
+                        b for model_bikes in models.values() for b in model_bikes
+                    ]
                     tasks.append((mfr, None, cat, all_bikes))
 
                 # Model notes

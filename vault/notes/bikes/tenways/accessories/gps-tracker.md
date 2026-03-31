@@ -38,13 +38,13 @@ The GPS Tracker is included as a built-in feature of the [[TENWAYS Longtail Duo]
 
 This GPS Tracker and its associated Smart Connect service are designed specifically for Tenways cargo bikes. It is not a universal or third-party accessory and is not compatible with bikes from other manufacturers.
 
-| Field | Detail |
-|---|---|
-| Accessory Type | Brand-Specific |
-| Manufacturer | [[Tenways]] |
-| Included With | [[TENWAYS Longtail Duo]] |
-| Service Period | 1 year (Smart Connect) |
-| Price | Included with bike |
+| Field          | Detail                   |
+| -------------- | ------------------------ |
+| Accessory Type | Brand-Specific           |
+| Manufacturer   | [[Tenways]]              |
+| Included With  | [[TENWAYS Longtail Duo]] |
+| Service Period | 1 year (Smart Connect)   |
+| Price          | Included with bike       |
 
 ## Notes
 

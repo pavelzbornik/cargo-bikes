@@ -38,13 +38,13 @@ These panniers provide weather-protected storage solutions for riders who rely o
 
 These cargo bags and panniers are **brand-specific accessories made by Onesport** and are designed exclusively for their own cargo bike models. They are engineered to fit the rack and mounting points of the [[OneSport OT01]] and may not be compatible with third-party racks or other bike brands.
 
-| Detail | Info |
-|---|---|
-| Manufacturer | [[Onesport]] |
-| Compatible Bike | [[OneSport OT01]] |
-| Price Range | €50 – €150 |
-| Accessory Type | Brand-Specific |
-| Weather Protection | Yes |
+| Detail             | Info              |
+| ------------------ | ----------------- |
+| Manufacturer       | [[Onesport]]      |
+| Compatible Bike    | [[OneSport OT01]] |
+| Price Range        | €50 – €150        |
+| Accessory Type     | Brand-Specific    |
+| Weather Protection | Yes               |
 
 ## Notes
 

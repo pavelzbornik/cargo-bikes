@@ -12,10 +12,10 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
-from sqlalchemy import create_engine, select
+from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from cargo_bikes.db.schema import Base, Bike, Brand, Reseller
+from cargo_bikes.db.schema import Bike, Brand, Reseller
 from cargo_bikes.validate.structure import validate_vault
 from cargo_bikes.vault.frontmatter import extract_frontmatter_from_file
 
@@ -94,10 +94,18 @@ def upsert_brand(
     brand.country = frontmatter.get("country")
 
     # Headquarters: flat first, nested fallback
-    hq = frontmatter.get("headquarters") if isinstance(frontmatter.get("headquarters"), dict) else {}
+    hq = (
+        frontmatter.get("headquarters")
+        if isinstance(frontmatter.get("headquarters"), dict)
+        else {}
+    )
     brand.headquarters_city = frontmatter.get("headquarters_city") or hq.get("city")
-    brand.headquarters_country = frontmatter.get("headquarters_country") or hq.get("country")
-    brand.headquarters_address = frontmatter.get("headquarters_address") or hq.get("address")
+    brand.headquarters_country = frontmatter.get("headquarters_country") or hq.get(
+        "country"
+    )
+    brand.headquarters_address = frontmatter.get("headquarters_address") or hq.get(
+        "address"
+    )
 
     brand.categories = parse_tags(frontmatter.get("categories"))
     brand.market_segments = parse_tags(frontmatter.get("market_segments"))
@@ -110,13 +118,23 @@ def upsert_brand(
     brand.parent_company = frontmatter.get("parent_company")
 
     # Manufacturing: flat first, nested fallback
-    mfg = frontmatter.get("manufacturing") if isinstance(frontmatter.get("manufacturing"), dict) else {}
+    mfg = (
+        frontmatter.get("manufacturing")
+        if isinstance(frontmatter.get("manufacturing"), dict)
+        else {}
+    )
     brand.manufacturing_locations = parse_tags(
         frontmatter.get("manufacturing_locations") or mfg.get("locations")
     )
-    brand.manufacturing_approach = frontmatter.get("manufacturing_approach") or mfg.get("approach")
-    brand.assembly_location = frontmatter.get("assembly_location") or mfg.get("assembly_location")
-    brand.ethical_standards = frontmatter.get("ethical_standards") or mfg.get("ethical_standards")
+    brand.manufacturing_approach = frontmatter.get("manufacturing_approach") or mfg.get(
+        "approach"
+    )
+    brand.assembly_location = frontmatter.get("assembly_location") or mfg.get(
+        "assembly_location"
+    )
+    brand.ethical_standards = frontmatter.get("ethical_standards") or mfg.get(
+        "ethical_standards"
+    )
 
     brand.distribution_model = frontmatter.get("distribution_model")
     brand.regions_active = parse_tags(frontmatter.get("regions_active"))
@@ -124,19 +142,51 @@ def upsert_brand(
     brand.dealership_network = frontmatter.get("dealership_network")
 
     # Impact: flat first, nested fallback
-    impact = frontmatter.get("impact") if isinstance(frontmatter.get("impact"), dict) else {}
-    brand.impact_bikes_sold_approx = frontmatter.get("impact_bikes_sold_approx") or impact.get("bikes_sold_approx")
-    brand.impact_km_driven_approx = frontmatter.get("impact_km_driven_approx") or impact.get("km_driven_approx")
-    brand.impact_co2_avoided_kg_approx = frontmatter.get("impact_co2_avoided_kg_approx") or impact.get("co2_avoided_kg_approx")
-    brand.impact_families_served = frontmatter.get("impact_families_served") or impact.get("families_served")
+    impact = (
+        frontmatter.get("impact") if isinstance(frontmatter.get("impact"), dict) else {}
+    )
+    brand.impact_bikes_sold_approx = frontmatter.get(
+        "impact_bikes_sold_approx"
+    ) or impact.get("bikes_sold_approx")
+    brand.impact_km_driven_approx = frontmatter.get(
+        "impact_km_driven_approx"
+    ) or impact.get("km_driven_approx")
+    brand.impact_co2_avoided_kg_approx = frontmatter.get(
+        "impact_co2_avoided_kg_approx"
+    ) or impact.get("co2_avoided_kg_approx")
+    brand.impact_families_served = frontmatter.get(
+        "impact_families_served"
+    ) or impact.get("families_served")
 
     # Values: flat first, nested fallback
-    vals = frontmatter.get("values") if isinstance(frontmatter.get("values"), dict) else {}
-    brand.value_sustainability = frontmatter.get("value_sustainability") if frontmatter.get("value_sustainability") is not None else vals.get("sustainability")
-    brand.value_local_manufacturing = frontmatter.get("value_local_manufacturing") if frontmatter.get("value_local_manufacturing") is not None else vals.get("local_manufacturing")
-    brand.value_community_focus = frontmatter.get("value_community_focus") if frontmatter.get("value_community_focus") is not None else vals.get("community_focus")
-    brand.value_safety_emphasis = frontmatter.get("value_safety_emphasis") if frontmatter.get("value_safety_emphasis") is not None else vals.get("safety_emphasis")
-    brand.value_tech_integration = frontmatter.get("value_tech_integration") if frontmatter.get("value_tech_integration") is not None else vals.get("tech_integration")
+    vals = (
+        frontmatter.get("values") if isinstance(frontmatter.get("values"), dict) else {}
+    )
+    brand.value_sustainability = (
+        frontmatter.get("value_sustainability")
+        if frontmatter.get("value_sustainability") is not None
+        else vals.get("sustainability")
+    )
+    brand.value_local_manufacturing = (
+        frontmatter.get("value_local_manufacturing")
+        if frontmatter.get("value_local_manufacturing") is not None
+        else vals.get("local_manufacturing")
+    )
+    brand.value_community_focus = (
+        frontmatter.get("value_community_focus")
+        if frontmatter.get("value_community_focus") is not None
+        else vals.get("community_focus")
+    )
+    brand.value_safety_emphasis = (
+        frontmatter.get("value_safety_emphasis")
+        if frontmatter.get("value_safety_emphasis") is not None
+        else vals.get("safety_emphasis")
+    )
+    brand.value_tech_integration = (
+        frontmatter.get("value_tech_integration")
+        if frontmatter.get("value_tech_integration") is not None
+        else vals.get("tech_integration")
+    )
 
     brand.accessibility = parse_tags(frontmatter.get("accessibility"))
 
@@ -229,6 +279,7 @@ def upsert_bike(
         if not legacy or not isinstance(legacy, str):
             return
         import re
+
         # Extract power: "250W" or "250w"
         power_match = re.search(r"(\d+)\s*[Ww]", legacy)
         if power_match:
@@ -238,12 +289,21 @@ def upsert_bike(
         if torque_match:
             bike.motor_torque_nm = float(torque_match.group(1))
         # Extract make: known brands
-        for brand in ["Bosch", "Shimano", "Bafang", "Gaya", "Specialized", "Valéo", "Ananda", "Naka"]:
+        for brand in [
+            "Bosch",
+            "Shimano",
+            "Bafang",
+            "Gaya",
+            "Specialized",
+            "Valéo",
+            "Ananda",
+            "Naka",
+        ]:
             if brand.lower() in legacy.lower():
                 bike.motor_make = brand
                 # Everything after the brand is the model
                 idx = legacy.lower().find(brand.lower())
-                model_part = legacy[idx + len(brand):].strip()
+                model_part = legacy[idx + len(brand) :].strip()
                 if model_part:
                     bike.motor_model = model_part
                 break
@@ -256,6 +316,7 @@ def upsert_bike(
         if not legacy or not isinstance(legacy, str):
             return
         import re
+
         wh_match = re.search(r"(\d+)\s*[Ww]h", legacy)
         if wh_match:
             bike.battery_capacity_wh = float(wh_match.group(1))
@@ -271,6 +332,7 @@ def upsert_bike(
         if not legacy_str or legacy_str in ("''", '""', "N/A", "TBD"):
             return
         import re
+
         # Detect currency
         if "€" in legacy_str or "EUR" in legacy_str.upper():
             bike.price_currency = "EUR"
@@ -295,6 +357,7 @@ def upsert_bike(
         if legacy.lower() in ("", "n/a", "variable", "unknown"):
             return
         import re
+
         km_match = re.search(r"([\d][\d\-–]*)\s*km", legacy, re.IGNORECASE)
         if km_match:
             bike.range_estimate_km = km_match.group(1)
@@ -309,14 +372,24 @@ def upsert_bike(
     bike.frame_height_cm = _get("frame_height_cm", "frame", "dimensions", "height_cm")
 
     bike.weight_bike_kg = _get("weight_bike_kg", "weight", "bike_kg")
-    bike.weight_with_battery_kg = _get("weight_with_battery_kg", "weight", "with_battery_kg")
+    bike.weight_with_battery_kg = _get(
+        "weight_with_battery_kg", "weight", "with_battery_kg"
+    )
     bike.weight_battery_kg = _get("weight_battery_kg", "weight", "battery_kg")
 
-    bike.load_capacity_total_kg = _get("load_capacity_total_kg", "load_capacity", "total_kg")
-    bike.load_capacity_rear_kg = _get("load_capacity_rear_kg", "load_capacity", "rear_kg")
-    bike.load_capacity_front_kg = _get("load_capacity_front_kg", "load_capacity", "front_kg")
+    bike.load_capacity_total_kg = _get(
+        "load_capacity_total_kg", "load_capacity", "total_kg"
+    )
+    bike.load_capacity_rear_kg = _get(
+        "load_capacity_rear_kg", "load_capacity", "rear_kg"
+    )
+    bike.load_capacity_front_kg = _get(
+        "load_capacity_front_kg", "load_capacity", "front_kg"
+    )
     bike.load_capacity_passenger_count = _get(
-        "load_capacity_passenger_count", "load_capacity", "passenger_count_excluding_rider"
+        "load_capacity_passenger_count",
+        "load_capacity",
+        "passenger_count_excluding_rider",
     )
     bike.load_capacity_passenger_config = _get(
         "load_capacity_passenger_config", "load_capacity", "passenger_config"
@@ -360,7 +433,9 @@ def upsert_bike(
     else:
         bike.battery_capacity_wh = None
 
-    bike.battery_configuration = _get("battery_configuration", "battery", "configuration")
+    bike.battery_configuration = _get(
+        "battery_configuration", "battery", "configuration"
+    )
     bike.battery_removable = _get("battery_removable", "battery", "removable")
     charging = _get("battery_charging_time_h", "battery", "charging_time_h")
     bike.battery_charging_time_h = str(charging) if charging else None
@@ -371,7 +446,9 @@ def upsert_bike(
     bike.drivetrain_hub = _get("drivetrain_hub", "drivetrain", "hub")
 
     bike.brakes_type = _get("brakes_type", "brakes", "type")
-    bike.brakes_front_rotor_mm = _get("brakes_front_rotor_mm", "brakes", "front_rotor_mm")
+    bike.brakes_front_rotor_mm = _get(
+        "brakes_front_rotor_mm", "brakes", "front_rotor_mm"
+    )
     bike.brakes_rear_rotor_mm = _get("brakes_rear_rotor_mm", "brakes", "rear_rotor_mm")
     pistons = _get("brakes_pistons", "brakes", "pistons")
     bike.brakes_pistons = str(pistons) if pistons else None
@@ -385,24 +462,36 @@ def upsert_bike(
     bike.suspension_rear = _get("suspension_rear", "suspension", "rear")
 
     bike.lights_front_type = _get("lights_front_type", "lights", "front", "type")
-    bike.lights_front_integrated = _get("lights_front_integrated", "lights", "front", "integrated")
-    bike.lights_front_powered_by = _get("lights_front_powered_by", "lights", "front", "powered_by")
+    bike.lights_front_integrated = _get(
+        "lights_front_integrated", "lights", "front", "integrated"
+    )
+    bike.lights_front_powered_by = _get(
+        "lights_front_powered_by", "lights", "front", "powered_by"
+    )
     bike.lights_front_optional_kits = parse_tags(
         _get(None, "lights", "front", "optional_kits") if specs else None
     )
 
     bike.lights_rear_type = _get("lights_rear_type", "lights", "rear", "type")
-    bike.lights_rear_integrated = _get("lights_rear_integrated", "lights", "rear", "integrated")
-    bike.lights_rear_brake_light = _get("lights_rear_brake_light", "lights", "rear", "brake_light")
+    bike.lights_rear_integrated = _get(
+        "lights_rear_integrated", "lights", "rear", "integrated"
+    )
+    bike.lights_rear_brake_light = _get(
+        "lights_rear_brake_light", "lights", "rear", "brake_light"
+    )
     bike.lights_rear_optional_kits = parse_tags(
         _get(None, "lights", "rear", "optional_kits") if specs else None
     )
 
-    bike.lights_turn_signals_integrated = _get("lights_turn_signals_integrated", "lights", "turn_signals", "integrated")
-    bike.lights_turn_signals_type = _get("lights_turn_signals_type", "lights", "turn_signals", "type")
-    bike.lights_turn_signals_left_right_buttons = _get(
-        None, "lights", "turn_signals", "left_right_buttons"
-    ) if specs else None
+    bike.lights_turn_signals_integrated = _get(
+        "lights_turn_signals_integrated", "lights", "turn_signals", "integrated"
+    )
+    bike.lights_turn_signals_type = _get(
+        "lights_turn_signals_type", "lights", "turn_signals", "type"
+    )
+    bike.lights_turn_signals_left_right_buttons = (
+        _get(None, "lights", "turn_signals", "left_right_buttons") if specs else None
+    )
 
     bike.features = parse_tags(_get("features", "features"))
 
@@ -496,9 +585,7 @@ def hydrate_from_vault(session: Session, vault_path: Path) -> dict[str, int]:
                 bike_stmt = select(Bike).where(
                     Bike.title == title, Bike.brand_name == brand_name
                 )
-                existed = (
-                    session.execute(bike_stmt).scalar_one_or_none() is not None
-                )
+                existed = session.execute(bike_stmt).scalar_one_or_none() is not None
 
                 bike = upsert_bike(session, frontmatter, md_file)
                 if bike:

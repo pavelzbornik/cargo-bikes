@@ -1,28 +1,28 @@
 ---
 date: 2025-10-20
 price: €2,999
-motor: ''
-battery: ''
-range: ''
+motor: ""
+battery: ""
+range: ""
 title: VÉLO CARGO LONG TILE ALPA
 type: bike
 brand: SUM
 model: ALPA
 tags:
-- bike
-- cargo
-- longtail
-- electric
-- sum
+  - bike
+  - cargo
+  - longtail
+  - electric
+  - sum
 url: https://www.decathlon.fr/
 resellers:
-- name: Decathlon France
-  url: https://www.decathlon.fr/p/velo-cargo-electrique-longtail-sum-alpa-gris/_/R-p-338001
-  price: '2999'
-  currency: EUR
-  region: EU
-  availability: in-stock
-price_amount: '2999'
+  - name: Decathlon France
+    url: https://www.decathlon.fr/p/velo-cargo-electrique-longtail-sum-alpa-gris/_/R-p-338001
+    price: "2999"
+    currency: EUR
+    region: EU
+    availability: in-stock
+price_amount: "2999"
 price_currency: EUR
 category: longtail
 motor_make: Bafang
@@ -31,12 +31,13 @@ motor_torque_nm: 45
 battery_capacity_wh: 360
 weight_with_battery_kg: 27.2
 load_capacity_total_kg: 180.0
-range_estimate_km: '60'
+range_estimate_km: "60"
 frame_material: aluminum
 brakes_type: hydraulic disc
 drivetrain_type: chain
-wheels_front_size_in: '27.5'
+wheels_front_size_in: "27.5"
 ---
+
 ## Overview
 
 The SUM ALPA is an electric longtail cargo bike offering practical family transport with modern design and solid build quality.
@@ -44,9 +45,11 @@ The SUM ALPA is an electric longtail cargo bike offering practical family transp
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Price** | 2999 EUR |
+
+| Specification | Value    |
+| ------------- | -------- |
+| **Price**     | 2999 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Design

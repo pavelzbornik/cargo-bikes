@@ -9,24 +9,24 @@ Le BENNO eJoy E est un longtail électrique abordable de BENNO, équipé de la t
 <!-- BIKE_SPECS_TABLE_START -->
 <!-- BIKE_SPECS_TABLE_END -->
 
-| Caractéristique           | Détails                                        |
-| ------------------------- | ---------------------------------------------- |
-| **Prix**                  | €1 799 (option entrée de gamme)                |
-| **Moteur**                | [[Bosch Active Plus]] 250W, 50Nm, mid-drive    |
-| **Batterie**              | [[Bosch PowerPack 400]] Wh, amovible           |
-| **Autonomie**             | 40-90km (urbain/charge légère)                 |
-| **Poids**                 | 24 kg (avec batterie)                          |
-| **Capacité de charge max**| 150kg total (1 enfant max)                     |
-| **Taille des roues**      | 20" ([[Kenda Kontact]] 2.0")                   |
-| **Matériau du cadre**     | Alliage d'aluminium                            |
-| **Type de cadre**         | Droit/unisexe                                  |
-| **Freins**                | Disque mécanique (avant/arrière)               |
-| **Transmission**          | Shimano 8 vitesses à chaîne                    |
-| **Afficheur**             | [[Bosch Purion]] avec sélection de modes       |
-| **Éclairage**             | LED intégré (alimenté par batterie)            |
+| Caractéristique              | Détails                                     |
+| ---------------------------- | ------------------------------------------- |
+| **Prix**                     | €1 799 (option entrée de gamme)             |
+| **Moteur**                   | [[Bosch Active Plus]] 250W, 50Nm, mid-drive |
+| **Batterie**                 | [[Bosch PowerPack 400]] Wh, amovible        |
+| **Autonomie**                | 40-90km (urbain/charge légère)              |
+| **Poids**                    | 24 kg (avec batterie)                       |
+| **Capacité de charge max**   | 150kg total (1 enfant max)                  |
+| **Taille des roues**         | 20" ([[Kenda Kontact]] 2.0")                |
+| **Matériau du cadre**        | Alliage d'aluminium                         |
+| **Type de cadre**            | Droit/unisexe                               |
+| **Freins**                   | Disque mécanique (avant/arrière)            |
+| **Transmission**             | Shimano 8 vitesses à chaîne                 |
+| **Afficheur**                | [[Bosch Purion]] avec sélection de modes    |
+| **Éclairage**                | LED intégré (alimenté par batterie)         |
 | **Vitesse d'assistance max** | 25 km/h (20 mph USA)                        |
-| **Temps de charge**       | ~3 heures                                      |
-| **Garantie**              | 5 ans cadre, 2 ans électrique                  |
+| **Temps de charge**          | ~3 heures                                   |
+| **Garantie**                 | 5 ans cadre, 2 ans électrique               |
 
 ## Caractéristiques du vélo électrique
 

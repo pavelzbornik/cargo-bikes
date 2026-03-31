@@ -1,20 +1,22 @@
 ---
 brand: Jobobike
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: Jobobike
 type: brand
-summary: Jobobike is a cargo bike manufacturer offering diverse models for families
+summary:
+  Jobobike is a cargo bike manufacturer offering diverse models for families
   and professionals.
 tags:
-- brand
-- index
-- jobobike
+  - brand
+  - index
+  - jobobike
 regions:
-- EU
+  - EU
 distribution_model: retail
 ---
+
 ## Overview
 
 Jobobike is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

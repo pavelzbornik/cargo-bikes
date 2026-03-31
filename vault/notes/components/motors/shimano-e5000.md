@@ -2,15 +2,15 @@
 title: Shimano E5000
 type: component
 category: motors
-parent: '[[Shimano]]'
-domain: '[[Motors MOC]]'
+parent: "[[Shimano]]"
+domain: "[[Motors MOC]]"
 tags:
-- motor
-- shimano
-- mid-drive
-- steps
-- cargo
-- e-bike
+  - motor
+  - shimano
+  - mid-drive
+  - steps
+  - cargo
+  - e-bike
 generated_by: cargo-bikes-cli
 motor_type: Mid-drive (crank motor)
 standard_name: Shimano STEPS DU-E5000
@@ -21,22 +21,23 @@ assist_modes: 3 (Eco, Normal, Boost)
 weight_kg: 2.9
 compatibility: Shimano STEPS
 ---
+
 # Shimano E5000
 
 The Shimano STEPS DU-E5000 is an entry-to-mid-level mid-drive motor from [[Shimano]]'s STEPS e-bike ecosystem. It is positioned as a quieter, lightweight option suited to city, trekking, and light cargo use. It sits below the [[Shimano E6100]], [[Shimano E7000]], and [[Shimano EP8]] in the STEPS lineup.
 
 ## Specifications
 
-| Spec | Value |
-|---|---|
-| Part Number | DU-E5000 |
-| Motor Type | Mid-drive (crank-integrated) |
-| Rated Power | 250 W (EU-compliant) |
-| Max Torque | 50 Nm |
-| System Voltage | 25.2 V |
-| Assist Modes | 3 — Eco, Normal, Boost |
-| Motor Weight | approx. 2.9 kg |
-| Drive System | Shimano STEPS |
+| Spec           | Value                        |
+| -------------- | ---------------------------- |
+| Part Number    | DU-E5000                     |
+| Motor Type     | Mid-drive (crank-integrated) |
+| Rated Power    | 250 W (EU-compliant)         |
+| Max Torque     | 50 Nm                        |
+| System Voltage | 25.2 V                       |
+| Assist Modes   | 3 — Eco, Normal, Boost       |
+| Motor Weight   | approx. 2.9 kg               |
+| Drive System   | Shimano STEPS                |
 
 > [!note] Source note
 > Specs above are drawn from Claude's training knowledge (Shimano STEPS documentation). Verify against current Shimano product sheets, particularly weight and voltage, as regional variants may differ.
@@ -57,12 +58,12 @@ It does **not** support Di2 electronic shifting integration, which differentiate
 
 ## Position in the Shimano STEPS Lineup
 
-| Motor | Max Torque | Target Use |
-|---|---|---|
-| [[Shimano EP8]] | 85 Nm | Cargo / MTB / Performance |
-| [[Shimano E7000]] | 60 Nm | Trekking / Light Cargo |
-| [[Shimano E6100]] | 60 Nm | City / Trekking |
-| **Shimano E5000** | **50 Nm** | **City / Light Cargo** |
+| Motor             | Max Torque | Target Use                |
+| ----------------- | ---------- | ------------------------- |
+| [[Shimano EP8]]   | 85 Nm      | Cargo / MTB / Performance |
+| [[Shimano E7000]] | 60 Nm      | Trekking / Light Cargo    |
+| [[Shimano E6100]] | 60 Nm      | City / Trekking           |
+| **Shimano E5000** | **50 Nm**  | **City / Light Cargo**    |
 
 The E5000 trades peak torque for reduced weight and quieter operation, making it well suited to flatter urban terrain and lighter cargo loads where a softer, natural ride feel is prioritised over hill-climbing performance.
 

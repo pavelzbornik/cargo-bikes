@@ -2,35 +2,36 @@
 title: Naka E-Power Max (Ananda M100)
 type: component-manufacturer
 category: motors
-parent: '[[Motors MOC]]'
-domain: '[[Motors MOC]]'
+parent: "[[Motors MOC]]"
+domain: "[[Motors MOC]]"
 generated_by: cargo-bikes-cli
 tags:
-- motor
-- mid-drive
-- ananda
-- naka-e-power-max
-- cargo-bike
-- intersport
-- nakamura
+  - motor
+  - mid-drive
+  - ananda
+  - naka-e-power-max
+  - cargo-bike
+  - intersport
+  - nakamura
 motor_type: Mid-drive
 oem_base: Ananda M100
 rated_power_w: 250
 peak_torque_nm: 100
 voltage: 48V
 sensor_type: Torque + Cadence
-max_efficiency_pct: '>= 80'
+max_efficiency_pct: ">= 80"
 noise_db: < 55
 waterproof: IPX5
 operating_temp: -20 to 55 C
 shaft_standard: JIS / ISIS
 weight_kg: 3.5
 certifications:
-- CE
-- EN 15194
-- RoHS
-- REACH
+  - CE
+  - EN 15194
+  - RoHS
+  - REACH
 ---
+
 # Naka E-Power Max (Ananda M100)
 
 ## Overview
@@ -41,22 +42,22 @@ Nakamura — the Intersport house brand — sources this motor for its cargo-ori
 
 ## Technical Specifications
 
-| Parameter | Value |
-|---|---|
-| Motor type | Mid-drive |
-| Rated power | 250 W (EU-legal configuration) |
-| Peak torque | 100–110 Nm |
-| Voltage | 48 V DC |
-| Sensor system | Integrated torque + cadence |
-| Max efficiency | >= 80% |
-| Noise level | < 55 dB |
-| Waterproofing | IPX5 |
-| Operating temperature | -20 to +55 C |
-| Shaft standard | JIS / ISIS |
-| Motor weight | ~3.5 kg |
-| Communication | UART / CAN |
-| E-brake input | Yes |
-| Gear sensor support | Yes |
+| Parameter             | Value                          |
+| --------------------- | ------------------------------ |
+| Motor type            | Mid-drive                      |
+| Rated power           | 250 W (EU-legal configuration) |
+| Peak torque           | 100–110 Nm                     |
+| Voltage               | 48 V DC                        |
+| Sensor system         | Integrated torque + cadence    |
+| Max efficiency        | >= 80%                         |
+| Noise level           | < 55 dB                        |
+| Waterproofing         | IPX5                           |
+| Operating temperature | -20 to +55 C                   |
+| Shaft standard        | JIS / ISIS                     |
+| Motor weight          | ~3.5 kg                        |
+| Communication         | UART / CAN                     |
+| E-brake input         | Yes                            |
+| Gear sensor support   | Yes                            |
 
 > Specs sourced from Ananda Drive official product page and the Ananda eBike Systems Catalogue 2024. The 100 Nm figure is specific to the Nakamura implementation; the base M100 platform is available in 110/120/130 Nm variants depending on configuration.
 
@@ -64,11 +65,11 @@ Nakamura — the Intersport house brand — sources this motor for its cargo-ori
 
 The Ananda M100 is available across a spectrum of power and torque configurations:
 
-| Variant | Rated Power | Peak Torque | Weight |
-|---|---|---|---|
-| M100 Standard | 250 W | 110 Nm | 3.5 kg |
-| M100 Mid | 350 W | 120 Nm | 3.9 kg |
-| M100 High | 500 W | 130 Nm | 3.9 kg |
+| Variant       | Rated Power | Peak Torque | Weight |
+| ------------- | ----------- | ----------- | ------ |
+| M100 Standard | 250 W       | 110 Nm      | 3.5 kg |
+| M100 Mid      | 350 W       | 120 Nm      | 3.9 kg |
+| M100 High     | 500 W       | 130 Nm      | 3.9 kg |
 
 The Naka E-Power Max corresponds to the 250 W / ~100–110 Nm configuration, compliant with EU EN 15194 regulations (250 W rated, 25 km/h assist cutoff).
 
@@ -83,8 +84,8 @@ The M100 platform, as deployed on cargo bikes, supports several features relevan
 
 ## Bikes Using This Motor
 
-| Bike | Notes |
-|---|---|
+| Bike                            | Notes                                                                                 |
+| ------------------------------- | ------------------------------------------------------------------------------------- |
 | [[Nakamura Crossover Longtail]] | Primary cargo application; dual battery setup (520 Wh + 250 Wh), total payload 170 kg |
 
 ## Market Position
@@ -93,12 +94,12 @@ The Ananda M100 occupies the **mid-tier to upper-mid-tier** segment of the cargo
 
 ### Comparison to Key Alternatives
 
-| Motor | Peak Torque | Rated Power | Notable Advantage |
-|---|---|---|---|
-| Ananda M100 (Naka E-Power Max) | 100–110 Nm | 250 W | High torque, cost-effective |
-| [[Bosch]] Performance Line Cargo | 85 Nm | 250 W | Ecosystem maturity, dealer network |
-| [[Shimano]] EP8 | 85 Nm | 250 W | Smooth power delivery, light weight |
-| [[Bafang]] M620 | 160 Nm | 250 W | Very high torque, widely available |
+| Motor                            | Peak Torque | Rated Power | Notable Advantage                   |
+| -------------------------------- | ----------- | ----------- | ----------------------------------- |
+| Ananda M100 (Naka E-Power Max)   | 100–110 Nm  | 250 W       | High torque, cost-effective         |
+| [[Bosch]] Performance Line Cargo | 85 Nm       | 250 W       | Ecosystem maturity, dealer network  |
+| [[Shimano]] EP8                  | 85 Nm       | 250 W       | Smooth power delivery, light weight |
+| [[Bafang]] M620                  | 160 Nm      | 250 W       | Very high torque, widely available  |
 
 ## Manufacturer Background
 

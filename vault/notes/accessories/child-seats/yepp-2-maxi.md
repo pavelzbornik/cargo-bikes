@@ -52,7 +52,7 @@ As a third-party universal accessory, compatibility depends on the rear rack or 
 ## Pricing
 
 | Region | Price |
-|--------|-------|
+| ------ | ----- |
 | Europe | €139  |
 
 ## Notes

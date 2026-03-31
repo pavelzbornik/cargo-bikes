@@ -1,42 +1,43 @@
 ---
-date: '2025-10-24'
+date: "2025-10-24"
 title: BTWIN
 type: brand
 url: https://www.decathlon.fr/
-summary: BTWIN is a Decathlon private label cargo bike brand offering practical, affordable
+summary:
+  BTWIN is a Decathlon private label cargo bike brand offering practical, affordable
   family-focused electric cargo bikes designed for urban transport and light cargo.
 tags:
-- brand
-- french
-- longtail
-- biporteur
-- electric
-- family
-- cargo
-- decathlon
-- btwin
-- accessible
+  - brand
+  - french
+  - longtail
+  - biporteur
+  - electric
+  - family
+  - cargo
+  - decathlon
+  - btwin
+  - accessible
 country: France
 headquarters_country: France
 categories:
-- longtail
-- biporteur
+  - longtail
+  - biporteur
 market_segments:
-- urban-families
-- budget-conscious
-- cargo-transport
+  - urban-families
+  - budget-conscious
+  - cargo-transport
 regions:
-- EU
+  - EU
 price_tier: accessible
 product_types:
-- bikes
+  - bikes
 model_count: 2
 primary_motors:
-- Decathlon-branded rear hub
+  - Decathlon-branded rear hub
 parent_company: Decathlon
 distribution_model: retail
 regions_active:
-- EU
+  - EU
 direct_sales: false
 dealership_network: true
 value_sustainability: true
@@ -45,13 +46,14 @@ value_community_focus: false
 value_safety_emphasis: true
 value_tech_integration: false
 accessibility:
-- affordable-entry-level
-- family-focused
-- practical-cargo-solutions
-- accessible-through-retail
+  - affordable-entry-level
+  - family-focused
+  - practical-cargo-solutions
+  - accessible-through-retail
 manufacturing_approach: contracted
 assembly_location: multiple regions
 ---
+
 ## Overview
 
 BTWIN is a private label cargo bike brand distributed exclusively through Decathlon, the French sports retail company with an extensive retail network across Europe. BTWIN focuses on practical, family-oriented electric cargo bikes designed for urban commuting and light cargo transport. The brand emphasizes functional design and reliable performance at competitive price points, making cargo bike technology accessible to families seeking practical urban transport solutions.

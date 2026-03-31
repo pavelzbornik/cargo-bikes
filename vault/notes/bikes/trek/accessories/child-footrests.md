@@ -36,19 +36,19 @@ The Trek Child Footrests are engineered specifically for the [[Trek Fetch+ 2]] l
 
 ## Compatibility
 
-| Field | Detail |
-|---|---|
+| Field            | Detail            |
+| ---------------- | ----------------- |
 | Compatible Bikes | [[Trek Fetch+ 2]] |
-| Accessory Type | Brand-specific |
-| Manufacturer | [[Trek]] |
+| Accessory Type   | Brand-specific    |
+| Manufacturer     | [[Trek]]          |
 
 > This accessory is designed exclusively for the [[Trek Fetch+ 2]] and may not be compatible with other cargo bikes or Trek models. Always verify fitment with your Trek dealer before purchasing.
 
 ## Pricing
 
 | Region | Price Range |
-|---|---|
-| Europe | €80 – €120 |
+| ------ | ----------- |
+| Europe | €80 – €120  |
 
 ## Safety Notes
 

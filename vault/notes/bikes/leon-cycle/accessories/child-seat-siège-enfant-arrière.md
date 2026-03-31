@@ -36,9 +36,9 @@ The rear child seat (siège enfant arrière) allows parents and caregivers to sa
 
 This is a **brand-specific** accessory produced by [[Leon Cycle]]. It is designed exclusively for Leon Cycle's own bike range and is not guaranteed to be compatible with third-party frames or racks from other manufacturers.
 
-| Bike | Compatibility |
-|------|--------------|
-| [[NCM CG7]] | Compatible |
+| Bike        | Compatibility |
+| ----------- | ------------- |
+| [[NCM CG7]] | Compatible    |
 
 ## Notes
 

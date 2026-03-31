@@ -1,20 +1,22 @@
 ---
 brand: RUCANOR
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: RUCANOR
 type: brand
-summary: RUCANOR is a cargo bike manufacturer offering diverse models for families
+summary:
+  RUCANOR is a cargo bike manufacturer offering diverse models for families
   and professionals.
 tags:
-- brand
-- index
-- rucanor
+  - brand
+  - index
+  - rucanor
 regions:
-- EU
+  - EU
 distribution_model: both
 ---
+
 ## Overview
 
 RUCANOR is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

@@ -1,25 +1,25 @@
 ---
-date: '2025-10-20'
-review_summary_date: '2025-10-30'
+date: "2025-10-20"
+review_summary_date: "2025-10-30"
 review_source_count: 15
 title: FastRack
 type: bike
 brand: Yuba
 model: FastRack
 tags:
-- bike
-- compact
-- yuba
-- shimano
+  - bike
+  - compact
+  - yuba
+  - shimano
 url: https://yubabikes.eu/product/fastrack/
 image: https://yubabikes.eu/wp-content/uploads/2025/01/YUBA_Bikes_Fastrack_3_4Sideview_Espresso_Studio_WEB.jpg
 resellers:
-- name: Cyclable
-  url: https://www.cyclable.com/18843-velo-cargo-electrique-yuba-fastrack-v2.html
-  price: '3999'
-  currency: EUR
-  region: EU
-  availability: in-stock
+  - name: Cyclable
+    url: https://www.cyclable.com/18843-velo-cargo-electrique-yuba-fastrack-v2.html
+    price: "3999"
+    currency: EUR
+    region: EU
+    availability: in-stock
 category: compact
 load_capacity_total_kg: 200.0
 load_capacity_passenger_count: 1
@@ -31,17 +31,19 @@ motor_torque_nm: 60
 battery_capacity_wh: 500
 battery_configuration: single
 battery_removable: true
-range_estimate_km: '60'
-price_amount: '3999'
+range_estimate_km: "60"
+price_amount: "3999"
 price_currency: EUR
-specs_notes: Compact electric cargo bike with Shimano E7000 motor (500W, 60Nm torque).
+specs_notes:
+  Compact electric cargo bike with Shimano E7000 motor (500W, 60Nm torque).
   Convertible rear rack system. Sourced from manufacturer specifications.
 weight_with_battery_kg: 34.0
 frame_material: aluminum
 brakes_type: hydraulic disc
 drivetrain_type: chain
-wheels_front_size_in: '20'
+wheels_front_size_in: "20"
 ---
+
 ## Overview
 
 ![FastRack](https://yubabikes.eu/wp-content/uploads/2025/01/YUBA_Bikes_Fastrack_3_4Sideview_Espresso_Studio_WEB.jpg)
@@ -51,16 +53,18 @@ The FastRack combines smooth handling and compact design to create the perfect c
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | compact |
-| **Motor** | Shimano E7000 |
-| **Motor Power** | 500W |
-| **Motor Torque** | 60Nm |
-| **Battery Capacity** | 500Wh |
-| **Range** | 60 km |
-| **Total Load Capacity** | 200.0kg |
-| **Price** | 3999 EUR |
+
+| Specification           | Value         |
+| ----------------------- | ------------- |
+| **Category**            | compact       |
+| **Motor**               | Shimano E7000 |
+| **Motor Power**         | 500W          |
+| **Motor Torque**        | 60Nm          |
+| **Battery Capacity**    | 500Wh         |
+| **Range**               | 60 km         |
+| **Total Load Capacity** | 200.0kg       |
+| **Price**               | 3999 EUR      |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €3,999.00

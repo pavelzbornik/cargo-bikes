@@ -41,7 +41,7 @@ The Long Alloyboards are a **brand-specific accessory** manufactured by [[Yuba]]
 ## Pricing
 
 | Region | Price |
-|--------|-------|
+| ------ | ----- |
 | Europe | €139  |
 
 ## Notes

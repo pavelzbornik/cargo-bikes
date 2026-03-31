@@ -9,32 +9,33 @@ type: bike
 brand: UNIKRIDE
 model: Retro Bobber
 tags:
-- bike
-- retro
-- bobber
-- electric
-- fatbike
-- unikride
+  - bike
+  - retro
+  - bobber
+  - electric
+  - fatbike
+  - unikride
 url: https://unikride.com/en/products/retro-bobber
 image: https://unikride.com/cdn/shop/files/fatbike_electrique_retro.jpg
 motor_power_w: 500
 battery_capacity_wh: 960
-range_estimate_km: '120'
-price_amount: '2999'
+range_estimate_km: "120"
+price_amount: "2999"
 price_currency: EUR
 motor_make: Bafang
 motor_torque_nm: 80
 frame_material: steel
 brakes_type: hydraulic disc
 drivetrain_type: chain
-drivetrain_speeds: '7'
+drivetrain_speeds: "7"
 needs_research: true
 research_topics:
-- category
-- weight_with_battery_kg
-- load_capacity_total_kg
-- wheels_front_size_in
+  - category
+  - weight_with_battery_kg
+  - load_capacity_total_kg
+  - wheels_front_size_in
 ---
+
 ## Retro Bobber
 
 ![Retro Bobber](https://unikride.com/cdn/shop/files/fatbike_electrique_retro.jpg)
@@ -46,12 +47,14 @@ The Retro Bobber is UNIKRIDE's distinctive vintage-styled electric fat bike feat
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor Power** | 500W |
-| **Battery Capacity** | 960Wh |
-| **Range** | 120 km |
-| **Price** | 2999 EUR |
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Power**      | 500W     |
+| **Battery Capacity** | 960Wh    |
+| **Range**            | 120 km   |
+| **Price**            | 2999 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €2,999-€3,599

@@ -35,7 +35,7 @@ This accessory is designed specifically for the [[Gaya L'Original Le Court]] and
 ## Pricing
 
 | Region | Price |
-|--------|-------|
+| ------ | ----- |
 | Europe | €30   |
 
 ## Notes

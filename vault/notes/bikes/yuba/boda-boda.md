@@ -1,5 +1,5 @@
 ---
-date: '2025-10-20'
+date: "2025-10-20"
 review_summary_date: 2025-10-27
 review_source_count: 8
 title: Boda Boda
@@ -7,19 +7,19 @@ type: bike
 brand: Yuba
 model: Boda Boda
 tags:
-- bike
-- longtail
-- yuba
-- bosch
+  - bike
+  - longtail
+  - yuba
+  - bosch
 url: https://yubabikes.eu/product/boda-boda/
 image: https://yubabikes.eu/wp-content/uploads/2024/10/Boda-Boda-No-BG.png
 resellers:
-- name: Cyclable
-  url: https://www.cyclable.com/18603-velo-cargo-electrique-yuba-boda-boda.html
-  price: '4849'
-  currency: EUR
-  region: EU
-  availability: in-stock
+  - name: Cyclable
+    url: https://www.cyclable.com/18603-velo-cargo-electrique-yuba-boda-boda.html
+    price: "4849"
+    currency: EUR
+    region: EU
+    availability: in-stock
 category: longtail
 model_year: 2025
 weight_with_battery_kg: 34.0
@@ -34,7 +34,7 @@ battery_capacity_wh: 500
 battery_configuration: single
 battery_removable: true
 drivetrain_type: chain
-drivetrain_speeds: '10'
+drivetrain_speeds: "10"
 drivetrain_hub: Shimano Cues
 brakes_type: hydraulic disc
 brakes_front_rotor_mm: 180
@@ -47,14 +47,16 @@ suspension_front: SR Suntour Mobie 25 (80mm travel)
 suspension_rear: none
 range_estimate_km: 45-55
 range_notes: 45km Turbo mode, 55km mixed efficiency modes
-price_amount: '4849'
+price_amount: "4849"
 price_currency: EUR
-specs_notes: Migrated from legacy format. 26-inch wheels unique for cargo longtails.
+specs_notes:
+  Migrated from legacy format. 26-inch wheels unique for cargo longtails.
   Bosch Cargo Line with Stay Steady Technology frame.
-battery_charging_time_h: '4'
+battery_charging_time_h: "4"
 weight_bike_kg: 32.0
 frame_material: aluminum
 ---
+
 ## Boda Boda
 
 ![Boda Boda](https://yubabikes.eu/wp-content/uploads/2024/10/Boda-Boda-No-BG.png)
@@ -66,21 +68,23 @@ The Yuba Boda Boda is a unique electric cargo longtail from French-pioneer Yuba 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | longtail |
-| **Model Year** | 2025 |
-| **Motor** | Bosch Cargo Line |
-| **Motor Power** | 500W |
-| **Motor Torque** | 85Nm |
-| **Battery Capacity** | 500Wh |
-| **Range** | 45-55 km |
-| **Weight (with battery)** | 34.0kg |
-| **Total Load Capacity** | 200.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | hydraulic disc |
-| **Wheel Size** | 26" |
-| **Price** | 4849 EUR |
+
+| Specification             | Value            |
+| ------------------------- | ---------------- |
+| **Category**              | longtail         |
+| **Model Year**            | 2025             |
+| **Motor**                 | Bosch Cargo Line |
+| **Motor Power**           | 500W             |
+| **Motor Torque**          | 85Nm             |
+| **Battery Capacity**      | 500Wh            |
+| **Range**                 | 45-55 km         |
+| **Weight (with battery)** | 34.0kg           |
+| **Total Load Capacity**   | 200.0kg          |
+| **Drivetrain**            | chain            |
+| **Brakes**                | hydraulic disc   |
+| **Wheel Size**            | 26"              |
+| **Price**                 | 4849 EUR         |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €4,849 (base price after 2025 reduction) / €5,250+ (with accessories); Edition Active €4,949; Edition Famille €4,999

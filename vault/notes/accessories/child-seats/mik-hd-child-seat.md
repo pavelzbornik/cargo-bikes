@@ -35,12 +35,12 @@ MIK-HD is an open mounting standard promoted by the Thule/Yepp ecosystem and ado
 
 ## Specifications
 
-| Spec | Detail |
-|---|---|
-| Max child weight | ~22 kg |
-| Recommended age | 9 months – 6 years (child must sit unaided) |
-| Mounting standard | MIK-HD |
-| Price range | €100–€150 |
+| Spec              | Detail                                      |
+| ----------------- | ------------------------------------------- |
+| Max child weight  | ~22 kg                                      |
+| Recommended age   | 9 months – 6 years (child must sit unaided) |
+| Mounting standard | MIK-HD                                      |
+| Price range       | €100–€150                                   |
 
 ## Compatibility Notes
 

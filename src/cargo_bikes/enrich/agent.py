@@ -8,10 +8,10 @@ from __future__ import annotations
 
 import asyncio
 import re
-from typing import Any, Awaitable, Callable, TypeVar
+from collections.abc import Awaitable, Callable
+from typing import Any, TypeVar
 
 import anthropic
-
 from claude_agent_sdk import (
     AssistantMessage,
     ClaudeAgentOptions,
@@ -32,9 +32,7 @@ def _clean_response(text: str) -> str:
     text = text.replace("\r\n", "\n").replace("\r", "\n")
 
     # Strip markdown code fences (anywhere in response, not just at end)
-    fence_match = re.search(
-        r"```(?:markdown|json)?\s*\n(.*?)```", text, re.DOTALL
-    )
+    fence_match = re.search(r"```(?:markdown|json)?\s*\n(.*?)```", text, re.DOTALL)
     if fence_match:
         text = fence_match.group(1)
 

@@ -40,16 +40,16 @@ These panniers are purpose-built by Tern to integrate seamlessly with their rear
 
 This is a **brand-specific** accessory made by Tern for their own bikes. It is designed to mount on Tern's proprietary rear rack system.
 
-| Bike | Compatible |
-|------|-----------|
-| [[Tern Orox]] | Yes |
+| Bike          | Compatible |
+| ------------- | ---------- |
+| [[Tern Orox]] | Yes        |
 
 > Note: Compatibility with other Tern models should be verified against rack specifications before purchase, as mounting systems may vary between models.
 
 ## Pricing
 
-| Region | Price |
-|--------|-------|
+| Region | Price            |
+| ------ | ---------------- |
 | Europe | €200–€400 (pair) |
 
 Pricing may vary by retailer and region. Contact your local Tern dealer for current availability and exact pricing.

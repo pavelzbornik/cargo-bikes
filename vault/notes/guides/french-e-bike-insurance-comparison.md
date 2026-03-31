@@ -15,14 +15,14 @@ A comparison of specialized e-bike insurance providers available in France, upda
 
 ## Comparison Table
 
-| Insurer | Annual Price | Deductible | Depreciation | Battery | Assistance | Best For |
-|---------|-------------|------------|--------------|---------|------------|----------|
-| **Laka** | 230-270 EUR | Zero | None | Included | Standard | Zero-hassle coverage |
-| **Qover** | 265-275 EUR | 0-50 EUR | 2%/year after 13 months | Included | Europ Assistance | Best roadside help |
-| **MAIF** | 350-390 EUR | 0-50 EUR | 2-5%/year | Included | Standard | Families (passenger injury) |
-| **Hepster** | 220-250 EUR | Variable | 2-3%/year | Included | Standard | Budget, any-age bikes |
-| **Assurancesvelo** | 190-230 EUR | 50-100 EUR | 2-5%/year | Included | Limited | Lowest cost |
-| **Groupama** | 164-200 EUR | 50-100 EUR | 3-5%/year | No | Basic | Minimal needs |
+| Insurer            | Annual Price | Deductible | Depreciation            | Battery  | Assistance       | Best For                    |
+| ------------------ | ------------ | ---------- | ----------------------- | -------- | ---------------- | --------------------------- |
+| **Laka**           | 230-270 EUR  | Zero       | None                    | Included | Standard         | Zero-hassle coverage        |
+| **Qover**          | 265-275 EUR  | 0-50 EUR   | 2%/year after 13 months | Included | Europ Assistance | Best roadside help          |
+| **MAIF**           | 350-390 EUR  | 0-50 EUR   | 2-5%/year               | Included | Standard         | Families (passenger injury) |
+| **Hepster**        | 220-250 EUR  | Variable   | 2-3%/year               | Included | Standard         | Budget, any-age bikes       |
+| **Assurancesvelo** | 190-230 EUR  | 50-100 EUR | 2-5%/year               | Included | Limited          | Lowest cost                 |
+| **Groupama**       | 164-200 EUR  | 50-100 EUR | 3-5%/year               | No       | Basic            | Minimal needs               |
 
 ## Which Insurer for Your Profile?
 
@@ -44,12 +44,12 @@ A comparison of specialized e-bike insurance providers available in France, upda
 
 ## Deductible Impact
 
-| Deductible | Typical Premium | Out-of-Pocket on 800 EUR Claim |
-|------------|----------------|-------------------------------|
-| Zero | 250-275 EUR/year | 0 EUR |
-| 50 EUR fixed | 210-240 EUR/year | 50 EUR |
-| 100 EUR fixed | 190-220 EUR/year | 100 EUR |
-| 10% of value | 210-240 EUR/year | 300+ EUR |
+| Deductible    | Typical Premium  | Out-of-Pocket on 800 EUR Claim |
+| ------------- | ---------------- | ------------------------------ |
+| Zero          | 250-275 EUR/year | 0 EUR                          |
+| 50 EUR fixed  | 210-240 EUR/year | 50 EUR                         |
+| 100 EUR fixed | 190-220 EUR/year | 100 EUR                        |
+| 10% of value  | 210-240 EUR/year | 300+ EUR                       |
 
 The premium difference between zero and 50 EUR deductible is typically 30-40 EUR/year.
 

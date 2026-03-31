@@ -1,20 +1,22 @@
 ---
 brand: Etni Cycles
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: Etni Cycles
 type: brand
-summary: Etni Cycles is a cargo bike manufacturer offering diverse models for families
+summary:
+  Etni Cycles is a cargo bike manufacturer offering diverse models for families
   and professionals.
 tags:
-- brand
-- index
-- etni-cycles
+  - brand
+  - index
+  - etni-cycles
 regions:
-- EU
+  - EU
 distribution_model: both
 ---
+
 ## Overview
 
 Etni Cycles is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

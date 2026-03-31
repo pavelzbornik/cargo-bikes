@@ -9,19 +9,19 @@ type: bike
 brand: Le Petit Porteur
 model: Longtail Electric
 tags:
-- bike
-- longtail
-- midtail
-- cargo
-- electric
-- le-petit-porteur
-- french
+  - bike
+  - longtail
+  - midtail
+  - cargo
+  - electric
+  - le-petit-porteur
+  - french
 url: https://www.lepetitporteur.com/en/277-cargo-bike-le-petit-porteur-longtail.html
 image: https://shop.lepetitporteur.com/img/p/9/0/0/900.jpg
 motor_torque_nm: 80
 battery_capacity_wh: 520
-range_estimate_km: '80'
-price_amount: '2690'
+range_estimate_km: "80"
+price_amount: "2690"
 price_currency: EUR
 category: midtail
 motor_model: Aikema TSDZ2B
@@ -35,12 +35,13 @@ frame_material: steel
 frame_length_cm: 176.0
 brakes_type: hydraulic disc
 drivetrain_type: chain
-drivetrain_speeds: '9'
-wheels_front_size_in: '20'
-wheels_rear_size_in: '20'
+drivetrain_speeds: "9"
+wheels_front_size_in: "20"
+wheels_rear_size_in: "20"
 wheels_tire: Schwalbe Pick Up 2.35"
 motor_make: Tongsheng
 ---
+
 ## Le Petit Porteur Longtail Electric
 
 ![Le Petit Porteur Longtail Electric](https://shop.lepetitporteur.com/img/p/9/0/0/900.jpg)
@@ -54,12 +55,14 @@ Le Petit Porteur Longtail combines French manufacturing heritage (originally cou
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor Torque** | 80Nm |
-| **Battery Capacity** | 520Wh |
-| **Range** | 80 km |
-| **Price** | 2690 EUR |
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Torque**     | 80Nm     |
+| **Battery Capacity** | 520Wh    |
+| **Range**            | 80 km    |
+| **Price**            | 2690 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

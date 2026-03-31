@@ -1,20 +1,22 @@
 ---
 brand: Leon Cycle
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: Leon Cycle
 type: brand
-summary: Leon Cycle is a cargo bike manufacturer offering diverse models for families
+summary:
+  Leon Cycle is a cargo bike manufacturer offering diverse models for families
   and professionals.
 tags:
-- brand
-- index
-- leon-cycle
+  - brand
+  - index
+  - leon-cycle
 regions:
-- EU
+  - EU
 distribution_model: both
 ---
+
 ## Overview
 
 Leon Cycle is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

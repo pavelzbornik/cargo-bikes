@@ -100,31 +100,31 @@ The **Aventon Direct Drive Hub Motor** (750W) on the [[Aventon Abound LR]] is th
 
 ## Full Specs Comparison Table
 
-| Motor | Type | Power (W) | Torque (Nm) | Used On |
-|---|---|---|---|---|
-| Aventon Direct Drive Hub Motor | Rear-hub | 750 | — | [[Aventon Abound LR]] |
-| Bosch Performance Line Gen5 | Mid-drive | 600 | — | [[Bike43 Short]] |
-| Bosch (unnamed) | Mid-drive | 500 | — | [[mini Boda Boda]] |
-| Shimano EP801 | Mid-drive | 500 | — | [[Mundo EP801]] |
-| Shimano E7000 | Mid-drive | 500 | 60 | [[FastRack]] |
-| Bafang (unnamed) | Mid-drive | 500 | 65 | [[OneSport OT30 Pro]] |
-| Bafang m400 | Mid-drive | 250 | 110 | [[e-cargo Longtail L20]] |
-| Naka E-Power Max (Ananda M100) | Mid-drive | — | 100 | [[Nakamura Crossover Longtail]] |
-| Specialized 2.2 Cargo | Mid-drive | 250 | 90 | [[Specialized Turbo Porto]] |
-| Bosch Performance CX Gen 4 | Mid-drive | 250 | 85 | [[Benno Boost E EVO4 500Wh]] |
-| Bosch Cargo Line | Mid-drive | 250 | 85 | [[Cube Longtail Hybrid 800]] |
-| Bosch Performance Line CX | Mid-drive | 250 | 85 | [[Riese & Müller Multitinker Touring]] |
-| Shimano STEPS EP8 | Mid-drive | 250 | 85 | [[Xtracycle eSwoop]] |
-| Shimano EP6 Cargo | Mid-drive | 250 | 85 | [[Peugeot e-Longtail]] |
-| Bafang M410 | Mid-drive | 250 | 80 | [[Oklö EVO Longtail]] |
-| Bosch Performance Sport Gen 3 | Mid-drive | 250 | 65 | [[Benno Boost 10D EVO 5 500Wh]] |
-| Shimano E6100 | Mid-drive | 250 | 60 | [[Kombi E6]] |
-| Gaya rear wheel 250W | Rear-hub | 250 | 50 | [[Gaya L'Incroyable Le Court]] |
-| Gaya (unnamed) | Rear-hub | 250 | 50 | [[Gaya L'Incroyable Le Long]] |
-| Bosch Active Plus | Mid-drive | 250 | 50 | [[Benno eJoy E]] |
-| Shimano E5000 | Mid-drive | 250 | 40 | [[Kombi E5]] |
+| Motor                          | Type      | Power (W) | Torque (Nm) | Used On                                |
+| ------------------------------ | --------- | --------- | ----------- | -------------------------------------- |
+| Aventon Direct Drive Hub Motor | Rear-hub  | 750       | —           | [[Aventon Abound LR]]                  |
+| Bosch Performance Line Gen5    | Mid-drive | 600       | —           | [[Bike43 Short]]                       |
+| Bosch (unnamed)                | Mid-drive | 500       | —           | [[mini Boda Boda]]                     |
+| Shimano EP801                  | Mid-drive | 500       | —           | [[Mundo EP801]]                        |
+| Shimano E7000                  | Mid-drive | 500       | 60          | [[FastRack]]                           |
+| Bafang (unnamed)               | Mid-drive | 500       | 65          | [[OneSport OT30 Pro]]                  |
+| Bafang m400                    | Mid-drive | 250       | 110         | [[e-cargo Longtail L20]]               |
+| Naka E-Power Max (Ananda M100) | Mid-drive | —         | 100         | [[Nakamura Crossover Longtail]]        |
+| Specialized 2.2 Cargo          | Mid-drive | 250       | 90          | [[Specialized Turbo Porto]]            |
+| Bosch Performance CX Gen 4     | Mid-drive | 250       | 85          | [[Benno Boost E EVO4 500Wh]]           |
+| Bosch Cargo Line               | Mid-drive | 250       | 85          | [[Cube Longtail Hybrid 800]]           |
+| Bosch Performance Line CX      | Mid-drive | 250       | 85          | [[Riese & Müller Multitinker Touring]] |
+| Shimano STEPS EP8              | Mid-drive | 250       | 85          | [[Xtracycle eSwoop]]                   |
+| Shimano EP6 Cargo              | Mid-drive | 250       | 85          | [[Peugeot e-Longtail]]                 |
+| Bafang M410                    | Mid-drive | 250       | 80          | [[Oklö EVO Longtail]]                  |
+| Bosch Performance Sport Gen 3  | Mid-drive | 250       | 65          | [[Benno Boost 10D EVO 5 500Wh]]        |
+| Shimano E6100                  | Mid-drive | 250       | 60          | [[Kombi E6]]                           |
+| Gaya rear wheel 250W           | Rear-hub  | 250       | 50          | [[Gaya L'Incroyable Le Court]]         |
+| Gaya (unnamed)                 | Rear-hub  | 250       | 50          | [[Gaya L'Incroyable Le Long]]          |
+| Bosch Active Plus              | Mid-drive | 250       | 50          | [[Benno eJoy E]]                       |
+| Shimano E5000                  | Mid-drive | 250       | 40          | [[Kombi E5]]                           |
 
-*— indicates data not available in vault specs.*
+_— indicates data not available in vault specs._
 
 ---
 

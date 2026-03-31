@@ -9,18 +9,18 @@ type: bike
 brand: TENWAYS
 model: Longtail Duo
 tags:
-- bike
-- long-tail
-- e-bike
-- family
-- cargo
-- tenways
+  - bike
+  - long-tail
+  - e-bike
+  - family
+  - cargo
+  - tenways
 url: https://www.tenways.com/products/longtail
 image: https://www.tenways.com/cdn/shop/files/2_f299da61-da31-4bf0-96b3-c3059.jpg
 motor_power_w: 250
 battery_capacity_wh: 720
-range_estimate_km: '100'
-price_amount: '3499'
+range_estimate_km: "100"
+price_amount: "3499"
 price_currency: EUR
 category: longtail
 motor_make: Bafang
@@ -35,11 +35,12 @@ frame_material: aluminum
 brakes_type: hydraulic disc
 drivetrain_type: belt
 drivetrain_hub: Enviolo Heavy Duty
-wheels_front_size_in: '24'
-wheels_rear_size_in: '24'
+wheels_front_size_in: "24"
+wheels_rear_size_in: "24"
 suspension_front: suspension fork
 suspension_rear: none
 ---
+
 ## TENWAYS Longtail Duo
 
 ![TENWAYS Longtail Duo](https://www.tenways.com/cdn/shop/files/2_f299da61-da31-4bf0-96b3-c3059.jpg)
@@ -51,12 +52,14 @@ The TENWAYS Longtail Duo is a premium family-oriented e-bike designed specifical
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor Power** | 250W |
-| **Battery Capacity** | 720Wh |
-| **Range** | 100 km |
-| **Price** | 3499 EUR |
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Power**      | 250W     |
+| **Battery Capacity** | 720Wh    |
+| **Range**            | 100 km   |
+| **Price**            | 3499 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €3,499

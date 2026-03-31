@@ -51,6 +51,7 @@ Pricing ranges from approximately €100 to €300 depending on configuration (s
 - The number of seats that can be fitted (1 or 2) may depend on the platform size and the bike's maximum payload rating — always check total load limits before configuring for two seats
 - Child seats may need to be purchased separately and confirmed compatible with the Onesport platform mounting system
 - As a brand-specific accessory, third-party universal child seats (e.g., Yepp, Bobike, Thule) may not be directly interchangeable without additional adapters
+
 ```
 
 ---
@@ -65,3 +66,4 @@ Pricing ranges from approximately €100 to €300 depending on configuration (s
 | `price_currency` | `EUR` | Prices provided in euros |
 | `compatible_bikes` | `[["[OneSport OT01]]"]` | Only the OT01 was specified |
 | Path | `bikes/onesport/accessories/child-seat.md` | Matches existing Onesport accessory folder structure |
+```

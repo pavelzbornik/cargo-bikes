@@ -5,27 +5,27 @@ type: bike
 brand: Oklö
 model: EVO Longtail
 tags:
-- bike
-- longtail
-- oklo
-- bafang
-- french
-- made-in-france
+  - bike
+  - longtail
+  - oklo
+  - bafang
+  - french
+  - made-in-france
 url: https://www.oklobiking.com/
 image: https://www.oklobiking.com/
 resellers:
-- name: Oklö Official
-  url: https://www.oklobiking.com/
-  price: '5010'
-  currency: EUR
-  region: EU
-  availability: in-stock
-- name: Shop Roulez Jeunesse
-  url: https://shop.roulezjeunesse.com/products/oklo-evo-longtail
-  price: '5010'
-  currency: EUR
-  region: EU
-  availability: in-stock
+  - name: Oklö Official
+    url: https://www.oklobiking.com/
+    price: "5010"
+    currency: EUR
+    region: EU
+    availability: in-stock
+  - name: Shop Roulez Jeunesse
+    url: https://shop.roulezjeunesse.com/products/oklo-evo-longtail
+    price: "5010"
+    currency: EUR
+    region: EU
+    availability: in-stock
 category: longtail
 model_year: 2025
 frame_material: steel
@@ -49,7 +49,7 @@ battery_capacity_wh: 600
 battery_configuration: single
 battery_removable: true
 drivetrain_type: chain
-drivetrain_speeds: '5'
+drivetrain_speeds: "5"
 drivetrain_hub: Shimano Nexus 5
 brakes_type: hydraulic disc
 brakes_front_rotor_mm: 180
@@ -67,21 +67,21 @@ lights_rear_type: AXA Blueline
 lights_rear_integrated: true
 lights_rear_brake_light: false
 features:
-- fantilo-front-seat
-- bafang-m410
-- internal-gears
-- french-made
-- innovative-front-child-seat
+  - fantilo-front-seat
+  - bafang-m410
+  - internal-gears
+  - french-made
+  - innovative-front-child-seat
 security_gps: false
 security_app_lock: false
 security_frame_lock: false
 range_estimate_km: 50-100
 range_notes: 600 Wh battery with constant torque delivery
-price_amount: '5010'
+price_amount: "5010"
 price_currency: EUR
-specs_notes: French-made steel frame with innovative Fantilo front child seat. Bafang
+specs_notes:
+  French-made steel frame with innovative Fantilo front child seat. Bafang
   M410 motor with immediate torque. Made near Annecy.
-
 ---
 
 ## Oklö EVO Longtail
@@ -97,21 +97,23 @@ The Oklö EVO Longtail distinguishes itself through innovation: the Fantilo fron
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | longtail |
-| **Model Year** | 2025 |
-| **Motor** | Bafang M410 |
-| **Motor Power** | 250W |
-| **Motor Torque** | 80Nm |
-| **Battery Capacity** | 600Wh |
-| **Range** | 50-100 km |
-| **Weight (with battery)** | 33.0kg |
-| **Total Load Capacity** | 200.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | hydraulic disc |
-| **Wheel Size** | 24" |
-| **Price** | 5010 EUR |
+
+| Specification             | Value          |
+| ------------------------- | -------------- |
+| **Category**              | longtail       |
+| **Model Year**            | 2025           |
+| **Motor**                 | Bafang M410    |
+| **Motor Power**           | 250W           |
+| **Motor Torque**          | 80Nm           |
+| **Battery Capacity**      | 600Wh          |
+| **Range**                 | 50-100 km      |
+| **Weight (with battery)** | 33.0kg         |
+| **Total Load Capacity**   | 200.0kg        |
+| **Drivetrain**            | chain          |
+| **Brakes**                | hydraulic disc |
+| **Wheel Size**            | 24"            |
+| **Price**                 | 5010 EUR       |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Frame:** Steel Chromoly (made in Europe, assembled in France)

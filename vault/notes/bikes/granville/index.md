@@ -1,22 +1,24 @@
 ---
 brand: Granville
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: Granville
 type: brand
-summary: Granville is a cargo bike manufacturer offering diverse models for families
+summary:
+  Granville is a cargo bike manufacturer offering diverse models for families
   and professionals.
 tags:
-- brand
-- index
-- granville
+  - brand
+  - index
+  - granville
 regions:
-- EU
+  - EU
 categories:
-- longtail
+  - longtail
 distribution_model: both
 ---
+
 ## Overview
 
 Granville is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

@@ -38,7 +38,7 @@ This accessory is brand-specific and designed exclusively for the [[Gaya L'Origi
 ## Pricing
 
 | Region | Price |
-|--------|-------|
+| ------ | ----- |
 | Europe | €120  |
 
 ## Notes

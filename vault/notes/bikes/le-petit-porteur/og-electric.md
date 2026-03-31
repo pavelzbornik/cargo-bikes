@@ -9,16 +9,16 @@ type: bike
 brand: Le Petit Porteur
 model: OG V6 Electric
 tags:
-- bike
-- cargo-bike
-- electric
-- le-petit-porteur
-- compact
+  - bike
+  - cargo-bike
+  - electric
+  - le-petit-porteur
+  - compact
 url: https://www.lepetitporteur.com/en/313-electric-cargo-bike-le-petit-porteur-og-v6.html
 image: https://shop.lepetitporteur.com/img/p/1/0/5/2/1052.jpg
 motor_power_w: 250
 battery_capacity_wh: 461
-price_amount: '2490'
+price_amount: "2490"
 price_currency: EUR
 category: compact
 motor_type: mid-drive
@@ -29,15 +29,16 @@ load_capacity_passenger_count: 1
 frame_material: steel
 brakes_type: hydraulic disc
 drivetrain_type: chain
-wheels_front_size_in: '20'
-wheels_rear_size_in: '20'
+wheels_front_size_in: "20"
+wheels_rear_size_in: "20"
 wheels_tire: Schwalbe Pick Up
 needs_research: true
 research_topics:
-- motor_make
-- load_capacity_total_kg
-- range_estimate_km
+  - motor_make
+  - load_capacity_total_kg
+  - range_estimate_km
 ---
+
 ## Le Petit Porteur OG Electric
 
 ![Le Petit Porteur OG Electric](https://shop.lepetitporteur.com/img/p/1/0/5/2/1052.jpg)
@@ -49,11 +50,13 @@ The OG Electric is the most compact and versatile cargo bike in the Le Petit Por
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor Power** | 250W |
-| **Battery Capacity** | 461Wh |
-| **Price** | 2490 EUR |
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Power**      | 250W     |
+| **Battery Capacity** | 461Wh    |
+| **Price**            | 2490 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €2,490.00

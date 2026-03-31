@@ -1,20 +1,22 @@
 ---
 brand: Jean Fourche
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: Jean Fourche
 type: brand
-summary: Jean Fourche is a cargo bike manufacturer offering diverse models for families
+summary:
+  Jean Fourche is a cargo bike manufacturer offering diverse models for families
   and professionals.
 tags:
-- brand
-- index
-- jean-fourche
+  - brand
+  - index
+  - jean-fourche
 regions:
-- EU
+  - EU
 distribution_model: both
 ---
+
 ## Overview
 
 Jean Fourche is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

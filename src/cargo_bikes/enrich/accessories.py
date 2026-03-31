@@ -23,10 +23,25 @@ def _slugify(text: str) -> str:
 
 # Keyword → category mapping
 _CATEGORY_KEYWORDS = {
-    "child-seats": ["child seat", "baby seat", "yepp", "maxi", "mini seat", "passenger seat"],
+    "child-seats": [
+        "child seat",
+        "baby seat",
+        "yepp",
+        "maxi",
+        "mini seat",
+        "passenger seat",
+    ],
     "panniers": ["pannier", "side bag", "cargo hold"],
     "racks": ["rack", "hauler", "transporteur", "front rack", "rear rack"],
-    "weather-protection": ["rain", "storm", "shelter", "shield", "canopy", "weather", "pop shelter"],
+    "weather-protection": [
+        "rain",
+        "storm",
+        "shelter",
+        "shield",
+        "canopy",
+        "weather",
+        "pop shelter",
+    ],
     "cargo-bags": ["cargo bag", "basket", "cargo net", "carry all", "boards"],
     "pet-carriers": ["pet", "ruffhouse", "dog"],
     "towing": ["tow", "hitch", "trailer"],
@@ -38,24 +53,77 @@ _CATEGORY_KEYWORDS = {
 
 # Words that indicate a row is a spec/feature, not an accessory
 _EXCLUDE_KEYWORDS = [
-    "motor", "battery", "range", "weight", "frame", "brakes", "wheel",
-    "drivetrain", "transmission", "suspension", "display", "charger",
-    "charging", "specification", "category", "feature", "durability",
-    "maneuverability", "capacity", "recency", "information", "limited",
-    "component", "manufacturer", "delivery", "warranty", "return",
-    "certification", "parking", "learning", "comfort", "urban",
-    "total load", "total equipped", "total investment", "assist level",
-    "simplicity", "long wheelbase", "shipping", "attachment",
-    "strong power", "seamless", "excellent", "durable", "high-load",
-    "high-capacity", "space-efficient", "well-equipped", "no front",
-    "long-term", "limited community", "og ", "shorty ",
+    "motor",
+    "battery",
+    "range",
+    "weight",
+    "frame",
+    "brakes",
+    "wheel",
+    "drivetrain",
+    "transmission",
+    "suspension",
+    "display",
+    "charger",
+    "charging",
+    "specification",
+    "category",
+    "feature",
+    "durability",
+    "maneuverability",
+    "capacity",
+    "recency",
+    "information",
+    "limited",
+    "component",
+    "manufacturer",
+    "delivery",
+    "warranty",
+    "return",
+    "certification",
+    "parking",
+    "learning",
+    "comfort",
+    "urban",
+    "total load",
+    "total equipped",
+    "total investment",
+    "assist level",
+    "simplicity",
+    "long wheelbase",
+    "shipping",
+    "attachment",
+    "strong power",
+    "seamless",
+    "excellent",
+    "durable",
+    "high-load",
+    "high-capacity",
+    "space-efficient",
+    "well-equipped",
+    "no front",
+    "long-term",
+    "limited community",
+    "og ",
+    "shorty ",
 ]
 
 # Generic labels that are categories, not specific products
 _GENERIC_NAMES = {
-    "lighting", "lights", "cargo basket", "cargo bags", "child seat",
-    "child seats", "weather protection", "rear rack", "front rack",
-    "panniers", "footrests", "safety", "comfort", "racks",
+    "lighting",
+    "lights",
+    "cargo basket",
+    "cargo bags",
+    "child seat",
+    "child seats",
+    "weather protection",
+    "rear rack",
+    "front rack",
+    "panniers",
+    "footrests",
+    "safety",
+    "comfort",
+    "racks",
 }
 
 
@@ -113,11 +181,13 @@ def _parse_accessory_table(content: str) -> list[dict[str, str]]:
             if set(name) <= {"-", " ", "|"}:
                 continue
 
-            accessories.append({
-                "name": name,
-                "price": price,
-                "description": desc,
-            })
+            accessories.append(
+                {
+                    "name": name,
+                    "price": price,
+                    "description": desc,
+                }
+            )
 
         # Also parse list items: - **Name:** Description (~€Price)
         list_pattern = re.compile(
@@ -131,11 +201,13 @@ def _parse_accessory_table(content: str) -> list[dict[str, str]]:
             price = list_match.group(3) or ""
 
             if name.lower() not in ("accessory", "option", "note"):
-                accessories.append({
-                    "name": name,
-                    "price": price.strip(),
-                    "description": desc,
-                })
+                accessories.append(
+                    {
+                        "name": name,
+                        "price": price.strip(),
+                        "description": desc,
+                    }
+                )
 
     return accessories
 
@@ -150,7 +222,14 @@ def scan_accessories(
     """
     bikes_dir = vault_path / "notes" / "bikes"
     grouped: dict[str, dict[str, Any]] = defaultdict(
-        lambda: {"name": "", "category": "", "prices": [], "bikes": [], "brands": [], "descriptions": []}
+        lambda: {
+            "name": "",
+            "category": "",
+            "prices": [],
+            "bikes": [],
+            "brands": [],
+            "descriptions": [],
+        }
     )
 
     dirs = [bikes_dir / brand] if brand else sorted(bikes_dir.iterdir())
@@ -170,7 +249,11 @@ def scan_accessories(
 
             # Get bike title from frontmatter
             title_match = re.search(r"^title:\s*(.+)$", content, re.MULTILINE)
-            bike_title = title_match.group(1).strip().strip('"\'') if title_match else md_file.stem
+            bike_title = (
+                title_match.group(1).strip().strip("\"'")
+                if title_match
+                else md_file.stem
+            )
 
             accessories = _parse_accessory_table(content)
             for acc in accessories:
@@ -185,7 +268,10 @@ def scan_accessories(
                     entry["prices"].append(acc["price"])
                 entry["bikes"].append(bike_title)
                 entry["brands"].append(brand_dir.name)
-                if acc["description"] and acc["description"] not in entry["descriptions"]:
+                if (
+                    acc["description"]
+                    and acc["description"] not in entry["descriptions"]
+                ):
                     entry["descriptions"].append(acc["description"])
 
     return dict(grouped)
@@ -193,9 +279,22 @@ def scan_accessories(
 
 # Known third-party accessory manufacturers — always universal
 _THIRD_PARTY_BRANDS = {
-    "yepp", "bobike", "thule", "polisport", "urban iki", "guppy",
-    "abus", "kryptonite", "schwalbe", "ortlieb", "basil",
-    "klickfix", "mik", "shimano", "bosch", "supernova",
+    "yepp",
+    "bobike",
+    "thule",
+    "polisport",
+    "urban iki",
+    "guppy",
+    "abus",
+    "kryptonite",
+    "schwalbe",
+    "ortlieb",
+    "basil",
+    "klickfix",
+    "mik",
+    "shimano",
+    "bosch",
+    "supernova",
 }
 
 
@@ -229,16 +328,24 @@ async def _generate_accessory_note(
     """Generate a single accessory note."""
     bikes_list = "\n".join(f"- [[{b}]]" for b in data["bikes"][:10])
     prices = ", ".join(data["prices"][:5]) if data["prices"] else "Unknown"
-    descs = "; ".join(data["descriptions"][:3]) if data["descriptions"] else "No description"
+    descs = (
+        "; ".join(data["descriptions"][:3])
+        if data["descriptions"]
+        else "No description"
+    )
 
     is_specific, brand_folder = _is_brand_specific(data)
     acc_type = "brand-specific" if is_specific else "universal"
-    manufacturer_hint = f"Manufacturer: {brand_folder.replace('-', ' ').title()} (bike brand)" if is_specific else "Manufacturer: third-party accessory maker"
+    manufacturer_hint = (
+        f"Manufacturer: {brand_folder.replace('-', ' ').title()} (bike brand)"
+        if is_specific
+        else "Manufacturer: third-party accessory maker"
+    )
 
     prompt = f"""Create an accessory note:
 
 Title: {name}
-Category: {data['category']}
+Category: {data["category"]}
 Type: accessory
 Accessory type: {acc_type}
 {manufacturer_hint}
@@ -296,8 +403,7 @@ def generate_accessories(
 
     if category != "all":
         all_accessories = {
-            k: v for k, v in all_accessories.items()
-            if v["category"] == category
+            k: v for k, v in all_accessories.items() if v["category"] == category
         }
 
     console.print(f"Found [bold]{len(all_accessories)}[/bold] unique accessories")
@@ -309,17 +415,27 @@ def generate_accessories(
     def _note_exists(data: dict[str, Any], slug: str) -> bool:
         is_specific, brand_folder = _is_brand_specific(data)
         if is_specific:
-            path = vault_path / "notes" / "bikes" / brand_folder / "accessories" / f"{slug}.md"
+            path = (
+                vault_path
+                / "notes"
+                / "bikes"
+                / brand_folder
+                / "accessories"
+                / f"{slug}.md"
+            )
         else:
-            path = vault_path / "notes" / "accessories" / data["category"] / f"{slug}.md"
+            path = (
+                vault_path / "notes" / "accessories" / data["category"] / f"{slug}.md"
+            )
         return path.exists() and path.stat().st_size > 10
 
     to_generate = {
-        k: v for k, v in all_accessories.items()
-        if not _note_exists(v, _slugify(k))
+        k: v for k, v in all_accessories.items() if not _note_exists(v, _slugify(k))
     }
 
-    console.print(f"  {len(to_generate)} new, {len(all_accessories) - len(to_generate)} already exist")
+    console.print(
+        f"  {len(to_generate)} new, {len(all_accessories) - len(to_generate)} already exist"
+    )
 
     if dry_run:
         for name, data in sorted(to_generate.items()):
@@ -380,7 +496,9 @@ def generate_accessories(
     for note in accepted:
         if note.get("brand_specific") and note.get("brand_folder"):
             # Brand-specific: vault/notes/bikes/<brand>/accessories/<slug>.md
-            out_dir = vault_path / "notes" / "bikes" / note["brand_folder"] / "accessories"
+            out_dir = (
+                vault_path / "notes" / "bikes" / note["brand_folder"] / "accessories"
+            )
             brand_count += 1
         else:
             # Universal: vault/notes/accessories/<category>/<slug>.md

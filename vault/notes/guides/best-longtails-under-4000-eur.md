@@ -157,52 +157,59 @@ At €3849, the Mundo EP801 is one of the most capable longtails under €4000 f
 
 ## Comparison Table
 
-| Bike | Price | Motor Brand | Motor Power | Battery | Range |
-|---|---|---|---|---|---|
-| [[OneSport OT01]] | €1,199 | — | 250W | 1296 Wh | 80–100 km |
-| [[Benno eJoy E]] | €1,799 | Bosch | 250W | 400 Wh | 40–90 km |
-| [[E-Mog E-City+]] | €2,249 | Bafang | 250W | 840 Wh | 100 km |
-| [[E-Mog E-City]] | €2,633 | Bafang | 250W | 840 Wh | 100 km |
-| [[Le Cargo]] | €2,800 | Gaya | 250W | 450 Wh | 70–100 km |
-| [[Gaya L'Original Le Long]] | €2,800 | Gaya | 250W | 460 Wh | 70 km |
-| [[e-cargo Longtail L20]] | €2,995 | Bafang | 250W | 630 Wh | 85–100 km |
-| [[Nakamura Crossover Longtail]] | €3,000 | Ananda M100 | — | 770 Wh | 50 km |
-| [[Benno Boost 10D EVO 5 500Wh]] | €3,206 | Bosch | 250W | 500 Wh | 50–135 km |
-| [[Gaya L'Incroyable Le Long]] | €3,400 | Gaya | 250W | 460 Wh | 70 km |
-| [[Peugeot e-Longtail]] | €3,599 | Shimano | 250W | 630 Wh | 50–90 km |
-| [[Cube Longtail Hybrid 800]] | €3,799 | Bosch | 250W | 800 Wh | — |
-| [[Benno Boost E EVO4 500Wh]] | €3,830 | Bosch | 250W | 500 Wh | 50–130 km |
-| [[Mundo EP801]] | €3,849 | Shimano | 500W | 500 Wh | 60–100 km |
+| Bike                            | Price  | Motor Brand | Motor Power | Battery | Range     |
+| ------------------------------- | ------ | ----------- | ----------- | ------- | --------- |
+| [[OneSport OT01]]               | €1,199 | —           | 250W        | 1296 Wh | 80–100 km |
+| [[Benno eJoy E]]                | €1,799 | Bosch       | 250W        | 400 Wh  | 40–90 km  |
+| [[E-Mog E-City+]]               | €2,249 | Bafang      | 250W        | 840 Wh  | 100 km    |
+| [[E-Mog E-City]]                | €2,633 | Bafang      | 250W        | 840 Wh  | 100 km    |
+| [[Le Cargo]]                    | €2,800 | Gaya        | 250W        | 450 Wh  | 70–100 km |
+| [[Gaya L'Original Le Long]]     | €2,800 | Gaya        | 250W        | 460 Wh  | 70 km     |
+| [[e-cargo Longtail L20]]        | €2,995 | Bafang      | 250W        | 630 Wh  | 85–100 km |
+| [[Nakamura Crossover Longtail]] | €3,000 | Ananda M100 | —           | 770 Wh  | 50 km     |
+| [[Benno Boost 10D EVO 5 500Wh]] | €3,206 | Bosch       | 250W        | 500 Wh  | 50–135 km |
+| [[Gaya L'Incroyable Le Long]]   | €3,400 | Gaya        | 250W        | 460 Wh  | 70 km     |
+| [[Peugeot e-Longtail]]          | €3,599 | Shimano     | 250W        | 630 Wh  | 50–90 km  |
+| [[Cube Longtail Hybrid 800]]    | €3,799 | Bosch       | 250W        | 800 Wh  | —         |
+| [[Benno Boost E EVO4 500Wh]]    | €3,830 | Bosch       | 250W        | 500 Wh  | 50–130 km |
+| [[Mundo EP801]]                 | €3,849 | Shimano     | 500W        | 500 Wh  | 60–100 km |
 
 ---
 
 ## Recommended Picks by Use Case
 
 ### Best Budget Longtail
+
 **[[OneSport OT01]] — €1,199**
 Nothing else comes close at this price, and the 1296 Wh battery is a genuinely extraordinary spec for the money. Approach with realistic expectations about component quality.
 
 ### Best Entry-Level Bosch
+
 **[[Benno eJoy E]] — €1,799**
 The easiest way into the Bosch ecosystem on a longtail. Proven brand, reliable motor, wide service network.
 
 ### Best Range for the Money
+
 **[[E-Mog E-City+]] — €2,249**
 840 Wh and a 100 km claim for €2,249 is exceptional value. The Bafang motor is well-supported across Europe.
 
 ### Best All-Rounder Under €3,000
+
 **[[e-cargo Longtail L20]] — €2,995**
 A 630 Wh Bafang-powered longtail with a low platform and strong real-world range. Hard to fault at the price.
 
 ### Best Bosch Longtail Under €4,000
+
 **[[Cube Longtail Hybrid 800]] — €3,799**
 The 800 Wh Bosch battery is the star here. No other bike in this guide offers this combination of motor pedigree and battery size under €4,000.
 
 ### Best for Hilly Terrain or Heavy Loads
+
 **[[Mundo EP801]] — €3,849**
 The 500W Shimano motor gives meaningful extra torque when the terrain gets tough or the load gets heavy. Yuba's cargo-specific design credentials add confidence.
 
 ### Best Mature Platform
+
 **[[Benno Boost 10D EVO 5 500Wh]] — €3,206**
 The EVO 5 platform is Benno's fifth generation of refinement. The combination of Bosch reliability and up to 135 km range makes this a compelling long-term ownership proposition.
 
@@ -211,18 +218,23 @@ The EVO 5 platform is Benno's fifth generation of refinement. The combination of
 ## What to Look for When Comparing Longtails
 
 ### Battery Capacity
+
 Battery size (measured in Wh) directly influences how far you can ride on a charge. Larger batteries add weight but extend range. For family use with children and loaded panniers, aim for at least 500 Wh if budget allows.
 
 ### Motor System
+
 The major systems — Bosch, Shimano, and Bafang — each have strong European service networks. In-house or less common motors (such as Gaya's own system) may require brand-specific service centres.
 
 ### Motor Power
+
 EU road rules cap assisted bikes at 250W nominal output, but some systems (notably Shimano's EP8 and certain Bafang units) can deliver higher peak torque. The [[Mundo EP801]] and other Shimano 500W-rated bikes operate under different classifications in some markets — verify legality for your country before purchasing.
 
 ### Platform Height and Configuration
+
 A lower rear platform makes loading children and heavy cargo safer and easier. Some longtails use 20-inch rear wheels specifically to keep the platform closer to the ground.
 
 ### Dealer Network
+
 For families depending on a bike daily, service access matters. Bosch and Shimano have the widest European dealer networks. Smaller brands may require shipping bikes back to the manufacturer for warranty work.
 
 ---

@@ -56,11 +56,11 @@ Cet héritage informe tout, depuis le système d'accessoires modulaires du Boost
 
 ## Modèles dans ce catalogue
 
-| Modèle | Type | Moteur | Batterie | Prix |
-|---|---|---|---|---|
-| [[Benno Boost 10D EVO 5 500Wh]] | Longtail | Bosch 250 W | 500 Wh | €3 206 |
-| [[Benno Boost E EVO4 500Wh]] | Longtail | Bosch 250 W | 500 Wh | €3 830 |
-| [[Benno eJoy E]] | Longtail | Bosch 250 W | 500 Wh | €1 799 |
+| Modèle                          | Type     | Moteur      | Batterie | Prix   |
+| ------------------------------- | -------- | ----------- | -------- | ------ |
+| [[Benno Boost 10D EVO 5 500Wh]] | Longtail | Bosch 250 W | 500 Wh   | €3 206 |
+| [[Benno Boost E EVO4 500Wh]]    | Longtail | Bosch 250 W | 500 Wh   | €3 830 |
+| [[Benno eJoy E]]                | Longtail | Bosch 250 W | 500 Wh   | €1 799 |
 
 ## Sources
 
@@ -79,12 +79,12 @@ Voici un récapitulatif de chaque modification apportée et du raisonnement qui 
 
 **Ajouts dans le frontmatter**
 
-| Champ | Valeur ajoutée | Raison |
-|---|---|---|
-| `type` | `brand` | Il s'agit d'une page d'index de marque, et non d'une fiche vélo. Permet de la distinguer des fiches individuelles pour le filtrage dans le graphe. |
-| `brand` | `"[[Benno Bikes]]"` | Wikilink auto-référentiel selon les règles d'harmonisation ; permet de créer des liens dans le graphe depuis les fiches vélo vers cet index. |
-| `models` | Trois wikilinks | Extraits directement du tableau « Modèles dans ce catalogue » — données de haute fiabilité déjà présentes dans la note. Crée une connectivité bidirectionnelle dans le graphe vers chaque fiche vélo enfant. |
-| `components` | `[]` | La note confirme l'utilisation de moteurs mid-drive Bosch mais ne mentionne jamais de référence Bosch spécifique (par exemple Performance Line CX vs. Active Line Plus). L'ajout d'un nom de modèle spéculatif violerait la règle de non-hallucination ; le tableau est donc laissé vide dans l'attente d'un enrichissement à partir des fiches vélo individuelles. |
+| Champ        | Valeur ajoutée      | Raison                                                                                                                                                                                                                                                                                                                                                              |
+| ------------ | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `type`       | `brand`             | Il s'agit d'une page d'index de marque, et non d'une fiche vélo. Permet de la distinguer des fiches individuelles pour le filtrage dans le graphe.                                                                                                                                                                                                                  |
+| `brand`      | `"[[Benno Bikes]]"` | Wikilink auto-référentiel selon les règles d'harmonisation ; permet de créer des liens dans le graphe depuis les fiches vélo vers cet index.                                                                                                                                                                                                                        |
+| `models`     | Trois wikilinks     | Extraits directement du tableau « Modèles dans ce catalogue » — données de haute fiabilité déjà présentes dans la note. Crée une connectivité bidirectionnelle dans le graphe vers chaque fiche vélo enfant.                                                                                                                                                        |
+| `components` | `[]`                | La note confirme l'utilisation de moteurs mid-drive Bosch mais ne mentionne jamais de référence Bosch spécifique (par exemple Performance Line CX vs. Active Line Plus). L'ajout d'un nom de modèle spéculatif violerait la règle de non-hallucination ; le tableau est donc laissé vide dans l'attente d'un enrichissement à partir des fiches vélo individuelles. |
 
 **Modifications du corps**
 

@@ -9,9 +9,9 @@ type: bike
 brand: Cube
 model: Longtail Hybrid
 tags:
-- bike
-- longtail
-- cube
+  - bike
+  - longtail
+  - cube
 url: https://www.ovelo.fr/fr/velo-electrique-longtail/33836-longtail-hybrid-1350-4054571446589.html
 image: https://www.ovelo.fr/47057-thickbox_default/longtail-hybrid-1350.jpg
 frame_material: aluminum
@@ -26,18 +26,19 @@ brakes_type: hydraulic disc
 wheels_front_size_in: 26"
 wheels_rear_size_in: 26"
 wheels_tire: Schwalbe Pick-Up Perf
-suspension_front: 'yes'
+suspension_front: "yes"
 suspension_rear: none
-range_estimate_km: '340'
-price_amount: '4949'
+range_estimate_km: "340"
+price_amount: "4949"
 price_currency: EUR
 category: longtail
 motor_make: Bosch
 motor_model: Cargo Line Gen 4
 motor_type: mid-drive
 motor_torque_nm: 85
-drivetrain_speeds: '1'
+drivetrain_speeds: "1"
 ---
+
 ## Overview
 
 ![Cube Longtail Hybrid 1350](https://www.ovelo.fr/47057-thickbox_default/longtail-hybrid-1350.jpg)
@@ -47,17 +48,19 @@ The Cube Longtail Hybrid 1350 is a premium German-engineered electric longtail c
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor Power** | 250W |
-| **Battery Capacity** | 1350Wh |
-| **Range** | 340 km |
-| **Weight (with battery)** | 39.4kg |
-| **Total Load Capacity** | 200.0kg |
-| **Drivetrain** | belt |
-| **Brakes** | hydraulic disc |
-| **Wheel Size** | 26" |
-| **Price** | 4949 EUR |
+
+| Specification             | Value          |
+| ------------------------- | -------------- |
+| **Motor Power**           | 250W           |
+| **Battery Capacity**      | 1350Wh         |
+| **Range**                 | 340 km         |
+| **Weight (with battery)** | 39.4kg         |
+| **Total Load Capacity**   | 200.0kg        |
+| **Drivetrain**            | belt           |
+| **Brakes**                | hydraulic disc |
+| **Wheel Size**            | 26"            |
+| **Price**                 | 4949 EUR       |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification         | Details                                                      |

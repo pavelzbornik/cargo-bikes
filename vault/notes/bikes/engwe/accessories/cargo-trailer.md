@@ -37,17 +37,17 @@ The Engwe Cargo Trailer attaches directly to the [[ENGWE LE20 Cargo]] and provid
 
 This trailer is a brand-specific accessory made by [[Engwe]] for their own bikes. It is designed to pair with the [[ENGWE LE20 Cargo]] and may not be compatible with other brands or frame types without modification.
 
-| Field              | Detail                     |
-|--------------------|----------------------------|
-| Compatible bike    | [[ENGWE LE20 Cargo]]       |
-| Attachment type    | Rear hitch (brand-specific)|
-| Accessory type     | Brand-specific             |
-| Manufacturer       | [[Engwe]]                  |
+| Field           | Detail                      |
+| --------------- | --------------------------- |
+| Compatible bike | [[ENGWE LE20 Cargo]]        |
+| Attachment type | Rear hitch (brand-specific) |
+| Accessory type  | Brand-specific              |
+| Manufacturer    | [[Engwe]]                   |
 
 ## Pricing
 
 | Region | Price Range |
-|--------|-------------|
+| ------ | ----------- |
 | Europe | €150 – €300 |
 
 > Prices may vary by retailer and market. Check the official Engwe website or authorised dealers for current pricing.

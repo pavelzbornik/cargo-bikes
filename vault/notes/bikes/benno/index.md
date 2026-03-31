@@ -1,20 +1,22 @@
 ---
 brand: Benno Bikes
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: Benno Bikes
 type: brand
-summary: Benno Bikes is a cargo bike manufacturer offering diverse models for families
+summary:
+  Benno Bikes is a cargo bike manufacturer offering diverse models for families
   and professionals.
 tags:
-- brand
-- index
-- benno
+  - brand
+  - index
+  - benno
 regions:
-- EU
+  - EU
 distribution_model: retail
 ---
+
 ## Overview
 
 Benno Bikes is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

@@ -5,27 +5,27 @@ type: bike
 brand: Benno Bikes
 model: Boost 10D EVO 5
 tags:
-- bike
-- longtail
-- benno
-- bosch
+  - bike
+  - longtail
+  - benno
+  - bosch
 url: https://bennobikes.com/ebikes/boost/boost-10d/
 image: https://www.ovelo.fr/46051-thickbox_default/-boost-10d-evo-5-500wh.jpg
 resellers:
-- name: Ovelo France
-  url: https://www.ovelo.fr/fr/velo-electrique-longtail/33072-boost-10d-evo-5-500wh.html
-  price: '3206'
-  currency: EUR
-  region: EU
-  availability: in-stock
-  note: EU retailer
-- name: Decathlon France
-  url: https://www.decathlon.fr/p/velo-electrique-longtail-benno-boost-10d-evo-5-400wh-noir/_/R-p-366920
-  price: '2399'
-  currency: EUR
-  region: EU
-  availability: in-stock
-  note: Available in multiple colors, 400Wh variant
+  - name: Ovelo France
+    url: https://www.ovelo.fr/fr/velo-electrique-longtail/33072-boost-10d-evo-5-500wh.html
+    price: "3206"
+    currency: EUR
+    region: EU
+    availability: in-stock
+    note: EU retailer
+  - name: Decathlon France
+    url: https://www.decathlon.fr/p/velo-electrique-longtail-benno-boost-10d-evo-5-400wh-noir/_/R-p-366920
+    price: "2399"
+    currency: EUR
+    region: EU
+    availability: in-stock
+    note: Available in multiple colors, 400Wh variant
 category: longtail
 model_year: 2024
 frame_material: aluminum
@@ -44,9 +44,9 @@ motor_boost_throttle: true
 battery_capacity_wh: 500
 battery_configuration: single
 battery_removable: true
-battery_charging_time_h: '4.5'
+battery_charging_time_h: "4.5"
 drivetrain_type: chain
-drivetrain_speeds: '10'
+drivetrain_speeds: "10"
 brakes_type: hydraulic disc
 wheels_front_size_in: 27.5"
 wheels_rear_size_in: 27.5"
@@ -60,21 +60,21 @@ lights_rear_type: Supernova E3 LED
 lights_rear_integrated: true
 lights_rear_brake_light: true
 features:
-- bosch-smart-system
-- modular-cargo
-- walk-assist
-- integrated-lights
+  - bosch-smart-system
+  - modular-cargo
+  - walk-assist
+  - integrated-lights
 security_gps: false
 security_app_lock: false
 security_frame_lock: true
 range_estimate_km: 50-135
 range_notes: Single 500Wh battery; varies by assist level, load, and terrain
-price_amount: '3206'
+price_amount: "3206"
 price_currency: EUR
-specs_notes: Performance Sport variant with 65Nm torque. Also available in Performance
+specs_notes:
+  Performance Sport variant with 65Nm torque. Also available in Performance
   CX (85Nm) and Performance Speed (85Nm) variants. Multiple battery configurations
   available (400Wh, 500Wh, dual battery options).
-
 ---
 
 ## Overview
@@ -86,21 +86,23 @@ The Benno Boost 10D EVO 5 is a German-engineered electric longtail cargo bike de
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | longtail |
-| **Model Year** | 2024 |
-| **Motor** | Bosch Performance Sport Gen 3 |
-| **Motor Power** | 250W |
-| **Motor Torque** | 65Nm |
-| **Battery Capacity** | 500Wh |
-| **Range** | 50-135 km |
-| **Weight (with battery)** | 26.0kg |
-| **Total Load Capacity** | 200.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | hydraulic disc |
-| **Wheel Size** | 27.5" |
-| **Price** | 3206 EUR |
+
+| Specification             | Value                         |
+| ------------------------- | ----------------------------- |
+| **Category**              | longtail                      |
+| **Model Year**            | 2024                          |
+| **Motor**                 | Bosch Performance Sport Gen 3 |
+| **Motor Power**           | 250W                          |
+| **Motor Torque**          | 65Nm                          |
+| **Battery Capacity**      | 500Wh                         |
+| **Range**                 | 50-135 km                     |
+| **Weight (with battery)** | 26.0kg                        |
+| **Total Load Capacity**   | 200.0kg                       |
+| **Drivetrain**            | chain                         |
+| **Brakes**                | hydraulic disc                |
+| **Wheel Size**            | 27.5"                         |
+| **Price**                 | 3206 EUR                      |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification         | Details                                        |

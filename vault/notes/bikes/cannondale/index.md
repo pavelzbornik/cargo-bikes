@@ -1,44 +1,45 @@
 ---
-date: '2025-10-24'
+date: "2025-10-24"
 title: Cannondale
 type: brand
 url: https://www.cannondale.com
-summary: Cannondale is a global bicycle manufacturer offering electric cargo bikes
+summary:
+  Cannondale is a global bicycle manufacturer offering electric cargo bikes
   designed for urban families and professionals, part of the Dorel Sports portfolio.
 tags:
-- brand
-- american
-- compact-cargo
-- electric
-- bosch
-- family
+  - brand
+  - american
+  - compact-cargo
+  - electric
+  - bosch
+  - family
 founded_year: 1971
 country: United States
 headquarters_city: Bethlehem
 headquarters_country: United States
 categories:
-- compact-cargo
-- longtail
+  - compact-cargo
+  - longtail
 market_segments:
-- urban-families
-- commuters
-- cargo-transport
+  - urban-families
+  - commuters
+  - cargo-transport
 regions:
-- EU
-- North America
-- Asia
+  - EU
+  - North America
+  - Asia
 price_tier: premium
 product_types:
-- bikes
+  - bikes
 model_count: 2
 primary_motors:
-- Bosch
+  - Bosch
 parent_company: Dorel Sports
 distribution_model: both
 regions_active:
-- EU
-- North America
-- Asia
+  - EU
+  - North America
+  - Asia
 direct_sales: true
 dealership_network: true
 value_sustainability: true
@@ -47,11 +48,12 @@ value_community_focus: false
 value_safety_emphasis: true
 value_tech_integration: true
 accessibility:
-- compact-cargo-design
-- dual-battery-ready
-- stable-handling
-- family-transport
+  - compact-cargo-design
+  - dual-battery-ready
+  - stable-handling
+  - family-transport
 ---
+
 ## Overview
 
 Cannondale is a global bicycle manufacturer founded in 1971 and headquartered in Bethlehem, Pennsylvania, United States. As part of the Dorel Sports portfolio, Cannondale operates across diverse market segments from road racing to mountain biking, urban commuting, and cargo transport.

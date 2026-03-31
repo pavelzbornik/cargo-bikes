@@ -51,5 +51,5 @@ As a brand-specific accessory made by [[Yuba]], it is not designed for use with 
 ## Pricing
 
 | Region | Price |
-|--------|-------|
+| ------ | ----- |
 | Europe | €129  |

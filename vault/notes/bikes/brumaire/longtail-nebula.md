@@ -1,30 +1,30 @@
 ---
 date: 2025-10-20
 price: €3,386
-motor: ''
-battery: ''
-range: ''
+motor: ""
+battery: ""
+range: ""
 title: Longtail Nebula
 type: bike
 brand: BRUMAIRE
 model: Nebula
 tags:
-- bike
-- longtail
-- cargo
-- electric
-- brumaire
+  - bike
+  - longtail
+  - cargo
+  - electric
+  - brumaire
 url: https://cycles.brumaire.co/pages/long-tail-bike
 image: https://cdn.shopify.com/s/files/1/0624/3788/4070/files/long-tail-bike-blue.png
 resellers:
-- name: Decathlon France
-  url: https://www.decathlon.fr/p/velo-cargo-electrique-longtail-brumaire-nebula-beige/_/R-p-330068
-  price: '3386'
-  currency: EUR
-  region: EU
-  availability: in-stock
-  note: Available in multiple color variants
-price_amount: '3386'
+  - name: Decathlon France
+    url: https://www.decathlon.fr/p/velo-cargo-electrique-longtail-brumaire-nebula-beige/_/R-p-330068
+    price: "3386"
+    currency: EUR
+    region: EU
+    availability: in-stock
+    note: Available in multiple color variants
+price_amount: "3386"
 price_currency: EUR
 category: longtail
 load_capacity_passenger_count: 3
@@ -38,8 +38,9 @@ range_estimate_km: 70-120
 frame_material: aluminum
 brakes_type: hydraulic disc
 drivetrain_type: chain
-wheels_front_size_in: '24'
+wheels_front_size_in: "24"
 ---
+
 ## Overview
 
 ![Longtail Nebula](https://cdn.shopify.com/s/files/1/0624/3788/4070/files/long-tail-bike-blue.png)
@@ -49,9 +50,11 @@ The BRUMAIRE Nebula is a French-made electric longtail cargo bike designed for c
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Price** | 3386 EUR |
+
+| Specification | Value    |
+| ------------- | -------- |
+| **Price**     | 3386 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Design

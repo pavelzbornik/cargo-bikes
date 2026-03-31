@@ -38,13 +38,13 @@ The mini Monkey Bars kit is a dedicated safety frame that attaches to the rear c
 
 This accessory is **brand-specific** and is designed exclusively for the [[mini Boda Boda]] cargo bike. It is not compatible with other cargo bike brands or models. Always verify compatibility with your specific [[mini Boda Boda]] frame generation before purchasing.
 
-| Field            | Detail              |
-|------------------|---------------------|
-| Compatible Bike  | [[mini Boda Boda]]  |
-| Accessory Type   | Brand-Specific      |
-| Manufacturer     | [[Yuba]]            |
-| Price            | €199                |
-| Category         | Footrests           |
+| Field           | Detail             |
+| --------------- | ------------------ |
+| Compatible Bike | [[mini Boda Boda]] |
+| Accessory Type  | Brand-Specific     |
+| Manufacturer    | [[Yuba]]           |
+| Price           | €199               |
+| Category        | Footrests          |
 
 ## Notes
 

@@ -2,14 +2,14 @@
 title: Specialized 2.2 Cargo
 type: component
 category: motors
-parent: '[[Specialized]]'
-domain: '[[Motors MOC]]'
+parent: "[[Specialized]]"
+domain: "[[Motors MOC]]"
 tags:
-- motor
-- mid-drive
-- specialized
-- cargo
-- ebike-component
+  - motor
+  - mid-drive
+  - specialized
+  - cargo
+  - ebike-component
 generated_by: cargo-bikes-cli
 motor_type: Mid-drive
 nominal_power: 250W
@@ -19,6 +19,7 @@ weight_kg: ~3.5
 standard: EU EN15194 compliant
 connectivity: ANT+, Bluetooth (Mission Control)
 ---
+
 # Specialized 2.2 Cargo
 
 ## Overview
@@ -29,16 +30,16 @@ Unlike the lightweight [[Specialized SL 1.1]] motor (designed for road and light
 
 ## Specifications
 
-| Attribute | Value |
-|---|---|
-| Motor type | Mid-drive |
-| Nominal power (EU) | 250W |
-| Peak power | 530W |
-| Maximum torque | 90 Nm |
-| Assist cut-off speed | 25 km/h (EU) |
-| Connectivity | Bluetooth / ANT+ |
-| App integration | Specialized Mission Control |
-| Approx. motor weight | ~3.5 kg |
+| Attribute            | Value                       |
+| -------------------- | --------------------------- |
+| Motor type           | Mid-drive                   |
+| Nominal power (EU)   | 250W                        |
+| Peak power           | 530W                        |
+| Maximum torque       | 90 Nm                       |
+| Assist cut-off speed | 25 km/h (EU)                |
+| Connectivity         | Bluetooth / ANT+            |
+| App integration      | Specialized Mission Control |
+| Approx. motor weight | ~3.5 kg                     |
 
 > [!note] Data sourced from training data (knowledge cutoff early 2025). Verify peak power and weight figures against current Specialized press materials or geometry/spec sheets for the most accurate values.
 
@@ -50,11 +51,11 @@ Unlike the lightweight [[Specialized SL 1.1]] motor (designed for road and light
 
 The 2.x series sits above the SL (Super Light) family in Specialized's motor lineup:
 
-| Motor | Peak Power | Max Torque | Intended Use |
-|---|---|---|---|
-| [[Specialized SL 1.1]] | 240W | 35 Nm | Road, light trail |
-| [[Specialized 2.1]] | 530W | 90 Nm | Trail, commuter |
-| Specialized 2.2 Cargo | 530W | 90 Nm | Cargo, utility |
+| Motor                  | Peak Power | Max Torque | Intended Use      |
+| ---------------------- | ---------- | ---------- | ----------------- |
+| [[Specialized SL 1.1]] | 240W       | 35 Nm      | Road, light trail |
+| [[Specialized 2.1]]    | 530W       | 90 Nm      | Trail, commuter   |
+| Specialized 2.2 Cargo  | 530W       | 90 Nm      | Cargo, utility    |
 
 The 2.2 Cargo shares its core power figures with the 2.1 but is optimised in firmware and thermal management for the demands of cargo cycling — heavier total system weight, frequent low-speed loaded starts, and sustained hill climbing under load.
 
@@ -66,12 +67,12 @@ The 2.2 Cargo shares its core power figures with the 2.1 but is optimised in fir
 
 ## Comparisons to Alternatives
 
-| Motor | Max Torque | Weight | Notes |
-|---|---|---|---|
-| Specialized 2.2 Cargo | 90 Nm | ~3.5 kg | Proprietary, deep system integration |
-| [[Bosch Cargo Line]] | 85 Nm | 3.9 kg | Industry standard, wide aftermarket support |
-| [[Shimano EP8]] | 85 Nm | 2.6 kg | Lighter, broad compatibility |
-| [[Fazua Ride 60]] | 60 Nm | 1.96 kg | Lightweight only, not cargo-class |
+| Motor                 | Max Torque | Weight  | Notes                                       |
+| --------------------- | ---------- | ------- | ------------------------------------------- |
+| Specialized 2.2 Cargo | 90 Nm      | ~3.5 kg | Proprietary, deep system integration        |
+| [[Bosch Cargo Line]]  | 85 Nm      | 3.9 kg  | Industry standard, wide aftermarket support |
+| [[Shimano EP8]]       | 85 Nm      | 2.6 kg  | Lighter, broad compatibility                |
+| [[Fazua Ride 60]]     | 60 Nm      | 1.96 kg | Lightweight only, not cargo-class           |
 
 The 2.2 Cargo's main advantage is deep integration with Specialized's own software and battery ecosystem. Its main limitation is exclusivity to Specialized platforms — it is not available as an aftermarket or OEM component for other brands.
 

@@ -42,8 +42,9 @@ When mounting the seat, ensure the rear rack supports the combined weight of the
 ## Pricing
 
 | Currency | Price |
-|----------|-------|
+| -------- | ----- |
 | EUR      | €119  |
+
 ```
 
 ---
@@ -58,3 +59,4 @@ When mounting the seat, ensure the rear rack supports the combined weight of the
 | `compatible_bikes` | `[["[Longtail VG Life 672Wh]]"]` | Only the bike you specified |
 | Safety cert | EN 14344 | Current EU standard for child cycle seats |
 | Age/weight | 9 months – 6 years / 22 kg | Standard Thule rear seat range |
+```

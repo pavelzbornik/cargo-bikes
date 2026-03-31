@@ -1,20 +1,22 @@
 ---
 brand: Momentum
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: Momentum
 type: brand
-summary: Momentum is a cargo bike manufacturer offering diverse models for families
+summary:
+  Momentum is a cargo bike manufacturer offering diverse models for families
   and professionals.
 tags:
-- brand
-- index
-- momentum
+  - brand
+  - index
+  - momentum
 regions:
-- EU
+  - EU
 distribution_model: retail
 ---
+
 ## Overview
 
 Momentum is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

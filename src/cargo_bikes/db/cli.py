@@ -93,7 +93,7 @@ def project(
                 session, dry_run=dry_run, bike_id=bike_id
             )
 
-        print(f"\nSummary:")
+        print("\nSummary:")
         print(f"  Successful: {success_count}")
         print(f"  Failed: {fail_count}")
 
@@ -137,7 +137,7 @@ def project_brands(
                 session, vault_path=vault_path, dry_run=dry_run
             )
 
-        print(f"\nSummary:")
+        print("\nSummary:")
         print(f"  Successful: {success_count}")
         print(f"  Failed: {fail_count}")
 

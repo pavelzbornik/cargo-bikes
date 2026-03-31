@@ -2,14 +2,14 @@
 title: Bafang M410
 type: component
 category: motors
-parent: '[[Bafang]]'
-domain: '[[Motors MOC]]'
+parent: "[[Bafang]]"
+domain: "[[Motors MOC]]"
 tags:
-- motor
-- mid-drive
-- bafang
-- cargo-bike
-- ebike
+  - motor
+  - mid-drive
+  - bafang
+  - cargo-bike
+  - ebike
 generated_by: cargo-bikes-cli
 motor_type: Mid-drive (crank motor)
 nominal_power_W: 250
@@ -22,6 +22,7 @@ assist_type: Cadence + torque sensing
 max_speed_kmh: 25
 gear_sensor_input: true
 ---
+
 # Bafang M410
 
 ## Overview
@@ -30,18 +31,18 @@ The Bafang M410 is a mid-drive crank motor from [[Bafang]]'s M-series lineup, po
 
 ## Specs
 
-| Spec | Value |
-|---|---|
-| Motor Type | Mid-drive (crank motor) |
-| Nominal Power | 250 W |
-| Peak Power | ~500 W |
-| Max Torque | 80 Nm |
-| Voltage | 36 V |
-| Weight | ~3.5 kg |
-| Bottom Bracket Shell | 68 / 73 mm BSA threaded |
-| Assist Type | Cadence + torque sensing |
-| Speed Limit (EU) | 25 km/h |
-| Gear Sensor Input | Yes |
+| Spec                 | Value                    |
+| -------------------- | ------------------------ |
+| Motor Type           | Mid-drive (crank motor)  |
+| Nominal Power        | 250 W                    |
+| Peak Power           | ~500 W                   |
+| Max Torque           | 80 Nm                    |
+| Voltage              | 36 V                     |
+| Weight               | ~3.5 kg                  |
+| Bottom Bracket Shell | 68 / 73 mm BSA threaded  |
+| Assist Type          | Cadence + torque sensing |
+| Speed Limit (EU)     | 25 km/h                  |
+| Gear Sensor Input    | Yes                      |
 
 > [!warning] Spec Verification
 > Specs above are based on pre-training knowledge. Verify against the [official Bafang product page](https://www.bafang-e.com) before publishing, as M-series revisions are released periodically.
@@ -56,12 +57,12 @@ The M410 occupies Bafang's mid-range cargo segment — more refined than entry-l
 
 ## Comparisons
 
-| Motor | Torque | Weight | Tier |
-|---|---|---|---|
-| [[Bafang M410]] | 80 Nm | ~3.5 kg | Mid |
-| [[Bafang M620]] | 160 Nm | ~4.0 kg | High |
-| [[Bosch Performance Line Cargo]] | 85 Nm | ~3.2 kg | Mid |
-| [[Shimano EP6]] | 85 Nm | ~2.9 kg | Mid |
+| Motor                            | Torque | Weight  | Tier |
+| -------------------------------- | ------ | ------- | ---- |
+| [[Bafang M410]]                  | 80 Nm  | ~3.5 kg | Mid  |
+| [[Bafang M620]]                  | 160 Nm | ~4.0 kg | High |
+| [[Bosch Performance Line Cargo]] | 85 Nm  | ~3.2 kg | Mid  |
+| [[Shimano EP6]]                  | 85 Nm  | ~2.9 kg | Mid  |
 
 ## Notes
 

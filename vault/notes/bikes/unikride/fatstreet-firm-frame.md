@@ -9,17 +9,17 @@ type: bike
 brand: UNIKRIDE
 model: Fatstreet Limited
 tags:
-- bike
-- cargo-bike
-- two-seater
-- compact
-- unikride
+  - bike
+  - cargo-bike
+  - two-seater
+  - compact
+  - unikride
 url: https://unikride.com/en/products/fatstreet-limited
 image: https://unikride.com/cdn/shop/files/FATSTREET_FIRM_FRAME.jpg
 motor_power_w: 250
 battery_capacity_wh: 960
-range_estimate_km: '120'
-price_amount: '1999'
+range_estimate_km: "120"
+price_amount: "1999"
 price_currency: EUR
 category: compact
 motor_make: Bafang
@@ -28,16 +28,17 @@ load_capacity_passenger_count: 1
 frame_material: steel
 brakes_type: hydraulic disc
 drivetrain_type: chain
-drivetrain_speeds: '7'
-wheels_front_size_in: '20'
-wheels_rear_size_in: '20'
+drivetrain_speeds: "7"
+wheels_front_size_in: "20"
+wheels_rear_size_in: "20"
 suspension_front: none
 suspension_rear: none
 needs_research: true
 research_topics:
-- motor_torque_nm
-- weight_with_battery_kg
+  - motor_torque_nm
+  - weight_with_battery_kg
 ---
+
 ## FATSTREET FIRM FRAME - Limited Edition
 
 ![Fatstreet Firm Frame](https://unikride.com/cdn/shop/files/FATSTREET_FIRM_FRAME.jpg)
@@ -49,12 +50,14 @@ The Fatstreet Limited is UNIKRIDE's compact, value-oriented two-seater electric 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor Power** | 250W |
-| **Battery Capacity** | 960Wh |
-| **Range** | 120 km |
-| **Price** | 1999 EUR |
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Power**      | 250W     |
+| **Battery Capacity** | 960Wh    |
+| **Range**            | 120 km   |
+| **Price**            | 1999 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €1,999 (entry price)

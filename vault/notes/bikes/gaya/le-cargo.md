@@ -7,14 +7,14 @@ type: bike
 brand: Gaya
 model: Le Cargo
 tags:
-- bike
-- longtail
-- gaya
+  - bike
+  - longtail
+  - gaya
 url: https://gaya.bike/velo-cargo/original-cargo
 image: https://gaya.bike/api/medias/api/images/file/Gaya_Cargo_amande-1-1000x623.webp
 category: longtail
 frame_material: steel
-frame_size: '47'
+frame_size: "47"
 weight_bike_kg: 28.5
 weight_with_battery_kg: 31.0
 weight_battery_kg: 2.5
@@ -29,7 +29,7 @@ motor_torque_nm: 50
 battery_capacity_wh: 450
 battery_configuration: single
 battery_removable: true
-battery_charging_time_h: '5'
+battery_charging_time_h: "5"
 drivetrain_type: chain
 drivetrain_speeds: 3+
 brakes_type: hydraulic disc
@@ -43,20 +43,21 @@ lights_rear_type: LED brake light 4 lm
 lights_rear_integrated: true
 lights_rear_brake_light: true
 features:
-- gps-tracking
-- app-integration
-- integrated-display
-- cadence-sensor
+  - gps-tracking
+  - app-integration
+  - integrated-display
+  - cadence-sensor
 security_gps: true
 security_alarm_db: 105
 security_app_lock: true
 security_frame_lock: true
 range_estimate_km: 70-100
 range_notes: Standard battery 70km, Plus battery (600Wh) up to 100km
-price_amount: '2800'
+price_amount: "2800"
 price_currency: EUR
 frame_length_cm: 195.0
 ---
+
 ## Overview
 
 ![Le Cargo](https://gaya.bike/_next/image?url=%2Fimg%2Flogo.png&w=828&q=75)
@@ -66,20 +67,22 @@ Gaya Cargo (marketed as "Le Cargo") represents emerging French brand innovation 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | longtail |
-| **Motor** | Gaya |
-| **Motor Power** | 250W |
-| **Motor Torque** | 50Nm |
-| **Battery Capacity** | 450Wh |
-| **Range** | 70-100 km |
-| **Weight (with battery)** | 31.0kg |
-| **Total Load Capacity** | 160.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | hydraulic disc |
-| **Wheel Size** | 20" |
-| **Price** | 2800 EUR |
+
+| Specification             | Value          |
+| ------------------------- | -------------- |
+| **Category**              | longtail       |
+| **Motor**                 | Gaya           |
+| **Motor Power**           | 250W           |
+| **Motor Torque**          | 50Nm           |
+| **Battery Capacity**      | 450Wh          |
+| **Range**                 | 70-100 km      |
+| **Weight (with battery)** | 31.0kg         |
+| **Total Load Capacity**   | 160.0kg        |
+| **Drivetrain**            | chain          |
+| **Brakes**                | hydraulic disc |
+| **Wheel Size**            | 20"            |
+| **Price**                 | 2800 EUR       |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification                | Details                                     |

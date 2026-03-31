@@ -15,25 +15,25 @@ Insurance for a standard cargo e-bike (≤25 km/h, ≤250W) is **not legally man
 
 ## Master comparison table for a 3,040€ cargo e-bike in Lyon
 
-| Insurer | Est. annual price | Franchise | Vétusté (depreciation) | Vol extérieur 24/7 | Battery stolen alone | Assistance | Protection corporelle | Antivol type |
-|---|---|---|---|---|---|---|---|---|
-| **Laka** | 230–267€ (max) | **0€** | **None ever** | ✅ | ✅ | 200€ envelope | ❌ | Cert (ART 2+, FUB 2+) |
-| **Hepster** | 190–270€ | 0% or 10% choice | **None ever** | ✅ | ❌ if removable | Basic dépannage | ❌ | Cert (FUB 2+, SRA, ART 2+) |
-| **Qover** | 265–275€ (omnium) | 10% (max 200€) | None for 5 years | ✅ | ✅ | **Europ Assist 24/7** | ❌ | Cert (FUB 2+, ART 2+, SRA) |
-| **Sharelock** | 262–325€ | 10% / 5% w/ photo | 2 yr then 1%/mo | ✅ | ✅ | 200€ + Premium tier | ✅ (Confort) | Cert (own list) |
-| **Ulygo** | 210–230€ | 0%/10%/25% | 2 yr then 1%/mo (min 50%) | ✅ | ✅ | ❌ None | ⚠️ Cyclist only option | Cert (FUB 2+, SRA, ART 2) |
-| **Bicytrust PROTECT** | 280–340€ (via shop) | **0€** | 3 yr then 20–50% | ✅ | ❌ | ✅ 24/7 + taxi | ❌ | Cert (FUB 2, ART 2, SRA) |
-| **Bicytrust CONFORT** | 216–249€ (online) | 5% (~152€) | 2 yr then 20–50% | ✅ | ❌ | ✅ 24/7 + taxi | ❌ | Cert (same as PROTECT) |
-| **Coverd** | 180–240€ | 0% casse / 10% vol | 1 yr then 2%/mo (min 30%) | ✅ | ⚠️ Unclear | Repair network | ❌ | Cert (unspecified level) |
-| **Decathlon/Evy** | 240–360€ | 0% casse / **15% vol** | **None ever** | ✅ | ✅ | ⚠️ Optional | ❌ | "Haute sécurité" |
-| **AssurancesVelo** | 240–275€ | 300€ max | 2 yr then unknown | ✅ | ⚠️ Unconfirmed | ✅ 24/7 | ⚠️ Option | **Weight-based** (U≥1.2kg) |
-| **Cyclassur** | 230–280€ | **0€** (if marked) | 10 mo then 1%/mo, no floor | ✅ | ⚠️ Unconfirmed | ✅ 200€ max | ⚠️ 1,000€ forfait | Cert (SRA, FUB 2, ART 3) |
-| **APRIL Moto** | 200–260€ | 5% vol / 10% casse | 1 yr (option 2 yr) | ⚠️ 50% at night | With full theft | ❌ None | ⚠️ Option | Cert (SRA, FUB) |
-| **MAIF** | **350–390€** | 80–125€ | 1 yr then valeur vénale (min 15%) | ✅ | ✅ | ✅ 24/7, 50km | **✅ Cyclist + passengers** | Cert (SRA, FUB 2, ART 2) |
-| **Groupama** | 250–270€ | 140€ | 1%/mo from month 13 | ⚠️ 7h–21h only | ❌ | ❌ None | ❌ | "Agréé" (unspecified) |
-| **Matmut** | ~360–480€ (w/ MRH) | ~10%? | 20% yr2 → 50% yr5 | ⚠️ Option required | ❌ likely | ❌ None | ⚠️ Option 2.90€/mo | Cert (SRA, FUB 2) |
+| Insurer               | Est. annual price   | Franchise              | Vétusté (depreciation)            | Vol extérieur 24/7 | Battery stolen alone | Assistance            | Protection corporelle       | Antivol type               |
+| --------------------- | ------------------- | ---------------------- | --------------------------------- | ------------------ | -------------------- | --------------------- | --------------------------- | -------------------------- |
+| **Laka**              | 230–267€ (max)      | **0€**                 | **None ever**                     | ✅                 | ✅                   | 200€ envelope         | ❌                          | Cert (ART 2+, FUB 2+)      |
+| **Hepster**           | 190–270€            | 0% or 10% choice       | **None ever**                     | ✅                 | ❌ if removable      | Basic dépannage       | ❌                          | Cert (FUB 2+, SRA, ART 2+) |
+| **Qover**             | 265–275€ (omnium)   | 10% (max 200€)         | None for 5 years                  | ✅                 | ✅                   | **Europ Assist 24/7** | ❌                          | Cert (FUB 2+, ART 2+, SRA) |
+| **Sharelock**         | 262–325€            | 10% / 5% w/ photo      | 2 yr then 1%/mo                   | ✅                 | ✅                   | 200€ + Premium tier   | ✅ (Confort)                | Cert (own list)            |
+| **Ulygo**             | 210–230€            | 0%/10%/25%             | 2 yr then 1%/mo (min 50%)         | ✅                 | ✅                   | ❌ None               | ⚠️ Cyclist only option      | Cert (FUB 2+, SRA, ART 2)  |
+| **Bicytrust PROTECT** | 280–340€ (via shop) | **0€**                 | 3 yr then 20–50%                  | ✅                 | ❌                   | ✅ 24/7 + taxi        | ❌                          | Cert (FUB 2, ART 2, SRA)   |
+| **Bicytrust CONFORT** | 216–249€ (online)   | 5% (~152€)             | 2 yr then 20–50%                  | ✅                 | ❌                   | ✅ 24/7 + taxi        | ❌                          | Cert (same as PROTECT)     |
+| **Coverd**            | 180–240€            | 0% casse / 10% vol     | 1 yr then 2%/mo (min 30%)         | ✅                 | ⚠️ Unclear           | Repair network        | ❌                          | Cert (unspecified level)   |
+| **Decathlon/Evy**     | 240–360€            | 0% casse / **15% vol** | **None ever**                     | ✅                 | ✅                   | ⚠️ Optional           | ❌                          | "Haute sécurité"           |
+| **AssurancesVelo**    | 240–275€            | 300€ max               | 2 yr then unknown                 | ✅                 | ⚠️ Unconfirmed       | ✅ 24/7               | ⚠️ Option                   | **Weight-based** (U≥1.2kg) |
+| **Cyclassur**         | 230–280€            | **0€** (if marked)     | 10 mo then 1%/mo, no floor        | ✅                 | ⚠️ Unconfirmed       | ✅ 200€ max           | ⚠️ 1,000€ forfait           | Cert (SRA, FUB 2, ART 3)   |
+| **APRIL Moto**        | 200–260€            | 5% vol / 10% casse     | 1 yr (option 2 yr)                | ⚠️ 50% at night    | With full theft      | ❌ None               | ⚠️ Option                   | Cert (SRA, FUB)            |
+| **MAIF**              | **350–390€**        | 80–125€                | 1 yr then valeur vénale (min 15%) | ✅                 | ✅                   | ✅ 24/7, 50km         | **✅ Cyclist + passengers** | Cert (SRA, FUB 2, ART 2)   |
+| **Groupama**          | 250–270€            | 140€                   | 1%/mo from month 13               | ⚠️ 7h–21h only     | ❌                   | ❌ None               | ❌                          | "Agréé" (unspecified)      |
+| **Matmut**            | ~360–480€ (w/ MRH)  | ~10%?                  | 20% yr2 → 50% yr5                 | ⚠️ Option required | ❌ likely            | ❌ None               | ⚠️ Option 2.90€/mo          | Cert (SRA, FUB 2)          |
 
-*Prices estimated for a 3,040€ cargo e-bike in Lyon based on published tariffs and proportional extrapolation from comparison sites (transitionvelo.com, philtr.fr). Lyon prices are typically 5–15% lower than Paris. Laka's prices are maximums — actual charges are often lower due to their mutualized model.*
+_Prices estimated for a 3,040€ cargo e-bike in Lyon based on published tariffs and proportional extrapolation from comparison sites (transitionvelo.com, philtr.fr). Lyon prices are typically 5–15% lower than Paris. Laka's prices are maximums — actual charges are often lower due to their mutualized model._
 
 ---
 

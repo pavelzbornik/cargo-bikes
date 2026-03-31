@@ -9,11 +9,11 @@ type: bike
 brand: Trek
 model: Fetch+ 2
 tags:
-- bike
-- longtail
-- electric
-- trek
-- bosch
+  - bike
+  - longtail
+  - electric
+  - trek
+  - bosch
 url: https://www.trekbikes.com/
 category: longtail
 frame_material: aluminum
@@ -34,9 +34,9 @@ wheels_tire: Schwalbe Pick-Up
 suspension_front: rigid
 suspension_rear: rigid
 features:
-- bosch-cx
-- integrated-lights
-- phone-integration
+  - bosch-cx
+  - integrated-lights
+  - phone-integration
 security_gps: false
 security_app_lock: false
 range_estimate_km: up to 150
@@ -47,6 +47,7 @@ motor_power_w: 250
 motor_torque_nm: 85
 weight_with_battery_kg: 31.0
 ---
+
 ## Overview
 
 The Trek Fetch+ 2 is a premium American longtail electric cargo bike designed for families seeking robust cargo carrying with excellent performance. Featuring the advanced Bosch Performance Line CX motor and 500Wh battery, this bike delivers impressive range (up to 150 km) and responsive assistance. The aluminum frame construction, 20-inch Schwalbe tires, and comprehensive component spec make it suitable for varied terrain and weather conditions. Designed for North American markets with extensive accessory ecosystem available.
@@ -54,17 +55,19 @@ The Trek Fetch+ 2 is a premium American longtail electric cargo bike designed fo
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | longtail |
-| **Motor** | Bosch Performance Line CX |
-| **Battery Capacity** | 500Wh |
-| **Range** | up to 150 km |
-| **Total Load Capacity** | 180.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | hydraulic 4-piston disc |
-| **Wheel Size** | 20" |
-| **Price** | Premium range EUR |
+
+| Specification           | Value                     |
+| ----------------------- | ------------------------- |
+| **Category**            | longtail                  |
+| **Motor**               | Bosch Performance Line CX |
+| **Battery Capacity**    | 500Wh                     |
+| **Range**               | up to 150 km              |
+| **Total Load Capacity** | 180.0kg                   |
+| **Drivetrain**          | chain                     |
+| **Brakes**              | hydraulic 4-piston disc   |
+| **Wheel Size**          | 20"                       |
+| **Price**               | Premium range EUR         |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

@@ -5,22 +5,23 @@ type: bike
 brand: Peugeot
 model: e-Longtail
 tags:
-- bike
-- longtail
-- peugeot
-- shimano
-- electric-assist
+  - bike
+  - longtail
+  - peugeot
+  - shimano
+  - electric-assist
 url: https://lesveloselectriques.fr/peugeot-e-longtail/
 image: https://lesveloselectriques.fr/wp-content/uploads/2024/08/avis-e-longtail-peugeot-1140x694.webp
 resellers:
-- name: Peugeot Cycles Official
-  url: https://www.peugeot.com
-  price: '3599'
-  currency: EUR
-  region: Europe (France)
-  availability: in-stock
-  note: 'Currently available at special promotional price due to Beweel liquidation
-    (original MSRP: €5100). Assembled in France. Payment plans available (3x or 4x).'
+  - name: Peugeot Cycles Official
+    url: https://www.peugeot.com
+    price: "3599"
+    currency: EUR
+    region: Europe (France)
+    availability: in-stock
+    note:
+      "Currently available at special promotional price due to Beweel liquidation
+      (original MSRP: €5100). Assembled in France. Payment plans available (3x or 4x)."
 category: longtail
 model_year: 2024
 frame_material: aluminum
@@ -40,9 +41,9 @@ motor_boost_throttle: true
 battery_capacity_wh: 630
 battery_configuration: single
 battery_removable: false
-battery_charging_time_h: '6'
+battery_charging_time_h: "6"
 drivetrain_type: chain
-drivetrain_speeds: '10'
+drivetrain_speeds: "10"
 drivetrain_hub: Shimano Cues Di2 (automatic)
 brakes_type: hydraulic disc
 brakes_front_rotor_mm: 180
@@ -59,23 +60,24 @@ lights_rear_type: integrated LED
 lights_rear_integrated: true
 lights_rear_brake_light: true
 features:
-- shimano-cargo-motor
-- automatic-transmission
-- family-equipped
-- vertical-storage
-- walk-assist
+  - shimano-cargo-motor
+  - automatic-transmission
+  - family-equipped
+  - vertical-storage
+  - walk-assist
 security_gps: false
 security_app_lock: false
 security_frame_lock: true
 range_estimate_km: 50-90
-range_notes: Depends on assist level (ECO, TRAIL, BOOST), passenger weight, terrain,
+range_notes:
+  Depends on assist level (ECO, TRAIL, BOOST), passenger weight, terrain,
   and conditions
-price_amount: '3599'
+price_amount: "3599"
 price_currency: EUR
-specs_notes: Collaboration between Peugeot Cycles and Douze Cycles. Frame manufactured
+specs_notes:
+  Collaboration between Peugeot Cycles and Douze Cycles. Frame manufactured
   in Portugal. Comes pre-equipped with rear seats, footrests, and side tubes for passenger
   comfort. Special promotional pricing available through December 2024.
-
 ---
 
 ## Peugeot e-Longtail
@@ -302,19 +304,21 @@ The Peugeot e-Longtail is a family-focused electric longtail cargo bike develope
 - **App connectivity:** Shimano E-tube Project (iOS/Android)
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | longtail |
-| **Model Year** | 2024 |
-| **Motor** | Shimano EP6 Cargo |
-| **Motor Power** | 250W |
-| **Motor Torque** | 85Nm |
-| **Battery Capacity** | 630Wh |
-| **Range** | 50-90 km |
-| **Weight (with battery)** | 32.5kg |
-| **Total Load Capacity** | 200.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | hydraulic disc |
-| **Wheel Size** | 24" |
-| **Price** | 3599 EUR |
+
+| Specification             | Value             |
+| ------------------------- | ----------------- |
+| **Category**              | longtail          |
+| **Model Year**            | 2024              |
+| **Motor**                 | Shimano EP6 Cargo |
+| **Motor Power**           | 250W              |
+| **Motor Torque**          | 85Nm              |
+| **Battery Capacity**      | 630Wh             |
+| **Range**                 | 50-90 km          |
+| **Weight (with battery)** | 32.5kg            |
+| **Total Load Capacity**   | 200.0kg           |
+| **Drivetrain**            | chain             |
+| **Brakes**                | hydraulic disc    |
+| **Wheel Size**            | 24"               |
+| **Price**                 | 3599 EUR          |
+
 <!-- BIKE_SPECS_TABLE_END -->

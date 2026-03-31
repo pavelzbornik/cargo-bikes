@@ -2,14 +2,14 @@
 title: Bosch Performance Sport Gen 3
 type: component
 category: motors
-parent: '[[Bosch]]'
-domain: '[[Motors MOC]]'
+parent: "[[Bosch]]"
+domain: "[[Motors MOC]]"
 tags:
-- motor
-- bosch
-- mid-drive
-- smart-system
-- ebike-component
+  - motor
+  - bosch
+  - mid-drive
+  - smart-system
+  - ebike-component
 generated_by: cargo-bikes-cli
 torque_nm: 55
 nominal_power_w: 250
@@ -20,22 +20,23 @@ cadence_range_rpm: 40-100
 release_year: 2023
 system: Smart System
 ---
+
 # Bosch Performance Sport Gen 3
 
 Mid-drive motor by [[Bosch]], part of the Bosch Smart System ecosystem. Positioned as the performance-oriented fitness and trekking motor — a quieter, lighter alternative to the [[Bosch Performance CX]] for road, urban, and cargo applications that do not require maximum trail torque.
 
 ## Specifications
 
-| Spec | Value |
-|---|---|
-| Peak Torque | 55 Nm |
-| Nominal Power | 250 W |
-| Peak Power | ~340 W |
-| Weight | ~2.9 kg |
-| Max Assist Speed | 25 km/h (EU) |
-| Cadence Range | ~40–100 RPM |
-| System Generation | Bosch Smart System |
-| Release Year | 2023 (wide availability) |
+| Spec              | Value                    |
+| ----------------- | ------------------------ |
+| Peak Torque       | 55 Nm                    |
+| Nominal Power     | 250 W                    |
+| Peak Power        | ~340 W                   |
+| Weight            | ~2.9 kg                  |
+| Max Assist Speed  | 25 km/h (EU)             |
+| Cadence Range     | ~40–100 RPM              |
+| System Generation | Bosch Smart System       |
+| Release Year      | 2023 (wide availability) |
 
 ## Compatibility
 
@@ -60,21 +61,21 @@ Mid-drive motor by [[Bosch]], part of the Bosch Smart System ecosystem. Position
 
 ## Generation Comparison
 
-| Spec | Gen 2 | Gen 3 |
-|---|---|---|
-| Torque | 50 Nm | 55 Nm |
-| Weight | ~3.0–3.2 kg | ~2.9 kg |
-| Noise | Audible hum | Significantly quieter |
-| System | Legacy System | Smart System only |
+| Spec            | Gen 2                   | Gen 3                   |
+| --------------- | ----------------------- | ----------------------- |
+| Torque          | 50 Nm                   | 55 Nm                   |
+| Weight          | ~3.0–3.2 kg             | ~2.9 kg                 |
+| Noise           | Audible hum             | Significantly quieter   |
+| System          | Legacy System           | Smart System only       |
 | App integration | eBike Connect (limited) | Flow app, full BLE, OTA |
 
 ## Alternatives
 
-| Motor | Torque | Best For |
-|---|---|---|
-| [[Bosch Performance CX]] | 85 Nm | eMTB, aggressive off-road |
-| [[Shimano EP8]] | 85 Nm | eMTB, cargo, versatile |
-| [[Yamaha PW-S2]] | 80 Nm | Trekking, cargo |
+| Motor                    | Torque | Best For                  |
+| ------------------------ | ------ | ------------------------- |
+| [[Bosch Performance CX]] | 85 Nm  | eMTB, aggressive off-road |
+| [[Shimano EP8]]          | 85 Nm  | eMTB, cargo, versatile    |
+| [[Yamaha PW-S2]]         | 80 Nm  | Trekking, cargo           |
 
 ## Notes
 

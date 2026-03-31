@@ -5,26 +5,26 @@ type: bike
 brand: Riese & Müller
 model: Multitinker Touring
 tags:
-- bike
-- longtail
-- riese-muller
-- bosch
-- electric
+  - bike
+  - longtail
+  - riese-muller
+  - bosch
+  - electric
 url: https://www.riesemüller.com/
 image: https://propelbikes.com/wp-content/uploads/2023/08/riese-muller-multicharger2-GT-family-utility-gray-curry-matte.jpg
 resellers:
-- name: Riese & Müller Official
-  url: https://www.riesemüller.com/
-  price: '5749'
-  currency: EUR
-  region: EU
-  availability: in-stock
-- name: Shop Roulez Jeunesse
-  url: https://shop.roulezjeunesse.com/products/riese-muller-multitinker-touring-1
-  price: '5749'
-  currency: EUR
-  region: EU
-  availability: in-stock
+  - name: Riese & Müller Official
+    url: https://www.riesemüller.com/
+    price: "5749"
+    currency: EUR
+    region: EU
+    availability: in-stock
+  - name: Shop Roulez Jeunesse
+    url: https://shop.roulezjeunesse.com/products/riese-muller-multitinker-touring-1
+    price: "5749"
+    currency: EUR
+    region: EU
+    availability: in-stock
 category: longtail
 model_year: 2025
 frame_material: aluminum
@@ -47,7 +47,7 @@ battery_capacity_wh: 625
 battery_configuration: single
 battery_removable: true
 drivetrain_type: chain
-drivetrain_speeds: '10'
+drivetrain_speeds: "10"
 drivetrain_hub: Shimano Deore
 brakes_type: hydraulic disc
 brakes_pistons: MT4/MT5
@@ -63,20 +63,20 @@ lights_rear_type: Supernova rear light
 lights_rear_integrated: true
 lights_rear_brake_light: true
 features:
-- bosch-performance-line-cx
-- german-engineering
-- compact-longtail
-- mik-hd-compatible
+  - bosch-performance-line-cx
+  - german-engineering
+  - compact-longtail
+  - mik-hd-compatible
 security_gps: false
 security_app_lock: false
 security_frame_lock: false
 range_estimate_km: 50-120
 range_notes: 625 Wh battery, eco to turbo modes
-price_amount: '5749'
+price_amount: "5749"
 price_currency: EUR
-specs_notes: 'Premium German engineering. Available in three variants: Touring (dérailleur),
-  Silent (belt), and Vario (Enviolo).'
-
+specs_notes:
+  "Premium German engineering. Available in three variants: Touring (dérailleur),
+  Silent (belt), and Vario (Enviolo)."
 ---
 
 ## Riese & Müller Multitinker Touring
@@ -92,21 +92,23 @@ The Multitinker Touring is the dérailleur version of Riese & Müller's compact 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | longtail |
-| **Model Year** | 2025 |
-| **Motor** | Bosch Performance Line CX |
-| **Motor Power** | 250W |
-| **Motor Torque** | 85Nm |
-| **Battery Capacity** | 625Wh |
-| **Range** | 50-120 km |
-| **Weight (with battery)** | 35.0kg |
-| **Total Load Capacity** | 200.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | hydraulic disc |
-| **Wheel Size** | 20" |
-| **Price** | 5749 EUR |
+
+| Specification             | Value                     |
+| ------------------------- | ------------------------- |
+| **Category**              | longtail                  |
+| **Model Year**            | 2025                      |
+| **Motor**                 | Bosch Performance Line CX |
+| **Motor Power**           | 250W                      |
+| **Motor Torque**          | 85Nm                      |
+| **Battery Capacity**      | 625Wh                     |
+| **Range**                 | 50-120 km                 |
+| **Weight (with battery)** | 35.0kg                    |
+| **Total Load Capacity**   | 200.0kg                   |
+| **Drivetrain**            | chain                     |
+| **Brakes**                | hydraulic disc            |
+| **Wheel Size**            | 20"                       |
+| **Price**                 | 5749 EUR                  |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

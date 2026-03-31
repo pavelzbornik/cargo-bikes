@@ -5,20 +5,20 @@ type: bike
 brand: E-Mog
 model: E-City
 tags:
-- bike
-- longtail
-- e-mog
-- bafang
+  - bike
+  - longtail
+  - e-mog
+  - bafang
 url: https://www.emog-bikes.com/produit/velo-cargo-electrique-e-city/
 image: https://i0.wp.com/www.emog-bikes.com/wp-content/uploads/2020/04/velo-cargo-electrique-ville-3.jpg?fit=1124%2C1124&ssl=1
 resellers:
-- name: E-Mog Bikes Official
-  url: https://www.emog-bikes.com/produit/velo-cargo-electrique-e-city/
-  price: '2633'
-  currency: EUR
-  region: EU (France)
-  availability: in-stock
-  note: Free delivery in mainland France
+  - name: E-Mog Bikes Official
+    url: https://www.emog-bikes.com/produit/velo-cargo-electrique-e-city/
+    price: "2633"
+    currency: EUR
+    region: EU (France)
+    availability: in-stock
+    note: Free delivery in mainland France
 category: longtail
 frame_material: steel
 frame_size: one size
@@ -47,24 +47,26 @@ lights_rear_type: LED brake light
 lights_rear_integrated: true
 lights_rear_brake_light: true
 features:
-- low-center-gravity
-- compact-design
-- walk-assist
-- waterproof-cabling
-- integrated-kickstand
+  - low-center-gravity
+  - compact-design
+  - walk-assist
+  - waterproof-cabling
+  - integrated-kickstand
 security_gps: false
 security_app_lock: false
 security_frame_lock: true
-range_estimate_km: '100'
+range_estimate_km: "100"
 range_notes: Up to 100+ km depending on usage and assist level
-price_amount: '2633'
+price_amount: "2633"
 price_currency: EUR
-specs_notes: European assembly, Bicycode marking included. Sub-2m wheelbase for urban
+specs_notes:
+  European assembly, Bicycode marking included. Sub-2m wheelbase for urban
   maneuverability despite robust cargo capacity.
 needs_research: true
 research_topics:
-- weight_with_battery_kg
+  - weight_with_battery_kg
 ---
+
 ## E-Mog E-City
 
 ![E-Mog E-City](https://i0.wp.com/www.emog-bikes.com/wp-content/uploads/2020/04/velo-cargo-electrique-ville-3.jpg?fit=1124%2C1124&ssl=1)
@@ -247,17 +249,19 @@ The E-City arrives fully equipped—no need to purchase brake lights, mudguards,
 The E-Mog E-City fills a specific niche in the compact cargo e-bike market: European-built, reliable engineering at accessible pricing (sub-€2,700), with genuine dual-child transport capacity despite its sub-2-meter wheelbase. The focus on simplicity, repairability, and included accessories reflects E-Mog's philosophy. The 840 Wh battery is notably generous for the segment, supporting long urban routes with children and cargo. The 20" wheel sizing provides low-center-gravity stability but may feel compact to riders accustomed to larger wheelbases.
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | longtail |
-| **Motor** | Bafang |
-| **Motor Power** | 250W |
-| **Motor Torque** | 80Nm |
-| **Battery Capacity** | 840Wh |
-| **Range** | 100 km |
-| **Total Load Capacity** | 158.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | hydraulic disc |
-| **Wheel Size** | 20" |
-| **Price** | 2633 EUR |
+
+| Specification           | Value          |
+| ----------------------- | -------------- |
+| **Category**            | longtail       |
+| **Motor**               | Bafang         |
+| **Motor Power**         | 250W           |
+| **Motor Torque**        | 80Nm           |
+| **Battery Capacity**    | 840Wh          |
+| **Range**               | 100 km         |
+| **Total Load Capacity** | 158.0kg        |
+| **Drivetrain**          | chain          |
+| **Brakes**              | hydraulic disc |
+| **Wheel Size**          | 20"            |
+| **Price**               | 2633 EUR       |
+
 <!-- BIKE_SPECS_TABLE_END -->

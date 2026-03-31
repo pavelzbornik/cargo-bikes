@@ -5,10 +5,10 @@ type: bike
 brand: Yuba
 model: Spicy Curry+
 tags:
-- bike
-- longtail
-- yuba
-- bosch
+  - bike
+  - longtail
+  - yuba
+  - bosch
 url: https://yubabikes.eu/product/spicy-curry-plus/
 image: https://yubabikes.eu/wp-content/uploads/2024/10/Spicy-Curry-True-Blue-No-BG.png
 category: longtail
@@ -29,17 +29,19 @@ brakes_type: hydraulic disc
 wheels_front_size_in: 26"
 wheels_rear_size_in: 20"
 wheels_tire: Schwalbe Smart Sam Plus
-suspension_front: 'yes'
+suspension_front: "yes"
 suspension_rear: none
-range_estimate_km: '60'
-price_amount: '5849'
+range_estimate_km: "60"
+price_amount: "5849"
 price_currency: EUR
-specs_notes: Migrated from legacy format. Premium longtail version with enhanced features
+specs_notes:
+  Migrated from legacy format. Premium longtail version with enhanced features
   and comfort upgrades.
 needs_research: true
 research_topics:
-- motor_torque_nm
+  - motor_torque_nm
 ---
+
 ## Spicy Curry+
 
 ![Spicy Curry+](https://yubabikes.eu/wp-content/uploads/2024/10/Spicy-Curry-True-Blue-No-BG.png)
@@ -51,19 +53,21 @@ The Spicy Curry+ is an enhanced version of the Spicy Curry longtail, offering pr
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | longtail |
-| **Motor** | Bosch Cargo Line |
-| **Motor Power** | 500W |
-| **Battery Capacity** | 500Wh |
-| **Range** | 60 km |
-| **Weight (with battery)** | 32.0kg |
-| **Total Load Capacity** | 200.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | hydraulic disc |
-| **Wheel Size** | Front: 26", Rear: 20" |
-| **Price** | 5849 EUR |
+
+| Specification             | Value                 |
+| ------------------------- | --------------------- |
+| **Category**              | longtail              |
+| **Motor**                 | Bosch Cargo Line      |
+| **Motor Power**           | 500W                  |
+| **Battery Capacity**      | 500Wh                 |
+| **Range**                 | 60 km                 |
+| **Weight (with battery)** | 32.0kg                |
+| **Total Load Capacity**   | 200.0kg               |
+| **Drivetrain**            | chain                 |
+| **Brakes**                | hydraulic disc        |
+| **Wheel Size**            | Front: 26", Rear: 20" |
+| **Price**                 | 5849 EUR              |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €5,849.00

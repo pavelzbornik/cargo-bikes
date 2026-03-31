@@ -7,8 +7,9 @@ for each item before writing changes.
 from __future__ import annotations
 
 import sys
+from collections.abc import Callable
 from dataclasses import dataclass
-from typing import Any, Callable, Generic, TypeVar
+from typing import Generic, TypeVar
 
 from rich.console import Console
 from rich.panel import Panel
@@ -105,7 +106,9 @@ def run_review_session(
                     try:
                         updated = rerun_callback(item.data, hint)
                         item.data = updated
-                        console.print("[yellow]↻ Re-run complete. Review again.[/yellow]")
+                        console.print(
+                            "[yellow]↻ Re-run complete. Review again.[/yellow]"
+                        )
                     except Exception as e:
                         console.print(f"[red]Re-run failed: {e}[/red]")
                 continue

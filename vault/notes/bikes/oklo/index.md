@@ -1,20 +1,22 @@
 ---
 brand: OKLÖ
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: OKLÖ
 type: brand
-summary: OKLÖ is a cargo bike manufacturer offering diverse models for families and
+summary:
+  OKLÖ is a cargo bike manufacturer offering diverse models for families and
   professionals.
 tags:
-- brand
-- index
-- oklo
+  - brand
+  - index
+  - oklo
 regions:
-- EU
+  - EU
 distribution_model: both
 ---
+
 ## Overview
 
 OKLÖ is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

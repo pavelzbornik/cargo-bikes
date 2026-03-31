@@ -52,10 +52,10 @@ The Bobike One Junior is a **universal** accessory, compatible with any bike fit
 
 ## Pricing
 
-| Price | Notes |
-|---|---|
+| Price  | Notes              |
+| ------ | ------------------ |
 | €67.99 | Current sale price |
-| €80.00 | Original RRP |
+| €80.00 | Original RRP       |
 
 ## Notes
 
@@ -66,6 +66,7 @@ The Bobike One Junior is a **universal** accessory, compatible with any bike fit
 ---
 
 **Key decisions made:**
+
 - `manufacturer: "[[Bobike]]"` — Bobike is the accessory brand, not a bike manufacturer, so it correctly gets its own wikilink as a third-party maker
 - `accessory_type: universal` — fits any standard rear rack across brands
 - `price_original_amount: 80.00` added as a flat field to capture the "from €80.00" original RRP alongside the sale price

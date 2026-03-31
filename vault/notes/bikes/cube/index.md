@@ -1,22 +1,24 @@
 ---
 brand: Cube
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: Cube
 type: brand
-summary: Cube is a cargo bike manufacturer offering diverse models for families and
+summary:
+  Cube is a cargo bike manufacturer offering diverse models for families and
   professionals.
 tags:
-- brand
-- index
-- cube
+  - brand
+  - index
+  - cube
 regions:
-- EU
+  - EU
 categories:
-- longtail
+  - longtail
 distribution_model: both
 ---
+
 ## Overview
 
 Cube is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.

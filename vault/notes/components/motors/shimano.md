@@ -2,15 +2,15 @@
 title: Shimano
 type: component-manufacturer
 category: motors
-parent: '[[Motors MOC]]'
-domain: '[[Motors MOC]]'
+parent: "[[Motors MOC]]"
+domain: "[[Motors MOC]]"
 tags:
-- motors
-- shimano
-- steps
-- mid-drive
-- cargo-bike
-- manufacturer
+  - motors
+  - shimano
+  - steps
+  - mid-drive
+  - cargo-bike
+  - manufacturer
 generated_by: cargo-bikes-cli
 brand: Shimano
 system_name: STEPS
@@ -22,6 +22,7 @@ flagship_weight_kg: 2.7
 cargo_variants: true
 di2_compatible: true
 ---
+
 # Shimano
 
 Shimano is a Japanese multinational manufacturer founded in 1921, headquartered in Sakai, Osaka. Originally and still primarily known for bicycle drivetrain components (groupsets, derailleurs, brakes), Shimano entered the e-bike market with its **STEPS** (Shimano Total Electric Power System) mid-drive motor platform. Their deep integration between motor and drivetrain — particularly via **Di2** electronic shifting — is a distinguishing competitive advantage.
@@ -38,15 +39,15 @@ As of 2025–2026, Shimano holds an estimated ~13% share of the mid-drive e-bike
 
 The current top-tier STEPS motor, successor to the EP8.
 
-| Spec | Value |
-|---|---|
-| Nominal power | 250 W (EU limit) |
-| Peak power | 600 W |
-| Max torque | 85 Nm |
-| Weight | 2.68 kg |
-| Casing | Magnesium alloy |
+| Spec           | Value                        |
+| -------------- | ---------------------------- |
+| Nominal power  | 250 W (EU limit)             |
+| Peak power     | 600 W                        |
+| Max torque     | 85 Nm                        |
+| Weight         | 2.68 kg                      |
+| Casing         | Magnesium alloy              |
 | Di2 compatible | Yes (FREE SHIFT, AUTO SHIFT) |
-| Cargo variant | Yes (DU-EP801-C) |
+| Cargo variant  | Yes (DU-EP801-C)             |
 
 The EP801 is lighter than comparable Bosch and Brose units. A cargo variant is available, tuned for stronger low-cadence support. Compatible with Shimano's Di2 drivetrain for automatic and semi-automatic electronic gear shifting.
 
@@ -54,13 +55,13 @@ The EP801 is lighter than comparable Bosch and Brose units. A cargo variant is a
 
 Mid-range STEPS motor offering near-flagship performance at a lower price point.
 
-| Spec | Value |
-|---|---|
-| Nominal power | 250 W |
-| Max torque | 85 Nm |
-| Weight | 3.0 kg |
-| Di2 compatible | Yes (CUES Di2, XT Di2) |
-| Cargo variant | Yes |
+| Spec           | Value                          |
+| -------------- | ------------------------------ |
+| Nominal power  | 250 W                          |
+| Max torque     | 85 Nm                          |
+| Weight         | 3.0 kg                         |
+| Di2 compatible | Yes (CUES Di2, XT Di2)         |
+| Cargo variant  | Yes                            |
 | Fine Tune Mode | 15 customizable support levels |
 
 The EP6 shares the same 85 Nm torque ceiling as the EP801 at approximately 300 g more weight. Frequently specified on urban cargo bikes as a cost-effective option.
@@ -69,10 +70,10 @@ The EP6 shares the same 85 Nm torque ceiling as the EP801 at approximately 300 g
 
 Urban-focused, entry-level cargo-compatible motor.
 
-| Spec | Value |
-|---|---|
-| Nominal power | 250 W |
-| Max torque | 60 Nm |
+| Spec          | Value             |
+| ------------- | ----------------- |
+| Nominal power | 250 W             |
+| Max torque    | 60 Nm             |
 | Cargo variant | Yes (E6100 Cargo) |
 
 Used on city e-bikes and lighter cargo applications. The cargo variant is optimized for low-speed load starting.
@@ -81,11 +82,11 @@ Used on city e-bikes and lighter cargo applications. The cargo variant is optimi
 
 Entry-level STEPS system aimed at city and trekking bikes.
 
-| Spec | Value |
-|---|---|
-| Max torque | 40 Nm |
-| Application | City / trekking |
-| Cargo variant | No |
+| Spec          | Value           |
+| ------------- | --------------- |
+| Max torque    | 40 Nm           |
+| Application   | City / trekking |
+| Cargo variant | No              |
 
 Lower torque output; not typically specified for heavy-duty cargo use.
 
@@ -101,13 +102,13 @@ This integration is particularly relevant for cargo bikes where riders frequentl
 
 ## Market Position
 
-| Attribute | Shimano STEPS | Bosch (reference) |
-|---|---|---|
-| Flagship torque | 85 Nm | 85 Nm (CX Gen 5) |
-| Flagship weight | 2.68 kg | ~2.9 kg |
-| Drivetrain integration | Native Di2 | Bosch-proprietary |
-| Cargo-specific models | Yes | Yes (Cargo Line) |
-| Market share (2025 est.) | ~13% | Dominant |
+| Attribute                | Shimano STEPS | Bosch (reference) |
+| ------------------------ | ------------- | ----------------- |
+| Flagship torque          | 85 Nm         | 85 Nm (CX Gen 5)  |
+| Flagship weight          | 2.68 kg       | ~2.9 kg           |
+| Drivetrain integration   | Native Di2    | Bosch-proprietary |
+| Cargo-specific models    | Yes           | Yes (Cargo Line)  |
+| Market share (2025 est.) | ~13%          | Dominant          |
 
 Shimano's primary advantages over Bosch are **lower motor weight** and **native drivetrain integration**. Bosch leads on brand recognition, wider OEM adoption, and a broader ecosystem of displays and connectivity accessories.
 

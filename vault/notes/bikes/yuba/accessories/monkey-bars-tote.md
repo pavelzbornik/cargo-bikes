@@ -50,7 +50,7 @@ This accessory is designed specifically for [[Yuba]] cargo bikes equipped with t
 ## Pricing
 
 | Region | Price |
-|--------|-------|
+| ------ | ----- |
 | Europe | €39   |
 
 ## Notes

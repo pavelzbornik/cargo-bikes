@@ -1,5 +1,5 @@
 ---
-date: '2025-10-20'
+date: "2025-10-20"
 price: 3999
 motor: Bosch Cargo Line 85 Nm
 battery: 400 Wh
@@ -9,23 +9,23 @@ type: bike
 brand: Tern
 model: Quick Haul Long D9
 tags:
-- bike
-- cargo
-- tern
-- e-bike
-- electric
-- family
-- bosch
-- longtail
+  - bike
+  - cargo
+  - tern
+  - e-bike
+  - electric
+  - family
+  - bosch
+  - longtail
 url: https://www.ternbicycles.com/en/bikes/471/quick-haul-long-d9
 image: https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2024-06/TN-photo-QuickHaulLong-D9-gen1-LR-profile-traffic_red-web.jpg.webp
 resellers:
-- name: Cyclable
-  url: https://www.cyclable.com/18602-velo-cargo-electrique-tern-quick-haul-long-d9.html
-  price: '3999'
-  currency: EUR
-  region: EU
-  availability: in-stock
+  - name: Cyclable
+    url: https://www.cyclable.com/18602-velo-cargo-electrique-tern-quick-haul-long-d9.html
+    price: "3999"
+    currency: EUR
+    region: EU
+    availability: in-stock
 frame_material: aluminum
 frame_length_cm: 186.0
 weight_with_battery_kg: 29.0
@@ -40,16 +40,17 @@ brakes_type: hydraulic disc
 wheels_front_size_in: 20"
 wheels_rear_size_in: 20"
 wheels_tire: Schwalbe Pick Up
-suspension_front: 'yes'
+suspension_front: "yes"
 suspension_rear: none
 range_estimate_km: 42-85
-price_amount: '3999'
+price_amount: "3999"
 needs_research: true
 research_topics:
-- category
-- motor_power_w
-- price_currency
+  - category
+  - motor_power_w
+  - price_currency
 ---
+
 ## Overview
 
 ![Quick Haul Long D9](https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2024-06/TN-photo-QuickHaulLong-D9-gen1-LR-profile-traffic_red-web.jpg.webp)
@@ -68,17 +69,19 @@ The D9 represents the entry-level configuration of the Quick Haul Long platform,
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Motor** | Bosch Cargo Line 85 Nm |
-| **Motor Torque** | 85Nm |
-| **Battery Capacity** | 400Wh |
-| **Range** | 42-85 km |
-| **Weight (with battery)** | 29.0kg |
-| **Total Load Capacity** | 190.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | hydraulic disc |
-| **Wheel Size** | 20" |
+
+| Specification             | Value                  |
+| ------------------------- | ---------------------- |
+| **Motor**                 | Bosch Cargo Line 85 Nm |
+| **Motor Torque**          | 85Nm                   |
+| **Battery Capacity**      | 400Wh                  |
+| **Range**                 | 42-85 km               |
+| **Weight (with battery)** | 29.0kg                 |
+| **Total Load Capacity**   | 190.0kg                |
+| **Drivetrain**            | chain                  |
+| **Brakes**                | hydraulic disc         |
+| **Wheel Size**            | 20"                    |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Frame

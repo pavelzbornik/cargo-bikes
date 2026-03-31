@@ -2,17 +2,17 @@
 title: Shimano E6100
 type: component
 category: motors
-parent: '[[Shimano]]'
-domain: '[[Motors MOC]]'
+parent: "[[Shimano]]"
+domain: "[[Motors MOC]]"
 generated_by: cargo-bikes-cli
 tags:
-- motor
-- shimano
-- mid-drive
-- steps
-- e6100
-- urban
-- trekking
+  - motor
+  - shimano
+  - mid-drive
+  - steps
+  - e6100
+  - urban
+  - trekking
 motor_type: Mid-drive (bottom bracket)
 series: Shimano STEPS
 max_torque_nm: 60
@@ -23,6 +23,7 @@ max_cadence_rpm: 100
 battery_interface: Shimano STEPS (internal/external)
 connectivity: E-tube (wired Di2 compatible)
 ---
+
 # Shimano E6100
 
 ## Overview
@@ -31,18 +32,18 @@ The Shimano E6100 is a mid-drive motor unit from the [[Shimano]] STEPS lineup, t
 
 ## Specifications
 
-| Attribute | Value |
-|---|---|
-| Motor type | Mid-drive, brushless DC |
-| Series | Shimano STEPS |
-| Max assist torque | 60 Nm |
-| Rated output | 250 W (EU legal limit) |
-| Unit weight | approx. 2.6 kg |
-| Max cadence | approx. 100 RPM |
-| Assist modes | 3 (Eco / Normal / High) |
-| Connectivity | E-tube wired (Di2 compatible) |
+| Attribute          | Value                                |
+| ------------------ | ------------------------------------ |
+| Motor type         | Mid-drive, brushless DC              |
+| Series             | Shimano STEPS                        |
+| Max assist torque  | 60 Nm                                |
+| Rated output       | 250 W (EU legal limit)               |
+| Unit weight        | approx. 2.6 kg                       |
+| Max cadence        | approx. 100 RPM                      |
+| Assist modes       | 3 (Eco / Normal / High)              |
+| Connectivity       | E-tube wired (Di2 compatible)        |
 | Gear compatibility | Derailleur or internally geared hubs |
-| Display options | SC-E6100, SC-E7000, EW-EN100 |
+| Display options    | SC-E6100, SC-E7000, EW-EN100         |
 
 > Specs sourced from Shimano STEPS product documentation (training data). Verify against current Shimano technical data sheets for production tolerances.
 
@@ -60,12 +61,12 @@ The Shimano E6100 is a mid-drive motor unit from the [[Shimano]] STEPS lineup, t
 
 The E6100 occupies the mid-tier of the STEPS range. Compared to alternatives:
 
-| Motor | Torque | Target Use |
-|---|---|---|
-| Shimano E6100 | 60 Nm | Urban / trekking / light cargo |
-| [[Shimano E5080]] | 85 Nm | Cargo / longtail |
-| Shimano EP801 | 85 Nm | eMTB |
-| Bosch Performance Line | 65 Nm | Urban / trekking |
+| Motor                  | Torque | Target Use                     |
+| ---------------------- | ------ | ------------------------------ |
+| Shimano E6100          | 60 Nm  | Urban / trekking / light cargo |
+| [[Shimano E5080]]      | 85 Nm  | Cargo / longtail               |
+| Shimano EP801          | 85 Nm  | eMTB                           |
+| Bosch Performance Line | 65 Nm  | Urban / trekking               |
 
 Its 60 Nm output is adequate for lightly loaded cargo bikes on moderate terrain, but riders carrying heavy loads or tackling steep gradients regularly may find the [[Shimano E5080]] a better fit.
 

@@ -6,9 +6,9 @@ brand: Yuba
 image: https://yubabikes.com/wp-content/uploads/2024/10/Supercargo-CL-Orange-No-BG-2.png
 model: Supercargo CL
 tags:
-- bike
-- frontloader
-- yuba
+  - bike
+  - frontloader
+  - yuba
 url: https://yubabikes.eu/product/supercargo-cl/
 category: frontloader
 load_capacity_total_kg: 200.0
@@ -18,21 +18,23 @@ motor_power_w: 500
 battery_capacity_wh: 500
 battery_configuration: single
 battery_removable: true
-range_estimate_km: '60'
-price_amount: '4849'
+range_estimate_km: "60"
+price_amount: "4849"
 price_currency: EUR
-specs_notes: Migrated from legacy format. Californian-style electric frontloader with
+specs_notes:
+  Migrated from legacy format. Californian-style electric frontloader with
   distinctive front-load design.
 needs_research: true
 research_topics:
-- motor_make
-- motor_torque_nm
-- weight_with_battery_kg
-- brakes_type
-- drivetrain_type
-- frame_material
-- wheels_front_size_in
+  - motor_make
+  - motor_torque_nm
+  - weight_with_battery_kg
+  - brakes_type
+  - drivetrain_type
+  - frame_material
+  - wheels_front_size_in
 ---
+
 ## Supercargo CL
 
 ## Overview
@@ -42,14 +44,16 @@ The Supercargo CL is Yuba's Californian-style electric frontloader. It delivers 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | frontloader |
-| **Motor Power** | 500W |
-| **Battery Capacity** | 500Wh |
-| **Range** | 60 km |
-| **Total Load Capacity** | 200.0kg |
-| **Price** | 4849 EUR |
+
+| Specification           | Value       |
+| ----------------------- | ----------- |
+| **Category**            | frontloader |
+| **Motor Power**         | 500W        |
+| **Battery Capacity**    | 500Wh       |
+| **Range**               | 60 km       |
+| **Total Load Capacity** | 200.0kg     |
+| **Price**               | 4849 EUR    |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €4,849.00

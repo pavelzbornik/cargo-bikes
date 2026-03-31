@@ -9,26 +9,26 @@ Le Benno Boost 10D EVO 5 est un vélo cargo électrique longtail d'ingénierie a
 <!-- BIKE_SPECS_TABLE_START -->
 <!-- BIKE_SPECS_TABLE_END -->
 
-| Caractéristique           | Détails                                                          |
-| ------------------------- | ---------------------------------------------------------------- |
-| **Prix**                  | €3 206 (remisé par rapport au prix conseillé)                    |
-| **Moteur**                | [[Bosch Performance Sport Gen 3]], 65Nm, entraînement central    |
-| **Batterie**              | [[Bosch PowerPack 500Wh]], amovible, 2,6 kg                      |
-| **Autonomie**             | 50-135 km (selon l'assistance et la charge)                      |
-| **Poids**                 | 26 kg (avec batterie)                                            |
-| **Capacité de charge max**| 200 kg au total (cycliste + cargo + passagers)                   |
-| **Taille des roues**      | 27,5" ([[Schwalbe Super Moto X]] 2.4")                           |
-| **Matériau du cadre**     | Aluminium 6061                                                   |
-| **Type de cadre**         | Droit / unisexe                                                  |
-| **Longueur du cadre**     | 188 cm                                                           |
-| **Freins**                | Freins à disque hydrauliques Shimano                             |
-| **Transmission**          | [[Shimano Deore]] chaîne 10 vitesses                             |
-| **Selle**                 | Benno Urban Sport avec poignée arrière                           |
-| **Écran**                 | [[Bosch Purion]] avec 5 modes de conduite                        |
-| **Éclairage**             | [[Supernova Mini 2]] (avant), [[Supernova E3]] (arrière)         |
+| Caractéristique              | Détails                                                       |
+| ---------------------------- | ------------------------------------------------------------- |
+| **Prix**                     | €3 206 (remisé par rapport au prix conseillé)                 |
+| **Moteur**                   | [[Bosch Performance Sport Gen 3]], 65Nm, entraînement central |
+| **Batterie**                 | [[Bosch PowerPack 500Wh]], amovible, 2,6 kg                   |
+| **Autonomie**                | 50-135 km (selon l'assistance et la charge)                   |
+| **Poids**                    | 26 kg (avec batterie)                                         |
+| **Capacité de charge max**   | 200 kg au total (cycliste + cargo + passagers)                |
+| **Taille des roues**         | 27,5" ([[Schwalbe Super Moto X]] 2.4")                        |
+| **Matériau du cadre**        | Aluminium 6061                                                |
+| **Type de cadre**            | Droit / unisexe                                               |
+| **Longueur du cadre**        | 188 cm                                                        |
+| **Freins**                   | Freins à disque hydrauliques Shimano                          |
+| **Transmission**             | [[Shimano Deore]] chaîne 10 vitesses                          |
+| **Selle**                    | Benno Urban Sport avec poignée arrière                        |
+| **Écran**                    | [[Bosch Purion]] avec 5 modes de conduite                     |
+| **Éclairage**                | [[Supernova Mini 2]] (avant), [[Supernova E3]] (arrière)      |
 | **Vitesse d'assistance max** | 25 km/h (28 mph aux États-Unis)                               |
-| **Temps de charge**       | 4,5 heures (batterie 500Wh)                                      |
-| **Garantie**              | 5 ans cadre, 2 ans électrique                                    |
+| **Temps de charge**          | 4,5 heures (batterie 500Wh)                                   |
+| **Garantie**                 | 5 ans cadre, 2 ans électrique                                 |
 
 ## Caractéristiques du vélo électrique
 
@@ -74,12 +74,12 @@ Le Benno Boost 10D EVO 5 est un vélo cargo électrique longtail d'ingénierie a
 
 ## Accessoires et options disponibles
 
-| Option                  | Prix  | Détails                                              |
-| ----------------------- | ----- | ---------------------------------------------------- |
-| Porte-bagages avant     | €240  | Capacité 20 kg                                       |
-| Pack passager           | €500  | Protège-roue, extensions de rails, rails de sécurité |
-| Double béquille         | €150  | Stationnement stable en charge                       |
-| Extension de garantie   | €99   | 1 an supplémentaire (3 ans au total)                 |
+| Option                | Prix | Détails                                              |
+| --------------------- | ---- | ---------------------------------------------------- |
+| Porte-bagages avant   | €240 | Capacité 20 kg                                       |
+| Pack passager         | €500 | Protège-roue, extensions de rails, rails de sécurité |
+| Double béquille       | €150 | Stationnement stable en charge                       |
+| Extension de garantie | €99  | 1 an supplémentaire (3 ans au total)                 |
 
 ## Entretien
 

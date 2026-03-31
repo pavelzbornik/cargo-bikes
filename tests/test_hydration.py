@@ -22,7 +22,9 @@ from cargo_bikes.db.hydrate import (
     upsert_brand,
 )
 from cargo_bikes.db.schema import Base, Bike, Brand
-from cargo_bikes.vault.frontmatter import extract_frontmatter_from_file as extract_frontmatter
+from cargo_bikes.vault.frontmatter import (
+    extract_frontmatter_from_file as extract_frontmatter,
+)
 
 
 @pytest.fixture

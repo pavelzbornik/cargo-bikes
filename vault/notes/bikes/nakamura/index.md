@@ -1,40 +1,41 @@
 ---
-date: '2025-10-24'
+date: "2025-10-24"
 title: Nakamura
 type: brand
 url: https://www.intersport.com/
-summary: Nakamura is a cargo bike brand distributed through Intersport, specializing
+summary:
+  Nakamura is a cargo bike brand distributed through Intersport, specializing
   in electric longtail bikes designed for urban families and daily cargo transport
   with comprehensive factory equipment.
 tags:
-- brand
-- french
-- longtail
-- electric
-- family
-- accessible
-- cargo
-- intersport
+  - brand
+  - french
+  - longtail
+  - electric
+  - family
+  - accessible
+  - cargo
+  - intersport
 country: France
 headquarters_country: France
 categories:
-- longtail
+  - longtail
 market_segments:
-- urban-families
-- commuters
-- cargo-transport
+  - urban-families
+  - commuters
+  - cargo-transport
 regions:
-- EU
+  - EU
 price_tier: accessible
 product_types:
-- bikes
+  - bikes
 primary_motors:
-- Ananda
-- proprietary
+  - Ananda
+  - proprietary
 parent_company: Intersport
 distribution_model: retail
 regions_active:
-- EU
+  - EU
 direct_sales: false
 dealership_network: true
 value_sustainability: true
@@ -43,12 +44,13 @@ value_community_focus: false
 value_safety_emphasis: true
 value_tech_integration: true
 accessibility:
-- comprehensive-factory-equipment
-- dual-battery-modularity
-- strong-braking-system
-- telescopic-seatpost
-- affordable-entry-price
+  - comprehensive-factory-equipment
+  - dual-battery-modularity
+  - strong-braking-system
+  - telescopic-seatpost
+  - affordable-entry-price
 ---
+
 ## Overview
 
 Nakamura is a cargo bike brand distributed through Intersport, the leading European sporting goods retailer. The brand focuses on creating practical, well-equipped electric cargo bikes for urban families and daily commuters. Nakamura's Crossover Longtail is positioned as an affordable all-option cargo bike, emphasizing comprehensive factory equipment and practical features over premium positioning.

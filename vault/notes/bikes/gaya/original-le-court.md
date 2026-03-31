@@ -7,14 +7,14 @@ type: bike
 brand: Gaya
 model: L'Original Le Court
 tags:
-- bike
-- short-tail
-- gaya
+  - bike
+  - short-tail
+  - gaya
 url: https://gaya.bike/velo-cargo/original-le-court
 image: https://gaya.bike/api/medias/api/images/file/GAYA_COURT_BLEU%20NUIT%20(1)%201%20(3)%20(1)-1000x663.webp
 category: short-tail
 frame_material: aluminum
-frame_size: '43'
+frame_size: "43"
 weight_with_battery_kg: 34.1
 weight_battery_kg: 3.0
 load_capacity_total_kg: 170.0
@@ -28,7 +28,7 @@ motor_torque_nm: 50
 battery_capacity_wh: 460
 battery_configuration: single
 battery_removable: true
-battery_charging_time_h: '5'
+battery_charging_time_h: "5"
 drivetrain_type: chain
 brakes_type: mechanical disc
 wheels_front_size_in: 27.5"
@@ -41,22 +41,21 @@ lights_rear_type: LED brake light 4 lm
 lights_rear_integrated: true
 lights_rear_brake_light: true
 features:
-- torque-sensor
-- nfc-badge
-- integrated-display
-- gps-tracking
+  - torque-sensor
+  - nfc-badge
+  - integrated-display
+  - gps-tracking
 security_gps: true
 security_alarm_db: 105
 security_frame_lock: true
-range_estimate_km: '70'
-price_amount: '2300'
+range_estimate_km: "70"
+price_amount: "2300"
 price_currency: EUR
-
 ---
 
 ## Overview
 
-![Gaya L'Original Le Court](https://gaya.bike/api/medias/api/images/file/GAYA_COURT_BLEU%20NUIT%20(1)%201%20(3)%20(1)-1000x663.webp)
+![Gaya L'Original Le Court](<https://gaya.bike/api/medias/api/images/file/GAYA_COURT_BLEU%20NUIT%20(1)%201%20(3)%20(1)-1000x663.webp>)
 
 The L'Original Le Court is the most accessible cargo e-bike in Gaya's lineup, perfect for solo or duo rides. It represents the redesign of Gaya's iconic model, incorporating feedback from over 10,000 customers. The bike combines comfort, visibility, adaptability, and security for both solo riders and those carrying a passenger.
 
@@ -65,20 +64,22 @@ The L'Original Le Court is the most accessible cargo e-bike in Gaya's lineup, pe
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | short-tail |
-| **Motor** | Gaya |
-| **Motor Power** | 250W |
-| **Motor Torque** | 50Nm |
-| **Battery Capacity** | 460Wh |
-| **Range** | 70 km |
-| **Weight (with battery)** | 34.1kg |
-| **Total Load Capacity** | 170.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | mechanical disc |
-| **Wheel Size** | 27.5" |
-| **Price** | 2300 EUR |
+
+| Specification             | Value           |
+| ------------------------- | --------------- |
+| **Category**              | short-tail      |
+| **Motor**                 | Gaya            |
+| **Motor Power**           | 250W            |
+| **Motor Torque**          | 50Nm            |
+| **Battery Capacity**      | 460Wh           |
+| **Range**                 | 70 km           |
+| **Weight (with battery)** | 34.1kg          |
+| **Total Load Capacity**   | 170.0kg         |
+| **Drivetrain**            | chain           |
+| **Brakes**                | mechanical disc |
+| **Wheel Size**            | 27.5"           |
+| **Price**                 | 2300 EUR        |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification               | Details                                          |

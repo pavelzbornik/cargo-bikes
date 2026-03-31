@@ -5,26 +5,26 @@ type: bike
 brand: OneSport
 model: OT30 Pro
 tags:
-- bike
-- trike
-- onesport
-- bafang
+  - bike
+  - trike
+  - onesport
+  - bafang
 url: https://www.onesportglobal.com/products/onesport-ot30-pro-e-trike
 image: https://www.gleeride.com/cdn/shop/files/ONESPORT-OT30PRO-Beige-wb-4.jpg
 resellers:
-- name: OneSport Global
-  url: https://www.onesportglobal.com/products/onesport-ot30-pro-e-trike
-  price: '1929'
-  currency: EUR
-  region: EU
-  availability: out-of-stock
-- name: Gleeride
-  url: https://www.gleeride.com/products/onesport-ot30-pro-20-3-wheel-folding-e-trike-500w-motor-48v-18ah-battery
-  price: '2189'
-  currency: USD
-  region: US/EU
-  availability: out-of-stock
-  note: Shipping from EU warehouse
+  - name: OneSport Global
+    url: https://www.onesportglobal.com/products/onesport-ot30-pro-e-trike
+    price: "1929"
+    currency: EUR
+    region: EU
+    availability: out-of-stock
+  - name: Gleeride
+    url: https://www.gleeride.com/products/onesport-ot30-pro-20-3-wheel-folding-e-trike-500w-motor-48v-18ah-battery
+    price: "2189"
+    currency: USD
+    region: US/EU
+    availability: out-of-stock
+    note: Shipping from EU warehouse
 category: trike
 frame_material: aluminum
 frame_size: one size
@@ -40,7 +40,7 @@ battery_capacity_wh: 864
 battery_configuration: single
 battery_removable: true
 drivetrain_type: chain
-drivetrain_speeds: '7'
+drivetrain_speeds: "7"
 drivetrain_hub: Shimano 7-speed
 brakes_type: hydraulic disc
 brakes_front_rotor_mm: 180
@@ -57,24 +57,26 @@ lights_rear_type: integrated
 lights_rear_integrated: true
 lights_rear_brake_light: false
 features:
-- foldable
-- fenders
-- rear-rack
-- power-off-brake
-- leather-seat
-- bluetooth
+  - foldable
+  - fenders
+  - rear-rack
+  - power-off-brake
+  - leather-seat
+  - bluetooth
 security_gps: false
 security_app_lock: false
 security_frame_lock: false
-range_estimate_km: '120'
+range_estimate_km: "120"
 range_notes: 120km range with upgraded battery capacity
-price_amount: '1929'
+price_amount: "1929"
 price_currency: EUR
-specs_notes: 'Upgraded Pro version with 48V 18Ah battery; Rider height: 160-190 cm;
-  Foldable design'
+specs_notes:
+  "Upgraded Pro version with 48V 18Ah battery; Rider height: 160-190 cm;
+  Foldable design"
 motor_model: Bafang 48V 500W
 frame_length_cm: 191.0
 ---
+
 ## Overview
 
 ![OneSport OT30 Pro](https://www.gleeride.com/cdn/shop/files/ONESPORT-OT30PRO-Beige-wb-4.jpg)
@@ -84,20 +86,22 @@ The OneSport OT30 Pro is the premium version of the OT30 three-wheel electric tr
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | trike |
-| **Motor** | Bafang |
-| **Motor Power** | 500W |
-| **Motor Torque** | 65Nm |
-| **Battery Capacity** | 864Wh |
-| **Range** | 120 km |
-| **Weight (with battery)** | 41.5kg |
-| **Total Load Capacity** | 180.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | hydraulic disc |
-| **Wheel Size** | 20" |
-| **Price** | 1929 EUR |
+
+| Specification             | Value          |
+| ------------------------- | -------------- |
+| **Category**              | trike          |
+| **Motor**                 | Bafang         |
+| **Motor Power**           | 500W           |
+| **Motor Torque**          | 65Nm           |
+| **Battery Capacity**      | 864Wh          |
+| **Range**                 | 120 km         |
+| **Weight (with battery)** | 41.5kg         |
+| **Total Load Capacity**   | 180.0kg        |
+| **Drivetrain**            | chain          |
+| **Brakes**                | hydraulic disc |
+| **Wheel Size**            | 20"            |
+| **Price**                 | 1929 EUR       |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Motor & Drive System

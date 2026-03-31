@@ -7,22 +7,22 @@ type: bike
 brand: Gaya
 model: L'Incroyable Le Long
 tags:
-- bike
-- long-tail
-- gaya
-- premium
+  - bike
+  - long-tail
+  - gaya
+  - premium
 url: https://gaya.bike/velo-cargo/incroyable-le-long
 image: https://gaya.bike/api/medias/api/images/file/L'Incroyable,%20Le%20Long%20-%20Amande%201080x720-1000x667.webp
 resellers:
-- name: Roulez Jeunesse
-  url: https://shop.roulezjeunesse.com/collections/pour-les-familles/products/gaya-lincroyable-le-long
-  price: '3700'
-  currency: EUR
-  region: EU
-  availability: in-stock
+  - name: Roulez Jeunesse
+    url: https://shop.roulezjeunesse.com/collections/pour-les-familles/products/gaya-lincroyable-le-long
+    price: "3700"
+    currency: EUR
+    region: EU
+    availability: in-stock
 category: long-tail
 frame_material: aluminum
-frame_size: '43'
+frame_size: "43"
 weight_bike_kg: 38.0
 weight_with_battery_kg: 40.8
 weight_battery_kg: 2.8
@@ -38,7 +38,7 @@ battery_capacity_wh: 460
 battery_configuration: single
 battery_removable: true
 drivetrain_type: chain
-drivetrain_speeds: '4'
+drivetrain_speeds: "4"
 brakes_type: mechanical disc
 wheels_front_size_in: 27.5"
 wheels_rear_size_in: 27.5"
@@ -50,20 +50,21 @@ lights_rear_type: LED brake light 4 lm
 lights_rear_integrated: true
 lights_rear_brake_light: true
 features:
-- torque-sensor
-- gps-tracking
-- nfc-badge
-- integrated-display
+  - torque-sensor
+  - gps-tracking
+  - nfc-badge
+  - integrated-display
 security_gps: true
 security_alarm_db: 105
 security_app_lock: true
 security_frame_lock: true
-range_estimate_km: '70'
-price_amount: '3400'
+range_estimate_km: "70"
+price_amount: "3400"
 price_currency: EUR
 battery_charging_time_h: 2.5-5
 frame_length_cm: 199.0
 ---
+
 ## Overview
 
 ![Gaya L'Incroyable Le Long](https://gaya.bike/api/medias/api/images/file/L'Incroyable,%20Le%20Long%20-%20Amande%201080x720-1000x667.webp)
@@ -73,20 +74,22 @@ L'Incroyable Le Long is GAYA's premium long-tail cargo e-bike, offering the ulti
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | long-tail |
-| **Motor** | Gaya |
-| **Motor Power** | 250W |
-| **Motor Torque** | 50Nm |
-| **Battery Capacity** | 460Wh |
-| **Range** | 70 km |
-| **Weight (with battery)** | 40.8kg |
-| **Total Load Capacity** | 170.0kg |
-| **Drivetrain** | chain |
-| **Brakes** | mechanical disc |
-| **Wheel Size** | 27.5" |
-| **Price** | 3400 EUR |
+
+| Specification             | Value           |
+| ------------------------- | --------------- |
+| **Category**              | long-tail       |
+| **Motor**                 | Gaya            |
+| **Motor Power**           | 250W            |
+| **Motor Torque**          | 50Nm            |
+| **Battery Capacity**      | 460Wh           |
+| **Range**                 | 70 km           |
+| **Weight (with battery)** | 40.8kg          |
+| **Total Load Capacity**   | 170.0kg         |
+| **Drivetrain**            | chain           |
+| **Brakes**                | mechanical disc |
+| **Wheel Size**            | 27.5"           |
+| **Price**                 | 3400 EUR        |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification                | Details                                          |

@@ -5,27 +5,27 @@ type: bike
 brand: Specialized
 model: Turbo Porto
 tags:
-- bike
-- longtail
-- specialized
-- electric
-- bosch
+  - bike
+  - longtail
+  - specialized
+  - electric
+  - bosch
 url: https://www.specialized.com/us/en/turbo-porto/p/141906
 image: https://www.specialized.com/us/en/turbo-porto/p/141906
 resellers:
-- name: Specialized Official
-  url: https://www.specialized.com/us/en/turbo-porto/p/141906
-  price: '6500'
-  currency: EUR
-  region: EU
-  availability: in-stock
-  note: Manufacturer's suggested retail price
-- name: Shop Roulez Jeunesse
-  url: https://shop.roulezjeunesse.com/products/specialized-turbo-porto
-  price: '6500'
-  currency: EUR
-  region: EU
-  availability: in-stock
+  - name: Specialized Official
+    url: https://www.specialized.com/us/en/turbo-porto/p/141906
+    price: "6500"
+    currency: EUR
+    region: EU
+    availability: in-stock
+    note: Manufacturer's suggested retail price
+  - name: Shop Roulez Jeunesse
+    url: https://shop.roulezjeunesse.com/products/specialized-turbo-porto
+    price: "6500"
+    currency: EUR
+    region: EU
+    availability: in-stock
 category: longtail
 model_year: 2025
 frame_material: aluminum
@@ -66,21 +66,21 @@ lights_rear_type: integrated LED
 lights_rear_integrated: true
 lights_rear_brake_light: true
 features:
-- bosch-2-2-cargo
-- gates-belt-drive
-- enviolo-heavy-duty
-- garmin-radar-integration
-- mik-hd-compatible
+  - bosch-2-2-cargo
+  - gates-belt-drive
+  - enviolo-heavy-duty
+  - garmin-radar-integration
+  - mik-hd-compatible
 security_gps: true
 security_app_lock: false
 security_frame_lock: true
 range_estimate_km: 50-120
 range_notes: 5 hours of riding time announced by Specialized
-price_amount: '6500'
+price_amount: "6500"
 price_currency: EUR
-specs_notes: Specialized's first foray into the longtail market. Heavyweight champion
+specs_notes:
+  Specialized's first foray into the longtail market. Heavyweight champion
   with the most powerful motor on the market at 90 Nm.
-
 ---
 
 ## Specialized Turbo Porto
@@ -96,21 +96,23 @@ The Turbo Porto is a statement of intent from Specialized: a premium longtail th
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
-| Specification | Value |
-|---------------|-------|
-| **Category** | longtail |
-| **Model Year** | 2025 |
-| **Motor** | Specialized 2.2 Cargo |
-| **Motor Power** | 250W |
-| **Motor Torque** | 90Nm |
-| **Battery Capacity** | 710Wh |
-| **Range** | 50-120 km |
-| **Weight (with battery)** | 39.6kg |
-| **Total Load Capacity** | 200.0kg |
-| **Drivetrain** | belt |
-| **Brakes** | hydraulic 4-piston disc |
-| **Wheel Size** | Front: 24", Rear: 20" |
-| **Price** | 6500 EUR |
+
+| Specification             | Value                   |
+| ------------------------- | ----------------------- |
+| **Category**              | longtail                |
+| **Model Year**            | 2025                    |
+| **Motor**                 | Specialized 2.2 Cargo   |
+| **Motor Power**           | 250W                    |
+| **Motor Torque**          | 90Nm                    |
+| **Battery Capacity**      | 710Wh                   |
+| **Range**                 | 50-120 km               |
+| **Weight (with battery)** | 39.6kg                  |
+| **Total Load Capacity**   | 200.0kg                 |
+| **Drivetrain**            | belt                    |
+| **Brakes**                | hydraulic 4-piston disc |
+| **Wheel Size**            | Front: 24", Rear: 20"   |
+| **Price**                 | 6500 EUR                |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

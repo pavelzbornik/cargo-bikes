@@ -2,15 +2,15 @@
 title: Shimano EP801
 type: component
 category: motors
-parent: '[[Shimano]]'
-domain: '[[Motors MOC]]'
+parent: "[[Shimano]]"
+domain: "[[Motors MOC]]"
 tags:
-- motor
-- shimano
-- steps
-- mid-drive
-- cargo
-- ep801
+  - motor
+  - shimano
+  - steps
+  - mid-drive
+  - cargo
+  - ep801
 generated_by: cargo-bikes-cli
 motor_type: Mid-drive (AC brushless DC)
 torque_nm: 85
@@ -21,12 +21,13 @@ q_factor_mm: 177
 chainline_mm: 50 / 56
 cadence_range_rpm: 0–120
 assist_modes:
-- Eco
-- Trail
-- Boost
+  - Eco
+  - Trail
+  - Boost
 walk_assist: true
 di2_compatible: true
 ---
+
 # Shimano EP801
 
 ## Overview
@@ -35,19 +36,19 @@ The Shimano EP801 is a mid-drive motor unit within the [[Shimano]] STEPS platfor
 
 ## Key Specifications
 
-| Specification | Value |
-|---|---|
-| Motor type | AC brushless DC, mid-drive |
-| Rated output (EU) | 250 W |
-| Peak torque | 85 Nm |
-| Max assist ratio | 400% |
-| Cadence range | 0–120 RPM |
-| Motor weight | ~2.95 kg |
-| Q-factor | 177 mm |
-| Chainline | 50 mm / 56 mm |
-| Walk assist | Yes |
-| Di2 compatible | Yes |
-| Assist modes | Eco, Trail, Boost |
+| Specification     | Value                      |
+| ----------------- | -------------------------- |
+| Motor type        | AC brushless DC, mid-drive |
+| Rated output (EU) | 250 W                      |
+| Peak torque       | 85 Nm                      |
+| Max assist ratio  | 400%                       |
+| Cadence range     | 0–120 RPM                  |
+| Motor weight      | ~2.95 kg                   |
+| Q-factor          | 177 mm                     |
+| Chainline         | 50 mm / 56 mm              |
+| Walk assist       | Yes                        |
+| Di2 compatible    | Yes                        |
+| Assist modes      | Eco, Trail, Boost          |
 
 > **Note:** Specifications above are drawn from Shimano STEPS EP801 product documentation known at training cutoff. Verify against current Shimano dealer documentation for the latest revisions.
 
@@ -73,12 +74,12 @@ The EP801 is compatible with the Shimano STEPS battery range, including:
 
 ## Comparison to Alternatives
 
-| Motor | Torque | Rated Power | Notable Difference |
-|---|---|---|---|
-| Shimano EP801 | 85 Nm | 250 W | Cargo-optimised, Di2 integration |
-| Shimano EP6 | 60 Nm | 250 W | Lighter, trail/trekking focus |
-| Bosch CX Gen 4 | 85 Nm | 250 W | eMTB/cargo competitor, different ecosystem |
-| Brose Drive S Mag | 90 Nm | 250 W | Quieter operation, less ecosystem breadth |
+| Motor             | Torque | Rated Power | Notable Difference                         |
+| ----------------- | ------ | ----------- | ------------------------------------------ |
+| Shimano EP801     | 85 Nm  | 250 W       | Cargo-optimised, Di2 integration           |
+| Shimano EP6       | 60 Nm  | 250 W       | Lighter, trail/trekking focus              |
+| Bosch CX Gen 4    | 85 Nm  | 250 W       | eMTB/cargo competitor, different ecosystem |
+| Brose Drive S Mag | 90 Nm  | 250 W       | Quieter operation, less ecosystem breadth  |
 
 ## Notes
 

@@ -39,9 +39,9 @@ The Urban Arrow Pet Carrier is engineered specifically for Urban Arrow's longtai
 
 ## Compatibility
 
-| Bike | Compatible |
-|------|-----------|
-| [[Urban Arrow Breeze]] | Yes |
+| Bike                   | Compatible |
+| ---------------------- | ---------- |
+| [[Urban Arrow Breeze]] | Yes        |
 
 This accessory is brand-specific and was developed by Urban Arrow exclusively for their own longtail models. It is **not** a universal carrier and will not fit other cargo bike platforms (e.g. Tern GSD, Yuba, Riese & Muller longtails) without modification.
 

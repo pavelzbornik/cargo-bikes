@@ -1,20 +1,22 @@
 ---
 brand: Neomouv
 date: 2025-10-24
-image: ''
+image: ""
 category: longtail
 title: Neomouv
 type: brand
-summary: Neomouv is a cargo bike manufacturer offering diverse models for families
+summary:
+  Neomouv is a cargo bike manufacturer offering diverse models for families
   and professionals.
 tags:
-- brand
-- index
-- neomouv
+  - brand
+  - index
+  - neomouv
 regions:
-- EU
+  - EU
 distribution_model: both
 ---
+
 ## Overview
 
 Neomouv is a cargo bike manufacturer dedicated to providing practical cargo bike solutions for urban families and professionals.
