@@ -1,19 +1,41 @@
 ---
-title: "Simplix"
-type: bike
-tags: [bike, mini-cargo, oklo, electric]
 date: 2025-10-19
-brand: "OKLÖ"
-model: "Simplix"
-url: "https://www.oklo.bike/produit/mini-velo-cargo-simplix/"
-image: "https://www.oklo.bike/assets/uploads/2025/09/Simplix-3D-profil-droit-sans-perspective-1024x1024-1.jpg"
-price: "€1,190 - €2,290"
-motor: "40W (Eco), 40W (Plus)"
-battery: "250Wh (Eco), 380Wh (Plus)"
-range: "~30km (Eco), ~50km (Plus)"
+price: €1,190 - €2,290
+motor: 40W (Eco), 40W (Plus)
+battery: 250Wh (Eco), 380Wh (Plus)
+range: ~30km (Eco), ~50km (Plus)
+title: Simplix
+type: bike
+brand: OKLÖ
+model: Simplix
+tags:
+  - bike
+  - mini-cargo
+  - oklo
+  - electric
+url: https://www.oklo.bike/produit/mini-velo-cargo-simplix/
+image: https://www.oklo.bike/assets/uploads/2025/09/Simplix-3D-profil-droit-sans-perspective-1024x1024-1.jpg
+motor_power_w: 40
+battery_capacity_wh: 250
+range_estimate_km: "30"
+price_amount: "1190"
+price_currency: EUR
+needs_research: true
+research_topics:
+  - category
+  - motor_make
+  - motor_torque_nm
+  - weight_with_battery_kg
+  - load_capacity_total_kg
+  - brakes_type
+  - drivetrain_type
+  - frame_material
+  - wheels_front_size_in
 ---
 
 ## Overview
+
+![Simplix](https://www.oklo.bike/assets/uploads/2025/09/Simplix-3D-profil-droit-sans-perspective-1024x1024-1.jpg)
 
 The OKLÖ Simplix is an ultra-compact, lightweight mini cargo bike designed for simplicity and practicality. It bridges the gap between a regular bike and a full-size cargo bike, offering modularity without complexity. Simplix comes in three versions: mechanical (no motor), Éco (250Wh battery), and Plus (380Wh battery). It's perfect for urban commuting, shopping, transporting children, pets, or any combination of these uses.
 
@@ -22,6 +44,14 @@ The OKLÖ Simplix is an ultra-compact, lightweight mini cargo bike designed for 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Power**      | 40W      |
+| **Battery Capacity** | 250Wh    |
+| **Range**            | 30 km    |
+| **Price**            | 1190 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Geometry

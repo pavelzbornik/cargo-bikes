@@ -1,16 +1,20 @@
 ---
-title: "Portofino"
-type: "brand-index"
-brand: "Portofino"
-tags: [brand, index, portofino]
+brand: Portofino
 date: 2025-10-24
-url: ""
 image: ""
-summary: "Portofino is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+category: longtail
+title: Portofino
+type: brand
+summary:
+  Portofino is a cargo bike manufacturer offering diverse models for families
+  and professionals.
+tags:
+  - brand
+  - index
+  - portofino
+regions:
+  - EU
+distribution_model: both
 ---
 
 ## Overview

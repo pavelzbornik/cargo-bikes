@@ -1,16 +1,20 @@
 ---
-title: "UNIKRIDE"
-type: "brand-index"
-brand: "UNIKRIDE"
-tags: [brand, index, unikride]
+brand: UNIKRIDE
 date: 2025-10-24
-url: ""
 image: ""
-summary: "UNIKRIDE is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+category: longtail
+title: UNIKRIDE
+type: brand
+summary:
+  UNIKRIDE is a cargo bike manufacturer offering diverse models for families
+  and professionals.
+tags:
+  - brand
+  - index
+  - unikride
+regions:
+  - EU
+distribution_model: both
 ---
 
 ## Overview

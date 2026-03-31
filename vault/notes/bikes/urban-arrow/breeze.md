@@ -1,16 +1,43 @@
 ---
-title: "Urban Arrow Breeze"
-type: bike
-brand: "Urban Arrow"
-model: "Breeze"
-tags: [bike, long-tail, electric, cargo, urban-arrow]
 date: 2025-10-16
-price: "€5500"
-motor: "85Nm"
-battery: "400Wh"
-range: "variable"
-url: "https://www.transitionvelo.com/produit/urban-arrow-breeze/"
-image: "https://www.transitionvelo.com/content/uploads/2025/09/Urban-Arrow-Breeze-5-1024x576.jpg"
+price: €5500
+motor: 85Nm
+battery: 400Wh
+range: variable
+title: Urban Arrow Breeze
+type: bike
+brand: Urban Arrow
+model: Breeze
+tags:
+  - bike
+  - long-tail
+  - electric
+  - cargo
+  - urban-arrow
+url: https://www.transitionvelo.com/produit/urban-arrow-breeze/
+image: https://www.transitionvelo.com/content/uploads/2025/09/Urban-Arrow-Breeze-5-1024x576.jpg
+motor_torque_nm: 85
+battery_capacity_wh: 400
+price_amount: "5500"
+price_currency: EUR
+category: longtail
+motor_make: Bosch
+motor_model: Cargo Line
+motor_type: mid-drive
+weight_with_battery_kg: 34.0
+load_capacity_total_kg: 200.0
+load_capacity_passenger_count: 2
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: belt
+drivetrain_hub: Enviolo Heavy Duty
+wheels_front_size_in: 24
+wheels_rear_size_in: 24
+wheels_tire: Schwalbe Pick-Up
+suspension_front: SR Suntour Mobie 34
+suspension_rear: none
+motor_power_w: 250
+range_estimate_km: 50-80
 ---
 
 ## Urban Arrow Breeze
@@ -24,6 +51,13 @@ The Urban Arrow Breeze is the company's first electric longtail cargo bike, repr
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Torque**     | 85Nm     |
+| **Battery Capacity** | 400Wh    |
+| **Price**            | 5500 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €5500 (base price with 400 Wh battery)

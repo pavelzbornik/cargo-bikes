@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "23f276c41709db46",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8e4a92ed784e2c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4dd5d853f87c50fa",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4ee04b8b95146a0e",
+    "type": "split",
+    "children": [
+      {
+        "id": "98555aaa06921657",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae35be2f69afdc3a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3b6937c46210b433",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ce6091564ecb9bbc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "da68a534ce3e6e6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "f46849dfec68bf91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4567a6ea77caba62",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "notes/bikes/benno/boost-10d-evo-5.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for boost-10d-evo-5"
+            }
+          },
+          {
+            "id": "6aa4320885d9ace4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "notes/bikes/benno/boost-10d-evo-5.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from boost-10d-evo-5"
+            }
+          },
+          {
+            "id": "f78fe197035791e6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "15504d561a488a95",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "5d73548604c0d356",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "notes/bikes/benno/boost-10d-evo-5.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of boost-10d-evo-5"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "4dd5d853f87c50fa",
+  "lastOpenFiles": [
+    "Attachments/artifacts/c344e35d-Every Cargo E-Bike Insurance Option in France, Compared.md",
+    "Attachments/artifacts",
+    "Attachments",
+    "conversations.base",
+    "notes/bikes/index.md",
+    "notes/index.md",
+    "notes/bikes/gitane/g-life-longtail-2.md",
+    "notes/bikes/aventon/abound-lr.md",
+    "notes/bikes/brumaire/nebula.md",
+    "notes/bikes/brumaire/longtail-nebula.md",
+    "notes/bikes/cube/accessories/standard-panniers.md",
+    "notes/bikes/btwin/r500e.md",
+    "notes/bikes/btwin/f900e.md",
+    "notes/bikes/btwin/index.md",
+    "notes/bikes/oklo/simplix-eco.md",
+    "bikes-by-price.base",
+    "brands.base",
+    "notes/bikes/nakamura/crossover-longtail.md",
+    "notes/bikes/oklo/fantilo.md",
+    "notes/guides/french-e-bike-insurance-comparison.md",
+    "notes/guides/index.md",
+    "bikes-by-category.base",
+    "motors.base",
+    "components.base",
+    "notes/bikes/bike43/mid.md",
+    "notes/bikes/bike43/long.md",
+    "notes/bikes/bike43/index.md",
+    "notes/bikes/addbike/u-cargo-family.md",
+    "notes/bikes/addbike/u-cargo-lite.md",
+    "notes/bikes/kiffy/capsule-mt.md",
+    "notes/bikes/jean-fourche/index.md",
+    "notes/bikes/jean-fourche/jean-ii-electric.md",
+    "notes/bikes/jean-fourche/jean-ii.md",
+    "notes/bikes/specialized/turbo-porto.md",
+    "accessories.base",
+    "notes/bikes/urban-arrow/accessories"
+  ]
+}

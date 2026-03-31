@@ -1,51 +1,70 @@
 ---
+date: 2025-10-16
+price: €4,199
+motor: Shimano STEPS EP801 Cargo
+battery: 540Wh - 835Wh
+range: 230km
 title: O2Feel Equo 4.2
 type: bike
+brand: O2Feel
+model: Equo 4.2
 tags:
   - bike
   - longtail
   - cargo
   - e-bike
   - o2feel
-date: 2025-10-16
-brand: O2Feel
-model: Equo 4.2
 url: https://www.o2feel.com/en/product/equo-4-2/
 image: https://www.o2feel.com/wp-content/uploads/2022/11/Equo-4.2-1-BP-1200x1200-1-800x800.jpg
-price: €4,199
-motor: Shimano STEPS EP801 Cargo
-battery: 540Wh - 835Wh
-range: 230km
-specs:
-  frame:
-    material: aluminum
-    dimensions:
-      length_cm: 195
-  weight:
-    with_battery_kg: 30
-  load_capacity:
-    total_kg: 180
-    passenger_count_excluding_rider: 2
-  wheels:
-    front_size_in: 26"
-    rear_size_in: 20"
-    tire: Schwalbe Pick-Up Perf
-  brakes:
-    type: hydraulic disc
-  drivetrain:
-    type: chain
-  suspension:
-    front: none
-    rear: none
+frame_material: aluminum
+frame_length_cm: 195.0
+weight_with_battery_kg: 30.0
+load_capacity_total_kg: 180.0
+load_capacity_passenger_count: 2
+motor_make: Shimano
+motor_model: STEPS EP801 Cargo
+battery_capacity_wh: 540
+drivetrain_type: chain
+brakes_type: hydraulic disc
+wheels_front_size_in: 26
+wheels_rear_size_in: 20
+wheels_tire: Schwalbe Pick-Up Perf
+suspension_front: none
+suspension_rear: none
+range_estimate_km: "230"
+price_amount: "4199"
+price_currency: EUR
+category: longtail
+motor_type: mid-drive
+motor_torque_nm: 85
+drivetrain_speeds: "10"
+needs_research: true
+research_topics:
+  - motor_power_w
 ---
 
 ## Overview
+
+![O2Feel Equo 4.2](https://www.o2feel.com/wp-content/uploads/2022/11/Equo-4.2-1-BP-1200x1200-1-800x800.jpg)
 
 The O2Feel Equo 4.2 represents the mid-tier longtail offering at €4,199, positioned between the entry-level Equo 3 and premium Equo 7. With the powerful Shimano STEPS EP801 Cargo motor and 10-speed Shimano Deore transmission, the Equo 4.2 delivers enhanced performance and versatility. Emerald Green color, improved Schwalbe tires, and optional up to 835Wh battery capacity make this model ideal for families seeking better hill-climbing power and longer range.
 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification             | Value                     |
+| ------------------------- | ------------------------- |
+| **Motor**                 | Shimano STEPS EP801 Cargo |
+| **Battery Capacity**      | 540Wh                     |
+| **Range**                 | 230 km                    |
+| **Weight (with battery)** | 30.0kg                    |
+| **Total Load Capacity**   | 180.0kg                   |
+| **Drivetrain**            | chain                     |
+| **Brakes**                | hydraulic disc            |
+| **Wheel Size**            | Front: 26", Rear: 20"     |
+| **Price**                 | 4199 EUR                  |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

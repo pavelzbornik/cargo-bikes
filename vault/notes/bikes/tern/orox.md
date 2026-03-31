@@ -1,4 +1,9 @@
 ---
+date: "2025-10-20"
+price: 6799€ (S12) / 9300€ (R14)
+motor: 85W
+battery: 800Wh
+range: 70km
 title: Tern Orox
 type: bike
 brand: Tern
@@ -8,21 +13,31 @@ tags:
   - long-tail
   - tern
   - adventure-cargo
-date: "2025-10-20"
-price: 6799€ (S12) / 9300€ (R14)
-motor: 85W
-battery: 800Wh
-range: 70km
 url: https://www.transitionvelo.com/produit/tern-orox/
 image: https://www.transitionvelo.com/content/uploads/2025/09/Test-Tern-Orox-4-1024x576.jpg
 resellers:
   - name: Cyclable
     url: https://www.cyclable.com/18541-velo-cargo-tout-terrain-tern-orox-s12.html
-    price: 6799
+    price: "6799"
     currency: EUR
     region: EU
     availability: in-stock
-    note: ""
+motor_power_w: 85
+battery_capacity_wh: 800
+range_estimate_km: "70"
+price_amount: "6799"
+price_currency: EUR
+needs_research: true
+research_topics:
+  - drivetrain_type
+category: longtail
+motor_make: Bosch
+motor_torque_nm: 85
+weight_with_battery_kg: 37.0
+load_capacity_total_kg: 210.0
+frame_material: aluminum
+brakes_type: hydraulic disc
+wheels_front_size_in: 27.5
 ---
 
 ## Tern Orox
@@ -41,6 +56,14 @@ The Tern Orox is a premium electric cargo longtail designed for adventure and ev
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Power**      | 85W      |
+| **Battery Capacity** | 800Wh    |
+| **Range**            | 70 km    |
+| **Price**            | 6799 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €6,799 (S12) / €9,300 (R14)

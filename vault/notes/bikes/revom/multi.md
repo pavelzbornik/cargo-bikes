@@ -1,25 +1,54 @@
 ---
-title: "Revom Multi"
-type: bike
-tags: [bike, cargo, modular, revom]
 date: 2025-10-16
-brand: "Revom"
-model: "Multi"
-url: "https://www.mvebike.fr/revom-multi-xml-378_379_388-1178.html"
-image: "https://www.mvebike.fr/images/Image/REVOM-MULTI.png"
-price: "€2,399.00 (sale price, originally €2,720.00)"
-motor: "250W"
-battery: "36V 13Ah"
-range: "60km"
+price: €2,399.00 (sale price, originally €2,720.00)
+motor: 250W
+battery: 36V 13Ah
+range: 60km
+title: Revom Multi
+type: bike
+brand: Revom
+model: Multi
+tags:
+  - bike
+  - cargo
+  - modular
+  - revom
+url: https://www.mvebike.fr/revom-multi-xml-378_379_388-1178.html
+image: https://www.mvebike.fr/images/Image/REVOM-MULTI.png
+motor_power_w: 250
+range_estimate_km: "60"
+price_amount: "2399"
+price_currency: EUR
+needs_research: true
+research_topics:
+  - category
+  - motor_make
+  - motor_torque_nm
+  - battery_capacity_wh
+  - weight_with_battery_kg
+  - load_capacity_total_kg
+  - brakes_type
+  - drivetrain_type
+  - frame_material
+  - wheels_front_size_in
 ---
 
 ## Overview
+
+![Revom Multi](https://www.mvebike.fr/images/Image/REVOM-MULTI.png)
 
 The Revom Multi is a modular electric cargo bike designed for urban transportation flexibility. Its innovative modular frame platform allows customization for different cargo configurations, making it ideal for users with varying transport needs.
 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification   | Value    |
+| --------------- | -------- |
+| **Motor Power** | 250W     |
+| **Range**       | 60 km    |
+| **Price**       | 2399 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification     | Details                                         |

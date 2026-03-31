@@ -1,16 +1,20 @@
 ---
-title: "YEEP.ME"
-type: "brand-index"
-brand: "YEEP.ME"
-tags: [brand, index, yeep-me]
+brand: YEEP.ME
 date: 2025-10-24
-url: ""
 image: ""
-summary: "YEEP.ME is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+category: longtail
+title: YEEP.ME
+type: brand
+summary:
+  YEEP.ME is a cargo bike manufacturer offering diverse models for families
+  and professionals.
+tags:
+  - brand
+  - index
+  - yeep-me
+regions:
+  - EU
+distribution_model: both
 ---
 
 ## Overview

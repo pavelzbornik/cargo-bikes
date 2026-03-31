@@ -1,11 +1,11 @@
 ---
+date: "2025-10-20"
+review_summary_date: 2025-10-27
+review_source_count: 12
 title: Spicy Curry
 type: bike
 brand: Yuba
 model: Spicy Curry
-date: "2025-10-20"
-review_summary_date: 2025-10-27
-review_source_count: 12
 tags:
   - bike
   - longtail
@@ -13,59 +13,45 @@ tags:
   - bosch
 url: https://yubabikes.eu/product/spicy-curry/
 image: https://yubabikes.eu/wp-content/uploads/2024/10/Spicy-Curry-True-Blue-No-BG.png
-specs:
-  category: longtail
-  weight:
-    with_battery_kg: 32
-  load_capacity:
-    total_kg: 200
-    passenger_count_excluding_rider: 2
-  motor:
-    make: Bosch
-    model: Cargo Line
-    type: mid-drive
-    power_w: 500
-    torque_nm: 85
-  battery:
-    capacity_wh: 500
-    configuration: single
-    removable: true
-  drivetrain:
-    type: chain
-    speeds: 9
-    hub: Microshift
-  brakes:
-    type: hydraulic disc
-    front_rotor_mm: 180
-    rear_rotor_mm: 180
-  wheels:
-    front_size_in: 26"
-    rear_size_in: 20"
-    tire: Schwalbe Pick-Up
-  suspension:
-    front: none
-    rear: none
-  range:
-    estimate_km: 50-120
-    notes: Depends on assist level and conditions
-  price:
-    amount: 5349
-    currency: EUR
-  notes:
-    Migrated from legacy format. Bosch Cargo Line system with Stay Steady Technology
-    frame.
-  frame:
-    material: aluminum
-    dimensions:
-      length_cm: 210
 resellers:
   - name: Cyclable
     url: https://www.cyclable.com/18411-velo-cargo-longtail-yuba-spicy-curry-.html
-    price: 5849
+    price: "5849"
     currency: EUR
     region: EU
     availability: in-stock
-    note: ""
+category: longtail
+frame_material: aluminum
+frame_length_cm: 210.0
+weight_with_battery_kg: 32.0
+load_capacity_total_kg: 200.0
+load_capacity_passenger_count: 2
+motor_make: Bosch
+motor_model: Cargo Line
+motor_type: mid-drive
+motor_power_w: 500
+motor_torque_nm: 85
+battery_capacity_wh: 500
+battery_configuration: single
+battery_removable: true
+drivetrain_type: chain
+drivetrain_speeds: "9"
+drivetrain_hub: Microshift
+brakes_type: hydraulic disc
+brakes_front_rotor_mm: 180
+brakes_rear_rotor_mm: 180
+wheels_front_size_in: 26
+wheels_rear_size_in: 20
+wheels_tire: Schwalbe Pick-Up
+suspension_front: none
+suspension_rear: none
+range_estimate_km: 50-120
+range_notes: Depends on assist level and conditions
+price_amount: "5349"
+price_currency: EUR
+specs_notes:
+  Migrated from legacy format. Bosch Cargo Line system with Stay Steady
+  Technology frame.
 ---
 
 ![Spicy Curry](https://yubabikes.eu/wp-content/uploads/2024/10/Spicy-Curry-True-Blue-No-BG.png)
@@ -77,6 +63,22 @@ The Spicy Curry is Yuba's flagship longtail cargo bike, designed to carry what m
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification             | Value                 |
+| ------------------------- | --------------------- |
+| **Category**              | longtail              |
+| **Motor**                 | Bosch Cargo Line      |
+| **Motor Power**           | 500W                  |
+| **Motor Torque**          | 85Nm                  |
+| **Battery Capacity**      | 500Wh                 |
+| **Range**                 | 50-120 km             |
+| **Weight (with battery)** | 32.0kg                |
+| **Total Load Capacity**   | 200.0kg               |
+| **Drivetrain**            | chain                 |
+| **Brakes**                | hydraulic disc        |
+| **Wheel Size**            | Front: 26", Rear: 20" |
+| **Price**                 | 5349 EUR              |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €5,349.00

@@ -1,41 +1,71 @@
 ---
-title: "Bike43 Short"
-type: bike
-tags: [bike, short-tail, cargo, electric, bike43]
 date: 2025-10-16
-brand: "Bike43"
-model: "Short"
-url: "https://bike43.com/short-cargo-family-bike/"
-image: "https://bike43.com/app/uploads/2025/07/Video-SuperPower-Pivotable-Bench-Kit-1024x830.jpg"
-price: "4990€"
-motor: "600W"
-battery: "540Wh"
-
-specs:
-  category: "shorttail"
-  motor:
-    make: "Bosch"
-    model: "Performance Line Gen5"
-    power_w: 600
-    type: "mid-drive"
-  battery:
-    capacity_wh: 540
-    configuration: "single"
-  range:
-    estimate_km: "30-60"
-  price:
-    amount: 4990
-    currency: "EUR"
-  notes: "Migrated from legacy frontmatter. Motor and battery inferred from body text (Bosch Performance Line Gen5 / Powertube 540Wh)."
+price: 4990€
+motor: 600W
+battery: 540Wh
+title: Bike43 Short
+type: bike
+brand: Bike43
+model: Short
+tags:
+  - bike
+  - short-tail
+  - cargo
+  - electric
+  - bike43
+url: https://bike43.com/short-cargo-family-bike/
+image: https://bike43.com/app/uploads/2025/07/Video-SuperPower-Pivotable-Bench-Kit-1024x830.jpg
+category: shorttail
+motor_make: Bosch
+motor_model: Performance Line Gen5
+motor_type: mid-drive
+motor_power_w: 600
+battery_capacity_wh: 540
+battery_configuration: single
+range_estimate_km: 30-60
+price_amount: "4990"
+price_currency: EUR
+specs_notes:
+  Migrated from legacy frontmatter. Motor and battery inferred from body
+  text (Bosch Performance Line Gen5 / Powertube 540Wh).
+motor_torque_nm: 75
+load_capacity_total_kg: 170.0
+load_capacity_passenger_count: 2
+frame_material: chromoly steel
+frame_length_cm: 173.0
+brakes_type: hydraulic disc
+drivetrain_type: chain
+drivetrain_speeds: "5"
+drivetrain_hub: Shimano Nexus Inter-5E
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
+wheels_tire: CST Brooklyn Pro
+suspension_front: SR Suntour SF22 Mobie 34 CGO 80mm
+suspension_rear: none
+needs_research: true
+research_topics:
+  - weight_with_battery_kg
 ---
 
 ## Overview
+
+![Bike43 Short](https://bike43.com/app/uploads/2025/07/Video-SuperPower-Pivotable-Bench-Kit-1024x830.jpg)
 
 The Bike43 Short is a compact family cargo bike designed for families with 1-2 children. At 173 cm long, it represents the most accessible entry point to the Bike43 family ecosystem. The Short model can be converted to the Mid configuration, offering future flexibility as your family grows.
 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification        | Value                       |
+| -------------------- | --------------------------- |
+| **Category**         | shorttail                   |
+| **Motor**            | Bosch Performance Line Gen5 |
+| **Motor Power**      | 600W                        |
+| **Battery Capacity** | 540Wh                       |
+| **Range**            | 30-60 km                    |
+| **Price**            | 4990 EUR                    |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Capacity

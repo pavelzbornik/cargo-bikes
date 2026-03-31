@@ -1,75 +1,85 @@
 ---
-title: "Le Compact"
-type: bike
-brand: "Gaya"
-model: "Le Compact"
 date: 2025-10-20
-tags: [bike, compact, gaya]
-url: "https://gaya.bike/velo-cargo/original-compact"
-image: "https://gaya.bike/_next/image?url=%2Fimg%2Flogo.png&w=828&q=75"
 review_summary_date: 2025-10-26
 review_source_count: 6
-specs:
-  category: "compact"
-  frame:
-    material: "steel"
-    size: "47"
-  weight:
-    bike_kg: 23
-    with_battery_kg: 25.5
-    battery_kg: 2.5
-  load_capacity:
-    total_kg: 160
-    rear_kg: 75
-    passenger_count_excluding_rider: 1
-    passenger_config: "1 or 2 passengers"
-  motor:
-    make: "Gaya"
-    type: "rear-hub"
-    power_w: 250
-    torque_nm: 50
-  battery:
-    capacity_wh: 450
-    configuration: "single"
-    removable: true
-    charging_time_h: 5
-  drivetrain:
-    type: "chain"
-    speeds: "3+"
-  brakes:
-    type: "hydraulic disc"
-  suspension:
-    front: "none"
-    rear: "none"
-  lights:
-    front:
-      type: "LED 125 lm"
-      integrated: true
-    rear:
-      type: "LED brake light 4 lm"
-      integrated: true
-      brake_light: true
-  features:
-    ["gps-tracking", "app-integration", "integrated-display", "cadence-sensor"]
-  security:
-    gps: true
-    alarm_db: 105
-    app_lock: true
-    frame_lock: true
-  range:
-    estimate_km: "70"
-  price:
-    amount: 2300
-    currency: "EUR"
+title: Le Compact
+type: bike
+brand: Gaya
+model: Le Compact
+tags:
+  - bike
+  - compact
+  - gaya
+url: https://gaya.bike/velo-cargo/original-compact
+image: https://gaya.bike/api/medias/api/images/file/og_court-4-600x534.webp
+category: compact
+frame_material: steel
+frame_size: "47"
+weight_bike_kg: 23.0
+weight_with_battery_kg: 25.5
+weight_battery_kg: 2.5
+load_capacity_total_kg: 160.0
+load_capacity_rear_kg: 75.0
+load_capacity_passenger_count: 1
+load_capacity_passenger_config: 1 or 2 passengers
+motor_make: Gaya
+motor_type: rear-hub
+motor_power_w: 250
+motor_torque_nm: 50
+battery_capacity_wh: 450
+battery_configuration: single
+battery_removable: true
+battery_charging_time_h: "5"
+drivetrain_type: chain
+drivetrain_speeds: 3+
+brakes_type: hydraulic disc
+suspension_front: none
+suspension_rear: none
+lights_front_type: LED 125 lm
+lights_front_integrated: true
+lights_rear_type: LED brake light 4 lm
+lights_rear_integrated: true
+lights_rear_brake_light: true
+features:
+  - gps-tracking
+  - app-integration
+  - integrated-display
+  - cadence-sensor
+security_gps: true
+security_alarm_db: 105
+security_app_lock: true
+security_frame_lock: true
+range_estimate_km: "70"
+price_amount: "2300"
+price_currency: EUR
+frame_length_cm: 175.0
+wheels_front_size_in: 20
 ---
 
 ## Overview
+
+![Le Compact](https://gaya.bike/_next/image?url=%2Fimg%2Flogo.png&w=828&q=75)
 
 Le Compact is GAYA's most accessible cargo e-bike, designed for urban commuting and solo or duo transport. This compact longtail configuration offers excellent maneuverability for city riding while maintaining practical cargo capacity. An affordable entry point into GAYA's electric cargo bike family.
 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification             | Value          |
+| ------------------------- | -------------- |
+| **Category**              | compact        |
+| **Motor**                 | Gaya           |
+| **Motor Power**           | 250W           |
+| **Motor Torque**          | 50Nm           |
+| **Battery Capacity**      | 450Wh          |
+| **Range**                 | 70 km          |
+| **Weight (with battery)** | 25.5kg         |
+| **Total Load Capacity**   | 160.0kg        |
+| **Drivetrain**            | chain          |
+| **Brakes**                | hydraulic disc |
+| **Price**                 | 2300 EUR       |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification                | Details                                     |

@@ -1,17 +1,15 @@
 [project]
-name = "cargo-bikes-docs"
+name = "cargo-bikes"
 version = "0.1.0"
-description = "Obsidian vault for cargo bikes documentation with Python utilities for content generation and validation."
-authors = ["pavelzbornik <your-email@example.com>"]
+description = "Cargo bikes vault management CLI with content generation, database sync, and AI enrichment."
+authors = [{name = "pavelzbornik"}]
 requires-python = ">=3.10"
 dependencies = [
     "pyyaml>=6.0",
-    "pytest>=7.0",
-    "pytest-cov>=4.0",
-    "ruff>=0.1.0",
-    "pre-commit-uv>=4.2.0",
     "requests>=2.31.0",
     "sqlalchemy>=2.0.0",
+    "typer[all]>=0.9.0",
+    "rich>=13.0",
     "mkdocs>=1.5.0",
     "mkdocs-material>=9.4.0",
     "mkdocs-obsidian-bridge>=1.3.1",
@@ -22,11 +20,37 @@ dependencies = [
     "mkdocs-redirects>=1.1",
     "mkdocs-section-index>=0.3",
     "mkdocs-llmstxt>=0.4",
+    "anthropic>=0.40.0",
+    "claude-agent-sdk>=0.1.0",
+    "mkdocs-static-i18n>=1.0.0",
+    "mkdocs-wikilinks-plugin>=0.1.2",
+    "mkdocs-ezlinks-plugin>=0.1.14",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "ruff>=0.1.0",
+    "pre-commit-uv>=4.2.0",
     "mypy>=1.14.0",
     "types-PyYAML>=6.0.0",
     "types-requests>=2.31.0",
     "sqlalchemy[mypy]>=2.0.0",
 ]
+
+[project.entry-points."mkdocs.plugins"]
+wikilinks-title = "cargo_bikes.mkdocs_wikilinks:WikilinksPlugin"
+
+[project.scripts]
+cargo-bikes = "cargo_bikes.__main__:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cargo_bikes"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
@@ -55,7 +79,7 @@ select = ["E", "F", "W", "I", "N", "UP", "RUF"]
 ignore = ["E501"]
 
 [tool.coverage.run]
-source = ["scripts"]
+source = ["src/cargo_bikes"]
 omit = ["*/tests/*"]
 
 [tool.coverage.report]

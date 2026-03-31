@@ -1,16 +1,37 @@
 ---
-title: "Velo de Ville Loady"
-type: bike
-brand: "Velo de Ville"
-model: "Loady"
-tags: [bike, long-tail, compact, velo-de-ville, configurable]
 date: 2025-10-16
-price: "4399€ (base) / 5700€+ (fully equipped)"
-motor: "600W"
-battery: "400Wh-800Wh"
-range: "46km"
-url: "https://www.transitionvelo.com/produit/velo-de-ville-loady/"
-image: "https://www.transitionvelo.com/content/uploads/2025/07/Velo-De-Ville-Loady-4-1024x576.jpg"
+price: 4399€ (base) / 5700€+ (fully equipped)
+motor: 600W
+battery: 400Wh-800Wh
+range: 46km
+title: Velo de Ville Loady
+type: bike
+brand: Velo de Ville
+model: Loady
+tags:
+  - bike
+  - long-tail
+  - compact
+  - velo-de-ville
+  - configurable
+url: https://www.transitionvelo.com/produit/velo-de-ville-loady/
+image: https://www.transitionvelo.com/content/uploads/2025/07/Velo-De-Ville-Loady-4-1024x576.jpg
+motor_power_w: 600
+battery_capacity_wh: 400
+range_estimate_km: "46"
+price_amount: "4399"
+price_currency: EUR
+needs_research: true
+research_topics:
+  - weight_with_battery_kg
+category: longtail
+motor_make: Bosch
+motor_torque_nm: 55
+load_capacity_total_kg: 180.0
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: belt
+wheels_front_size_in: 20
 ---
 
 ## Velo de Ville Loady
@@ -24,6 +45,14 @@ The Velo de Ville Loady is a compact electric cargo longtail from the German man
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Power**      | 600W     |
+| **Battery Capacity** | 400Wh    |
+| **Range**            | 46 km    |
+| **Price**            | 4399 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €4,399 (base) / €5,700+ (fully configured as tested)

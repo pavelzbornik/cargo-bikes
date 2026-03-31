@@ -1,16 +1,20 @@
 ---
-title: "Elwing"
-type: "brand-index"
-brand: "Elwing"
-tags: [brand, index, elwing]
+brand: Elwing
 date: 2025-10-24
-url: ""
 image: ""
-summary: "Elwing is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+category: longtail
+title: Elwing
+type: brand
+summary:
+  Elwing is a cargo bike manufacturer offering diverse models for families
+  and professionals.
+tags:
+  - brand
+  - index
+  - elwing
+regions:
+  - EU
+distribution_model: both
 ---
 
 ## Overview

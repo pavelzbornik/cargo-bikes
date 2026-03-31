@@ -5,7 +5,6 @@ Tests verify that the projection script correctly updates Markdown files
 from database records while preserving manual content outside managed sections.
 """
 
-import sys
 from datetime import date
 from pathlib import Path
 from tempfile import TemporaryDirectory
@@ -15,10 +14,7 @@ import yaml
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
 
-# Add parent directory to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent))
-
-from scripts.database.project import (
+from cargo_bikes.db.project import (
     SPECS_TABLE_END_MARKER,
     SPECS_TABLE_START_MARKER,
     find_bike_file,
@@ -28,7 +24,7 @@ from scripts.database.project import (
     project_bike_to_file,
     reconstruct_markdown_file,
 )
-from scripts.database.schema import Base, Bike, Brand, Reseller
+from cargo_bikes.db.schema import Base, Bike, Brand, Reseller
 
 
 @pytest.fixture
@@ -251,43 +247,39 @@ class TestGenerateFrontmatter:
         assert "bosch" in data["tags"]
 
     def test_generate_frontmatter_specs(self, sample_bike):
-        """Test that specs are correctly nested."""
+        """Test that specs are emitted as flat top-level properties."""
         frontmatter = generate_frontmatter(sample_bike)
         data = yaml.safe_load(frontmatter)
 
-        assert "specs" in data
-        specs = data["specs"]
+        # Specs should NOT be nested — all flat top-level
+        assert "specs" not in data
 
-        # Check category and year
-        assert specs["category"] == "longtail"
-        assert specs["model_year"] == 2024
+        # Check classification
+        assert data["category"] == "longtail"
+        assert data["model_year"] == 2024
 
-        # Check motor
-        assert "motor" in specs
-        assert specs["motor"]["make"] == "Bosch"
-        assert specs["motor"]["model"] == "Performance CX"
-        assert specs["motor"]["type"] == "mid-drive"
-        assert specs["motor"]["power_w"] == 250
-        assert specs["motor"]["torque_nm"] == 85
-        assert specs["motor"]["boost_throttle"] is False
+        # Check motor (flat)
+        assert data["motor_make"] == "Bosch"
+        assert data["motor_model"] == "Performance CX"
+        assert data["motor_type"] == "mid-drive"
+        assert data["motor_power_w"] == 250
+        assert data["motor_torque_nm"] == 85
+        assert data["motor_boost_throttle"] is False
 
-        # Check battery
-        assert "battery" in specs
-        assert specs["battery"]["capacity_wh"] == 500
-        assert specs["battery"]["configuration"] == "single"
-        assert specs["battery"]["removable"] is True
-        assert specs["battery"]["charging_time_h"] == "3-5"
+        # Check battery (flat)
+        assert data["battery_capacity_wh"] == 500
+        assert data["battery_configuration"] == "single"
+        assert data["battery_removable"] is True
+        assert data["battery_charging_time_h"] == "3-5"
 
-        # Check weight
-        assert "weight" in specs
-        assert specs["weight"]["bike_kg"] == 28.0
-        assert specs["weight"]["with_battery_kg"] == 30.0
+        # Check weight (flat)
+        assert data["weight_bike_kg"] == 28.0
+        assert data["weight_with_battery_kg"] == 30.0
 
-        # Check load capacity
-        assert "load_capacity" in specs
-        assert specs["load_capacity"]["total_kg"] == 200.0
-        assert specs["load_capacity"]["rear_kg"] == 80.0
-        assert specs["load_capacity"]["passenger_count_excluding_rider"] == 2
+        # Check load capacity (flat)
+        assert data["load_capacity_total_kg"] == 200.0
+        assert data["load_capacity_rear_kg"] == 80.0
+        assert data["load_capacity_passenger_count"] == 2
 
     def test_generate_frontmatter_resellers(self, sample_bike):
         """Test that resellers are included."""
@@ -728,15 +720,16 @@ Content
         assert "model: Model X" in updated_content
         assert "url: https://testbrand.com/model-x" in updated_content
 
-        # Check old field is gone
-        assert "old_field: should_be_removed" not in updated_content
+        # Non-managed fields are preserved (merge behavior)
+        assert "old_field: should_be_removed" in updated_content
+        # Legacy nested specs are removed
         assert "old_spec: old_value" not in updated_content
 
-        # Check specs are updated
+        # Check flat specs are present (no nested specs object)
         data = yaml.safe_load(updated_content.split("---")[1])
-        assert "specs" in data
-        assert data["specs"]["category"] == "longtail"
-        assert data["specs"]["motor"]["make"] == "Bosch"
+        assert "specs" not in data
+        assert data["category"] == "longtail"
+        assert data["motor_make"] == "Bosch"
 
     def test_project_bike_updates_specs_table(
         self, temp_vault, db_session, sample_bike

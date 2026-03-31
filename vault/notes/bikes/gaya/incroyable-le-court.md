@@ -1,84 +1,93 @@
 ---
-title: "Gaya L'Incroyable Le Court"
-type: bike
-brand: "Gaya"
-model: "L'Incroyable Le Court"
 date: 2025-10-20
-tags: [bike, short-tail, gaya, premium]
-url: "https://gaya.bike/velo-cargo/incroyable-le-court"
-image: "https://gaya.bike/api/medias/api/images/file/Incroyable%20-%20Le%20Court%20-%20Ardoise%20-%20Color%20Swatcher%20Cropped-1000x663.webp"
-resellers:
-  - name: "Roulez Jeunesse"
-    url: "https://shop.roulezjeunesse.com/collections/pour-les-familles/products/gaya-lincroyable-le-court"
-    price: 3200
-    currency: "EUR"
-    region: "EU"
-    availability: "in-stock"
-    note: ""
 review_summary_date: 2025-10-26
 review_source_count: 8
-specs:
-  category: "short-tail"
-  frame:
-    material: "aluminum"
-    size: "43"
-  weight:
-    bike_kg: 34
-    with_battery_kg: 36.8
-    battery_kg: 2.8
-  load_capacity:
-    total_kg: 170
-    rear_kg: 80
-  motor:
-    make: "Gaya"
-    model: "rear wheel 250W"
-    type: "rear-hub"
-    power_w: 250
-    torque_nm: 50
-  battery:
-    capacity_wh: 460
-    configuration: "single"
-    removable: true
-  drivetrain:
-    type: "chain"
-    speeds: "single/varies"
-  brakes:
-    type: "mechanical disc"
-  wheels:
-    front_size_in: '27.5"'
-    rear_size_in: '27.5"'
-    tire: "standard (43 frame fit)"
-  suspension:
-    front: "hydraulic fork 70mm"
-    rear: "aluminum swing arm 50mm"
-  features: ["torque-sensor", "gps-tracking", "nfc-badge", "integrated-display"]
-  security:
-    gps: true
-    alarm_db: 105
-    app_lock: true
-    frame_lock: true
-  lights:
-    front:
-      type: "LED 125 lm"
-      integrated: true
-    rear:
-      type: "LED brake light 4 lm"
-      integrated: true
-      brake_light: true
-  range:
-    estimate_km: "70"
-  price:
-    amount: 2900
-    currency: "EUR"
+title: Gaya L'Incroyable Le Court
+type: bike
+brand: Gaya
+model: L'Incroyable Le Court
+tags:
+  - bike
+  - short-tail
+  - gaya
+  - premium
+url: https://gaya.bike/velo-cargo/incroyable-le-court
+image: https://gaya.bike/api/medias/api/images/file/Incroyable%20-%20Le%20Court%20-%20Ardoise%20-%20Color%20Swatcher%20Cropped-1000x663.webp
+resellers:
+  - name: Roulez Jeunesse
+    url: https://shop.roulezjeunesse.com/collections/pour-les-familles/products/gaya-lincroyable-le-court
+    price: "3200"
+    currency: EUR
+    region: EU
+    availability: in-stock
+category: short-tail
+frame_material: aluminum
+frame_size: "43"
+weight_bike_kg: 34.0
+weight_with_battery_kg: 36.8
+weight_battery_kg: 2.8
+load_capacity_total_kg: 170.0
+load_capacity_rear_kg: 80.0
+motor_make: Gaya
+motor_model: rear wheel 250W
+motor_type: rear-hub
+motor_power_w: 250
+motor_torque_nm: 50
+battery_capacity_wh: 460
+battery_configuration: single
+battery_removable: true
+drivetrain_type: chain
+drivetrain_speeds: single/varies
+brakes_type: mechanical disc
+wheels_front_size_in: 27.5
+wheels_rear_size_in: 27.5
+wheels_tire: standard (43 frame fit)
+suspension_front: hydraulic fork 70mm
+suspension_rear: aluminum swing arm 50mm
+lights_front_type: LED 125 lm
+lights_front_integrated: true
+lights_rear_type: LED brake light 4 lm
+lights_rear_integrated: true
+lights_rear_brake_light: true
+features:
+  - torque-sensor
+  - gps-tracking
+  - nfc-badge
+  - integrated-display
+security_gps: true
+security_alarm_db: 105
+security_app_lock: true
+security_frame_lock: true
+range_estimate_km: "70"
+price_amount: "2900"
+price_currency: EUR
 ---
 
 ## Overview
+
+![Gaya L'Incroyable Le Court](https://gaya.bike/api/medias/api/images/file/Incroyable%20-%20Le%20Court%20-%20Ardoise%20-%20Color%20Swatcher%20Cropped-1000x663.webp)
 
 L'Incroyable Le Court is the premium short-tail cargo e-bike from GAYA, designed for maximum comfort and convenience. Featuring dual front and rear suspension, adjustable stem and seatpost, and integrated GPS security, it's GAYA's most comfortable model. Ideal for solo or duo commuting with a focus on ride quality and safety features.
 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification             | Value                |
+| ------------------------- | -------------------- |
+| **Category**              | short-tail           |
+| **Motor**                 | Gaya rear wheel 250W |
+| **Motor Power**           | 250W                 |
+| **Motor Torque**          | 50Nm                 |
+| **Battery Capacity**      | 460Wh                |
+| **Range**                 | 70 km                |
+| **Weight (with battery)** | 36.8kg               |
+| **Total Load Capacity**   | 170.0kg              |
+| **Drivetrain**            | chain                |
+| **Brakes**                | mechanical disc      |
+| **Wheel Size**            | 27.5"                |
+| **Price**                 | 2900 EUR             |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification                | Details                                          |

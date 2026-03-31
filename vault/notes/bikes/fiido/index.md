@@ -1,76 +1,79 @@
 ---
-title: "Fiido"
-type: "brand"
 date: 2025-10-24
-url: "https://www.fiido.com"
-logo: "https://www.fiido.com/cdn/shop/files/Fiido-Logo_c2d1f688-d98f-4fbb-8f5b-7c4919a4e66d.svg"
-summary: "Hong Kong-based e-bike manufacturer founded in 2017, offering innovative electric bikes and e-scooters with focus on design, technology, and user-centered community engagement. Known for patented technologies and high-quality cargo and urban e-bikes."
-
+title: Fiido
+type: brand
+url: https://www.fiido.com
+logo: https://www.fiido.com/cdn/shop/files/Fiido-Logo_c2d1f688-d98f-4fbb-8f5b-7c4919a4e66d.svg
+summary:
+  Hong Kong-based e-bike manufacturer founded in 2017, offering innovative
+  electric bikes and e-scooters with focus on design, technology, and user-centered
+  community engagement. Known for patented technologies and high-quality cargo and
+  urban e-bikes.
+tags:
+  - brand
+  - hong-kong
+  - electric-bikes
+  - cargo-bikes
+  - innovation
+  - affordable
+  - community-focused
+  - design-forward
 founded_year: 2017
-country: "Hong Kong"
-headquarters:
-  city: "Hong Kong"
-  country: "Hong Kong"
-
-categories: ["longtail", "cargo", "folding", "urban", "touring", "carbon"]
+country: Hong Kong
+headquarters_city: Hong Kong
+headquarters_country: Hong Kong
+categories:
+  - longtail
+  - cargo
+  - folding
+  - urban
+  - touring
+  - carbon
 market_segments:
-  [
-    "urban-commuters",
-    "families",
-    "cargo-transport",
-    "enthusiasts",
-    "lifestyle-riders",
-  ]
-regions: ["EU", "North America", "Asia"]
-price_tier: "accessible"
-
-product_types: ["bikes", "e-scooters"]
+  - urban-commuters
+  - families
+  - cargo-transport
+  - enthusiasts
+  - lifestyle-riders
+regions:
+  - EU
+  - North America
+  - Asia
+price_tier: accessible
+product_types:
+  - bikes
+  - e-scooters
 model_count: 15
-primary_motors: ["proprietary-hub-motors", "mid-drive"]
-parent_company: null
-
-manufacturing:
-  locations: ["China"]
-  approach: "contracted"
-  assembly_location: "China"
-  ethical_standards: "Professional R&D team, exclusive technology patents, complete supply chain, full-scale testing lab"
-
-distribution_model: "both"
-regions_active: ["EU", "North America", "Asia", "Oceania"]
+primary_motors:
+  - proprietary-hub-motors
+  - mid-drive
+manufacturing_locations:
+  - China
+manufacturing_approach: contracted
+assembly_location: China
+ethical_standards:
+  Professional R&D team, exclusive technology patents, complete supply
+  chain, full-scale testing lab
+distribution_model: both
+regions_active:
+  - EU
+  - North America
+  - Asia
+  - Oceania
 direct_sales: true
 dealership_network: true
-
-impact:
-  bikes_sold_approx: 400000
-  km_driven_approx: null
-  co2_avoided_kg_approx: null
-  families_served: null
-
+impact_bikes_sold_approx: 400000
+value_sustainability: true
+value_local_manufacturing: false
+value_community_focus: true
+value_safety_emphasis: true
+value_tech_integration: true
 accessibility:
-  - "innovative-design-technology"
-  - "affordable-pricing"
-  - "diverse-product-range"
-  - "user-centric-community"
-  - "patented-technologies"
-
-values:
-  sustainability: true
-  local_manufacturing: false
-  community_focus: true
-  safety_emphasis: true
-  tech_integration: true
-
-tags:
-  [
-    brand,
-    hong-kong,
-    electric-bikes,
-    cargo-bikes,
-    innovation,
-    affordable,
-    community-focused,
-    design-forward,
-  ]
+  - innovative-design-technology
+  - affordable-pricing
+  - diverse-product-range
+  - user-centric-community
+  - patented-technologies
 ---
 
 ## Overview

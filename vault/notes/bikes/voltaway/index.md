@@ -1,16 +1,20 @@
 ---
-title: "Voltaway"
-type: "brand-index"
-brand: "Voltaway"
-tags: [brand, index, voltaway]
+brand: Voltaway
 date: 2025-10-24
-url: ""
 image: ""
-summary: "Voltaway is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+category: longtail
+title: Voltaway
+type: brand
+summary:
+  Voltaway is a cargo bike manufacturer offering diverse models for families
+  and professionals.
+tags:
+  - brand
+  - index
+  - voltaway
+regions:
+  - EU
+distribution_model: both
 ---
 
 ## Overview

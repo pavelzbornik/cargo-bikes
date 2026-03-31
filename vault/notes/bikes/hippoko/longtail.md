@@ -1,25 +1,54 @@
 ---
-title: "Hippoko Longtail"
-type: bike
-tags: [bike, long-tail, cargo-bike, hippoko]
 date: 2025-10-16
-brand: "Hippoko"
-model: "Longtail Électrique"
-url: "https://www.hippoko.com/"
-image: "https://static.wixstatic.com/media/6c069a_92d43caf96194584abdad3d7e250873a~mv2.png/v1/fill/w_87,h_87,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/modularite.png"
-price: "€2,399"
-motor: "250W"
-battery: "960Wh"
-range: "TBD"
+price: €2,399
+motor: 250W
+battery: 960Wh
+range: TBD
+title: Hippoko Longtail
+type: bike
+brand: Hippoko
+model: Longtail Électrique
+tags:
+  - bike
+  - long-tail
+  - cargo-bike
+  - hippoko
+url: https://www.hippoko.com/
+image: https://static.wixstatic.com/media/6c069a_92d43caf96194584abdad3d7e250873a~mv2.png/v1/fill/w_87,h_87,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/modularite.png
+motor_power_w: 250
+battery_capacity_wh: 960
+price_amount: "2399"
+price_currency: EUR
+needs_research: true
+research_topics:
+  - category
+  - motor_make
+  - motor_torque_nm
+  - weight_with_battery_kg
+  - load_capacity_total_kg
+  - brakes_type
+  - drivetrain_type
+  - frame_material
+  - range_estimate_km
+  - wheels_front_size_in
 ---
 
 ## Overview
+
+![Hippoko Longtail](https://static.wixstatic.com/media/6c069a_92d43caf96194584abdad3d7e250873a~mv2.png/v1/fill/w_87,h_87,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/modularite.png)
 
 The Hippoko Longtail is an electric cargo bike designed for urban family transportation. As a long-tail cargo bike with a 160 kg load capacity (excluding bike weight), it can transport two children and one adult, or significant cargo. The Hippoko brand was founded with the mission to make electric cargo bikes financially accessible to more families, positioning quality and reliability as key differentiators from competitors.
 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Power**      | 250W     |
+| **Battery Capacity** | 960Wh    |
+| **Price**            | 2399 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification          | Details                                                       |

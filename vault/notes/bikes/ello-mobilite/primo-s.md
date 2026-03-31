@@ -1,14 +1,42 @@
 ---
-title: "Ello Mobilité Primo S"
-type: bike
-brand: "Ello Mobilité"
-model: "Primo S"
-tags: [bike, cargo-bike, compact-cargo, family-bike, ello-mobilite]
 date: 2025-10-19
-url: "https://ello-mobilite.com/nos-realisations/"
-image: "https://ello-mobilite.com/wp-content/uploads/2025/09/IMG_8805.webp"
-motor: "Bosch Performance Line W"
-battery: "Not specified Wh"
+motor: Bosch Performance Line W
+battery: Not specified Wh
+title: Ello Mobilité Primo S
+type: bike
+brand: Ello Mobilité
+model: Primo S
+tags:
+  - bike
+  - cargo-bike
+  - compact-cargo
+  - family-bike
+  - ello-mobilite
+url: https://ello-mobilite.com/nos-realisations/
+image: https://ello-mobilite.com/wp-content/uploads/2025/09/IMG_8805.webp
+motor_make: Bosch
+motor_model: Performance Line W
+category: compact
+motor_type: mid-drive
+load_capacity_total_kg: 80.0
+load_capacity_passenger_count: 1
+frame_material: aluminum
+drivetrain_type: belt
+drivetrain_speeds: "5"
+drivetrain_hub: Shimano Nexus 5
+suspension_front: suspended fork
+suspension_rear: none
+needs_research: true
+research_topics:
+  - motor_power_w
+  - motor_torque_nm
+  - battery_capacity_wh
+  - price_amount
+  - price_currency
+  - weight_with_battery_kg
+  - brakes_type
+  - range_estimate_km
+  - wheels_front_size_in
 ---
 
 ## Ello Mobilité Primo S
@@ -22,6 +50,11 @@ The Primo S is the ultimate comfort version of our compact cargo bike. Thanks to
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification | Value                    |
+| ------------- | ------------------------ |
+| **Motor**     | Bosch Performance Line W |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Frame:** Aluminum, designed and manufactured in France

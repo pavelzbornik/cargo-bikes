@@ -1,96 +1,81 @@
 ---
-title: "E-Mog E-Dune Mini Cargo"
-type: bike
-brand: "E-Mog"
-model: "E-Dune Mini Cargo"
-tags: [bike, fat-bike, compact-cargo, e-mog, bafang]
 date: 2025-12-02
-url: "https://www.emog-bikes.com/produit/mini-velo-cargo-electrique-compact/"
-image: "https://i0.wp.com/www.emog-bikes.com/wp-content/uploads/2024/05/cargo-mini-velo-bi-place-2.jpg?fit=950%2C950&ssl=1"
+title: E-Mog E-Dune Mini Cargo
+type: bike
+brand: E-Mog
+model: E-Dune Mini Cargo
+tags:
+  - bike
+  - fat-bike
+  - compact-cargo
+  - e-mog
+  - bafang
+url: https://www.emog-bikes.com/produit/mini-velo-cargo-electrique-compact/
+image: https://i0.wp.com/www.emog-bikes.com/wp-content/uploads/2024/05/cargo-mini-velo-bi-place-2.jpg?fit=950%2C950&ssl=1
 resellers:
-  - name: "E-Mog Bikes Official"
-    url: "https://www.emog-bikes.com/produit/mini-velo-cargo-electrique-compact/"
-    price: 1899
-    currency: "EUR"
-    region: "EU (France)"
-    availability: "in-stock"
-    note: "Promotional pricing (reduced from €1,999). Free delivery in mainland France. Limited stock available."
-specs:
-  category: "fat-bike"
-  model_year: null
-  frame:
-    material: "steel"
-    size: "one size (low step-through design)"
-    dimensions:
-      length_cm: null
-      width_cm: null
-      height_cm: null
-  weight:
-    bike_kg: null
-    with_battery_kg: null
-  load_capacity:
-    total_kg: 120
-    rear_kg: 50
-    front_kg: 15
-    passenger_count_excluding_rider: 1
-    passenger_config: "1 passenger on rear seat with cushion and foot pegs, or child seat, or cargo"
-  motor:
-    make: "Bafang"
-    model: null
-    type: "mid-drive"
-    power_w: 250
-    torque_nm: 80
-    boost_throttle: true
-  battery:
-    capacity_wh: 840
-    configuration: "single"
-    removable: true
-    charging_time_h: null
-  drivetrain:
-    type: "chain"
-    speeds: null
-    hub: "Shimano"
-  brakes:
-    type: "hydraulic disc"
-    front_rotor_mm: null
-    rear_rotor_mm: null
-  wheels:
-    front_size_in: '20"'
-    rear_size_in: '20"'
-    tire: "Kenda 4 inch (fat bike tires)"
-  suspension:
-    front: "front fork with suspension"
-    rear: "none"
-  lights:
-    front:
-      type: "LED"
-      integrated: true
-      powered_by: "main battery"
-    rear:
-      type: "LED brake light with brake-response avertissement"
-      integrated: true
-      brake_light: true
-  features:
-    [
-      "fat-bike-tires",
-      "low-step-frame",
-      "biplace-seating",
-      "front-suspension",
-      "beach-capable",
-      "backlight-display",
-      "reflective-tire-sidewalls",
-    ]
-  security:
-    gps: false
-    frame_lock: true
-    app_lock: false
-  range:
-    estimate_km: 100
-    notes: "Up to 100+ km depending on assist level and load"
-  price:
-    amount: 1899
-    currency: "EUR"
-  notes: "Versatile mini cargo fat bike optimized for sand, city, and forest use. Promotional pricing reflects clearance of current generation. Uses proven Bafang motor and Samsung batteries (per product documentation)."
+  - name: E-Mog Bikes Official
+    url: https://www.emog-bikes.com/produit/mini-velo-cargo-electrique-compact/
+    price: "1899"
+    currency: EUR
+    region: EU (France)
+    availability: in-stock
+    note:
+      Promotional pricing (reduced from €1,999). Free delivery in mainland France.
+      Limited stock available.
+category: fat-bike
+frame_material: steel
+frame_size: one size (low step-through design)
+load_capacity_total_kg: 120.0
+load_capacity_rear_kg: 50.0
+load_capacity_front_kg: 15.0
+load_capacity_passenger_count: 1
+load_capacity_passenger_config:
+  1 passenger on rear seat with cushion and foot pegs,
+  or child seat, or cargo
+motor_make: Bafang
+motor_type: mid-drive
+motor_power_w: 250
+motor_torque_nm: 80
+motor_boost_throttle: true
+battery_capacity_wh: 840
+battery_configuration: single
+battery_removable: true
+drivetrain_type: chain
+drivetrain_hub: Shimano
+brakes_type: hydraulic disc
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
+wheels_tire: Kenda 4 inch (fat bike tires)
+suspension_front: front fork with suspension
+suspension_rear: none
+lights_front_type: LED
+lights_front_integrated: true
+lights_front_powered_by: main battery
+lights_rear_type: LED brake light with brake-response avertissement
+lights_rear_integrated: true
+lights_rear_brake_light: true
+features:
+  - fat-bike-tires
+  - low-step-frame
+  - biplace-seating
+  - front-suspension
+  - beach-capable
+  - backlight-display
+  - reflective-tire-sidewalls
+security_gps: false
+security_app_lock: false
+security_frame_lock: true
+range_estimate_km: "100"
+range_notes: Up to 100+ km depending on assist level and load
+price_amount: "1899"
+price_currency: EUR
+specs_notes:
+  Versatile mini cargo fat bike optimized for sand, city, and forest use.
+  Promotional pricing reflects clearance of current generation. Uses proven Bafang
+  motor and Samsung batteries (per product documentation).
+needs_research: true
+research_topics:
+  - weight_with_battery_kg
 ---
 
 ## E-Mog E-Dune Mini Cargo
@@ -303,3 +288,21 @@ The E-Dune Mini Cargo arrives fully equipped for immediate use:
 ## Notes
 
 The E-Mog E-Dune Mini Cargo occupies a unique market position: it's neither a traditional cargo bike nor a pure fat bike, but a practical hybrid optimized for versatility. The integrated biplace seating (passenger seat with cushion and foot pegs) distinguishes it from standard cargo fat bikes, making it appealing to riders who value passenger transport flexibility. At €1,899 promotional pricing, it's the most affordable E-Mog e-bike in their catalog, making it an accessible entry point to electric cargo transport. The front suspension and fat tires enable genuine multi-terrain use—from sandy beaches to forest paths to urban streets—a capability neither the E-City nor E-City+ emphasize. Best suited for riders prioritizing terrain versatility and single-passenger transport over maximum load capacity; less ideal for families with multiple children or those focused exclusively on urban cargo hauling.
+
+<!-- BIKE_SPECS_TABLE_START -->
+
+| Specification           | Value          |
+| ----------------------- | -------------- |
+| **Category**            | fat-bike       |
+| **Motor**               | Bafang         |
+| **Motor Power**         | 250W           |
+| **Motor Torque**        | 80Nm           |
+| **Battery Capacity**    | 840Wh          |
+| **Range**               | 100 km         |
+| **Total Load Capacity** | 120.0kg        |
+| **Drivetrain**          | chain          |
+| **Brakes**              | hydraulic disc |
+| **Wheel Size**          | 20"            |
+| **Price**               | 1899 EUR       |
+
+<!-- BIKE_SPECS_TABLE_END -->

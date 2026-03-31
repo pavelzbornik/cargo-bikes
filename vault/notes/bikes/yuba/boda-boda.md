@@ -1,9 +1,11 @@
 ---
+date: "2025-10-20"
+review_summary_date: 2025-10-27
+review_source_count: 8
 title: Boda Boda
 type: bike
 brand: Yuba
 model: Boda Boda
-date: "2025-10-20"
 tags:
   - bike
   - longtail
@@ -11,59 +13,48 @@ tags:
   - bosch
 url: https://yubabikes.eu/product/boda-boda/
 image: https://yubabikes.eu/wp-content/uploads/2024/10/Boda-Boda-No-BG.png
-specs:
-  category: longtail
-  model_year: 2025
-  weight:
-    with_battery_kg: 34
-  load_capacity:
-    total_kg: 200
-    passenger_count_excluding_rider: 2
-  motor:
-    make: Bosch
-    model: Cargo Line
-    type: mid-drive
-    power_w: 500
-    torque_nm: 85
-  battery:
-    capacity_wh: 500
-    configuration: single
-    removable: true
-  drivetrain:
-    type: chain
-    speeds: 10
-    hub: Shimano Cues
-  brakes:
-    type: hydraulic disc
-    front_rotor_mm: 180
-    rear_rotor_mm: 180
-    pistons: 4-piston front, 2-piston rear
-  wheels:
-    front_size_in: 26"
-    rear_size_in: 26"
-    tire: Schwalbe Pick-Up 60mm
-  suspension:
-    front: SR Suntour Mobie 25 (80mm travel)
-    rear: none
-  range:
-    estimate_km: 45-55
-    notes: 45km Turbo mode, 55km mixed efficiency modes
-  price:
-    amount: 4849
-    currency: EUR
-  notes:
-    Migrated from legacy format. 26-inch wheels unique for cargo longtails. Bosch
-    Cargo Line with Stay Steady Technology frame.
-review_summary_date: 2025-10-27
-review_source_count: 8
 resellers:
   - name: Cyclable
     url: https://www.cyclable.com/18603-velo-cargo-electrique-yuba-boda-boda.html
-    price: 4849
+    price: "4849"
     currency: EUR
     region: EU
     availability: in-stock
-    note: ""
+category: longtail
+model_year: 2025
+weight_with_battery_kg: 34.0
+load_capacity_total_kg: 200.0
+load_capacity_passenger_count: 2
+motor_make: Bosch
+motor_model: Cargo Line
+motor_type: mid-drive
+motor_power_w: 500
+motor_torque_nm: 85
+battery_capacity_wh: 500
+battery_configuration: single
+battery_removable: true
+drivetrain_type: chain
+drivetrain_speeds: "10"
+drivetrain_hub: Shimano Cues
+brakes_type: hydraulic disc
+brakes_front_rotor_mm: 180
+brakes_rear_rotor_mm: 180
+brakes_pistons: 4-piston front, 2-piston rear
+wheels_front_size_in: 26
+wheels_rear_size_in: 26
+wheels_tire: Schwalbe Pick-Up 60mm
+suspension_front: SR Suntour Mobie 25 (80mm travel)
+suspension_rear: none
+range_estimate_km: 45-55
+range_notes: 45km Turbo mode, 55km mixed efficiency modes
+price_amount: "4849"
+price_currency: EUR
+specs_notes:
+  Migrated from legacy format. 26-inch wheels unique for cargo longtails.
+  Bosch Cargo Line with Stay Steady Technology frame.
+battery_charging_time_h: "4"
+weight_bike_kg: 32.0
+frame_material: aluminum
 ---
 
 ## Boda Boda
@@ -77,6 +68,23 @@ The Yuba Boda Boda is a unique electric cargo longtail from French-pioneer Yuba 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification             | Value            |
+| ------------------------- | ---------------- |
+| **Category**              | longtail         |
+| **Model Year**            | 2025             |
+| **Motor**                 | Bosch Cargo Line |
+| **Motor Power**           | 500W             |
+| **Motor Torque**          | 85Nm             |
+| **Battery Capacity**      | 500Wh            |
+| **Range**                 | 45-55 km         |
+| **Weight (with battery)** | 34.0kg           |
+| **Total Load Capacity**   | 200.0kg          |
+| **Drivetrain**            | chain            |
+| **Brakes**                | hydraulic disc   |
+| **Wheel Size**            | 26"              |
+| **Price**                 | 4849 EUR         |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €4,849 (base price after 2025 reduction) / €5,250+ (with accessories); Edition Active €4,949; Edition Famille €4,999

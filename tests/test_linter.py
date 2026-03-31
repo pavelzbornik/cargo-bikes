@@ -5,18 +5,14 @@ Tests validate that the linter correctly identifies valid and invalid
 markdown files based on frontmatter and bike-specific requirements.
 """
 
-import sys
-from pathlib import Path
-
-# Add parent directory to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent))
-
-from scripts.linters.validate_structure import (
+from cargo_bikes.validate.structure import (
     ValidationError,
-    extract_frontmatter,
     validate_bike_note,
     validate_file,
     validate_vault,
+)
+from cargo_bikes.vault.frontmatter import (
+    extract_frontmatter_with_error as extract_frontmatter,
 )
 
 

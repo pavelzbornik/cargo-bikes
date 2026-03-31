@@ -1,16 +1,20 @@
 ---
-title: "Benno Bikes"
-type: "brand-index"
-brand: "Benno Bikes"
-tags: [brand, index, benno]
+brand: Benno Bikes
 date: 2025-10-24
-url: ""
 image: ""
-summary: "Benno Bikes is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+category: longtail
+title: Benno Bikes
+type: brand
+summary:
+  Benno Bikes is a cargo bike manufacturer offering diverse models for families
+  and professionals.
+tags:
+  - brand
+  - index
+  - benno
+regions:
+  - EU
+distribution_model: retail
 ---
 
 ## Overview

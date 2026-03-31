@@ -1,16 +1,36 @@
 ---
-title: "Douze LT2 S Nexus 5"
-type: bike
-tags: [bike, longtail, electric, douze-cycles]
 date: 2025-10-16
-brand: "Douze Cycles"
-model: "LT2 S Nexus 5"
-url: "https://www.douze-cycles.com/velos-cargos/lt"
-image: "https://vitrine.douze-cycles.com/wp-content/uploads/2023/05/charge.svg"
-price: "€4,690"
-motor: "250W"
-battery: "504Wh"
-range: "Variable depending on terrain"
+price: €4,690
+motor: 250W
+battery: 504Wh
+range: Variable depending on terrain
+title: Douze LT2 S Nexus 5
+type: bike
+brand: Douze Cycles
+model: LT2 S Nexus 5
+tags:
+  - bike
+  - longtail
+  - electric
+  - douze-cycles
+url: https://www.douze-cycles.com/velos-cargos/lt
+image: https://boutique.douze-cycles.com/wp-content/uploads/2026/02/LT24_shimano-nexus-di2-lilas_longtail_velo-cargo-electrique_douze-cycles.png
+motor_power_w: 250
+battery_capacity_wh: 504
+price_amount: "4690"
+price_currency: EUR
+needs_research: true
+research_topics:
+  - category
+  - motor_make
+  - motor_torque_nm
+  - weight_with_battery_kg
+  - load_capacity_total_kg
+  - brakes_type
+  - drivetrain_type
+  - frame_material
+  - range_estimate_km
+  - wheels_front_size_in
 ---
 
 ## Douze LT2 S Nexus 5
@@ -24,6 +44,13 @@ The LT2 S Nexus 5 is a premium electric longtail cargo bike featuring a Shimano 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Power**      | 250W     |
+| **Battery Capacity** | 504Wh    |
+| **Price**            | 4690 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €4,690 TTC

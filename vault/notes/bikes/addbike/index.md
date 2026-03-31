@@ -1,66 +1,70 @@
 ---
-title: "AddBike"
-type: "brand"
 date: 2025-10-24
-url: "https://add-bike.com/en/"
-logo: "https://add-bike.com/wp-content/uploads/2025/09/ADDBIKE-LOGO.svg"
-summary: "French manufacturer of innovative electric cargo bikes and modular systems designed for urban families and eco-conscious commuters, based in Lyon with a focus on adaptability and safety."
-
-founded_year: null
-country: "France"
-headquarters:
-  city: "Lyon (Villeurbanne)"
-  country: "France"
-  address: "Grand Plateau, Villeurbanne, Auvergne-Rhône-Alpes Region"
-
-categories: ["longtail", "compact", "tricycle", "midtail", "adapted-bikes"]
+title: AddBike
+type: brand
+url: https://add-bike.com/en/
+logo: https://add-bike.com/wp-content/uploads/2025/09/ADDBIKE-LOGO.svg
+summary:
+  French manufacturer of innovative electric cargo bikes and modular systems
+  designed for urban families and eco-conscious commuters, based in Lyon with a focus
+  on adaptability and safety.
+tags:
+  - brand
+  - french
+  - longtail
+  - electric
+  - family
+  - accessible
+  - modular
+  - lyon
+country: France
+headquarters_city: Lyon (Villeurbanne)
+headquarters_country: France
+headquarters_address: Grand Plateau, Villeurbanne, Auvergne-Rhône-Alpes Region
+categories:
+  - longtail
+  - compact
+  - tricycle
+  - midtail
+  - adapted-bikes
 market_segments:
-  [
-    "urban-families",
-    "parents-with-children",
-    "accessibility-focused",
-    "commuters",
-  ]
-regions: ["EU"]
-price_tier: "accessible"
-
-product_types: ["bikes", "cargo-systems", "modules"]
+  - urban-families
+  - parents-with-children
+  - accessibility-focused
+  - commuters
+regions:
+  - EU
+price_tier: accessible
+product_types:
+  - bikes
+  - cargo-systems
+  - modules
 model_count: 6
-primary_motors: ["Bafang BBS01"]
-parent_company: null
-
-manufacturing:
-  locations: ["France"]
-  approach: "in-house"
-  assembly_location: "France"
-  ethical_standards: "Assembled at Usine à Vélo (bicycle assembly cooperative) and Grand Plateau production site, supported by local regional authorities"
-
-distribution_model: "both"
-regions_active: ["EU"]
+primary_motors:
+  - Bafang BBS01
+manufacturing_locations:
+  - France
+manufacturing_approach: in-house
+assembly_location: France
+ethical_standards:
+  Assembled at Usine à Vélo (bicycle assembly cooperative) and Grand
+  Plateau production site, supported by local regional authorities
+distribution_model: both
+regions_active:
+  - EU
 direct_sales: true
 dealership_network: true
-
-impact:
-  bikes_sold_approx: null
-  km_driven_approx: null
-  co2_avoided_kg_approx: null
-  families_served: null
-
+value_sustainability: true
+value_local_manufacturing: true
+value_community_focus: true
+value_safety_emphasis: true
+value_tech_integration: true
 accessibility:
-  - "modular-system"
-  - "adaptable-for-accessibility"
-  - "quick-mode-switching"
-  - "affordable-entry-to-cargo"
-  - "comprehensive-safety-features"
-
-values:
-  sustainability: true
-  local_manufacturing: true
-  community_focus: true
-  safety_emphasis: true
-  tech_integration: true
-
-tags: [brand, french, longtail, electric, family, accessible, modular, lyon]
+  - modular-system
+  - adaptable-for-accessibility
+  - quick-mode-switching
+  - affordable-entry-to-cargo
+  - comprehensive-safety-features
 ---
 
 ## Overview

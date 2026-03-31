@@ -1,69 +1,65 @@
 ---
-title: "Gaya"
-type: "brand"
 date: 2025-10-24
-url: "https://gaya.bike"
-logo: "https://gaya.bike/api/medias/api/images/file/Gaya_Logo-1000x663.webp"
-summary: "French manufacturer of smart, accessible electric cargo bikes designed for urban families, featuring integrated GPS security, comprehensive safety features, and community-driven design. Bikes assembled in France since 2023."
-
-founded_year: null
-country: "France"
-headquarters:
-  city: "Vendée"
-  country: "France"
-
-categories: ["longtail", "short-tail", "compact"]
-market_segments: ["urban-families", "accessibility-focused", "commuters"]
-regions: ["EU"]
-price_tier: "accessible"
-
-product_types: ["bikes"]
+title: Gaya
+type: brand
+url: https://gaya.bike
+logo: https://gaya.bike/api/medias/api/images/file/Gaya_Logo-1000x663.webp
+summary:
+  French manufacturer of smart, accessible electric cargo bikes designed for
+  urban families, featuring integrated GPS security, comprehensive safety features,
+  and community-driven design. Bikes assembled in France since 2023.
+tags:
+  - brand
+  - french
+  - longtail
+  - electric
+  - family
+  - affordable
+  - gps-security
+  - accessible
+country: France
+headquarters_city: Vendée
+headquarters_country: France
+categories:
+  - longtail
+  - short-tail
+  - compact
+market_segments:
+  - urban-families
+  - accessibility-focused
+  - commuters
+regions:
+  - EU
+price_tier: accessible
+product_types:
+  - bikes
 model_count: 6
-primary_motors: ["proprietary-rear-hub"]
-parent_company: null
-
-manufacturing:
-  locations: ["France"]
-  approach: "in-house"
-  assembly_location: "France"
-  ethical_standards: "Assembled in France since 2023; local employment commitment"
-
-distribution_model: "both"
-regions_active: ["EU"]
+primary_motors:
+  - proprietary-rear-hub
+manufacturing_locations:
+  - France
+manufacturing_approach: in-house
+assembly_location: France
+ethical_standards: Assembled in France since 2023; local employment commitment
+distribution_model: both
+regions_active:
+  - EU
 direct_sales: true
 dealership_network: true
-
-impact:
-  bikes_sold_approx: null
-  km_driven_approx: 5000000
-  co2_avoided_kg_approx: 1045000
-  families_served: 10000
-
+impact_km_driven_approx: 5000000
+impact_co2_avoided_kg_approx: 1045000
+impact_families_served: 10000
+value_sustainability: true
+value_local_manufacturing: true
+value_community_focus: true
+value_safety_emphasis: true
+value_tech_integration: true
 accessibility:
-  - "affordable-entry-level"
-  - "comprehensive-safety"
-  - "integrated-gps-security"
-  - "family-focused"
-  - "community-co-designed"
-
-values:
-  sustainability: true
-  local_manufacturing: true
-  community_focus: true
-  safety_emphasis: true
-  tech_integration: true
-
-tags:
-  [
-    brand,
-    french,
-    longtail,
-    electric,
-    family,
-    affordable,
-    gps-security,
-    accessible,
-  ]
+  - affordable-entry-level
+  - comprehensive-safety
+  - integrated-gps-security
+  - family-focused
+  - community-co-designed
 ---
 
 ## Overview

@@ -1,0 +1,108 @@
+filters:
+  and:
+    - 'type == "bike"'
+views:
+  - type: table
+    name: "Aventon Motors"
+    filters:
+      and:
+        - 'motor_make == "Aventon"'
+    order:
+      - title
+      - brand
+      - motor_model
+      - motor_torque_nm
+      - motor_power_w
+      - battery_capacity_wh
+      - price_amount
+  - type: table
+    name: "Bafang Motors"
+    filters:
+      and:
+        - 'motor_make == "Bafang"'
+    order:
+      - title
+      - brand
+      - motor_model
+      - motor_torque_nm
+      - motor_power_w
+      - battery_capacity_wh
+      - price_amount
+  - type: table
+    name: "Bosch Motors"
+    filters:
+      and:
+        - 'motor_make == "Bosch"'
+    order:
+      - title
+      - brand
+      - motor_model
+      - motor_torque_nm
+      - motor_power_w
+      - battery_capacity_wh
+      - price_amount
+  - type: table
+    name: "Gaya Motors"
+    filters:
+      and:
+        - 'motor_make == "Gaya"'
+    order:
+      - title
+      - brand
+      - motor_model
+      - motor_torque_nm
+      - motor_power_w
+      - battery_capacity_wh
+      - price_amount
+  - type: table
+    name: "Naka E-Power Max (Ananda M100) Motors"
+    filters:
+      and:
+        - 'motor_make == "Naka E-Power Max (Ananda M100)"'
+    order:
+      - title
+      - brand
+      - motor_model
+      - motor_torque_nm
+      - motor_power_w
+      - battery_capacity_wh
+      - price_amount
+  - type: table
+    name: "Shimano Motors"
+    filters:
+      and:
+        - 'motor_make == "Shimano"'
+    order:
+      - title
+      - brand
+      - motor_model
+      - motor_torque_nm
+      - motor_power_w
+      - battery_capacity_wh
+      - price_amount
+  - type: table
+    name: "Specialized Motors"
+    filters:
+      and:
+        - 'motor_make == "Specialized"'
+    order:
+      - title
+      - brand
+      - motor_model
+      - motor_torque_nm
+      - motor_power_w
+      - battery_capacity_wh
+      - price_amount
+  - type: table
+    name: "Valéo Motors"
+    filters:
+      and:
+        - 'motor_make == "Valéo"'
+    order:
+      - title
+      - brand
+      - motor_model
+      - motor_torque_nm
+      - motor_power_w
+      - battery_capacity_wh
+      - price_amount

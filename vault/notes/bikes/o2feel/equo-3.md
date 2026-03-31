@@ -1,59 +1,73 @@
 ---
+date: "2025-10-20"
+price: €3,699
+motor: Shimano E6100 Cargo
+battery: 432Wh - 720Wh
+range: 230km
 title: O2Feel Equo 3
 type: bike
+brand: O2Feel
+model: Equo 3
 tags:
   - bike
   - longtail
   - cargo
   - e-bike
   - o2feel
-date: "2025-10-20"
-brand: O2Feel
-model: Equo 3
 url: https://www.o2feel.com/en/product/equo-3/
 image: https://www.o2feel.com/wp-content/uploads/2021/06/Equo-3-1-BP-1200x1200-1-800x800.jpg
-price: €3,699
-motor: Shimano E6100 Cargo
-battery: 432Wh - 720Wh
-range: 230km
 resellers:
   - name: Cyclable
     url: https://www.cyclable.com/17290-velo-cargo-electrique-o2feel-equo-3.html
-    price: 3599
+    price: "3599"
     currency: EUR
     region: EU
     availability: in-stock
-    note: ""
-specs:
-  frame:
-    material: aluminum
-    dimensions:
-      length_cm: 195
-  weight:
-    with_battery_kg: 30
-  load_capacity:
-    total_kg: 180
-    passenger_count_excluding_rider: 2
-  wheels:
-    front_size_in: 26"
-    rear_size_in: 20"
-    tire: "Kenda AV: Kenda Kranium AR: Kenda Admiral"
-  brakes:
-    type: hydraulic disc
-  drivetrain:
-    type: chain
-  suspension:
-    front: "yes"
-    rear: none
+frame_material: aluminum
+frame_length_cm: 195.0
+weight_with_battery_kg: 30.0
+load_capacity_total_kg: 180.0
+load_capacity_passenger_count: 2
+motor_make: Shimano
+motor_model: E6100 Cargo
+battery_capacity_wh: 432
+drivetrain_type: chain
+brakes_type: hydraulic disc
+wheels_front_size_in: 26
+wheels_rear_size_in: 20
+wheels_tire: "Kenda AV: Kenda Kranium AR: Kenda Admiral"
+suspension_front: "yes"
+suspension_rear: none
+range_estimate_km: "230"
+price_amount: "3699"
+price_currency: EUR
+category: longtail
+motor_power_w: 250
+motor_torque_nm: 60
 ---
 
 ## Overview
+
+![O2Feel Equo 3](https://www.o2feel.com/wp-content/uploads/2021/06/Equo-3-1-BP-1200x1200-1-800x800.jpg)
 
 The O2Feel Equo 3 is the entry-level model of the Equo longtail series, positioned at €3,699. With a robust 80 kg cargo capacity, 180 kg total load limit, and Shimano E6100 Cargo motor, the Equo 3 combines accessible pricing with solid specifications. This model represents excellent value for families seeking a practical longtail without premium component tiers. Boreal Blue color, Made in France assembly, and 4-year battery warranty highlight O2Feel's commitment to durability.
 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification             | Value                 |
+| ------------------------- | --------------------- |
+| **Motor**                 | Shimano E6100 Cargo   |
+| **Battery Capacity**      | 432Wh                 |
+| **Range**                 | 230 km                |
+| **Weight (with battery)** | 30.0kg                |
+| **Total Load Capacity**   | 180.0kg               |
+| **Drivetrain**            | chain                 |
+| **Brakes**                | hydraulic disc        |
+| **Wheel Size**            | Front: 26", Rear: 20" |
+| **Price**                 | 3699 EUR              |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

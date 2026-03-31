@@ -1,16 +1,37 @@
 ---
-title: "Velo de Ville SEB 990 Pro"
-type: bike
-brand: "Velo de Ville"
-model: "SEB 990 Pro"
-tags: [bike, compact-cargo, bipla, velo-de-ville, customizable]
 date: 2025-10-16
-price: "3949€ (base) / 4050€+ (recommended)"
-motor: "600W"
-battery: "500Wh-800Wh"
-range: "73km"
-url: "https://www.transitionvelo.com/produit/velo-de-ville-seb-990-pro/"
-image: "https://www.transitionvelo.com/content/uploads/2025/05/Velo-de-ville-SEB-990-Pro-8-1024x576.jpg"
+price: 3949€ (base) / 4050€+ (recommended)
+motor: 600W
+battery: 500Wh-800Wh
+range: 73km
+title: Velo de Ville SEB 990 Pro
+type: bike
+brand: Velo de Ville
+model: SEB 990 Pro
+tags:
+  - bike
+  - compact-cargo
+  - bipla
+  - velo-de-ville
+  - customizable
+url: https://www.transitionvelo.com/produit/velo-de-ville-seb-990-pro/
+image: https://www.transitionvelo.com/content/uploads/2025/05/Velo-de-ville-SEB-990-Pro-8-1024x576.jpg
+motor_power_w: 600
+battery_capacity_wh: 500
+range_estimate_km: "73"
+price_amount: "3949"
+price_currency: EUR
+needs_research: true
+research_topics:
+  - category
+  - motor_make
+  - motor_torque_nm
+  - weight_with_battery_kg
+  - load_capacity_total_kg
+  - brakes_type
+  - drivetrain_type
+  - frame_material
+  - wheels_front_size_in
 ---
 
 ## Velo de Ville SEB 990 Pro
@@ -24,6 +45,14 @@ The Velo de Ville SEB 990 Pro is a unique German electric cargo bike that functi
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Power**      | 600W     |
+| **Battery Capacity** | 500Wh    |
+| **Range**            | 73 km    |
+| **Price**            | 3949 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €3,949 (base, Active Line) / €4,050+ (recommended minimum with Performance Line) / €5,700+ (fully equipped as tested)

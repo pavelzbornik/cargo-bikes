@@ -1,16 +1,20 @@
 ---
-title: "Specialized"
-type: "brand-index"
-brand: "Specialized"
-tags: [brand, index, specialized]
+brand: Specialized
 date: 2025-10-24
-url: ""
 image: ""
-summary: "Specialized is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+category: longtail
+title: Specialized
+type: brand
+summary:
+  Specialized is a cargo bike manufacturer offering diverse models for families
+  and professionals.
+tags:
+  - brand
+  - index
+  - specialized
+regions:
+  - EU
+distribution_model: retail
 ---
 
 ## Overview

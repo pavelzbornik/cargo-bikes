@@ -1,16 +1,43 @@
 ---
-title: "Le Petit Porteur Shorty Electric"
-type: bike
-brand: "Le Petit Porteur"
-model: "Shorty V2 Electric"
-tags: [bike, cargo-bike, electric, shorty, compact, le-petit-porteur]
 date: 2025-10-16
-price: "€2,075.00"
-motor: "250W"
-battery: "461Wh"
-range: "Variable"
-url: "https://www.lepetitporteur.com/en/347-electric-cargo-bike-le-petit-porteur-shorty-v2.html"
-image: "https://shop.lepetitporteur.com/img/p/1/0/5/2/1052.jpg"
+price: €2,075.00
+motor: 250W
+battery: 461Wh
+range: Variable
+title: Le Petit Porteur Shorty Electric
+type: bike
+brand: Le Petit Porteur
+model: Shorty V2 Electric
+tags:
+  - bike
+  - cargo-bike
+  - electric
+  - shorty
+  - compact
+  - le-petit-porteur
+url: https://www.lepetitporteur.com/en/347-electric-cargo-bike-le-petit-porteur-shorty-v2.html
+image: https://shop.lepetitporteur.com/img/p/1/0/5/2/1052.jpg
+motor_power_w: 250
+battery_capacity_wh: 461
+price_amount: "2075"
+price_currency: EUR
+category: compact
+motor_type: mid-drive
+motor_torque_nm: 80
+battery_removable: true
+weight_with_battery_kg: 25.0
+load_capacity_passenger_count: 1
+frame_material: steel
+brakes_type: hydraulic disc
+drivetrain_type: chain
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
+wheels_tire: Schwalbe Pick Up
+needs_research: true
+research_topics:
+  - motor_make
+  - load_capacity_total_kg
+  - range_estimate_km
 ---
 
 ## Le Petit Porteur Shorty Electric
@@ -24,6 +51,13 @@ The Shorty Electric is the most compact cargo bike in the Le Petit Porteur range
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Power**      | 250W     |
+| **Battery Capacity** | 461Wh    |
+| **Price**            | 2075 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €2,075.00

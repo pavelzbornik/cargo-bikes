@@ -1,16 +1,36 @@
 ---
-title: "BEACH CRUISER OPEN FRAME"
-type: bike
-brand: "UNIKRIDE"
-model: "Beach Cruiser"
-tags: [bike, beach-cruiser, electric, unikride]
 date: 2025-10-16
-price: "€2,699-€2,999"
-motor: "250W"
-battery: "960Wh"
-range: "120km"
-url: "https://unikride.com/en/products/beach-cruiser-femme"
-image: "https://unikride.com/cdn/shop/files/velo_electrique_beach_cruiser_femme.jpg"
+price: €2,699-€2,999
+motor: 250W
+battery: 960Wh
+range: 120km
+title: BEACH CRUISER OPEN FRAME
+type: bike
+brand: UNIKRIDE
+model: Beach Cruiser
+tags:
+  - bike
+  - beach-cruiser
+  - electric
+  - unikride
+url: https://unikride.com/en/products/beach-cruiser-femme
+image: https://unikride.com/cdn/shop/files/velo_electrique_beach_cruiser_femme.jpg
+motor_power_w: 250
+battery_capacity_wh: 960
+range_estimate_km: "120"
+price_amount: "2699"
+price_currency: EUR
+motor_make: Bafang
+brakes_type: hydraulic disc
+drivetrain_type: chain
+needs_research: true
+research_topics:
+  - category
+  - motor_torque_nm
+  - weight_with_battery_kg
+  - load_capacity_total_kg
+  - frame_material
+  - wheels_front_size_in
 ---
 
 ## BEACH CRUISER OPEN FRAME - Female
@@ -24,6 +44,14 @@ The Beach Cruiser Open Frame is UNIKRIDE's stylish, comfortable electric bike wi
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Power**      | 250W     |
+| **Battery Capacity** | 960Wh    |
+| **Range**            | 120 km   |
+| **Price**            | 2699 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €2,699-€2,999

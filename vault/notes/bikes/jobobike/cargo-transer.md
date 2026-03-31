@@ -1,25 +1,52 @@
 ---
-title: "Jobobike Cargo Transer"
-type: bike
-tags: [bike, cargo, longtail, jobobike]
 date: 2025-10-16
-brand: "Jobobike"
-model: "Cargo Transer"
-url: "https://www.mvebike.fr/jobobike-cargo-transer-xml-378_379_388-1099.html"
-image: "https://www.mvebike.fr/images/imagecache/500x500/jpg/JOBOBike-Transer.jpg"
-price: "€2,099.00 (sale price, originally €2,499.00)"
-motor: "250W"
-battery: "45V 15Ah"
-range: "80km"
+price: €2,099.00 (sale price, originally €2,499.00)
+motor: 250W
+battery: 45V 15Ah
+range: 80km
+title: Jobobike Cargo Transer
+type: bike
+brand: Jobobike
+model: Cargo Transer
+tags:
+  - bike
+  - cargo
+  - longtail
+  - jobobike
+url: https://www.mvebike.fr/jobobike-cargo-transer-xml-378_379_388-1099.html
+image: https://www.mvebike.fr/images/imagecache/500x500/jpg/JOBOBike-Transer.jpg
+motor_power_w: 250
+range_estimate_km: "80"
+price_amount: "2099"
+price_currency: EUR
+category: longtail
+motor_make: Bafang
+motor_torque_nm: 65
+battery_capacity_wh: 720
+weight_with_battery_kg: 33.0
+load_capacity_total_kg: 200.0
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: chain
+wheels_front_size_in: 20
 ---
 
 ## Overview
+
+![Jobobike Cargo Transer](https://www.mvebike.fr/images/imagecache/500x500/jpg/JOBOBike-Transer.jpg)
 
 The Jobobike Cargo Transer is a short longtail cargo bike measuring 185 cm that redefines urban mobility. Designed for those needing powerful, practical, and ecological transport for children, merchandise, or deliveries, it combines robust construction with efficient performance.
 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification   | Value    |
+| --------------- | -------- |
+| **Motor Power** | 250W     |
+| **Range**       | 80 km    |
+| **Price**       | 2099 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification            | Details                                                     |

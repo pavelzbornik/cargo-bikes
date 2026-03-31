@@ -1,66 +1,57 @@
 ---
-title: "BTWIN"
-type: "brand"
 date: "2025-10-24"
-url: "https://www.decathlon.fr/"
-logo: null
-summary: "BTWIN is a Decathlon private label cargo bike brand offering practical, affordable family-focused electric cargo bikes designed for urban transport and light cargo."
-
-founded_year: null
-country: "France"
-headquarters:
-  city: null
-  country: "France"
-
-categories: ["longtail", "biporteur"]
-market_segments: ["urban-families", "budget-conscious", "cargo-transport"]
-regions: ["EU"]
-price_tier: "accessible"
-
-product_types: ["bikes"]
+title: BTWIN
+type: brand
+url: https://www.decathlon.fr/
+summary:
+  BTWIN is a Decathlon private label cargo bike brand offering practical, affordable
+  family-focused electric cargo bikes designed for urban transport and light cargo.
+tags:
+  - brand
+  - french
+  - longtail
+  - biporteur
+  - electric
+  - family
+  - cargo
+  - decathlon
+  - btwin
+  - accessible
+country: France
+headquarters_country: France
+categories:
+  - longtail
+  - biporteur
+market_segments:
+  - urban-families
+  - budget-conscious
+  - cargo-transport
+regions:
+  - EU
+price_tier: accessible
+product_types:
+  - bikes
 model_count: 2
-primary_motors: ["Decathlon-branded rear hub"]
-parent_company: "Decathlon"
-
-manufacturing:
-  locations: null
-  approach: null
-  assembly_location: null
-  ethical_standards: null
-
-distribution_model: "retail"
-regions_active: ["EU"]
+primary_motors:
+  - Decathlon-branded rear hub
+parent_company: Decathlon
+distribution_model: retail
+regions_active:
+  - EU
 direct_sales: false
 dealership_network: true
-
-impact: null
-
+value_sustainability: true
+value_local_manufacturing: false
+value_community_focus: false
+value_safety_emphasis: true
+value_tech_integration: false
 accessibility:
-  - "affordable-entry-level"
-  - "family-focused"
-  - "practical-cargo-solutions"
-  - "accessible-through-retail"
-
-values:
-  sustainability: true
-  local_manufacturing: false
-  community_focus: false
-  safety_emphasis: true
-  tech_integration: false
-
-tags:
-  [
-    brand,
-    french,
-    longtail,
-    biporteur,
-    electric,
-    family,
-    cargo,
-    decathlon,
-    btwin,
-    accessible,
-  ]
+  - affordable-entry-level
+  - family-focused
+  - practical-cargo-solutions
+  - accessible-through-retail
+manufacturing_approach: contracted
+assembly_location: multiple regions
 ---
 
 ## Overview

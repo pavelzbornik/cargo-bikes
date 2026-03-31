@@ -1,16 +1,20 @@
 ---
-title: "Momentum"
-type: "brand-index"
-brand: "Momentum"
-tags: [brand, index, momentum]
+brand: Momentum
 date: 2025-10-24
-url: ""
 image: ""
-summary: "Momentum is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+category: longtail
+title: Momentum
+type: brand
+summary:
+  Momentum is a cargo bike manufacturer offering diverse models for families
+  and professionals.
+tags:
+  - brand
+  - index
+  - momentum
+regions:
+  - EU
+distribution_model: retail
 ---
 
 ## Overview

@@ -1,71 +1,16 @@
 ---
-# Core Identity
-title: "Brumaire Cycles"
-type: "brand"
 date: "2025-10-24"
-url: "https://cycles.brumaire.co"
-logo: ""
-summary: "French electric bike brand offering affordable, design-focused cargo bikes and city bikes for urban families, combining accessibility with practical performance."
-
-# Company Information
+title: Brumaire
+type: brand
+country: France
+headquarters_city: Paris
+headquarters_country: France
 founded_year: 2020
-country: "France"
-headquarters:
-  city: "Paris"
-  country: "France"
-
-# Market & Positioning
-categories: ["longtail", "city-bike"]
-market_segments: ["urban-families", "commuters", "accessibility-focused"]
-regions: ["EU"]
-price_tier: "accessible"
-
-# Product Portfolio
-product_types: ["bikes"]
-model_count: 2
-primary_motors: ["Bafang"]
-parent_company: null
-
-# Manufacturing & Production
-manufacturing:
-  locations: ["France", "Asia"]
-  approach: "hybrid"
-  assembly_location: "France"
-  ethical_standards: "Assembled in France; 2-year warranty"
-
-# Distribution & Sales
-distribution_model: "both"
-regions_active: ["EU"]
-direct_sales: true
-dealership_network: true
-
-# Brand Values & Differentiation
-accessibility:
-  - "affordable-pricing"
-  - "accessible-design"
-  - "financing-options"
-  - "design-focused"
-
-values:
-  sustainability: true
-  local_manufacturing: true
-  community_focus: true
-  safety_emphasis: true
-  tech_integration: true
-
-# Metadata
-tags:
-  [
-    brand,
-    french,
-    paris,
-    longtail,
-    electric,
-    family,
-    affordable,
-    accessible,
-    bafang,
-  ]
+price_tier: accessible
+categories:
+  - longtail
+  - compact
+distribution_model: both
 ---
 
 ## Overview

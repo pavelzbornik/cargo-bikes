@@ -1,25 +1,56 @@
 ---
-title: "Voltaway Panamax"
-type: bike
-tags: [bike, cargo, longtail, voltaway]
 date: 2025-10-16
-brand: "Voltaway"
-model: "Panamax"
-url: "https://www.mvebike.fr/voltaway-panamax-promo-rentree-xml-378_379_388-1100.html"
-image: "https://www.mvebike.fr/images/Image/VOLTAWAY-Panamax.webp"
-price: "€2,790.00"
-motor: "250W"
-battery: "36V 17.5Ah"
-range: "90km"
+price: €2,790.00
+motor: 250W
+battery: 36V 17.5Ah
+range: 90km
+title: Voltaway Panamax
+type: bike
+brand: Voltaway
+model: Panamax
+tags:
+  - bike
+  - cargo
+  - longtail
+  - voltaway
+url: https://www.mvebike.fr/voltaway-panamax-promo-rentree-xml-378_379_388-1100.html
+image: https://www.mvebike.fr/images/Image/VOLTAWAY-Panamax.webp
+motor_power_w: 250
+range_estimate_km: "90"
+price_amount: "2790"
+price_currency: EUR
+category: longtail
+motor_make: Bafang
+motor_torque_nm: 80
+battery_capacity_wh: 630
+load_capacity_total_kg: 200.0
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: chain
+drivetrain_speeds: "7"
+wheels_front_size_in: 24
+wheels_rear_size_in: 20
+needs_research: true
+research_topics:
+  - weight_with_battery_kg
 ---
 
 ## Overview
+
+![Voltaway Panamax](https://www.mvebike.fr/images/Image/VOLTAWAY-Panamax.webp)
 
 The Voltaway Panamax is an elegant French-designed longtail cargo bike that combines performance with modern aesthetics. Built for urban commuting and weekend explorations, it offers powerful assistance, comfortable riding, and impressive cargo capacity with a refined design.
 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification   | Value    |
+| --------------- | -------- |
+| **Motor Power** | 250W     |
+| **Range**       | 90 km    |
+| **Price**       | 2790 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification            | Details                                              |

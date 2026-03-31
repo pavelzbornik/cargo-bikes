@@ -14,6 +14,7 @@ tasks:
     cmds:
       - task -l
   ###############################
+
   # Bash Completion for Taskfile #
   ###############################
   bash-completion:taskfile:
@@ -25,6 +26,7 @@ tasks:
         # shellcheck source=/dev/null
         source ~/.bashrc
   #######################
+
   # Main Workflows      #
   #######################
   setup-env:
@@ -37,14 +39,14 @@ tasks:
       - task: precommit:update
       - task: precommit:run
         # - task: ngrok:configure
-        # - task: gemini-cli:install
+  # - task: gemini-cli:install
   start-env:
     desc: Start the development environment (dependencies, services)
     cmds:
       - task: python:deps:install
         # - task: ngrok:start
-        # To run the app as well, uncomment the line below
-        # - task: app:dev
+  # To run the app as well, uncomment the line below
+  # - task: app:dev
   dev:
     desc: Setup and start the complete development environment
     deps: [setup-env, start-env]

@@ -1,16 +1,20 @@
 ---
-title: estarli
-type: brand-index
 brand: estarli
-tags: [brand, index, estarli]
 date: 2025-10-26
-url: https://www.estarli.co.uk
 image: https://www.estarli.co.uk/cdn/shop/files/Estarli-Master-RGB.png
-summary: estarli is a UK-based e-bike manufacturer designing and assembling award-winning cargo and folding e-bikes in Berkhamsted, Hertfordshire.
 category: cargo
-regions: [UK]
-founded_year: null
-headquarters: Berkhamsted, Hertfordshire, UK
+title: estarli
+type: brand
+url: https://www.estarli.co.uk
+summary:
+  estarli is a UK-based e-bike manufacturer designing and assembling award-winning
+  cargo and folding e-bikes in Berkhamsted, Hertfordshire.
+tags:
+  - brand
+  - index
+  - estarli
+regions:
+  - UK
 ---
 
 ## Overview

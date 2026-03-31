@@ -1,16 +1,39 @@
 ---
-title: "Elwing Ritmic Jumbo"
-type: bike
-tags: [bike, long-tail, cargo, elwing]
 date: 2025-10-16
-brand: "Elwing"
-model: "Ritmic Jumbo"
-url: "https://elwing.co/products/ritmic-jumbo-velo-electrique-cargo-longtail"
-image: "https://elwing.co/cdn/shop/files/Ritmic_Jumbo_Gris_Pers_aa71d1b7-1102-409e-a706-d4c6f685957d_500x.png?v=1743692953"
-price: "€3,099"
-motor: "Unknown W"
-battery: "Unknown Wh"
-range: "120-160km"
+price: €3,099
+motor: Unknown W
+battery: Unknown Wh
+range: 120-160km
+title: Elwing Ritmic Jumbo
+type: bike
+brand: Elwing
+model: Ritmic Jumbo
+tags:
+  - bike
+  - long-tail
+  - cargo
+  - elwing
+url: https://elwing.co/products/ritmic-jumbo-velo-electrique-cargo-longtail
+image: https://elwing.co/cdn/shop/files/Ritmic_Jumbo_Gris_Pers_aa71d1b7-1102-409e-a706-d4c6f685957d_500x.png?v=1743692953
+range_estimate_km: 120-160
+price_amount: "3099"
+price_currency: EUR
+category: longtail
+battery_removable: true
+load_capacity_total_kg: 180.0
+load_capacity_passenger_count: 2
+suspension_rear: "yes"
+needs_research: true
+research_topics:
+  - weight_with_battery_kg
+motor_make: Bafang
+motor_power_w: 250
+motor_torque_nm: 80
+battery_capacity_wh: 691
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: chain
+wheels_front_size_in: 20
 ---
 
 ## Elwing Ritmic Jumbo
@@ -24,6 +47,12 @@ The Ritmic Jumbo is a compact long-tail cargo e-bike designed for urban families
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification | Value      |
+| ------------- | ---------- |
+| **Range**     | 120-160 km |
+| **Price**     | 3099 EUR   |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €3,099 (standard battery); €3,299 (extended range battery)

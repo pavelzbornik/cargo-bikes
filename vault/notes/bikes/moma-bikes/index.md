@@ -1,55 +1,60 @@
 ---
-title: "Moma Bikes"
-type: "brand"
-brand: "Moma Bikes"
+brand: Moma Bikes
 date: 2025-10-24
-url: "https://momabikes.eu"
-logo: "https://momabikes.eu/cdn/shop/files/moma-bikes-logo.svg"
-summary: "European online bike shop and manufacturer offering diverse electric cargo bikes, mountain bikes, and city bikes Made in EU, with 18+ years of manufacturing and distribution experience."
-
-founded_year: null
-country: "Europe"
-headquarters:
-  city: null
-  country: "EU"
-
-categories: ["longtail", "compact-longtail"]
-market_segments: ["urban-families", "commuters", "cargo-enthusiasts"]
-regions: ["EU"]
-price_tier: "accessible"
-
-product_types: ["bikes"]
+title: Moma Bikes
+type: brand
+url: https://momabikes.eu
+logo: https://momabikes.eu/cdn/shop/files/moma-bikes-logo.svg
+summary:
+  European online bike shop and manufacturer offering diverse electric cargo
+  bikes, mountain bikes, and city bikes Made in EU, with 18+ years of manufacturing
+  and distribution experience.
+tags:
+  - brand
+  - european
+  - longtail
+  - electric
+  - cargo
+  - family
+  - accessible
+  - eu-made
+country: Europe
+headquarters_country: EU
+categories:
+  - longtail
+  - compact-longtail
+market_segments:
+  - urban-families
+  - commuters
+  - cargo-enthusiasts
+regions:
+  - EU
+price_tier: accessible
+product_types:
+  - bikes
 model_count: 2
-primary_motors: ["brushless-hub-motor"]
-parent_company: null
-
-manufacturing:
-  locations: ["EU"]
-  approach: "hybrid"
-  assembly_location: "EU"
-  ethical_standards: "Made in Europe, direct factory supply"
-
-distribution_model: "direct"
-regions_active: ["EU"]
+primary_motors:
+  - brushless-hub-motor
+manufacturing_locations:
+  - EU
+manufacturing_approach: hybrid
+assembly_location: EU
+ethical_standards: Made in Europe, direct factory supply
+distribution_model: direct
+regions_active:
+  - EU
 direct_sales: true
 dealership_network: false
-
-impact: null
-
+value_sustainability: true
+value_local_manufacturing: true
+value_community_focus: false
+value_safety_emphasis: true
+value_tech_integration: true
 accessibility:
-  - "affordable-entry-pricing"
-  - "direct-online-sales"
-  - "european-manufacturing"
-  - "family-cargo-focused"
-
-values:
-  sustainability: true
-  local_manufacturing: true
-  community_focus: false
-  safety_emphasis: true
-  tech_integration: true
-
-tags: [brand, european, longtail, electric, cargo, family, accessible, eu-made]
+  - affordable-entry-pricing
+  - direct-online-sales
+  - european-manufacturing
+  - family-cargo-focused
 ---
 
 ## Overview

@@ -1,100 +1,108 @@
 ---
+date: 2025-10-24
 title: Benno Boost 10D EVO 5 500Wh
 type: bike
-tags: [bike, longtail, benno, bosch]
-date: 2025-10-24
 brand: Benno Bikes
 model: Boost 10D EVO 5
+tags:
+  - bike
+  - longtail
+  - benno
+  - bosch
 url: https://bennobikes.com/ebikes/boost/boost-10d/
 image: https://www.ovelo.fr/46051-thickbox_default/-boost-10d-evo-5-500wh.jpg
 resellers:
   - name: Ovelo France
     url: https://www.ovelo.fr/fr/velo-electrique-longtail/33072-boost-10d-evo-5-500wh.html
-    price: 3206
+    price: "3206"
     currency: EUR
     region: EU
     availability: in-stock
     note: EU retailer
   - name: Decathlon France
     url: https://www.decathlon.fr/p/velo-electrique-longtail-benno-boost-10d-evo-5-400wh-noir/_/R-p-366920
-    price: 2399
+    price: "2399"
     currency: EUR
     region: EU
     availability: in-stock
     note: Available in multiple colors, 400Wh variant
-specs:
-  category: longtail
-  model_year: 2024
-  frame:
-    material: aluminum
-    size: one size
-    dimensions:
-      length_cm: 188
-  weight:
-    with_battery_kg: 26
-    bike_kg: null
-  load_capacity:
-    total_kg: 200
-    rear_kg: null
-    passenger_count_excluding_rider: 2
-    passenger_config: "2 children on rear rack"
-  motor:
-    make: Bosch
-    model: Performance Sport Gen 3
-    type: mid-drive
-    power_w: 250
-    torque_nm: 65
-    boost_throttle: true
-  battery:
-    capacity_wh: 500
-    configuration: single
-    removable: true
-    charging_time_h: 4.5
-  drivetrain:
-    type: chain
-    speeds: 10
-    hub: null
-  brakes:
-    type: hydraulic disc
-    front_rotor_mm: null
-    rear_rotor_mm: null
-  wheels:
-    front_size_in: '27.5"'
-    rear_size_in: '27.5"'
-    tire: Schwalbe Super Moto X 2.4"
-  suspension:
-    front: none
-    rear: none
-  lights:
-    front:
-      type: Supernova Mini 2 LED
-      integrated: true
-      powered_by: main battery
-    rear:
-      type: Supernova E3 LED
-      integrated: true
-      brake_light: true
-  features: [bosch-smart-system, modular-cargo, walk-assist, integrated-lights]
-  security:
-    gps: false
-    frame_lock: true
-    app_lock: false
-  range:
-    estimate_km: 50-135
-    notes: "Single 500Wh battery; varies by assist level, load, and terrain"
-  price:
-    amount: 3206
-    currency: EUR
-  notes: "Performance Sport variant with 65Nm torque. Also available in Performance CX (85Nm) and Performance Speed (85Nm) variants. Multiple battery configurations available (400Wh, 500Wh, dual battery options)."
+category: longtail
+model_year: 2024
+frame_material: aluminum
+frame_size: one size
+frame_length_cm: 188.0
+weight_with_battery_kg: 26.0
+load_capacity_total_kg: 200.0
+load_capacity_passenger_count: 2
+load_capacity_passenger_config: 2 children on rear rack
+motor_make: Bosch
+motor_model: Performance Sport Gen 3
+motor_type: mid-drive
+motor_power_w: 250
+motor_torque_nm: 65
+motor_boost_throttle: true
+battery_capacity_wh: 500
+battery_configuration: single
+battery_removable: true
+battery_charging_time_h: "4.5"
+drivetrain_type: chain
+drivetrain_speeds: "10"
+brakes_type: hydraulic disc
+wheels_front_size_in: 27.5
+wheels_rear_size_in: 27.5
+wheels_tire: 'Schwalbe Super Moto X 2.4"'
+suspension_front: none
+suspension_rear: none
+lights_front_type: Supernova Mini 2 LED
+lights_front_integrated: true
+lights_front_powered_by: main battery
+lights_rear_type: Supernova E3 LED
+lights_rear_integrated: true
+lights_rear_brake_light: true
+features:
+  - bosch-smart-system
+  - modular-cargo
+  - walk-assist
+  - integrated-lights
+security_gps: false
+security_app_lock: false
+security_frame_lock: true
+range_estimate_km: 50-135
+range_notes: Single 500Wh battery; varies by assist level, load, and terrain
+price_amount: "3206"
+price_currency: EUR
+specs_notes:
+  Performance Sport variant with 65Nm torque. Also available in Performance
+  CX (85Nm) and Performance Speed (85Nm) variants. Multiple battery configurations
+  available (400Wh, 500Wh, dual battery options).
 ---
 
 ## Overview
+
+![Benno Boost 10D EVO 5 500Wh](https://www.ovelo.fr/46051-thickbox_default/-boost-10d-evo-5-500wh.jpg)
 
 The Benno Boost 10D EVO 5 is a German-engineered electric longtail cargo bike designed with practical utility in mind. Since 2015, Benno Bikes has focused on comfort, practicality, and maneuverability. The Boost platform uses their signature "Etility®" design, allowing the bike to serve multiple purposes through modular accessory compatibility. This model features Bosch Performance Line motor technology and can carry up to 200kg total.
 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification             | Value                         |
+| ------------------------- | ----------------------------- |
+| **Category**              | longtail                      |
+| **Model Year**            | 2024                          |
+| **Motor**                 | Bosch Performance Sport Gen 3 |
+| **Motor Power**           | 250W                          |
+| **Motor Torque**          | 65Nm                          |
+| **Battery Capacity**      | 500Wh                         |
+| **Range**                 | 50-135 km                     |
+| **Weight (with battery)** | 26.0kg                        |
+| **Total Load Capacity**   | 200.0kg                       |
+| **Drivetrain**            | chain                         |
+| **Brakes**                | hydraulic disc                |
+| **Wheel Size**            | 27.5"                         |
+| **Price**                 | 3206 EUR                      |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification         | Details                                        |

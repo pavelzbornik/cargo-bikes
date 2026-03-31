@@ -1,6 +1,13 @@
 ---
+date: "2025-10-20"
+price: 5999
+motor: 85Nm Bosch Cargo Line
+battery: 545Wh
+range: 45-196km
 title: Tern GSD S10
 type: bike
+brand: Tern
+model: GSD S10
 tags:
   - bike
   - cargo
@@ -8,39 +15,57 @@ tags:
   - electric
   - tern
   - long-tail
-date: "2025-10-20"
-brand: Tern
-model: GSD S10
 url: https://www.ternbicycles.com/en/bikes/473/gsd-s10
 image: https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_S10-gen3-beetle-profile-web_0.jpg.webp
-price: 5999
-motor: 85Nm Bosch Cargo Line
-battery: 545Wh
-range: 45-196km
 resellers:
   - name: Cyclable
     url: https://www.cyclable.com/17540-velo-cargo-electrique-longtail-tern-gsd-lx.html
-    price: 5999
+    price: "5999"
     currency: EUR
     region: EU
     availability: in-stock
-    note: ""
-  - name: "Decathlon France"
-    url: "https://www.decathlon.fr/p/velo-cargo-electrique-longtail-tern-gsd-s10-noir/_/R-p-390844"
-    price: 4299
-    currency: "EUR"
-    region: "EU"
-    availability: "in-stock"
-    note: ""
+  - name: Decathlon France
+    url: https://www.decathlon.fr/p/velo-cargo-electrique-longtail-tern-gsd-s10-noir/_/R-p-390844
+    price: "4299"
+    currency: EUR
+    region: EU
+    availability: in-stock
+motor_make: Bosch
+motor_model: Cargo Line
+motor_torque_nm: 85
+battery_capacity_wh: 545
+range_estimate_km: 45-196
+price_amount: "5999"
+needs_research: true
+research_topics:
+  - category
+  - motor_power_w
+  - price_currency
+  - weight_with_battery_kg
+  - load_capacity_total_kg
+  - brakes_type
+  - drivetrain_type
+  - frame_material
+  - wheels_front_size_in
 ---
 
 ## Overview
+
+![Tern GSD S10](https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_S10-gen3-beetle-profile-web_0.jpg.webp)
 
 The Tern GSD S10 is a high-tier model in the Generation 3 GSD family, offering an excellent balance of smart features, performance, and value. The S10 designation indicates its Shimano 1×10 derailleur transmission paired with the Bosch Smart System Kiox 300 display. This compact 185 cm electric cargo bike maintains the GSD's impressive 210 kg maximum gross vehicle weight rating while providing reliable performance for urban families seeking smart connectivity without the premium price of the R14.
 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification        | Value            |
+| -------------------- | ---------------- |
+| **Motor**            | Bosch Cargo Line |
+| **Motor Torque**     | 85Nm             |
+| **Battery Capacity** | 545Wh            |
+| **Range**            | 45-196 km        |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

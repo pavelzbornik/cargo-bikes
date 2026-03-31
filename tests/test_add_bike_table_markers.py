@@ -1,18 +1,14 @@
 """Tests for add_bike_table_markers script."""
 
-import sys
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-# Add parent directory to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent))
-
-from scripts.add_bike_table_markers import (
+from cargo_bikes.generate.bike_markers import (
     add_markers,
-    find_frontmatter_end,
     has_markers,
     process_bike_files,
 )
+from cargo_bikes.vault.frontmatter import find_frontmatter_end
 
 
 class TestFindFrontmatterEnd:
@@ -256,7 +252,7 @@ type: bike
             index_file = bikes_path / "index.md"
             index_file.write_text("""---
 title: Test Brand
-type: brand-index
+type: brand
 ---
 
 # Test Brand""")
@@ -391,27 +387,16 @@ type: bike
 
 
 class TestMainFunction:
-    """Tests for main CLI function."""
+    """Tests for CLI function (via process_bike_files)."""
 
-    def test_main_with_invalid_vault_path(self, monkeypatch) -> None:
-        """Test main function with invalid vault path."""
-        import sys
+    def test_process_with_invalid_vault_path(self) -> None:
+        """Test processing with invalid vault path."""
+        vault_path = Path("/nonexistent")
+        stats = process_bike_files(vault_path)
+        assert stats["total_files"] == 0
 
-        from scripts.add_bike_table_markers import main
-
-        # Mock sys.argv to pass invalid path
-        monkeypatch.setattr(sys, "argv", ["script", "--vault-path", "/nonexistent"])
-
-        # Should return 1 (error)
-        result = main()
-        assert result == 1
-
-    def test_main_success(self, monkeypatch, capsys) -> None:
-        """Test main function with valid vault."""
-        import sys
-
-        from scripts.add_bike_table_markers import main
-
+    def test_process_success(self) -> None:
+        """Test processing with valid vault."""
         with TemporaryDirectory() as tmpdir:
             vault_path = Path(tmpdir)
             bikes_path = vault_path / "bikes" / "brand"
@@ -425,23 +410,12 @@ type: bike
 
 # Content""")
 
-            monkeypatch.setattr(
-                sys, "argv", ["script", "--vault-path", str(vault_path)]
-            )
-            result = main()
+            stats = process_bike_files(vault_path)
+            assert stats["files_processed"] == 1
+            assert stats["errors"] == 0
 
-            # Should return 0 (success)
-            assert result == 0
-
-            captured = capsys.readouterr()
-            assert "Processing" in captured.out or "Summary" in captured.out
-
-    def test_main_dry_run(self, monkeypatch, capsys) -> None:
-        """Test main function with dry-run mode."""
-        import sys
-
-        from scripts.add_bike_table_markers import main
-
+    def test_process_dry_run_no_writes(self) -> None:
+        """Test dry-run mode doesn't modify files."""
         with TemporaryDirectory() as tmpdir:
             vault_path = Path(tmpdir)
             bikes_path = vault_path / "bikes" / "brand"
@@ -456,16 +430,9 @@ type: bike
 # Content"""
             bike_file.write_text(original_content)
 
-            monkeypatch.setattr(
-                sys, "argv", ["script", "--vault-path", str(vault_path), "--dry-run"]
-            )
-            result = main()
+            stats = process_bike_files(vault_path, dry_run=True)
+            assert stats["files_processed"] == 1
 
-            assert result == 0
-
-            captured = capsys.readouterr()
-            assert "DRY RUN" in captured.out
-
-            # File should not be modified
             current_content = bike_file.read_text()
             assert current_content == original_content
+            assert has_markers(current_content) is False

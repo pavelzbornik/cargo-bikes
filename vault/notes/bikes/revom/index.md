@@ -1,16 +1,20 @@
 ---
-title: "Revom"
-type: "brand-index"
-brand: "Revom"
-tags: [brand, index, revom]
+brand: Revom
 date: 2025-10-24
-url: ""
 image: ""
-summary: "Revom is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+category: longtail
+title: Revom
+type: brand
+summary:
+  Revom is a cargo bike manufacturer offering diverse models for families and
+  professionals.
+tags:
+  - brand
+  - index
+  - revom
+regions:
+  - EU
+distribution_model: both
 ---
 
 ## Overview

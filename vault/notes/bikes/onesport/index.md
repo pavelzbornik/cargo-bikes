@@ -1,56 +1,67 @@
 ---
-title: "OneSport"
-type: "brand"
 date: 2025-10-26
-url: "https://www.onesportglobal.com"
-logo: "https://www.onesportglobal.com/cdn/shop/files/OneSport_Logo.svg"
-summary: "Global e-bike manufacturer specializing in affordable, direct-to-consumer electric bikes including cargo bikes, city commuters, and folding models across multiple categories."
-
+title: OneSport
+type: brand
+url: https://www.onesportglobal.com
+logo: https://www.onesportglobal.com/cdn/shop/files/OneSport_Logo.svg
+summary:
+  Global e-bike manufacturer specializing in affordable, direct-to-consumer
+  electric bikes including cargo bikes, city commuters, and folding models across
+  multiple categories.
+tags:
+  - brand
+  - onesport
+  - electric-bikes
+  - cargo
+  - trike
+  - longtail
+  - affordable
+  - d2c
 founded_year: 2023
-country: "Hong Kong"
-headquarters:
-  city: "Hong Kong"
-  country: "Hong Kong"
-  address: "Room 02, 21st Floor, Shek Kwan Commercial Building, 38 Bi Street, Yau Ma Tei, Kowloon"
-
-categories: ["longtail", "trike", "city", "foldable"]
+country: Hong Kong
+headquarters_city: Hong Kong
+headquarters_country: Hong Kong
+headquarters_address:
+  Room 02, 21st Floor, Shek Kwan Commercial Building, 38 Bi Street,
+  Yau Ma Tei, Kowloon
+categories:
+  - longtail
+  - trike
+  - city
+  - foldable
 market_segments:
-  ["urban-families", "commuters", "delivery-professionals", "budget-conscious"]
-regions: ["EU", "North America"]
-price_tier: "accessible"
-
-product_types: ["bikes"]
+  - urban-families
+  - commuters
+  - delivery-professionals
+  - budget-conscious
+regions:
+  - EU
+  - North America
+price_tier: accessible
+product_types:
+  - bikes
 model_count: 8
-primary_motors: ["Bafang", "Mid-drive"]
-
-manufacturing:
-  locations: null
-  approach: "direct-to-consumer"
-  assembly_location: null
-  ethical_standards: null
-
-distribution_model: "direct"
-regions_active: ["EU", "North America"]
+primary_motors:
+  - Bafang
+  - Mid-drive
+manufacturing_approach: direct-to-consumer
+distribution_model: direct
+regions_active:
+  - EU
+  - North America
 direct_sales: true
 dealership_network: false
-
-impact: null
-
+value_sustainability: true
+value_local_manufacturing: false
+value_community_focus: false
+value_safety_emphasis: true
+value_tech_integration: true
 accessibility:
-  - "affordable-pricing"
-  - "diverse-model-range"
-  - "direct-sales-model"
-  - "cargo-capability"
-  - "foldable-options"
-
-values:
-  sustainability: true
-  local_manufacturing: false
-  community_focus: false
-  safety_emphasis: true
-  tech_integration: true
-
-tags: [brand, onesport, electric-bikes, cargo, trike, longtail, affordable, d2c]
+  - affordable-pricing
+  - diverse-model-range
+  - direct-sales-model
+  - cargo-capability
+  - foldable-options
 ---
 
 ## Overview

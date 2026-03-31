@@ -1,16 +1,20 @@
 ---
-title: "Ello Mobilité"
-type: "brand-index"
-brand: "Ello Mobilité"
-tags: [brand, index, ello-mobilite]
+brand: Ello Mobilité
 date: 2025-10-24
-url: ""
 image: ""
-summary: "Ello Mobilité is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+category: longtail
+title: Ello Mobilité
+type: brand
+summary:
+  Ello Mobilité is a cargo bike manufacturer offering diverse models for families
+  and professionals.
+tags:
+  - brand
+  - index
+  - ello-mobilite
+regions:
+  - EU
+distribution_model: both
 ---
 
 ## Overview

@@ -1,16 +1,43 @@
 ---
-title: "Granville Longtail 545Wh"
-type: bike
-brand: "Granville"
-model: "Longtail – 545Wh"
-tags: [bike, long-tail, granville, cargo-bike]
 date: 2025-10-16
-price: "€5,399.00"
-motor: "500W"
-battery: "545Wh"
-range: "N/A"
-url: "https://granville-urbanbikes.com/product/longtail-545wh/"
-image: "https://granville-urbanbikes.com/wp-content/uploads/2024/10/longtail.png"
+price: €5,399.00
+motor: 500W
+battery: 545Wh
+range: N/A
+title: Granville Longtail 545Wh
+type: bike
+brand: Granville
+model: Longtail – 545Wh
+tags:
+  - bike
+  - long-tail
+  - granville
+  - cargo-bike
+url: https://granville-urbanbikes.com/product/longtail-545wh/
+image: https://granville-urbanbikes.com/wp-content/uploads/2024/10/longtail.png
+motor_power_w: 500
+battery_capacity_wh: 545
+price_amount: "5399"
+price_currency: EUR
+category: longtail
+motor_make: Bosch
+motor_model: Cargo Line
+motor_type: mid-drive
+motor_torque_nm: 85
+battery_removable: true
+brakes_type: hydraulic disc
+drivetrain_type: belt
+drivetrain_hub: Enviolo Trekking
+wheels_front_size_in: 24
+wheels_rear_size_in: 20
+wheels_tire: Schwalbe Pick-up 65-406
+suspension_front: none
+needs_research: true
+research_topics:
+  - weight_with_battery_kg
+  - load_capacity_total_kg
+  - frame_material
+  - range_estimate_km
 ---
 
 ## Granville Longtail 545Wh
@@ -24,6 +51,13 @@ The Granville Longtail is an ideal cargo bike designed to transport equipment an
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Power**      | 500W     |
+| **Battery Capacity** | 545Wh    |
+| **Price**            | 5399 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €5,399.00

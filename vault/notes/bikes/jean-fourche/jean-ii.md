@@ -1,19 +1,55 @@
 ---
-title: "Jean Fourche II"
-type: bike
-tags: [bike, longtail, midtail, cargo, electric, jean-fourche, french]
 date: 2025-10-16
-brand: "Jean Fourche"
-model: "II"
-url: "https://www.jeanfourche.com/"
-image: ""
-price: "2690€"
-motor: "Virvolt 250W"
-battery: "Panasonic 518Wh"
-range: "70km"
+price: 2690€
+motor: Virvolt 250W
+battery: Panasonic 518Wh
+range: 70km
+title: Jean Fourche II
+type: bike
+brand: Jean Fourche
+image: https://jeanfourche.fr/cdn/shop/files/VAE-V2-JeanII-GRIS_Kit-2-enfants-_coussin_grande.png?v=1757323145
+model: II
+tags:
+  - bike
+  - longtail
+  - midtail
+  - cargo
+  - electric
+  - jean-fourche
+  - french
+url: https://www.jeanfourche.com/
+resellers:
+  - name: Jean Fourche Official
+    url: https://www.jeanfourche.com/
+    price: "2690"
+    currency: EUR
+    region: EU
+    availability: in-stock
+  - name: Shop Roulez Jeunesse
+    url: https://shop.roulezjeunesse.com/products/jean-fourche-jean-ii-electrique
+    price: "2690"
+    currency: EUR
+    region: EU
+    availability: in-stock
+motor_power_w: 250
+battery_capacity_wh: 518
+range_estimate_km: "70"
+price_amount: "2690"
+price_currency: EUR
+category: compact
+motor_make: Virvolt
+motor_torque_nm: 80
+weight_with_battery_kg: 27.0
+load_capacity_total_kg: 70.0
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: chain
+wheels_front_size_in: 24
 ---
 
 ## Overview
+
+![Jean Fourche II](https://jeanfourche.fr/cdn/shop/files/VAE-V2-JeanII-GRIS_Kit-2-enfants-_coussin_grande.png?v=1757323145)
 
 Jean Fourche II represents compact French manufacturing excellence at accessible pricing. Technically a "midtail" rather than full longtail (175 cm), it optimizes for urban maneuvering and lightweight handling while maintaining reasonable cargo capacity. Virvolt motor (electrification specialist) + Panasonic battery deliver reliable performance. Assembly and painting in France demonstrates local manufacturing commitment despite component sourcing.
 
@@ -22,6 +58,14 @@ Jean Fourche II represents compact French manufacturing excellence at accessible
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Power**      | 250W     |
+| **Battery Capacity** | 518Wh    |
+| **Range**            | 70 km    |
+| **Price**            | 2690 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

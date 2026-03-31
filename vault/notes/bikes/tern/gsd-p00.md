@@ -1,25 +1,68 @@
 ---
-title: "Tern GSD P00"
-type: bike
-tags: [bike, cargo, compact, electric, tern, long-tail]
 date: 2025-10-16
-brand: "Tern"
-model: "GSD P00"
-url: "https://www.ternbicycles.com/en/bikes/473/gsd-p00"
-image: "https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_P00-gen3-schoolbus-profile-web.jpg.webp"
-price: "Contact dealer"
-motor: "85Nm Bosch Cargo Line"
-battery: "800Wh"
-range: "67-288km"
+price: Contact dealer
+motor: 85Nm Bosch Cargo Line
+battery: 800Wh
+range: 67-288km
+title: Tern GSD P00
+type: bike
+brand: Tern
+model: GSD P00
+tags:
+  - bike
+  - cargo
+  - compact
+  - electric
+  - tern
+  - long-tail
+url: https://www.ternbicycles.com/en/bikes/473/gsd-p00
+image: https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_P00-gen3-schoolbus-profile-web.jpg.webp
+motor_make: Bosch
+motor_model: Cargo Line
+motor_torque_nm: 85
+battery_capacity_wh: 800
+range_estimate_km: 67-288
+category: compact
+motor_type: mid-drive
+battery_removable: true
+battery_charging_time_h: "4.5"
+weight_with_battery_kg: 37.0
+load_capacity_total_kg: 210.0
+load_capacity_passenger_count: 2
+frame_material: aluminum
+frame_length_cm: 185.0
+brakes_type: hydraulic disc
+drivetrain_type: belt
+drivetrain_hub: Enviolo CVT
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
+wheels_tire: Schwalbe Pick-Up
+suspension_front: none
+suspension_rear: none
+needs_research: true
+research_topics:
+  - motor_power_w
+  - price_amount
+  - price_currency
 ---
 
 ## Overview
+
+![Tern GSD P00](https://www.ternbicycles.com/sites/default/files/styles/extra_large_rectangle_1x/public/2025-02/TN-photo-GSD_P00-gen3-schoolbus-profile-web.jpg.webp)
 
 The Tern GSD P00 is a premium model in the Generation 3 GSD family, offering excellent value for families seeking a belt-drive cargo bike without smart connectivity. The P00 designation indicates its Enviolo continuously variable transmission paired with a Bosch standard display. This compact 185 cm electric cargo bike combines the GSD's impressive 210 kg maximum gross vehicle weight rating with the reliability and low-maintenance advantages of Gates belt drive, making it ideal for users who prioritize simplicity and durability over advanced smart features.
 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification        | Value            |
+| -------------------- | ---------------- |
+| **Motor**            | Bosch Cargo Line |
+| **Motor Torque**     | 85Nm             |
+| **Battery Capacity** | 800Wh            |
+| **Range**            | 67-288 km        |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

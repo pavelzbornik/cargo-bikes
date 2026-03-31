@@ -1,104 +1,91 @@
 ---
-title: "Specialized Turbo Porto"
-type: bike
-brand: "Specialized"
-model: "Turbo Porto"
-tags: [bike, longtail, specialized, electric, bosch]
 date: 2025-10-20
-url: "https://www.specialized.com/us/en/turbo-porto/p/141906"
-image: "https://www.specialized.com/us/en/turbo-porto/p/141906"
+title: Specialized Turbo Porto
+type: bike
+brand: Specialized
+model: Turbo Porto
+tags:
+  - bike
+  - longtail
+  - specialized
+  - electric
+  - bosch
+url: https://www.specialized.com/us/en/turbo-porto/p/141906
+image: https://www.specialized.com/us/en/turbo-porto/p/141906
 resellers:
-  - name: "Specialized Official"
-    url: "https://www.specialized.com/us/en/turbo-porto/p/141906"
-    price: 6500
-    currency: "EUR"
-    region: "EU"
-    availability: "in-stock"
-    note: "Manufacturer's suggested retail price"
-  - name: "Shop Roulez Jeunesse"
-    url: "https://shop.roulezjeunesse.com/products/specialized-turbo-porto"
-    price: 6500
-    currency: "EUR"
-    region: "EU"
-    availability: "in-stock"
-    note: ""
-specs:
-  category: "longtail"
-  model_year: 2025
-  frame:
-    material: "aluminum"
-    size: "one size"
-    dimensions:
-      length_cm: 206
-      width_cm: 70
-      height_cm: 100
-  weight:
-    bike_kg: null
-    with_battery_kg: 39.6
-  load_capacity:
-    total_kg: 200
-    rear_kg: 60
-    front_kg: 20
-    passenger_count_excluding_rider: 2
-    passenger_config: "2 children on rear rack, front basket"
-  motor:
-    make: "Specialized"
-    model: "2.2 Cargo"
-    type: "mid-drive"
-    power_w: 250
-    torque_nm: 90
-    boost_throttle: false
-  battery:
-    capacity_wh: 710
-    configuration: "single"
-    removable: true
-    charging_time_h: null
-  drivetrain:
-    type: "belt"
-    speeds: "continuous"
-    hub: "Enviolo Heavy Duty"
-  brakes:
-    type: "hydraulic 4-piston disc"
-    front_rotor_mm: 203
-    rear_rotor_mm: 203
-  wheels:
-    front_size_in: '24"'
-    rear_size_in: '20"'
-    tire: "Specialized Pathfinder Sport Reflect"
-  suspension:
-    front: "none"
-    rear: "none"
-  lights:
-    front:
-      type: "Lezyne 500 lumens"
-      integrated: true
-      powered_by: "main battery"
-    rear:
-      type: "integrated LED"
-      integrated: true
-      brake_light: true
-  features:
-    [
-      "bosch-2-2-cargo",
-      "gates-belt-drive",
-      "enviolo-heavy-duty",
-      "garmin-radar-integration",
-      "mik-hd-compatible",
-    ]
-  security:
-    gps: true
-    frame_lock: true
-    app_lock: false
-  range:
-    estimate_km: "50-120"
-    notes: "5 hours of riding time announced by Specialized"
-  price:
-    amount: 6500
-    currency: "EUR"
-  notes: "Specialized's first foray into the longtail market. Heavyweight champion with the most powerful motor on the market at 90 Nm."
+  - name: Specialized Official
+    url: https://www.specialized.com/us/en/turbo-porto/p/141906
+    price: "6500"
+    currency: EUR
+    region: EU
+    availability: in-stock
+    note: Manufacturer's suggested retail price
+  - name: Shop Roulez Jeunesse
+    url: https://shop.roulezjeunesse.com/products/specialized-turbo-porto
+    price: "6500"
+    currency: EUR
+    region: EU
+    availability: in-stock
+category: longtail
+model_year: 2025
+frame_material: aluminum
+frame_size: one size
+frame_length_cm: 206.0
+frame_width_cm: 70.0
+frame_height_cm: 100.0
+weight_with_battery_kg: 39.6
+load_capacity_total_kg: 200.0
+load_capacity_rear_kg: 60.0
+load_capacity_front_kg: 20.0
+load_capacity_passenger_count: 2
+load_capacity_passenger_config: 2 children on rear rack, front basket
+motor_make: Specialized
+motor_model: 2.2 Cargo
+motor_type: mid-drive
+motor_power_w: 250
+motor_torque_nm: 90
+motor_boost_throttle: false
+battery_capacity_wh: 710
+battery_configuration: single
+battery_removable: true
+drivetrain_type: belt
+drivetrain_speeds: continuous
+drivetrain_hub: Enviolo Heavy Duty
+brakes_type: hydraulic 4-piston disc
+brakes_front_rotor_mm: 203
+brakes_rear_rotor_mm: 203
+wheels_front_size_in: 24
+wheels_rear_size_in: 20
+wheels_tire: Specialized Pathfinder Sport Reflect
+suspension_front: none
+suspension_rear: none
+lights_front_type: Lezyne 500 lumens
+lights_front_integrated: true
+lights_front_powered_by: main battery
+lights_rear_type: integrated LED
+lights_rear_integrated: true
+lights_rear_brake_light: true
+features:
+  - bosch-2-2-cargo
+  - gates-belt-drive
+  - enviolo-heavy-duty
+  - garmin-radar-integration
+  - mik-hd-compatible
+security_gps: true
+security_app_lock: false
+security_frame_lock: true
+range_estimate_km: 50-120
+range_notes: 5 hours of riding time announced by Specialized
+price_amount: "6500"
+price_currency: EUR
+specs_notes:
+  Specialized's first foray into the longtail market. Heavyweight champion
+  with the most powerful motor on the market at 90 Nm.
 ---
 
 ## Specialized Turbo Porto
+
+![Specialized Turbo Porto](https://www.specialized.com/us/en/turbo-porto/p/141906)
 
 The Specialized Turbo Porto represents the California-based brand's ambitious entry into the premium longtail market. As Specialized's first dedicated longtail e-cargo bike, it brings the brand's legendary engineering expertise and attention to detail to a market previously dominated by European specialists.
 
@@ -109,6 +96,23 @@ The Turbo Porto is a statement of intent from Specialized: a premium longtail th
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification             | Value                   |
+| ------------------------- | ----------------------- |
+| **Category**              | longtail                |
+| **Model Year**            | 2025                    |
+| **Motor**                 | Specialized 2.2 Cargo   |
+| **Motor Power**           | 250W                    |
+| **Motor Torque**          | 90Nm                    |
+| **Battery Capacity**      | 710Wh                   |
+| **Range**                 | 50-120 km               |
+| **Weight (with battery)** | 39.6kg                  |
+| **Total Load Capacity**   | 200.0kg                 |
+| **Drivetrain**            | belt                    |
+| **Brakes**                | hydraulic 4-piston disc |
+| **Wheel Size**            | Front: 24", Rear: 20"   |
+| **Price**                 | 6500 EUR                |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Weight

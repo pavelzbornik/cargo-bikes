@@ -1,16 +1,22 @@
 ---
-title: "Cube"
-type: "brand-index"
-brand: "Cube"
-tags: [brand, index, cube]
+brand: Cube
 date: 2025-10-24
-url: ""
 image: ""
-summary: "Cube is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+category: longtail
+title: Cube
+type: brand
+summary:
+  Cube is a cargo bike manufacturer offering diverse models for families and
+  professionals.
+tags:
+  - brand
+  - index
+  - cube
+regions:
+  - EU
+categories:
+  - longtail
+distribution_model: both
 ---
 
 ## Overview

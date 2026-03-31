@@ -1,55 +1,54 @@
 ---
-title: "Nakamura"
-type: "brand"
 date: "2025-10-24"
-url: "https://www.intersport.com/"
-logo: null
-summary: "Nakamura is a cargo bike brand distributed through Intersport, specializing in electric longtail bikes designed for urban families and daily cargo transport with comprehensive factory equipment."
-
-founded_year: null
-country: "France"
-headquarters:
-  city: null
-  country: "France"
-
-categories: ["longtail"]
-market_segments: ["urban-families", "commuters", "cargo-transport"]
-regions: ["EU"]
-price_tier: "accessible"
-
-product_types: ["bikes"]
-model_count: null
-primary_motors: ["Ananda", "proprietary"]
-parent_company: "Intersport"
-
-manufacturing:
-  locations: null
-  approach: null
-  assembly_location: null
-  ethical_standards: null
-
-distribution_model: "retail"
-regions_active: ["EU"]
+title: Nakamura
+type: brand
+url: https://www.intersport.com/
+summary:
+  Nakamura is a cargo bike brand distributed through Intersport, specializing
+  in electric longtail bikes designed for urban families and daily cargo transport
+  with comprehensive factory equipment.
+tags:
+  - brand
+  - french
+  - longtail
+  - electric
+  - family
+  - accessible
+  - cargo
+  - intersport
+country: France
+headquarters_country: France
+categories:
+  - longtail
+market_segments:
+  - urban-families
+  - commuters
+  - cargo-transport
+regions:
+  - EU
+price_tier: accessible
+product_types:
+  - bikes
+primary_motors:
+  - Ananda
+  - proprietary
+parent_company: Intersport
+distribution_model: retail
+regions_active:
+  - EU
 direct_sales: false
 dealership_network: true
-
-impact: null
-
+value_sustainability: true
+value_local_manufacturing: false
+value_community_focus: false
+value_safety_emphasis: true
+value_tech_integration: true
 accessibility:
-  - "comprehensive-factory-equipment"
-  - "dual-battery-modularity"
-  - "strong-braking-system"
-  - "telescopic-seatpost"
-  - "affordable-entry-price"
-
-values:
-  sustainability: true
-  local_manufacturing: false
-  community_focus: false
-  safety_emphasis: true
-  tech_integration: true
-
-tags: [brand, french, longtail, electric, family, accessible, cargo, intersport]
+  - comprehensive-factory-equipment
+  - dual-battery-modularity
+  - strong-braking-system
+  - telescopic-seatpost
+  - affordable-entry-price
 ---
 
 ## Overview

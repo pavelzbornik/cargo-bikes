@@ -1,99 +1,91 @@
 ---
+date: 2025-10-26
 title: e-cargo Longtail L20
 type: bike
 brand: estarli
 model: e-cargo Longtail L20
-tags: [bike, longtail, estarli, bafang]
-date: 2025-10-26
+tags:
+  - bike
+  - longtail
+  - estarli
+  - bafang
 url: https://www.estarli.co.uk/products/longtail-cargo
 image: https://www.estarli.co.uk/cdn/shop/files/e-cargo-Longtail-Standard-Yellow.jpg?v=1756198325
 resellers:
   - name: estarli Direct
     url: https://www.estarli.co.uk/products/longtail-cargo
-    price: 2995
+    price: "2995"
     currency: GBP
     region: UK
     availability: in-stock
     note: Standard model base price
   - name: estarli Direct
     url: https://www.estarli.co.uk/products/longtail-cargo
-    price: 3255
+    price: "3255"
     currency: GBP
     region: UK
     availability: in-stock
     note: Family Pack model with child seat bolt-on accessory
-specs:
-  category: longtail
-  model_year: 2023
-  frame:
-    material: aluminum
-    size: one size fits all (5'0" to 6'5")
-  weight:
-    with_battery_kg: 28
-    bike_kg: 25
-  load_capacity:
-    total_kg: 210
-    rear_kg: 90
-    passenger_count_excluding_rider: 2
-    passenger_config: "Up to 2 children in Family Pack configuration with accessory child seat"
-  motor:
-    make: Bafang
-    model: m400
-    type: mid-drive
-    power_w: 250
-    torque_nm: 110
-    boost_throttle: false
-  battery:
-    capacity_wh: 630
-    configuration: single
-    removable: true
-    charging_time_h: 3
-  drivetrain:
-    type: belt
-    speeds: continuous
-    hub: Enviolo Heavy Duty CVT
-  brakes:
-    type: hydraulic disk
-    front_rotor_mm: null
-    rear_rotor_mm: null
-  wheels:
-    front_size_in: '20"'
-    rear_size_in: '20"'
-    tire: Schwalbe Super Moto
-  suspension:
-    front: RST hydraulic adjustable suspension
-    rear: none
-  lights:
-    front:
-      type: Buchelk automatic headlight
-      integrated: true
-      powered_by: main battery
-    rear:
-      type: Automatic rear light
-      integrated: true
-      brake_light: false
-  features:
-    [
-      folding-stem,
-      quick-release-wheels,
-      park-stand,
-      Gates-carbon-belt-drive,
-      stepless-gears,
-    ]
-  security:
-    gps: false
-    frame_lock: false
-    app_lock: false
-  range:
-    estimate_km: 85-100
-    notes: "Range varies with assist level and load conditions; supports secondary battery for extended range"
-  price:
-    amount: 2995
-    currency: GBP
-  notes: "Battery upgradeable to 700Wh; Designed and assembled in Berkhamsted, UK; Secondary battery compatible for extended range"
+category: longtail
+model_year: 2023
+frame_material: aluminum
+frame_size: one size fits all (5'0" to 6'5")
+weight_bike_kg: 25.0
+weight_with_battery_kg: 28.0
+load_capacity_total_kg: 210.0
+load_capacity_rear_kg: 90.0
+load_capacity_passenger_count: 2
+load_capacity_passenger_config:
+  Up to 2 children in Family Pack configuration with
+  accessory child seat
+motor_make: Bafang
+motor_model: m400
+motor_type: mid-drive
+motor_power_w: 250
+motor_torque_nm: 110
+motor_boost_throttle: false
+battery_capacity_wh: 630
+battery_configuration: single
+battery_removable: true
+battery_charging_time_h: "3"
+drivetrain_type: belt
+drivetrain_speeds: continuous
+drivetrain_hub: Enviolo Heavy Duty CVT
+brakes_type: hydraulic disk
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
+wheels_tire: Schwalbe Super Moto
+suspension_front: RST hydraulic adjustable suspension
+suspension_rear: none
+lights_front_type: Buchelk automatic headlight
+lights_front_integrated: true
+lights_front_powered_by: main battery
+lights_rear_type: Automatic rear light
+lights_rear_integrated: true
+lights_rear_brake_light: false
+features:
+  - folding-stem
+  - quick-release-wheels
+  - park-stand
+  - Gates-carbon-belt-drive
+  - stepless-gears
+security_gps: false
+security_app_lock: false
+security_frame_lock: false
+range_estimate_km: 85-100
+range_notes:
+  Range varies with assist level and load conditions; supports secondary
+  battery for extended range
+price_amount: "2995"
+price_currency: GBP
+specs_notes:
+  Battery upgradeable to 700Wh; Designed and assembled in Berkhamsted,
+  UK; Secondary battery compatible for extended range
 ---
 
 ## Overview
+
+![e-cargo Longtail L20](https://www.estarli.co.uk/cdn/shop/files/e-cargo-Longtail-Standard-Yellow.jpg?v=1756198325)
 
 The estarli e-cargo Longtail L20 is a family-focused electric cargo longtail designed for affordable, practical everyday transport. Developed by UK-based estarli, it combines commuter-friendly dimensions with substantial cargo capacity, making it ideal for school runs, family outings, and mixed-load carrying.
 
@@ -102,6 +94,23 @@ Co-founder Alex Francis positioned it as "more affordable than many market-leadi
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification             | Value          |
+| ------------------------- | -------------- |
+| **Category**              | longtail       |
+| **Model Year**            | 2023           |
+| **Motor**                 | Bafang m400    |
+| **Motor Power**           | 250W           |
+| **Motor Torque**          | 110Nm          |
+| **Battery Capacity**      | 630Wh          |
+| **Range**                 | 85-100 km      |
+| **Weight (with battery)** | 28.0kg         |
+| **Total Load Capacity**   | 210.0kg        |
+| **Drivetrain**            | belt           |
+| **Brakes**                | hydraulic disk |
+| **Wheel Size**            | 20"            |
+| **Price**                 | 2995 GBP       |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Frame & Geometry

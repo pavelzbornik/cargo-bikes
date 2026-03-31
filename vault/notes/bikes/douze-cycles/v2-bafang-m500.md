@@ -1,16 +1,37 @@
 ---
-title: "Douze V2 Bafang M500"
-type: bike
-tags: [bike, front-cargo, cargo-box, electric, douze-cycles]
 date: 2025-10-16
-brand: "Douze Cycles"
-model: "V2 Bafang M500"
-url: "https://www.douze-cycles.com/velos-cargos/v2"
-image: "https://vitrine.douze-cycles.com/wp-content/uploads/2023/04/couple.svg"
-price: "€4,950"
-motor: "250W"
-battery: "672Wh"
-range: "Variable depending on terrain"
+price: €4,950
+motor: 250W
+battery: 672Wh
+range: Variable depending on terrain
+title: Douze V2 Bafang M500
+type: bike
+brand: Douze Cycles
+model: V2 Bafang M500
+tags:
+  - bike
+  - front-cargo
+  - cargo-box
+  - electric
+  - douze-cycles
+url: https://www.douze-cycles.com/velos-cargos/v2
+image: https://boutique.douze-cycles.com/wp-content/uploads/2026/02/LT24_shimano-nexus-di2-lilas_longtail_velo-cargo-electrique_douze-cycles.png
+motor_power_w: 250
+battery_capacity_wh: 672
+price_amount: "4950"
+price_currency: EUR
+needs_research: true
+research_topics:
+  - category
+  - motor_make
+  - motor_torque_nm
+  - weight_with_battery_kg
+  - load_capacity_total_kg
+  - brakes_type
+  - drivetrain_type
+  - frame_material
+  - range_estimate_km
+  - wheels_front_size_in
 ---
 
 ## Douze V2 Bafang M500
@@ -24,6 +45,13 @@ The V2 Bafang M500 is a front-cargo (biporteur) electric bike featuring a powerf
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Power**      | 250W     |
+| **Battery Capacity** | 672Wh    |
+| **Price**            | 4950 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €4,950 TTC

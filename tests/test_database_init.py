@@ -8,7 +8,6 @@ Tests verify that:
 4. Relationships between tables are properly configured
 """
 
-import sys
 import tempfile
 from pathlib import Path
 
@@ -16,11 +15,8 @@ import pytest
 from sqlalchemy import inspect
 from sqlalchemy.engine import Engine
 
-# Add parent directory to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent))
-
-from scripts.database.init_db import init_database, verify_schema
-from scripts.database.schema import (
+from cargo_bikes.db.init_db import init_database, verify_schema
+from cargo_bikes.db.schema import (
     Base,
     get_table_names,
 )
@@ -526,7 +522,7 @@ class TestVerifySchemaEdgeCases:
         # Create engine with only some tables
         engine = create_engine("sqlite:///:memory:", echo=False)
         # Only create brands table
-        from scripts.database.schema import Brand
+        from cargo_bikes.db.schema import Brand
 
         Brand.__table__.create(engine, checkfirst=True)
 

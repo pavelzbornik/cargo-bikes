@@ -1,9 +1,11 @@
 ---
+date: "2025-10-20"
+review_summary_date: "2025-10-30"
+review_source_count: 2
 title: Kombi E6
 type: bike
 brand: Yuba
 model: Kombi E6
-date: "2025-10-20"
 tags:
   - bike
   - compact
@@ -11,42 +13,42 @@ tags:
   - shimano
 url: https://yubabikes.eu/product/kombi-e6/
 image: https://yubabikes.eu/wp-content/uploads/2024/12/Kombi-E6-Black-No-BG.png
-specs:
-  category: compact
-  load_capacity:
-    total_kg: 200
-    passenger_count_excluding_rider: 1
-  motor:
-    make: Shimano
-    model: E6100
-    type: mid-drive
-    power_w: 250
-    torque_nm: 60
-  battery:
-    capacity_wh: 500
-    configuration: single
-    removable: true
-  range:
-    estimate_km: 60-100
-  price:
-    amount: 3349
-    currency: EUR
-  notes:
-    Premium compact electric cargo bike with Shimano E6100 motor (250W, 60Nm
-    torque). Enhanced geometry and assist. Sourced from manufacturer specifications.
 resellers:
   - name: Cyclable
     url: https://www.cyclable.com/18285-velo-cargo-electrique-longtail-yuba-kombi-e6.html
-    price: 3349
+    price: "3349"
     currency: EUR
     region: EU
     availability: in-stock
-    note: ""
-review_summary_date: "2025-10-30"
-review_source_count: 2
+category: compact
+load_capacity_total_kg: 200.0
+load_capacity_passenger_count: 1
+motor_make: Shimano
+motor_model: E6100
+motor_type: mid-drive
+motor_power_w: 250
+motor_torque_nm: 60
+battery_capacity_wh: 500
+battery_configuration: single
+battery_removable: true
+range_estimate_km: 60-100
+price_amount: "3349"
+price_currency: EUR
+specs_notes:
+  Premium compact electric cargo bike with Shimano E6100 motor (250W, 60Nm
+  torque). Enhanced geometry and assist. Sourced from manufacturer specifications.
+needs_research: true
+research_topics:
+  - weight_with_battery_kg
+  - brakes_type
+  - drivetrain_type
+  - frame_material
+  - wheels_front_size_in
 ---
 
 ## Kombi E6
+
+![Kombi E6](https://yubabikes.eu/wp-content/uploads/2024/12/Kombi-E6-Black-No-BG.png)
 
 ## Overview
 
@@ -55,6 +57,18 @@ The Kombi E6 is everyone's favorite compact cargo bike. This enhanced electric v
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification           | Value         |
+| ----------------------- | ------------- |
+| **Category**            | compact       |
+| **Motor**               | Shimano E6100 |
+| **Motor Power**         | 250W          |
+| **Motor Torque**        | 60Nm          |
+| **Battery Capacity**    | 500Wh         |
+| **Range**               | 60-100 km     |
+| **Total Load Capacity** | 200.0kg       |
+| **Price**               | 3349 EUR      |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €3,349.00

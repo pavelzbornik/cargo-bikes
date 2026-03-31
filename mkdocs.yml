@@ -37,13 +37,27 @@ theme:
     - content.action.edit
     - content.tooltips
 plugins:
+  - i18n:
+      docs_structure: suffix
+      reconfigure_material: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: fr
+          name: Français
+          build: true
   - tags
   - search
-  - obsidian-bridge
+  - wikilinks-title
+  # obsidian-bridge disabled — wikilinks-title handles [[link]] resolution by title
+
   - git-revision-date
   - git-authors
   - glightbox
   # - table-reader
+
   - redirects
   - section-index
   - llmstxt:
@@ -61,11 +75,18 @@ markdown_extensions:
   - tables
   - attr_list
   - md_in_html
-  # Obsidian-like features provided by mkdocs-obsidian-bridge
+  # obsidian_media_mkdocs disabled — it creates duplicate broken wikilinks
 
-  - obsidian_media_mkdocs
+  # wikilinks-title plugin handles all [[link]] resolution
   - obsidian_callouts
 extra:
+  alternate:
+    - name: English
+      link: /cargo-bikes/
+      lang: en
+    - name: Français
+      link: /cargo-bikes/fr/
+      lang: fr
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/pavelzbornik/cargo-bikes

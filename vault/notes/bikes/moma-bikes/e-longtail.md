@@ -1,19 +1,48 @@
 ---
-title: "Moma E-LONGTAIL"
-type: bike
-tags: [bike, cargo-bike, long-tail, moma-bikes]
 date: 2025-10-16
-brand: "Moma Bikes"
-model: "E-LONGTAIL"
-url: "https://momabikes.eu/products/electric-bike-ebike-longtail"
-image: "https://cdn.shopify.com/s/files/1/0290/9382/2538/files/1View.jpg?width=800&crop=center"
-price: "€2,299.99 (sale, regular €4,000.00)"
-motor: "250W"
-battery: "624Wh"
-range: "90km"
+price: €2,299.99 (sale, regular €4,000.00)
+motor: 250W
+battery: 624Wh
+range: 90km
+title: Moma E-LONGTAIL
+type: bike
+brand: Moma Bikes
+model: E-LONGTAIL
+tags:
+  - bike
+  - cargo-bike
+  - long-tail
+  - moma-bikes
+url: https://momabikes.eu/products/electric-bike-ebike-longtail
+image: https://cdn.shopify.com/s/files/1/0290/9382/2538/files/1View.jpg?width=800&crop=center
+motor_power_w: 250
+battery_capacity_wh: 624
+range_estimate_km: "90"
+price_amount: "2299"
+price_currency: EUR
+category: longtail
+motor_type: hub
+motor_torque_nm: 70
+battery_removable: true
+weight_with_battery_kg: 28.0
+load_capacity_total_kg: 80.0
+load_capacity_passenger_count: 2
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: chain
+drivetrain_speeds: "8"
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
+suspension_front: aluminum fork with front suspension
+suspension_rear: none
+needs_research: true
+research_topics:
+  - motor_make
 ---
 
 ## Moma E-LONGTAIL
+
+![Moma E-LONGTAIL](https://cdn.shopify.com/s/files/1/0290/9382/2538/files/1View.jpg?width=800&crop=center)
 
 Versatile urban cargo bike combining modern design with powerful electric assistance for transporting children, goods, and bulky items around the city.
 
@@ -24,6 +53,14 @@ The Moma E-LONGTAIL is a true long-tail cargo bike engineered for urban families
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification        | Value    |
+| -------------------- | -------- |
+| **Motor Power**      | 250W     |
+| **Battery Capacity** | 624Wh    |
+| **Range**            | 90 km    |
+| **Price**            | 2299 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €2,299.99 (sale from €4,000.00)

@@ -1,19 +1,43 @@
 ---
-title: "ÉVO Fantilo"
-type: bike
-tags: [bike, family, longtail, oklo, electric]
 date: 2025-10-19
-brand: "OKLÖ"
-model: "ÉVO Fantilo"
-url: "https://www.oklo.bike/produit/velo-cargo-evo-famille/"
-image: "https://www.oklo.bike/assets/uploads/2022/03/IMG_0820-EVO-Fantilo-longtail-elu-velo-cargo-de-l-annee-2024_1024x1204.jpg"
-price: "€3,970 - €5,455"
-motor: "250W Bafang M410"
-battery: "600Wh"
-range: "50-100km"
+price: €3,970 - €5,455
+motor: 250W Bafang M410
+battery: 600Wh
+range: 50-100km
+title: ÉVO Fantilo
+type: bike
+brand: OKLÖ
+model: ÉVO Fantilo
+tags:
+  - bike
+  - family
+  - longtail
+  - oklo
+  - electric
+url: https://www.oklo.bike/produit/velo-cargo-evo-famille/
+image: https://www.oklo.bike/assets/uploads/2022/03/IMG_0820-EVO-Fantilo-longtail-elu-velo-cargo-de-l-annee-2024_1024x1204.jpg
+motor_make: Bafang
+motor_model: M410
+motor_power_w: 250
+battery_capacity_wh: 600
+range_estimate_km: 50-100
+price_amount: "3970"
+price_currency: EUR
+needs_research: true
+research_topics:
+  - load_capacity_total_kg
+category: longtail
+motor_torque_nm: 80
+weight_with_battery_kg: 42.6
+frame_material: chromoly steel
+brakes_type: hydraulic disc
+drivetrain_type: chain
+wheels_front_size_in: 24
 ---
 
 ## Overview
+
+![ÉVO Fantilo](https://www.oklo.bike/assets/uploads/2022/03/IMG_0820-EVO-Fantilo-longtail-elu-velo-cargo-de-l-annee-2024_1024x1204.jpg)
 
 The OKLÖ ÉVO Fantilo is a premium electric family cargo bike **elected Cargo Bike of the Year 2024** among 46 candidates from 33 different brands. Designed for versatile family transportation, it excels at carrying 1-3 passengers or combining child seats with front cargo. Available in compact (1 rear passenger) or longtail (2 rear passengers) versions. The Fantilo is the ultimate urban family workhorse, combining comfort, safety, robustness, and ease of use with an elegant, timeless design.
 
@@ -22,6 +46,15 @@ The OKLÖ ÉVO Fantilo is a premium electric family cargo bike **elected Cargo B
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification        | Value       |
+| -------------------- | ----------- |
+| **Motor**            | Bafang M410 |
+| **Motor Power**      | 250W        |
+| **Battery Capacity** | 600Wh       |
+| **Range**            | 50-100 km   |
+| **Price**            | 3970 EUR    |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 ### Dimensions & Geometry

@@ -49,3 +49,18 @@ Ensure compliance with the following validation requirements:
 - **Content Rules**: Ensure that the content follows the markdown content rules specified above.
 - **Formatting**: Ensure that the content is properly formatted and structured according to the guidelines.
 - **Validation**: Run the validation tools to check for compliance with the rules and guidelines.
+
+## Pre-Commit Validation
+
+All markdown files are automatically validated on commit using pre-commit hooks configured in `.pre-commit-config.yaml`. The following tools are run to ensure markdown quality:
+
+- **markdownlint**: Enforces markdown linting rules to ensure consistent style and structure. Configuration is in `.markdownlint.json`. Auto-fixes are applied when possible.
+- **Prettier**: Enforces consistent markdown formatting (spacing, line breaks, etc.).
+
+**Important**: Before committing markdown files, ensure they pass the pre-commit checks:
+
+- Run `pre-commit run --all-files` to validate all markdown files manually.
+- If pre-commit hooks fail, review the output, make necessary corrections, and commit again.
+- All markdown files **must** pass the markdownlint and prettier checks as part of the CI/CD pipeline.
+
+Ensure your markdown files are fully compliant with these automated checks to avoid build failures.

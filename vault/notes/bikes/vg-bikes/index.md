@@ -1,16 +1,22 @@
 ---
-title: "VG Bikes"
-type: "brand-index"
-brand: "VG Bikes"
-tags: [brand, index, vg-bikes]
+brand: VG Bikes
 date: 2025-10-24
-url: ""
 image: ""
-summary: "VG Bikes is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+category: longtail
+title: VG Bikes
+type: brand
+summary:
+  VG Bikes is a cargo bike manufacturer offering diverse models for families
+  and professionals.
+tags:
+  - brand
+  - index
+  - vg-bikes
+regions:
+  - EU
+categories:
+  - longtail
+distribution_model: both
 ---
 
 ## Overview

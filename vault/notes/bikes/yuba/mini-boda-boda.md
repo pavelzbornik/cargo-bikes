@@ -1,31 +1,44 @@
 ---
-title: "mini Boda Boda"
-type: bike
-brand: "Yuba"
-model: "mini Boda Boda"
 date: 2025-10-20
-tags: [bike, compact, yuba, bosch]
-url: "https://yubabikes.eu/product/mini-boda-boda/"
-image: "https://yubabikes.eu/wp-content/uploads/2025/08/YUBA_MINI_BODA_BODA_JUILLET_25_ST_JORIOZ__HD-152-1-1.jpg"
-specs:
-  category: "compact"
-  load_capacity:
-    total_kg: 200
-    passenger_count_excluding_rider: 1
-  motor:
-    make: "Bosch"
-    type: "mid-drive"
-    power_w: 500
-  battery:
-    configuration: "integrated"
-    removable: false
-  price:
-    amount: 4499
-    currency: "EUR"
-  notes: "Ultra-compact electric cargo bike with Bosch motor and maximum capacity-to-compactness ratio. Short wheelbase, dynamic handling. Sourced from manufacturer specifications."
+title: mini Boda Boda
+type: bike
+brand: Yuba
+model: mini Boda Boda
+tags:
+  - bike
+  - compact
+  - yuba
+  - bosch
+url: https://yubabikes.eu/product/mini-boda-boda/
+image: https://yubabikes.eu/wp-content/uploads/2025/08/YUBA_MINI_BODA_BODA_JUILLET_25_ST_JORIOZ__HD-152-1-1.jpg
+category: compact
+load_capacity_total_kg: 200.0
+load_capacity_passenger_count: 1
+motor_make: Bosch
+motor_type: mid-drive
+motor_power_w: 500
+battery_configuration: integrated
+battery_removable: false
+price_amount: "4499"
+price_currency: EUR
+specs_notes:
+  Ultra-compact electric cargo bike with Bosch motor and maximum capacity-to-compactness
+  ratio. Short wheelbase, dynamic handling. Sourced from manufacturer specifications.
+needs_research: true
+research_topics:
+  - motor_torque_nm
+  - battery_capacity_wh
+  - weight_with_battery_kg
+  - brakes_type
+  - drivetrain_type
+  - frame_material
+  - range_estimate_km
+  - wheels_front_size_in
 ---
 
 ## mini Boda Boda
+
+![mini Boda Boda](https://yubabikes.eu/wp-content/uploads/2025/08/YUBA_MINI_BODA_BODA_JUILLET_25_ST_JORIOZ__HD-152-1-1.jpg)
 
 The mini Boda Boda is Yuba's ultra-compact cargo bike. It delivers the same DNA as its larger sibling with a more nimble, space-efficient design that makes it perfect for navigating tight urban environments while still offering impressive cargo capacity.
 
@@ -36,6 +49,15 @@ A compact, agile urban cargo bike designed for maximum maneuverability in crowde
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification           | Value    |
+| ----------------------- | -------- |
+| **Category**            | compact  |
+| **Motor**               | Bosch    |
+| **Motor Power**         | 500W     |
+| **Total Load Capacity** | 200.0kg  |
+| **Price**               | 4499 EUR |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 - **Price:** €4,499.00

@@ -1,17 +1,11 @@
 """Tests for generate_brand_indexes script."""
 
-import sys
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-# Add parent directory to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent))
-
-from scripts.generate_brand_indexes import (
-    collect_bikes_by_brand,
-    extract_frontmatter,
-    generate_brand_index,
-)
+from cargo_bikes.generate.brand_indexes import generate_brand_index
+from cargo_bikes.vault.frontmatter import extract_frontmatter
+from cargo_bikes.vault.scanner import collect_bikes_by_brand
 
 
 class TestExtractFrontmatter:
@@ -114,10 +108,9 @@ class TestGenerateBrandIndex:
 
         assert "Trek" in result
         assert "---" in result
-        assert 'type: "brand-index"' in result
+        assert "type: brand" in result
         assert "[Trek Fetch+]" in result
         assert "trek-fetch-plus.md" in result
-        assert "brand-index" in result
 
     def test_generate_brand_index_multiple_bikes(self) -> None:
         """Test generating index with multiple bikes."""
@@ -183,9 +176,11 @@ class TestGenerateBrandIndex:
         # Check frontmatter structure
         assert result.startswith("---\n")
         assert 'title: "Trek"' in result
-        assert 'type: "brand-index"' in result
+        assert "type: brand" in result
         assert 'brand: "Trek"' in result
-        assert "tags: [brand, index, trek]" in result
+        assert "- brand" in result
+        assert "- index" in result
+        assert "- trek" in result
         assert "---\n" in result
 
     def test_generate_brand_index_includes_summary(self) -> None:
@@ -329,7 +324,7 @@ brand: {brand_name.title()}
             index_file = bikes_dir / "index.md"
             index_file.write_text("""---
 title: Trek
-type: brand-index
+type: brand
 ---
 
 # Trek""")

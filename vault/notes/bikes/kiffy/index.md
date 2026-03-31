@@ -1,16 +1,20 @@
 ---
-title: "Kiffy"
-type: "brand-index"
-brand: "Kiffy"
-tags: [brand, index, kiffy]
+brand: Kiffy
 date: 2025-10-24
-url: ""
 image: ""
-summary: "Kiffy is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+category: longtail
+title: Kiffy
+type: brand
+summary:
+  Kiffy is a cargo bike manufacturer offering diverse models for families and
+  professionals.
+tags:
+  - brand
+  - index
+  - kiffy
+regions:
+  - EU
+distribution_model: both
 ---
 
 ## Overview

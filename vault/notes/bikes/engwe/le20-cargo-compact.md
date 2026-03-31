@@ -1,25 +1,62 @@
 ---
-title: "ENGWE LE20 Cargo"
-type: bike
-tags: [bike, compact-cargo, urban-cargo, engwe]
 date: 2025-10-16
-brand: "ENGWE"
-model: "LE20 Cargo"
-url: "https://www.journaldugeek.com/test/test-engwe-le20-cargo-entre-velo-electrique-urbain-et-familial/"
-image: "https://www.journaldugeek.com/app/uploads/2025/04/l2017-960x640.jpg"
-price: "€1,549 (€1,399 with ENGWEV150OFF code)"
-motor: "250W"
-battery: "2x 924Wh (48V 19.2Ah each, total 1,848Wh when dual)"
-range: "200-250km (real-world urban mixed), up to 350km (eco mode theoretical)"
+price: €1,549 (€1,399 with ENGWEV150OFF code)
+motor: 250W
+battery: 2x 924Wh (48V 19.2Ah each, total 1,848Wh when dual)
+range: 200-250km (real-world urban mixed), up to 350km (eco mode theoretical)
+title: ENGWE LE20 Cargo
+type: bike
+brand: ENGWE
+model: LE20 Cargo
+tags:
+  - bike
+  - compact-cargo
+  - urban-cargo
+  - engwe
+url: https://www.journaldugeek.com/test/test-engwe-le20-cargo-entre-velo-electrique-urbain-et-familial/
+image: https://www.journaldugeek.com/app/uploads/2025/04/l2017-960x640.jpg
+motor_power_w: 250
+battery_capacity_wh: 924
+range_estimate_km: 200-250
+price_amount: "1549"
+price_currency: EUR
+category: compact
+motor_type: hub
+motor_torque_nm: 100
+battery_removable: true
+weight_with_battery_kg: 40.0
+weight_bike_kg: 35.0
+load_capacity_total_kg: 200.0
+frame_material: aluminum
+brakes_type: hydraulic disc
+drivetrain_type: chain
+drivetrain_speeds: "7"
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
+suspension_front: fork
+suspension_rear: none
+needs_research: true
+research_topics:
+  - motor_make
 ---
 
 ## Overview
+
+![ENGWE LE20 Cargo](https://www.journaldugeek.com/app/uploads/2025/04/l2017-960x640.jpg)
 
 The ENGWE LE20 Cargo is a compact urban and family-oriented electric cargo bike that bridges the gap between traditional urban e-bikes and full-size cargo bikes. Designed as a "mini-cargo" or "compact cargo bike," it features a robust aluminum frame, dual battery capability (optional), and a strong rear cargo rack. With 20-inch fat tires and a low-frame design, it excels at urban maneuverability while maintaining excellent cargo capacity and comfort. The bike comes fully equipped out of the box with fenders, integrated lighting, suspension fork, and rear rack—no additional purchases necessary for immediate use. Its total carrying capacity reaches 200 kg (rider included), making it suitable for child passengers, shopping, or modest cargo loads.
 
 ## Technical Specifications
 
 <!-- BIKE_SPECS_TABLE_START -->
+
+| Specification        | Value      |
+| -------------------- | ---------- |
+| **Motor Power**      | 250W       |
+| **Battery Capacity** | 924Wh      |
+| **Range**            | 200-250 km |
+| **Price**            | 1549 EUR   |
+
 <!-- BIKE_SPECS_TABLE_END -->
 
 | Specification     | Details                                                |
