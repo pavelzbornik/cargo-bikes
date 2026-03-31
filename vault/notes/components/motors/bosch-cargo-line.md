@@ -60,7 +60,7 @@ Walk assist is included as standard across all Smart System motors.
 
 ## Smart System Compatibility
 
-**Batteries (PowerTube)**
+### Batteries (PowerTube)
 
 - PowerTube 400
 - PowerTube 500
@@ -68,7 +68,7 @@ Walk assist is included as standard across all Smart System motors.
 - PowerTube 750
 - Dual battery configurations via the DualBattery adapter
 
-**Displays and Controls**
+### Displays and Controls
 
 - Kiox 300
 - Kiox 500

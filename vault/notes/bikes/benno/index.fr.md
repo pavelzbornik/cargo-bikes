@@ -86,6 +86,6 @@ Voici un récapitulatif de chaque modification apportée et du raisonnement qui 
 | `models`     | Trois wikilinks     | Extraits directement du tableau « Modèles dans ce catalogue » — données de haute fiabilité déjà présentes dans la note. Crée une connectivité bidirectionnelle dans le graphe vers chaque fiche vélo enfant.                                                                                                                                                        |
 | `components` | `[]`                | La note confirme l'utilisation de moteurs mid-drive Bosch mais ne mentionne jamais de référence Bosch spécifique (par exemple Performance Line CX vs. Active Line Plus). L'ajout d'un nom de modèle spéculatif violerait la règle de non-hallucination ; le tableau est donc laissé vide dans l'attente d'un enrichissement à partir des fiches vélo individuelles. |
 
-**Modifications du corps**
+### Modifications du corps
 
 Aucune modification requise. Les trois références aux modèles de vélos dans le corps étaient déjà correctement formatées en wikilinks Obsidian (`[[…]]`). Toutes les URL sources dans la section Sources sont des liens externes `https://` et sont correctement laissées en liens markdown standard.

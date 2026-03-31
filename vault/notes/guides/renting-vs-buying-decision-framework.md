@@ -16,13 +16,13 @@ A framework for deciding whether to rent or purchase an electric cargo bike.
 
 ### Rental Cost
 
-**Total rental cost = Monthly fee x Months + Buyback fees + Optional add-ons**
+Formula: **Total rental cost = Monthly fee x Months + Buyback fees + Optional add-ons**
 
 Rentals typically bundle maintenance, insurance, and support. Monthly fees for cargo bikes range from 80-150 EUR.
 
 ### Purchase Cost
 
-**Total ownership cost = Purchase price + Maintenance + Insurance - Resale value**
+Formula: **Total ownership cost = Purchase price + Maintenance + Insurance - Resale value**
 
 - Purchase price: 2,000-6,000 EUR for most cargo bikes
 - Annual maintenance: 200-250 EUR (2 services)
