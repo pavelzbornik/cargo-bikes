@@ -358,7 +358,7 @@ def upsert_bike(
             return
         import re
 
-        km_match = re.search(r"([\d][\d\-–]*)\s*km", legacy, re.IGNORECASE)
+        km_match = re.search(r"([\d][\d\-\u2013]*)\s*km", legacy, re.IGNORECASE)
         if km_match:
             bike.range_estimate_km = km_match.group(1)
 

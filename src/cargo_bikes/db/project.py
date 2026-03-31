@@ -634,7 +634,7 @@ def generate_brand_frontmatter(
     # Manufacturing — flat
     if brand.manufacturing_locations:
         data["manufacturing_locations"] = [
-            l.strip() for l in brand.manufacturing_locations.split(",")
+            loc.strip() for loc in brand.manufacturing_locations.split(",")
         ]
     if brand.manufacturing_approach:
         data["manufacturing_approach"] = brand.manufacturing_approach

@@ -77,7 +77,7 @@ Cet héritage informe tout, depuis le système d'accessoires modulaires du Boost
 
 Voici un récapitulatif de chaque modification apportée et du raisonnement qui la sous-tend :
 
-**Ajouts dans le frontmatter**
+### Ajouts dans le frontmatter
 
 | Champ        | Valeur ajoutée      | Raison                                                                                                                                                                                                                                                                                                                                                              |
 | ------------ | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

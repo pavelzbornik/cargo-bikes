@@ -68,7 +68,7 @@ class WikilinksPlugin(BasePlugin):
     ) -> str:
         """Convert [[wikilinks]] to [text](url) in page markdown."""
         # Calculate relative path from current page to target
-        current_dir = str(Path(page.file.src_path).parent).replace("\\", "/")
+        # current_dir used for relative path calculation is handled inside _relative_url
 
         def _relative_url(target_url: str) -> str:
             """Calculate relative URL from current page to target."""
