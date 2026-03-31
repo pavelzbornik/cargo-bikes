@@ -252,7 +252,7 @@ type: bike
             index_file = bikes_path / "index.md"
             index_file.write_text("""---
 title: Test Brand
-type: brand-index
+type: brand
 ---
 
 # Test Brand""")
