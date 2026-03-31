@@ -51,8 +51,8 @@ frame_length_cm: 200.0
 brakes_type: hydraulic disc
 drivetrain_type: chain
 drivetrain_speeds: "10"
-wheels_front_size_in: "20"
-wheels_rear_size_in: "20"
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
 suspension_front: none
 motor_power_w: 250
 frame_material: aluminum

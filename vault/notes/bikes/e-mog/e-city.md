@@ -36,8 +36,8 @@ battery_configuration: single
 battery_removable: true
 drivetrain_type: chain
 brakes_type: hydraulic disc
-wheels_front_size_in: 20"
-wheels_rear_size_in: 20"
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
 suspension_front: none
 suspension_rear: none
 lights_front_type: LED

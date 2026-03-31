@@ -35,8 +35,8 @@ frame_material: aluminum
 brakes_type: hydraulic disc
 drivetrain_type: belt
 drivetrain_hub: Enviolo Heavy Duty
-wheels_front_size_in: "24"
-wheels_rear_size_in: "24"
+wheels_front_size_in: 24
+wheels_rear_size_in: 24
 suspension_front: suspension fork
 suspension_rear: none
 ---

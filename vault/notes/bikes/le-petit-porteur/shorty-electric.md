@@ -30,8 +30,8 @@ load_capacity_passenger_count: 1
 frame_material: steel
 brakes_type: hydraulic disc
 drivetrain_type: chain
-wheels_front_size_in: "20"
-wheels_rear_size_in: "20"
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
 wheels_tire: Schwalbe Pick Up
 needs_research: true
 research_topics:

@@ -53,7 +53,7 @@ range_estimate_km: "70"
 price_amount: "2300"
 price_currency: EUR
 frame_length_cm: 175.0
-wheels_front_size_in: "20"
+wheels_front_size_in: 20
 ---
 
 ## Overview

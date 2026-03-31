@@ -29,8 +29,8 @@ frame_material: steel
 brakes_type: hydraulic disc
 drivetrain_type: chain
 drivetrain_speeds: "7"
-wheels_front_size_in: "20"
-wheels_rear_size_in: "20"
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
 suspension_front: hydraulic
 suspension_rear: none
 weight_with_battery_kg: 28.0

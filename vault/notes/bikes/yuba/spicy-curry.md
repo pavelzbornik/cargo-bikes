@@ -40,8 +40,8 @@ drivetrain_hub: Microshift
 brakes_type: hydraulic disc
 brakes_front_rotor_mm: 180
 brakes_rear_rotor_mm: 180
-wheels_front_size_in: 26"
-wheels_rear_size_in: 20"
+wheels_front_size_in: 26
+wheels_rear_size_in: 20
 wheels_tire: Schwalbe Pick-Up
 suspension_front: none
 suspension_rear: none

@@ -34,8 +34,8 @@ frame_material: aluminum
 brakes_type: hydraulic disc
 drivetrain_type: chain
 drivetrain_speeds: "9"
-wheels_front_size_in: "24"
-wheels_rear_size_in: "24"
+wheels_front_size_in: 24
+wheels_rear_size_in: 24
 wheels_tire: Maxxis Hookworm (front) / Maxxis Rekon (rear)
 suspension_front: none
 suspension_rear: none

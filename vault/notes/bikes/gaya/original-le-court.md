@@ -31,8 +31,8 @@ battery_removable: true
 battery_charging_time_h: "5"
 drivetrain_type: chain
 brakes_type: mechanical disc
-wheels_front_size_in: 27.5"
-wheels_rear_size_in: 27.5"
+wheels_front_size_in: 27.5
+wheels_rear_size_in: 27.5
 suspension_front: hydraulic fork 70mm
 suspension_rear: none
 lights_front_type: LED 125 lm

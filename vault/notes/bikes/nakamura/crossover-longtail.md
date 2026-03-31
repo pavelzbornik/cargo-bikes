@@ -35,8 +35,8 @@ drivetrain_speeds: 9-speed
 brakes_type: hydraulic disc
 brakes_front_rotor_mm: 200
 brakes_rear_rotor_mm: 180
-wheels_front_size_in: 27.5"
-wheels_rear_size_in: 24"
+wheels_front_size_in: 27.5
+wheels_rear_size_in: 24
 wheels_tire: Schwalbe Super Moto-X
 suspension_front: none
 suspension_rear: rigid

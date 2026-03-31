@@ -33,8 +33,8 @@ motor_boost_throttle: true
 battery_configuration: single
 drivetrain_type: chain
 brakes_type: hydraulic disc
-wheels_front_size_in: 20"
-wheels_rear_size_in: 20"
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
 suspension_front: front suspension fork
 suspension_rear: suspension seatpost
 features:

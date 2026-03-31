@@ -54,8 +54,8 @@ drivetrain_hub: Enviolo Heavy Duty
 brakes_type: hydraulic 4-piston disc
 brakes_front_rotor_mm: 203
 brakes_rear_rotor_mm: 203
-wheels_front_size_in: 24"
-wheels_rear_size_in: 20"
+wheels_front_size_in: 24
+wheels_rear_size_in: 20
 wheels_tire: Specialized Pathfinder Sport Reflect
 suspension_front: none
 suspension_rear: none

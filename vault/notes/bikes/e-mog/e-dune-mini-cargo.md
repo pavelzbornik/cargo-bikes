@@ -43,8 +43,8 @@ battery_removable: true
 drivetrain_type: chain
 drivetrain_hub: Shimano
 brakes_type: hydraulic disc
-wheels_front_size_in: 20"
-wheels_rear_size_in: 20"
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
 wheels_tire: Kenda 4 inch (fat bike tires)
 suspension_front: front fork with suspension
 suspension_rear: none

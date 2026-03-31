@@ -35,8 +35,8 @@ brakes_type: hydraulic disc
 drivetrain_type: chain
 drivetrain_speeds: "5"
 drivetrain_hub: Shimano Nexus 5
-wheels_front_size_in: "24"
-wheels_rear_size_in: "24"
+wheels_front_size_in: 24
+wheels_rear_size_in: 24
 wheels_tire: Schwalbe Pickup
 suspension_front: RST 50mm travel fork
 suspension_rear: none

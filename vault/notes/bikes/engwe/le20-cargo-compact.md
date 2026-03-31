@@ -31,8 +31,8 @@ frame_material: aluminum
 brakes_type: hydraulic disc
 drivetrain_type: chain
 drivetrain_speeds: "7"
-wheels_front_size_in: "20"
-wheels_rear_size_in: "20"
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
 suspension_front: fork
 suspension_rear: none
 needs_research: true

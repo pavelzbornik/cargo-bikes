@@ -33,8 +33,8 @@ battery_charging_time_h: "5"
 drivetrain_type: chain
 drivetrain_speeds: 3+
 brakes_type: hydraulic disc
-wheels_front_size_in: 20"
-wheels_rear_size_in: 20"
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
 suspension_front: none
 suspension_rear: none
 lights_front_type: LED 125 lm

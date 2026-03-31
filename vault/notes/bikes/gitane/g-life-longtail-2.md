@@ -31,9 +31,9 @@ brakes_type: hydraulic disc
 drivetrain_type: chain
 drivetrain_speeds: "5"
 drivetrain_hub: Shimano Nexus SG-C7000-5
-wheels_front_size_in: "20"
-wheels_rear_size_in: "20"
-wheels_tire: UrbanFat 20"x3.0"
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
+wheels_tire: 'UrbanFat 20"x3.0"'
 motor_power_w: 250
 ---
 

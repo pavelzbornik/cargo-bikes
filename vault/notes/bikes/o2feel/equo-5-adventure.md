@@ -39,8 +39,8 @@ frame_material: aluminum
 brakes_type: hydraulic disc
 drivetrain_type: chain
 drivetrain_speeds: "9"
-wheels_front_size_in: "26"
-wheels_rear_size_in: "20"
+wheels_front_size_in: 26
+wheels_rear_size_in: 20
 wheels_tire: eContact Plus
 suspension_front: Suntour SP17 NCX
 suspension_rear: Suntour SP17 suspended seatpost

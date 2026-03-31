@@ -23,8 +23,8 @@ motor_power_w: 250
 battery_capacity_wh: 1350
 drivetrain_type: belt
 brakes_type: hydraulic disc
-wheels_front_size_in: 26"
-wheels_rear_size_in: 26"
+wheels_front_size_in: 26
+wheels_rear_size_in: 26
 wheels_tire: Schwalbe Pick-Up Perf
 suspension_front: "yes"
 suspension_rear: none

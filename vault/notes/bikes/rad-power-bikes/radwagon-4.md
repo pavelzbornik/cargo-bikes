@@ -30,7 +30,7 @@ load_capacity_total_kg: 158.76
 frame_material: aluminum
 brakes_type: mechanical disc
 drivetrain_type: chain
-wheels_front_size_in: "22"
+wheels_front_size_in: 22
 ---
 
 ## Overview

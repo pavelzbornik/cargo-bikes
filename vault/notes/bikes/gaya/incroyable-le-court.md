@@ -39,8 +39,8 @@ battery_removable: true
 drivetrain_type: chain
 drivetrain_speeds: single/varies
 brakes_type: mechanical disc
-wheels_front_size_in: 27.5"
-wheels_rear_size_in: 27.5"
+wheels_front_size_in: 27.5
+wheels_rear_size_in: 27.5
 wheels_tire: standard (43 frame fit)
 suspension_front: hydraulic fork 70mm
 suspension_rear: aluminum swing arm 50mm

@@ -32,7 +32,7 @@ weight_with_battery_kg: 42.6
 frame_material: chromoly steel
 brakes_type: hydraulic disc
 drivetrain_type: chain
-wheels_front_size_in: "24"
+wheels_front_size_in: 24
 ---
 
 ## Overview

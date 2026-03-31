@@ -55,8 +55,8 @@ brakes_type: hydraulic disc
 brakes_front_rotor_mm: 180
 brakes_rear_rotor_mm: 180
 brakes_pistons: Magura MT-Sport
-wheels_front_size_in: 24"
-wheels_rear_size_in: 24"
+wheels_front_size_in: 24
+wheels_rear_size_in: 24
 wheels_tire: Schwalbe Pick-Up 24x2.15
 suspension_front: none
 suspension_rear: none

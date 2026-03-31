@@ -29,7 +29,7 @@ research_topics:
 frame_material: steel
 brakes_type: mechanical disc
 drivetrain_type: chain
-wheels_front_size_in: "24"
+wheels_front_size_in: 24
 ---
 
 ## Kombi

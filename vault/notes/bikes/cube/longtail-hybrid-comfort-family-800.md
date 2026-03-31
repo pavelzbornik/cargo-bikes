@@ -44,8 +44,8 @@ drivetrain_hub: Enviolo Heavy Duty
 brakes_type: Magura Gustav PRO hydraulic disc
 brakes_front_rotor_mm: 203
 brakes_rear_rotor_mm: 203
-wheels_front_size_in: 26"
-wheels_rear_size_in: 26"
+wheels_front_size_in: 26
+wheels_rear_size_in: 26
 wheels_tire: Schwalbe Pick-Up Performance Super Defense 65-559
 suspension_front: none
 suspension_rear: elastomer suspended rear carrier

@@ -21,7 +21,7 @@ class WikilinksPlugin(BasePlugin):
 
     def __init__(self) -> None:
         super().__init__()
-        self.title_map: dict[str, str] = {}
+        self.title_map: dict[str, dict[str, str]] = {}
 
     def on_files(self, files: Files, *, config: MkDocsConfig) -> Files:
         """Build title→URL map from all pages."""

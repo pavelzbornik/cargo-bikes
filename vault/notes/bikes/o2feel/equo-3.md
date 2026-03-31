@@ -33,8 +33,8 @@ motor_model: E6100 Cargo
 battery_capacity_wh: 432
 drivetrain_type: chain
 brakes_type: hydraulic disc
-wheels_front_size_in: 26"
-wheels_rear_size_in: 20"
+wheels_front_size_in: 26
+wheels_rear_size_in: 20
 wheels_tire: "Kenda AV: Kenda Kranium AR: Kenda Admiral"
 suspension_front: "yes"
 suspension_rear: none

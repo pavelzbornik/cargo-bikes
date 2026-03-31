@@ -26,8 +26,8 @@ motor_model: STEPS EP801 Cargo
 battery_capacity_wh: 540
 drivetrain_type: chain
 brakes_type: hydraulic disc
-wheels_front_size_in: 26"
-wheels_rear_size_in: 20"
+wheels_front_size_in: 26
+wheels_rear_size_in: 20
 wheels_tire: Schwalbe Pick-Up Perf
 suspension_front: none
 suspension_rear: none

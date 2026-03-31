@@ -28,8 +28,8 @@ battery_removable: true
 drivetrain_type: chain
 drivetrain_speeds: 10-speed
 brakes_type: hydraulic 4-piston disc
-wheels_front_size_in: 20"
-wheels_rear_size_in: 20"
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
 wheels_tire: Schwalbe Pick-Up
 suspension_front: rigid
 suspension_rear: rigid

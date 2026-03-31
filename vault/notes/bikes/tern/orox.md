@@ -37,7 +37,7 @@ weight_with_battery_kg: 37.0
 load_capacity_total_kg: 210.0
 frame_material: aluminum
 brakes_type: hydraulic disc
-wheels_front_size_in: "27.5"
+wheels_front_size_in: 27.5
 ---
 
 ## Tern Orox

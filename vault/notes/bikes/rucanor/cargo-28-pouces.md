@@ -17,8 +17,8 @@ tags:
 url: https://www.decathlon.fr/
 price_amount: "1470"
 price_currency: EUR
-wheels_front_size_in: "28"
-wheels_rear_size_in: "28"
+wheels_front_size_in: 28
+wheels_rear_size_in: 28
 needs_research: true
 research_topics:
   - category

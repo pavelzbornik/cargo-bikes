@@ -40,8 +40,8 @@ battery_removable: true
 drivetrain_type: chain
 drivetrain_speeds: "4"
 brakes_type: mechanical disc
-wheels_front_size_in: 27.5"
-wheels_rear_size_in: 27.5"
+wheels_front_size_in: 27.5
+wheels_rear_size_in: 27.5
 suspension_front: hydraulic fork 70mm
 suspension_rear: aluminum swing arm 50mm
 lights_front_type: LED 125 lm

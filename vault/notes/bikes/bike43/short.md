@@ -37,8 +37,8 @@ brakes_type: hydraulic disc
 drivetrain_type: chain
 drivetrain_speeds: "5"
 drivetrain_hub: Shimano Nexus Inter-5E
-wheels_front_size_in: "20"
-wheels_rear_size_in: "20"
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
 wheels_tire: CST Brooklyn Pro
 suspension_front: SR Suntour SF22 Mobie 34 CGO 80mm
 suspension_rear: none

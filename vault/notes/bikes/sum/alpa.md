@@ -35,7 +35,7 @@ range_estimate_km: "60"
 frame_material: aluminum
 brakes_type: hydraulic disc
 drivetrain_type: chain
-wheels_front_size_in: "27.5"
+wheels_front_size_in: 27.5
 ---
 
 ## Overview

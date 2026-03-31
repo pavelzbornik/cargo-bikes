@@ -34,8 +34,8 @@ frame_length_cm: 185.0
 brakes_type: hydraulic disc
 drivetrain_type: belt
 drivetrain_hub: Enviolo CVT
-wheels_front_size_in: "20"
-wheels_rear_size_in: "20"
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
 wheels_tire: Schwalbe Pick-Up
 suspension_front: none
 suspension_rear: none

@@ -30,8 +30,8 @@ battery_removable: true
 drivetrain_type: chain
 drivetrain_speeds: varies
 brakes_type: hydraulic disc
-wheels_front_size_in: 20"
-wheels_rear_size_in: 20"
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
 wheels_tire: 20x2.44 (CST Brooklyn Pro)
 suspension_front: SR Suntour SF22 Mobie 34 CGO 80mm
 suspension_rear: rigid

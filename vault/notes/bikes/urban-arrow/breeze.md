@@ -31,8 +31,8 @@ frame_material: aluminum
 brakes_type: hydraulic disc
 drivetrain_type: belt
 drivetrain_hub: Enviolo Heavy Duty
-wheels_front_size_in: "24"
-wheels_rear_size_in: "24"
+wheels_front_size_in: 24
+wheels_rear_size_in: 24
 wheels_tire: Schwalbe Pick-Up
 suspension_front: SR Suntour Mobie 34
 suspension_rear: none

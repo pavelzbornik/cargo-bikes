@@ -55,8 +55,8 @@ brakes_type: hydraulic disc
 brakes_front_rotor_mm: 180
 brakes_rear_rotor_mm: 180
 brakes_pistons: Shimano
-wheels_front_size_in: 24"
-wheels_rear_size_in: 24"
+wheels_front_size_in: 24
+wheels_rear_size_in: 24
 wheels_tire: Schwalbe Big Ben Plus
 suspension_front: none
 suspension_rear: none

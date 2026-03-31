@@ -51,8 +51,8 @@ drivetrain_speeds: "10"
 drivetrain_hub: Shimano Deore
 brakes_type: hydraulic disc
 brakes_pistons: MT4/MT5
-wheels_front_size_in: 20"
-wheels_rear_size_in: 20"
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
 wheels_tire: Schwalbe Super Moto X
 suspension_front: Suntour Mobie 34 80mm
 suspension_rear: none

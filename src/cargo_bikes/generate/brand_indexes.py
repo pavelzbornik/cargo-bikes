@@ -31,17 +31,21 @@ def generate_brand_index(brand_key: str, bikes: list[dict[str, Any]]) -> str:
 
     content = f'''---
 title: "{brand_name_str}"
-type: "brand-index"
+type: brand
 brand: "{brand_name_str}"
-tags: [brand, index, {brand_key}]
+tags:
+  - brand
+  - index
+  - {brand_key}
 date: {date.today()}
-url: ""
 image: ""
-summary: "{brand_name_str} is a cargo bike manufacturer offering diverse models for families and professionals."
-category: "longtail"
-regions: ["EU"]
-founded_year: null
-headquarters: null
+summary: >-
+  {brand_name_str} is a cargo bike manufacturer offering diverse models for families
+  and professionals.
+category: longtail
+regions:
+  - EU
+distribution_model: retail
 ---
 
 ## Overview

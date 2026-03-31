@@ -30,7 +30,7 @@ load_capacity_total_kg: 180.0
 frame_material: aluminum
 brakes_type: hydraulic disc
 drivetrain_type: chain
-wheels_front_size_in: "20"
+wheels_front_size_in: 20
 ---
 
 ## NCM CG7

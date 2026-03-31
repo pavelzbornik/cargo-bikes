@@ -30,7 +30,7 @@ load_capacity_total_kg: 110.0
 frame_material: steel
 brakes_type: hydraulic disc
 drivetrain_type: chain
-wheels_front_size_in: "24"
+wheels_front_size_in: 24
 ---
 
 ## Overview

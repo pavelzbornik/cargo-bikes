@@ -1,7 +1,7 @@
 ---
 title: "Petits repose-pieds - Incroyable - Court/Long"
 type: accessory
-category: pet-carriers
+category: footrests
 manufacturer: "[[Gaya]]"
 price_amount: 30
 price_currency: EUR

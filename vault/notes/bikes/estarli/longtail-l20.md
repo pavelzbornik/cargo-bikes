@@ -52,8 +52,8 @@ drivetrain_type: belt
 drivetrain_speeds: continuous
 drivetrain_hub: Enviolo Heavy Duty CVT
 brakes_type: hydraulic disk
-wheels_front_size_in: 20"
-wheels_rear_size_in: 20"
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
 wheels_tire: Schwalbe Super Moto
 suspension_front: RST hydraulic adjustable suspension
 suspension_rear: none

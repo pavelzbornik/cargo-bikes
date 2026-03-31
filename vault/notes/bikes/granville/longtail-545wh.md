@@ -28,8 +28,8 @@ battery_removable: true
 brakes_type: hydraulic disc
 drivetrain_type: belt
 drivetrain_hub: Enviolo Trekking
-wheels_front_size_in: "24"
-wheels_rear_size_in: "20"
+wheels_front_size_in: 24
+wheels_rear_size_in: 20
 wheels_tire: Schwalbe Pick-up 65-406
 suspension_front: none
 needs_research: true

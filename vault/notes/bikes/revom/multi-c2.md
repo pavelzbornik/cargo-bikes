@@ -26,9 +26,9 @@ frame_material: aluminum
 brakes_type: hydraulic disc
 drivetrain_speeds: "7"
 drivetrain_hub: Shimano Nexus 7
-wheels_front_size_in: "24"
-wheels_rear_size_in: "24"
-wheels_tire: CST 24" x 3.0"
+wheels_front_size_in: 24
+wheels_rear_size_in: 24
+wheels_tire: 'CST 24" x 3.0"'
 suspension_front: hydraulic
 needs_research: true
 research_topics:

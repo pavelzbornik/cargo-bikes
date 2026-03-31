@@ -39,9 +39,9 @@ battery_charging_time_h: "4"
 drivetrain_type: chain
 drivetrain_speeds: "10"
 brakes_type: hydraulic disc
-wheels_front_size_in: 27.5"
-wheels_rear_size_in: 27.5"
-wheels_tire: Schwalbe Super Moto X 2.4"
+wheels_front_size_in: 27.5
+wheels_rear_size_in: 27.5
+wheels_tire: 'Schwalbe Super Moto X 2.4"'
 suspension_front: none
 suspension_rear: none
 lights_front_type: Supernova Mini 2 LED

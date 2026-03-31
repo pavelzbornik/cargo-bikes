@@ -40,9 +40,9 @@ battery_charging_time_h: "3"
 drivetrain_type: chain
 drivetrain_speeds: "8"
 brakes_type: mechanical disc
-wheels_front_size_in: 20"
-wheels_rear_size_in: 20"
-wheels_tire: Kenda Kontact 20x2.0"
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
+wheels_tire: 'Kenda Kontact 20x2.0"'
 suspension_front: none
 suspension_rear: none
 lights_front_type: Basic LED

@@ -28,8 +28,8 @@ load_capacity_passenger_count: 1
 brakes_type: hydraulic disc
 drivetrain_type: chain
 drivetrain_speeds: "7"
-wheels_front_size_in: "20"
-wheels_rear_size_in: "20"
+wheels_front_size_in: 20
+wheels_rear_size_in: 20
 suspension_front: none
 suspension_rear: rear suspension
 needs_research: true
