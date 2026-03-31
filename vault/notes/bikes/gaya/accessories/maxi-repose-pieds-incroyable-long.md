@@ -17,7 +17,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Maxi repose-pieds - Incroyable - Long
+## Maxi repose-pieds - Incroyable - Long
 
 Large footrests designed specifically for the [[Gaya L'Incroyable Le Long]] cargo bike. These maxi-sized footrests provide a secure and comfortable resting position for child passengers during rides.
 

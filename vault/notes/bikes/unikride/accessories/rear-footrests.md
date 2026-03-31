@@ -18,7 +18,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Rear footrests
+## Rear footrests
 
 Rear footrests are a brand-specific safety accessory designed by [[Unikride]] for use on their own cargo bikes. They provide a secure and stable resting point for a rear passenger's feet, making two-person riding safer and more comfortable.
 

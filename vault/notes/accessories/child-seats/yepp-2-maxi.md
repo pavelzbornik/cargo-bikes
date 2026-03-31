@@ -20,7 +20,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Yepp 2 Maxi
+## Yepp 2 Maxi
 
 The Yepp 2 Maxi is a premium rear-mounted child seat made by Yepp, a specialist manufacturer of bicycle child seats. Designed for children aged approximately 9 months to 6 years (up to 22 kg), it is a universal third-party accessory compatible with a wide range of cargo bikes and standard bicycles fitted with an appropriate rear carrier.
 

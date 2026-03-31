@@ -18,7 +18,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Benno Front Rack
+## Benno Front Rack
 
 The Benno Front Rack is a brand-specific front-loading rack designed and engineered by [[Benno]] exclusively for their Boost-series cargo bikes. It expands the bike's carrying capacity by providing a sturdy, dedicated mounting platform at the front of the frame, ideal for panniers, bags, baskets, or child seat systems.
 

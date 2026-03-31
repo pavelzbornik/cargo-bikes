@@ -5,7 +5,7 @@ source-url: "claude://conversation/c344e35d-8da3-4ecc-8252-494956824063"
 created: 2026-02-27
 ---
 
-# Every cargo e-bike insurance option in France, compared
+## Every cargo e-bike insurance option in France, compared
 
 **For a 3,040€ vélo cargo électrique longtail stored in a locked garage and secured with two locks outside, the French market offers roughly 15 viable insurance options ranging from ~190€ to ~407€ per year.** The best value-for-money options are **Laka** (zero franchise, zero depreciation, ~230–267€/year) and **Qover** (best roadside assistance via Europ Assistance, battery theft covered, ~265–275€/year). For families carrying children, **MAIF** is the only insurer offering truly comprehensive bodily injury protection for both cyclist and passengers — though at a premium price of ~350–390€/year. No single insurer covers everything; most families will benefit from combining a specialized bike policy with a Garantie Accidents de la Vie (GAV) for passenger protection.
 

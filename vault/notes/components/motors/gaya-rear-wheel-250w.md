@@ -20,7 +20,7 @@ compliance: EU EN 15194 (EPAC)
 max_assist_speed: 25 km/h
 ---
 
-# Gaya rear wheel 250W
+## Gaya rear wheel 250W
 
 A rear hub motor developed by or specified for [[Gaya]] cargo bikes. Rated at 250W continuous output in compliance with European EPAC (Electrically Power Assisted Cycle) regulations, which cap assisted speed at 25 km/h.
 

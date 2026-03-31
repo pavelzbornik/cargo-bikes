@@ -22,7 +22,7 @@ weight_kg: 2.9
 compatibility: Shimano STEPS
 ---
 
-# Shimano E5000
+## Shimano E5000
 
 The Shimano STEPS DU-E5000 is an entry-to-mid-level mid-drive motor from [[Shimano]]'s STEPS e-bike ecosystem. It is positioned as a quieter, lightweight option suited to city, trekking, and light cargo use. It sits below the [[Shimano E6100]], [[Shimano E7000]], and [[Shimano EP8]] in the STEPS lineup.
 

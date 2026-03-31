@@ -3,7 +3,7 @@ title: Accessories
 type: page
 ---
 
-# Accessories
+## Accessories
 
 Universal third-party accessories compatible with multiple cargo bike brands.
 

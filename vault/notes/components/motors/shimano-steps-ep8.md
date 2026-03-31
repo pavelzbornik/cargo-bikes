@@ -27,7 +27,7 @@ connectivity:
 introduced: 2020
 ---
 
-# Shimano STEPS EP8
+## Shimano STEPS EP8
 
 ## Overview
 

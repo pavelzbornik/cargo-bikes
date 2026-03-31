@@ -17,7 +17,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Boards Mate
+## Boards Mate
 
 The Boards Mate is a brand-specific board-carrying accessory designed by Yuba exclusively for their cargo bike lineup. It provides the ultimate board-carrying solution for riders who need to transport surfboards, skateboards, snowboards, or similar equipment alongside their everyday cargo.
 

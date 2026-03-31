@@ -21,7 +21,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Carry All
+## Carry All
 
 The Yuba Carry All is a brand-specific cargo bag designed to expand the carrying capacity of select Yuba cargo bikes. Built as a direct accessory from Yuba, it integrates seamlessly with compatible models to provide additional, flexible storage for everyday loads, groceries, gear, and more.
 

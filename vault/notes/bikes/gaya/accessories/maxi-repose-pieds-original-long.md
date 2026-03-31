@@ -17,7 +17,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Maxi repose-pieds - Original - Long
+## Maxi repose-pieds - Original - Long
 
 ## Description
 

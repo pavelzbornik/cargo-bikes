@@ -24,7 +24,7 @@ assist_levels: 5 (configurable via programming cable)
 waterproof_rating: IPX6
 ---
 
-# Bafang M400
+## Bafang M400
 
 ## Overview
 

@@ -8,7 +8,7 @@ tags:
 created: 2026-02-27
 ---
 
-# Electric Cargo Bike Insurance
+## Electric Cargo Bike Insurance
 
 A practical guide to insuring your electric cargo bike, with a focus on the French market.
 

@@ -3,7 +3,7 @@ title: Components
 type: page
 ---
 
-# Components
+## Components
 
 Technical component documentation for cargo bike motors, drivetrains, and other key parts.
 

@@ -18,7 +18,7 @@ compatible_bikes:
 generated_by: cargo-bikes-cli
 ---
 
-# Child Seat (1-2 seats)
+## Child Seat (1-2 seats)
 
 The Onesport Child Seat is a brand-specific accessory designed exclusively for the [[Onesport]] [[OneSport OT01]] cargo bike. It enables the rear cargo platform to accommodate one or two child seats, transforming the bike into a capable family transportation solution for daily use.
 

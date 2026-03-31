@@ -24,7 +24,7 @@ motor_types:
   - mid-drive
 ---
 
-# Specialized
+## Specialized
 
 ## Overview
 

@@ -18,7 +18,7 @@ compatible_bikes:
 generated_by: cargo-bikes-cli
 ---
 
-# Child Seat Configuration
+## Child Seat Configuration
 
 The Onesport Child Seat Configuration is a brand-specific accessory designed exclusively for the Onesport OT30 series cargo bikes. It allows riders to install one or two child seats directly on the rear cargo platform, transforming the bike into a practical family hauler.
 

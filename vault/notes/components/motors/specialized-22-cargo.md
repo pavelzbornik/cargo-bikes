@@ -20,7 +20,7 @@ standard: EU EN15194 compliant
 connectivity: ANT+, Bluetooth (Mission Control)
 ---
 
-# Specialized 2.2 Cargo
+## Specialized 2.2 Cargo
 
 ## Overview
 

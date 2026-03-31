@@ -18,7 +18,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Front Basket
+## Front Basket
 
 A brand-specific front basket designed for the [[Momentum PakYak E+]] cargo bike. Manufactured by [[Momentum]] as part of its official accessory lineup, this basket is included with the bike and is engineered to integrate seamlessly with the front end of the PakYak platform.
 
@@ -41,10 +41,3 @@ This basket is designed specifically for the [[Momentum PakYak E+]] and is part 
 | Bike                   | Compatible |
 | ---------------------- | ---------- |
 | [[Momentum PakYak E+]] | Yes        |
-
-```
-
----
-
-The note uses `price_amount: 0` with a `price_note: Included with bike` field to clearly convey the "Included" pricing without leaving the numeric field blank. All frontmatter is flat (no nesting), manufacturer points to `[[Momentum]]` as the bike brand, and `accessory_type` is set to `brand-specific`. Let me know if you'd like any adjustments!
-```

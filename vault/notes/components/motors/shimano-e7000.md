@@ -25,7 +25,7 @@ chainline_mm: 50
 chain_speed: 10/11-speed
 ---
 
-# Shimano E7000
+## Shimano E7000
 
 Part of the [[Shimano]] STEPS mid-drive system family, the E7000 is a 250 W / 60 Nm motor targeting urban, trekking, and light cargo applications. It sits above the entry-level E5000 and below the higher-torque cargo-specific EP6/EP8 units.
 

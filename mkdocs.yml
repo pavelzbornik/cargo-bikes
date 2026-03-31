@@ -52,10 +52,12 @@ plugins:
   - search
   - wikilinks-title
   # obsidian-bridge disabled — wikilinks-title handles [[link]] resolution by title
+
   - git-revision-date
   - git-authors
   - glightbox
   # - table-reader
+
   - redirects
   - section-index
   - llmstxt:
@@ -74,6 +76,7 @@ markdown_extensions:
   - attr_list
   - md_in_html
   # obsidian_media_mkdocs disabled — it creates duplicate broken wikilinks
+
   # wikilinks-title plugin handles all [[link]] resolution
   - obsidian_callouts
 extra:

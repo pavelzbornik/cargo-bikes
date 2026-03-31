@@ -24,7 +24,7 @@ connectivity: Bluetooth, ANT+
 release_year: 2020
 ---
 
-# Bosch Performance Line Gen5
+## Bosch Performance Line Gen5
 
 A fifth-generation mid-drive motor from [[Bosch]], part of the Smart System platform. Released in 2020, it delivers 85 Nm of torque and is engineered for cargo, urban, and trail e-bike applications requiring reliable, low-noise assist.
 

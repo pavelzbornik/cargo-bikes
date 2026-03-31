@@ -20,7 +20,7 @@ sensor_type: Cadence
 compatibility: Bosch Active Line System (Legacy & Smart System variants)
 ---
 
-# Bosch Active Line Plus
+## Bosch Active Line Plus
 
 The Bosch Active Line Plus (often referred to commercially as the Active Plus) is an entry-level mid-drive motor from [[Bosch]]'s eBike Systems portfolio. It sits above the base Active Line in the lineup, adding a cadence sensor for a more natural pedalling feel, while remaining below the Performance Line and [[Bosch]] Cargo Line units in terms of torque output and intended load capacity. It is well suited to compact urban cargo bikes and lighter-duty cargo applications.
 

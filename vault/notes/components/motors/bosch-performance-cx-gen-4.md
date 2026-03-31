@@ -23,7 +23,7 @@ walk_assist: true
 emtb_mode: true
 ---
 
-# Bosch Performance CX Gen 4
+## Bosch Performance CX Gen 4
 
 The Bosch Performance CX Gen 4 (BDU374Y) is a high-torque mid-drive motor aimed at performance e-bikes, cargo bikes, and e-MTBs. It belongs to the older **Bosch Classic+** ecosystem (pre-Smart System), making it compatible with displays such as the Intuvia, Nyon, Kiox, and Purion. It was widely adopted from approximately 2019 through 2022 before [[Bosch]] introduced the Smart System platform with the Gen 5.
 

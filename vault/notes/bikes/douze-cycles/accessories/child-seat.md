@@ -24,7 +24,7 @@ compatible_bikes:
 generated_by: cargo-bikes-cli
 ---
 
-# Douze Cycles Child Seat
+## Douze Cycles Child Seat
 
 The Douze Cycles Child Seat is a brand-specific child seating solution designed and produced by [[Douze Cycles]] exclusively for their own cargo bike lineup. It integrates directly with the rear rack and cargo area of compatible Douze models, ensuring a secure and well-fitted passenger position without the need for third-party adapters.
 

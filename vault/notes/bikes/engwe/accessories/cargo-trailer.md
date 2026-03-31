@@ -17,7 +17,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Cargo Trailer
+## Cargo Trailer
 
 A brand-specific cargo trailer designed for use with the [[ENGWE LE20 Cargo]] electric cargo bike. It extends the load-carrying capacity beyond what the bike frame and integrated rack can accommodate, allowing riders to haul bulkier or heavier goods without overloading the bike itself.
 

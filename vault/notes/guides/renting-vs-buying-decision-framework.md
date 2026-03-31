@@ -8,7 +8,7 @@ tags:
 created: 2026-02-27
 ---
 
-# Renting vs Buying a Cargo Bike
+## Renting vs Buying a Cargo Bike
 
 A framework for deciding whether to rent or purchase an electric cargo bike.
 

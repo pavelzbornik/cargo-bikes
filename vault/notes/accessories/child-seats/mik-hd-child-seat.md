@@ -18,7 +18,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# MIK-HD Child Seat
+## MIK-HD Child Seat
 
 A rear-mounted child seat using the MIK-HD (Mounting Is Key Heavy Duty) click-on interface. Designed to replace passive bolt-on seats, it offers tool-free installation and removal directly onto any rack fitted with a MIK-HD mounting plate, making it a practical active seating solution for younger children on cargo and longtail bikes.
 

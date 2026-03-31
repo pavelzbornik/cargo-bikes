@@ -10,7 +10,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Best Longtail Cargo Bikes Under 4000 EUR
+## Best Longtail Cargo Bikes Under 4000 EUR
 
 Longtail cargo bikes offer an excellent balance between carrying capacity and everyday rideability. Longer than a standard bicycle but more nimble than a front-loader, a longtail can carry children, groceries, and gear without sacrificing too much of the feel of a regular bike. The good news: some of the most compelling longtails on the market sit comfortably under the 4000 EUR mark.
 

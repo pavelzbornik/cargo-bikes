@@ -15,7 +15,7 @@ nominal_power: 250W
 headquarters: France
 ---
 
-# Gaya
+## Gaya
 
 Gaya is a French electric cargo bike manufacturer specializing in affordable rear-hub motor cargo bikes designed for families and urban commuters. The brand focuses on making cargo cycling accessible with competitive pricing and practical designs.
 

@@ -24,7 +24,7 @@ battery_interface: Shimano STEPS (internal/external)
 connectivity: E-tube (wired Di2 compatible)
 ---
 
-# Shimano E6100
+## Shimano E6100
 
 ## Overview
 

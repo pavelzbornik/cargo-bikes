@@ -9,7 +9,7 @@ tags:
 created: 2026-02-27
 ---
 
-# French E-Bike Insurance Comparison
+## French E-Bike Insurance Comparison
 
 A comparison of specialized e-bike insurance providers available in France, updated for 2026.
 

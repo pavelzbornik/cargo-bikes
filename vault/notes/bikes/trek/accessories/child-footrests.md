@@ -17,7 +17,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Child Footrests
+## Child Footrests
 
 A brand-specific safety accessory designed by Trek for use with the [[Trek Fetch+ 2]] cargo bike. The child footrests provide a secure and comfortable resting position for young passengers riding in the cargo area, helping to keep feet away from moving parts and reducing fatigue on longer rides.
 

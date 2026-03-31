@@ -23,7 +23,7 @@ max_speed_kmh: 25
 gear_sensor_input: true
 ---
 
-# Bafang M410
+## Bafang M410
 
 ## Overview
 

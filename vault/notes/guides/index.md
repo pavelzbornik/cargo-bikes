@@ -3,7 +3,7 @@ title: Guides & Resources
 type: page
 ---
 
-# Guides & Resources
+## Guides & Resources
 
 Practical guides for cargo bike owners covering insurance, costs, regulations, and components.
 

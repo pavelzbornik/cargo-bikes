@@ -10,7 +10,7 @@ tags:
 created: 2026-03-01
 ---
 
-# Taking a Cargo Bike on French Trains
+## Taking a Cargo Bike on French Trains
 
 A guide to transporting cargo bikes on SNCF regional trains (TER) in France.
 

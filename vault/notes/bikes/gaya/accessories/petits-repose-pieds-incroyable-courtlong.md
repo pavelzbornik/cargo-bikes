@@ -18,7 +18,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Petits repose-pieds - Incroyable - Court/Long
+## Petits repose-pieds - Incroyable - Court/Long
 
 Small footrests designed specifically for the Gaya L'Incroyable range of cargo bikes. These footrests provide a safe and comfortable place for young passengers to rest their feet during rides.
 

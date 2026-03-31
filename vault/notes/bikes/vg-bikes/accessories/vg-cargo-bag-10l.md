@@ -16,7 +16,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# VG Cargo Bag (10L)
+## VG Cargo Bag (10L)
 
 The VG Cargo Bag (10L) is a weather-resistant cargo storage solution designed specifically for Vg Bikes models. Purpose-built to integrate seamlessly with the brand's cargo bike lineup, it provides a practical and secure way to carry everyday loads.
 

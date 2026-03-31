@@ -18,7 +18,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Fatstreet Two-Seater Luggage Rack
+## Fatstreet Two-Seater Luggage Rack
 
 The Fatstreet Two-Seater Luggage Rack is a brand-specific rear rack designed and manufactured by Unikride exclusively for the Fatstreet Classic two-seater electric cargo bike range. It extends the bike's carrying capability by adding a dedicated rear cargo platform, making it well suited for daily errands, grocery runs, or general load hauling.
 

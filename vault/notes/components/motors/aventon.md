@@ -25,7 +25,7 @@ voltage: 36V
 market: US (EU entry 2026)
 ---
 
-# Aventon
+## Aventon
 
 ## Overview
 

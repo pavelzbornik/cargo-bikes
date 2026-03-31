@@ -18,7 +18,7 @@ compatible_bikes:
 generated_by: cargo-bikes-cli
 ---
 
-# Adult foot pegs
+## Adult foot pegs
 
 Brand-specific foot pegs designed by [[Douze Cycles]] for use on their cargo bikes, allowing an additional adult passenger to ride comfortably and safely.
 

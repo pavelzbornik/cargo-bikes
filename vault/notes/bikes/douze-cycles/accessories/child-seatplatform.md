@@ -18,7 +18,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Child seat/platform
+## Child seat/platform
 
 The Douze Cycles Child seat/platform is a brand-specific accessory designed exclusively for the Douze Hêta 2S range of cargo bikes. It mounts in the front cargo area of the bike, making use of the dedicated platform space that the Hêta 2S frame provides.
 

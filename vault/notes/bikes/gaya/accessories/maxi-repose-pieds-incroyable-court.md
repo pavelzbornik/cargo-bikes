@@ -16,7 +16,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Maxi repose-pieds - Incroyable - Court
+## Maxi repose-pieds - Incroyable - Court
 
 Large footrests designed specifically for the [[Gaya L'Incroyable Le Court]] cargo bike. This brand-specific accessory is manufactured by [[Gaya]] to integrate seamlessly with their bike lineup.
 

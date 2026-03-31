@@ -17,7 +17,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Child seat (Siège enfant arrière)
+## Child seat (Siège enfant arrière)
 
 Rear child seat designed and supplied by [[Leon Cycle]] for transporting children on compatible cargo bikes. As a brand-specific accessory, it is engineered to integrate directly with the mounting points and frame geometry of Leon Cycle's own bike models.
 

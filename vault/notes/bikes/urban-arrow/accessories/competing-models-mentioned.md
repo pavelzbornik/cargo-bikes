@@ -17,7 +17,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Urban Arrow Pet Carrier
+## Urban Arrow Pet Carrier
 
 A brand-specific pet transport accessory designed by Urban Arrow for use with their longtail cargo bikes, including the [[Urban Arrow Breeze]]. Built to integrate directly with the Breeze's rear cargo platform, it provides a secure and ventilated space for transporting cats, small dogs, and other small animals.
 

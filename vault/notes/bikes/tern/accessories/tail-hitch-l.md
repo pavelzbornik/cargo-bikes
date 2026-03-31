@@ -17,7 +17,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Tail Hitch L
+## Tail Hitch L
 
 The Tern Tail Hitch L is a brand-specific trailer coupling designed exclusively for Tern cargo bikes. It provides a secure and standardised hitch point at the rear of the bike, enabling riders to tow a compatible single-arm or two-arm bike trailer. The "L" designation refers to the long-tail frame geometry of the Tern GSD platform.
 

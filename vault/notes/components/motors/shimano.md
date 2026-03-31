@@ -23,7 +23,7 @@ cargo_variants: true
 di2_compatible: true
 ---
 
-# Shimano
+## Shimano
 
 Shimano is a Japanese multinational manufacturer founded in 1921, headquartered in Sakai, Osaka. Originally and still primarily known for bicycle drivetrain components (groupsets, derailleurs, brakes), Shimano entered the e-bike market with its **STEPS** (Shimano Total Electric Power System) mid-drive motor platform. Their deep integration between motor and drivetrain — particularly via **Di2** electronic shifting — is a distinguishing competitive advantage.
 

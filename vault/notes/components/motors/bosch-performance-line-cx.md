@@ -24,7 +24,7 @@ platform: Smart System (2022+)
 generation: Gen 4
 ---
 
-# Bosch Performance Line CX
+## Bosch Performance Line CX
 
 The Bosch Performance Line CX is a mid-drive motor produced by [[Bosch]] and is the dominant powertrain choice in the European cargo e-bike segment. First introduced in 2018, the current generation runs on Bosch's Smart System platform, launched in 2022. It is specifically engineered for high-torque, high-load applications such as cargo bikes, longtails, and fully-loaded utility e-bikes.
 

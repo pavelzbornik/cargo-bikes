@@ -24,7 +24,7 @@ variants:
   - Cargo Line Speed (45 km/h)
 ---
 
-# Bosch Cargo Line
+## Bosch Cargo Line
 
 The Bosch Cargo Line is a mid-drive motor purpose-built for cargo bikes and heavy-load e-bikes. Introduced at Eurobike 2021 and shipping on production bikes from the 2022 model year, it is the first dedicated cargo motor in [[Bosch]]'s lineup and runs exclusively on the Smart System (Gen 4) platform. It is designed for sustained torque delivery under heavy payloads, distinguishing it from the sport-focused Performance Line CX.
 

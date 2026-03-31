@@ -25,7 +25,7 @@ key_motor_lines:
   - Hub motor series (HF front, HR rear)
 ---
 
-# Bafang
+## Bafang
 
 Bafang (formally Suzhou Bafang Electric Science & Technology Co., Ltd.) is one of the world's largest manufacturers of e-bike drive systems and components, founded in 2003 and headquartered in Suzhou, China. The company supplies motors, batteries, displays, and sensors both as OEM components to bike brands and as aftermarket conversion kits. Bafang systems are widely used across cargo bikes, commuters, MTBs, and fat bikes at a range of price points.
 

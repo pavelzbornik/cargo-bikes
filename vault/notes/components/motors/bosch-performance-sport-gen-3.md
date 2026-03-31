@@ -21,7 +21,7 @@ release_year: 2023
 system: Smart System
 ---
 
-# Bosch Performance Sport Gen 3
+## Bosch Performance Sport Gen 3
 
 Mid-drive motor by [[Bosch]], part of the Bosch Smart System ecosystem. Positioned as the performance-oriented fitness and trekking motor — a quieter, lighter alternative to the [[Bosch Performance CX]] for road, urban, and cargo applications that do not require maximum trail torque.
 

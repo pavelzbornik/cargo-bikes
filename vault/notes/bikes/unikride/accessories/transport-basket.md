@@ -19,7 +19,7 @@ compatible_bikes:
 generated_by: cargo-bikes-cli
 ---
 
-# Transport Basket
+## Transport Basket
 
 The Transport Basket is a brand-specific front basket designed and manufactured by [[Unikride]] for use with their own cargo bike lineup. It provides a convenient and accessible storage solution for small cargo items, ideal for everyday errands, grocery runs, or carrying personal belongings on the go.
 

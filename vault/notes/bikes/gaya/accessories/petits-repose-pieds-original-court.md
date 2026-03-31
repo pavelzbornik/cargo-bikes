@@ -17,7 +17,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Petits repose-pieds - Original - Court
+## Petits repose-pieds - Original - Court
 
 Small footrests designed specifically for the Gaya L'Original Le Court cargo bike. As a brand-specific accessory made by Gaya, these footrests are engineered to integrate seamlessly with the Original Le Court frame and passenger area, providing a secure and comfortable resting place for young passengers' feet during rides.
 

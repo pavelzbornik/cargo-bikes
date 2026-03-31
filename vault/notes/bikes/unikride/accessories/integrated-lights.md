@@ -16,7 +16,7 @@ compatible_bikes:
 generated_by: cargo-bikes-cli
 ---
 
-# Integrated lights
+## Integrated lights
 
 Safety lighting system integrated into the bike frame, designed specifically for Unikride bikes.
 

@@ -17,7 +17,7 @@ compatible_bikes:
 generated_by: cargo-bikes-cli
 ---
 
-# Long Alloyboards
+## Long Alloyboards
 
 The Yuba Long Alloyboards are brand-specific sideboards designed exclusively for the [[Spicy Curry+]] longtail cargo bike. They extend the usable cargo area of the rear deck, making it easier to secure and contain larger, bulkier loads during transport.
 

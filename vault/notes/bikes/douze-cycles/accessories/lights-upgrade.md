@@ -17,7 +17,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Lights Upgrade
+## Lights Upgrade
 
 A brand-specific lighting upgrade developed by [[Douze Cycles]] for their own cargo bike lineup. Designed to integrate cleanly with the frame geometry and electrical architecture of Douze Cycles models, this upgrade enhances rider visibility in low-light and adverse conditions.
 

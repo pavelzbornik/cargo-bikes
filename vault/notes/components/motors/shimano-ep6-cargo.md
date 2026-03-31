@@ -24,7 +24,7 @@ walk_assist: true
 di2_compatible: true
 ---
 
-# Shimano EP6 Cargo
+## Shimano EP6 Cargo
 
 The Shimano EP6 Cargo (model code EP600) is a mid-drive motor unit from [[Shimano]]'s STEPS e-bike system, purpose-engineered for cargo bikes and utility cycles carrying heavy loads. It is a variant of the standard EP6 motor with firmware and mechanical tuning optimised for the higher total system weights typical of longtail and box-cargo configurations.
 

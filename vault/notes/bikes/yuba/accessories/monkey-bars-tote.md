@@ -21,7 +21,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Monkey Bars Tote
+## Monkey Bars Tote
 
 The Monkey Bars Tote is a brand-specific accessory designed by [[Yuba]] for use with select models in their cargo bike lineup. It functions as a quick basket converter, allowing riders to instantly transform their Monkey Bars setup into a functional carrying basket — making it a fast and practical add-on for everyday hauling needs.
 

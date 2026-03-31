@@ -32,7 +32,7 @@ max_battery_wh: 800
 dual_battery_max_wh: 1600
 ---
 
-# Bosch
+## Bosch
 
 Bosch eBike Systems is a division of Robert Bosch GmbH and the dominant mid-drive motor supplier in the premium cargo and utility e-bike segment. Based in Reutlingen, Germany, Bosch has been producing e-bike drive systems since 2011. Their current platform — the **Smart System** — connects all drive components over a shared data bus, enabling OTA firmware updates, app-unlockable performance tiers, and deep integration with displays, ABS, and electronic shifting.
 

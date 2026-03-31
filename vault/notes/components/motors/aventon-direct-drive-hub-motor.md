@@ -20,7 +20,7 @@ top_speed_class2: 20 mph
 top_speed_class3: 28 mph
 ---
 
-# Aventon Direct Drive Hub Motor
+## Aventon Direct Drive Hub Motor
 
 ## Overview
 

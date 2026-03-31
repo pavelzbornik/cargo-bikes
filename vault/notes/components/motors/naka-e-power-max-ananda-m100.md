@@ -32,7 +32,7 @@ certifications:
   - REACH
 ---
 
-# Naka E-Power Max (Ananda M100)
+## Naka E-Power Max (Ananda M100)
 
 ## Overview
 

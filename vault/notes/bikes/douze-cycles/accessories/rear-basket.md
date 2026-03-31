@@ -21,7 +21,7 @@ compatible_bikes:
   - "[[Douze LT2 S Nexus 5]]"
 ---
 
-# Rear Basket
+## Rear Basket
 
 A brand-specific rear basket designed and manufactured by [[Douze Cycles]] for use exclusively with their cargo bike range. It integrates directly with the rear platform of compatible Douze LT-series bikes, expanding overall load capacity without compromising the structural integrity of the frame and platform system.
 

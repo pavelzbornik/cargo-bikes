@@ -18,7 +18,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Rear Grab Bars (Passenger Safety)
+## Rear Grab Bars (Passenger Safety)
 
 The Momentum Rear Grab Bars are a brand-specific safety accessory designed exclusively for the [[Momentum PakYak E+]] cargo bike. They provide a secure handhold for rear passengers — particularly children — giving them a stable grip point while riding, and significantly reducing the risk of falls or unexpected movements during transit.
 

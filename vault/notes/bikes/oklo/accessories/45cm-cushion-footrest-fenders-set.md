@@ -19,7 +19,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# 45cm Cushion + Footrest + Fenders Set
+## 45cm Cushion + Footrest + Fenders Set
 
 The 45cm Cushion + Footrest + Fenders Set is a brand-specific accessory designed and manufactured by [[Oklo]] for use with the [[Simplix]] cargo bike. This bundled set combines three comfort and protection components into a single package, providing a more comfortable ride for passengers as well as weather and splash protection for the cargo area.
 

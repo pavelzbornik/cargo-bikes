@@ -19,7 +19,7 @@ compatible_bikes:
 generated_by: cargo-bikes-cli
 ---
 
-# Bobike One Junior Child Seat
+## Bobike One Junior Child Seat
 
 The Bobike One Junior is a rear rack-mounted child seat made by **Bobike**, a Dutch manufacturer (part of the Pon.Bike group) specialising in children's cycling accessories. As a third-party, universal product, it is compatible with a wide range of bikes equipped with a standard rear luggage rack, making it a flexible option across different cargo and utility bike brands.
 

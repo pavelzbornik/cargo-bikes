@@ -17,7 +17,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# mini Monkey Bars kit
+## mini Monkey Bars kit
 
 The mini Monkey Bars kit is a brand-specific safety frame accessory designed and manufactured by [[Yuba]] exclusively for the [[mini Boda Boda]] cargo bike. It provides a secure, structured footrest and handrail system for young passengers riding on the rear deck, improving comfort and safety during rides.
 

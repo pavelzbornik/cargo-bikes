@@ -28,7 +28,7 @@ walk_assist: true
 di2_compatible: true
 ---
 
-# Shimano EP801
+## Shimano EP801
 
 ## Overview
 

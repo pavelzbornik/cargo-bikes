@@ -19,7 +19,7 @@ compatible_bikes:
 generated_by: cargo-bikes-cli
 ---
 
-# Standard Panniers
+## Standard Panniers
 
 ## Overview
 

@@ -13,7 +13,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# Cargo Bike Motors: What You Need to Know
+## Cargo Bike Motors: What You Need to Know
 
 When you're shopping for a cargo bike, the motor is one of the most important decisions you'll make. It determines how much help you get on hills, how the bike feels to ride, and how well it handles heavy loads — whether that's kids, groceries, or both at once.
 

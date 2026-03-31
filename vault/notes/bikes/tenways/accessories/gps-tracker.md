@@ -18,7 +18,7 @@ tags:
 generated_by: cargo-bikes-cli
 ---
 
-# GPS Tracker
+## GPS Tracker
 
 A brand-specific GPS tracking solution designed exclusively for Tenways cargo bikes. The GPS Tracker is integrated with Tenways' Smart Connect platform and is bundled directly with compatible bikes, providing out-of-the-box location tracking and connected services at no additional cost during the first year.
 
