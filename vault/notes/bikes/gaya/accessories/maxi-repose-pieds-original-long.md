@@ -33,7 +33,7 @@ The Maxi repose-pieds - Original - Long are large footrests designed specificall
 
 ## Compatibility
 
-This accessory is brand-specific and designed exclusively for the [Gaya L'Original Le Long](/bikes/gaya/original-le-long.md) cargo bike. It is not intended for use with other brands or models. Always verify compatibility with your specific bike configuration before purchasing.
+This accessory is brand-specific and designed exclusively for the [[Gaya L'Original Le Long]] cargo bike. It is not intended for use with other brands or models. Always verify compatibility with your specific bike configuration before purchasing.
 
 ## Pricing
 

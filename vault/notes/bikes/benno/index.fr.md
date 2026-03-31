@@ -26,15 +26,15 @@ La gamme actuelle de Benno dans ce catalogue se compose de trois vélos cargo é
 
 ### La famille Boost
 
-Le [Benno Boost 10D EVO 5 500Wh](/bikes/benno/boost-10d-evo-5.md) et le [Benno Boost E EVO4 500Wh](/bikes/benno/boost-e-evo4.md) représentent le haut de la gamme Benno et sont les modèles qui expriment le plus pleinement l'ambition Etility de la marque. Tous deux sont des formats longtail construits autour de moteurs mid-drive Bosch 250 W et de batteries 500 Wh, et tous deux utilisent le système propriétaire de porte-bagages et rails intelligents de Benno — une plateforme de montage modulaire et interchangeable qui permet au cycliste de configurer le vélo pour transporter des enfants, du chargement, ou une combinaison des deux. Le système prend en charge des dizaines de configurations d'accessoires sans nécessiter de modifications permanentes du cadre.
+Le [[Benno Boost 10D EVO 5 500Wh]] et le [[Benno Boost E EVO4 500Wh]] représentent le haut de la gamme Benno et sont les modèles qui expriment le plus pleinement l'ambition Etility de la marque. Tous deux sont des formats longtail construits autour de moteurs mid-drive Bosch 250 W et de batteries 500 Wh, et tous deux utilisent le système propriétaire de porte-bagages et rails intelligents de Benno — une plateforme de montage modulaire et interchangeable qui permet au cycliste de configurer le vélo pour transporter des enfants, du chargement, ou une combinaison des deux. Le système prend en charge des dizaines de configurations d'accessoires sans nécessiter de modifications permanentes du cadre.
 
-Le [Benno Boost E EVO4 500Wh](/bikes/benno/boost-e-evo4.md) se positionne au prix le plus élevé, à €3 830, et représente le niveau de spécification le plus premium au sein de la famille. Le [Benno Boost 10D EVO 5 500Wh](/bikes/benno/boost-10d-evo-5.md) offre des capacités fondamentales comparables à €3 206, rendant la plateforme Boost accessible à deux niveaux de spécification distincts. Les deux modèles sont capables de transporter bien plus de 100 kg de charge combinée (cycliste, passager et bagages), les plaçant fermement dans la catégorie du transport familial et utilitaire.
+Le [[Benno Boost E EVO4 500Wh]] se positionne au prix le plus élevé, à €3 830, et représente le niveau de spécification le plus premium au sein de la famille. Le [[Benno Boost 10D EVO 5 500Wh]] offre des capacités fondamentales comparables à €3 206, rendant la plateforme Boost accessible à deux niveaux de spécification distincts. Les deux modèles sont capables de transporter bien plus de 100 kg de charge combinée (cycliste, passager et bagages), les plaçant fermement dans la catégorie du transport familial et utilitaire.
 
 Selon les spécifications publiées par Benno, le Boost peut transporter plus de trois fois la charge d'un vélo conventionnel, et l'option double batterie (disponible sur certaines configurations) peut étendre l'autonomie à 160 miles dans des conditions favorables.
 
 ### Le eJoy
 
-Le [Benno eJoy E](/bikes/benno/ejoy-e.md) est le point d'entrée dans la famille Benno, positionné à €1 799 — soit environ la moitié du prix du niveau supérieur du Boost. Il partage le format longtail et la plateforme moteur Bosch avec ses homologues, mais cible les cyclistes qui souhaitent le côté pratique d'un vélo cargo électrique sans la spécification premium complète du Boost. Le eJoy s'adapte à une large gamme de tailles de cyclistes et supporte une capacité de charge brute maximale d'environ 180 kg (400 lbs), ce qui en fait un vélo de navettage crédible en remplacement de la voiture pour un large public. Son prix plus accessible est susceptible de constituer un facteur déterminant pour les acheteurs qui découvrent le vélo cargo.
+Le [[Benno eJoy E]] est le point d'entrée dans la famille Benno, positionné à €1 799 — soit environ la moitié du prix du niveau supérieur du Boost. Il partage le format longtail et la plateforme moteur Bosch avec ses homologues, mais cible les cyclistes qui souhaitent le côté pratique d'un vélo cargo électrique sans la spécification premium complète du Boost. Le eJoy s'adapte à une large gamme de tailles de cyclistes et supporte une capacité de charge brute maximale d'environ 180 kg (400 lbs), ce qui en fait un vélo de navettage crédible en remplacement de la voiture pour un large public. Son prix plus accessible est susceptible de constituer un facteur déterminant pour les acheteurs qui découvrent le vélo cargo.
 
 ## Moteur et transmission
 
@@ -58,9 +58,9 @@ Cet héritage informe tout, depuis le système d'accessoires modulaires du Boost
 
 | Modèle | Type | Moteur | Batterie | Prix |
 |---|---|---|---|---|
-| [Benno Boost 10D EVO 5 500Wh](/bikes/benno/boost-10d-evo-5.md) | Longtail | Bosch 250 W | 500 Wh | €3 206 |
-| [Benno Boost E EVO4 500Wh](/bikes/benno/boost-e-evo4.md) | Longtail | Bosch 250 W | 500 Wh | €3 830 |
-| [Benno eJoy E](/bikes/benno/ejoy-e.md) | Longtail | Bosch 250 W | 500 Wh | €1 799 |
+| [[Benno Boost 10D EVO 5 500Wh]] | Longtail | Bosch 250 W | 500 Wh | €3 206 |
+| [[Benno Boost E EVO4 500Wh]] | Longtail | Bosch 250 W | 500 Wh | €3 830 |
+| [[Benno eJoy E]] | Longtail | Bosch 250 W | 500 Wh | €1 799 |
 
 ## Sources
 
@@ -82,7 +82,7 @@ Voici un récapitulatif de chaque modification apportée et du raisonnement qui 
 | Champ | Valeur ajoutée | Raison |
 |---|---|---|
 | `type` | `brand` | Il s'agit d'une page d'index de marque, et non d'une fiche vélo. Permet de la distinguer des fiches individuelles pour le filtrage dans le graphe. |
-| `brand` | `"[Benno Bikes](/bikes/benno/index.md)"` | Wikilink auto-référentiel selon les règles d'harmonisation ; permet de créer des liens dans le graphe depuis les fiches vélo vers cet index. |
+| `brand` | `"[[Benno Bikes]]"` | Wikilink auto-référentiel selon les règles d'harmonisation ; permet de créer des liens dans le graphe depuis les fiches vélo vers cet index. |
 | `models` | Trois wikilinks | Extraits directement du tableau « Modèles dans ce catalogue » — données de haute fiabilité déjà présentes dans la note. Crée une connectivité bidirectionnelle dans le graphe vers chaque fiche vélo enfant. |
 | `components` | `[]` | La note confirme l'utilisation de moteurs mid-drive Bosch mais ne mentionne jamais de référence Bosch spécifique (par exemple Performance Line CX vs. Active Line Plus). L'ajout d'un nom de modèle spéculatif violerait la règle de non-hallucination ; le tableau est donc laissé vide dans l'attente d'un enrichissement à partir des fiches vélo individuelles. |
 

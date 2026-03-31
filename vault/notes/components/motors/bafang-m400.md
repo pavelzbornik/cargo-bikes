@@ -27,7 +27,7 @@ waterproof_rating: IPX6
 
 ## Overview
 
-The Bafang M400 is a mid-drive motor in [Bafang](/components/motors/bafang.md)'s M-series lineup, positioned as a mid-range unit between the entry-level M200 and the high-torque [[Bafang M600]]. It targets commuter and light cargo e-bike applications where a balance of performance, weight, and cost is required.
+The Bafang M400 is a mid-drive motor in [[Bafang]]'s M-series lineup, positioned as a mid-range unit between the entry-level M200 and the high-torque [[Bafang M600]]. It targets commuter and light cargo e-bike applications where a balance of performance, weight, and cost is required.
 
 The M400 uses a combined torque and cadence sensor system, providing more natural pedal-assist feel compared to cadence-only motors.
 
@@ -54,7 +54,7 @@ The M400 uses a combined torque and cadence sensor system, providing more natura
 
 ## Bikes Using This Motor
 
-- [e-cargo Longtail L20](/bikes/estarli/longtail-l20.md)
+- [[e-cargo Longtail L20]]
 
 ## Motor Position in Bafang M-Series
 
@@ -75,7 +75,7 @@ The M400 uses a combined torque and cadence sensor system, providing more natura
 ## Alternatives
 
 - [[Bafang M600]] — higher torque (120 Nm), better suited for heavy cargo loads above ~80 kg payload.
-- [Bosch Performance Line CX](/components/motors/bosch-performance-line-cx.md) — comparable torque (85 Nm), more refined firmware, higher ecosystem cost.
+- [[Bosch Performance Line CX]] — comparable torque (85 Nm), more refined firmware, higher ecosystem cost.
 - [[Shimano EP6]] — 85 Nm, strong integration with Shimano Di2 drivetrain components.
 
 ## Notes
@@ -86,5 +86,5 @@ The M400 uses a combined torque and cadence sensor system, providing more natura
 
 ## References
 
-- [Bafang](/components/motors/bafang.md) — manufacturer overview
+- [[Bafang]] — manufacturer overview
 - [[Motors MOC]] — full motor category index

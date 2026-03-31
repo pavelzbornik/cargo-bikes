@@ -36,13 +36,13 @@ This accessory is designed **specifically for Tern GSD long-tail cargo bikes**. 
 
 ### Compatible Bikes
 
-- [Tern GSD P10](/bikes/tern/gsd-p10.md)
+- [[Tern GSD P10]]
 
 ## Specifications
 
 | Spec | Detail |
 |------|--------|
-| Manufacturer | [Tern](/bikes/tern/index.md) |
+| Manufacturer | [[Tern]] |
 | Price | €150 |
 | Accessory Type | Brand-specific |
 | Category | Towing |

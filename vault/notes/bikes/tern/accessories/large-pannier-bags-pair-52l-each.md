@@ -21,7 +21,7 @@ generated_by: cargo-bikes-cli
 
 # Large Pannier Bags (Pair, 52L Each)
 
-Brand-specific pannier bags designed by Tern for use with their cargo bike lineup, notably the [Tern Orox](/bikes/tern/orox.md). Sold as a matched pair, each bag offers 52 litres of capacity for a combined total of 104 litres of cargo volume.
+Brand-specific pannier bags designed by Tern for use with their cargo bike lineup, notably the [[Tern Orox]]. Sold as a matched pair, each bag offers 52 litres of capacity for a combined total of 104 litres of cargo volume.
 
 ## Description
 
@@ -42,7 +42,7 @@ This is a **brand-specific** accessory made by Tern for their own bikes. It is d
 
 | Bike | Compatible |
 |------|-----------|
-| [Tern Orox](/bikes/tern/orox.md) | Yes |
+| [[Tern Orox]] | Yes |
 
 > Note: Compatibility with other Tern models should be verified against rack specifications before purchase, as mounting systems may vary between models.
 

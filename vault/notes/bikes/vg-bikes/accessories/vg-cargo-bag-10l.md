@@ -36,7 +36,7 @@ A compact 10-litre cargo bag offering weather-resistant storage, ideal for groce
 
 This bag is a brand-specific accessory made by Vg Bikes for use with their own range of cargo bikes. It is not intended as a universal accessory and has been verified as compatible with the following models:
 
-- [Longtail VG Life 672Wh](/bikes/vg-bikes/longtail-vg-life-672wh.md)
+- [[Longtail VG Life 672Wh]]
 
 ## Pricing
 

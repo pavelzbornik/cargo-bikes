@@ -2,7 +2,7 @@
 
 ## Vue d'ensemble
 
-Le Benno Boost 10D EVO 5 est un vélo cargo électrique longtail d'ingénierie allemande, conçu avec un souci d'utilité pratique. Depuis 2015, [Benno Bikes](/bikes/benno/index.md) se concentre sur le confort, la praticité et la maniabilité. La plateforme Boost utilise leur conception exclusive "Etility®", permettant au vélo de remplir plusieurs fonctions grâce à une compatibilité modulaire avec les accessoires. Ce modèle est équipé de la technologie moteur Bosch Performance Line et peut transporter jusqu'à 200 kg au total.
+Le Benno Boost 10D EVO 5 est un vélo cargo électrique longtail d'ingénierie allemande, conçu avec un souci d'utilité pratique. Depuis 2015, [[Benno Bikes]] se concentre sur le confort, la praticité et la maniabilité. La plateforme Boost utilise leur conception exclusive "Etility®", permettant au vélo de remplir plusieurs fonctions grâce à une compatibilité modulaire avec les accessoires. Ce modèle est équipé de la technologie moteur Bosch Performance Line et peut transporter jusqu'à 200 kg au total.
 
 ## Caractéristiques techniques
 
@@ -12,7 +12,7 @@ Le Benno Boost 10D EVO 5 est un vélo cargo électrique longtail d'ingénierie a
 | Caractéristique           | Détails                                                          |
 | ------------------------- | ---------------------------------------------------------------- |
 | **Prix**                  | €3 206 (remisé par rapport au prix conseillé)                    |
-| **Moteur**                | [Bosch Performance Sport Gen 3](/components/motors/bosch-performance-sport-gen-3.md), 65Nm, entraînement central    |
+| **Moteur**                | [[Bosch Performance Sport Gen 3]], 65Nm, entraînement central    |
 | **Batterie**              | [[Bosch PowerPack 500Wh]], amovible, 2,6 kg                      |
 | **Autonomie**             | 50-135 km (selon l'assistance et la charge)                      |
 | **Poids**                 | 26 kg (avec batterie)                                            |
@@ -32,7 +32,7 @@ Le Benno Boost 10D EVO 5 est un vélo cargo électrique longtail d'ingénierie a
 
 ## Caractéristiques du vélo électrique
 
-- **Moteur** : [Bosch Performance Sport Gen 3](/components/motors/bosch-performance-sport-gen-3.md) avec un couple de 65Nm pour une montée des côtes fiable
+- **Moteur** : [[Bosch Performance Sport Gen 3]] avec un couple de 65Nm pour une montée des côtes fiable
 - **Niveaux d'assistance** : 5 modes via l'écran [[Bosch Purion]] (Eco, Tour, Sport, eMTB, Turbo)
 - **Niveau d'assistance maximal** : 300 %
 - **Batterie** : [[Bosch PowerPack 500Wh|Bosch 500Wh]] amovible ; 2,6 kg ; sans effet mémoire
@@ -88,7 +88,7 @@ Le Benno Boost 10D EVO 5 est un vélo cargo électrique longtail d'ingénierie a
   - Recharger tous les 3 à 6 mois en cas de stockage longue durée
   - Éviter les températures inférieures à 0°C et supérieures à 45°C
   - Résistante à l'eau ; éviter l'immersion et les jets haute pression directs
-- **Moteur** : Le [Bosch Performance Sport Gen 3](/components/motors/bosch-performance-sport-gen-3.md) étanche nécessite uniquement un entretien courant :
+- **Moteur** : Le [[Bosch Performance Sport Gen 3]] étanche nécessite uniquement un entretien courant :
   - Aucune intervention interne requise dans des conditions normales
   - Révision annuelle recommandée dans les centres de service agréés
   - Scellé en usine ; ne pas tenter de réparation soi-même

@@ -20,7 +20,7 @@ generated_by: cargo-bikes-cli
 
 # Rear footrests
 
-Rear footrests are a brand-specific safety accessory designed by [Unikride](/bikes/unikride/index.md) for use on their own cargo bikes. They provide a secure and stable resting point for a rear passenger's feet, making two-person riding safer and more comfortable.
+Rear footrests are a brand-specific safety accessory designed by [[Unikride]] for use on their own cargo bikes. They provide a secure and stable resting point for a rear passenger's feet, making two-person riding safer and more comfortable.
 
 ## Description
 
@@ -40,10 +40,10 @@ These footrests are designed specifically for Unikride bikes and are not intende
 
 ### Compatible Bikes
 
-- [Fat Street Classic - Two-seater cargo bike (Male)](/bikes/unikride/fatstreet-classic-male.md)
+- [[Fat Street Classic - Two-seater cargo bike (Male)]]
 
 ## Notes
 
-- Pricing information is currently unavailable; contact [Unikride](/bikes/unikride/index.md) or an authorised dealer for current pricing
+- Pricing information is currently unavailable; contact [[Unikride]] or an authorised dealer for current pricing
 - Recommended whenever a second rider or older child will occupy the rear seat position
 - Installation should follow the manufacturer's guidelines to ensure safe and correct fitment

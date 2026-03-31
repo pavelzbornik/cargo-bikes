@@ -21,7 +21,7 @@ max_assist_speed: 25 km/h
 ---
 # Gaya rear wheel 250W
 
-A rear hub motor developed by or specified for [Gaya](/components/motors/gaya.md) cargo bikes. Rated at 250W continuous output in compliance with European EPAC (Electrically Power Assisted Cycle) regulations, which cap assisted speed at 25 km/h.
+A rear hub motor developed by or specified for [[Gaya]] cargo bikes. Rated at 250W continuous output in compliance with European EPAC (Electrically Power Assisted Cycle) regulations, which cap assisted speed at 25 km/h.
 
 ## Specifications
 
@@ -34,11 +34,11 @@ A rear hub motor developed by or specified for [Gaya](/components/motors/gaya.md
 | Regulatory compliance | EU EN 15194 (EPAC) |
 
 > [!note] Data status
-> Power rating and EU compliance are confirmed from provided component data. Motor sub-type (direct-drive vs. geared), torque figures, axle width, and dropout standard are not yet confirmed — verify against [Gaya](/components/motors/gaya.md) technical documentation.
+> Power rating and EU compliance are confirmed from provided component data. Motor sub-type (direct-drive vs. geared), torque figures, axle width, and dropout standard are not yet confirmed — verify against [[Gaya]] technical documentation.
 
 ## Bikes Using This Motor
 
-- [Gaya L'Incroyable Le Court](/bikes/gaya/incroyable-le-court.md)
+- [[Gaya L'Incroyable Le Court]]
 
 ## Overview
 
@@ -51,11 +51,11 @@ At 250W rated power, real-world peak output for hub motors in this class typical
 | Approach | Pros | Cons |
 |---|---|---|
 | Rear hub (this motor) | Simple drivetrain, quiet, low maintenance | Adds rear unsprung weight, harder wheel removal |
-| Mid-drive (e.g. [[Bosch Performance Line]], [Shimano STEPS EP8](/components/motors/shimano-steps-ep8.md)) | Better weight distribution, uses gears | Higher cost, more drivetrain wear |
+| Mid-drive (e.g. [[Bosch Performance Line]], [[Shimano STEPS EP8]]) | Better weight distribution, uses gears | Higher cost, more drivetrain wear |
 | Front hub | Easy removal, clean rear end | Traction loss under load, less natural feel |
 
 ## See Also
 
-- [Gaya](/components/motors/gaya.md)
-- [Gaya L'Incroyable Le Court](/bikes/gaya/incroyable-le-court.md)
+- [[Gaya]]
+- [[Gaya L'Incroyable Le Court]]
 - [[Motors MOC]]

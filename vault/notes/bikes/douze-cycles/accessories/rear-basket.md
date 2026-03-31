@@ -23,7 +23,7 @@ compatible_bikes:
 
 # Rear Basket
 
-A brand-specific rear basket designed and manufactured by [Douze Cycles](/bikes/douze-cycles/index.md) for use exclusively with their cargo bike range. It integrates directly with the rear platform of compatible Douze LT-series bikes, expanding overall load capacity without compromising the structural integrity of the frame and platform system.
+A brand-specific rear basket designed and manufactured by [[Douze Cycles]] for use exclusively with their cargo bike range. It integrates directly with the rear platform of compatible Douze LT-series bikes, expanding overall load capacity without compromising the structural integrity of the frame and platform system.
 
 ## Description
 
@@ -39,15 +39,15 @@ The Rear Basket provides additional load capacity for riders who require more ca
 
 ## Compatibility
 
-This is a brand-specific accessory produced by [Douze Cycles](/bikes/douze-cycles/index.md). It is designed exclusively for the following models and is not intended for use on bikes from other manufacturers:
+This is a brand-specific accessory produced by [[Douze Cycles]]. It is designed exclusively for the following models and is not intended for use on bikes from other manufacturers:
 
-- [Douze LT M](/bikes/douze-cycles/lt-m.md)
-- [Douze LT2 B](/bikes/douze-cycles/lt2-b.md)
-- [Douze LT2 S 1×10](/bikes/douze-cycles/lt2-s-1x10.md)
-- [Douze LT2 S Nexus 5](/bikes/douze-cycles/lt2-s-nexus-5.md)
+- [[Douze LT M]]
+- [[Douze LT2 B]]
+- [[Douze LT2 S 1×10]]
+- [[Douze LT2 S Nexus 5]]
 
-Consult [Douze Cycles](/bikes/douze-cycles/index.md) or an authorised dealer to confirm fitment for your specific model variant and build year before purchasing.
+Consult [[Douze Cycles]] or an authorised dealer to confirm fitment for your specific model variant and build year before purchasing.
 
 ## Pricing
 
-Pricing for this accessory is available through [Douze Cycles](/bikes/douze-cycles/index.md) directly or via authorised resellers. No fixed retail price is listed at this time.
+Pricing for this accessory is available through [[Douze Cycles]] directly or via authorised resellers. No fixed retail price is listed at this time.

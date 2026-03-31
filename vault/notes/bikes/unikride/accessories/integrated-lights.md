@@ -29,14 +29,14 @@ Safety lighting system integrated into the bike frame, designed specifically for
 
 ## Compatibility
 
-This accessory is brand-specific to [Unikride](/bikes/unikride/index.md) bikes. It is designed and built for the [FATSTREET FIRM FRAME](/bikes/unikride/fatstreet-firm-frame.md) model and may not be compatible with other bikes or brands.
+This accessory is brand-specific to [[Unikride]] bikes. It is designed and built for the [[FATSTREET FIRM FRAME]] model and may not be compatible with other bikes or brands.
 
 ---
 
 Here is a summary of the note structure:
 
 - **Frontmatter** — Flat YAML with all required fields. `price_amount` is set to `null` since pricing is unknown, and `price_currency` is omitted.
-- **accessory_type** — Set to `brand-specific` since this is a [Unikride](/bikes/unikride/index.md)-made accessory for their own bikes.
-- **manufacturer** — `[Unikride](/bikes/unikride/index.md)` (the bike brand, not a third-party accessory maker).
-- **compatible_bikes** — Points to `[FATSTREET FIRM FRAME](/bikes/unikride/fatstreet-firm-frame.md)`.
+- **accessory_type** — Set to `brand-specific` since this is a [[Unikride]]-made accessory for their own bikes.
+- **manufacturer** — `[[Unikride]]` (the bike brand, not a third-party accessory maker).
+- **compatible_bikes** — Points to `[[FATSTREET FIRM FRAME]]`.
 - **Body** — Covers description, features (integrated frame design, front/rear lights, safety focus), and a compatibility note clarifying it is brand-specific.

@@ -113,12 +113,12 @@ Shimano's primary advantages over Bosch are **lower motor weight** and **native 
 
 ## Bikes Using Shimano Motors
 
-- [Xtracycle eSwoop](/bikes/xtracycle/eswoop.md) — Shimano STEPS EP-6
-- [FastRack](/bikes/yuba/fastrack.md)
-- [Kombi E5](/bikes/yuba/kombi-e5.md) — likely E5000/E5100 series
-- [Kombi E6](/bikes/yuba/kombi-e6.md) — likely E6100 series
-- [Mundo EP801](/bikes/yuba/mundo-ep801.md) — Shimano STEPS EP801
-- [Peugeot e-Longtail](/bikes/peugeot/e-longtail.md)
+- [[Xtracycle eSwoop]] — Shimano STEPS EP-6
+- [[FastRack]]
+- [[Kombi E5]] — likely E5000/E5100 series
+- [[Kombi E6]] — likely E6100 series
+- [[Mundo EP801]] — Shimano STEPS EP801
+- [[Peugeot e-Longtail]]
 
 ## References
 

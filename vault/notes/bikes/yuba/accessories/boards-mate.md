@@ -38,7 +38,7 @@ The Boards Mate is engineered specifically for Yuba cargo bikes, offering a dedi
 
 The Boards Mate is a brand-specific accessory made by Yuba and is designed to work with the following Yuba cargo bikes:
 
-- [Spicy Curry+](/bikes/yuba/spicy-curry-plus.md)
+- [[Spicy Curry+]]
 
 As a manufacturer-designed accessory, it is not intended for use with bikes from other brands. Always verify fitment with your specific Yuba model and year before purchasing.
 

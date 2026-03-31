@@ -23,7 +23,7 @@ connectivity: ANT+, Bluetooth (Mission Control)
 
 ## Overview
 
-The Specialized 2.2 Cargo is a mid-drive electric motor developed by [Specialized](/components/motors/specialized.md) for use in their cargo-oriented Turbo platform bikes. It is a dedicated cargo variant within the 2.x motor family — Specialized's full-power motor line — tuned for higher sustained loads, low-cadence torque, and the stop-start riding patterns typical of cargo and utility cycling.
+The Specialized 2.2 Cargo is a mid-drive electric motor developed by [[Specialized]] for use in their cargo-oriented Turbo platform bikes. It is a dedicated cargo variant within the 2.x motor family — Specialized's full-power motor line — tuned for higher sustained loads, low-cadence torque, and the stop-start riding patterns typical of cargo and utility cycling.
 
 Unlike the lightweight [[Specialized SL 1.1]] motor (designed for road and light-trail use), the 2.2 Cargo prioritises raw torque output and thermal durability over weight savings.
 
@@ -44,7 +44,7 @@ Unlike the lightweight [[Specialized SL 1.1]] motor (designed for road and light
 
 ## Bikes Using This Motor
 
-- [Specialized Turbo Porto](/bikes/specialized/turbo-porto.md)
+- [[Specialized Turbo Porto]]
 
 ## Motor Family Context
 
@@ -61,7 +61,7 @@ The 2.2 Cargo shares its core power figures with the 2.1 but is optimised in fir
 ## Integration and Ecosystem
 
 - Controlled via the **Specialized Mission Control** app (iOS/Android), allowing riders to customise assist levels, set maximum power modes, and view battery/motor diagnostics.
-- Works with the Turbo platform's integrated battery system; battery sizing is bike-dependent (see [Specialized Turbo Porto](/bikes/specialized/turbo-porto.md) for battery specs).
+- Works with the Turbo platform's integrated battery system; battery sizing is bike-dependent (see [[Specialized Turbo Porto]] for battery specs).
 - Compatible with Specialized's **Turbo Connect Unit (TCU)** display interface.
 
 ## Comparisons to Alternatives
@@ -69,7 +69,7 @@ The 2.2 Cargo shares its core power figures with the 2.1 but is optimised in fir
 | Motor | Max Torque | Weight | Notes |
 |---|---|---|---|
 | Specialized 2.2 Cargo | 90 Nm | ~3.5 kg | Proprietary, deep system integration |
-| [Bosch Cargo Line](/components/motors/bosch-cargo-line.md) | 85 Nm | 3.9 kg | Industry standard, wide aftermarket support |
+| [[Bosch Cargo Line]] | 85 Nm | 3.9 kg | Industry standard, wide aftermarket support |
 | [[Shimano EP8]] | 85 Nm | 2.6 kg | Lighter, broad compatibility |
 | [[Fazua Ride 60]] | 60 Nm | 1.96 kg | Lightweight only, not cargo-class |
 
@@ -78,10 +78,10 @@ The 2.2 Cargo's main advantage is deep integration with Specialized's own softwa
 ## Notes
 
 - "2.2" likely denotes a second-generation revision of Specialized's full-power motor architecture; exact generation changelog is not publicly detailed by Specialized.
-- Rider-facing motor branding on the [Specialized Turbo Porto](/bikes/specialized/turbo-porto.md) may simply read "Turbo" — the 2.2 Cargo designation appears in technical/spec documentation.
+- Rider-facing motor branding on the [[Specialized Turbo Porto]] may simply read "Turbo" — the 2.2 Cargo designation appears in technical/spec documentation.
 
 ## References
 
-- [Specialized](/components/motors/specialized.md)
-- [Specialized Turbo Porto](/bikes/specialized/turbo-porto.md)
+- [[Specialized]]
+- [[Specialized Turbo Porto]]
 - [[Motors MOC]]

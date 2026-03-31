@@ -25,7 +25,7 @@ di2_compatible: true
 ---
 # Shimano EP6 Cargo
 
-The Shimano EP6 Cargo (model code EP600) is a mid-drive motor unit from [Shimano](/components/motors/shimano.md)'s STEPS e-bike system, purpose-engineered for cargo bikes and utility cycles carrying heavy loads. It is a variant of the standard EP6 motor with firmware and mechanical tuning optimised for the higher total system weights typical of longtail and box-cargo configurations.
+The Shimano EP6 Cargo (model code EP600) is a mid-drive motor unit from [[Shimano]]'s STEPS e-bike system, purpose-engineered for cargo bikes and utility cycles carrying heavy loads. It is a variant of the standard EP6 motor with firmware and mechanical tuning optimised for the higher total system weights typical of longtail and box-cargo configurations.
 
 ## Overview
 
@@ -50,7 +50,7 @@ Shimano rates the EP6 Cargo for a maximum total system weight (bike + rider + ca
 | STEPS system | Yes |
 
 > [!note] Spec verification
-> Weight and maximum system weight figures are drawn from training data (knowledge cutoff early 2025). Verify against the current [Shimano](/components/motors/shimano.md) STEPS EP6 Cargo product page before publishing.
+> Weight and maximum system weight figures are drawn from training data (knowledge cutoff early 2025). Verify against the current [[Shimano]] STEPS EP6 Cargo product page before publishing.
 
 ## STEPS System Integration
 
@@ -64,7 +64,7 @@ Assist modes are typically configurable via the E-TUBE PROJECT app, with Eco, Tr
 
 ## Bikes Using This Component
 
-- [Peugeot e-Longtail](/bikes/peugeot/e-longtail.md)
+- [[Peugeot e-Longtail]]
 
 ## Comparisons to Alternatives
 
@@ -76,7 +76,7 @@ Assist modes are typically configurable via the E-TUBE PROJECT app, with Eco, Tr
 | Bosch Performance Line CX | 85 Nm | Sport focus; less cargo-specific tuning |
 | Bafang M620 (Ultra) | 160 Nm | High torque, common in aftermarket cargo builds |
 
-The EP6 Cargo sits in [Shimano](/components/motors/shimano.md)'s mid-tier STEPS offering. The EP8/EP801 shares the same torque figure but targets lighter recreational and mountain applications. Bosch's Cargo Line is the most direct market rival, with similar torque and a comparably large OEM cargo-bike install base.
+The EP6 Cargo sits in [[Shimano]]'s mid-tier STEPS offering. The EP8/EP801 shares the same torque figure but targets lighter recreational and mountain applications. Bosch's Cargo Line is the most direct market rival, with similar torque and a comparably large OEM cargo-bike install base.
 
 ## Market Position
 
@@ -84,8 +84,8 @@ The EP6 Cargo is positioned as a reliable, cost-effective OEM choice for mid-ran
 
 ## References
 
-- [Shimano](/components/motors/shimano.md) — parent manufacturer
-- [Peugeot e-Longtail](/bikes/peugeot/e-longtail.md) — uses this motor
+- [[Shimano]] — parent manufacturer
+- [[Peugeot e-Longtail]] — uses this motor
 - [[Motors MOC]] — domain overview
 
 ---

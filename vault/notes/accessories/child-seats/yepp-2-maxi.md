@@ -42,10 +42,10 @@ The Yepp 2 Maxi offers premium passenger seating for young children, combining c
 
 The Yepp 2 Maxi is a universal child seat and is confirmed compatible with the following cargo bikes:
 
-- [Kombi](/bikes/yuba/kombi.md)
-- [mini Boda Boda](/bikes/yuba/mini-boda-boda.md)
-- [Spicy Curry+](/bikes/yuba/spicy-curry-plus.md)
-- [Supercargo CL](/bikes/yuba/supercargo-cl.md)
+- [[Kombi]]
+- [[mini Boda Boda]]
+- [[Spicy Curry+]]
+- [[Supercargo CL]]
 
 As a third-party universal accessory, compatibility depends on the rear rack or carrier fitted to the bike. Always verify that the bike's rack meets the Yepp 2 Maxi mounting requirements before purchase.
 

@@ -78,13 +78,13 @@ Bafang also produces matching batteries, colour LCD displays (e.g. DP C240, C300
 
 ## Bikes Using Bafang in This Vault
 
-- [e-cargo Longtail L20](/bikes/estarli/longtail-l20.md)
-- [Oklö EVO Longtail](/bikes/oklo/evo-longtail.md)
-- [OneSport OT30 Pro](/bikes/onesport/ot30-pro.md)
-- [OneSport OT30](/bikes/onesport/ot30.md)
-- [E-Mog E-City+](/bikes/e-mog/e-city-plus.md)
-- [E-Mog E-City](/bikes/e-mog/e-city.md)
-- [E-Mog E-Dune Mini Cargo](/bikes/e-mog/e-dune-mini-cargo.md)
+- [[e-cargo Longtail L20]]
+- [[Oklö EVO Longtail]]
+- [[OneSport OT30 Pro]]
+- [[OneSport OT30]]
+- [[E-Mog E-City+]]
+- [[E-Mog E-City]]
+- [[E-Mog E-Dune Mini Cargo]]
 
 ## References
 

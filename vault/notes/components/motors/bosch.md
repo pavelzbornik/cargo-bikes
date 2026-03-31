@@ -194,20 +194,20 @@ Propels the bike at ~6 km/h walking pace. Smart System version adds Hill Hold to
 
 ## Market Position
 
-Bosch is the reference-standard mid-drive motor in the premium European cargo bike segment. The Cargo Line motor's 250 kg GVW rating, dedicated Cargo mode, DualBattery support, Hill Start Assist, and ABS Cargo variant differentiate it from general-purpose drive systems. Key competitors are [Shimano](/components/motors/shimano.md) (EP8/EP801, strong in eMTB and increasingly in cargo), [[Yamaha]] (PW-Series, consumer/mid-market), and [[Brose]] (OEM supply to select brands).
+Bosch is the reference-standard mid-drive motor in the premium European cargo bike segment. The Cargo Line motor's 250 kg GVW rating, dedicated Cargo mode, DualBattery support, Hill Start Assist, and ABS Cargo variant differentiate it from general-purpose drive systems. Key competitors are [[Shimano]] (EP8/EP801, strong in eMTB and increasingly in cargo), [[Yamaha]] (PW-Series, consumer/mid-market), and [[Brose]] (OEM supply to select brands).
 
 ## Bikes Using This Manufacturer
 
-- [Benno Boost 10D EVO 5 500Wh](/bikes/benno/boost-10d-evo-5.md)
-- [Benno Boost E EVO4 500Wh](/bikes/benno/boost-e-evo4.md)
-- [Benno eJoy E](/bikes/benno/ejoy-e.md)
-- [Bike43 Short](/bikes/bike43/short.md)
-- [Cube Longtail Hybrid 800](/bikes/cube/longtail-hybrid-800.md)
-- [Cube Longtail Hybrid Comfort 800](/bikes/cube/longtail-hybrid-comfort-800.md)
-- [Cube Longtail Hybrid Comfort Family 800](/bikes/cube/longtail-hybrid-comfort-family-800.md)
-- [Cube Longtail Hybrid Family 800](/bikes/cube/longtail-hybrid-family-800.md)
-- [Boda Boda](/bikes/yuba/boda-boda.md)
-- [Spicy Curry+](/bikes/yuba/spicy-curry-plus.md)
+- [[Benno Boost 10D EVO 5 500Wh]]
+- [[Benno Boost E EVO4 500Wh]]
+- [[Benno eJoy E]]
+- [[Bike43 Short]]
+- [[Cube Longtail Hybrid 800]]
+- [[Cube Longtail Hybrid Comfort 800]]
+- [[Cube Longtail Hybrid Comfort Family 800]]
+- [[Cube Longtail Hybrid Family 800]]
+- [[Boda Boda]]
+- [[Spicy Curry+]]
 - [[Urban Arrow Family]] (Cargo Line)
 - [[Riese & Muller Load]] (Cargo Line / DualBattery)
 - [[Tern GSD]] (Smart System)
@@ -217,11 +217,11 @@ Bosch is the reference-standard mid-drive motor in the premium European cargo bi
 
 | Brand | Models |
 |---|---|
-| [Urban Arrow](/bikes/urban-arrow/index.md) | Family, Shorty, Tender — all Cargo Line |
-| [Riese & Müller](/bikes/riese-muller/index.md) | Load, Carrie, Packster — Cargo Line, DualBattery |
-| [Tern](/bikes/tern/index.md) | GSD, HSD Gen 2, Orox — Smart System partnership |
-| [Cube](/bikes/cube/index.md) | Longtail Hybrid range — Cargo Line |
-| [Yuba](/bikes/yuba/index.md) | Longtail range |
+| [[Urban Arrow]] | Family, Shorty, Tender — all Cargo Line |
+| [[Riese & Müller]] | Load, Carrie, Packster — Cargo Line, DualBattery |
+| [[Tern]] | GSD, HSD Gen 2, Orox — Smart System partnership |
+| [[Cube]] | Longtail Hybrid range — Cargo Line |
+| [[Yuba]] | Longtail range |
 | [[Gazelle]] | Utility and cargo range |
 | [[Babboe]] | Dutch box bikes with Bosch options |
 | [[Benno]] | Boost and Carry-E range |

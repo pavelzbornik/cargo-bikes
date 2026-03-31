@@ -29,11 +29,11 @@ A universal rear-mounted child seat from Thule, a leading Swedish outdoor and tr
 
 ## Compatibility
 
-Universal third-party accessory made by Thule, compatible with standard rear racks across many cargo and longtail bike brands. Verify that your rack's tube diameter and maximum payload rating accommodate the seat. Confirmed compatible with the [Longtail VG Life 672Wh](/bikes/vg-bikes/longtail-vg-life-672wh.md).
+Universal third-party accessory made by Thule, compatible with standard rear racks across many cargo and longtail bike brands. Verify that your rack's tube diameter and maximum payload rating accommodate the seat. Confirmed compatible with the [[Longtail VG Life 672Wh]].
 
 ### Compatible Bikes
 
-- [Longtail VG Life 672Wh](/bikes/vg-bikes/longtail-vg-life-672wh.md)
+- [[Longtail VG Life 672Wh]]
 
 ## Installation Notes
 
@@ -55,6 +55,6 @@ When mounting the seat, ensure the rear rack supports the combined weight of the
 | `manufacturer` | `"[[Thule]]"` | Thule is the accessory brand (third-party/universal) |
 | `accessory_type` | `universal` | Fits standard rear racks across many bike brands |
 | `price_amount` | `119` | Numeric, with `price_currency: EUR` separate |
-| `compatible_bikes` | `["[Longtail VG Life 672Wh](/bikes/vg-bikes/longtail-vg-life-672wh.md)"]` | Only the bike you specified |
+| `compatible_bikes` | `[["[Longtail VG Life 672Wh]]"]` | Only the bike you specified |
 | Safety cert | EN 14344 | Current EU standard for child cycle seats |
 | Age/weight | 9 months – 6 years / 22 kg | Standard Thule rear seat range |

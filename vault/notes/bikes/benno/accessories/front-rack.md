@@ -39,8 +39,8 @@ With a maximum load capacity of **20 kg**, the Front Rack integrates directly wi
 
 This rack is **brand-specific** and is engineered exclusively for the following [[Benno]] cargo bikes:
 
-- [Benno Boost 10D EVO 5 500Wh](/bikes/benno/boost-10d-evo-5.md)
-- [Benno Boost E EVO4 500Wh](/bikes/benno/boost-e-evo4.md)
+- [[Benno Boost 10D EVO 5 500Wh]]
+- [[Benno Boost E EVO4 500Wh]]
 
 It is not designed for use on third-party or non-Benno frames. Always verify with your Benno dealer that the rack matches your specific model year and frame variant before purchasing.
 

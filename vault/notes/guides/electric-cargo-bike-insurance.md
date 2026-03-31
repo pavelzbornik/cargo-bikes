@@ -69,5 +69,5 @@ Electric cargo bikes (250W, 25 km/h) are classified as regular bicycles in Franc
 
 ## References
 
-- [French E-Bike Insurance Comparison](/guides/french-e-bike-insurance-comparison.md)
+- [[French E-Bike Insurance Comparison]]
 - [[Renting vs Buying Decision Framework]]

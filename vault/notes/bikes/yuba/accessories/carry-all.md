@@ -41,12 +41,12 @@ The Carry All delivers cargo expansion for Yuba bike owners who need extra stora
 
 The Carry All is designed specifically for Yuba cargo bikes and is compatible with the following models:
 
-- [Kombi](/bikes/yuba/kombi.md)
-- [mini Boda Boda](/bikes/yuba/mini-boda-boda.md)
-- [Spicy Curry+](/bikes/yuba/spicy-curry-plus.md)
-- [Supercargo CL](/bikes/yuba/supercargo-cl.md)
+- [[Kombi]]
+- [[mini Boda Boda]]
+- [[Spicy Curry+]]
+- [[Supercargo CL]]
 
-As a brand-specific accessory made by [Yuba](/bikes/yuba/index.md), it is not designed for use with other manufacturers' bikes. Always verify compatibility with your specific model year before purchasing.
+As a brand-specific accessory made by [[Yuba]], it is not designed for use with other manufacturers' bikes. Always verify compatibility with your specific model year before purchasing.
 
 ## Pricing
 

@@ -22,7 +22,7 @@ system: Smart System
 ---
 # Bosch Performance Sport Gen 3
 
-Mid-drive motor by [Bosch](/components/motors/bosch.md), part of the Bosch Smart System ecosystem. Positioned as the performance-oriented fitness and trekking motor — a quieter, lighter alternative to the [[Bosch Performance CX]] for road, urban, and cargo applications that do not require maximum trail torque.
+Mid-drive motor by [[Bosch]], part of the Bosch Smart System ecosystem. Positioned as the performance-oriented fitness and trekking motor — a quieter, lighter alternative to the [[Bosch Performance CX]] for road, urban, and cargo applications that do not require maximum trail torque.
 
 ## Specifications
 
@@ -56,7 +56,7 @@ Mid-drive motor by [Bosch](/components/motors/bosch.md), part of the Bosch Smart
 
 ## Bikes Using This Motor
 
-- [Benno Boost 10D EVO 5 500Wh](/bikes/benno/boost-10d-evo-5.md)
+- [[Benno Boost 10D EVO 5 500Wh]]
 
 ## Generation Comparison
 

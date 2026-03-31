@@ -23,7 +23,7 @@ generated_by: cargo-bikes-cli
 
 ## Overview
 
-The Standard Panniers are a brand-specific accessory designed by [Cube](/bikes/cube/index.md) for use with their Longtail Hybrid family of cargo bikes. The extended rear carrier is engineered to accept two standard pannier bags per side, significantly increasing the load-carrying capacity of the bike for everyday transport, shopping, and family use.
+The Standard Panniers are a brand-specific accessory designed by [[Cube]] for use with their Longtail Hybrid family of cargo bikes. The extended rear carrier is engineered to accept two standard pannier bags per side, significantly increasing the load-carrying capacity of the bike for everyday transport, shopping, and family use.
 
 ## Description
 
@@ -41,8 +41,8 @@ The Cube Longtail Hybrid platform features an extended rear carrier that is purp
 
 This accessory is brand-specific and designed exclusively for use with Cube Longtail Hybrid cargo bikes. It is not a universal aftermarket product and is intended to work with the integrated rear carrier system found on the following models:
 
-- [Cube Longtail Hybrid Comfort Family 800](/bikes/cube/longtail-hybrid-comfort-family-800.md)
-- [Cube Longtail Hybrid Family 800](/bikes/cube/longtail-hybrid-family-800.md)
+- [[Cube Longtail Hybrid Comfort Family 800]]
+- [[Cube Longtail Hybrid Family 800]]
 
 ## Notes
 

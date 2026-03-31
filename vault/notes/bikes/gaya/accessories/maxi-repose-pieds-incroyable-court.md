@@ -18,11 +18,11 @@ generated_by: cargo-bikes-cli
 
 # Maxi repose-pieds - Incroyable - Court
 
-Large footrests designed specifically for the [Gaya L'Incroyable Le Court](/bikes/gaya/incroyable-le-court.md) cargo bike. This brand-specific accessory is manufactured by [Gaya](/components/motors/gaya.md) to integrate seamlessly with their bike lineup.
+Large footrests designed specifically for the [[Gaya L'Incroyable Le Court]] cargo bike. This brand-specific accessory is manufactured by [[Gaya]] to integrate seamlessly with their bike lineup.
 
 ## Description
 
-The Maxi repose-pieds provides large, comfortable footrests for child passengers carried on the [Gaya L'Incroyable Le Court](/bikes/gaya/incroyable-le-court.md). Designed to improve passenger comfort and safety during rides, the oversized footrest surface gives young riders a secure place to rest their feet.
+The Maxi repose-pieds provides large, comfortable footrests for child passengers carried on the [[Gaya L'Incroyable Le Court]]. Designed to improve passenger comfort and safety during rides, the oversized footrest surface gives young riders a secure place to rest their feet.
 
 ## Features
 
@@ -33,7 +33,7 @@ The Maxi repose-pieds provides large, comfortable footrests for child passengers
 
 ## Compatibility
 
-This accessory is designed specifically for the [Gaya L'Incroyable Le Court](/bikes/gaya/incroyable-le-court.md) and is not intended for use with other cargo bike brands or models. Always verify compatibility with your specific bike model before purchasing.
+This accessory is designed specifically for the [[Gaya L'Incroyable Le Court]] and is not intended for use with other cargo bike brands or models. Always verify compatibility with your specific bike model before purchasing.
 
 ## Pricing
 
@@ -43,4 +43,4 @@ This accessory is designed specifically for the [Gaya L'Incroyable Le Court](/bi
 
 ## Notes
 
-As a brand-specific accessory, the Maxi repose-pieds is sourced directly through [Gaya](/components/motors/gaya.md) or their authorised dealers.
+As a brand-specific accessory, the Maxi repose-pieds is sourced directly through [[Gaya]] or their authorised dealers.

@@ -41,12 +41,12 @@ Designed specifically for the Unikride Fatstreet platform, this rack integrates 
 
 This luggage rack is designed specifically for use with:
 
-- [Fatstreet Classic - Two-seater electric cargo bike (Female)](/bikes/unikride/fatstreet-classic-female.md)
+- [[Fatstreet Classic - Two-seater electric cargo bike (Female)]]
 
-As a brand-specific accessory made by [Unikride](/bikes/unikride/index.md), it is engineered to match the Fatstreet Classic frame geometry precisely. It is not intended as a universal rack and may not be compatible with other cargo bike brands or models without modification.
+As a brand-specific accessory made by [[Unikride]], it is engineered to match the Fatstreet Classic frame geometry precisely. It is not intended as a universal rack and may not be compatible with other cargo bike brands or models without modification.
 
 ## Notes
 
 - Verify compatibility with your specific Fatstreet Classic frame variant before purchasing
-- Check with [Unikride](/bikes/unikride/index.md) or an authorised dealer for maximum load rating and installation guidelines
+- Check with [[Unikride]] or an authorised dealer for maximum load rating and installation guidelines
 - Pricing may vary by region and retailer; confirm current pricing at point of sale

@@ -23,7 +23,7 @@ generated_by: cargo-bikes-cli
 
 # Monkey Bars Tote
 
-The Monkey Bars Tote is a brand-specific accessory designed by [Yuba](/bikes/yuba/index.md) for use with select models in their cargo bike lineup. It functions as a quick basket converter, allowing riders to instantly transform their Monkey Bars setup into a functional carrying basket — making it a fast and practical add-on for everyday hauling needs.
+The Monkey Bars Tote is a brand-specific accessory designed by [[Yuba]] for use with select models in their cargo bike lineup. It functions as a quick basket converter, allowing riders to instantly transform their Monkey Bars setup into a functional carrying basket — making it a fast and practical add-on for everyday hauling needs.
 
 ## Description
 
@@ -39,13 +39,13 @@ The Monkey Bars Tote is a quick-attach tote/basket designed specifically for Yub
 
 ## Compatibility
 
-This accessory is designed specifically for [Yuba](/bikes/yuba/index.md) cargo bikes equipped with the Monkey Bars system. It is not a universal accessory and is intended exclusively for compatible Yuba models.
+This accessory is designed specifically for [[Yuba]] cargo bikes equipped with the Monkey Bars system. It is not a universal accessory and is intended exclusively for compatible Yuba models.
 
 ### Compatible Bikes
 
-- [Kombi](/bikes/yuba/kombi.md)
-- [mini Boda Boda](/bikes/yuba/mini-boda-boda.md)
-- [Supercargo CL](/bikes/yuba/supercargo-cl.md)
+- [[Kombi]]
+- [[mini Boda Boda]]
+- [[Supercargo CL]]
 
 ## Pricing
 
@@ -55,4 +55,4 @@ This accessory is designed specifically for [Yuba](/bikes/yuba/index.md) cargo b
 
 ## Notes
 
-As a brand-specific accessory, the Monkey Bars Tote is sold directly through [Yuba](/bikes/yuba/index.md) and authorised Yuba dealers. Verify compatibility with your specific model year before purchasing.
+As a brand-specific accessory, the Monkey Bars Tote is sold directly through [[Yuba]] and authorised Yuba dealers. Verify compatibility with your specific model year before purchasing.

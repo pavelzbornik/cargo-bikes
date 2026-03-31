@@ -30,7 +30,7 @@ Small footrests designed specifically for the Gaya L'Original Le Court cargo bik
 
 ## Compatibility
 
-This accessory is designed specifically for the [Gaya L'Original Le Court](/bikes/gaya/original-le-court.md) and is not intended for use with other cargo bike brands or models. Always verify compatibility with your exact frame version before purchasing.
+This accessory is designed specifically for the [[Gaya L'Original Le Court]] and is not intended for use with other cargo bike brands or models. Always verify compatibility with your exact frame version before purchasing.
 
 ## Pricing
 

@@ -37,8 +37,8 @@ This configuration enables the rear platform of compatible Onesport bikes to acc
 
 This accessory is designed specifically for Onesport bikes and is compatible with the following models:
 
-- [OneSport OT30 Pro](/bikes/onesport/ot30-pro.md)
-- [OneSport OT30](/bikes/onesport/ot30.md)
+- [[OneSport OT30 Pro]]
+- [[OneSport OT30]]
 
 As a brand-specific accessory, it is not intended for use with bikes from other manufacturers. Always verify mounting compatibility with your specific model before installation.
 

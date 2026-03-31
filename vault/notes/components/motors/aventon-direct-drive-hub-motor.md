@@ -23,10 +23,10 @@ top_speed_class3: 28 mph
 
 ## Overview
 
-The Aventon Direct Drive Hub Motor is a rear-wheel hub motor developed for [Aventon](/components/motors/aventon.md)'s cargo e-bike lineup. Unlike geared hub motors, a direct drive design eliminates internal planetary gears — the motor shell and wheel hub rotate as a single unit, resulting in fewer mechanical wear points and a smoother, near-silent power delivery. The trade-off is a heavier motor and marginally reduced efficiency at low speeds compared to geared alternatives.
+The Aventon Direct Drive Hub Motor is a rear-wheel hub motor developed for [[Aventon]]'s cargo e-bike lineup. Unlike geared hub motors, a direct drive design eliminates internal planetary gears — the motor shell and wheel hub rotate as a single unit, resulting in fewer mechanical wear points and a smoother, near-silent power delivery. The trade-off is a heavier motor and marginally reduced efficiency at low speeds compared to geared alternatives.
 
 > [!note] Data Sources
-> Motor type designation is user-provided. Power ratings and voltage are sourced from Aventon product documentation recalled from training data (knowledge cutoff early 2025). Verify against current [Aventon](/components/motors/aventon.md) spec sheets for accuracy.
+> Motor type designation is user-provided. Power ratings and voltage are sourced from Aventon product documentation recalled from training data (knowledge cutoff early 2025). Verify against current [[Aventon]] spec sheets for accuracy.
 
 ## Specifications
 
@@ -46,7 +46,7 @@ The Aventon Direct Drive Hub Motor is a rear-wheel hub motor developed for [Aven
 
 ## Bikes Using This Motor
 
-- [Aventon Abound LR](/bikes/aventon/abound-lr.md)
+- [[Aventon Abound LR]]
 
 ## Motor Characteristics
 
@@ -60,7 +60,7 @@ The Aventon Direct Drive Hub Motor is a rear-wheel hub motor developed for [Aven
 
 ### Power Delivery
 
-The 750W rated / 1130W peak output provides strong acceleration from a stop, suited to the loaded cargo use case of the [Aventon Abound LR](/bikes/aventon/abound-lr.md). The 48V system allows a reasonable balance of torque and efficiency across the speed range typical of Class 2 and Class 3 e-bikes.
+The 750W rated / 1130W peak output provides strong acceleration from a stop, suited to the loaded cargo use case of the [[Aventon Abound LR]]. The 48V system allows a reasonable balance of torque and efficiency across the speed range typical of Class 2 and Class 3 e-bikes.
 
 ## Comparisons to Alternatives
 
@@ -71,10 +71,10 @@ The 750W rated / 1130W peak output provides strong acceleration from a stop, sui
 | Bosch Cargo Line | Mid-drive | 250W / 85 Nm | Premium cargo standard, expensive |
 | Bafang G060 (geared) | Geared Hub | 500–750W | Lighter, more efficient at low speed |
 
-Mid-drive motors (e.g., [Bosch Cargo Line](/components/motors/bosch-cargo-line.md), [Shimano STEPS EP8](/components/motors/shimano-steps-ep8.md)) offer superior hill-climbing torque per watt by leveraging the bike's gearing, but add cost and drivetrain wear. The Aventon direct drive approach prioritizes simplicity and low maintenance for everyday family cargo use.
+Mid-drive motors (e.g., [[Bosch Cargo Line]], [[Shimano STEPS EP8]]) offer superior hill-climbing torque per watt by leveraging the bike's gearing, but add cost and drivetrain wear. The Aventon direct drive approach prioritizes simplicity and low maintenance for everyday family cargo use.
 
 ## Related Notes
 
-- [Aventon](/components/motors/aventon.md)
-- [Aventon Abound LR](/bikes/aventon/abound-lr.md)
+- [[Aventon]]
+- [[Aventon Abound LR]]
 - [[Motors MOC]]

@@ -35,7 +35,7 @@ certifications:
 
 ## Overview
 
-The **Naka E-Power Max** is [Nakamura](/bikes/nakamura/index.md)'s branded denomination for a mid-drive motor system built on the **[[Ananda]] M100** platform. Ananda Drive Techniques (Shanghai) is one of China's largest e-bike motor manufacturers and a significant OEM supplier to European brands. The M100 is their flagship high-torque mid-drive unit, positioned as a direct competitor to [Bosch](/components/motors/bosch.md) Performance Line Cargo and [Shimano](/components/motors/shimano.md) EP8 in the longtail and cargo segment.
+The **Naka E-Power Max** is [[Nakamura]]'s branded denomination for a mid-drive motor system built on the **[[Ananda]] M100** platform. Ananda Drive Techniques (Shanghai) is one of China's largest e-bike motor manufacturers and a significant OEM supplier to European brands. The M100 is their flagship high-torque mid-drive unit, positioned as a direct competitor to [[Bosch]] Performance Line Cargo and [[Shimano]] EP8 in the longtail and cargo segment.
 
 Nakamura — the Intersport house brand — sources this motor for its cargo-oriented models where the branding appears as "Naka E-Power Max," while the underlying hardware remains the standard Ananda M100. The motor operates with an integrated torque and cadence sensor combination, delivering natural, responsive pedal assist.
 
@@ -85,7 +85,7 @@ The M100 platform, as deployed on cargo bikes, supports several features relevan
 
 | Bike | Notes |
 |---|---|
-| [Nakamura Crossover Longtail](/bikes/nakamura/crossover-longtail.md) | Primary cargo application; dual battery setup (520 Wh + 250 Wh), total payload 170 kg |
+| [[Nakamura Crossover Longtail]] | Primary cargo application; dual battery setup (520 Wh + 250 Wh), total payload 170 kg |
 
 ## Market Position
 
@@ -96,9 +96,9 @@ The Ananda M100 occupies the **mid-tier to upper-mid-tier** segment of the cargo
 | Motor | Peak Torque | Rated Power | Notable Advantage |
 |---|---|---|---|
 | Ananda M100 (Naka E-Power Max) | 100–110 Nm | 250 W | High torque, cost-effective |
-| [Bosch](/components/motors/bosch.md) Performance Line Cargo | 85 Nm | 250 W | Ecosystem maturity, dealer network |
-| [Shimano](/components/motors/shimano.md) EP8 | 85 Nm | 250 W | Smooth power delivery, light weight |
-| [Bafang](/components/motors/bafang.md) M620 | 160 Nm | 250 W | Very high torque, widely available |
+| [[Bosch]] Performance Line Cargo | 85 Nm | 250 W | Ecosystem maturity, dealer network |
+| [[Shimano]] EP8 | 85 Nm | 250 W | Smooth power delivery, light weight |
+| [[Bafang]] M620 | 160 Nm | 250 W | Very high torque, widely available |
 
 ## Manufacturer Background
 

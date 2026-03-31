@@ -26,7 +26,7 @@ generated_by: cargo-bikes-cli
 
 # Douze Cycles Child Seat
 
-The Douze Cycles Child Seat is a brand-specific child seating solution designed and produced by [Douze Cycles](/bikes/douze-cycles/index.md) exclusively for their own cargo bike lineup. It integrates directly with the rear rack and cargo area of compatible Douze models, ensuring a secure and well-fitted passenger position without the need for third-party adapters.
+The Douze Cycles Child Seat is a brand-specific child seating solution designed and produced by [[Douze Cycles]] exclusively for their own cargo bike lineup. It integrates directly with the rear rack and cargo area of compatible Douze models, ensuring a secure and well-fitted passenger position without the need for third-party adapters.
 
 Pricing varies by configuration, ranging from approximately €80 to €150 depending on the variant (Cargo or Passenger).
 
@@ -42,10 +42,10 @@ Pricing varies by configuration, ranging from approximately €80 to €150 depe
 
 This child seat is a brand-specific accessory and is **not** a universal product. It is engineered to work with the following Douze Cycles models:
 
-- [Douze LT M](/bikes/douze-cycles/lt-m.md)
-- [Douze Cycles LT1](/bikes/douze-cycles/lt1.md)
-- [Douze V2 Bafang M500](/bikes/douze-cycles/v2-bafang-m500.md)
-- [Douze V2 Shimano EP8 Cargo](/bikes/douze-cycles/v2-shimano-ep8-cargo.md)
+- [[Douze LT M]]
+- [[Douze Cycles LT1]]
+- [[Douze V2 Bafang M500]]
+- [[Douze V2 Shimano EP8 Cargo]]
 
 If you own a different cargo bike brand, refer to universal child seat options such as the Yepp 2 Maxi or Bobike One Maxi instead.
 
@@ -56,7 +56,7 @@ If you own a different cargo bike brand, refer to universal child seat options s
 | Cargo     | €80–150         |
 | Passenger | €80–150         |
 
-> Prices may vary by retailer and region. Contact [Douze Cycles](/bikes/douze-cycles/index.md) or an authorised dealer for current pricing.
+> Prices may vary by retailer and region. Contact [[Douze Cycles]] or an authorised dealer for current pricing.
 
 ## Notes
 

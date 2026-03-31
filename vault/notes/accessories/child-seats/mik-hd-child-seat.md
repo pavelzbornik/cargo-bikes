@@ -48,7 +48,7 @@ This is a **universal** accessory compatible with any bike fitted with a MIK-HD 
 
 ### Confirmed Compatible Bikes
 
-- [Nakamura Crossover Longtail](/bikes/nakamura/crossover-longtail.md)
+- [[Nakamura Crossover Longtail]]
 
 ### Rack Requirement
 

@@ -53,7 +53,7 @@ Polisport child seats are universal accessories designed to fit standard equipme
 - **Frame/seatpost-mount versions** (Bilby RS) attach via a clamp to the seatpost or rear frame tube, extending compatibility to bikes without a rear rack.
 - **Front-mounted models** (e.g., Bubbly Maxi Plus) fit standard 1-1/8" threadless steerer tubes or handlebar stems.
 
-Compatible with [Fatstreet Classic - Two-seater electric cargo bike (Female)](/bikes/unikride/fatstreet-classic-female.md) when paired with an appropriate ISO-compliant rear rack rated for the combined weight of the seat and child.
+Compatible with [[Fatstreet Classic - Two-seater electric cargo bike (Female)]] when paired with an appropriate ISO-compliant rear rack rated for the combined weight of the seat and child.
 
 ## Notes
 

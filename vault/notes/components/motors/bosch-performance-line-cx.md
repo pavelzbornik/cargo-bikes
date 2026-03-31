@@ -25,7 +25,7 @@ generation: Gen 4
 ---
 # Bosch Performance Line CX
 
-The Bosch Performance Line CX is a mid-drive motor produced by [Bosch](/components/motors/bosch.md) and is the dominant powertrain choice in the European cargo e-bike segment. First introduced in 2018, the current generation runs on Bosch's Smart System platform, launched in 2022. It is specifically engineered for high-torque, high-load applications such as cargo bikes, longtails, and fully-loaded utility e-bikes.
+The Bosch Performance Line CX is a mid-drive motor produced by [[Bosch]] and is the dominant powertrain choice in the European cargo e-bike segment. First introduced in 2018, the current generation runs on Bosch's Smart System platform, launched in 2022. It is specifically engineered for high-torque, high-load applications such as cargo bikes, longtails, and fully-loaded utility e-bikes.
 
 ## Specifications
 
@@ -74,8 +74,8 @@ The Performance Line CX uses Bosch's proprietary integrated motor housing, which
 
 ## Bikes Using This Component
 
-- [Riese & Müller Multitinker Touring](/bikes/riese-muller/multitinker-touring.md)
-- [Trek Fetch+ 2](/bikes/trek/fetch-plus-2.md)
+- [[Riese & Müller Multitinker Touring]]
+- [[Trek Fetch+ 2]]
 
 ## Comparisons to Alternatives
 
@@ -91,11 +91,11 @@ The CX's 85 Nm torque, thermal management for sustained high-load climbs, and br
 
 ## Market Position
 
-The Performance Line CX sits at the top of [Bosch](/components/motors/bosch.md)'s cargo and utility motor lineup. It is an OEM-only component — not sold retail as a standalone unit. As a system contribution to bike pricing, models equipped with the CX typically start around €3,000–€4,000 for base utility builds and reach €8,000–€12,000+ for fully-configured cargo platforms with dual batteries and premium component builds.
+The Performance Line CX sits at the top of [[Bosch]]'s cargo and utility motor lineup. It is an OEM-only component — not sold retail as a standalone unit. As a system contribution to bike pricing, models equipped with the CX typically start around €3,000–€4,000 for base utility builds and reach €8,000–€12,000+ for fully-configured cargo platforms with dual batteries and premium component builds.
 
 ## Related Notes
 
-- [Bosch](/components/motors/bosch.md)
+- [[Bosch]]
 - [[Motors MOC]]
-- [Riese & Müller Multitinker Touring](/bikes/riese-muller/multitinker-touring.md)
-- [Trek Fetch+ 2](/bikes/trek/fetch-plus-2.md)
+- [[Riese & Müller Multitinker Touring]]
+- [[Trek Fetch+ 2]]
