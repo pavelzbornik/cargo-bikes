@@ -10,7 +10,7 @@ Practical guides for cargo bike owners covering insurance, costs, regulations, a
 ## Buying & Costs
 
 - [[Renting vs Buying a Cargo Bike]]
-- [[Best Longtails Under 4000 EUR]]
+- [[Best Longtail Cargo Bikes Under 4000 EUR]]
 - [[Electric Longtail Cargo Bikes in the French Market]]
 
 ## Insurance

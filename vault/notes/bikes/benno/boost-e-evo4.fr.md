@@ -2,7 +2,7 @@
 
 ## Vue d'ensemble
 
-Le Benno Boost E EVO4 est un longtail électrique du fabricant allemand [[Benno Bikes]], équipé du dernier moteur [[Bosch Performance CX Generation 4]] avec un couple augmenté de 85Nm. Ce modèle associe confort, praticité et maniabilité grâce à la plateforme de conception Etility®, permettant des configurations cargo modulaires et une capacité totale pouvant atteindre 200kg. Idéal pour les familles urbaines et les professionnels de la livraison.
+Le Benno Boost E EVO4 est un longtail électrique du fabricant allemand [[Benno Bikes]], équipé du dernier moteur [[Bosch Performance CX Gen 4]] avec un couple augmenté de 85Nm. Ce modèle associe confort, praticité et maniabilité grâce à la plateforme de conception Etility®, permettant des configurations cargo modulaires et une capacité totale pouvant atteindre 200kg. Idéal pour les familles urbaines et les professionnels de la livraison.
 
 ## Caractéristiques techniques
 

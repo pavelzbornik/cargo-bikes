@@ -54,4 +54,4 @@ Compact cargo bikes and midtails occupy a regulatory grey area:
 ## References
 
 - [[Electric Cargo Bike Insurance]]
-- [[Renting vs Buying Decision Framework]]
+- [[Renting vs Buying a Cargo Bike]]

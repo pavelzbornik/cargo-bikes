@@ -59,7 +59,7 @@ Weight management (35–45 kg), storage for 200–220 cm length, hill performanc
 
 ## Related Notes
 
-- [[Best Longtails Under 4000 EUR]]
+- [[Best Longtail Cargo Bikes Under 4000 EUR]]
 - [[Cargo Bike Terminology]]
 - [[E-Bike Motors Explained]]
 - [[Guides & Resources]]
